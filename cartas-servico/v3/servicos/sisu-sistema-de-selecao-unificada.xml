@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Sisu — Sistema de Seleção Unificada</nome>
+    <nome><![CDATA[Sisu — Sistema de Seleção Unificada]]></nome>
     <sigla/>
-    <nomes-populares/>
-    <descricao>Criado em 2010, o Sistema de Seleção Unificada (Sisu) possibilita a oferta de vagas em instituições públicas de educação superior a candidatos participantes do Exame Nacional do Ensino Médio (Enem).</descricao>
+    <nomes-populares>
+        <item>sisu</item>
+    </nomes-populares>
+    <descricao><![CDATA[Criado em 2010, o Sistema de Seleção Unificada (Sisu) possibilita a oferta de vagas em instituições públicas de educação superior a candidatos participantes do Exame Nacional do Ensino Médio (Enem).]]></descricao>
+    <contato/>
     <gratuito/>
     <solicitantes/>
     <tempo-total-estimado>
@@ -22,14 +25,16 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="web">
-                        <descricao>http://sisu.mec.gov.br/</descricao>
+                        <descricao><![CDATA[http://sisu.mec.gov.br/]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244"/>
-    <segmentos-da-sociedade/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação superior</item>
         <item>Educação</item>
