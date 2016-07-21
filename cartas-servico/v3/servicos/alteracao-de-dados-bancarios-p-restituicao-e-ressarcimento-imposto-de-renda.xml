@@ -3,22 +3,18 @@
     <nome><![CDATA[Alteração de Dados Bancários p/ Restituição e Ressarcimento Imposto de Renda]]></nome>
     <sigla/>
     <nomes-populares/>
-    <descricao><![CDATA[Alterar os dados bancários informados na solicitação de restituição ou ressarcimento, que foram identificados como inválidos pela rede bancária. Obs.: Para alteração de dados bancários para recebimento de restituição de imposto de renda da pessoa física consulte orientações da declaração de IRPF.]]></descricao>
+    <descricao/>
     <contato/>
     <gratuito/>
     <solicitantes/>
     <tempo-total-estimado>
-        <ate max="2" unidade="horas"/>
+        <entre max="" min="" unidade=""/>
         <descricao/>
     </tempo-total-estimado>
     <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77"/>
-    <segmentos-da-sociedade>
-        <item>Cidadãos</item>
-    </segmentos-da-sociedade>
-    <areas-de-interesse>
-        <item>Economia e Finanças</item>
-    </areas-de-interesse>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
     <palavras-chave/>
     <legislacoes/>
 </servico>
