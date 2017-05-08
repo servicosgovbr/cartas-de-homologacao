@@ -3,14 +3,14 @@
     <id>homologar-rescisao-de-contrato-de-trabalho</id>
     <dbId>303</dbId>
     <nome>Homologar Rescisão de Contrato de Trabalho</nome>
-    <sigla>TRCT</sigla>
+    <sigla>TRCTC</sigla>
     <nomes-populares>
         <item id="645">Homolognet</item>
     </nomes-populares>
     <descricao>Com este serviço você pode homologar a rescisão de seu contrato de trabalho, o que garante o direito de sacar o FGTS e dar entrada no Seguro Desemprego.</descricao>
     <contato>Central 158</contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
+    <porcentagem>0</porcentagem>
     <solicitantes>
         <solicitante id="824">
             <tipo>Trabalhador</tipo>
@@ -25,7 +25,12 @@
         <em-media max="7" unidade="dias-corridos"/>
         <descricao></descricao>
     </tempo-total-estimado>
-    <validade-documento/>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
         <etapa id="1345">
             <titulo>Emitir o Termo de Rescisão do Contrato de Trabalho (TRCT)</titulo>
@@ -46,6 +51,12 @@
                     <documento>
                         <id>2231</id>
                         <descricao>Carteira de Trabalho e Previdência Social</descricao>
+                    </documento>
+                </caso>
+                <caso id="347" descricao="Teste">
+                    <documento>
+                        <id>2240</id>
+                        <descricao>Teste Documento</descricao>
                     </documento>
                 </caso>
             </documentos>
@@ -121,7 +132,9 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="2844"/>
+    <orgao id="2844" dbId="37546">
+        <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1555">Cidadãos</item>
         <item idSegmento="3" idServicoSegmento="2423">Empresas</item>
