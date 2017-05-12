@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>concessao-de-termo-de-reserva-de-area-tra-nos-distritos-industrial-e-agropecuario</id>
+    <dbId>720</dbId>
+    <nome>Concessão de Termo de Reserva de Área - TRA nos Distritos Industrial e Agropecuário</nome>
+    <sigla>CTRA</sigla>
+    <nomes-populares>
+        <item id="549">Concessão de área</item>
+    </nomes-populares>
+    <descricao>Autorização para ocupação de terrenos no Distrito Industrial e de lote no Distrito Agropecuário da Suframa.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="652">
+            <tipo>Pessoa Física</tipo>
+            <requisitos>Não há requisito, qualquer pessoa fisica pode solicitar a concessão de área, exceto os servidores lotados na CGPAG.</requisitos>
+        </solicitante>
+        <solicitante id="653">
+            <tipo>Pessoa Jurídica.</tipo>
+            <requisitos>Não há requisito, qualquer pessoa juridica pode solicitar a concessão de área, exceto os servidores lotados na CGPAG.</requisitos>
+        </solicitante>
+        <solicitante id="654">
+            <tipo>Instituições Pública de Ensino e pesquisa</tipo>
+            <requisitos>Conforme Decreto 288/67.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="2" max="4" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="1905">
+            <titulo>Qualificação dos interessados</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2384" tipo="presencial">
+                        <descricao>Suframa, Avenida Mário Andreazza, nº1424, Distrito Industrial.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1906">
+            <titulo>Projetos agropecuários</titulo>
+            <descricao>Apresentação de projetos agropecuários de interesse para o desenvolvimento da Zona Franca de Manaus.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2385" tipo="presencial">
+                        <descricao>Suframa, Avenida Mário Andreazza, nº1424, Distrito Industrial.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="166" dbId="55699">
+        <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2174">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2175">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2176">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2177">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Abastecimento</item>
+        <item>Mineração</item>
+        <item>Produção Industrial</item>
+        <item>Propriedade Industrial</item>
+        <item>Biodiversidade</item>
+        <item>Indústria</item>
+        <item>Produção agropecuária</item>
+        <item>Economia e Finanças</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1945">[inserir]</item>
+        <item id="1946">[inserir]</item>
+        <item id="1947">[inserir]</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="647">[inserir]</item>
+    </legislacoes>
+</servico>
