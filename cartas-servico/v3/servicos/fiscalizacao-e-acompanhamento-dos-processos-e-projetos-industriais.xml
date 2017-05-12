@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>fiscalizacao-e-acompanhamento-dos-processos-e-projetos-industriais</id>
+    <dbId>718</dbId>
+    <nome>Fiscalização e Acompanhamento dos Processos e Projetos Industriais.</nome>
+    <sigla>FIAPIN</sigla>
+    <descricao>Emissão de Laudos Técnicos, propostas de criação e alteração de Processos Produtivos Básicos,  manejo de créditos de importação, além de outros documentos necessários para manutenção dos incentivos fiscais concedidos.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="647">
+            <tipo>Empresas.</tipo>
+            <requisitos>Empresas devem ter projeto aprovado e estarem cumprindo com a obrigação de prestar informação na base de dados da Suframa.</requisitos>
+        </solicitante>
+        <solicitante id="648">
+            <tipo>Entidades de classe.</tipo>
+            <requisitos>Devem ter interesse direto na produção na Zona Franca de Manaus.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-uteis"/>
+        <descricao>Tempo médio estimado. Excluído a rotina de alteração e fixação de processos produtivos básicos.</descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="2181">
+            <titulo>[inserir]</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2729" tipo="presencial">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="166" dbId="55699">
+        <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2424">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comércio e Serviços</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1948">[inserir]</item>
+        <item id="1949">[inserir]</item>
+        <item id="1950">[inserir]</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="648">[inserir]</item>
+    </legislacoes>
+</servico>
