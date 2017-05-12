@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>concessao-de-incentivos-fiscais-para-industrias-instaladas-no-polo-industrial-de-manaus</id>
+    <dbId>710</dbId>
+    <nome>Concessão de Incentivos Fiscais para Indústrias Instaladas no Polo Industrial de Manaus</nome>
+    <sigla></sigla>
+    <descricao>Quando atendidos os requisitos exigidos pela Autarquia a indústria será contemplada com incentivos fiscais pertinentes.</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="623">
+            <tipo>Indústria, Comércios</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="180" unidade="dias-corridos"/>
+        <descricao>Segundo a Portaria 529/06 o contribuinte tem até 120 para concluir o internamento da mercadoria incentivada e 180 dias para casos fortuitos ou de força maior.</descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="2183">
+            <titulo>[inserir]</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="88">
+                        <descricao>[inserir]</descricao>
+                        <moeda></moeda>
+                        <valor>1</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2732" tipo="presencial">
+                        <descricao>[inserir]</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="166" dbId="55699">
+        <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2428">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1957">[inserir]</item>
+        <item id="1958">[inserir]</item>
+        <item id="1959">[inserir]</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="651">[inserir]</item>
+    </legislacoes>
+</servico>
