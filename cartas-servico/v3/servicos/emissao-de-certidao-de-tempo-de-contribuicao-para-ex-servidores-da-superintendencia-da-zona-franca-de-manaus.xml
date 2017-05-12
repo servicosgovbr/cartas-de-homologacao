@@ -71,8 +71,8 @@ Será encaminhado e-mail e/ou telefonema ao solicitante para informá-lo quanto 
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="366" dbId="22081">
-        <nomeOrgao>Coordenação-Geral de Recursos Humanos (CGRHU-SUFR)</nomeOrgao>
+    <orgao id="166" dbId="55699">
+        <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="2158">Cidadãos</item>
