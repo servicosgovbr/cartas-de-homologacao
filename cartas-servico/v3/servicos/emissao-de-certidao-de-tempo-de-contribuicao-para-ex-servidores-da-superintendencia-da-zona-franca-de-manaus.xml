@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>emissao-de-certidao-de-tempo-de-contribuicao-para-ex-servidores-da-superintendencia-da-zona-franca-de-manaus</id>
+    <dbId>714</dbId>
+    <nome>Emissão de Certidão de Tempo de Contribuição para ex-servidores da Superintendência da Zona Franca de Manaus</nome>
+    <sigla>CTC</sigla>
+    <nomes-populares>
+        <item id="540">Tempo de Contribuição</item>
+        <item id="541">Tempo de Serviço</item>
+    </nomes-populares>
+    <descricao>A Certidão apresenta o tempo de contribuição previdenciária de ex-servidor que exerceu cargo efetivo ou em comissão na Superintendência da Zona Franca de Manaus, para fins de averbação em outro órgão público ou especificamente no Regime Geral de Previdência Social, conforme o novo vínculo de trabalho do solicitante. Além do tempo de efetivo exercício, nela deve constar o histórico de remunerações do ex-servidor e o tempo de contribuição anterior , caso tenha averbado na Autarquia.</descricao>
+    <contato>Kellie Naisa Mendonça Aguiar - Responsável pela Unidade de Recursos Humanos da Superintendência da Zona Franca de Manaus
+Frank Junio Menezes Soares - Responsável pela Coordenação de Legislação e Administração de Pessoal</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="638">
+            <tipo>Ex-servidores da Superintendência da Zona Franca de Manaus</tipo>
+            <requisitos>Submeter formulário acompanhado de cópia legível e autenticada da documentação pessoal: Identidade, Carteira de Trabalho, Inscrição de PIS/PASEP, CPF, Título Eleitoral, Comprovante de Residência, Último Contracheque, Portarias de Nomeação e Exoneração (se houver).</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao>O tempo para a análise e entrega da certidão está condicionada ao grau de confiabilidade das informações apresentadas pelo solicitante e daqueles existentes na sua pasta funcional anteriores ao ano de 1991.
+Leva-se em consideração as peculiaridades de cada caso, a tramitação interna do requerimento e as possíveis entraves nos sistemas informatizados.</descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="1894">
+            <titulo>Solicitação</titulo>
+            <descricao>Realizar a protocolização do requerimento e documentação na Coordenação-Geral de Recursos Humanos ou no Serviço de Protocolo da SUFRAMA.</descricao>
+            <documentos>
+                <default>
+                    <item id="1871">Solicitação via Formulário de requerimento devidamente preenchido.</item>
+                    <item id="1872">Identidade, Carteira de Trabalho, Inscrição de PIS/PASEP, CPF, Título Eleitoral, Comprovante de Residência, Último Contracheque, Portarias de Nomeação e Exoneração.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2375" tipo="postal">
+                        <descricao>Superintendência da Zona Franca de Manaus. Avenida Ministro Mário Andreazza, 1424, Distrito Industrial, Manaus, Amazonas. CEP: 69075-830.</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2374" tipo="presencial">
+                        <descricao>Unidade de Recursos Humanos. Sede da Superintendência da Zona Franca de Manaus. Avenida Ministro Mário Andreazza, 1424, Distrito Industrial, Manaus, Amazonas. CEP: 69075-830.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1895">
+            <titulo>Recebimento de informação quanto ao deferimento ou indeferimento da solicitação</titulo>
+            <descricao>Será encaminhado e-mail e/ou correspondência postal com o aviso de indeferimento e as razões com o propósito de notificar o solicitante para adequar a solicitação.
+Será encaminhado e-mail e/ou telefonema ao solicitante para informá-lo quanto ao deferimento e agendar a entrega da Certidão de Tempo de Contribuição na Unidade de Recursos Humanos e ou remeter ao solicitante via correspondência postal.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2728" tipo="postal">
+                        <descricao>Endereço informado</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2727" tipo="e-mail">
+                        <descricao>E-mail informado</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="366" dbId="22081">
+        <nomeOrgao>Coordenação-Geral de Recursos Humanos (CGRHU-SUFR)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2158">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2159">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+        <item>Serviços Públicos</item>
+        <item>Trabalho</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1552">Certidão</item>
+        <item id="1553">Tempo de Contribuição</item>
+        <item id="1554">Averbação</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="501">Lei 8.112/90 e Lei 9.784/99</item>
+    </legislacoes>
+</servico>
