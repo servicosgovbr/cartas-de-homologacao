@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>transferencia-voluntaria-de-recursos</id>
+    <dbId>717</dbId>
+    <nome>TRANSFERÊNCIA VOLUNTÁRIA DE RECURSOS</nome>
+    <sigla>TVR</sigla>
+    <nomes-populares>
+        <item id="546">CONVÊNIO</item>
+        <item id="547">EMENDA</item>
+    </nomes-populares>
+    <descricao>O serviço de Transferência Voluntária de Recursos consiste na celebração de Instrumentos de parceria com órgãos do Governo Federal, Estados, Municípios  e Instituições de Ensino e Pesquisa públicas e privadas para a execução de projetos de apoio ao Desenvolvimento Regional.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="646">
+            <tipo>Estados, Municípios e Instituições de Ensino Públicos e Privados.</tipo>
+            <requisitos>Cadastro do projeto no sistema de convênio no Siconv;
+O Ente deve estar adimplente com as obrigações fiscais e previdenciárias;
+Não possuir débitos de convênios anteriores;
+O projeto precisa ser aprovado pela Suframa;
+O projeto deve obedecer os critérios para a transferência dos recursos;</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="3" unidade="meses"/>
+        <descricao>O tempo estimado  leva em consideração as etapas de cadastramento do projeto no sistema SICONV, a analise  e aprovação, bem como o cumprimento dos pré-requisitos necessários para sua aprovação e liberação dos  recursos. Poderá ser reduzido ou prolongado em função do tempo gasto em cada etapa de execução do serviço.</descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="1901">
+            <titulo>Cadastramento do projeto no Sistema SICONV</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2730" tipo="web">
+                        <descricao>[link do siconv]</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="166" dbId="55699">
+        <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2425">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2426">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Fomento ao Trabalho</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1951">[inserir]</item>
+        <item id="1952">[inserir]</item>
+        <item id="1953">[inserir]</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="649">[inserir]</item>
+    </legislacoes>
+</servico>
