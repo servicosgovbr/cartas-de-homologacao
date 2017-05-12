@@ -33916,6 +33916,352 @@ CEP 20211-350 – Rio de Janeiro – RJ</descricao>
         </legislacoes>
     </servico>
     <servico>
+        <id>fiscalizacao-e-acompanhamento-dos-processos-e-projetos-industriais</id>
+        <dbId>718</dbId>
+        <nome>Fiscalização e Acompanhamento dos Processos e Projetos Industriais.</nome>
+        <sigla>FIAPIN</sigla>
+        <descricao>Emissão de Laudos Técnicos, propostas de criação e alteração de Processos Produtivos Básicos,  manejo de créditos de importação, além de outros documentos necessários para manutenção dos incentivos fiscais concedidos.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="647">
+                <tipo>Empresas.</tipo>
+                <requisitos>Empresas devem ter projeto aprovado e estarem cumprindo com a obrigação de prestar informação na base de dados da Suframa.</requisitos>
+            </solicitante>
+            <solicitante id="648">
+                <tipo>Entidades de classe.</tipo>
+                <requisitos>Devem ter interesse direto na produção na Zona Franca de Manaus.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="dias-uteis"/>
+            <descricao>Tempo médio estimado. Excluído a rotina de alteração e fixação de processos produtivos básicos.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="2181">
+                <titulo>[inserir]</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2729" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="166" dbId="55699">
+            <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2424">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comércio e Serviços</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1948">[inserir]</item>
+            <item id="1949">[inserir]</item>
+            <item id="1950">[inserir]</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="648">[inserir]</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>concessao-de-termo-de-reserva-de-area-tra-nos-distritos-industrial-e-agropecuario</id>
+        <dbId>720</dbId>
+        <nome>Concessão de Termo de Reserva de Área - TRA nos Distritos Industrial e Agropecuário</nome>
+        <sigla>CTRA</sigla>
+        <nomes-populares>
+            <item id="549">Concessão de área</item>
+        </nomes-populares>
+        <descricao>Autorização para ocupação de terrenos no Distrito Industrial e de lote no Distrito Agropecuário da Suframa.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="652">
+                <tipo>Pessoa Física</tipo>
+                <requisitos>Não há requisito, qualquer pessoa fisica pode solicitar a concessão de área, exceto os servidores lotados na CGPAG.</requisitos>
+            </solicitante>
+            <solicitante id="653">
+                <tipo>Pessoa Jurídica.</tipo>
+                <requisitos>Não há requisito, qualquer pessoa juridica pode solicitar a concessão de área, exceto os servidores lotados na CGPAG.</requisitos>
+            </solicitante>
+            <solicitante id="654">
+                <tipo>Instituições Pública de Ensino e pesquisa</tipo>
+                <requisitos>Conforme Decreto 288/67.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="4" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1905">
+                <titulo>Qualificação dos interessados</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2384" tipo="presencial">
+                            <descricao>Suframa, Avenida Mário Andreazza, nº1424, Distrito Industrial.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1906">
+                <titulo>Projetos agropecuários</titulo>
+                <descricao>Apresentação de projetos agropecuários de interesse para o desenvolvimento da Zona Franca de Manaus.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2385" tipo="presencial">
+                            <descricao>Suframa, Avenida Mário Andreazza, nº1424, Distrito Industrial.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="166" dbId="55699">
+            <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2174">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2175">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="2176">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="2177">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Agropecuária</item>
+            <item>Biodiversidade</item>
+            <item>Economia e Finanças</item>
+            <item>Indústria</item>
+            <item>Mineração</item>
+            <item>Produção Industrial</item>
+            <item>Produção agropecuária</item>
+            <item>Propriedade Industrial</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1945">[inserir]</item>
+            <item id="1946">[inserir]</item>
+            <item id="1947">[inserir]</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="647">[inserir]</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>transferencia-voluntaria-de-recursos</id>
+        <dbId>717</dbId>
+        <nome>TRANSFERÊNCIA VOLUNTÁRIA DE RECURSOS</nome>
+        <sigla>TVR</sigla>
+        <nomes-populares>
+            <item id="546">CONVÊNIO</item>
+            <item id="547">EMENDA</item>
+        </nomes-populares>
+        <descricao>O serviço de Transferência Voluntária de Recursos consiste na celebração de Instrumentos de parceria com órgãos do Governo Federal, Estados, Municípios  e Instituições de Ensino e Pesquisa públicas e privadas para a execução de projetos de apoio ao Desenvolvimento Regional.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="646">
+                <tipo>Estados, Municípios e Instituições de Ensino Públicos e Privados.</tipo>
+                <requisitos>Cadastro do projeto no sistema de convênio no Siconv;
+O Ente deve estar adimplente com as obrigações fiscais e previdenciárias;
+Não possuir débitos de convênios anteriores;
+O projeto precisa ser aprovado pela Suframa;
+O projeto deve obedecer os critérios para a transferência dos recursos;</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="3" unidade="meses"/>
+            <descricao>O tempo estimado  leva em consideração as etapas de cadastramento do projeto no sistema SICONV, a analise  e aprovação, bem como o cumprimento dos pré-requisitos necessários para sua aprovação e liberação dos  recursos. Poderá ser reduzido ou prolongado em função do tempo gasto em cada etapa de execução do serviço.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1901">
+                <titulo>Cadastramento do projeto no Sistema SICONV</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2730" tipo="web">
+                            <descricao>[link do siconv]</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="166" dbId="55699">
+            <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2425">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="2426">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Fomento ao Trabalho</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1951">[inserir]</item>
+            <item id="1952">[inserir]</item>
+            <item id="1953">[inserir]</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="649">[inserir]</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>concessao-de-incentivos-fiscais-para-industrias-instaladas-na-zona-franca-de-manaus-e-areas-de-livre-comercio</id>
+        <dbId>715</dbId>
+        <nome>Concessão de Incentivos Fiscais para Indústrias Instaladas na Zona Franca de Manaus e Áreas de Livre Comércio</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="545">Internamento de Mercadoria</item>
+        </nomes-populares>
+        <descricao>[inserir]</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="826">
+                <tipo>[inserir]</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="2182">
+                <titulo>[inserir]</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2731" tipo="presencial">
+                            <descricao>[inserir]</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="166" dbId="55699">
+            <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2427">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1954">[inserir]</item>
+            <item id="1955">[inserir]</item>
+            <item id="1956">[inserir]</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="650">[inserir]</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>concessao-de-incentivos-fiscais-para-industrias-instaladas-no-polo-industrial-de-manaus</id>
+        <dbId>710</dbId>
+        <nome>Concessão de Incentivos Fiscais para Indústrias Instaladas no Polo Industrial de Manaus</nome>
+        <sigla></sigla>
+        <descricao>Quando atendidos os requisitos exigidos pela Autarquia a indústria será contemplada com incentivos fiscais pertinentes.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="623">
+                <tipo>Indústria, Comércios</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="180" unidade="dias-corridos"/>
+            <descricao>Segundo a Portaria 529/06 o contribuinte tem até 120 para concluir o internamento da mercadoria incentivada e 180 dias para casos fortuitos ou de força maior.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="2183">
+                <titulo>[inserir]</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="88">
+                            <descricao>[inserir]</descricao>
+                            <moeda></moeda>
+                            <valor>1</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2732" tipo="presencial">
+                            <descricao>[inserir]</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="166" dbId="55699">
+            <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2428">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1957">[inserir]</item>
+            <item id="1958">[inserir]</item>
+            <item id="1959">[inserir]</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="651">[inserir]</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>avaliar-as-propostas-e-acompanhar-a-implantacao-e-a-operacionalizacao-dos-projetos-industriais-aprovados-pelo-czpe</id>
         <dbId>731</dbId>
         <nome>Avaliar as propostas e acompanhar a implantação e a operacionalização dos projetos industriais aprovados pelo CZPE.</nome>
@@ -40965,5 +41311,98 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         <areas-de-interesse>
             <item>Trabalho</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>emissao-de-certidao-de-tempo-de-contribuicao-para-ex-servidores-da-superintendencia-da-zona-franca-de-manaus</id>
+        <dbId>714</dbId>
+        <nome>Emissão de Certidão de Tempo de Contribuição para ex-servidores da Superintendência da Zona Franca de Manaus</nome>
+        <sigla>CTC</sigla>
+        <nomes-populares>
+            <item id="540">Tempo de Contribuição</item>
+            <item id="541">Tempo de Serviço</item>
+        </nomes-populares>
+        <descricao>A Certidão apresenta o tempo de contribuição previdenciária de ex-servidor que exerceu cargo efetivo ou em comissão na Superintendência da Zona Franca de Manaus, para fins de averbação em outro órgão público ou especificamente no Regime Geral de Previdência Social, conforme o novo vínculo de trabalho do solicitante. Além do tempo de efetivo exercício, nela deve constar o histórico de remunerações do ex-servidor e o tempo de contribuição anterior , caso tenha averbado na Autarquia.</descricao>
+        <contato>Kellie Naisa Mendonça Aguiar - Responsável pela Unidade de Recursos Humanos da Superintendência da Zona Franca de Manaus
+Frank Junio Menezes Soares - Responsável pela Coordenação de Legislação e Administração de Pessoal</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="638">
+                <tipo>Ex-servidores da Superintendência da Zona Franca de Manaus</tipo>
+                <requisitos>Submeter formulário acompanhado de cópia legível e autenticada da documentação pessoal: Identidade, Carteira de Trabalho, Inscrição de PIS/PASEP, CPF, Título Eleitoral, Comprovante de Residência, Último Contracheque, Portarias de Nomeação e Exoneração (se houver).</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-corridos"/>
+            <descricao>O tempo para a análise e entrega da certidão está condicionada ao grau de confiabilidade das informações apresentadas pelo solicitante e daqueles existentes na sua pasta funcional anteriores ao ano de 1991.
+Leva-se em consideração as peculiaridades de cada caso, a tramitação interna do requerimento e as possíveis entraves nos sistemas informatizados.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1894">
+                <titulo>Solicitação</titulo>
+                <descricao>Realizar a protocolização do requerimento e documentação na Coordenação-Geral de Recursos Humanos ou no Serviço de Protocolo da SUFRAMA.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1871">Solicitação via Formulário de requerimento devidamente preenchido.</item>
+                        <item id="1872">Identidade, Carteira de Trabalho, Inscrição de PIS/PASEP, CPF, Título Eleitoral, Comprovante de Residência, Último Contracheque, Portarias de Nomeação e Exoneração.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2375" tipo="postal">
+                            <descricao>Superintendência da Zona Franca de Manaus. Avenida Ministro Mário Andreazza, 1424, Distrito Industrial, Manaus, Amazonas. CEP: 69075-830.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2374" tipo="presencial">
+                            <descricao>Unidade de Recursos Humanos. Sede da Superintendência da Zona Franca de Manaus. Avenida Ministro Mário Andreazza, 1424, Distrito Industrial, Manaus, Amazonas. CEP: 69075-830.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1895">
+                <titulo>Recebimento de informação quanto ao deferimento ou indeferimento da solicitação</titulo>
+                <descricao>Será encaminhado e-mail e/ou correspondência postal com o aviso de indeferimento e as razões com o propósito de notificar o solicitante para adequar a solicitação.
+Será encaminhado e-mail e/ou telefonema ao solicitante para informá-lo quanto ao deferimento e agendar a entrega da Certidão de Tempo de Contribuição na Unidade de Recursos Humanos e ou remeter ao solicitante via correspondência postal.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2728" tipo="postal">
+                            <descricao>Endereço informado</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2727" tipo="e-mail">
+                            <descricao>E-mail informado</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="166" dbId="55699">
+            <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2158">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2159">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Serviços Públicos</item>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1552">Certidão</item>
+            <item id="1553">Tempo de Contribuição</item>
+            <item id="1554">Averbação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="501">Lei 8.112/90 e Lei 9.784/99</item>
+        </legislacoes>
     </servico>
 </servicos>
