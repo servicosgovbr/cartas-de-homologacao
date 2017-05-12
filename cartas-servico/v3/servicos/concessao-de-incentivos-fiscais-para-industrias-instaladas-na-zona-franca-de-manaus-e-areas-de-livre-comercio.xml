@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>concessao-de-incentivos-fiscais-para-industrias-instaladas-na-zona-franca-de-manaus-e-areas-de-livre-comercio</id>
+    <dbId>715</dbId>
+    <nome>Concessão de Incentivos Fiscais para Indústrias Instaladas na Zona Franca de Manaus e Áreas de Livre Comércio</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="545">Internamento de Mercadoria</item>
+    </nomes-populares>
+    <descricao>[inserir]</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="826">
+            <tipo>[inserir]</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="0" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="2182">
+            <titulo>[inserir]</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2731" tipo="presencial">
+                        <descricao>[inserir]</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="166" dbId="55699">
+        <nomeOrgao>Superintendência da Zona Franca de Manaus (SUFRAMA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2427">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1954">[inserir]</item>
+        <item id="1955">[inserir]</item>
+        <item id="1956">[inserir]</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="650">[inserir]</item>
+    </legislacoes>
+</servico>
