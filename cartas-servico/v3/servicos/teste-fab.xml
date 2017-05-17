@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-fab</id>
+    <dbId>821</dbId>
+    <nome>teste fab</nome>
+    <sigla></sigla>
+    <descricao>sdfasdfa</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-digital>0</porcentagem-digital>
+    <solicitantes>
+        <solicitante id="827">
+            <tipo>asdfasdfa</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="4" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="2184">
+            <titulo>sdfgsdf</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2733" tipo="e-mail">
+                        <descricao>sdfgsdfg</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="2045"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2429">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1960">sdfgsdf</item>
+        <item id="1961">sdfgsd</item>
+        <item id="1962">sdfg</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="652">sdfgsdfg</item>
+    </legislacoes>
+</servico>
