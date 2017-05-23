@@ -1,10 +1,13 @@
-servico/sacar-o-fgts/novo
+servico/obter-auxilio-doenca
+servico/sacar-o-fgts
+pagina-tematica/brasil-cidadao
 servico/vagas-de-emprego-sine-e-portal-mais-emprego
+servico/consultar-informacoes-de-multas-dnit
+servico/homologar-rescisao-de-contrato-de-trabalho
 servico/obter-bolsa-de-estudo-do-programa-universidade-para-todos
-servico/obter-auxilio-doenca/novo
-servico/sisu-sistema-de-selecao-unificada/novo
 servico/consulta-situacao-do-requerimento-de-beneficio-previdenciario
 servico/obter-financiamento-do-fundo-de-financiamento-estudantil
 servico/restituicao-e-situacao-da-declaracao-do-imposto-de-renda-pessoa-fisica-irpf
+servico/sisu-sistema-de-selecao-unificada
 servico/cadastro-unico-para-programas-sociais-do-governo-federal
-pagina_tematica/documento-de-arrecadacao-de-receitas-federais-darf/novo
+pagina-tematica/documento-de-arrecadacao-de-receitas-federais-darf
