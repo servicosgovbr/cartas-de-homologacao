@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>acerto-de-vinculos-e-remuneracoes-pra-fins-previdenciarios-a</id>
+    <dbId>635</dbId>
+    <nome>Acerto de Vínculos e Remunerações pra fins Previdenciários -A</nome>
+    <sigla>ddd</sigla>
+    <nomes-populares>
+        <item id="334">ddd</item>
+    </nomes-populares>
+    <descricao>Serviço que possibilita o acerto ou atualização das informações dos vínculos e remunerações constantes no Cadastro Nacional de Informações Sociais – CNIS referente ao empregado.
+
+* [Telefone](undefined): Ligue 135 para mais informações</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="403">
+            <tipo>aaa</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="1" max="1" unidade="minutos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="1140">
+            <titulo>1111</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1398" tipo="web">
+                        <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
+        <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1291">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1292">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Previdência Social</item>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1024">teste 1</item>
+        <item id="1025">teste 2</item>
+        <item id="1026">teste 3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="308">11111</item>
+    </legislacoes>
+</servico>
