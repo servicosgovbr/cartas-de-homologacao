@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>Segurança a frente de tudo 999999</conteudo>
+    <dbId>21</dbId>
+    <nome>Segurança Maior</nome>
+    <orgaos>
+        <orgao id="27" dbId="34636">
+            <nomeOrgao>Gabinete de Segurança Institucional da Presidência da República (GSI-PR)</nomeOrgao>
+        </orgao>
+        <orgao id="219924" dbId="58048">
+            <nomeOrgao>Secretaria-Geral da Presidência da República (SGPR)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
