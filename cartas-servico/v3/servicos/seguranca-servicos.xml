@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>seguranca-servicos</id>
+    <dbId>822</dbId>
+    <nome>Segurança Serviços</nome>
+    <sigla>SS</sigla>
+    <nomes-populares>
+        <item id="646">Segurança</item>
+        <item id="647">Serviços</item>
+        <item id="648">X-MEN</item>
+    </nomes-populares>
+    <descricao>Segurança ++++++++++++++++ Serviços
+
+(Pagina UOL)[www.uol.com.br]
+
+* Item 1
+* Item 2
+* Item 3</descricao>
+    <contato>Grande Segurança: 2211-3345</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="828">
+            <tipo>Grande Solicitante</tipo>
+            <requisitos>* Item 1
+* Item 2
+* Item 3</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="4" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>meses</unidade>
+        <descricao>Validade 
+
+*  Item 4
+*  Item 5</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2185">
+            <titulo>Etapa Nova hdsfjdsfhjkjkfdshffdjhdfajahsdgjkafhshafjhgjkhfagjkfh</titulo>
+            <descricao>* Item 3
+* iTEM MILLLL</descricao>
+            <documentos>
+                <default>
+                    <item id="2241">Documentafjdksjfklsjdkfjsdkljgklfjgkjfdksgjskdjfghkljsdhjkldfs jcvxnnxvcncmbnxv.c,bnm,vncb,mnxvcm,bnm,vxcnbm,nxvcm,bvm,cnbm,ncvm,n</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="89">
+                        <descricao>Teste ui</descricao>
+                        <moeda></moeda>
+                        <valor>1,000</valor>
+                    </custo>
+                </default>
+                <caso id="354" descricao="Caso seja um Goblin">
+                    <custo id="95">
+                        <descricao>Teste goblin</descricao>
+                        <moeda></moeda>
+                        <valor>10</valor>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2734" tipo="presencial">
+                        <descricao>Vila dos Seres Humanos</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2736" tipo="web-acompanhar">
+                        <descricao>(Acompanhamento extrasensorial)[planejamento.gov.br]</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="351" descricao="Caso seja um goblin">
+                    <canal-de-prestacao id="2735" tipo="presencial">
+                        <descricao>Vila dos goblins</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/27" dbId="34636">
+        <nomeOrgao>Gabinete de Segurança Institucional da Presidência da República (GSI-PR)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2430">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2431">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Politica econômica</item>
+        <item>Segurança e Ordem Pública</item>
+        <item>Serviços Públicos</item>
+        <item>Saneamento Básico Urbano</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1963">Marvel</item>
+        <item id="1964">DC</item>
+        <item id="1965">Aranha</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="653">Novos Serviços OOOOOOOOOOOOOO</item>
+    </legislacoes>
+</servico>
