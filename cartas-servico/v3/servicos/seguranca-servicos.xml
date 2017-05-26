@@ -11,7 +11,7 @@
     </nomes-populares>
     <descricao>Segurança ++++++++++++++++ Serviços
 
-[Pagina UOL](www.uol.com.br)
+[Pagina UOL](https://www.uol.com.br)
 
 * Item 1
 * Item 2
@@ -58,8 +58,8 @@
                         <valor>1,000</valor>
                     </custo>
                 </default>
-                <caso id="357" descricao="Caso seja um Goblin">
-                    <custo id="98">
+                <caso id="361" descricao="Caso seja um Goblin">
+                    <custo id="102">
                         <descricao>Teste goblin</descricao>
                         <moeda></moeda>
                         <valor>10</valor>
@@ -69,7 +69,7 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao id="2736" tipo="web-acompanhar">
-                        <descricao>[Acompanhamento extrasensorial](planejamento.gov.br)</descricao>
+                        <descricao>[Acompanhamento extrasensorial](https://planejamento.gov.br)</descricao>
                     </canal-de-prestacao>
                     <canal-de-prestacao id="2734" tipo="presencial">
                         <descricao>Vila dos Seres Humanos</descricao>
