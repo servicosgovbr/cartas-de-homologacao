@@ -3755,63 +3755,6 @@ Calcule o laudêmio, Certidão de Autorização para Transferência (CAT), Reque
         </legislacoes>
     </servico>
     <servico>
-        <id>certidao-de-autorizacao-para-transferencia-cat</id>
-        <dbId>41</dbId>
-        <nome>Certidão de Autorização para Transferência (CAT)</nome>
-        <sigla></sigla>
-        <descricao>Este serviço permite a emissão da CAT, que será exigida pelos Cartórios para a elaboração da escritura e/ou registro de escrituras públicas tendo por objeto a transferência de imóveis pertencentes à União. A CAT assegura que o imóvel não se encontra em área de interesse da Administração Pública; que o transmitente está em dia com as obrigações junto à Secretaria do Patrimônio da União e que houve recolhimento do laudêmio ou a declaração de isenção de seu pagamento.</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="683">
-                <tipo>Pessoa física ou jurídica</tipo>
-                <requisitos>Que tenha efetuado o pagamento do laudêmio (transações onerosas). Transações não onerosas, pessoa física carente ou pessoa jurídica com isenção: CAT poderá ser emitida sem o pagamento de laudêmio.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="0" unidade="meses"/>
-            <descricao>Não há prazo estipulado</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1975">
-                <titulo>Acesse o portal da SPU e preencha as informações solicitadas</titulo>
-                <descricao>Selecione o tipo de transação e insira o número do RIP e da FCL, após isso, clique no botão "OK".</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2454" tipo="web">
-                            <descricao>http://e-spu.planejamento.gov.br/#/conteudo/17</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2224">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2225">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Patrimônio</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1640">Certidão</item>
-            <item id="1641">Autorização</item>
-            <item id="1642">Transferência</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="524">Decreto-Lei 2.490/1940, Decreto-Lei 3.438/1941, Lei 5.666/1943, Decreto-Lei 9.760/1946, Lei 5.972/1973, Lei 6.015/1973, Decreto-Lei 2.398/1987, Decreto 95.760/1988, Lei 9.636/1988, ON/SPU/GEARP 001/2000. Decreto 3.725/2001. ON/SPU/GEANE 001/2002 e Portaria/SPU 293/2007.</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>solicitar-refugio</id>
         <dbId>42</dbId>
         <nome>Solicitar Refúgio</nome>
@@ -15805,213 +15748,6 @@ O sistema permite a atualização de cadastro de estações e dados climáticos 
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>apoio-a-captacao-e-promocao-de-eventos-internacionais</id>
-        <dbId>236</dbId>
-        <nome>Apoio à Captação e Promoção de Eventos Internacionais</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="371">Captação de Eventos</item>
-            <item id="372">Promoção de Eventos</item>
-            <item id="373">MICE</item>
-            <item id="374">Negócios e Eventos</item>
-            <item id="375">Congressos</item>
-        </nomes-populares>
-        <descricao>O Programa destina-se ao apoio às ações de Captação e de Promoção de eventos internacionais (congressos, convenções, oficinas, fóruns, seminários, simpósios, assembleias, feiras, competições esportivas) que tenha o Brasil como o destino, através de apoio institucional ou por meio de projetos apresentados por entes públicos ou entidades privadas sem fins lucrativos.</descricao>
-        <contato>Wilson Freitas
-Divisão de Turismo de Negócios e eventos
-Telefone: 61 2023 8652
-Email: wilson.freitas@embratur.gov.br</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="437">
-                <tipo>Entidades privadas sem fins lucrativos</tipo>
-                <requisitos>* Eventos com no mínimo 3 edições e periodicidade definida. 
-* Eventos que tenham alternado sua realização em pelo menos outros dois países distintos nas edições anteriores; 
-* Eventos internacionais ou competições esportivas, com média de 150 participantes nas edições anteriores, sendo pelo menos 25% de turistas estrangeiros. No caso de competições esportivas serão considerados como participantes os espectadores.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="0" unidade="minutos"/>
-            <descricao>Varia conforme apoio.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1265">
-                <titulo>Preenchimento da ficha de solicitação do apoio</titulo>
-                <descricao>O solicitante deverá identificar dentre as fichas contidas na portaria nº 62, de 30 de Junho de 2015 qual corresponde ao apoio desejado. Em seguida, deverá preenchê-la e enviar por e-mail à Embratur.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="194" descricao="Para apoio à Captação">
-                        <documento>
-                            <id>1236</id>
-                            <descricao>Declaração de exclusividade da cidade brasileira candidata</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="195" descricao="Para apoio à Captação de eventos esportivos">
-                        <documento>
-                            <id>1237</id>
-                            <descricao>Publicação de pelo menos cinco matérias jornalísticas em veículos não sediados no país que recebeu as edições anteriores.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1555" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1554" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1553" tipo="web-consultar">
-                            <descricao>http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1266">
-                <titulo>Envio da Ficha de solicitação de apoio</titulo>
-                <descricao>Após o preenchimento da ficha de solicitação de apoio, o solicitante deverá encaminhá-la por e-mail à divisão de turismo de negócios e eventos da EMBRATUR.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1557" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1556" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1267">
-                <titulo>Obter resultado da análise da ficha de solicitação de apoio</titulo>
-                <descricao>A EMBRATUR analisará a solicitação de apoio com base nos critérios exigidos na portaria nº 62 de 30 de Junho de 2015 e comunicará aos solicitantes o resultado, no prazo de até 10 dias.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1559" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1558" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1268">
-                <titulo>Envio das informações complementares - Insumo para realização do apoio</titulo>
-                <descricao>Após a aprovação da EMBRATUR o solicitante deverá enviar as informações necessárias para execução do apoio.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="196" descricao="Apoio Institucional - Para produção de Folder, Banner e Cartaz">
-                        <documento>
-                            <id>1238</id>
-                            <descricao>Carta convite - Carta da entidade ou informações específicas do evento que desejam promover</descricao>
-                        </documento>
-                        <documento>
-                            <id>1239</id>
-                            <descricao>Texto sobre a cidade sede do evento</descricao>
-                        </documento>
-                        <documento>
-                            <id>1240</id>
-                            <descricao>Logomarcas de apoiadores em alta resolução</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="197" descricao="Apoio Institucional - Para criação do ofício de Apoio Institucional">
-                        <documento>
-                            <id>1241</id>
-                            <descricao>Nome e cargo do Destinatário</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="198" descricao="Apoio Institucional - Para envio de brindes promocionais da EMBRATUR">
-                        <documento>
-                            <id>1242</id>
-                            <descricao>Nome, endereço completo, telefone e CPF/CNPJ do Destinatário</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="199" descricao="Apoio Institucional - Produção de Dossiê de Candidatura (Apoio à Captação)">
-                        <documento>
-                            <id>1243</id>
-                            <descricao>Conteúdo que comporá o Dossiê: infraestrutura da cidade, descritivo do proponente, projeto</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1561" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1560" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1269">
-                <titulo>Finalização do Apoio</titulo>
-                <descricao>Relatório da ação de captação/promoção de evento internacional desenvolvida deverá ser apresentado para a Embratur no prazo de 10 dias úteis após o término da ação, conforme ANEXO V da Portaria nº 62,de 30 de Junho de 2015.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1244">Relatório da ação de captação ou promoção executada</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1562" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
-            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1459">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1460">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-            <item>Educação</item>
-            <item>Esporte profissional</item>
-            <item>Meio ambiente</item>
-            <item>Saúde</item>
-            <item>Turismo</item>
-            <item>Urbanismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1098">Captação</item>
-            <item id="1099">Promoção</item>
-            <item id="1100">Turismo</item>
-            <item id="1101">Congresso</item>
-            <item id="1102">MICE</item>
-            <item id="1103">Negócios e Eventos</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="334">**http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx**</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>consulta-cadastro-de-imoveis-rurais-cafir</id>
         <dbId>237</dbId>
         <nome>Consulta Cadastro de Imóveis Rurais - Cafir</nome>
@@ -27057,52 +26793,6 @@ gratto</requisitos>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>consulta-a-situacao-dos-voos</id>
-        <dbId>485</dbId>
-        <nome>Consulta à Situação dos Voos</nome>
-        <sigla>CSV</sigla>
-        <descricao>O Infraero Voos Online é uma ferramenta que consolida informações dos principais aeroportos brasileiros a respeito da situação atual de seu voo. Ela possibilita o rastreio de status dos voos em tempo quase real.
-
-Além de consultar os horários de partidas e chegadas de voos, você também pode saber qual a distância de onde você está até o aeroporto para onde precisa ir e a previsão do tempo na cidade onde fica o aeroporto.
-
-Consulte, antes de sair de casa, para descobrir se seu voo está no horário</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <tempo-total-estimado/>
-        <etapas>
-            <etapa id="1604">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1998" tipo="aplicativo-movel">
-                            <descricao>Instale o aplicativo Infraero Voos Online, disponível nas plataformas Android e Apple.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1997" tipo="web">
-                            <descricao>http://voos.infraero.gov.br/voos/index.aspx</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/115257" dbId="42723">
-            <nomeOrgao>Secretaria de Aviação Civil da Presidência da República (SAC) (SAC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1842">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Trabalho</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -41526,6 +41216,215 @@ Será encaminhado e-mail e/ou telefonema ao solicitante para informá-lo quanto 
         </legislacoes>
     </servico>
     <servico>
+        <id>apoio-a-captacao-e-promocao-de-eventos-internacionais</id>
+        <dbId>236</dbId>
+        <nome>Apoio à Captação e Promoção de Eventos Internacionais</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="371">Captação de Eventos</item>
+            <item id="372">Promoção de Eventos</item>
+            <item id="373">MICE</item>
+            <item id="374">Negócios e Eventos</item>
+            <item id="375">Congressos</item>
+        </nomes-populares>
+        <descricao>O Programa destina-se ao apoio às ações de Captação e de Promoção de eventos internacionais (congressos, convenções, oficinas, fóruns, seminários, simpósios, assembleias, feiras, competições esportivas) que tenha o Brasil como o destino, através de apoio institucional ou por meio de projetos apresentados por entes públicos ou entidades privadas sem fins lucrativos.</descricao>
+        <contato>Wilson Freitas
+Divisão de Turismo de Negócios e eventos
+Telefone: 61 2023 8652
+Email: wilson.freitas@embratur.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem>75</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="437">
+                <tipo>Entidades privadas sem fins lucrativos</tipo>
+                <requisitos>* Eventos com no mínimo 3 edições e periodicidade definida. 
+* Eventos que tenham alternado sua realização em pelo menos outros dois países distintos nas edições anteriores; 
+* Eventos internacionais ou competições esportivas, com média de 150 participantes nas edições anteriores, sendo pelo menos 25% de turistas estrangeiros. No caso de competições esportivas serão considerados como participantes os espectadores.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="minutos"/>
+            <descricao>Varia conforme apoio.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1265">
+                <titulo>Preenchimento da ficha de solicitação do apoio</titulo>
+                <descricao>O solicitante deverá identificar dentre as fichas contidas na portaria nº 62, de 30 de Junho de 2015 qual corresponde ao apoio desejado. Em seguida, deverá preenchê-la e enviar por e-mail à Embratur.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="194" descricao="Para apoio à Captação">
+                        <documento>
+                            <id>1236</id>
+                            <descricao>Declaração de exclusividade da cidade brasileira candidata</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="195" descricao="Para apoio à Captação de eventos esportivos">
+                        <documento>
+                            <id>1237</id>
+                            <descricao>Publicação de pelo menos cinco matérias jornalísticas em veículos não sediados no país que recebeu as edições anteriores.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1555" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1554" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1553" tipo="web-consultar">
+                            <descricao>http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1266">
+                <titulo>Envio da Ficha de solicitação de apoio</titulo>
+                <descricao>Após o preenchimento da ficha de solicitação de apoio, o solicitante deverá encaminhá-la por e-mail à divisão de turismo de negócios e eventos da EMBRATUR.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1557" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1556" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1267">
+                <titulo>Obter resultado da análise da ficha de solicitação de apoio</titulo>
+                <descricao>A EMBRATUR analisará a solicitação de apoio com base nos critérios exigidos na portaria nº 62 de 30 de Junho de 2015 e comunicará aos solicitantes o resultado, no prazo de até 10 dias.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1559" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1558" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1268">
+                <titulo>Envio das informações complementares - Insumo para realização do apoio</titulo>
+                <descricao>Após a aprovação da EMBRATUR o solicitante deverá enviar as informações necessárias para execução do apoio.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="196" descricao="Apoio Institucional - Para produção de Folder, Banner e Cartaz">
+                        <documento>
+                            <id>1238</id>
+                            <descricao>Carta convite - Carta da entidade ou informações específicas do evento que desejam promover</descricao>
+                        </documento>
+                        <documento>
+                            <id>1239</id>
+                            <descricao>Texto sobre a cidade sede do evento</descricao>
+                        </documento>
+                        <documento>
+                            <id>1240</id>
+                            <descricao>Logomarcas de apoiadores em alta resolução</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="197" descricao="Apoio Institucional - Para criação do ofício de Apoio Institucional">
+                        <documento>
+                            <id>1241</id>
+                            <descricao>Nome e cargo do Destinatário</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="198" descricao="Apoio Institucional - Para envio de brindes promocionais da EMBRATUR">
+                        <documento>
+                            <id>1242</id>
+                            <descricao>Nome, endereço completo, telefone e CPF/CNPJ do Destinatário</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="199" descricao="Apoio Institucional - Produção de Dossiê de Candidatura (Apoio à Captação)">
+                        <documento>
+                            <id>1243</id>
+                            <descricao>Conteúdo que comporá o Dossiê: infraestrutura da cidade, descritivo do proponente, projeto</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1561" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1560" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1269">
+                <titulo>Finalização do Apoio</titulo>
+                <descricao>Relatório da ação de captação/promoção de evento internacional desenvolvida deverá ser apresentado para a Embratur no prazo de 10 dias úteis após o término da ação, conforme ANEXO V da Portaria nº 62,de 30 de Junho de 2015.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1244">Relatório da ação de captação ou promoção executada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1562" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
+            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1459">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1460">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Educação</item>
+            <item>Esporte profissional</item>
+            <item>Meio ambiente</item>
+            <item>Saúde</item>
+            <item>Turismo</item>
+            <item>Urbanismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1098">Captação</item>
+            <item id="1099">Promoção</item>
+            <item id="1100">Turismo</item>
+            <item id="1101">Congresso</item>
+            <item id="1102">MICE</item>
+            <item id="1103">Negócios e Eventos</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="334">**http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx**</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>segunda-via-de-carteira-de-habilitacao</id>
         <dbId>685</dbId>
         <nome>Segunda via de Carteira de Habilitação</nome>
@@ -41656,6 +41555,129 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
         </palavras-chave>
         <legislacoes>
             <item id="654">sdadasdsdsadasdasd</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>certidao-de-autorizacao-para-transferencia-cat</id>
+        <dbId>41</dbId>
+        <nome>Certidão de Autorização para Transferência (CAT)</nome>
+        <sigla></sigla>
+        <descricao>Este serviço permite a emissão da CAT, que será exigida pelos Cartórios para a elaboração da escritura e/ou registro de escrituras públicas tendo por objeto a transferência de imóveis pertencentes à União. A CAT assegura que o imóvel não se encontra em área de interesse da Administração Pública; que o transmitente está em dia com as obrigações junto à Secretaria do Patrimônio da União e que houve recolhimento do laudêmio ou a declaração de isenção de seu pagamento.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="683">
+                <tipo>Pessoa física ou jurídica</tipo>
+                <requisitos>Que tenha efetuado o pagamento do laudêmio (transações onerosas). Transações não onerosas, pessoa física carente ou pessoa jurídica com isenção: CAT poderá ser emitida sem o pagamento de laudêmio.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>Não há prazo estipulado</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1975">
+                <titulo>Acesse o portal da SPU e preencha as informações solicitadas</titulo>
+                <descricao>Selecione o tipo de transação e insira o número do RIP e da FCL, após isso, clique no botão "OK".</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2454" tipo="web">
+                            <descricao>http://e-spu.planejamento.gov.br/#/conteudo/17</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2224">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2225">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Patrimônio</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1640">Certidão</item>
+            <item id="1641">Autorização</item>
+            <item id="1642">Transferência</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="524">Decreto-Lei 2.490/1940, Decreto-Lei 3.438/1941, Lei 5.666/1943, Decreto-Lei 9.760/1946, Lei 5.972/1973, Lei 6.015/1973, Decreto-Lei 2.398/1987, Decreto 95.760/1988, Lei 9.636/1988, ON/SPU/GEARP 001/2000. Decreto 3.725/2001. ON/SPU/GEANE 001/2002 e Portaria/SPU 293/2007.</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>consulta-a-situacao-dos-voos</id>
+        <dbId>485</dbId>
+        <nome>Consulta à Situação dos Voos</nome>
+        <sigla>CSV</sigla>
+        <descricao>O Infraero Voos Online é uma ferramenta que consolida informações dos principais aeroportos brasileiros a respeito da situação atual de seu voo. Ela possibilita o rastreio de status dos voos em tempo quase real.
+
+Além de consultar os horários de partidas e chegadas de voos, você também pode saber qual a distância de onde você está até o aeroporto para onde precisa ir e a previsão do tempo na cidade onde fica o aeroporto.
+
+Consulte, antes de sair de casa, para descobrir se seu voo está no horário</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="829">
+                <tipo>sadsadsad</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1604">
+                <titulo>dssdadsadsa</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1998" tipo="aplicativo-movel">
+                            <descricao>Instale o aplicativo Infraero Voos Online, disponível nas plataformas Android e Apple.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1997" tipo="web">
+                            <descricao>http://voos.infraero.gov.br/voos/index.aspx</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
+            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1842">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1966">sdasd</item>
+            <item id="1967">dsad</item>
+            <item id="1968">dsadas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="655">dsadsadsad</item>
         </legislacoes>
     </servico>
     <servico>
