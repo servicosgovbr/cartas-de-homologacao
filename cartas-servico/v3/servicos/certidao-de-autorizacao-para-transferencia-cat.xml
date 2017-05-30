@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[Certidão de Autorização para Transferência (CAT)]]></nome>
+    <nome>certidao-de-autorizacao-para-transferencia-cat</nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[Este serviço permite a emissão da CAT, que será exigida pelos Cartórios para a elaboração da escritura e/ou registro de escrituras públicas tendo por objeto a transferência de imóveis pertencentes à União. A CAT assegura que o imóvel não se encontra em área de interesse da Administração Pública; que o transmitente está em dia com as obrigações junto à Secretaria do Patrimônio da União e que houve recolhimento do laudêmio ou a declaração de isenção de seu pagamento.]]></descricao>
