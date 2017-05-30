@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Consulta à Situação dos Voos</nome>
+    <nome>consulta-a-situacao-dos-voos</nome>
     <sigla/>
     <nomes-populares/>
     <descricao>O Infraero Voos Online é uma ferramenta que consolida informações dos principais aeroportos brasileiros a respeito da situação atual de seu voo. Ela possibilita o rastreio de status dos voos em tempo quase real.
