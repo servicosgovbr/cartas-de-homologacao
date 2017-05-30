@@ -1,29 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>consulta-a-situacao-dos-voos</nome>
-    <sigla/>
-    <nomes-populares/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>consulta-a-situacao-dos-voos</id>
+    <dbId>485</dbId>
+    <nome>Consulta à Situação dos Voos</nome>
+    <sigla>CSV</sigla>
     <descricao>O Infraero Voos Online é uma ferramenta que consolida informações dos principais aeroportos brasileiros a respeito da situação atual de seu voo. Ela possibilita o rastreio de status dos voos em tempo quase real.
 
 Além de consultar os horários de partidas e chegadas de voos, você também pode saber qual a distância de onde você está até o aeroporto para onde precisa ir e a previsão do tempo na cidade onde fica o aeroporto.
 
-Consulte, antes de sair de casa, para descobrir se seu voo está no horário. Acesse a partir do website dedicado ou por meio de aplicativos mobile (Android e Iphone/Ipad).
-
-* [Mais informações](https://play.google.com/store/apps/details?id=br.gov.infraero&amp;hl=pt_BR): Aplicativo mobile para a plataforma Android
-
-* [Mais informações](https://itunes.apple.com/br/app/infraero-voos-online/id412206183?mt=8): Aplicativo mobile para a plataforma Apple
-
-* [Mais informações](http://www.infraero.gov.br/index.php/br/situacao-dos-voos/por-aeroporto.html): Consulte, também, a informação atualizada do número de atrasos e cancelamentos nos aeroportos
-                operados pela Infraero.</descricao>
-    <gratuito/>
-    <solicitantes/>
+Consulte, antes de sair de casa, para descobrir se seu voo está no horário</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="829">
+            <tipo>sadsadsad</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <atendimento-imediato/>
+        <descricao></descricao>
     </tempo-total-estimado>
+    <validade-documento/>
     <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
+        <etapa id="1604">
+            <titulo>dssdadsadsa</titulo>
+            <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -32,23 +35,32 @@ Consulte, antes de sair de casa, para descobrir se seu voo está no horário. Ac
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
-                        <descricao>http://voos.infraero.gov.br/voos/index.aspx</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao tipo="aplicativo-movel">
+                    <canal-de-prestacao id="1998" tipo="aplicativo-movel">
                         <descricao>Instale o aplicativo Infraero Voos Online, disponível nas plataformas Android e Apple.</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1997" tipo="web">
+                        <descricao>http://voos.infraero.gov.br/voos/index.aspx</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/73"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
+        <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="1842">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Trabalho</item>
+        <item>Cidadania</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="1966">sdasd</item>
+        <item id="1967">dsad</item>
+        <item id="1968">dsadas</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="655">dsadsadsad</item>
+    </legislacoes>
 </servico>
