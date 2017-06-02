@@ -40795,6 +40795,57 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         </legislacoes>
     </servico>
     <servico>
+        <id>cadastrar-entidades-sindicais</id>
+        <dbId>572</dbId>
+        <nome>Cadastrar Entidades Sindicais</nome>
+        <sigla></sigla>
+        <descricao>Possibilita elaborar pedido de registro ou de alteração estatutária de entidade sindical e consultar entidades sindicais registradas, conforme Portaria/MTE n.º 326/2013.</descricao>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <tempo-total-estimado/>
+        <etapas>
+            <etapa id="1722">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2138" tipo="web">
+                            <descricao>[Solicitar Registro de Alteração Estatutária de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/alteracao-estatutaria.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2137" tipo="web">
+                            <descricao>[Solicitar Registro de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/registro-sindical-sc.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2136" tipo="web">
+                            <descricao>[Consultar a fila de distribuição de processos de registro sindical para análise.](http://www3.mte.gov.br/sistemas/sdp/consultadistribuicao.aspx)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2135" tipo="web">
+                            <descricao>[Recadastrar a entidade sindical.](http://portal.mte.gov.br/cnes/campanha-de-atualizacao-sindical-sr.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2134" tipo="web">
+                            <descricao>http://portal.mte.gov.br/cnes/atualizacao-de-dados-perene-sd.htm</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2003">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2004">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
         <id>homologar-rescisao-de-contrato-de-trabalho</id>
         <dbId>303</dbId>
         <nome>Homologar Rescisão de Contrato de Trabalho</nome>
@@ -40805,8 +40856,8 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         <descricao>Com este serviço você pode homologar a rescisão de seu contrato de trabalho, o que garante o direito de sacar o FGTS e dar entrada no Seguro Desemprego.</descricao>
         <contato>Central 158</contato>
         <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
+        <porcentagem>50</porcentagem>
+        <porcentagem-manual>true</porcentagem-manual>
         <solicitantes>
             <solicitante id="824">
                 <tipo>Trabalhador</tipo>
@@ -40950,57 +41001,6 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         <legislacoes>
             <item id="646">[CLT](http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm)</item>
         </legislacoes>
-    </servico>
-    <servico>
-        <id>cadastrar-entidades-sindicais</id>
-        <dbId>572</dbId>
-        <nome>Cadastrar Entidades Sindicais</nome>
-        <sigla></sigla>
-        <descricao>Possibilita elaborar pedido de registro ou de alteração estatutária de entidade sindical e consultar entidades sindicais registradas, conforme Portaria/MTE n.º 326/2013.</descricao>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <tempo-total-estimado/>
-        <etapas>
-            <etapa id="1722">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2138" tipo="web">
-                            <descricao>[Solicitar Registro de Alteração Estatutária de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/alteracao-estatutaria.htm)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2137" tipo="web">
-                            <descricao>[Solicitar Registro de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/registro-sindical-sc.htm)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2136" tipo="web">
-                            <descricao>[Consultar a fila de distribuição de processos de registro sindical para análise.](http://www3.mte.gov.br/sistemas/sdp/consultadistribuicao.aspx)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2135" tipo="web">
-                            <descricao>[Recadastrar a entidade sindical.](http://portal.mte.gov.br/cnes/campanha-de-atualizacao-sindical-sr.htm)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2134" tipo="web">
-                            <descricao>http://portal.mte.gov.br/cnes/atualizacao-de-dados-perene-sd.htm</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2003">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2004">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Trabalho</item>
-        </areas-de-interesse>
     </servico>
     <servico>
         <id>emissao-de-certidao-de-tempo-de-contribuicao-para-ex-servidores-da-superintendencia-da-zona-franca-de-manaus</id>
