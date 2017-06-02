@@ -10,7 +10,8 @@
     <descricao>Com este serviço você pode homologar a rescisão de seu contrato de trabalho, o que garante o direito de sacar o FGTS e dar entrada no Seguro Desemprego.</descricao>
     <contato>Central 158</contato>
     <gratuito>true</gratuito>
-    <porcentagem>0</porcentagem>
+    <porcentagem>50</porcentagem>
+    <porcentagem-manual>true</porcentagem-manual>
     <solicitantes>
         <solicitante id="824">
             <tipo>Trabalhador</tipo>
@@ -132,8 +133,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="2844" dbId="37546">
-        <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+        <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1555">Cidadãos</item>
