@@ -123,11 +123,11 @@
             <item idSegmento="4" idServicoSegmento="2002">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Normalização e Qualidade</item>
             <item>Planejamento</item>
-            <item>Segurança e Ordem Pública</item>
             <item>Transporte Rodoviário</item>
             <item>Urbanismo</item>
+            <item>Segurança e Ordem Pública</item>
+            <item>Normalização e Qualidade</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1380">Faixa de Domínio</item>
@@ -213,7 +213,7 @@ Esplanada dos Ministérios, Bloco T, anexo II, sala T3, Brasília - DF.</descric
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2101">Cidadãos</item>
@@ -927,7 +927,7 @@ http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_ex
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1269">Cidadãos</item>
@@ -1123,12 +1123,13 @@ CEP: 70.064-900</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="4" idServicoSegmento="1310">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Biodiversidade</item>
             <item>Clima</item>
             <item>Cultura</item>
@@ -1138,7 +1139,6 @@ CEP: 70.064-900</descricao>
             <item>Proteção Social</item>
             <item>Saneamento</item>
             <item>Saúde</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1031">ONG estrangeira</item>
@@ -1198,7 +1198,7 @@ CEP: 70.064-900</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2153">Cidadãos</item>
@@ -1432,7 +1432,7 @@ Departamento Nacional de Infraestrutura de Transportes - DNIT, no endereço, S.A
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2184">Cidadãos</item>
@@ -1508,7 +1508,7 @@ Site: http://www.justica.gov.br/central-de-atendimento/estrangeiros/nacionalidad
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1261">Cidadãos</item>
@@ -1570,7 +1570,7 @@ Site: http://www.justica.gov.br/central-de-atendimento/estrangeiros/nacionalidad
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2230">Cidadãos</item>
@@ -1635,7 +1635,7 @@ Site: http://www.justica.gov.br/central-de-atendimento/estrangeiros/nacionalidad
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2232">Cidadãos</item>
@@ -1693,7 +1693,7 @@ Observação: A comunicação à Polícia Rodoviária Federal não dispensa o re
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1286">Cidadãos</item>
@@ -1738,7 +1738,7 @@ Observação: A comunicação à Polícia Rodoviária Federal não dispensa o re
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2165">Cidadãos</item>
@@ -1799,7 +1799,7 @@ Observação: A comunicação à Polícia Rodoviária Federal não dispensa o re
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2205">Cidadãos</item>
@@ -1863,7 +1863,7 @@ Preencha o campo com a seleção correspondente e pressione o botão "OK".</desc
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2203">Cidadãos</item>
@@ -1928,7 +1928,7 @@ Código de Controle.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2170">Cidadãos</item>
@@ -2065,7 +2065,7 @@ Código de Controle.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2234">Cidadãos</item>
@@ -2275,7 +2275,7 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2188">Cidadãos</item>
@@ -2350,14 +2350,14 @@ Lei nº 13.139, de 2015</item>
             <item idSegmento="4" idServicoSegmento="1320">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Compras governamentais</item>
             <item>Serviços Públicos</item>
             <item>Transporte Aéreo</item>
             <item>Transporte Ferroviário</item>
             <item>Transporte Hidroviário</item>
             <item>Transporte Rodoviário</item>
             <item>Transportes</item>
-            <item>Compras governamentais</item>
-            <item>Abastecimento</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1034">SICRO</item>
@@ -2465,7 +2465,7 @@ Lei nº 13.139, de 2015</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2207">Cidadãos</item>
@@ -2562,7 +2562,7 @@ Lei nº 13.139, de 2015</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2210">Cidadãos</item>
@@ -2675,7 +2675,7 @@ Lei nº 13.139, de 2015</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2191">Cidadãos</item>
@@ -2792,7 +2792,7 @@ Lei nº 13.139, de 2015</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2213">Cidadãos</item>
@@ -2909,7 +2909,7 @@ Lei nº 13.139, de 2015</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2197">Cidadãos</item>
@@ -3033,7 +3033,7 @@ ON/SPU/GEANE 001/2002 e ON/SPU/GEANE 002/2002</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2216">Cidadãos</item>
@@ -3154,7 +3154,7 @@ ON/SPU/GEANE 001/2002 e ON/SPU/GEANE 002/2002</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2199">Cidadãos</item>
@@ -3269,7 +3269,7 @@ ON/SPU/GEANE 001/2002 e ON/SPU/GEANE 002/2002</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2182">Cidadãos</item>
@@ -3369,7 +3369,7 @@ ON/SPU/GEANE 001/2002 e ON/SPU/GEANE 002/2002</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2201">Cidadãos</item>
@@ -3461,7 +3461,7 @@ Lei nº 9.636, de 1998</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="2218">Órgãos e entidades públicas</item>
@@ -3559,7 +3559,7 @@ Lei nº 9.636, de 1998</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2194">Cidadãos</item>
@@ -3676,7 +3676,7 @@ Calcule o laudêmio, Certidão de Autorização para Transferência (CAT), Reque
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2222">Cidadãos</item>
@@ -3736,7 +3736,7 @@ Calcule o laudêmio, Certidão de Autorização para Transferência (CAT), Reque
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2226">Cidadãos</item>
@@ -3752,6 +3752,63 @@ Calcule o laudêmio, Certidão de Autorização para Transferência (CAT), Reque
         </palavras-chave>
         <legislacoes>
             <item id="525">Decreto-Lei 2.490/1940, Decreto-Lei 3.438/1941, Lei 5.666/1943, Decreto-Lei 9.760/1946, Lei 5.972/1973, Lei 6.015/1973, Decreto-Lei 2.398/1987, Decreto 95.760/1988, Lei 9.636/1988, ON/SPU/GEARP 001/2000. Decreto 3.725/2001. ON/SPU/GEANE 001/2002 e Portaria/SPU 293/2007.</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>certidao-de-autorizacao-para-transferencia-cat</id>
+        <dbId>41</dbId>
+        <nome>Certidão de Autorização para Transferência (CAT)</nome>
+        <sigla></sigla>
+        <descricao>Este serviço permite a emissão da CAT, que será exigida pelos Cartórios para a elaboração da escritura e/ou registro de escrituras públicas tendo por objeto a transferência de imóveis pertencentes à União. A CAT assegura que o imóvel não se encontra em área de interesse da Administração Pública; que o transmitente está em dia com as obrigações junto à Secretaria do Patrimônio da União e que houve recolhimento do laudêmio ou a declaração de isenção de seu pagamento.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="683">
+                <tipo>Pessoa física ou jurídica</tipo>
+                <requisitos>Que tenha efetuado o pagamento do laudêmio (transações onerosas). Transações não onerosas, pessoa física carente ou pessoa jurídica com isenção: CAT poderá ser emitida sem o pagamento de laudêmio.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="meses"/>
+            <descricao>Não há prazo estipulado</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1975">
+                <titulo>Acesse o portal da SPU e preencha as informações solicitadas</titulo>
+                <descricao>Selecione o tipo de transação e insira o número do RIP e da FCL, após isso, clique no botão "OK".</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2454" tipo="web">
+                            <descricao>http://e-spu.planejamento.gov.br/#/conteudo/17</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2224">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2225">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Patrimônio</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1640">Certidão</item>
+            <item id="1641">Autorização</item>
+            <item id="1642">Transferência</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="524">Decreto-Lei 2.490/1940, Decreto-Lei 3.438/1941, Lei 5.666/1943, Decreto-Lei 9.760/1946, Lei 5.972/1973, Lei 6.015/1973, Decreto-Lei 2.398/1987, Decreto 95.760/1988, Lei 9.636/1988, ON/SPU/GEARP 001/2000. Decreto 3.725/2001. ON/SPU/GEANE 001/2002 e Portaria/SPU 293/2007.</item>
         </legislacoes>
     </servico>
     <servico>
@@ -3919,7 +3976,7 @@ Calcule o laudêmio, Certidão de Autorização para Transferência (CAT), Reque
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2142">Cidadãos</item>
@@ -4481,13 +4538,13 @@ CEP 70046-900 – Brasília/DF
             <item idSegmento="1" idServicoSegmento="1918">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Assistência ao Idoso</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Atendimento básico</item>
             <item>Cidadania</item>
             <item>Previdência Social</item>
             <item>Proteção Social</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1345">Ajuda de custo</item>
@@ -6441,7 +6498,7 @@ OBS: Quando a requerente for empregada de empresa que teve ou terá trabalho de 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2132">Cidadãos</item>
@@ -6637,7 +6694,7 @@ OBS: Quando a requerente for empregada de empresa que teve ou terá trabalho de 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324" dbId="26267">
-            <nomeOrgao>Departamento de Polícia Federal (DPF) (DPF)</nomeOrgao>
+            <nomeOrgao>Departamento de Polícia Federal (DPF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1551">Cidadãos</item>
@@ -6703,7 +6760,7 @@ OBS: Quando a requerente for empregada de empresa que teve ou terá trabalho de 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/704" dbId="26268">
-            <nomeOrgao>Departamento de Polícia Rodoviária Federal (DPRF) (DPRF)</nomeOrgao>
+            <nomeOrgao>Departamento de Polícia Rodoviária Federal (DPRF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="4" idServicoSegmento="2145">Demais segmentos (ONGs, organizações sociais, etc)</item>
@@ -6796,7 +6853,7 @@ Em até 12 meses após a publicação da autorização de uso de radiofrequênci
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1413">Empresas</item>
@@ -6922,7 +6979,7 @@ Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</de
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1491">Empresas</item>
@@ -6969,7 +7026,7 @@ Seguro-Desemprego Pescador Artesanal: É dirigido ao pescador profissional que e
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1574">Cidadãos</item>
@@ -7254,7 +7311,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1676">Cidadãos</item>
@@ -7466,7 +7523,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324" dbId="26267">
-            <nomeOrgao>Departamento de Polícia Federal (DPF) (DPF)</nomeOrgao>
+            <nomeOrgao>Departamento de Polícia Federal (DPF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2141">Cidadãos</item>
@@ -7522,7 +7579,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <areas-de-interesse>
             <item>Agropecuária</item>
@@ -7603,7 +7660,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1751">Cidadãos</item>
@@ -7611,6 +7668,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             <item idSegmento="2" idServicoSegmento="1753">Órgãos e entidades públicas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
             <item>Difusão</item>
@@ -7623,7 +7681,6 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             <item>Fiscalização do Estado</item>
             <item>Fomento ao Trabalho</item>
             <item>Telecomunicações</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1255">Telecentro</item>
@@ -7903,7 +7960,7 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1860">Cidadãos</item>
@@ -7911,6 +7968,7 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1862">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
             <item>Difusão</item>
@@ -7922,7 +7980,6 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item>Empregabilidade</item>
             <item>Fomento ao Trabalho</item>
             <item>Telecomunicações</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1309">Suporte</item>
@@ -8023,7 +8080,7 @@ Cidades Digitais - Atendimento Geral - (61) 2027-6385/6341/6904</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1997">Cidadãos</item>
@@ -8193,7 +8250,7 @@ Serão resultados desta etapa:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+            <nomeOrgao>Ministério dos Transportes Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2008">Cidadãos</item>
@@ -8277,7 +8334,7 @@ Requisitos para obter o serviço: Encaminhar toda a documentação</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="4" idServicoSegmento="2031">Demais segmentos (ONGs, organizações sociais, etc)</item>
@@ -8762,7 +8819,7 @@ CEP 70064-901   Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1382">Cidadãos</item>
@@ -10116,7 +10173,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1246">Cidadãos</item>
@@ -10355,7 +10412,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
-            <nomeOrgao>Órgão não encontrado ()</nomeOrgao>
+            <nomeOrgao>Órgão não encontrado</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1253">Empresas</item>
@@ -11157,7 +11214,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1280">Cidadãos</item>
@@ -11390,17 +11447,17 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+            <nomeOrgao>Ministério da Agricultura Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1285">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Abastecimento</item>
             <item>Administração</item>
             <item>Agropecuária</item>
-            <item>Meio ambiente</item>
             <item>Água</item>
-            <item>Abastecimento</item>
+            <item>Meio ambiente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1021">Palavras-Chave 01</item>
@@ -12758,7 +12815,7 @@ Há duas formas de solicitar o BPC: a pessoa pode agendar o atendimento diretame
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
-            <nomeOrgao>Órgão não encontrado ()</nomeOrgao>
+            <nomeOrgao>Órgão não encontrado</nomeOrgao>
         </orgao>
         <areas-de-interesse>
             <item>Agropecuária</item>
@@ -13038,10 +13095,10 @@ Há duas formas de solicitar o BPC: a pessoa pode agendar o atendimento diretame
             <item idSegmento="3" idServicoSegmento="1348">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Economia e Finanças</item>
             <item>Proteção Social</item>
             <item>Recursos humanos</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -13481,7 +13538,7 @@ CEP: 70716-900 - Brasília/DF - Brasil</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1346">Cidadãos</item>
@@ -13780,14 +13837,14 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
-            <nomeOrgao>Órgão não encontrado ()</nomeOrgao>
+            <nomeOrgao>Órgão não encontrado</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1381">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Agropecuária</item>
             <item>Abastecimento</item>
+            <item>Agropecuária</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -14421,7 +14478,7 @@ admpp.gesac@comunicacoes.gov.br
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1400">Órgãos e entidades públicas</item>
@@ -14500,7 +14557,7 @@ admpp.gesac@comunicacoes.gov.br
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/121583" dbId="2486">
-            <nomeOrgao>Agência da Previdência Social - D - Pinheiros (APSPIS) (APSPIS)</nomeOrgao>
+            <nomeOrgao>Agência da Previdência Social - D - Pinheiros (APSPIS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1422">Cidadãos</item>
@@ -15545,7 +15602,7 @@ O sistema permite a atualização de cadastro de estações e dados climáticos 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+            <nomeOrgao>Ministério da Agricultura Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1454">Cidadãos</item>
@@ -15746,6 +15803,213 @@ O sistema permite a atualização de cadastro de estações e dados climáticos 
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>apoio-a-captacao-e-promocao-de-eventos-internacionais</id>
+        <dbId>236</dbId>
+        <nome>Apoio à Captação e Promoção de Eventos Internacionais</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="371">Captação de Eventos</item>
+            <item id="372">Promoção de Eventos</item>
+            <item id="373">MICE</item>
+            <item id="374">Negócios e Eventos</item>
+            <item id="375">Congressos</item>
+        </nomes-populares>
+        <descricao>O Programa destina-se ao apoio às ações de Captação e de Promoção de eventos internacionais (congressos, convenções, oficinas, fóruns, seminários, simpósios, assembleias, feiras, competições esportivas) que tenha o Brasil como o destino, através de apoio institucional ou por meio de projetos apresentados por entes públicos ou entidades privadas sem fins lucrativos.</descricao>
+        <contato>Wilson Freitas
+Divisão de Turismo de Negócios e eventos
+Telefone: 61 2023 8652
+Email: wilson.freitas@embratur.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="437">
+                <tipo>Entidades privadas sem fins lucrativos</tipo>
+                <requisitos>* Eventos com no mínimo 3 edições e periodicidade definida. 
+* Eventos que tenham alternado sua realização em pelo menos outros dois países distintos nas edições anteriores; 
+* Eventos internacionais ou competições esportivas, com média de 150 participantes nas edições anteriores, sendo pelo menos 25% de turistas estrangeiros. No caso de competições esportivas serão considerados como participantes os espectadores.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="minutos"/>
+            <descricao>Varia conforme apoio.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1265">
+                <titulo>Preenchimento da ficha de solicitação do apoio</titulo>
+                <descricao>O solicitante deverá identificar dentre as fichas contidas na portaria nº 62, de 30 de Junho de 2015 qual corresponde ao apoio desejado. Em seguida, deverá preenchê-la e enviar por e-mail à Embratur.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="194" descricao="Para apoio à Captação">
+                        <documento>
+                            <id>1236</id>
+                            <descricao>Declaração de exclusividade da cidade brasileira candidata</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="195" descricao="Para apoio à Captação de eventos esportivos">
+                        <documento>
+                            <id>1237</id>
+                            <descricao>Publicação de pelo menos cinco matérias jornalísticas em veículos não sediados no país que recebeu as edições anteriores.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1555" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1554" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1553" tipo="web-consultar">
+                            <descricao>http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1266">
+                <titulo>Envio da Ficha de solicitação de apoio</titulo>
+                <descricao>Após o preenchimento da ficha de solicitação de apoio, o solicitante deverá encaminhá-la por e-mail à divisão de turismo de negócios e eventos da EMBRATUR.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1557" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1556" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1267">
+                <titulo>Obter resultado da análise da ficha de solicitação de apoio</titulo>
+                <descricao>A EMBRATUR analisará a solicitação de apoio com base nos critérios exigidos na portaria nº 62 de 30 de Junho de 2015 e comunicará aos solicitantes o resultado, no prazo de até 10 dias.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1559" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1558" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1268">
+                <titulo>Envio das informações complementares - Insumo para realização do apoio</titulo>
+                <descricao>Após a aprovação da EMBRATUR o solicitante deverá enviar as informações necessárias para execução do apoio.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="196" descricao="Apoio Institucional - Para produção de Folder, Banner e Cartaz">
+                        <documento>
+                            <id>1238</id>
+                            <descricao>Carta convite - Carta da entidade ou informações específicas do evento que desejam promover</descricao>
+                        </documento>
+                        <documento>
+                            <id>1239</id>
+                            <descricao>Texto sobre a cidade sede do evento</descricao>
+                        </documento>
+                        <documento>
+                            <id>1240</id>
+                            <descricao>Logomarcas de apoiadores em alta resolução</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="197" descricao="Apoio Institucional - Para criação do ofício de Apoio Institucional">
+                        <documento>
+                            <id>1241</id>
+                            <descricao>Nome e cargo do Destinatário</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="198" descricao="Apoio Institucional - Para envio de brindes promocionais da EMBRATUR">
+                        <documento>
+                            <id>1242</id>
+                            <descricao>Nome, endereço completo, telefone e CPF/CNPJ do Destinatário</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="199" descricao="Apoio Institucional - Produção de Dossiê de Candidatura (Apoio à Captação)">
+                        <documento>
+                            <id>1243</id>
+                            <descricao>Conteúdo que comporá o Dossiê: infraestrutura da cidade, descritivo do proponente, projeto</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1561" tipo="telefone">
+                            <descricao>61 2023 8652</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1560" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1269">
+                <titulo>Finalização do Apoio</titulo>
+                <descricao>Relatório da ação de captação/promoção de evento internacional desenvolvida deverá ser apresentado para a Embratur no prazo de 10 dias úteis após o término da ação, conforme ANEXO V da Portaria nº 62,de 30 de Junho de 2015.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1244">Relatório da ação de captação ou promoção executada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1562" tipo="e-mail">
+                            <descricao>wilson.freitas@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
+            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1459">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1460">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Educação</item>
+            <item>Esporte profissional</item>
+            <item>Meio ambiente</item>
+            <item>Saúde</item>
+            <item>Turismo</item>
+            <item>Urbanismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1098">Captação</item>
+            <item id="1099">Promoção</item>
+            <item id="1100">Turismo</item>
+            <item id="1101">Congresso</item>
+            <item id="1102">MICE</item>
+            <item id="1103">Negócios e Eventos</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="334">**http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx**</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>consulta-cadastro-de-imoveis-rurais-cafir</id>
@@ -16056,7 +16320,7 @@ O sistema permite a atualização de cadastro de estações e dados climáticos 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1885">Cidadãos</item>
@@ -16866,7 +17130,7 @@ O SIMEI é a forma pela qual o microempreendedor individual (MEI) paga um valor 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1499">Cidadãos</item>
@@ -16979,9 +17243,9 @@ O SIMEI é a forma pela qual o microempreendedor individual (MEI) paga um valor 
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Comércio e Serviços</item>
+            <item>Compras governamentais</item>
             <item>Defesa Nacional</item>
             <item>Indústria</item>
-            <item>Compras governamentais</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1110">empresa</item>
@@ -17229,7 +17493,7 @@ O SIMEI é a forma pela qual o microempreendedor individual (MEI) paga um valor 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/62068" dbId="27757">
-            <nomeOrgao>Diretoria de Infraestrutura Rodoviária (DET-DNIT) (DET-DNIT)</nomeOrgao>
+            <nomeOrgao>Diretoria de Infraestrutura Rodoviária (DET-DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2092">Cidadãos</item>
@@ -17621,7 +17885,7 @@ PS: Dispensa o auxílio de advogado.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1536">Cidadãos</item>
@@ -18380,7 +18644,7 @@ Por competência, é também finalidade do FGTS financiar empreendimentos nas á
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1706">Cidadãos</item>
@@ -19255,7 +19519,7 @@ E-mail: repnbl@comunicacoes.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1215">Empresas</item>
@@ -19536,7 +19800,7 @@ Portaria nº 55, de 12 de março de 2013</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1611">Empresas</item>
@@ -19989,7 +20253,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1612">Cidadãos</item>
@@ -20067,7 +20331,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1623">Empresas</item>
@@ -20316,7 +20580,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1637">Cidadãos</item>
@@ -20580,12 +20844,13 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="4" idServicoSegmento="1639">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Assistência ao Idoso</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
@@ -20599,7 +20864,6 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
             <item>Preservação e Conservação Ambiental</item>
             <item>Proteção Social</item>
             <item>Saúde</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1157">Certificado de OSCIP</item>
@@ -21067,7 +21331,7 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1661">Cidadãos</item>
@@ -21555,7 +21819,7 @@ Quem pode solicitar: o proprietário do veículo à época do pagamento da multa
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1669">Cidadãos</item>
@@ -21687,7 +21951,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1616">Órgãos e entidades públicas</item>
@@ -21753,7 +22017,7 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1672">Cidadãos</item>
@@ -21788,7 +22052,7 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1673">Empresas</item>
@@ -22682,7 +22946,7 @@ Por meio do Portal MTE Mais Emprego, o t</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1709">Cidadãos</item>
@@ -22904,7 +23168,7 @@ Serão resultados desta etapa:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+            <nomeOrgao>Ministério dos Transportes Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1817">Cidadãos</item>
@@ -23039,7 +23303,7 @@ Serão resultados desta etapa:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1720">Cidadãos</item>
@@ -23244,7 +23508,7 @@ Serão resultados desta etapa:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1726">Empresas</item>
@@ -23907,13 +24171,14 @@ o com voçes...obrigado</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/12584" dbId="48681">
-            <nomeOrgao>Setor de Educação (SEDUC) (SEDUC)</nomeOrgao>
+            <nomeOrgao>Setor de Educação (SEDUC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1739">Cidadãos</item>
             <item idSegmento="4" idServicoSegmento="1740">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Abastecimento</item>
             <item>Administração</item>
             <item>Cidadania</item>
             <item>Esporte e Lazer</item>
@@ -23923,7 +24188,6 @@ o com voçes...obrigado</descricao>
             <item>Saúde</item>
             <item>Segurança e Ordem Pública</item>
             <item>Serviços Públicos</item>
-            <item>Abastecimento</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1254">consulta teste  trabalho</item>
@@ -24738,7 +25002,7 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
-            <nomeOrgao>Órgão não encontrado ()</nomeOrgao>
+            <nomeOrgao>Órgão não encontrado</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1772">Cidadãos</item>
@@ -24957,7 +25221,7 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1782">Cidadãos</item>
@@ -25748,7 +26012,7 @@ Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+            <nomeOrgao>Ministério dos Transportes Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1810">Cidadãos</item>
@@ -26390,7 +26654,7 @@ O cadastramento estará disponível para o contribuinte que tem "imposto de rend
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3159" dbId="37537">
-            <nomeOrgao>Ministério das Comunicações (MC) (MC)</nomeOrgao>
+            <nomeOrgao>Ministério das Comunicações (MC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1828">Cidadãos</item>
@@ -26796,6 +27060,52 @@ gratto</requisitos>
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>consulta-a-situacao-dos-voos</id>
+        <dbId>485</dbId>
+        <nome>Consulta à Situação dos Voos</nome>
+        <sigla>CSV</sigla>
+        <descricao>O Infraero Voos Online é uma ferramenta que consolida informações dos principais aeroportos brasileiros a respeito da situação atual de seu voo. Ela possibilita o rastreio de status dos voos em tempo quase real.
+
+Além de consultar os horários de partidas e chegadas de voos, você também pode saber qual a distância de onde você está até o aeroporto para onde precisa ir e a previsão do tempo na cidade onde fica o aeroporto.
+
+Consulte, antes de sair de casa, para descobrir se seu voo está no horário</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <tempo-total-estimado/>
+        <etapas>
+            <etapa id="1604">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1998" tipo="aplicativo-movel">
+                            <descricao>Instale o aplicativo Infraero Voos Online, disponível nas plataformas Android e Apple.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1997" tipo="web">
+                            <descricao>http://voos.infraero.gov.br/voos/index.aspx</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/115257" dbId="42723">
+            <nomeOrgao>Secretaria de Aviação Civil da Presidência da República (SAC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1842">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Trabalho</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
         <id>endereco-das-agencias-da-previdencia-social</id>
         <dbId>486</dbId>
         <nome>Endereço das Agências da Previdência Social</nome>
@@ -26896,7 +27206,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1844">Órgãos e entidades públicas</item>
@@ -26977,7 +27287,7 @@ cidades.digitais@comunicacoes.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1846">Cidadãos</item>
@@ -27121,7 +27431,7 @@ cidades.digitais@comunicacoes.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
-            <nomeOrgao>Órgão não encontrado ()</nomeOrgao>
+            <nomeOrgao>Órgão não encontrado</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1851">Cidadãos</item>
@@ -27468,7 +27778,7 @@ Telefone: (61) 2027-5379/6608/6969</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1864">Órgãos e entidades públicas</item>
@@ -28667,7 +28977,7 @@ Telefone: (61) 2027-5379/6608/6969</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1920">Empresas</item>
@@ -28759,7 +29069,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1922">Cidadãos</item>
@@ -29208,7 +29518,7 @@ Email - incentivo.viagens@turismo.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1958">Cidadãos</item>
@@ -29756,15 +30066,15 @@ Email - incentivo.viagens@turismo.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1966">Empresas</item>
             <item idSegmento="2" idServicoSegmento="1967">Órgãos e entidades públicas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Economia e Finanças</item>
             <item>Abastecimento</item>
+            <item>Economia e Finanças</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1367">a</item>
@@ -30232,7 +30542,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1984">Órgãos e entidades públicas</item>
@@ -32081,7 +32391,7 @@ Brasília, DF - CEP: 70064-900</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2063">Cidadãos</item>
@@ -32213,7 +32523,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2037">Empresas</item>
@@ -32478,7 +32788,7 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2071">Empresas</item>
@@ -32762,7 +33072,7 @@ Portaria STE nº 2, de 26 de agosto de 2013</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
-            <nomeOrgao>Órgão não encontrado ()</nomeOrgao>
+            <nomeOrgao>Órgão não encontrado</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2081">Cidadãos</item>
@@ -33194,7 +33504,7 @@ Portaria STE nº 2, de 26 de agosto de 2013</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+            <nomeOrgao>Ministério da Agricultura Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1744">Cidadãos</item>
@@ -33507,7 +33817,7 @@ CEP 20211-350 – Rio de Janeiro – RJ</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2149">Cidadãos</item>
@@ -33586,7 +33896,7 @@ CEP 20211-350 – Rio de Janeiro – RJ</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2172">Cidadãos</item>
@@ -33743,6 +34053,7 @@ CEP 20211-350 – Rio de Janeiro – RJ</descricao>
             <item idSegmento="4" idServicoSegmento="2177">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Abastecimento</item>
             <item>Agropecuária</item>
             <item>Biodiversidade</item>
             <item>Economia e Finanças</item>
@@ -33751,7 +34062,6 @@ CEP 20211-350 – Rio de Janeiro – RJ</descricao>
             <item>Produção Industrial</item>
             <item>Produção agropecuária</item>
             <item>Propriedade Industrial</item>
-            <item>Abastecimento</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1945">[inserir]</item>
@@ -34060,7 +34370,7 @@ Brasília-DF</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2263">Cidadãos</item>
@@ -34144,7 +34454,7 @@ Brasília - DF</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2251">Empresas</item>
@@ -34276,7 +34586,7 @@ Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2260">Cidadãos</item>
@@ -34342,7 +34652,7 @@ Valor do Laudêmio eventualmente já recolhido (informação não obrigatória).
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1986" dbId="43033">
-            <nomeOrgao>Secretaria do Patrimônio da União (SPU) (SPU)</nomeOrgao>
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2228">Cidadãos</item>
@@ -34414,7 +34724,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2273">Cidadãos</item>
@@ -34489,7 +34799,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2287">Empresas</item>
@@ -34552,7 +34862,7 @@ Endereço Eletrônico: http://www.mdic.gov.br/</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2291">Empresas</item>
@@ -34625,7 +34935,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2300">Empresas</item>
@@ -34732,7 +35042,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2295">Empresas</item>
@@ -34800,7 +35110,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2266">Cidadãos</item>
@@ -34912,7 +35222,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2292">Empresas</item>
@@ -35062,7 +35372,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2160">Cidadãos</item>
@@ -35147,7 +35457,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2293">Cidadãos</item>
@@ -35275,7 +35585,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2386">Cidadãos</item>
@@ -35385,7 +35695,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2308">Empresas</item>
@@ -35452,7 +35762,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2305">Empresas</item>
@@ -35570,7 +35880,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2301">Cidadãos</item>
@@ -35694,6 +36004,7 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
             <item idSegmento="1" idServicoSegmento="2045">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
             <item>Assistência ao Idoso</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Atendimento básico</item>
@@ -35704,7 +36015,6 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
             <item>Educação profissionalizante</item>
             <item>Proteção Social</item>
             <item>Proteção e Benefícios ao Trabalhador</item>
-            <item>Assistência à Criança e ao Adolescente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="1760">NIS</item>
@@ -35823,7 +36133,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2317">Empresas</item>
@@ -35887,7 +36197,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2320">Empresas</item>
@@ -36010,7 +36320,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2309">Empresas</item>
@@ -36197,7 +36507,7 @@ As etapas do serviço variam conforme as características de cada processo, como
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2306">Empresas</item>
@@ -36272,7 +36582,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2321">Empresas</item>
@@ -36438,7 +36748,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2319">Empresas</item>
@@ -36509,7 +36819,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2330">Cidadãos</item>
@@ -36576,7 +36886,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2326">Cidadãos</item>
@@ -36655,7 +36965,7 @@ Endereço: o local de cada atividade depende das parcerias locais estabelecidas 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2323">Empresas</item>
@@ -36858,7 +37168,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2315">Empresas</item>
@@ -37002,7 +37312,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2318">Empresas</item>
@@ -37069,7 +37379,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2368">Empresas</item>
@@ -37211,7 +37521,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2371">Empresas</item>
@@ -37346,7 +37656,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2375">Empresas</item>
@@ -37412,7 +37722,7 @@ Decreto nº 7.819, de 03 de outubro de 2012, que regulamenta e Lei supracitada.<
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2384">Cidadãos</item>
@@ -37488,7 +37798,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2346">Cidadãos</item>
@@ -37558,7 +37868,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2348">Cidadãos</item>
@@ -37641,7 +37951,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2360">Empresas</item>
@@ -37726,7 +38036,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2379">Empresas</item>
@@ -37830,7 +38140,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2357">Empresas</item>
@@ -37944,7 +38254,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324" dbId="26267">
-            <nomeOrgao>Departamento de Polícia Federal (DPF) (DPF)</nomeOrgao>
+            <nomeOrgao>Departamento de Polícia Federal (DPF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2367">Cidadãos</item>
@@ -38052,7 +38362,7 @@ sdp.extarifario@mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2353">Cidadãos</item>
@@ -38162,7 +38472,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2352">Empresas</item>
@@ -38228,7 +38538,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2359">Empresas</item>
@@ -38316,7 +38626,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2366">Empresas</item>
@@ -38431,7 +38741,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324" dbId="26267">
-            <nomeOrgao>Departamento de Polícia Federal (DPF) (DPF)</nomeOrgao>
+            <nomeOrgao>Departamento de Polícia Federal (DPF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2362">Cidadãos</item>
@@ -38574,7 +38884,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2374">Empresas</item>
@@ -38642,7 +38952,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2370">Empresas</item>
@@ -38723,7 +39033,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2358">Empresas</item>
@@ -38820,7 +39130,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/324" dbId="26267">
-            <nomeOrgao>Departamento de Polícia Federal (DPF) (DPF)</nomeOrgao>
+            <nomeOrgao>Departamento de Polícia Federal (DPF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2369">Cidadãos</item>
@@ -38887,7 +39197,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2334">Cidadãos</item>
@@ -38953,7 +39263,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2380">Empresas</item>
@@ -39023,7 +39333,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2361">Empresas</item>
@@ -39168,7 +39478,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2314">Empresas</item>
@@ -39235,7 +39545,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2342">Cidadãos</item>
@@ -39311,7 +39621,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2269">Cidadãos</item>
@@ -39377,7 +39687,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2338">Cidadãos</item>
@@ -39558,7 +39868,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2316">Empresas</item>
@@ -39668,7 +39978,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2307">Empresas</item>
@@ -39743,7 +40053,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2296">Empresas</item>
@@ -39830,7 +40140,7 @@ Endereço Eletrônico: http://www.mdic.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="2288">Cidadãos</item>
@@ -39912,7 +40222,7 @@ d) os eventos devem: (i) estar relacionados ao setor de comércio, serviços, in
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Indústria Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2277">Empresas</item>
@@ -40542,7 +40852,7 @@ Brasília-DF - CEP 70059-900</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2420">Empresas</item>
@@ -40775,7 +41085,7 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="2419">Empresas</item>
@@ -40795,57 +41105,6 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         </legislacoes>
     </servico>
     <servico>
-        <id>cadastrar-entidades-sindicais</id>
-        <dbId>572</dbId>
-        <nome>Cadastrar Entidades Sindicais</nome>
-        <sigla></sigla>
-        <descricao>Possibilita elaborar pedido de registro ou de alteração estatutária de entidade sindical e consultar entidades sindicais registradas, conforme Portaria/MTE n.º 326/2013.</descricao>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <tempo-total-estimado/>
-        <etapas>
-            <etapa id="1722">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2138" tipo="web">
-                            <descricao>[Solicitar Registro de Alteração Estatutária de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/alteracao-estatutaria.htm)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2137" tipo="web">
-                            <descricao>[Solicitar Registro de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/registro-sindical-sc.htm)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2136" tipo="web">
-                            <descricao>[Consultar a fila de distribuição de processos de registro sindical para análise.](http://www3.mte.gov.br/sistemas/sdp/consultadistribuicao.aspx)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2135" tipo="web">
-                            <descricao>[Recadastrar a entidade sindical.](http://portal.mte.gov.br/cnes/campanha-de-atualizacao-sindical-sr.htm)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2134" tipo="web">
-                            <descricao>http://portal.mte.gov.br/cnes/atualizacao-de-dados-perene-sd.htm</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2003">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2004">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Trabalho</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>homologar-rescisao-de-contrato-de-trabalho</id>
         <dbId>303</dbId>
         <nome>Homologar Rescisão de Contrato de Trabalho</nome>
@@ -40856,8 +41115,8 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         <descricao>Com este serviço você pode homologar a rescisão de seu contrato de trabalho, o que garante o direito de sacar o FGTS e dar entrada no Seguro Desemprego.</descricao>
         <contato>Central 158</contato>
         <gratuito>true</gratuito>
-        <porcentagem>50</porcentagem>
-        <porcentagem-manual>true</porcentagem-manual>
+        <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="824">
                 <tipo>Trabalhador</tipo>
@@ -40980,7 +41239,7 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
-            <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1555">Cidadãos</item>
@@ -41001,6 +41260,57 @@ A Diretoria de Serviço Militar (DSM) é o órgão de apoio técnico-normativo, 
         <legislacoes>
             <item id="646">[CLT](http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm)</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>cadastrar-entidades-sindicais</id>
+        <dbId>572</dbId>
+        <nome>Cadastrar Entidades Sindicais</nome>
+        <sigla></sigla>
+        <descricao>Possibilita elaborar pedido de registro ou de alteração estatutária de entidade sindical e consultar entidades sindicais registradas, conforme Portaria/MTE n.º 326/2013.</descricao>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <tempo-total-estimado/>
+        <etapas>
+            <etapa id="1722">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2138" tipo="web">
+                            <descricao>[Solicitar Registro de Alteração Estatutária de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/alteracao-estatutaria.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2137" tipo="web">
+                            <descricao>[Solicitar Registro de Entidade Sindical - CNES.](http://portal.mte.gov.br/cnes/registro-sindical-sc.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2136" tipo="web">
+                            <descricao>[Consultar a fila de distribuição de processos de registro sindical para análise.](http://www3.mte.gov.br/sistemas/sdp/consultadistribuicao.aspx)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2135" tipo="web">
+                            <descricao>[Recadastrar a entidade sindical.](http://portal.mte.gov.br/cnes/campanha-de-atualizacao-sindical-sr.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="2134" tipo="web">
+                            <descricao>http://portal.mte.gov.br/cnes/atualizacao-de-dados-perene-sd.htm</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+            <nomeOrgao>Ministério do Trabalho (MTB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2003">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2004">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Trabalho</item>
+        </areas-de-interesse>
     </servico>
     <servico>
         <id>emissao-de-certidao-de-tempo-de-contribuicao-para-ex-servidores-da-superintendencia-da-zona-franca-de-manaus</id>
@@ -41093,754 +41403,6 @@ Será encaminhado e-mail e/ou telefonema ao solicitante para informá-lo quanto 
         </palavras-chave>
         <legislacoes>
             <item id="501">Lei 8.112/90 e Lei 9.784/99</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>acerto-de-vinculos-e-remuneracoes-pra-fins-previdenciarios-a</id>
-        <dbId>635</dbId>
-        <nome>Acerto de Vínculos e Remunerações pra fins Previdenciários -A</nome>
-        <sigla>ddd</sigla>
-        <nomes-populares>
-            <item id="334">ddd</item>
-        </nomes-populares>
-        <descricao>Serviço que possibilita o acerto ou atualização das informações dos vínculos e remunerações constantes no Cadastro Nacional de Informações Sociais – CNIS referente ao empregado.
-
-* [Telefone](undefined): Ligue 135 para mais informações</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem>10</porcentagem>
-        <porcentagem-manual>true</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="403">
-                <tipo>aaa</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="1" unidade="minutos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1140">
-                <titulo>1111</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1398" tipo="web">
-                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1291">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1292">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Previdência Social</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1024">teste 1</item>
-            <item id="1025">teste 2</item>
-            <item id="1026">teste 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="308">11111</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>teste-fab</id>
-        <dbId>821</dbId>
-        <nome>teste fab</nome>
-        <sigla></sigla>
-        <descricao>sdfasdfa</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="827">
-                <tipo>asdfasdfa</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="4" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="2184">
-                <titulo>sdfgsdf</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2733" tipo="e-mail">
-                            <descricao>sdfgsdfg</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2045" dbId="37065">
-            <nomeOrgao>Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2429">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1960">sdfgsdf</item>
-            <item id="1961">sdfgsd</item>
-            <item id="1962">sdfg</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="652">sdfgsdfg</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>apoio-a-captacao-e-promocao-de-eventos-internacionais</id>
-        <dbId>236</dbId>
-        <nome>Apoio à Captação e Promoção de Eventos Internacionais</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="371">Captação de Eventos</item>
-            <item id="372">Promoção de Eventos</item>
-            <item id="373">MICE</item>
-            <item id="374">Negócios e Eventos</item>
-            <item id="375">Congressos</item>
-        </nomes-populares>
-        <descricao>O Programa destina-se ao apoio às ações de Captação e de Promoção de eventos internacionais (congressos, convenções, oficinas, fóruns, seminários, simpósios, assembleias, feiras, competições esportivas) que tenha o Brasil como o destino, através de apoio institucional ou por meio de projetos apresentados por entes públicos ou entidades privadas sem fins lucrativos.</descricao>
-        <contato>Wilson Freitas
-Divisão de Turismo de Negócios e eventos
-Telefone: 61 2023 8652
-Email: wilson.freitas@embratur.gov.br</contato>
-        <gratuito>true</gratuito>
-        <porcentagem>75</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="437">
-                <tipo>Entidades privadas sem fins lucrativos</tipo>
-                <requisitos>* Eventos com no mínimo 3 edições e periodicidade definida. 
-* Eventos que tenham alternado sua realização em pelo menos outros dois países distintos nas edições anteriores; 
-* Eventos internacionais ou competições esportivas, com média de 150 participantes nas edições anteriores, sendo pelo menos 25% de turistas estrangeiros. No caso de competições esportivas serão considerados como participantes os espectadores.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="0" unidade="minutos"/>
-            <descricao>Varia conforme apoio.</descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1265">
-                <titulo>Preenchimento da ficha de solicitação do apoio</titulo>
-                <descricao>O solicitante deverá identificar dentre as fichas contidas na portaria nº 62, de 30 de Junho de 2015 qual corresponde ao apoio desejado. Em seguida, deverá preenchê-la e enviar por e-mail à Embratur.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="194" descricao="Para apoio à Captação">
-                        <documento>
-                            <id>1236</id>
-                            <descricao>Declaração de exclusividade da cidade brasileira candidata</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="195" descricao="Para apoio à Captação de eventos esportivos">
-                        <documento>
-                            <id>1237</id>
-                            <descricao>Publicação de pelo menos cinco matérias jornalísticas em veículos não sediados no país que recebeu as edições anteriores.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1555" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1554" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1553" tipo="web-consultar">
-                            <descricao>http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1266">
-                <titulo>Envio da Ficha de solicitação de apoio</titulo>
-                <descricao>Após o preenchimento da ficha de solicitação de apoio, o solicitante deverá encaminhá-la por e-mail à divisão de turismo de negócios e eventos da EMBRATUR.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1557" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1556" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1267">
-                <titulo>Obter resultado da análise da ficha de solicitação de apoio</titulo>
-                <descricao>A EMBRATUR analisará a solicitação de apoio com base nos critérios exigidos na portaria nº 62 de 30 de Junho de 2015 e comunicará aos solicitantes o resultado, no prazo de até 10 dias.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1559" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1558" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1268">
-                <titulo>Envio das informações complementares - Insumo para realização do apoio</titulo>
-                <descricao>Após a aprovação da EMBRATUR o solicitante deverá enviar as informações necessárias para execução do apoio.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="196" descricao="Apoio Institucional - Para produção de Folder, Banner e Cartaz">
-                        <documento>
-                            <id>1238</id>
-                            <descricao>Carta convite - Carta da entidade ou informações específicas do evento que desejam promover</descricao>
-                        </documento>
-                        <documento>
-                            <id>1239</id>
-                            <descricao>Texto sobre a cidade sede do evento</descricao>
-                        </documento>
-                        <documento>
-                            <id>1240</id>
-                            <descricao>Logomarcas de apoiadores em alta resolução</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="197" descricao="Apoio Institucional - Para criação do ofício de Apoio Institucional">
-                        <documento>
-                            <id>1241</id>
-                            <descricao>Nome e cargo do Destinatário</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="198" descricao="Apoio Institucional - Para envio de brindes promocionais da EMBRATUR">
-                        <documento>
-                            <id>1242</id>
-                            <descricao>Nome, endereço completo, telefone e CPF/CNPJ do Destinatário</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="199" descricao="Apoio Institucional - Produção de Dossiê de Candidatura (Apoio à Captação)">
-                        <documento>
-                            <id>1243</id>
-                            <descricao>Conteúdo que comporá o Dossiê: infraestrutura da cidade, descritivo do proponente, projeto</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1561" tipo="telefone">
-                            <descricao>61 2023 8652</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1560" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1269">
-                <titulo>Finalização do Apoio</titulo>
-                <descricao>Relatório da ação de captação/promoção de evento internacional desenvolvida deverá ser apresentado para a Embratur no prazo de 10 dias úteis após o término da ação, conforme ANEXO V da Portaria nº 62,de 30 de Junho de 2015.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1244">Relatório da ação de captação ou promoção executada</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1562" tipo="e-mail">
-                            <descricao>wilson.freitas@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
-            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1459">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1460">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-            <item>Educação</item>
-            <item>Esporte profissional</item>
-            <item>Meio ambiente</item>
-            <item>Saúde</item>
-            <item>Turismo</item>
-            <item>Urbanismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1098">Captação</item>
-            <item id="1099">Promoção</item>
-            <item id="1100">Turismo</item>
-            <item id="1101">Congresso</item>
-            <item id="1102">MICE</item>
-            <item id="1103">Negócios e Eventos</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="334">**http://www.lex.com.br/legis_26967638_PORTARIA_N_62_DE_30_DE_JUNHO_DE_2015.aspx**</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>segunda-via-de-carteira-de-habilitacao</id>
-        <dbId>685</dbId>
-        <nome>Segunda via de Carteira de Habilitação</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="467">2ª via da CNH</item>
-            <item id="468">2ª via da Habilitação</item>
-        </nomes-populares>
-        <descricao>Serviço disponível para CNH emitida no Estado de Alagoas;
-
-O condutor com CNH expedida e domiciliado no Estado de Alagoas, que teve sua Carteira Nacional de Habilitação - CNH ou Permissão, perdida, extraviada, danificada, furtada, roubada, ou qualquer outro motivo que tenha inviabilizado a utilização da mesma, e pretende emitir um novo documento.
-
-SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos realizar o serviço de renovação da CNH assim a validade da CNH será maior.</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="533">
-                <tipo>Condutor</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="15" max="30" unidade="dias-corridos"/>
-            <descricao>O tempo médio para entrega do documento após o inicio da requisição varia entre 15 e 30 dias corridos.</descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1650">
-                <titulo>Emitir guia de recolhimento</titulo>
-                <descricao>Emitir a guia de recolhimento de 2ª via de CNH no site do DETRAN/AL ou no DETRAN Sede, CIRETRAN's (interior), SAC Arapiraca, Shopping Farol, Shopping Pátio Maceió ou JÁ CENTRO;</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="248" descricao="Roubo, Furto ou Extravio da CNH">
-                        <documento>
-                            <id>1432</id>
-                            <descricao>Nestes casos orientamos o seu comparecimento a uma Delegacia específica para providenciar
-                        boletim de ocorrência.</descricao>
-                        </documento>
-                        <documento>
-                            <id>1433</id>
-                            <descricao>Cópia autenticada em cartório ou cópia acompanhada de seu original de documento de
-                        identificação</descricao>
-                        </documento>
-                        <documento>
-                            <id>1434</id>
-                            <descricao>RG (Registro Geral) ou equivalente (CNH, Cart. Reservista, Cart. de Identidade Profissional,
-                        Passaporte e Cart. de Trabalho que conste o nº do RG)</descricao>
-                        </documento>
-                        <documento>
-                            <id>1435</id>
-                            <descricao>CPF - cadastro de pessoa física</descricao>
-                        </documento>
-                        <documento>
-                            <id>1436</id>
-                            <descricao>Comprovante de residência/Termo de Responsabilidade conforme portaria Nº 209/2013 DETRAN/AL</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2047" tipo="web">
-                            <descricao>http://www.detran.al.gov.br/habilitacao/servicos/2a-via-cnh</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1651">
-                <titulo>Pagar a guia de recolhimento</titulo>
-                <descricao>Efetuar o pagamento da guia de recolhimento no agente arrecadador</descricao>
-                <documentos>
-                    <default>
-                        <item id="1437">Guia emitida no site do DETRAN/AL ou em uma das unidades de atendimento</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="39">
-                            <descricao>Taxa da 2ª via de CNH</descricao>
-                            <moeda></moeda>
-                            <valor>9,471</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2048" tipo="presencial">
-                            <descricao>O usuário deve se dirigir a um agente arrecadador (Lotéricas, Agência Bancária, Internet Banking ou Mobile Banking)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1652">
-                <titulo>Receber o documento</titulo>
-                <descricao>Aguardar o envio da CNH para seu endereço, pelos Correios</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2049" tipo="postal">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1904">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1337">DETRAN</item>
-            <item id="1338">Alagoas</item>
-            <item id="1339">Habilitação</item>
-            <item id="1340">CNH</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="654">sdadasdsdsadasdasd</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>certidao-de-autorizacao-para-transferencia-cat</id>
-        <dbId>41</dbId>
-        <nome>Certidão de Autorização para Transferência (CAT)</nome>
-        <sigla></sigla>
-        <descricao>Este serviço permite a emissão da CAT, que será exigida pelos Cartórios para a elaboração da escritura e/ou registro de escrituras públicas tendo por objeto a transferência de imóveis pertencentes à União. A CAT assegura que o imóvel não se encontra em área de interesse da Administração Pública; que o transmitente está em dia com as obrigações junto à Secretaria do Patrimônio da União e que houve recolhimento do laudêmio ou a declaração de isenção de seu pagamento.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="683">
-                <tipo>Pessoa física ou jurídica</tipo>
-                <requisitos>Que tenha efetuado o pagamento do laudêmio (transações onerosas). Transações não onerosas, pessoa física carente ou pessoa jurídica com isenção: CAT poderá ser emitida sem o pagamento de laudêmio.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>Não há prazo estipulado</descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1975">
-                <titulo>Acesse o portal da SPU e preencha as informações solicitadas</titulo>
-                <descricao>Selecione o tipo de transação e insira o número do RIP e da FCL, após isso, clique no botão "OK".</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2454" tipo="web">
-                            <descricao>http://e-spu.planejamento.gov.br/#/conteudo/17</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2224">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2225">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Patrimônio</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1640">Certidão</item>
-            <item id="1641">Autorização</item>
-            <item id="1642">Transferência</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="524">Decreto-Lei 2.490/1940, Decreto-Lei 3.438/1941, Lei 5.666/1943, Decreto-Lei 9.760/1946, Lei 5.972/1973, Lei 6.015/1973, Decreto-Lei 2.398/1987, Decreto 95.760/1988, Lei 9.636/1988, ON/SPU/GEARP 001/2000. Decreto 3.725/2001. ON/SPU/GEANE 001/2002 e Portaria/SPU 293/2007.</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>consulta-a-situacao-dos-voos</id>
-        <dbId>485</dbId>
-        <nome>Consulta à Situação dos Voos</nome>
-        <sigla>CSV</sigla>
-        <descricao>O Infraero Voos Online é uma ferramenta que consolida informações dos principais aeroportos brasileiros a respeito da situação atual de seu voo. Ela possibilita o rastreio de status dos voos em tempo quase real.
-
-Além de consultar os horários de partidas e chegadas de voos, você também pode saber qual a distância de onde você está até o aeroporto para onde precisa ir e a previsão do tempo na cidade onde fica o aeroporto.
-
-Consulte, antes de sair de casa, para descobrir se seu voo está no horário</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="829">
-                <tipo>sadsadsad</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1604">
-                <titulo>dssdadsadsa</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1998" tipo="aplicativo-movel">
-                            <descricao>Instale o aplicativo Infraero Voos Online, disponível nas plataformas Android e Apple.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1997" tipo="web">
-                            <descricao>http://voos.infraero.gov.br/voos/index.aspx</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1842">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Cidadania</item>
-            <item>Trabalho</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1966">sdasd</item>
-            <item id="1967">dsad</item>
-            <item id="1968">dsadas</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="655">dsadsadsad</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>seguranca-servicos</id>
-        <dbId>822</dbId>
-        <nome>Segurança Serviços</nome>
-        <sigla>SS</sigla>
-        <nomes-populares>
-            <item id="646">Segurança</item>
-            <item id="647">Serviços</item>
-            <item id="648">X-MEN</item>
-        </nomes-populares>
-        <descricao>Segurança ++++++++++++++++ Serviços
-
-[Pagina UOL](https://www.uol.com.br)
-
-* Item 1
-* Item 2
-* Item 3</descricao>
-        <contato>Grande Segurança: 2211-3345</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="828">
-                <tipo>Grande Solicitante</tipo>
-                <requisitos>* Item 1
-* Item 2
-* Item 3</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <em-media max="4" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>1</quantidade>
-            <unidade>meses</unidade>
-            <descricao>Validade 
-
-*  Item 4
-*  Item 5</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="2185">
-                <titulo>Etapa Nova hdsfjdsfhjkjkfdshffdjhdfajahsdgjkafhshafjhgjkhfagjkfh</titulo>
-                <descricao>* Item 3
-* iTEM MILLLL</descricao>
-                <documentos>
-                    <default>
-                        <item id="2241">Documentafjdksjfklsjdkfjsdkljgklfjgkjfdksgjskdjfghkljsdhjkldfs jcvxnnxvcncmbnxv.c,bnm,vncb,mnxvcm,bnm,vxcnbm,nxvcm,bvm,cnbm,ncvm,n</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="89">
-                            <descricao>Teste ui</descricao>
-                            <moeda></moeda>
-                            <valor>1,000</valor>
-                        </custo>
-                    </default>
-                    <caso id="361" descricao="Caso seja um Goblin">
-                        <custo id="102">
-                            <descricao>Teste goblin</descricao>
-                            <moeda></moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </caso>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2736" tipo="web-acompanhar">
-                            <descricao>[Acompanhamento extrasensorial](https://planejamento.gov.br)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="2734" tipo="presencial">
-                            <descricao>Vila dos Seres Humanos</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="351" descricao="Caso seja um goblin">
-                        <canal-de-prestacao id="2735" tipo="presencial">
-                            <descricao>Vila dos goblins</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/27" dbId="34636">
-            <nomeOrgao>Gabinete de Segurança Institucional da Presidência da República (GSI-PR)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2430">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2431">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Politica econômica</item>
-            <item>Saneamento Básico Urbano</item>
-            <item>Segurança e Ordem Pública</item>
-            <item>Serviços Públicos</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1963">Marvel</item>
-            <item id="1964">DC</item>
-            <item id="1965">Aranha</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="653">Novos Serviços OOOOOOOOOOOOOO</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>servico-zteste</id>
-        <dbId>823</dbId>
-        <nome>Serviço - Zteste</nome>
-        <sigla></sigla>
-        <descricao>zteste</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="830">
-                <tipo>zteste</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="2186">
-                <titulo>zteste</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="2737" tipo="e-mail">
-                            <descricao>zteste</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
-            <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2432">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1969">zteste</item>
-            <item id="1970">zteste</item>
-            <item id="1971">zteste</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="656">zteste</item>
         </legislacoes>
     </servico>
 </servicos>
