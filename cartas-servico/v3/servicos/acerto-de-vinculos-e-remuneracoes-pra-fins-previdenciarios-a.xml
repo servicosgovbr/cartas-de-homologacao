@@ -46,7 +46,15 @@
                     <canal-de-prestacao id="1398" tipo="web">
                         <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
                     </canal-de-prestacao>
+                    <canal-de-prestacao id="2734" tipo="presencial">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
                 </default>
+                <caso id="348" descricao="Teste">
+                    <canal-de-prestacao id="2733" tipo="e-mail">
+                        <descricao>wads</descricao>
+                    </canal-de-prestacao>
+                </caso>
             </canais-de-prestacao>
         </etapa>
     </etapas>
