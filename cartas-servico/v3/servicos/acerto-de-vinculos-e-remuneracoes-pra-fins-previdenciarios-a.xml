@@ -23,7 +23,14 @@
         <entre min="1" max="1" unidade="minutos"/>
         <descricao></descricao>
     </tempo-total-estimado>
-    <validade-documento/>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>12</quantidade>
+        <unidade>dias</unidade>
+        <descricao>*teste*
+
+##Bla</descricao>
+    </validade-documento>
     <etapas>
         <etapa id="1140">
             <titulo>1111</titulo>
@@ -43,8 +50,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
-        <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930" dbId="37533">
+        <nomeOrgao>Ministério da Previdência Social (MPS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1291">Cidadãos</item>
@@ -52,7 +59,6 @@
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Previdência Social</item>
-        <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
         <item id="1024">teste 1</item>
