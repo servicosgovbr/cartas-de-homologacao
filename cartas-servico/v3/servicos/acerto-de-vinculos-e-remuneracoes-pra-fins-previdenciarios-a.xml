@@ -54,6 +54,9 @@
                     <canal-de-prestacao id="2733" tipo="e-mail">
                         <descricao>wads</descricao>
                     </canal-de-prestacao>
+                    <canal-de-prestacao id="2735" tipo="presencial">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
                 </caso>
             </canais-de-prestacao>
         </etapa>
