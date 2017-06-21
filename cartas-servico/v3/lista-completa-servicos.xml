@@ -46591,4 +46591,85 @@ Lei nº 8.955/94 - Contrato de franquia empresarial</item>
             <item id="735">Instrução Normativa RFB nº 1690, de 20 de fevereiro de 2017</item>
         </legislacoes>
     </servico>
+    <servico>
+        <id>servico-vitor-21-06</id>
+        <dbId>893</dbId>
+        <nome>Serviço Vitor 21-06</nome>
+        <sigla></sigla>
+        <descricao>Este serviço é massa
+
+1. vitor
+
+2. teste
+
+3. 10</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="920">
+                <tipo>solici</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>1</quantidade>
+            <unidade>meses</unidade>
+            <descricao>1. vitor
+
+2. teste
+
+3. 10</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="2321">
+                <titulo>etapa</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="2544">documento 1</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="94">
+                            <descricao>custo</descricao>
+                            <moeda></moeda>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2954" tipo="fax">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2626">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2627">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Biodiversidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2199">teste</item>
+            <item id="2200">tetse</item>
+            <item id="2201">trtfyt</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="736">normativo</item>
+        </legislacoes>
+    </servico>
 </servicos>
