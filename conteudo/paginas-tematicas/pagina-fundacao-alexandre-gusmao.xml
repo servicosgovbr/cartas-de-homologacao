@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica xmlns="http://servicos.gov.br/v3/schema">
+    <conteudo>Fundação Fundação</conteudo>
+    <dbId>22</dbId>
+    <nome>Pagina Fundação Alexandre Gusmão</nome>
+    <orgaos>
+        <orgao id="299" dbId="34299">
+            <nomeOrgao>Fundação Alexandre de Gusmão (FUNAG)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
