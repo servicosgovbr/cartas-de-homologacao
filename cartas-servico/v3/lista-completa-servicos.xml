@@ -46672,4 +46672,74 @@ Lei nº 8.955/94 - Contrato de franquia empresarial</item>
             <item id="736">normativo</item>
         </legislacoes>
     </servico>
+    <servico>
+        <id>servico-cau</id>
+        <dbId>894</dbId>
+        <nome>Servico CAU</nome>
+        <sigla>CAU</sigla>
+        <nomes-populares>
+            <item id="691">CAU</item>
+            <item id="692">CAU 1</item>
+            <item id="693">CAU 2</item>
+        </nomes-populares>
+        <descricao>Servico CAU Servico CAU Servico CAU Servico CAU</descricao>
+        <contato>conselho</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="921">
+                <tipo>Solicitante 2</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>meses</unidade>
+            <descricao>Teste</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="2322">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="2545">documentos</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="2955" tipo="fax">
+                            <descricao>fax canal</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/299" dbId="34299">
+            <nomeOrgao>Fundação Alexandre de Gusmão (FUNAG)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2628">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2202">cau 1</item>
+            <item id="2203">cau 2</item>
+            <item id="2204">cau 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="737">legislação</item>
+        </legislacoes>
+    </servico>
 </servicos>
