@@ -50,8 +50,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao dbId="58050">
-        <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/299" dbId="34299">
+        <nomeOrgao>Fundação Alexandre de Gusmão (FUNAG)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="2628">Cidadãos</item>
