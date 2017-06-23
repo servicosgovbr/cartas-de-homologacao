@@ -197,16 +197,16 @@ Obs2: O serviço dispensa o auxílio de advogado.</descricao>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="2238" tipo="postal">
-                            <descricao>Ministério da Justiça e Cidadania – Departamento de Migrações
-Esplanada dos Ministérios, Bloco T, anexo II, sala T3, Brasília - DF, CEP: 70.064-900.</descricao>
+                        <canal-de-prestacao id="2236" tipo="web">
+                            <descricao>http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_externo.jsf</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="2237" tipo="presencial">
                             <descricao>Ministério da Justiça e Cidadania – Departamento de Migrações
 Esplanada dos Ministérios, Bloco T, anexo II, sala T3, Brasília - DF.</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="2236" tipo="web">
-                            <descricao>http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_externo.jsf</descricao>
+                        <canal-de-prestacao id="2238" tipo="postal">
+                            <descricao>Ministério da Justiça e Cidadania – Departamento de Migrações
+Esplanada dos Ministérios, Bloco T, anexo II, sala T3, Brasília - DF, CEP: 70.064-900.</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -16857,127 +16857,6 @@ O SIMEI é a forma pela qual o microempreendedor individual (MEI) paga um valor 
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1499">Cidadãos</item>
         </segmentos-da-sociedade>
-    </servico>
-    <servico>
-        <id>cadastramento-de-empresa-estrategica-de-defesa</id>
-        <dbId>263</dbId>
-        <nome>Cadastramento de Empresa Estratégica de Defesa</nome>
-        <sigla></sigla>
-        <descricao>Certificação da empresa como de defesa ou estratégia de defesa.</descricao>
-        <contato>http://www.defesa.gov.br/industria-de-defesa</contato>
-        <gratuito>true</gratuito>
-        <porcentagem>0</porcentagem>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="444">
-                <tipo>Empresas candidatas</tipo>
-                <requisitos>Produzir bem ou serviço de interesse das Forças Armadas</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="6" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1296">
-                <titulo>Busca de Informações</titulo>
-                <descricao>A empresa interessada pesquisa na internet.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1253">Declaração de conteúdo nacional</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1597" tipo="presencial">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1297">
-                <titulo>Ligação com o CECAFA</titulo>
-                <descricao>A empresa interessada apresenta a documentação exigida ao CECAFA.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1254">A cargo do CECAFA</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1599" tipo="presencial">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1298">
-                <titulo>Ligação com as Força Armada</titulo>
-                <descricao>Empresa solicita apoio e aprovação da(s) Força(s)</descricao>
-                <documentos>
-                    <default>
-                        <item id="1255">A cargo da(s) Força(s) Armada(s)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1603" tipo="presencial">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1299">
-                <titulo>Exame do produto pela comissão</titulo>
-                <descricao>Em reuniões de especialistas e na plenária, os produtos são apreciados.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1256">A cargo do CMID</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1606" tipo="presencial">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
-            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1497">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comércio e Serviços</item>
-            <item>Compras governamentais</item>
-            <item>Defesa Nacional</item>
-            <item>Indústria</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1110">empresa</item>
-            <item id="1111">estratégia</item>
-            <item id="1112">defesa</item>
-            <item id="1113">produtos</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="337">Lei 12598/2013</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>extrato-do-processamento-da-dirpf-dirpf-declaracao-do-imposto-sobre-a-renda-da-pessoa-fisica-declaracoes-e-demonstrativos</id>
@@ -46740,6 +46619,128 @@ Lei nº 8.955/94 - Contrato de franquia empresarial</item>
         </palavras-chave>
         <legislacoes>
             <item id="737">legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>cadastramento-de-empresa-estrategica-de-defesa</id>
+        <dbId>263</dbId>
+        <nome>Cadastramento de Empresa Estratégica de Defesa</nome>
+        <sigla></sigla>
+        <descricao>Certificação da empresa como de defesa ou estratégia de defesa.</descricao>
+        <contato>http://www.defesa.gov.br/industria-de-defesa</contato>
+        <gratuito>true</gratuito>
+        <porcentagem>0</porcentagem>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="444">
+                <tipo>Empresas candidatas</tipo>
+                <requisitos>Produzir bem ou serviço de interesse das Forças Armadas</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="6" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1296">
+                <titulo>Busca de Informações</titulo>
+                <descricao>A empresa interessada pesquisa na internet.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1253">Declaração de conteúdo nacional</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1597" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1297">
+                <titulo>Ligação com o CECAFA</titulo>
+                <descricao>A empresa interessada apresenta a documentação exigida ao CECAFA.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1254">A cargo do CECAFA</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1599" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1298">
+                <titulo>Ligação com as Força Armada</titulo>
+                <descricao>Empresa solicita apoio e aprovação da(s) Força(s)</descricao>
+                <documentos>
+                    <default>
+                        <item id="1255">A cargo da(s) Força(s) Armada(s)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1603" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1299">
+                <titulo>Exame do produto pela comissão</titulo>
+                <descricao>Em reuniões de especialistas e na plenária, os produtos são apreciados.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1256">A cargo do CMID</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1606" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
+            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1497">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comércio e Serviços</item>
+            <item>Compras governamentais</item>
+            <item>Defesa Nacional</item>
+            <item>Indústria</item>
+            <item>Categoria Nova</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1110">empresa</item>
+            <item id="1111">estratégia</item>
+            <item id="1112">defesa</item>
+            <item id="1113">produtos</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="337">Lei 12598/2013</item>
         </legislacoes>
     </servico>
 </servicos>
