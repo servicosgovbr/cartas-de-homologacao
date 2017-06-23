@@ -7,7 +7,8 @@
     <descricao>Certificação da empresa como de defesa ou estratégia de defesa.</descricao>
     <contato>http://www.defesa.gov.br/industria-de-defesa</contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
+    <porcentagem>0</porcentagem>
+    <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
         <solicitante id="444">
             <tipo>Empresas candidatas</tipo>
@@ -97,7 +98,9 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="41066"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
+        <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="2" idServicoSegmento="1497">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
@@ -106,6 +109,7 @@
         <item>Defesa Nacional</item>
         <item>Comércio e Serviços</item>
         <item>Compras governamentais</item>
+        <item>Categoria Nova</item>
     </areas-de-interesse>
     <palavras-chave>
         <item id="1110">empresa</item>
