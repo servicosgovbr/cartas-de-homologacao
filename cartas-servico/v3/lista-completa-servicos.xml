@@ -135,7 +135,7 @@ Serão resultados desta etapa:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes Portos e Aviação Civil (MTPA)</nomeOrgao>
+            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1581">Cidadãos</item>
@@ -271,16 +271,16 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Cultura</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
-            <item>Cultura</item>
-            <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
             <item>Lazer</item>
             <item>Normalização e Qualidade</item>
-            <item>Patrimônio</item>
+            <item>Esporte e Lazer</item>
             <item>Turismo</item>
+            <item>Patrimônio</item>
+            <item>Infraestrutura Urbana</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="876">Turismo</item>
@@ -380,16 +380,16 @@ Email - incentivo.viagens@turismo.gov.br</contato>
             <item idSegmento="3" idServicoSegmento="1591">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Cidadania</item>
-            <item>Cultura</item>
-            <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
-            <item>Patrimônio</item>
             <item>Turismo</item>
+            <item>Cultura</item>
+            <item>Cidadania</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Lazer</item>
+            <item>Infraestrutura Urbana</item>
+            <item>Patrimônio</item>
+            <item>Normalização e Qualidade</item>
+            <item>Difusão Cultural</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="880">Acessibilidade</item>
@@ -730,14 +730,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Educação profissionalizante</item>
             <item>Esporte e Lazer</item>
             <item>Lazer</item>
+            <item>Turismo</item>
+            <item>Atendimento básico</item>
+            <item>Educação profissionalizante</item>
             <item>Relações de Trabalho</item>
             <item>Serviços Públicos</item>
             <item>Trabalho</item>
-            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="884">Guia de Turismo</item>
@@ -811,7 +811,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1598">Cidadãos</item>
@@ -924,86 +924,86 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                     <default/>
                     <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
                         <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
                         </documento>
                         <documento>
                             <id>907</id>
                             <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
                         </documento>
                         <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                     <caso id="239" descricao="Benefício com necessidade de acompanhante">
                         <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
                         </documento>
                         <documento>
                             <id>917</id>
                             <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
                         </documento>
                         <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -1048,7 +1048,7 @@ Serão resultados desta etapa:
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes Portos e Aviação Civil (MTPA)</nomeOrgao>
+            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1601">Cidadãos</item>
@@ -1117,7 +1117,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1602">Órgãos e entidades públicas</item>
@@ -1296,7 +1296,7 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1609">Cidadãos</item>
@@ -1380,7 +1380,7 @@ admpp.gesac@comunicacoes.gov.br
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="1612">Órgãos e entidades públicas</item>
@@ -1483,7 +1483,7 @@ Em até 12 meses após a publicação da autorização de uso de radiofrequênci
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1615">Empresas</item>
@@ -1572,7 +1572,7 @@ Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</de
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1618">Empresas</item>
@@ -1652,7 +1652,7 @@ Requisitos para obter o serviço: Encaminhar toda a documentação</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="4" idServicoSegmento="1619">Demais segmentos (ONGs, organizações sociais, etc)</item>
@@ -2248,7 +2248,7 @@ CEP 70064-901   Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1623">Cidadãos</item>
@@ -2327,7 +2327,7 @@ CEP 70064-901   Brasília/DF</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <areas-de-interesse>
             <item>Agropecuária</item>
@@ -2536,7 +2536,7 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
-            <nomeOrgao>Ministério do Desenvolvimento Social e Agrário (MDSA)</nomeOrgao>
+            <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="50">Cidadãos</item>
@@ -2685,7 +2685,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="51">Cidadãos</item>
@@ -2774,7 +2774,7 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="54">Empresas</item>
@@ -3130,7 +3130,7 @@ Cidades Digitais - Atendimento Geral - (61) 2027-6385/6341/6904</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="62">Cidadãos</item>
@@ -3209,7 +3209,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="65">Órgãos e entidades públicas</item>
@@ -3463,7 +3463,7 @@ PS: Dispensa o auxílio de advogado.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="68">Cidadãos</item>
@@ -3606,7 +3606,7 @@ Portaria 1.949/2015: Segue link: http://pesquisa.in.gov.br/imprensa/jsp/visualiz
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="792">Empresas</item>
@@ -5252,7 +5252,7 @@ Observação: A comunicação à Polícia Rodoviária Federal não dispensa o re
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="848">Cidadãos</item>
@@ -6146,7 +6146,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="874">Órgãos e entidades públicas</item>
@@ -6644,7 +6644,7 @@ Quem pode solicitar: o proprietário do veículo à época do pagamento da multa
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="885">Cidadãos</item>
@@ -7876,7 +7876,7 @@ E-mail: repnbl@comunicacoes.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="940">Empresas</item>
@@ -8217,7 +8217,7 @@ Portaria nº 55, de 12 de março de 2013</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="958">Empresas</item>
@@ -8301,7 +8301,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="955">Cidadãos</item>
@@ -9115,7 +9115,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="993">Cidadãos</item>
@@ -10674,7 +10674,7 @@ As séries podem ser consultadas individualmente, em grupos ou listas personaliz
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1129">Empresas</item>
@@ -11191,7 +11191,7 @@ As séries podem ser consultadas individualmente, em grupos ou listas personaliz
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
-            <nomeOrgao>Ministério do Desenvolvimento Social e Agrário (MDSA)</nomeOrgao>
+            <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1071">Cidadãos</item>
@@ -11274,7 +11274,7 @@ CAT - Certidão de Autorização para Transferência (CAT).</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1074">Cidadãos</item>
@@ -12268,7 +12268,7 @@ Brasília, DF - CEP: 70064-900</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1116">Cidadãos</item>
@@ -12592,7 +12592,7 @@ Brasília, DF - CEP: 70064-900</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1136">Empresas</item>
@@ -12649,7 +12649,7 @@ Há duas formas de solicitar o BPC: a pessoa pode agendar o atendimento diretame
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
-            <nomeOrgao>Ministério do Desenvolvimento Social e Agrário (MDSA)</nomeOrgao>
+            <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1137">Cidadãos</item>
@@ -13130,7 +13130,7 @@ Para aqueles que possuem bens de valor total igual ou superior a US$100.000.000,
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1153">Cidadãos</item>
@@ -14482,7 +14482,7 @@ cidades.digitais@comunicacoes.gov.br</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1213">Cidadãos</item>
@@ -14681,7 +14681,7 @@ Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes Portos e Aviação Civil (MTPA)</nomeOrgao>
+            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1218">Cidadãos</item>
@@ -14838,7 +14838,7 @@ Testando descrição.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1221">Cidadãos</item>
@@ -15323,7 +15323,7 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1333">Cidadãos</item>
@@ -15435,7 +15435,7 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1335">Cidadãos</item>
@@ -16654,7 +16654,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="1277">Empresas</item>
@@ -17510,7 +17510,7 @@ Também há uma lista das reclamações mais frequentes.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="578">Cidadãos</item>
@@ -18356,7 +18356,7 @@ CEP: 70716-900 - Brasília/DF - Brasil</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1314">Cidadãos</item>
@@ -19484,7 +19484,7 @@ Departamento Nacional de Infraestrutura de Transportes - DNIT, no endereço, S.A
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
-            <nomeOrgao>Ministério do Desenvolvimento Social e Agrário (MDSA)</nomeOrgao>
+            <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1350">Cidadãos</item>
@@ -20402,7 +20402,7 @@ Departamento Nacional de Infraestrutura de Transportes - DNIT, no endereço, S.A
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="611">Empresas</item>
@@ -20566,7 +20566,7 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
-            <nomeOrgao>Ministério do Desenvolvimento Social e Agrário (MDSA)</nomeOrgao>
+            <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="616">Cidadãos</item>
@@ -21644,7 +21644,7 @@ Telefone: (61) 2027-6000</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="633">Cidadãos</item>
@@ -22150,7 +22150,7 @@ O Programa Cisternas também leva às famílias de agricultores tecnologias de a
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
-            <nomeOrgao>Ministério do Desenvolvimento Social e Agrário (MDSA)</nomeOrgao>
+            <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="658">Cidadãos</item>
@@ -22274,7 +22274,7 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento Desenvolvimento e Gestão (MP)</nomeOrgao>
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="660">Cidadãos</item>
@@ -23221,7 +23221,7 @@ O sistema permite a atualização de cadastro de estações e dados climáticos 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura Pecuária e Abastecimento (MAPA)</nomeOrgao>
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="683">Cidadãos</item>
@@ -24362,7 +24362,7 @@ O SIMEI é a forma pela qual o microempreendedor individual (MEI) paga um valor 
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="717">Cidadãos</item>
@@ -24634,7 +24634,7 @@ Quanto vale hoje, corrigido pela inflação, o dinheiro utilizado no passado.</d
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="729">Cidadãos</item>
@@ -25167,7 +25167,7 @@ Telefone: (61) 2027-5379/6608/6969</contato>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência Tecnologia e Inovação e Comunicações (MCTIC)</nomeOrgao>
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="2" idServicoSegmento="742">Órgãos e entidades públicas</item>
@@ -25894,7 +25894,7 @@ Site: http://www.justica.gov.br/central-de-atendimento/estrangeiros/nacionalidad
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="767">Cidadãos</item>
@@ -26165,7 +26165,7 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Cidadania (MJC)</nomeOrgao>
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="4" idServicoSegmento="768">Demais segmentos (ONGs, organizações sociais, etc)</item>
@@ -26593,7 +26593,7 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura Pecuária e Abastecimento (MAPA)</nomeOrgao>
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="778">Cidadãos</item>
