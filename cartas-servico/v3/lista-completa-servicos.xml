@@ -294,115 +294,6 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
         </legislacoes>
     </servico>
     <servico>
-        <id>avaliar-estabelecimentos-servicos-acessiveis</id>
-        <dbId>4</dbId>
-        <nome>Avaliar estabelecimentos/serviços acessíveis</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="369">Turismo Acessível</item>
-            <item id="370">Guia Turismo Acessível</item>
-        </nomes-populares>
-        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações diversas. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
-
-Neste espaço você aprenderá a avaliar um estabelecimento ou atrativo turístico.</descricao>
-        <contato>Departamento de Marketing e Apoio à Comercialização  
-Coordenação de Produtos Turísticos   
-Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF
-Telefone: 61 2023-8165   
-Email - incentivo.viagens@turismo.gov.br</contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="300">
-                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="301">
-                <tipo>Público em geral</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="24" unidade="horas"/>
-            <descricao>As avaliações cadastradas no portal são submetidas a moderação do Ministério do Turismo, podendo levar algumas horas para serem publicadas.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1255">
-                <titulo>Cadastramento do Usuário no Portal</titulo>
-                <descricao>O cadastramento do usuário, efetuado por meio do portal Turismo Acessível - 
-[Cadastro do usuário](http://www.turismoacessivel.gov.br/ta/cadastroUsuario/cadastrarUsuario.mtur), o habilita a utilizá-lo e ter acesso às informações e funcionalidades básicas do site.  Após o cadastramento, o usuário estará habilitado a utilizar os recursos do Turismo Acessível, desde que haja aceitação prévia aos termos e condições de estabelecidos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1675" tipo="aplicativo-movel">
-                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1674" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1256">
-                <titulo>Avaliação dos serviços cadastrados</titulo>
-                <descricao>1- Pesquisar nome da cidade onde se encontra o estabelecimento ou atrativo que você quer avaliar;  
-2- Pesquisar nome do estabelecimento ou atrativo que desejar avaliar;  
-3- Selecionar estabelecimento ou atrativo listado;  
-4- Selecionar a perspectiva de Acessibilidade que você quer avaliar;  
-5- Responder as questões sobre local, infraestrutura de acesso, sinalização, equipamentos e equipe de atendimento;  
-6- Indicar nota, data da visita e avaliação sobre o empreendimento ou atrativo.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1676" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
-            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1588">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1589">Órgãos e entidades públicas</item>
-            <item idSegmento="4" idServicoSegmento="1590">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="3" idServicoSegmento="1591">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Esporte e Lazer</item>
-            <item>Turismo</item>
-            <item>Cultura</item>
-            <item>Cidadania</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Lazer</item>
-            <item>Infraestrutura Urbana</item>
-            <item>Patrimônio</item>
-            <item>Normalização e Qualidade</item>
-            <item>Difusão Cultural</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="880">Acessibilidade</item>
-            <item id="881">Turismo</item>
-            <item id="882">Pessoa com deficiência</item>
-            <item id="883">Viagens</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="289">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
-            <item id="290">[Norma Brasileira ABNT NBR 9050] (http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf)</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>acesso-aos-documentos-do-acervo-do-arquivo-legal</id>
         <dbId>5</dbId>
         <nome>Acesso aos documentos do Acervo do Arquivo Legal</nome>
@@ -1229,16 +1120,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
-            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
+            <item>Normalização e Qualidade</item>
+            <item>Lazer</item>
+            <item>Cultura</item>
+            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
@@ -15623,47 +15514,6 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>alteracao-cadastral-no-cnpj</id>
-        <dbId>296</dbId>
-        <nome>Alteração Cadastral no CNPJ</nome>
-        <sigla>endereço</sigla>
-        <descricao>Solicitar alteração no Cadastro Nacional da Pessoa Jurídica, acompanhado do Documento Básico de Entrada (DBE) e demais documentos necessários.</descricao>
-        <contato>Blog informativo com mais informações sobre [CNPJ](http://cartaocnpj.net) para empresas e como consultar o cartão e outras dicas úteis.</contato>
-        <gratuito>false</gratuito>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="970">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1188" tipo="web">
-                            <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/ConsulSitCadastralCNPJ.htm</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1244">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>melhor-em-casa-assistencia-domiciliar</id>
         <dbId>297</dbId>
         <nome>Melhor em Casa - Assistência Domiciliar</nome>
@@ -27139,5 +26989,159 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>alteracao-cadastral-no-cnpj</id>
+        <dbId>296</dbId>
+        <nome>Alteração Cadastral no CNPJ</nome>
+        <sigla>endereço</sigla>
+        <descricao>Solicitar alteração no Cadastro Nacional da Pessoa Jurídica, acompanhado do Documento Básico de Entrada (DBE) e demais documentos necessários.</descricao>
+        <contato>Blog informativo com mais informações sobre [CNPJ](http://cartaocnpj.net) para empresas e como consultar o cartão e outras dicas úteis.</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="970">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1188" tipo="web">
+                            <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/ConsulSitCadastralCNPJ.htm</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao dbId="58050">
+            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1244">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>avaliar-estabelecimentos-servicos-acessiveis</id>
+        <dbId>4</dbId>
+        <nome>Avaliar estabelecimentos/serviços acessíveis</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="369">Turismo Acessível</item>
+            <item id="370">Guia Turismo Acessível</item>
+        </nomes-populares>
+        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações diversas. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
+
+Neste espaço você aprenderá a avaliar um estabelecimento ou atrativo turístico.</descricao>
+        <contato>Departamento de Marketing e Apoio à Comercialização  
+Coordenação de Produtos Turísticos   
+Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF
+Telefone: 61 2023-8165   
+Email - incentivo.viagens@turismo.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="300">
+                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="301">
+                <tipo>Público em geral</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="24" unidade="horas"/>
+            <descricao>As avaliações cadastradas no portal são submetidas a moderação do Ministério do Turismo, podendo levar algumas horas para serem publicadas.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1255">
+                <titulo>Cadastramento do Usuário no Portal</titulo>
+                <descricao>O cadastramento do usuário, efetuado por meio do portal Turismo Acessível - 
+[Cadastro do usuário](http://www.turismoacessivel.gov.br/ta/cadastroUsuario/cadastrarUsuario.mtur), o habilita a utilizá-lo e ter acesso às informações e funcionalidades básicas do site.  Após o cadastramento, o usuário estará habilitado a utilizar os recursos do Turismo Acessível, desde que haja aceitação prévia aos termos e condições de estabelecidos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1675" tipo="aplicativo-movel">
+                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1674" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1256">
+                <titulo>Avaliação dos serviços cadastrados</titulo>
+                <descricao>1- Pesquisar nome da cidade onde se encontra o estabelecimento ou atrativo que você quer avaliar;  
+2- Pesquisar nome do estabelecimento ou atrativo que desejar avaliar;  
+3- Selecionar estabelecimento ou atrativo listado;  
+4- Selecionar a perspectiva de Acessibilidade que você quer avaliar;  
+5- Responder as questões sobre local, infraestrutura de acesso, sinalização, equipamentos e equipe de atendimento;  
+6- Indicar nota, data da visita e avaliação sobre o empreendimento ou atrativo.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1676" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao dbId="58050">
+            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1588">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1589">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="1590">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="3" idServicoSegmento="1591">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Cidadania</item>
+            <item>Cultura</item>
+            <item>Difusão Cultural</item>
+            <item>Esporte e Lazer</item>
+            <item>Infraestrutura Urbana</item>
+            <item>Lazer</item>
+            <item>Normalização e Qualidade</item>
+            <item>Patrimônio</item>
+            <item>Turismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="880">Acessibilidade</item>
+            <item id="881">Turismo</item>
+            <item id="882">Pessoa com deficiência</item>
+            <item id="883">Viagens</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="289">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
+            <item id="290">[Norma Brasileira ABNT NBR 9050] (http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf)</item>
+        </legislacoes>
     </servico>
 </servicos>
