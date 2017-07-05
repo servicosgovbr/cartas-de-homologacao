@@ -294,69 +294,6 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
         </legislacoes>
     </servico>
     <servico>
-        <id>acesso-aos-documentos-do-acervo-do-arquivo-legal</id>
-        <dbId>5</dbId>
-        <nome>Acesso aos documentos do Acervo do Arquivo Legal</nome>
-        <sigla>SPED</sigla>
-        <nomes-populares>
-            <item id="371">SPED CONTRIBUIÇÕES</item>
-        </nomes-populares>
-        <descricao>Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
-
-Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requisita e examina os documentos de seu interesse, sejam os manuscritos, os filmes, as fitas audiomagnéticas, as fotografias, os mapas e plantas ou os livros, periódicos, folh</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="302">
-                <tipo>Empresas</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="23" unidade="horas"/>
-            <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1257">
-                <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1680" tipo="e-mail">
-                            <descricao>Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1679" tipo="telefone">
-                            <descricao>Para atendimento a distância: (21) 2179-1257</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1678" tipo="e-mail">
-                            <descricao>Para atendimento a distância - consultas@arquivonacional.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1677" tipo="web">
-                            <descricao>http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&amp;sid=8</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
-            <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1592">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1593">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Proteção Social</item>
-            <item>Serviços Públicos</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-fisica-guia-de-turismo</id>
         <dbId>6</dbId>
         <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Física/Guia de Turismo</nome>
@@ -958,6 +895,79 @@ Serão resultados desta etapa:
         </palavras-chave>
         <legislacoes>
             <item id="301">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>acesso-aos-documentos-do-acervo-do-arquivo-legal</id>
+        <dbId>5</dbId>
+        <nome>Acesso aos documentos do Acervo do Arquivo Legal</nome>
+        <sigla>SPED</sigla>
+        <nomes-populares>
+            <item id="371">SPED CONTRIBUIÇÕES</item>
+        </nomes-populares>
+        <descricao>Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
+
+Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requisita e examina os documentos de seu interesse, sejam os manuscritos, os filmes, as fitas audiomagnéticas, as fotografias, os mapas e plantas ou os livros, periódicos, folh</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="302">
+                <tipo>Empresas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="23" unidade="horas"/>
+            <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1257">
+                <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1680" tipo="e-mail">
+                            <descricao>Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1679" tipo="telefone">
+                            <descricao>Para atendimento a distância: (21) 2179-1257</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1678" tipo="e-mail">
+                            <descricao>Para atendimento a distância - consultas@arquivonacional.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1677" tipo="web">
+                            <descricao>http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&amp;sid=8</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
+            <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1592">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1593">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Proteção Social</item>
+            <item>Serviços Públicos</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="959">sd</item>
+            <item id="960">ads</item>
+            <item id="961">ads</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="316">Teste</item>
         </legislacoes>
     </servico>
     <servico>
@@ -27142,6 +27152,99 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         <legislacoes>
             <item id="289">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
             <item id="290">[Norma Brasileira ABNT NBR 9050] (http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>solicitar-arquitetura-e-urbanismo</id>
+        <dbId>606</dbId>
+        <nome>Solicitar Arquitetura e Urbanismo</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="405">SAU</item>
+        </nomes-populares>
+        <descricao>Não aparece mais o "x" para fechar as mensagens.</descricao>
+        <contato>Telefone 1000</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="320">
+                <tipo>Solicitante SAU</tipo>
+                <requisitos>Não aparece mais o "x" para fechar as mensagens.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="3" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1292">
+                <titulo>Solicitar SAU</titulo>
+                <descricao>Solicitação do SAU na central do CAU</descricao>
+                <documentos>
+                    <default>
+                        <item id="967">Identidade</item>
+                        <item id="968">CPF</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1747" tipo="e-mail">
+                            <descricao>cau@cau.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1746" tipo="presencial">
+                            <descricao>Etapa Presencial</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1293">
+                <titulo>Receber Benefício</titulo>
+                <descricao>Benefício de Arquitetura</descricao>
+                <documentos>
+                    <default>
+                        <item id="969">Ordem de Serviço</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1748" tipo="presencial">
+                            <descricao>Local do endereço do solicitante</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao dbId="58050">
+            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1630">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1631">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Energia</item>
+            <item>Urbanismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="962">Urbanismo</item>
+            <item id="963">Melhoria</item>
+            <item id="964">Construção</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="317">Legislação 2011/10</item>
         </legislacoes>
     </servico>
 </servicos>
