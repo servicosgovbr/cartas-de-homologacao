@@ -7,5 +7,8 @@
         <orgao id="304" dbId="37534">
             <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
         </orgao>
+        <orgao id="1926" dbId="37526">
+            <nomeOrgao>Ministério da Cultura (MinC)</nomeOrgao>
+        </orgao>
     </orgaos>
 </pagina-tematica>
