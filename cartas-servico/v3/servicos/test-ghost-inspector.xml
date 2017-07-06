@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>test-ghost-inspector</id>
+    <dbId>612</dbId>
+    <nome>Test Ghost Inspector</nome>
+    <sigla>TGI</sigla>
+    <nomes-populares>
+        <item id="414">YEUIYEUYUYUY</item>
+        <item id="415">KJKLJKJKLJKJKJKJKLJL</item>
+        <item id="413">TTGHY</item>
+    </nomes-populares>
+    <descricao>SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
+SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
+SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc</descricao>
+    <contato>CONTATO VELHO CONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="322">
+            <tipo>Solicitante Novo Novo Novo</tipo>
+            <requisitos>Solicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo</requisitos>
+        </solicitante>
+        <solicitante id="323">
+            <tipo>Solicitante Velho Velho Velho</tipo>
+            <requisitos>Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="45" max="60" unidade="dias-corridos"/>
+        <descricao>CONTATO VELHO CONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATOCONTATO VELHO CONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATOCONTATO VELHO CONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATOCONTATO VELHO CONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO VELHOCONTATO</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>anos</unidade>
+        <descricao>SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
+SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1296">
+            <titulo>Etapa Nova 3</titulo>
+            <descricao>Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho</descricao>
+            <documentos>
+                <default>
+                    <item id="974">CPF</item>
+                    <item id="975">TESTE</item>
+                    <item id="976">IDENTIDADE</item>
+                    <item id="977">MUI</item>
+                    <item id="978">DOIDO</item>
+                </default>
+                <caso id="258" descricao="Novo Porte">
+                    <documento>
+                        <id>981</id>
+                        <descricao>Porte Novo</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="18">
+                        <descricao>Novo Custo</descricao>
+                        <moeda></moeda>
+                        <valor>10,000</valor>
+                    </custo>
+                </default>
+                <caso id="277" descricao="Porte">
+                    <custo id="37">
+                        <descricao>GRU</descricao>
+                        <moeda></moeda>
+                        <valor>200</valor>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1752" tipo="presencial">
+                        <descricao>Casa Velha</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1751" tipo="presencial">
+                        <descricao>Casa Nova</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="263" descricao="Porte Novo">
+                    <canal-de-prestacao id="1753" tipo="web">
+                        <descricao>Teste</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1297">
+            <titulo>Nova Etapa</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="25">
+                        <descricao>Velho</descricao>
+                        <moeda></moeda>
+                        <valor>10</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1754" tipo="postal">
+                        <descricao>Endereço novo</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+        <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1634">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1635">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="1636">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="1637">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Cidadania</item>
+        <item>Clima</item>
+        <item>Combate a epidemias</item>
+        <item>Compras governamentais</item>
+        <item>Policiamento</item>
+        <item>Pesquisa e Desenvolvimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="968">asdfasdf</item>
+        <item id="969">dfsdfsdfds</item>
+        <item id="970">dfdfdfdsfadfds</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="319">Legislação</item>
+    </legislacoes>
+</servico>
