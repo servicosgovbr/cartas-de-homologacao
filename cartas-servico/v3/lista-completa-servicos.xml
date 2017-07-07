@@ -752,86 +752,86 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                     <default/>
                     <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
                         <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
                         </documento>
                         <documento>
                             <id>907</id>
                             <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
                         </documento>
                         <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                     <caso id="239" descricao="Benefício com necessidade de acompanhante">
                         <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
                         </documento>
                         <documento>
                             <id>917</id>
                             <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
                         </documento>
                         <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -895,6 +895,69 @@ Serão resultados desta etapa:
         </palavras-chave>
         <legislacoes>
             <item id="301">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>acerto-de-vinculos-e-remuneracoes-pra-fins-previdenciarios-bb</id>
+        <dbId>555</dbId>
+        <nome>Acerto de Vínculos e Remunerações pra fins Previdenciários bb</nome>
+        <sigla>ddd</sigla>
+        <nomes-populares>
+            <item id="118">ddd</item>
+        </nomes-populares>
+        <descricao>Serviço que possibilita o acerto ou atualização das informações dos vínculos e remunerações constantes no Cadastro Nacional de Informações Sociais – CNIS referente ao empregado.
+
+* [Telefone](undefined): Ligue 135 para mais informações</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="108">
+                <tipo>aaa</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="1" unidade="minutos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="655">
+                <titulo>1111</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="797" tipo="web">
+                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930" dbId="37533">
+            <nomeOrgao>Ministério da Previdência Social (MPS)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="832">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="833">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Previdência Social</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="310">teste 1</item>
+            <item id="311">teste 2</item>
+            <item id="312">teste 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="95">11111</item>
         </legislacoes>
     </servico>
     <servico>
@@ -1130,16 +1193,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
+            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
+            <item>Lazer</item>
+            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
-            <item>Normalização e Qualidade</item>
-            <item>Lazer</item>
-            <item>Cultura</item>
-            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
