@@ -9,7 +9,7 @@
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
-        <solicitante id="333">
+        <solicitante id="334">
             <tipo>Solicitante Selenium</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -21,15 +21,15 @@
     <validade-documento/>
     <etapas>
         <etapa id="1298">
-            <titulo>Etapa 1 Selenium</titulo>
+            <titulo>Etapa 1 Selelnium</titulo>
             <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
             <custos>
                 <default>
-                    <custo id="42">
-                        <descricao>Custo Selenium</descricao>
+                    <custo id="43">
+                        <descricao>Custos Selenium</descricao>
                         <moeda></moeda>
                         <valor>10</valor>
                     </custo>
@@ -48,9 +48,9 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1638">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="1639">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="1640">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Atendimento básico</item>
@@ -59,9 +59,9 @@
         <item>Educação básica</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="971">Selenium palavra chave 1</item>
-        <item id="972">Selenium palavra chave 2</item>
-        <item id="973">Selenium palavra chave 3</item>
+        <item id="971">palavra chave 1</item>
+        <item id="972">palavra chave 2</item>
+        <item id="973">palavra chave 3</item>
     </palavras-chave>
     <legislacoes>
         <item id="320">Legislação</item>
