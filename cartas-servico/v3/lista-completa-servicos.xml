@@ -271,16 +271,16 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Cultura</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
+            <item>Cultura</item>
+            <item>Esporte e Lazer</item>
+            <item>Infraestrutura Urbana</item>
             <item>Lazer</item>
             <item>Normalização e Qualidade</item>
-            <item>Esporte e Lazer</item>
-            <item>Turismo</item>
             <item>Patrimônio</item>
-            <item>Infraestrutura Urbana</item>
+            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="876">Turismo</item>
@@ -558,14 +558,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Esporte e Lazer</item>
-            <item>Lazer</item>
-            <item>Turismo</item>
             <item>Atendimento básico</item>
             <item>Educação profissionalizante</item>
+            <item>Esporte e Lazer</item>
+            <item>Lazer</item>
             <item>Relações de Trabalho</item>
             <item>Serviços Públicos</item>
             <item>Trabalho</item>
+            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="884">Guia de Turismo</item>
@@ -16070,6 +16070,68 @@ O cadastramento estará disponível para o contribuinte que tem "imposto de rend
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>selenium-servico-1</id>
+        <dbId>614</dbId>
+        <nome>Selenium Serviço 1</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="442"></item>
+        </nomes-populares>
+        <descricao></descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <tempo-total-estimado>
+            <entre min="2" max="6" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>dias</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1299">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1757" tipo="web">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
+            <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1645">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Clima</item>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="974"></item>
+            <item id="975"></item>
+            <item id="976"></item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="321"></item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>emissao-de-gps-guia-da-previdencia-social-divida-ativa-pagamento-parcelamentos</id>
         <dbId>309</dbId>
         <nome>Emissão de GPS – Guia da Previdência Social - Dívida Ativa (Pagamento/Parcelamentos)</nome>
@@ -19132,74 +19194,6 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>selenium-servico</id>
-        <dbId>613</dbId>
-        <nome>Selenium Serviço</nome>
-        <sigla></sigla>
-        <descricao>Selenium teste descrição serviço</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="333">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1298">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="42">
-                            <descricao>Custo Selenium</descricao>
-                            <moeda></moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1755" tipo="presencial">
-                            <descricao>Canal Selenium</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1638">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1639">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1640">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Combate a desigualdade</item>
-            <item>Comunicações Postais</item>
-            <item>Educação básica</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="971">Selenium palavra chave 1</item>
-            <item id="972">Selenium palavra chave 2</item>
-            <item id="973">Selenium palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="320">Legislação</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>procuracao-para-servicos-na-internet</id>
