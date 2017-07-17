@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-criar-servico</id>
+    <dbId>616</dbId>
+    <nome>Selenium criar serviço</nome>
+    <sigla></sigla>
+    <descricao>Selenium criar serviço</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="338">
+            <tipo>Selenium criar serviço</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1300">
+            <titulo>Selenium criar serviço</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1758" tipo="e-mail">
+                        <descricao>Selenium criar serviço</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219925" dbId="58048">
+        <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1646">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="977">a</item>
+        <item id="978">b</item>
+        <item id="979">c</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="322">Selenium criar serviço</item>
+    </legislacoes>
+</servico>
