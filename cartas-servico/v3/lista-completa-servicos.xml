@@ -271,16 +271,16 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Cultura</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
-            <item>Cultura</item>
-            <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
             <item>Lazer</item>
             <item>Normalização e Qualidade</item>
-            <item>Patrimônio</item>
+            <item>Esporte e Lazer</item>
             <item>Turismo</item>
+            <item>Patrimônio</item>
+            <item>Infraestrutura Urbana</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="876">Turismo</item>
@@ -558,14 +558,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Educação profissionalizante</item>
             <item>Esporte e Lazer</item>
             <item>Lazer</item>
+            <item>Turismo</item>
+            <item>Atendimento básico</item>
+            <item>Educação profissionalizante</item>
             <item>Relações de Trabalho</item>
             <item>Serviços Públicos</item>
             <item>Trabalho</item>
-            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="884">Guia de Turismo</item>
@@ -752,86 +752,86 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                     <default/>
                     <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
                         <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
                         </documento>
                         <documento>
                             <id>907</id>
                             <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
                         </documento>
                         <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                     <caso id="239" descricao="Benefício com necessidade de acompanhante">
                         <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
                         </documento>
                         <documento>
                             <id>917</id>
                             <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
                         </documento>
                         <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -16070,68 +16070,6 @@ O cadastramento estará disponível para o contribuinte que tem "imposto de rend
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-servico-1</id>
-        <dbId>614</dbId>
-        <nome>Selenium Serviço 1</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="442"></item>
-        </nomes-populares>
-        <descricao></descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <tempo-total-estimado>
-            <entre min="2" max="6" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>2</quantidade>
-            <unidade>dias</unidade>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1299">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1757" tipo="web">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
-            <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1645">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Cidadania</item>
-            <item>Clima</item>
-            <item>Comercio externo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="974"></item>
-            <item id="975"></item>
-            <item id="976"></item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="321"></item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>emissao-de-gps-guia-da-previdencia-social-divida-ativa-pagamento-parcelamentos</id>
         <dbId>309</dbId>
         <nome>Emissão de GPS – Guia da Previdência Social - Dívida Ativa (Pagamento/Parcelamentos)</nome>
@@ -16502,66 +16440,6 @@ o com voçes...obrigado</descricao>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>acesso-aos-acervos-da-fundacao-nacional-do-indio</id>
-        <dbId>315</dbId>
-        <nome>Acesso aos Acervos da Fundação Nacional do Índio</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="207">Acervo Indígena</item>
-        </nomes-populares>
-        <descricao>A Fundação Nacional do Índio - FUNAI - tem como missão coordenar o processo de formulação e implementação da política indigenista do Estado brasileiro, instituindo mecanismos efetivos de controle social e de gestão participativa, visando à proteção e promoção dos direitos dos povos indígenas.
-
-Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus acervos são:
-
-- Acesso aos acervos arquivísticos (documentais) do fundo Serviço de Proteção ao Índio - SPI e aos acervos do p</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1001">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1241" tipo="presencial">
-                            <descricao>Para Acervos Etnográficos e Audiovisuais: Serviço de Referências Documentais do Museu do Índio Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1240" tipo="presencial">
-                            <descricao>Para Acervos Bibliográficos: Biblioteca Marechal Rondon Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1239" tipo="presencial">
-                            <descricao>Para Acervos Bibliográficos: Biblioteca Curt Nimuendaju SBS 02, lote 14, Ed. Cleto Meirelles 70070-120 BRASÍLIA - DF Telefones: (61) 3247-6549 / 3247-6551</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1238" tipo="presencial">
-                            <descricao>Para Acervos Arquivísticos (documentais): Serviço de Referências Documentais do Museu do Índio Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1237" tipo="presencial">
-                            <descricao>Para Acervos Arquivísticos (documentais): Serviço de Gestão Documental SBS 02, lote 14, Ed. Cleto Meirelles 1º Subsolo 70070-120 BRASÍLIA - DF Telefones: (61) 3247-6552 / 3247-6554</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1236" tipo="web">
-                            <descricao>http://base2.museudoindio.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/173" dbId="34311">
-            <nomeOrgao>Fundação Nacional do Índio (FUNAI)</nomeOrgao>
-        </orgao>
-        <areas-de-interesse>
-            <item>Proteção Social</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -19196,6 +19074,76 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>selenium-servico</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço</nome>
+        <sigla></sigla>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="336">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1298">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="44">
+                            <descricao>Custos Selenium</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1755" tipo="presencial">
+                            <descricao>Canal Selenium</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/37545" dbId="46740">
+            <nomeOrgao>Serviço de Saúde Coletiva (SSC/DSC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Combate a desigualdade</item>
+            <item>Comunicações Postais</item>
+            <item>Educação básica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="971">palavra chave 1</item>
+            <item id="972">palavra chave 2</item>
+            <item id="973">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="320">Legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>procuracao-para-servicos-na-internet</id>
         <dbId>357</dbId>
         <nome>Procuração para Serviços na Internet</nome>
@@ -21301,6 +21249,74 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>selenium-servico-1</id>
+        <dbId>614</dbId>
+        <nome>Selenium Serviço 1</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="444"></item>
+        </nomes-populares>
+        <descricao></descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="337">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="6" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>dias</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1299">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1757" tipo="web">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1645">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Clima</item>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="974"></item>
+            <item id="975"></item>
+            <item id="976"></item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="321"></item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>recuperar-recibo-regime-especial-de-apuracao-e-pagamento-da-contribuicao-para-o-pis-pasep-e-cofins-incidentes-sobre-combustiveis-e-bebidas</id>
         <dbId>419</dbId>
         <nome>Recuperar Recibo – Regime Especial de Apuração e Pagamento da Contribuição para o PIS/Pasep e Cofins
@@ -21421,6 +21437,65 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-criar-servico</id>
+        <dbId>616</dbId>
+        <nome>Selenium criar serviço</nome>
+        <sigla></sigla>
+        <descricao>Selenium criar serviço 123</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="339">
+                <tipo>Selenium criar serviço 123</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1301">
+                <titulo>Selenium criar serviço 123</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1759" tipo="e-mail">
+                            <descricao>Selenium criar serviço 123</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219925" dbId="58048">
+            <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1647">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="980">a</item>
+            <item id="981">b</item>
+            <item id="982">c</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="323">Selenium criar serviço 123</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>atualizacao-de-atividade-para-fins-previdenciarios</id>
@@ -27124,6 +27199,128 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>acesso-aos-acervos-da-fundacao-nacional-do-indio</id>
+        <dbId>315</dbId>
+        <nome>Acesso aos Acervos da Fundação Nacional do Índio</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="207">Acervo Indígena sdasdas</item>
+        </nomes-populares>
+        <descricao>A Fundação Nacional do Índio - FUNAI - tem como missão coordenar o processo de formulação e implementação da política indigenista do Estado brasileiro, instituindo mecanismos efetivos de controle social e de gestão participativa, visando à proteção e promoção dos direitos dos povos indígenas.
+
+Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus acervos são:
+
+- Acesso aos acervos arquivísticos (documentais) do fundo Serviço de Proteção ao Índio - SPI e aos acervos do p</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1001">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1241" tipo="presencial">
+                            <descricao>Para Acervos Etnográficos e Audiovisuais: Serviço de Referências Documentais do Museu do Índio Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1240" tipo="presencial">
+                            <descricao>Para Acervos Bibliográficos: Biblioteca Marechal Rondon Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1239" tipo="presencial">
+                            <descricao>Para Acervos Bibliográficos: Biblioteca Curt Nimuendaju SBS 02, lote 14, Ed. Cleto Meirelles 70070-120 BRASÍLIA - DF Telefones: (61) 3247-6549 / 3247-6551</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1238" tipo="presencial">
+                            <descricao>Para Acervos Arquivísticos (documentais): Serviço de Referências Documentais do Museu do Índio Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1237" tipo="presencial">
+                            <descricao>Para Acervos Arquivísticos (documentais): Serviço de Gestão Documental SBS 02, lote 14, Ed. Cleto Meirelles 1º Subsolo 70070-120 BRASÍLIA - DF Telefones: (61) 3247-6552 / 3247-6554</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1236" tipo="web">
+                            <descricao>http://base2.museudoindio.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/37545" dbId="46740">
+            <nomeOrgao>Serviço de Saúde Coletiva (SSC/DSC)</nomeOrgao>
+        </orgao>
+        <areas-de-interesse>
+            <item>Proteção Social</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-categoria-servico</id>
+        <dbId>617</dbId>
+        <nome>Selenium categoria serviço</nome>
+        <sigla></sigla>
+        <descricao>23</descricao>
+        <contato>dfsfsdfdsfdsf</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="340">
+                <tipo>dsasdda</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1302">
+                <titulo>dsadasd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1018">dsada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1760" tipo="fax">
+                            <descricao>sdsadasdsda</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <palavras-chave>
+            <item id="983">sadadsad</item>
+            <item id="984">sdadssad</item>
+            <item id="985">sdadsadsadsa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="324">sdsadsadsadas</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>alteracao-cadastral-no-cnpj</id>
