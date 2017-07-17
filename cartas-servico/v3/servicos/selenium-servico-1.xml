@@ -5,15 +5,15 @@
     <nome>Selenium Serviço 1</nome>
     <sigla>Sigla Selenium</sigla>
     <nomes-populares>
+        <item id="444">Popular 2</item>
         <item id="442">Popular 1</item>
-        <item id="443">Popular 2</item>
     </nomes-populares>
     <descricao>Selenium teste descrição serviço</descricao>
     <contato>Contato novo serviço</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
-        <solicitante id="335">
+        <solicitante id="337">
             <tipo>Solicitante Selenium</tipo>
             <requisitos>Requisitos Selelnium</requisitos>
         </solicitante>
@@ -34,9 +34,9 @@
             <descricao>Descrição Selenium</descricao>
             <documentos>
                 <default>
-                    <item id="1012">CPF</item>
-                    <item id="1013">Identidade</item>
-                    <item id="1014">Comprovante</item>
+                    <item id="1015">CPF</item>
+                    <item id="1016">Identidade</item>
+                    <item id="1017">Comprovante</item>
                 </default>
             </documentos>
             <custos>
