@@ -3,6 +3,6 @@ servico/consulta-situacao-do-requerimento-de-beneficio-previdenciario/novo
 servico/cadastro-unico-para-programas-sociais-do-governo-federal/novo
 pagina-tematica/documento-de-arrecadacao-de-receitas-federais-darf/novo
 servico/cadastro-no-sicaf/novo
-servico/obter-passe-livre/novo
-servico/solicitacao-de-restituicao-de-multa-dnit/novo
 servico/extrato-do-processamento-da-dmed/novo
+servico/obter-passe-livre
+servico/solicitacao-de-restituicao-de-multa-dnit
