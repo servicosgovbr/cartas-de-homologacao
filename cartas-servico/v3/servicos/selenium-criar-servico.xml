@@ -4,13 +4,13 @@
     <dbId>616</dbId>
     <nome>Selenium criar serviço</nome>
     <sigla></sigla>
-    <descricao>Selenium criar serviço</descricao>
+    <descricao>Selenium criar serviço 123</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
-        <solicitante id="338">
-            <tipo>Selenium criar serviço</tipo>
+        <solicitante id="339">
+            <tipo>Selenium criar serviço 123</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
@@ -22,8 +22,8 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1300">
-            <titulo>Selenium criar serviço</titulo>
+        <etapa id="1301">
+            <titulo>Selenium criar serviço 123</titulo>
             <descricao></descricao>
             <documentos>
                 <default/>
@@ -33,8 +33,8 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1758" tipo="e-mail">
-                        <descricao>Selenium criar serviço</descricao>
+                    <canal-de-prestacao id="1759" tipo="e-mail">
+                        <descricao>Selenium criar serviço 123</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -44,17 +44,17 @@
         <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1646">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="1647">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="977">a</item>
-        <item id="978">b</item>
-        <item id="979">c</item>
+        <item id="980">a</item>
+        <item id="981">b</item>
+        <item id="982">c</item>
     </palavras-chave>
     <legislacoes>
-        <item id="322">Selenium criar serviço</item>
+        <item id="323">Selenium criar serviço 123</item>
     </legislacoes>
 </servico>
