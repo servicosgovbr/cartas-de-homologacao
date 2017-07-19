@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>Teste XMLNS</conteudo>
+    <dbId>32</dbId>
+    <nome>Teste XMLNS</nome>
+    <orgaos>
+        <orgao id="219925" dbId="58048">
+            <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
+        </orgao>
+        <orgao id="244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
