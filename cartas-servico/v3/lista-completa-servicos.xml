@@ -898,69 +898,6 @@ Serão resultados desta etapa:
         </legislacoes>
     </servico>
     <servico>
-        <id>acerto-de-vinculos-e-remuneracoes-pra-fins-previdenciarios-bb</id>
-        <dbId>555</dbId>
-        <nome>Acerto de Vínculos e Remunerações pra fins Previdenciários bb</nome>
-        <sigla>ddd</sigla>
-        <nomes-populares>
-            <item id="118">ddd</item>
-        </nomes-populares>
-        <descricao>Serviço que possibilita o acerto ou atualização das informações dos vínculos e remunerações constantes no Cadastro Nacional de Informações Sociais – CNIS referente ao empregado.
-
-* [Telefone](undefined): Ligue 135 para mais informações</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="108">
-                <tipo>aaa</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="1" unidade="minutos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="655">
-                <titulo>1111</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="797" tipo="web">
-                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930" dbId="37533">
-            <nomeOrgao>Ministério da Previdência Social (MPS)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="832">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="833">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Previdência Social</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="310">teste 1</item>
-            <item id="311">teste 2</item>
-            <item id="312">teste 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="95">11111</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>acesso-aos-documentos-do-acervo-do-arquivo-legal</id>
         <dbId>5</dbId>
         <nome>Acesso aos documentos do Acervo do Arquivo Legal</nome>
@@ -1193,16 +1130,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
-            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
+            <item>Normalização e Qualidade</item>
+            <item>Lazer</item>
+            <item>Cultura</item>
+            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
@@ -19074,76 +19011,6 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-servico</id>
-        <dbId>613</dbId>
-        <nome>Selenium Serviço</nome>
-        <sigla></sigla>
-        <descricao>Selenium teste descrição serviço</descricao>
-        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="336">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1298">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="44">
-                            <descricao>Custos Selenium</descricao>
-                            <moeda></moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1755" tipo="presencial">
-                            <descricao>Canal Selenium</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/37545" dbId="46740">
-            <nomeOrgao>Serviço de Saúde Coletiva (SSC/DSC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Combate a desigualdade</item>
-            <item>Comunicações Postais</item>
-            <item>Educação básica</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="971">palavra chave 1</item>
-            <item id="972">palavra chave 2</item>
-            <item id="973">palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="320">Legislação</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>procuracao-para-servicos-na-internet</id>
         <dbId>357</dbId>
         <nome>Procuração para Serviços na Internet</nome>
@@ -21252,36 +21119,41 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         <id>selenium-servico-1</id>
         <dbId>614</dbId>
         <nome>Selenium Serviço 1</nome>
-        <sigla></sigla>
+        <sigla>Sigla Selenium</sigla>
         <nomes-populares>
-            <item id="444"></item>
+            <item id="445">Popular 2</item>
+            <item id="444">Popular 1</item>
         </nomes-populares>
-        <descricao></descricao>
-        <contato></contato>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato>Contato novo serviço</contato>
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
             <solicitante id="337">
                 <tipo>Solicitante Selenium</tipo>
-                <requisitos></requisitos>
+                <requisitos>Requisitos Selelnium</requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
             <entre min="2" max="6" unidade="horas"/>
-            <descricao></descricao>
+            <descricao>Muito tempo</descricao>
         </tempo-total-estimado>
         <validade-documento>
             <tipo>Válido por</tipo>
             <quantidade>2</quantidade>
             <unidade>dias</unidade>
-            <descricao></descricao>
+            <descricao>Informações válidas selenium</descricao>
         </validade-documento>
         <etapas>
             <etapa id="1299">
                 <titulo>Etapa 1 Selenium</titulo>
-                <descricao></descricao>
+                <descricao>Descrição Selenium</descricao>
                 <documentos>
-                    <default/>
+                    <default>
+                        <item id="1019">CPF</item>
+                        <item id="1020">Identidade</item>
+                        <item id="1021">Comprovante</item>
+                    </default>
                 </documentos>
                 <custos>
                     <default/>
@@ -21289,7 +21161,7 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
                 <canais-de-prestacao>
                     <default>
                         <canal-de-prestacao id="1757" tipo="web">
-                            <descricao></descricao>
+                            <descricao>[Canal web](http://www.google.com.br)</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -21308,12 +21180,12 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
             <item>Comercio externo</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="974"></item>
-            <item id="975"></item>
-            <item id="976"></item>
+            <item id="974">palavra chave 1</item>
+            <item id="975">palavra chave 2</item>
+            <item id="976">palavra chave 3</item>
         </palavras-chave>
         <legislacoes>
-            <item id="321"></item>
+            <item id="321">Legislação</item>
         </legislacoes>
     </servico>
     <servico>
@@ -21437,65 +21309,6 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>selenium-criar-servico</id>
-        <dbId>616</dbId>
-        <nome>Selenium criar serviço</nome>
-        <sigla></sigla>
-        <descricao>Selenium criar serviço 123</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="339">
-                <tipo>Selenium criar serviço 123</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1301">
-                <titulo>Selenium criar serviço 123</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1759" tipo="e-mail">
-                            <descricao>Selenium criar serviço 123</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219925" dbId="58048">
-            <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1647">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="980">a</item>
-            <item id="981">b</item>
-            <item id="982">c</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="323">Selenium criar serviço 123</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>atualizacao-de-atividade-para-fins-previdenciarios</id>
@@ -27268,7 +27081,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <id>selenium-categoria-servico</id>
         <dbId>617</dbId>
         <nome>Selenium categoria serviço</nome>
-        <sigla></sigla>
+        <sigla>hfhghg sgsdgsd</sigla>
         <descricao>23</descricao>
         <contato>dfsfsdfdsfdsf</contato>
         <gratuito>true</gratuito>
@@ -27320,6 +27133,79 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </palavras-chave>
         <legislacoes>
             <item id="324">sdsadsadsadas</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="446"></item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço publicador</descricao>
+        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="336">
+                <tipo>Solicitante Selenium publicador</tipo>
+                <requisitos>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1298">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="44">
+                            <descricao>Custos Selenium publicador</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1755" tipo="presencial">
+                            <descricao>Canal Selenium publicador</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Combate a desigualdade</item>
+            <item>Comunicações Postais</item>
+            <item>Educação básica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="971">palavra chave 1 publicador</item>
+            <item id="972">palavra chave 2 publicador</item>
+            <item id="973">palavra chave 3 publicador</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="320">Legislação publicador</item>
         </legislacoes>
     </servico>
     <servico>
