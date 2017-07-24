@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-servico-ponto-focal</id>
+    <dbId>618</dbId>
+    <nome>Selenium Serviço Ponto Focal</nome>
+    <sigla></sigla>
+    <descricao>Selenium teste descrição serviço ponto focal</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="343">
+            <tipo>Solicitante Selenium ponto focal</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1303">
+            <titulo>Etapa 1 Selenium ponto focal</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="46">
+                        <descricao>Custos Selenium ponto focal</descricao>
+                        <moeda></moeda>
+                        <valor>10</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1761" tipo="presencial">
+                        <descricao>Canal Selenium ponto focal</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1649">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1650">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Atendimento básico</item>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="992">palavra chave 1 ponto focal</item>
+        <item id="993">palavra chave 2 ponto focal</item>
+        <item id="994">palavra chave 3  ponto focal</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="327">Legislação  ponto focal</item>
+    </legislacoes>
+</servico>
