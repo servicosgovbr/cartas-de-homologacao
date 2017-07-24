@@ -271,16 +271,16 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Cultura</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
-            <item>Cultura</item>
-            <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
             <item>Lazer</item>
             <item>Normalização e Qualidade</item>
-            <item>Patrimônio</item>
+            <item>Esporte e Lazer</item>
             <item>Turismo</item>
+            <item>Patrimônio</item>
+            <item>Infraestrutura Urbana</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="876">Turismo</item>
@@ -558,14 +558,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Educação profissionalizante</item>
             <item>Esporte e Lazer</item>
             <item>Lazer</item>
+            <item>Turismo</item>
+            <item>Atendimento básico</item>
+            <item>Educação profissionalizante</item>
             <item>Relações de Trabalho</item>
             <item>Serviços Públicos</item>
             <item>Trabalho</item>
-            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="884">Guia de Turismo</item>
@@ -752,86 +752,86 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                     <default/>
                     <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
                         <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
                         </documento>
                         <documento>
                             <id>907</id>
                             <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
                         </documento>
                         <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                     <caso id="239" descricao="Benefício com necessidade de acompanhante">
                         <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
                         </documento>
                         <documento>
                             <id>917</id>
                             <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
                         </documento>
                         <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -1130,16 +1130,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
-            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
+            <item>Normalização e Qualidade</item>
+            <item>Lazer</item>
+            <item>Cultura</item>
+            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
@@ -21116,6 +21116,73 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>selenium-servico-ponto-focal</id>
+        <dbId>618</dbId>
+        <nome>Selenium Serviço Ponto Focal</nome>
+        <sigla></sigla>
+        <descricao>Selenium teste descrição serviço ponto focal</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="343">
+                <tipo>Solicitante Selenium ponto focal</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1303">
+                <titulo>Etapa 1 Selenium ponto focal</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="46">
+                            <descricao>Custos Selenium ponto focal</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1761" tipo="presencial">
+                            <descricao>Canal Selenium ponto focal</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1649">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1650">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Atendimento básico</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="992">palavra chave 1 ponto focal</item>
+            <item id="993">palavra chave 2 ponto focal</item>
+            <item id="994">palavra chave 3  ponto focal</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="327">Legislação  ponto focal</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>selenium-servico-1</id>
         <dbId>614</dbId>
         <nome>Selenium Serviço 1</nome>
@@ -21180,9 +21247,9 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
             <item>Comercio externo</item>
         </areas-de-interesse>
         <palavras-chave>
+            <item id="974">palavra chave 3</item>
+            <item id="975">palavra chave 2</item>
             <item id="976">palavra chave 3</item>
-            <item id="974">palavra chave 2</item>
-            <item id="975">palavra chave 3</item>
         </palavras-chave>
         <legislacoes>
             <item id="321">Legislação</item>
@@ -21309,6 +21376,72 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-servico-publicador</id>
+        <dbId>619</dbId>
+        <nome>Selenium Serviço Publicador</nome>
+        <sigla></sigla>
+        <descricao>Selenium teste descrição serviço publicador</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="341">
+                <tipo>Solicitante Selenium publicador</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1304">
+                <titulo>Etapa 1 Selenium Publicador</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="45">
+                            <descricao>Custos Selenium publicador</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1762" tipo="presencial">
+                            <descricao>Canal Selenium publicador</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="986">palavra chave 1 publicador</item>
+            <item id="987">palavra chave 2 publicador</item>
+            <item id="988">palavra chave 3 publicador</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="325">Legislação publicador</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>atualizacao-de-atividade-para-fins-previdenciarios</id>
@@ -27134,6 +27267,79 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <areas-de-interesse>
             <item>Proteção Social</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-servico</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="446"></item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="336">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1298">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="44">
+                            <descricao>Custos Selenium</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1755" tipo="presencial">
+                            <descricao>Canal Selenium</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Combate a desigualdade</item>
+            <item>Comunicações Postais</item>
+            <item>Educação básica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="971">palavra chave 1</item>
+            <item id="972">palavra chave 2</item>
+            <item id="973">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="320">Legislação</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>alteracao-cadastral-no-cnpj</id>
