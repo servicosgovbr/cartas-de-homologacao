@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-servico-publicador</id>
+    <dbId>619</dbId>
+    <nome>Selenium Serviço Publicador</nome>
+    <sigla></sigla>
+    <descricao>Selenium teste descrição serviço publicador</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="341">
+            <tipo>Solicitante Selenium publicador</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1304">
+            <titulo>Etapa 1 Selenium Publicador</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="45">
+                        <descricao>Custos Selenium publicador</descricao>
+                        <moeda></moeda>
+                        <valor>10</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1762" tipo="presencial">
+                        <descricao>Canal Selenium publicador</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="986">palavra chave 1 publicador</item>
+        <item id="987">palavra chave 2 publicador</item>
+        <item id="988">palavra chave 3 publicador</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="325">Legislação publicador</item>
+    </legislacoes>
+</servico>
