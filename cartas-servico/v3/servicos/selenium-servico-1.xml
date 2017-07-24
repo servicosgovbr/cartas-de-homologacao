@@ -5,8 +5,8 @@
     <nome>Selenium Serviço 1</nome>
     <sigla>Sigla Selenium</sigla>
     <nomes-populares>
+        <item id="445">Popular 1</item>
         <item id="444">Popular 2</item>
-        <item id="442">Popular 1</item>
     </nomes-populares>
     <descricao>Selenium teste descrição serviço</descricao>
     <contato>Contato novo serviço</contato>
@@ -34,9 +34,9 @@
             <descricao>Descrição Selenium</descricao>
             <documentos>
                 <default>
-                    <item id="1015">CPF</item>
-                    <item id="1016">Identidade</item>
-                    <item id="1017">Comprovante</item>
+                    <item id="1019">CPF</item>
+                    <item id="1020">Identidade</item>
+                    <item id="1021">Comprovante</item>
                 </default>
             </documentos>
             <custos>
@@ -51,8 +51,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
-        <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
@@ -64,7 +64,7 @@
         <item>Comercio externo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="974">palavra chave 1</item>
+        <item id="974">palavra chave 3</item>
         <item id="975">palavra chave 2</item>
         <item id="976">palavra chave 3</item>
     </palavras-chave>
