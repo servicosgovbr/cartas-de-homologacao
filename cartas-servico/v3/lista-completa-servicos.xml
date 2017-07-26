@@ -2191,80 +2191,6 @@ CEP 70064-901   Brasília/DF</descricao>
         </orgao>
     </servico>
     <servico>
-        <id>biblioteca-digital-do-desenvolvimento-bibspi</id>
-        <dbId>19</dbId>
-        <nome>Biblioteca Digital do Desenvolvimento - BibSPI</nome>
-        <sigla></sigla>
-        <descricao>A Biblioteca Digital do Desenvolvimento (BibSPI) é um serviço que centraliza conteúdos, de acesso livre e em formato digital, sobre o planejamento público para o desenvolvimento do Brasil. Ela disponibiliza publicações de vários órgãos das esferas federal, estadual e municipal, entre eles: planos de governo, relatórios, projetos, textos para discussões e artigos, entre outros, que estão organizados em 89 coleções temáticas. O conteúdo pode ser pesquisado por texto livre, ou por coleção, data, au</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="318">
-                <tipo></tipo>
-                <requisitos>Não há necessidade de cadastro do usuário para acesso. O conteúdo disponibilizado na BibSPI é livre.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1290">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1744" tipo="web">
-                            <descricao>http://bibspi.planejamento.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-            <item>Comércio e Serviços</item>
-            <item>Comunicações</item>
-            <item>Economia e Finanças</item>
-            <item>Educação</item>
-            <item>Esporte e Lazer</item>
-            <item>Habitação</item>
-            <item>Indústria</item>
-            <item>Meio ambiente</item>
-            <item>Previdência Social</item>
-            <item>Proteção Social</item>
-            <item>Proteção Social</item>
-            <item>Proteção e Benefícios ao Trabalhador</item>
-            <item>Recursos humanos</item>
-            <item>Relações Internacionais</item>
-            <item>Saúde</item>
-            <item>Segurança e Ordem Pública</item>
-            <item>Serviços Públicos</item>
-            <item>Sistema Financeiro</item>
-            <item>Trabalho</item>
-            <item>Transportes</item>
-            <item>Urbanismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="948">Biblioteca</item>
-            <item id="949">Biblioteca digital</item>
-            <item id="950">Desenvolvimento</item>
-            <item id="951">Planejamento</item>
-            <item id="952">Planejamento público</item>
-            <item id="953">Planejamento federal</item>
-            <item id="954">Repositório</item>
-        </palavras-chave>
-    </servico>
-    <servico>
         <id>consultar-eventos-turisticos-no-brasil</id>
         <dbId>20</dbId>
         <nome>Consultar eventos Turísticos no Brasil</nome>
@@ -2964,7 +2890,7 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT/MT)</nomeOrgao>
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="59">Cidadãos</item>
@@ -3644,7 +3570,7 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT/MT)</nomeOrgao>
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="811">Empresas</item>
@@ -7456,7 +7382,7 @@ Quem pode solicitar: o proprietário do veículo à época do pagamento da multa
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT/MT)</nomeOrgao>
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="926">Cidadãos</item>
@@ -10536,63 +10462,6 @@ As séries podem ser consultadas individualmente, em grupos ou listas personaliz
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simei</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEI</nome>
-        <sigla>MTco</sigla>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="155">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="1" unidade="horas"/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="889">
-                <titulo>a</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1085" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1129">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1130">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="424">a</item>
-            <item id="425">a</item>
-            <item id="426">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="141">a</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>entreposto-industrial-recof-habilitacao</id>
@@ -15524,6 +15393,68 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>admissao-temporaria-concessao</id>
+        <dbId>461</dbId>
+        <nome>Admissão Temporária - Concessão</nome>
+        <sigla>Repositor</sigla>
+        <nomes-populares>
+            <item id="98">Repositor df</item>
+        </nomes-populares>
+        <descricao></descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="86">
+                <tipo>Qualquer Empresa</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="5" max="6" unidade="meses"/>
+            <descricao>Preciso de um Emprego e um temporário até encontrar um CLT</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="523">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="642" tipo="web">
+                            <descricao>http://www.receita.fazenda.gov.br/Aduana/RegAdmExportTemp/RegAdm/RegEspAdmTemp.htm</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="667">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="668">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Empregabilidade</item>
+            <item>Relações de Trabalho</item>
+            <item>Trabalho</item>
+            <item>Transporte Aéreo</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transportes</item>
+            <item>Turismo</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
         <id>melhor-em-casa-assistencia-domiciliar</id>
         <dbId>297</dbId>
         <nome>Melhor em Casa - Assistência Domiciliar</nome>
@@ -16378,6 +16309,67 @@ o com voçes...obrigado</descricao>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simei</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEI</nome>
+        <sigla>MTco gjhj</sigla>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="155">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="1" unidade="horas"/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="889">
+                <titulo>a</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1085" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1129">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1130">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="424">a</item>
+            <item id="425">a</item>
+            <item id="426">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="141">a</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>orientacoes-gerais-sobre-isencao-de-contribuicoes-sociais</id>
@@ -17523,7 +17515,7 @@ Também há uma lista das reclamações mais frequentes.</descricao>
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT/MT)</nomeOrgao>
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="585">Cidadãos</item>
@@ -19011,6 +19003,84 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>biblioteca-digital-do-desenvolvimento-bibspi</id>
+        <dbId>19</dbId>
+        <nome>Biblioteca Digital do Desenvolvimento - BibSPI</nome>
+        <sigla>BI</sigla>
+        <descricao>A Biblioteca Digital do Desenvolvimento (BibSPI) é um serviço que centraliza conteúdos, de acesso livre e em formato digital, sobre o planejamento público para o desenvolvimento do Brasil. Ela disponibiliza publicações de vários órgãos das esferas federal, estadual e municipal, entre eles: planos de governo, relatórios, projetos, textos para discussões e artigos, entre outros, que estão organizados em 89 coleções temáticas. O conteúdo pode ser pesquisado por texto livre, ou por coleção, data, au</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="318">
+                <tipo></tipo>
+                <requisitos>Não há necessidade de cadastro do usuário para acesso. O conteúdo disponibilizado na BibSPI é livre.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1290">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1744" tipo="web">
+                            <descricao>http://bibspi.planejamento.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Comércio e Serviços</item>
+            <item>Comunicações</item>
+            <item>Economia e Finanças</item>
+            <item>Educação</item>
+            <item>Esporte e Lazer</item>
+            <item>Habitação</item>
+            <item>Indústria</item>
+            <item>Meio ambiente</item>
+            <item>Previdência Social</item>
+            <item>Proteção Social</item>
+            <item>Proteção Social</item>
+            <item>Proteção e Benefícios ao Trabalhador</item>
+            <item>Recursos humanos</item>
+            <item>Relações Internacionais</item>
+            <item>Saúde</item>
+            <item>Segurança e Ordem Pública</item>
+            <item>Serviços Públicos</item>
+            <item>Sistema Financeiro</item>
+            <item>Trabalho</item>
+            <item>Transportes</item>
+            <item>Urbanismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="948">Biblioteca</item>
+            <item id="949">Biblioteca digital</item>
+            <item id="950">Desenvolvimento</item>
+            <item id="951">Planejamento</item>
+            <item id="952">Planejamento público</item>
+            <item id="953">Planejamento federal</item>
+            <item id="954">Repositório</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>procuracao-para-servicos-na-internet</id>
         <dbId>357</dbId>
         <nome>Procuração para Serviços na Internet</nome>
@@ -19191,7 +19261,7 @@ Departamento Nacional de Infraestrutura de Transportes - DNIT, no endereço, S.A
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT/MT)</nomeOrgao>
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1345">Cidadãos</item>
@@ -21116,10 +21186,86 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>selenium-servico</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="446"></item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="336">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1298">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="44">
+                            <descricao>Custos Selenium</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1755" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Combate a desigualdade</item>
+            <item>Comunicações Postais</item>
+            <item>Educação básica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="971">palavra chave 1</item>
+            <item id="972">palavra chave 2</item>
+            <item id="973">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="320">Legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>selenium-servico-ponto-focal</id>
         <dbId>618</dbId>
         <nome>Selenium Serviço Ponto Focal</nome>
         <sigla></sigla>
+        <nomes-populares>
+            <item id="450"></item>
+        </nomes-populares>
         <descricao>Selenium teste descrição serviço ponto focal</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
@@ -22783,64 +22929,6 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>admissao-temporaria-concessao</id>
-        <dbId>461</dbId>
-        <nome>Admissão Temporária - Concessão</nome>
-        <sigla>Repositor</sigla>
-        <nomes-populares>
-            <item id="98">Repositor</item>
-        </nomes-populares>
-        <descricao></descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="86">
-                <tipo>Qualquer Empresa</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="5" max="6" unidade="meses"/>
-            <descricao>Preciso de um Emprego e um temporário até encontrar um CLT</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="523">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="642" tipo="web">
-                            <descricao>http://www.receita.fazenda.gov.br/Aduana/RegAdmExportTemp/RegAdm/RegEspAdmTemp.htm</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="667">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="668">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Empregabilidade</item>
-            <item>Relações de Trabalho</item>
-            <item>Trabalho</item>
-            <item>Transporte Aéreo</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transportes</item>
-            <item>Turismo</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>confirmacao-de-autenticidade-de-certidao-pessoa-fisica-certidao-pessoa-fisica-certidoes-e-situacao-fiscal</id>
         <dbId>462</dbId>
         <nome>Confirmação de Autenticidade de Certidão Pessoa Física (Certidão Pessoa Física / Certidões e Situação
@@ -23125,7 +23213,7 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             </etapa>
         </etapas>
         <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT/MT)</nomeOrgao>
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="676">Cidadãos</item>
@@ -27267,79 +27355,6 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <areas-de-interesse>
             <item>Proteção Social</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>selenium-servico</id>
-        <dbId>613</dbId>
-        <nome>Selenium Serviço</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="446"></item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço</descricao>
-        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="336">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1298">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="44">
-                            <descricao>Custos Selenium</descricao>
-                            <moeda></moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1755" tipo="presencial">
-                            <descricao>Canal Selenium</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Combate a desigualdade</item>
-            <item>Comunicações Postais</item>
-            <item>Educação básica</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="971">palavra chave 1</item>
-            <item id="972">palavra chave 2</item>
-            <item id="973">palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="320">Legislação</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>alteracao-cadastral-no-cnpj</id>
