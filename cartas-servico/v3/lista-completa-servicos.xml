@@ -271,16 +271,16 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Cultura</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
+            <item>Cultura</item>
+            <item>Esporte e Lazer</item>
+            <item>Infraestrutura Urbana</item>
             <item>Lazer</item>
             <item>Normalização e Qualidade</item>
-            <item>Esporte e Lazer</item>
-            <item>Turismo</item>
             <item>Patrimônio</item>
-            <item>Infraestrutura Urbana</item>
+            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="876">Turismo</item>
@@ -558,14 +558,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Esporte e Lazer</item>
-            <item>Lazer</item>
-            <item>Turismo</item>
             <item>Atendimento básico</item>
             <item>Educação profissionalizante</item>
+            <item>Esporte e Lazer</item>
+            <item>Lazer</item>
             <item>Relações de Trabalho</item>
             <item>Serviços Públicos</item>
             <item>Trabalho</item>
+            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="884">Guia de Turismo</item>
