@@ -271,16 +271,16 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Cultura</item>
             <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
-            <item>Cultura</item>
-            <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
             <item>Lazer</item>
             <item>Normalização e Qualidade</item>
-            <item>Patrimônio</item>
+            <item>Esporte e Lazer</item>
             <item>Turismo</item>
+            <item>Patrimônio</item>
+            <item>Infraestrutura Urbana</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="876">Turismo</item>
@@ -558,14 +558,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Educação profissionalizante</item>
             <item>Esporte e Lazer</item>
             <item>Lazer</item>
+            <item>Turismo</item>
+            <item>Atendimento básico</item>
+            <item>Educação profissionalizante</item>
             <item>Relações de Trabalho</item>
             <item>Serviços Públicos</item>
             <item>Trabalho</item>
-            <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="884">Guia de Turismo</item>
@@ -752,86 +752,86 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                     <default/>
                     <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
                         <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
                         </documento>
                         <documento>
                             <id>907</id>
                             <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
                         </documento>
                         <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                     <caso id="239" descricao="Benefício com necessidade de acompanhante">
                         <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
                         </documento>
                         <documento>
                             <id>917</id>
                             <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
                         </documento>
                         <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -1130,16 +1130,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
-            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
+            <item>Normalização e Qualidade</item>
+            <item>Lazer</item>
+            <item>Cultura</item>
+            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
@@ -3532,14 +3532,14 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
                     <default>
                         <custo id="6">
                             <descricao>Taxa de Emissão Regular</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>1,654</valor>
                         </custo>
                     </default>
                     <caso id="77" descricao="Tarifa de Utilização da Via - TUV - Para configurações veiculares com peso superior a 74 toneladas.">
                         <custo id="5">
                             <descricao>Calculada em função da distância a ser percorrida entre pontos de origem e destino da carga com o peso excedente.</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                         </custo>
                     </caso>
                 </custos>
@@ -12989,7 +12989,7 @@ gratto</requisitos>
                     <default>
                         <custo id="12">
                             <descricao>NAmMARTILIANO JOSE DA SILVA</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>0</valor>
                         </custo>
                     </default>
@@ -21221,7 +21221,7 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
                     <default>
                         <custo id="44">
                             <descricao>Custos Selenium</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>10</valor>
                         </custo>
                     </default>
@@ -21294,7 +21294,7 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
                     <default>
                         <custo id="46">
                             <descricao>Custos Selenium ponto focal</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>10</valor>
                         </custo>
                     </default>
@@ -21556,7 +21556,7 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
                     <default>
                         <custo id="45">
                             <descricao>Custos Selenium publicador</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>10</valor>
                         </custo>
                     </default>
@@ -22394,7 +22394,7 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
                     <default>
                         <custo id="4">
                             <descricao>Taxa da 2ª via de CNH</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>9,471</valor>
                         </custo>
                     </default>
@@ -27653,7 +27653,7 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
                     <default>
                         <custo id="41">
                             <descricao>Novo Custo</descricao>
-                            <moeda></moeda>
+                            <moeda>R$</moeda>
                             <valor>10,000</valor>
                         </custo>
                     </default>
