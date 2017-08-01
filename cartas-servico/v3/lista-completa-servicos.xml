@@ -21186,9 +21186,9 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-servico</id>
+        <id>selenium-servico-2</id>
         <dbId>613</dbId>
-        <nome>Selenium Serviço</nome>
+        <nome>Selenium Serviço 2</nome>
         <sigla></sigla>
         <nomes-populares>
             <item id="446"></item>
@@ -21259,9 +21259,9 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         </legislacoes>
     </servico>
     <servico>
-        <id>selenium-servico-ponto-focal</id>
+        <id>selenium-servico-ponto-focal-2</id>
         <dbId>618</dbId>
-        <nome>Selenium Serviço Ponto Focal</nome>
+        <nome>Selenium Serviço Ponto Focal 2</nome>
         <sigla></sigla>
         <nomes-populares>
             <item id="450"></item>
