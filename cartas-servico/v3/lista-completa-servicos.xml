@@ -1130,16 +1130,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
+            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
+            <item>Lazer</item>
+            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
-            <item>Normalização e Qualidade</item>
-            <item>Lazer</item>
-            <item>Cultura</item>
-            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
