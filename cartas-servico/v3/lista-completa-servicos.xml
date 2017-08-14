@@ -21186,222 +21186,6 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-servico-2</id>
-        <dbId>613</dbId>
-        <nome>Selenium Serviço 2</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="446"></item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="336">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1298">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="44">
-                            <descricao>Custos Selenium</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1755" tipo="presencial">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Combate a desigualdade</item>
-            <item>Comunicações Postais</item>
-            <item>Educação básica</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="971">palavra chave 1</item>
-            <item id="972">palavra chave 2</item>
-            <item id="973">palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="320">Legislação</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>selenium-servico-ponto-focal-2</id>
-        <dbId>618</dbId>
-        <nome>Selenium Serviço Ponto Focal 2</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="450"></item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço ponto focal</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="343">
-                <tipo>Solicitante Selenium ponto focal</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1303">
-                <titulo>Etapa 1 Selenium ponto focal</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="46">
-                            <descricao>Custos Selenium ponto focal</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1761" tipo="presencial">
-                            <descricao>Canal Selenium ponto focal</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1649">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1650">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-            <item>Atendimento básico</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="992">palavra chave 1 ponto focal</item>
-            <item id="993">palavra chave 2 ponto focal</item>
-            <item id="994">palavra chave 3  ponto focal</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="327">Legislação  ponto focal</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>selenium-servico-1</id>
-        <dbId>614</dbId>
-        <nome>Selenium Serviço 1</nome>
-        <sigla>Sigla Selenium</sigla>
-        <nomes-populares>
-            <item id="445">Popular 1</item>
-            <item id="444">Popular 2</item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço</descricao>
-        <contato>Contato novo serviço</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="337">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos>Requisitos Selelnium</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="2" max="6" unidade="horas"/>
-            <descricao>Muito tempo</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>2</quantidade>
-            <unidade>dias</unidade>
-            <descricao>Informações válidas selenium</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1299">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao>Descrição Selenium</descricao>
-                <documentos>
-                    <default>
-                        <item id="1019">CPF</item>
-                        <item id="1020">Identidade</item>
-                        <item id="1021">Comprovante</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1757" tipo="web">
-                            <descricao>[Canal web](http://www.google.com.br)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1645">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Cidadania</item>
-            <item>Clima</item>
-            <item>Comercio externo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="974">palavra chave 3</item>
-            <item id="975">palavra chave 2</item>
-            <item id="976">palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="321">Legislação</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>recuperar-recibo-regime-especial-de-apuracao-e-pagamento-da-contribuicao-para-o-pis-pasep-e-cofins-incidentes-sobre-combustiveis-e-bebidas</id>
         <dbId>419</dbId>
         <nome>Recuperar Recibo – Regime Especial de Apuração e Pagamento da Contribuição para o PIS/Pasep e Cofins
@@ -21522,72 +21306,6 @@ Além de oferecer proteção e atendimento às pessoas e famílias com direitos 
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>selenium-servico-publicador</id>
-        <dbId>619</dbId>
-        <nome>Selenium Serviço Publicador</nome>
-        <sigla></sigla>
-        <descricao>Selenium teste descrição serviço publicador</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="341">
-                <tipo>Solicitante Selenium publicador</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1304">
-                <titulo>Etapa 1 Selenium Publicador</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="45">
-                            <descricao>Custos Selenium publicador</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1762" tipo="presencial">
-                            <descricao>Canal Selenium publicador</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="986">palavra chave 1 publicador</item>
-            <item id="987">palavra chave 2 publicador</item>
-            <item id="988">palavra chave 3 publicador</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="325">Legislação publicador</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>atualizacao-de-atividade-para-fins-previdenciarios</id>
@@ -21858,6 +21576,212 @@ Telefone: (61) 2027-6000</contato>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-servico-1</id>
+        <dbId>614</dbId>
+        <nome>Selenium Serviço 1</nome>
+        <sigla>Sigla Selenium</sigla>
+        <nomes-populares>
+            <item id="445">Popular 1</item>
+            <item id="444">Popular 2</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato>Contato novo serviço</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="337">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos>Requisitos Selelnium</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="6" unidade="horas"/>
+            <descricao>Muito tempo</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>dias</unidade>
+            <descricao>Informações válidas selenium</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1299">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Descrição Selenium</descricao>
+                <documentos>
+                    <default>
+                        <item id="1019">CPF</item>
+                        <item id="1020">Identidade</item>
+                        <item id="1021">Comprovante</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1757" tipo="web">
+                            <descricao>[Canal web](http://www.google.com.br)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1645">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Clima</item>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="974">palavra chave 3</item>
+            <item id="975">palavra chave 2</item>
+            <item id="976">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="321">Legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico-ponto-focal</id>
+        <dbId>618</dbId>
+        <nome>Selenium Serviço Ponto Focal</nome>
+        <sigla></sigla>
+        <descricao>Selenium teste descrição serviço ponto focal</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="343">
+                <tipo>Solicitante Selenium ponto focal</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1303">
+                <titulo>Etapa 1 Selenium ponto focal</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="46">
+                            <descricao>Custos Selenium ponto focal</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1761" tipo="presencial">
+                            <descricao>Canal Selenium ponto focal</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1649">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1650">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Atendimento básico</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="992">palavra chave 1 ponto focal</item>
+            <item id="993">palavra chave 2 ponto focal</item>
+            <item id="994">palavra chave 3  ponto focal</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="327">Legislação  ponto focal</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico-publicador</id>
+        <dbId>619</dbId>
+        <nome>Selenium Serviço Publicador</nome>
+        <sigla></sigla>
+        <descricao>Selenium teste descrição serviço publicador</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="341">
+                <tipo>Solicitante Selenium publicador</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1304">
+                <titulo>Etapa 1 Selenium Publicador</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="45">
+                            <descricao>Custos Selenium publicador</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1762" tipo="presencial">
+                            <descricao>Canal Selenium publicador</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="986">palavra chave 1 publicador</item>
+            <item id="987">palavra chave 2 publicador</item>
+            <item id="988">palavra chave 3 publicador</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="325">Legislação publicador</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>inscricao-alteracao-e-consulta-de-matricula-cei-cadastro-especifico-do-inss</id>
@@ -27235,64 +27159,6 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-categoria-servico</id>
-        <dbId>617</dbId>
-        <nome>Selenium categoria serviço</nome>
-        <sigla>hfhghg sgsdgsd</sigla>
-        <descricao>23</descricao>
-        <contato>dfsfsdfdsfdsf</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="340">
-                <tipo>dsasdda</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1302">
-                <titulo>dsadasd</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1018">dsada</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1760" tipo="fax">
-                            <descricao>sdsadasdsda</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <palavras-chave>
-            <item id="983">sadadsad</item>
-            <item id="984">sdadssad</item>
-            <item id="985">sdadsadsadsa</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="324">sdsadsadsadas</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>acesso-aos-acervos-da-fundacao-nacional-do-indio</id>
         <dbId>315</dbId>
         <nome>Acesso aos Acervos da Fundação Nacional do Índio</nome>
@@ -27355,6 +27221,68 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <areas-de-interesse>
             <item>Proteção Social</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-categoria-servico</id>
+        <dbId>617</dbId>
+        <nome>Selenium categoria serviço</nome>
+        <sigla>hfhghg sgs 213</sigla>
+        <descricao>23</descricao>
+        <contato>dfsfsdfdsfdsf</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="340">
+                <tipo>dsasdda</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1302">
+                <titulo>dsadasd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1018">dsada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1760" tipo="fax">
+                            <descricao>sdsadasdsda</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="983">sadadsad</item>
+            <item id="984">sdadssad</item>
+            <item id="985">sdadsadsadsa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="324">sdsadsadsadas</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>alteracao-cadastral-no-cnpj</id>
@@ -27677,6 +27605,76 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
         </palavras-chave>
         <legislacoes>
             <item id="319"></item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço</nome>
+        <sigla></sigla>
+        <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="336">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1298">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="44">
+                            <descricao>Custos Selenium</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1755" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Combate a desigualdade</item>
+            <item>Comunicações Postais</item>
+            <item>Educação básica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="971">palavra chave 1</item>
+            <item id="972">palavra chave 2</item>
+            <item id="973">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="320">Legislação</item>
         </legislacoes>
     </servico>
 </servicos>
