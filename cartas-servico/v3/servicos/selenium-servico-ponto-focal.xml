@@ -32,7 +32,7 @@
                 <default>
                     <custo id="46">
                         <descricao>Custos Selenium ponto focal</descricao>
-                        <moeda></moeda>
+                        <moeda>R$</moeda>
                         <valor>10</valor>
                     </custo>
                 </default>
