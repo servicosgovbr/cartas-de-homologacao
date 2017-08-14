@@ -3,7 +3,7 @@
     <id>selenium-categoria-servico</id>
     <dbId>617</dbId>
     <nome>Selenium categoria serviço</nome>
-    <sigla></sigla>
+    <sigla>hfhghg sgs 213</sigla>
     <descricao>23</descricao>
     <contato>dfsfsdfdsfdsf</contato>
     <gratuito>true</gratuito>
@@ -49,7 +49,8 @@
         <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
-        <item>Categoria Selenium</item>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
         <item id="983">sadadsad</item>
