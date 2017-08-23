@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>aposentadoria-especial</id>
+    <dbId>300</dbId>
+    <nome>Aposentadoria Especial</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="187">Rosemara Luiz</item>
+    </nomes-populares>
+    <descricao>Benefício concedido ao segurado que tenha trabalhado em condições prejudiciais à saúde ou à integridade física. Para ter direito à aposentadoria especial, o trabalhador deverá comprovar, além do tempo de trabalho, efetiva exposição aos agentes nocivos químicos, físicos, biológicos ou associação de agentes prejudiciais pelo período exigido para a concessão do benefício (15, 20 ou 25 anos).</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="344">
+            <tipo>Solicitante 1</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="0" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="975">
+            <titulo>Etapa 1</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1194" tipo="presencial">
+                        <descricao>Serviço prestado nas Agências da Previdência Social.</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1193" tipo="web-agendar">
+                        <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930" dbId="37533">
+        <nomeOrgao>Ministério da Previdência Social (MPS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1249">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Previdência Social</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="995">Apo</item>
+        <item id="996">pao</item>
+        <item id="997">pp</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="328">dddsda</item>
+    </legislacoes>
+</servico>
