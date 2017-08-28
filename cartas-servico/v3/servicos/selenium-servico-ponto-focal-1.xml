@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-servico-ponto-focal-1</id>
+    <dbId>620</dbId>
+    <nome>Selenium Serviço Ponto Focal 1</nome>
+    <sigla>Selenium Ponto</sigla>
+    <nomes-populares>
+        <item id="447">Popular 1 ponto focal</item>
+        <item id="448">Popular 2 ponto focal</item>
+    </nomes-populares>
+    <descricao>Selenium teste descrição serviço ponto focal</descricao>
+    <contato>Contato novo serviço ponto focal</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="342">
+            <tipo>Solicitante Selenium ponto focal</tipo>
+            <requisitos>Requisitos Selelnium ponto focal</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="2" max="6" unidade="horas"/>
+        <descricao>Muito tempo ponto focal</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>2</quantidade>
+        <unidade>dias</unidade>
+        <descricao>Informações válidas selenium ponto focal</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1305">
+            <titulo>Etapa Ponto Focal</titulo>
+            <descricao>Descrição Selenium ponto focal</descricao>
+            <documentos>
+                <default>
+                    <item id="1024">CPF</item>
+                    <item id="1025">Identidade</item>
+                    <item id="1026">Comprovante</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1763" tipo="web">
+                        <descricao>[Canal web](http://www.google.com.br)</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="1653">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Defesa agropecuária</item>
+        <item>Cooperação Internacional</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="998">Wolwerine</item>
+        <item id="990">palavra chave 3 ponto focal</item>
+        <item id="991">palavra chave 2 ponto focal</item>
+        <item id="989">palavra chave 3 ponto focal</item>
+    </palavras-chave>
+</servico>
