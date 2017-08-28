@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>sair-do-github</id>
+    <dbId>669</dbId>
+    <nome>Sair do Github</nome>
+    <sigla>GitHub</sigla>
+    <nomes-populares>
+        <item id="459">git</item>
+        <item id="460">hub</item>
+        <item id="461">codigo</item>
+        <item id="462">github</item>
+    </nomes-populares>
+    <descricao>GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos Open Source de qualquer lugar do mundo. GitHub é amplamente utilizado por programadores para divulgação de seus trabalhos ou para que outros programadores contribuam com o projeto, além de promover fácil comunicação através de recursos que relatam problemas ou mesclam repositórios remotos (issues,</descricao>
+    <contato>Teste Contato</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="353">
+            <tipo>Programadores</tipo>
+            <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de organizacão que é amplamente utilizado por aqueles que querem uma escola maior para seus projetos. Na maioria das vezes, o recurso é usado por empresas já</requisitos>
+        </solicitante>
+        <solicitante id="354">
+            <tipo>Arquitetos</tipo>
+            <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao>Depende da pessoa</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1309">
+            <titulo>Subir Codigo</titulo>
+            <descricao>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</descricao>
+            <documentos>
+                <default>
+                    <item id="1034">email</item>
+                    <item id="1035">senha</item>
+                </default>
+                <caso id="281" descricao="Rico">
+                    <documento>
+                        <id>1033</id>
+                        <descricao>Certificado Digital</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1772" tipo="web">
+                        <descricao>[GitHub](https://www.github.com)</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="282" descricao="Git local Empresa Web">
+                    <canal-de-prestacao id="1770" tipo="web">
+                        <descricao>Endereço do Git Local</descricao>
+                    </canal-de-prestacao>
+                </caso>
+                <caso id="283" descricao="Git Local Empresa Física">
+                    <canal-de-prestacao id="1771" tipo="presencial">
+                        <descricao>Local da empresa, levar código fonte no CD.</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1310">
+            <titulo>Baixar Código</titulo>
+            <descricao>Acessar Git da primeira Etapa</descricao>
+            <documentos>
+                <default>
+                    <item id="1037">email</item>
+                    <item id="1038">senha</item>
+                </default>
+                <caso id="284" descricao="Rico 2">
+                    <documento>
+                        <id>1036</id>
+                        <descricao>Certificado Digital</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1773" tipo="e-mail">
+                        <descricao>github@github.com</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1654">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1655">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="1656">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="1657">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Serviços Públicos</item>
+        <item>Sistema Financeiro</item>
+        <item>test</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="999">Gt</item>
+        <item id="1000">Tes</item>
+        <item id="1001">Github</item>
+        <item id="1002">Programação</item>
+        <item id="1003">Programas</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="329">LEgislação Mill</item>
+    </legislacoes>
+</servico>
