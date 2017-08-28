@@ -23,7 +23,9 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
         <ate max="23" unidade="horas"/>
         <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
     </tempo-total-estimado>
-    <validade-documento/>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
         <etapa id="1257">
             <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
@@ -68,7 +70,4 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
         <item id="960">ads</item>
         <item id="961">ads</item>
     </palavras-chave>
-    <legislacoes>
-        <item id="316">Teste</item>
-    </legislacoes>
 </servico>
