@@ -23,7 +23,7 @@
         <descricao>Muito tempo ponto focal</descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <tipo>Válido por</tipo>
+        <tipo>Sem validade</tipo>
         <quantidade>2</quantidade>
         <unidade>dias</unidade>
         <descricao>Informações válidas selenium ponto focal</descricao>
