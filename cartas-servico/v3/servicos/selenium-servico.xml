@@ -3,18 +3,20 @@
     <id>selenium-servico</id>
     <dbId>613</dbId>
     <nome>Selenium Serviço</nome>
-    <sigla></sigla>
+    <sigla>Sigla</sigla>
     <nomes-populares>
-        <item id="446"></item>
+        <item id="453">Serviço</item>
+        <item id="454">X MEN</item>
+        <item id="455">Teste Milll</item>
     </nomes-populares>
-    <descricao>Selenium teste descrição serviço</descricao>
+    <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum</descricao>
     <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <solicitantes>
         <solicitante id="336">
             <tipo>Solicitante Selenium</tipo>
-            <requisitos>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</requisitos>
+            <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -35,7 +37,7 @@
                 <default>
                     <custo id="44">
                         <descricao>Custos Selenium</descricao>
-                        <moeda></moeda>
+                        <moeda>R$</moeda>
                         <valor>10</valor>
                     </custo>
                 </default>
@@ -43,7 +45,7 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao id="1755" tipo="presencial">
-                        <descricao>Canal Selenium</descricao>
+                        <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
