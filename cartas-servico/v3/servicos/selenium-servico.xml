@@ -51,8 +51,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2207" dbId="34310">
+        <nomeOrgao>Fundação Nacional de Saúde (FUNASA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
