@@ -3,7 +3,12 @@
     <id>selenium-servico-publicador</id>
     <dbId>619</dbId>
     <nome>Selenium Serviço Publicador</nome>
-    <sigla></sigla>
+    <sigla>Publicador</sigla>
+    <nomes-populares>
+        <item id="456">Public</item>
+        <item id="457">Private</item>
+        <item id="458">Protect</item>
+    </nomes-populares>
     <descricao>Selenium teste descrição serviço publicador</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
@@ -11,7 +16,7 @@
     <solicitantes>
         <solicitante id="341">
             <tipo>Solicitante Selenium publicador</tipo>
-            <requisitos></requisitos>
+            <requisitos>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -19,21 +24,34 @@
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <descricao></descricao>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>anos</unidade>
+        <descricao>Validos dfj kdhsa jkfha jskhfjh sdfljhjksghjkfhsgjkh Validos  dfjkdhsajkfhajskhfjhsdfljhjk sghjkfhsgjkh  Validos dfjkdhsajkfhajs khfjhsdfljh jksghjkfhsgjkh Validos dfjk dhsa j kfhajskhfjhsdfljh jksghjkfh sgjkh Validos dfjkdhsajk  fhajskhfjhsdfljhj  ksghjkfh sgjkh Validos dfjkdhsaj kfhajsk hfjhs dfljhjksghjkfh sgjkh Validos dfjkdhsajkfhajskhfjh sdfljhjksg hjkfh sgjkh Validos dfjkdh  sajkf   hajskhfjhsdflj hjksghjkfhsgjkh</descricao>
     </validade-documento>
     <etapas>
         <etapa id="1304">
             <titulo>Etapa 1 Selenium Publicador</titulo>
-            <descricao></descricao>
+            <descricao>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjsh,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljg</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="1030">CPF</item>
+                    <item id="1031">IDENTIDADE</item>
+                    <item id="1032">CARTEIRA</item>
+                </default>
+                <caso id="279" descricao="DEF">
+                    <documento>
+                        <id>1029</id>
+                        <descricao>DEF @@@@</descricao>
+                    </documento>
+                </caso>
             </documentos>
             <custos>
                 <default>
                     <custo id="45">
                         <descricao>Custos Selenium publicador</descricao>
                         <moeda>R$</moeda>
-                        <valor>10</valor>
+                        <valor>1,000</valor>
                     </custo>
                 </default>
             </custos>
@@ -41,6 +59,28 @@
                 <default>
                     <canal-de-prestacao id="1762" tipo="presencial">
                         <descricao>Canal Selenium publicador</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="280" descricao="Canal Novo">
+                    <canal-de-prestacao id="1768" tipo="e-mail">
+                        <descricao>test2@teste.com</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1308">
+            <titulo>Titulo 2</titulo>
+            <descricao>sdfibcktrvrvi ugi fjkfhdgkhfdjghjfkdhgjkfhdjkghfdjskhgjkfhsdgjhfjkdhgkjfhsdkg</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1769" tipo="postal">
+                        <descricao>teste @poetsa</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
