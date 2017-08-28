@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd">
     <id>selenium-servico-ponto-focal-1</id>
     <dbId>620</dbId>
-    <nome>Selenium Serviço Ponto Focal 1</nome>
+    <nome>selenium-servico-ponto-focal-3</nome>
     <sigla>Selenium Ponto</sigla>
     <nomes-populares>
         <item id="447">Popular 1 ponto focal</item>
@@ -19,7 +19,7 @@
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <entre min="2" max="6" unidade="horas"/>
+        <entre max="6" min="2" unidade="horas"/>
         <descricao>Muito tempo ponto focal</descricao>
     </tempo-total-estimado>
     <validade-documento>
@@ -51,7 +51,7 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+    <orgao dbId="37545" id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981">
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
