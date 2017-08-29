@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>testecarlos-mcidades-29-08-17</id>
+    <dbId>673</dbId>
+    <nome>TesteCarlos-MCidades-29-08-17</nome>
+    <sigla>TCMC</sigla>
+    <nomes-populares>
+        <item id="465">TesteCarlos-MCidades-29-08-17</item>
+    </nomes-populares>
+    <descricao>TesteCarlos-MCidades-29-08-17</descricao>
+    <contato>987654321</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="357">
+            <tipo>TesteCarlos-MCidades-29-08-17</tipo>
+            <requisitos>TesteCarlos-MCidades-29-08-17</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1313">
+            <titulo>TesteCarlos-MCidades-29-08-17</titulo>
+            <descricao>TesteCarlos-MCidades-29-08-17</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1776" tipo="presencial">
+                        <descricao>TesteCarlos-MCidades-29-08-17</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42672" dbId="37536">
+        <nomeOrgao>Ministério das Cidades (MCIDADES)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1661">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Biodiversidade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1010">TesteCarlos-MCidades-29-08-17</item>
+        <item id="1011">TesteCarlos-MCidades-29-08-17</item>
+        <item id="1012">TesteCarlos-MCidades-29-08-17</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="332">TesteCarlos-MCidades-29-08-17</item>
+    </legislacoes>
+</servico>
