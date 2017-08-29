@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<pagina-tematica >
+<pagina-tematica>
     <conteudo>Página TESTE CATEGORIA EDSON, DE 29-08-2017.</conteudo>
     <dbId>40</dbId>
-    <nome>TESTE CATEGORIA EDSON</nome>
+    <nome>teste-categoria-edson-alterado-durante-publicacao</nome>
     <orgaos>
-        <orgao id="2981" dbId="37545">
+        <orgao dbId="37545" id="2981">
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
     </orgaos>
