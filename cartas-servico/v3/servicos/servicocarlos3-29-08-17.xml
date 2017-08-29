@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servicocarlos3-29-08-17</id>
+    <dbId>672</dbId>
+    <nome>ServiçoCarlos3-29-08-17</nome>
+    <sigla>SC3</sigla>
+    <nomes-populares>
+        <item id="464">ServiçoCarlos</item>
+    </nomes-populares>
+    <descricao>ServiçoCarlos</descricao>
+    <contato>987654321</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="356">
+            <tipo>ServiçoCarlos</tipo>
+            <requisitos>ServiçoCarlos</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao>ServiçoCarlos</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1312">
+            <titulo>ServiçoCarlos</titulo>
+            <descricao>ServiçoCarlos</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1775" tipo="e-mail">
+                        <descricao>ServiçoCarlos</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1660">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Saúde</item>
+        <item>Produção Industrial</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1007">ServiçoCarlos</item>
+        <item id="1008">SC</item>
+        <item id="1009">Carlos</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="331">ServiçoCarlos</item>
+    </legislacoes>
+</servico>
