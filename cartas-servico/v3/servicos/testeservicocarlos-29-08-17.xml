@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>testeservicocarlos-29-08-17</id>
+    <dbId>671</dbId>
+    <nome>TesteServiçoCarlos-29-08-17</nome>
+    <sigla>TSC</sigla>
+    <nomes-populares>
+        <item id="463">TesteServiçoCarlos-29-08-17</item>
+    </nomes-populares>
+    <descricao>Desc do TesteServiçoCarlos-29-08-17</descricao>
+    <contato>987654321</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="355">
+            <tipo>Pessoa TesteServiçoCarlos-29-08-17</tipo>
+            <requisitos>requisito do TesteServiçoCarlos-29-08-17</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="2" unidade="dias-corridos"/>
+        <descricao>TesteServiçoCarlos-29-08-17</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>12</quantidade>
+        <unidade>meses</unidade>
+        <descricao>validade do TesteServiçoCarlos-29-08-17</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1311">
+            <titulo>Etapa_TesteServiçoCarlos-29-08-17</titulo>
+            <descricao>testedeetapa_TesteServiçoCarlos-29-08-17</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1774" tipo="postal">
+                        <descricao>TesteServiçoCarlos-29-08-17</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/214460" dbId="37535">
+        <nomeOrgao>Ministério da Transparência e Controladoria-Geral da União (CGU)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1658">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="1659">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comercio externo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1004">TSC</item>
+        <item id="1005">TesteServiçoCarlos-29-08-17</item>
+        <item id="1006">Teste</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="330">TesteServiçoCarlos-29-08-17</item>
+    </legislacoes>
+</servico>
