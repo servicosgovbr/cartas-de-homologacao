@@ -10,7 +10,8 @@
     <descricao>Desc do TesteServiçoCarlos-29-08-17</descricao>
     <contato>987654321</contato>
     <gratuito>true</gratuito>
-    <porcentagem-manual>false</porcentagem-manual>
+    <porcentagem>95</porcentagem>
+    <porcentagem-manual>true</porcentagem-manual>
     <solicitantes>
         <solicitante id="355">
             <tipo>Pessoa TesteServiçoCarlos-29-08-17</tipo>
