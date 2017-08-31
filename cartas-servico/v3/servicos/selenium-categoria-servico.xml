@@ -45,8 +45,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
+        <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
