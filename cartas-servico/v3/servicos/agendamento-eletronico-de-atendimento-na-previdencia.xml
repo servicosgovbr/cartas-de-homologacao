@@ -1,40 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>agendamento-eletronico-de-atendimento-na-previdencia</nome>
-    <sigla/>
-    <nomes-populares/>
-    <descricao>Solicitação de agendamento dos serviços prestados pela Previdência Social.</descricao>
-    <gratuito>true</gratuito>
-    <solicitantes/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>agendamento-eletronico-de-atendimento-na-previdencia</id>
+    <dbId>313</dbId>
+    <nome>Agendamento eletrônico de atendimento na Previdência</nome>
+    <sigla>84702</sigla>
+    <nomes-populares>
+        <item id="204">Selma Vieira Marcelino</item>
+        <item id="205">jose Baptista Vieira</item>
+        <item id="206">nathy kastro</item>
+    </nomes-populares>
+    <descricao>solicitaçao</descricao>
+    <contato>ok</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <solicitantes>
+        <solicitante id="189">
+            <tipo>aposentada por invalidez permanente</tipo>
+            <requisitos>Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <entre min="6" max="10" unidade="meses"/>
+        <descricao>consultas</descricao>
     </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
-        <etapa>
-            <titulo>Agendamento para Atendimento na Previdência Social</titulo>
-            <descricao/>
+        <etapa id="999">
+            <titulo>10675780206</titulo>
+            <descricao>Quero meu problema resolvido
+o com voçes...obrigado</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="437">RG e CPF</item>
+                </default>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="1234" tipo="web">
                         <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/12584" dbId="48681">
+        <nomeOrgao>Setor de Educação (SEDUC)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="1271">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="1272">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Previdência Social</item>
+        <item>Serviços Públicos</item>
+        <item>Abastecimento</item>
+        <item>Cidadania</item>
+        <item>Esporte e Lazer</item>
+        <item>Operações de dívida pública</item>
+        <item>Saúde</item>
+        <item>Administração</item>
+        <item>Lazer</item>
+        <item>Segurança e Ordem Pública</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="1016">dre</item>
+        <item id="1017">dre</item>
+        <item id="498">consulta teste  trabalho</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="159">Serviço</item>
+    </legislacoes>
 </servico>
