@@ -1,689 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servicos xmlns="http://servicos.gov.br/v3/schema">
     <servico>
-        <id>renovar-passe-livre</id>
-        <dbId>1</dbId>
-        <nome>Renovar Passe Livre</nome>
-        <sigla></sigla>
-        <descricao>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</descricao>
-        <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
-
- Telefones: (61) 2029-8035.
-
- e-mail: passelivre@transportes.gov.br
-
- Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="297">
-                <tipo>Quem já é beneficiário do Passe Livre.</tipo>
-                <requisitos>Para que uma pessoa tenha direito a renovação é necessário:
-
-*Ser beneficiário do passe livre.
-
-*Possuir Deficiência física, mental, auditiva, visual ou múltipla.
-
-*Ser comprovadamente carente.
-Conheça como funciona o cálculo para definir se uma pessoa é ou não carente clicando [aqui](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre.html#conheca_melhorPL_beneficiario)</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="30" unidade="dias-corridos"/>
-            <descricao>O prazo estimado acima começa a contar a partir do recebimento dos documentos pelo Passe Livre.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1250">
-                <titulo>Preencher formulários para Renovação</titulo>
-                <descricao>O beneficiário preenche os formulários disponíveis no site do Ministério dos Transportes, Portos e Aviação Civil ou presencialmente.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1666" tipo="presencial">
-                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1665" tipo="web">
-                            <descricao>http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1251">
-                <titulo>Enviar formulários e documentação</titulo>
-                <descricao>Os formulários da etapa 1 e a documentação devem ser encaminhados via correios ou entregue pessoalmente.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="234" descricao="Renovação de Benefício sem a necessidade de acompanhante">
-                        <documento>
-                            <id>869</id>
-                            <descricao>Novo requerimento, acompanhado da Declaração da Composição e Renda Familiar, informando dados pessoais, declaração de rendimentos da família e o número de pessoas dependentes do rendimento indicado.</descricao>
-                        </documento>
-                        <documento>
-                            <id>870</id>
-                            <descricao>Novo Atestado Médico, devendo os médicos indicar a Classificação Internacional de Doenças, ou seja, o CID.10, que caracteriza a deficiência.</descricao>
-                        </documento>
-                        <documento>
-                            <id>871</id>
-                            <descricao>Cópia do documento de identificação.</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="235" descricao="Renovação de Benefício com a necessidade de acompanhante">
-                        <documento>
-                            <id>872</id>
-                            <descricao>Novo requerimento, acompanhado da Declaração da Composição e Renda Familiar, informando dados pessoais, declaração de rendimentos da família e o número de pessoas dependentes do rendimento indicado.</descricao>
-                        </documento>
-                        <documento>
-                            <id>873</id>
-                            <descricao>Novo Atestado Médico, com a declaração do mesmo médico que atestou a deficiência, informando que é imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
-                        </documento>
-                        <documento>
-                            <id>874</id>
-                            <descricao>Novo requerimento do acompanhante, com a Declaração da Composição e Renda Familiar, informando dados pessoais, declaração de rendimentos da família e o número de pessoas dependentes .</descricao>
-                        </documento>
-                        <documento>
-                            <id>875</id>
-                            <descricao>Cópia do documento de identificação do Acompanhante.</descricao>
-                        </documento>
-                        <documento>
-                            <id>876</id>
-                            <descricao>Cópia do documento de identificação do Beneficiário.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1668" tipo="presencial">
-                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1667" tipo="postal">
-                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1252">
-                <titulo>Aguardar análise do processo</titulo>
-                <descricao>Nesta etapa o beneficiário aguardará a análise dos formulários e da documentação enviada ao passe livre.
-
-Serão resultados desta etapa:
-
-- **Benefício aprovado**(será enviado a credencial via correios para o beneficiário);
-
-- **Benefício com pendências**(será comunicado via correio, quais pendências estão impossibilitando a emissão da credencial para o beneficiário);
-
-- **Benefício rejeitado**(será comunicado via correio que o solicitante não cumpre com os requisitos do programa passe livre).</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1669" tipo="web-acompanhar">
-                            <descricao>http://sistemas3.transportes.gov.br/CAPPL/paginas/requerente/home.jsp</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1581">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transportes</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="873">Passe Livre</item>
-            <item id="874">Carteira</item>
-            <item id="875">Credencial</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="286">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>cadastro-no-sicaf</id>
-        <dbId>2</dbId>
-        <nome>Cadastro no SICAF</nome>
-        <sigla></sigla>
-        <descricao>O serviço tem como finalidade cadastrar e habilitar parcialmente pessoas físicas ou jurídicas, interessadas em participar de licitações realizadas por órgãos/entidades do Poder Executivo Federal, bem como acompanhar o desempenho dos fornecimentos contratados.</descricao>
-        <gratuito>false</gratuito>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1253">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1671" tipo="e-mail">
-                            <descricao>cogrl.df.spoa@fazenda.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1670" tipo="web">
-                            <descricao>https://www.comprasnet.gov.br/seguro/index.asp?login=0</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
-            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1582">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1583">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Urbanismo</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>consultar-servicos-estabelecimentos-disponiveis</id>
-        <dbId>3</dbId>
-        <nome>Consultar serviços/estabelecimentos disponíveis</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="368">Guia Turismo Acessível</item>
-        </nomes-populares>
-        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações diversas. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
-
-Neste espaço você aprenderá a consultar um estabelecimento ou atrativo turístico.</descricao>
-        <contato>Departamento de Marketing e Apoio à Comercialização  
-Coordenação de Produtos Turísticos    
-Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF Telefone: 61 2023-8165    
-Email - incentivo.viagens@turismo.gov.br</contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="298">
-                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="299">
-                <tipo>Público em geral</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="5" unidade="minutos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1254">
-                <titulo>Buscar empreendimento ou atrativo turístico</titulo>
-                <descricao>Navegue pelo site [GUIA DE TURISMO ACESSÍVEL](http://www.turismoacessivel.gov.br)
-
-Passo 1 - Indicar a cidade e o tipo de estabelecimento ou atrativo e filtro da perspectiva  de deficiência que gostaria de buscar;  
-Passo 2 - Indicar nome do estabelecimento ou consultar estabelecimento e atrativos listados no resultado da busca.
-
-Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
-* Auditiva
-* Física ou motora
-* Visual
-* Mobilidade reduzida</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1673" tipo="aplicativo-movel">
-                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1672" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
-            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1584">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1585">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1586">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Cidadania</item>
-            <item>Combate a desigualdade</item>
-            <item>Cultura</item>
-            <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
-            <item>Patrimônio</item>
-            <item>Turismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="876">Turismo</item>
-            <item id="877">Acessibilidade</item>
-            <item id="878">Pessoa com deficiência</item>
-            <item id="879">Viagens</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="287">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
-            <item id="288">Norma Brasileira ABNT NBR 9050 - http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-fisica-guia-de-turismo</id>
-        <dbId>6</dbId>
-        <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Física/Guia de Turismo</nome>
-        <sigla>Cadastur</sigla>
-        <descricao>Cadastro no Ministério do Turismo de pessoas físicas que atuam como Guia de Turismo. 
-É obrigatório e válido por 5 anos. O cadastro permite ao prestador atuar legalmente, de acordo com a Lei nº 8.623/93, por meio da emissão do Certificado Cadastur e crachá de Guia de Turismo, assim como oferece benefícios aos cadastrados.</descricao>
-        <contato>- Lista dos órgãos estaduais de turismo, responsáveis pelo Cadastur na UF, disponível no site [Cadastur](http://www.cadastur.turismo.gov.br) na aba
-[Como cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em "órgãos oficiais de turismo".     
-Coordenação-Geral de Cadastramento e Fiscalização (MTur)      
-E-mail: snptur.ouvidoria@turismo.gov.br / 0800-2008484 (opção 04 - Cadastur)</contato>
-        <gratuito>true</gratuito>
-        <solicitantes>
-            <solicitante id="303">
-                <tipo>Guia de Turismo</tipo>
-                <requisitos>1. O exercício regular da atividade de Guia de Turismo depende de prévia realização de curso técnico de formação profissional e de cadastro no Ministério do Turismo (Cadastur).
-
-2. Permitido a brasileiros ou estrangeiros residentes no País e habilitados para o exercício da atividade profissional; maiores de dezoito anos; eleitor (em dia com as obrigações eleitorais); reservista (em dia com as obrigações militares).</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="105" unidade="dias-corridos"/>
-            <descricao>1. 30 dias: prazo para a entrega, por parte do prestador, da documentação do cadastro ao órgão delegado do Ministério do Turismo.
-
-2. 30 dias seguintes: prazo para o órgão delegado analisar a documentação, homologar o cadastro e gerar o certificado.
-
-3. Até 45 dias após homologação: disponibilização do crachá de Guia de Turismo. Observação: o Guia de Turismo pode atuar nesse período sem o crachá, mas deverá portar o certificado Cadastur válido.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1258">
-                <titulo>Criar um "novo usuário"</titulo>
-                <descricao>1. Se o prestador nunca foi cadastrado no Cadastur, é necessário criar um “novo usuário” no sistema no sítio do [Cadastur](http://www.cadastur.turismo.gov.br). 
-
-2. Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado o login e a senha para acessar o sistema [Cadastur](http://www.cadastur.turismo.gov.br).</descricao>
-                <documentos>
-                    <default>
-                        <item id="877">CPF do responsável pelo cadastro</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1682" tipo="presencial">
-                            <descricao>Caso o solicitante não possua acesso ao computador/internet, poderá contatar o órgão estadual de turismo responsável pelo Cadastur. Acesse 
-[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur) em "órgãos oficiais de turismo".</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1681" tipo="web">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/novoUsuario.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1259">
-                <titulo>Acessar o sistema Cadastur</titulo>
-                <descricao>Acessar a página inicial do site do Cadastur e digitar nos campos indicados o login e senha recebidos. O solicitante deverá mudar a senha. A tela seguinte apresentará o "Ambiente de Negócios" do prestador, onde se encontra o botão “meu cadastro”. Para iniciar o cadastramento é necessário clicar nessa opção.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1683" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1260">
-                <titulo>Preencher o formulário eletrônico de cadastro (Dados pessoais)</titulo>
-                <descricao>Na próxima tela aparecerá o formulário eletrônico de cadastro. Ao lado de cada campo do formulário há um ponto de exclamação que, ao ser clicado, exibe as informações de preenchimento. Após preencher todos os campos solicitados clicar no botão “salvar” para registrar as informações. O sistema enviará uma confirmação por e-mail de que a operação foi realizada com sucesso.</descricao>
-                <documentos>
-                    <default>
-                        <item id="878">CPF do cadastrado</item>
-                        <item id="879">RG do cadastrado</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1684" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1261">
-                <titulo>Preencher formulário eletrônico de cadastro (Dados da atividade)</titulo>
-                <descricao>Após preencher e salvar os dados pessoais, o solicitante deverá completar as informações na aba "Atividades" sobre a categoria de atuação (Guia Regional, Guia Nacional, Guia Especializado em Atrativos, Guia Internacional) e sobre os segmentos turísticos e idiomas.</descricao>
-                <documentos>
-                    <default>
-                        <item id="880">Certificado de conclusão de curso técnico em Guia de Turismo com a devida categoria de atuação</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1685" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1262">
-                <titulo>Imprimir e preencher documentos obrigatórios</titulo>
-                <descricao>Ao final do preenchimento de todas as abas e campos obrigatórios do formulário eletrônico, deverá ser impresso e preenchido o Requerimento e o Termo de Responsabilidade disponibilizados. Esses documentos deverão ser entregues ao órgão estadual de turismo responsável pelo Cadastur juntamente com outros necessários.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1686" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1263">
-                <titulo>Encaminhar a documentação obrigatória</titulo>
-                <descricao>Junto com o Requerimento e o Termo de Responsabilidade, encaminhar a documentação obrigatória. Os documentos podem ser entregues pessoalmente  ou de forma remota (e-mail, Correios). O solicitante deverá entrar em contato com o órgão responsável para verificar os meios disponíveis.</descricao>
-                <documentos>
-                    <default>
-                        <item id="882">Ficha de Cadastro eletrônica ou impressa devidamente preenchido</item>
-                        <item id="883">Foto padrão 3x4 recente (plano de fundo e roupa contrastando com a cor da pele)</item>
-                        <item id="884">Cópia do Certificado de conclusão de Curso Técnico de Formação Profissional de Guia de Turismo com carga horária mínima conforme estabelecido no Catálogo Nacional de Cursos Técnicos</item>
-                        <item id="885">Cópia do CPF</item>
-                        <item id="886">Cópia do RG</item>
-                        <item id="887">RNE (Registro Nacional de Estrangeiro) ou CIE (Cédula de Identidade de Estrangeiro) para estrangeiro residente no país e habilitado para o exercício da atividade profissional</item>
-                        <item id="888">Título de eleitor (e quitação de obrigações eleitorais)</item>
-                        <item id="889">Comprovante de quitação militar</item>
-                        <item id="890">Termo de Responsabilidade emitido pelo sistema, devidamente assinado</item>
-                        <item id="891">Comprovante de residência</item>
-                    </default>
-                    <caso id="236" descricao="Inclusão de idioma no cadastro">
-                        <documento>
-                            <id>881</id>
-                            <descricao>Cópia de certificado/diploma de curso de idioma, ou comprovante de Exame de Proficiência ou Atestado de Fluência.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1688" tipo="postal">
-                            <descricao>Verificar procedimentos com o órgão estadual de turismo responsável pelo Cadastur na UF.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1687" tipo="presencial">
-                            <descricao>Caso o solicitante não possua acesso ao computador/internet, poderá contatar o órgão estadual de turismo responsável pelo Cadastur. Acesse 
-[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur) em "órgãos oficiais de turismo".</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1264">
-                <titulo>Homologação do cadastro e disponibilização do certificado</titulo>
-                <descricao>A homologação do requerimento de cadastro e emissão do certificado serão realizadas após a análise e aprovação da documentação exigida. O requerente terá 30 dias para entregar essa documentação. No caso de não cumprimento do prazo acima estipulado, será necessário proceder a novo requerimento de cadastro. O cadastro é válido por 5 anos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1689" tipo="web-acompanhar">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/Certificados.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1265">
-                <titulo>Entrega do crachá de Guia de Turismo</titulo>
-                <descricao>O crachá estará disponível para coleta no órgão estadual de turismo, responsável pelo Cadastur na UF,  até 45 dias após a homologação. Durante o período de confecção do documento, o guia de turismo pode atuar portando somente o certificado Cadastur válido.</descricao>
-                <documentos>
-                    <default>
-                        <item id="892">RG</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1691" tipo="postal">
-                            <descricao>Verificar disponibilidade e procedimentos diretamente com o órgão estadual de turismo responsável pelo Cadastur na UF. Acesse 
-[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em "órgãos oficiais de turismo".</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1690" tipo="presencial">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1266">
-                <titulo>Renovação de Cadastro</titulo>
-                <descricao>Em função de readequação do sistema, a renovação online de cadastro está suspensa, sendo somente possível por meio de solicitação em formulário impresso. 
-Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo na UF. O prestador terá 30 dias para entregar a documentação exigida. A renovação do cadastro deverá ser solicitada a partir de 90 dias antes do término da validade do certificado.</descricao>
-                <documentos>
-                    <default>
-                        <item id="894">Termo de Responsabilidade assinado</item>
-                        <item id="895">Formulário de Requerimento de Pessoa Física Guia de Turismo atualizado</item>
-                        <item id="896">Cópia dos comprovantes de recolhimento da Guia de Recolhimento da Contribuição Sindical Urbana – GRCSU de período igual ao da credencial a ser renovada</item>
-                        <item id="897">Foto 3x4 atual</item>
-                    </default>
-                    <caso id="237" descricao="Profissionais com relação empregatícia">
-                        <documento>
-                            <id>893</id>
-                            <descricao>Para comprovação de contribuição sindical, poderá ser apresentanda a Carteira de Trabalho e Previdência Social com o respectivo registro do empregador.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1693" tipo="postal">
-                            <descricao>Verificar disponibilidade e procedimentos com órgão estadual de turismo.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1692" tipo="presencial">
-                            <descricao>Lista dos órgãos estaduais de turismo:  Acesse [Como se cadastrar] (http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em "órgãos oficiais de turismo".</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1267">
-                <titulo>Alteração de cadastro</titulo>
-                <descricao>Em função de readequação do sistema, a alteração de cadastro online está suspensa, sendo somente possível por meio de solicitação junto ao órgão delegado de turismo na UF.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1694" tipo="presencial">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
-            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1594">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1595">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1596">Órgãos e entidades públicas</item>
-            <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Educação profissionalizante</item>
-            <item>Esporte e Lazer</item>
-            <item>Lazer</item>
-            <item>Relações de Trabalho</item>
-            <item>Serviços Públicos</item>
-            <item>Trabalho</item>
-            <item>Turismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="884">Guia de Turismo</item>
-            <item id="885">Turismo</item>
-            <item id="886">Cadastro MTur</item>
-            <item id="887">Cadastro Ministério do Turismo</item>
-            <item id="888">Cadastro Embratur</item>
-            <item id="889">Cadastro Guia de Turismo</item>
-            <item id="890">Guia Turístico</item>
-            <item id="891">Crachá Guia de Turismo</item>
-            <item id="892">Credencial Guia de Turismo</item>
-            <item id="893">Carteira Guia de Turismo</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="291">Lei sobre a profissão de Guia de Turismo: &lt;a href="http://www.planalto.gov.br/ccivil_03/leis/L8623.htm"&gt;Lei nº 8.623/93&lt;/a&gt;</item>
-            <item id="292">Decreto que regulamenta a Lei nº 8.623/93: &lt;a href="http://www.planalto.gov.br/ccivil_03/decreto/Antigos/D0946.htm"&gt;Decreto nº 946/93&lt;/a&gt;</item>
-            <item id="293">Portaria que institui o Cadastur: &lt;a href="http://www.turismo.gov.br/legislacao/?p=112"&gt;Portaria MTur nº 130/2011&lt;/a&gt;</item>
-            <item id="294">Portaria que regulamenta o Cadastur: &lt;a href="http://www.turismo.gov.br/legislacao/?p=135"&gt;Portaria MTur nº 197/2013&lt;/a&gt;</item>
-            <item id="295">Portaria que estabelece requisitos e critérios para o exercício da atividade de Guia de Turismo: &lt;a href="http://www.turismo.gov.br/legislacao/?p=117"&gt;Portaria MTur nº 27/2014&lt;/a&gt;</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>outorga-de-radiodifusao-comercial</id>
-        <dbId>7</dbId>
-        <nome>Outorga de Radiodifusão Comercial</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="372">TV</item>
-            <item id="373">FM</item>
-            <item id="374">AM</item>
-        </nomes-populares>
-        <descricao>O processo de outorga de radiodifusão de sons ou de sons e imagens, em caráter comercial, ocorre por processo licitatório (Lei nº 8.666/93), na modalidade Concorrência, mediante a publicação, na Imprensa Oficial, do devido edital, e é julgada pelo critério de maior valor da média ponderada da pontuação da Proposta Técnica e da Proposta de Preço pela Outorga.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
-        <solicitantes>
-            <solicitante id="304">
-                <tipo>Sociedades anônimas ou de responsabilidade limitada, fundações e universidades</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1268">
-                <titulo>Participação em Edital de Licitação</titulo>
-                <descricao>A outorga de serviço de radiodifusão de natureza comercial é precedida de licitação, na modalidade de Concorrência, a qual tem início com a publicação de Aviso no Diário Oficial da União (DOU), contendo a indicação do local e as condições em que os interessados poderão obter o texto do edital, bem assim o local, a data e a hora para a apresentação das propostas para fins de habilitação e julgamento.</descricao>
-                <documentos>
-                    <default>
-                        <item id="898">Publicado o Edital no DOU, e não havendo impugnação ao mesmo, será marcada data, após 60 dias da publicação do Edital, para apresentação dos envelopes dos documentos de habilitação e das propostas técnicas e de preço.</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1695" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/radiodifusao-comercial</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1598">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1599">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1600">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="894">Radiodifusão</item>
-            <item id="895">Comercial</item>
-            <item id="896">Privada</item>
-            <item id="897">FM</item>
-            <item id="898">TV</item>
-            <item id="899">AM</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="296">Legislação básica
-
-- Lei 4.117/1962: Código Brasileiro de Telecomunicações
-
-- Decreto n.º 52.795/1963: Regulamento de Serviços de Radiodifusão
-
-- Lei n.º 9.472/1997: Lei Geral das Telecomunicações</item>
-            <item id="297">FM
-
-- Resolução Anatel n° 67/1998: Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada
-
-- Resolução Anatel n° 546/2010: Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada</item>
-            <item id="298">TV
-
-- Resolução Anatel n° 284/2001: Regulamento Técnico para a Prestação de Serviços de Radiodifusão de Sons e Imagens e de Retransmissão de Televisão</item>
-            <item id="299">OC e OT de 60 e 90 metros
-
-- Portaria n° 25/1983: Norma Técnica para Emissoras de Radiodifusão Sonora em Ondas Decamétrica</item>
-            <item id="300">Aumento de potência
-
-- Portaria n° 231/2013: Estabelece regras para a autorização de alteração de características técnicas de operação das emissoras de serviços de radiodifusão e seus ancilares que resultem em alteração da classe e grupo de enquadramento
-
-- Retificação da portaria n° 2031/2013</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>obter-passe-livre</id>
         <dbId>8</dbId>
         <nome>Obter Passe livre</nome>
@@ -727,20 +44,20 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1700" tipo="telefone">
-                            <descricao>(61) 3329-9068.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1699" tipo="e-mail">
-                            <descricao>passelivre@transportes.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1698" tipo="postal">
-                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                        <canal-de-prestacao id="1696" tipo="web">
+                            <descricao>http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="1697" tipo="presencial">
                             <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="1696" tipo="web">
-                            <descricao>http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html</descricao>
+                        <canal-de-prestacao id="1698" tipo="postal">
+                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1699" tipo="e-mail">
+                            <descricao>passelivre@transportes.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1700" tipo="telefone">
+                            <descricao>(61) 3329-9068.</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -752,86 +69,86 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                     <default/>
                     <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
                         <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
                         </documento>
                         <documento>
                             <id>907</id>
                             <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
                         </documento>
                         <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                     <caso id="239" descricao="Benefício com necessidade de acompanhante">
                         <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
                         </documento>
                         <documento>
                             <id>917</id>
                             <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
                         </documento>
                         <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
                         </documento>
                     </caso>
                 </documentos>
@@ -921,7 +238,9 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
             <ate max="23" unidade="horas"/>
             <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
         </tempo-total-estimado>
-        <validade-documento/>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
         <etapas>
             <etapa id="1257">
                 <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
@@ -966,41 +285,90 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
             <item id="960">ads</item>
             <item id="961">ads</item>
         </palavras-chave>
-        <legislacoes>
-            <item id="316">Teste</item>
-        </legislacoes>
     </servico>
     <servico>
-        <id>alteracoes-de-pos-outorga</id>
-        <dbId>9</dbId>
-        <nome>Alterações de Pós-Outorga</nome>
-        <sigla></sigla>
+        <id>selenium-servico-ponto-focal-3</id>
+        <dbId>620</dbId>
+        <nome>Selenium Serviço Ponto Focal 3</nome>
+        <sigla>Selenium Ponto</sigla>
         <nomes-populares>
-            <item id="376">Atos de Pós-Outorga</item>
+            <item id="447">Popular 1 ponto focal</item>
+            <item id="448">Popular 2 ponto focal</item>
         </nomes-populares>
-        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
+        <descricao>Selenium teste descrição serviço ponto focal</descricao>
+        <contato>Contato novo serviço ponto focal</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
-            <solicitante id="306">
-                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
-                <requisitos></requisitos>
+            <solicitante id="342">
+                <tipo>Solicitante Selenium ponto focal</tipo>
+                <requisitos>Requisitos Selelnium ponto focal</requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+            <entre min="2" max="6" unidade="horas"/>
+            <descricao>Muito tempo ponto focal</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>2</quantidade>
+            <unidade>dias</unidade>
+            <descricao>Informações válidas selenium ponto focal</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1305">
+                <titulo>Etapa Ponto Focal</titulo>
+                <descricao>Descrição Selenium ponto focal</descricao>
+                <documentos>
+                    <default>
+                        <item id="1024">CPF</item>
+                        <item id="1025">Identidade</item>
+                        <item id="1026">Comprovante</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1763" tipo="web">
+                            <descricao>[Canal web](http://www.google.com.br)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1653">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cooperação Internacional</item>
+            <item>Defesa agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="998">Wolwerine</item>
+            <item id="990">palavra chave 3 ponto focal</item>
+            <item id="991">palavra chave 2 ponto focal</item>
+            <item id="989">palavra chave 3 ponto focal</item>
+        </palavras-chave>
+    </servico>
+    <servico>
+        <id>cadastro-no-sicaf</id>
+        <dbId>2</dbId>
+        <nome>Cadastro no SICAF</nome>
+        <sigla></sigla>
+        <descricao>O serviço tem como finalidade cadastrar e habilitar parcialmente pessoas físicas ou jurídicas, interessadas em participar de licitações realizadas por órgãos/entidades do Poder Executivo Federal, bem como acompanhar o desempenho dos fornecimentos contratados.</descricao>
+        <gratuito>false</gratuito>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
         </tempo-total-estimado>
         <etapas>
-            <etapa id="1272">
-                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+            <etapa id="1253">
+                <titulo></titulo>
                 <descricao></descricao>
                 <documentos>
                     <default/>
@@ -1010,41 +378,26 @@ Telefone: (61) 2027-6000</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1704" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        <canal-de-prestacao id="1671" tipo="e-mail">
+                            <descricao>cogrl.df.spoa@fazenda.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1670" tipo="web">
+                            <descricao>https://www.comprasnet.gov.br/seguro/index.asp?login=0</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
+            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1602">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1603">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1604">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="1" idServicoSegmento="1582">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1583">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Comunicações</item>
+            <item>Urbanismo</item>
         </areas-de-interesse>
-        <palavras-chave>
-            <item id="903">Renovação</item>
-            <item id="904">Transferência de Outorga</item>
-            <item id="905">Alteração de Quadro Societário</item>
-            <item id="906">Pós-Outorga</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="302">Geral
-
-Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="303">Renovação/ revisão de outorga
-
-Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
-            <item id="304">Alterações contratuais
-
-Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>cadastrar-estabelecimentos-servicos-acessiveis</id>
@@ -1130,16 +483,16 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="4" idServicoSegmento="1608">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
             <item>Cidadania</item>
-            <item>Cultura</item>
             <item>Difusão Cultural</item>
             <item>Esporte e Lazer</item>
             <item>Infraestrutura Urbana</item>
-            <item>Lazer</item>
-            <item>Normalização e Qualidade</item>
             <item>Patrimônio</item>
             <item>Turismo</item>
+            <item>Normalização e Qualidade</item>
+            <item>Lazer</item>
+            <item>Cultura</item>
+            <item>Assistência ao Portador de Deficiência</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="907">Acessibilidade</item>
@@ -1205,19 +558,19 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
             <item idSegmento="2" idServicoSegmento="1611">Órgãos e entidades públicas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Assistência à Criança e ao Adolescente</item>
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
-            <item>Difusão</item>
             <item>Difusão Cultural</item>
             <item>Educação</item>
-            <item>Educação básica</item>
             <item>Educação profissionalizante</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+            <item>Difusão</item>
+            <item>Educação básica</item>
             <item>Educação superior</item>
-            <item>Empregabilidade</item>
-            <item>Fiscalização do Estado</item>
-            <item>Fomento ao Trabalho</item>
             <item>Telecomunicações</item>
+            <item>Empregabilidade</item>
+            <item>Fomento ao Trabalho</item>
+            <item>Fiscalização do Estado</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="911">Telecentro</item>
@@ -1294,15 +647,15 @@ admpp.gesac@comunicacoes.gov.br
             <item>Cidadania</item>
             <item>Combate a desigualdade</item>
             <item>Comunicações</item>
-            <item>Difusão</item>
             <item>Difusão Cultural</item>
             <item>Educação</item>
-            <item>Educação básica</item>
             <item>Educação profissionalizante</item>
-            <item>Educação superior</item>
             <item>Empregabilidade</item>
-            <item>Fomento ao Trabalho</item>
             <item>Pesquisa e Desenvolvimento</item>
+            <item>Difusão</item>
+            <item>Educação básica</item>
+            <item>Fomento ao Trabalho</item>
+            <item>Educação superior</item>
             <item>Telecomunicações</item>
         </areas-de-interesse>
         <palavras-chave>
@@ -3496,98 +2849,6 @@ Portaria STE nº 2, de 26 de agosto de 2013</item>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>emissao-de-autorizacao-especial-de-transito</id>
-        <dbId>34</dbId>
-        <nome>Emissão de Autorização Especial de Trânsito</nome>
-        <sigla>AET</sigla>
-        <descricao>Autorização Especial de Trânsito é o documento expedido pelo Departamento Nacional de Infraestrutura de Transportes - DNIT, para veículo ou combinação de veículos utilizados no transporte de carga, que não se enquadre nos limites de peso e dimensões estabelecidos pelo Conselho Nacional de Trânsito - CONTRAN na [Resolução 210/06](http://www.denatran.gov.br/download/Resolucoes/RESOLUCAO_210.rtf).</descricao>
-        <contato>E-mail: siaet@dnit.gov.br
-Central de Atendimento: 0800-61-1535</contato>
-        <gratuito>false</gratuito>
-        <solicitantes>
-            <solicitante id="107">
-                <tipo>Empresas Transportadoras</tipo>
-                <requisitos>É necessário que o veículo extrapole os limites de peso e dimensões  estabelecidos pela [Resolução 210/06](http://www.denatran.gov.br/download/Resolucoes/RESOLUCAO_210.rtf) do CONTRAN e que o solicitante esteja previamente cadastrado junto à Coordenação Geral de Operações Rodoviárias - CGPERT/DIR/DNIT, sendo este cadastro feito no próprio [site](https://siaet.dnit.gov.br)</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="dias-uteis"/>
-            <descricao>Em caso de cargas indivisíveis o prazo será:
-De 24h quando a rota não for definida previamente; 
-De 5 dias úteis quando houver rota estabelecida e for necessário consulta da referida por superintendência do DNIT ou concessionária;
-De 30 dias quando houver especificação de rota, porém seja necessário consulta e aferição de laudo.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="640">
-                <titulo>Solicitar emissão de AET</titulo>
-                <descricao>O interessado deve acessar o site do DNIT para solicitar a autorização através do Sistema de Gerenciamento de Autorizações Especiais de Trânsito, [SIAET](https://siaet.dnit.gov.br)</descricao>
-                <documentos>
-                    <default>
-                        <item id="271">É necessário estar cadastrado na Coordenação Geral de Operações Rodoviárias - CGPERT/DIR/DNIT</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="6">
-                            <descricao>Taxa de Emissão Regular</descricao>
-                            <moeda>R$</moeda>
-                            <valor>1,654</valor>
-                        </custo>
-                    </default>
-                    <caso id="77" descricao="Tarifa de Utilização da Via - TUV - Para configurações veiculares com peso superior a 74 toneladas.">
-                        <custo id="5">
-                            <descricao>Calculada em função da distância a ser percorrida entre pontos de origem e destino da carga com o peso excedente.</descricao>
-                            <moeda>R$</moeda>
-                        </custo>
-                    </caso>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="781" tipo="web">
-                            <descricao>https://siaet.dnit.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="641">
-                <titulo>Suporte ao processo de liberação de AET</titulo>
-                <descricao>O SIAET oferece suporte de operação e gerenciamento ao processo de liberação de Autorização Especial de Trânsito – AET, bem como orientação aos usuários, envolvendo o levantamento e cadastramento de dimensões de obras-de-arte especiais e elementos relacionados às limitações de largura e peso de veículos em trechos de rodovias federais.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="782" tipo="web-acompanhar">
-                            <descricao>https://siaet.dnit.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
-            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="811">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Transportes</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="305">Autorização</item>
-            <item id="306">Trânsito</item>
-            <item id="307">Transporte</item>
-            <item id="308">Carga</item>
-            <item id="309">DNIT</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="94">[Resoluções sobre Autorização Especial de Trânsito](http://www.dnit.gov.br/rodovias/operacoes-rodoviarias/sistema-de-gerenciamento-de-autorizacao-especial-de-transito-siaet/resolucao-aet)</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>baixa-de-inscricao-no-cei</id>
@@ -6045,46 +5306,6 @@ Portaria nº 408/2016: Dispõe sobre os procedimentos de permissão e concessão
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>consulta-cnpj-eleicoes</id>
-        <dbId>92</dbId>
-        <nome>Consulta CNPJ Eleições</nome>
-        <sigla></sigla>
-        <descricao>Consultar o número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) dos candidatos e comitês financeiros para a eleição ordinária/suplementar.</descricao>
-        <gratuito>false</gratuito>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="696">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="843" tipo="web">
-                            <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/Eleicoes/consulta.asp</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="876">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>servicos-de-cpf-para-estrangeiros-e-de-cujus</id>
         <dbId>93</dbId>
         <nome>Serviços de CPF para Estrangeiros e De Cujus</nome>
@@ -6119,6 +5340,46 @@ Portaria nº 408/2016: Dispõe sobre os procedimentos de permissão e concessão
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="877">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>consulta-cnpj-eleicoes</id>
+        <dbId>92</dbId>
+        <nome>Consulta CNPJ Eleições</nome>
+        <sigla></sigla>
+        <descricao>Consultar o número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) dos candidatos e comitês financeiros para a eleição ordinária/suplementar.</descricao>
+        <gratuito>false</gratuito>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="696">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="843" tipo="web">
+                            <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/Eleicoes/consulta.asp</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="876">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
@@ -8298,7 +7559,6 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
         </orgao>
         <areas-de-interesse>
-            <item>Administração</item>
             <item>Assistência ao Idoso</item>
             <item>Cidadania</item>
             <item>Cooperação Internacional</item>
@@ -8318,6 +7578,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
             <item>Trabalho</item>
             <item>Turismo</item>
             <item>Urbanismo</item>
+            <item>Administração</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -10967,8 +10228,8 @@ As séries podem ser consultadas individualmente, em grupos ou listas personaliz
             <item idSegmento="1" idServicoSegmento="1071">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Agropecuária</item>
             <item>Previdência Social</item>
+            <item>Agropecuária</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -12758,7 +12019,6 @@ Para aqueles que possuem bens de valor total igual ou superior a US$100.000.000,
             <item idSegmento="3" idServicoSegmento="1150">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Administração</item>
             <item>Assistência ao Idoso</item>
             <item>Cidadania</item>
             <item>Cooperação Internacional</item>
@@ -12779,6 +12039,7 @@ Para aqueles que possuem bens de valor total igual ou superior a US$100.000.000,
             <item>Trabalho</item>
             <item>Turismo</item>
             <item>Urbanismo</item>
+            <item>Administração</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -15215,8 +14476,8 @@ Informações sobre o serviço de defesa de autuação, que consiste no recebime
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Comunicações</item>
-            <item>Comunicações Postais</item>
             <item>Telecomunicações</item>
+            <item>Comunicações Postais</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="516">Radiodifusao</item>
@@ -15582,53 +14843,6 @@ O atendimento será feito por equipes multidisciplinares, formadas prioritariame
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>aposentadoria-especial</id>
-        <dbId>300</dbId>
-        <nome>Aposentadoria Especial</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="187">Rosemara Luiz</item>
-        </nomes-populares>
-        <descricao>Benefício concedido ao segurado que tenha trabalhado em condições prejudiciais à saúde ou à integridade física. Para ter direito à aposentadoria especial, o trabalhador deverá comprovar, além do tempo de trabalho, efetiva exposição aos agentes nocivos químicos, físicos, biológicos ou associação de agentes prejudiciais pelo período exigido para a concessão do benefício (15, 20 ou 25 anos).</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <tempo-total-estimado>
-            <ate max="0" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="975">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1194" tipo="presencial">
-                            <descricao>Serviço prestado nas Agências da Previdência Social.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1193" tipo="web-agendar">
-                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930" dbId="37533">
-            <nomeOrgao>Ministério da Previdência Social (MPS)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1249">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Previdência Social</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>simulacao-da-contagem-de-tempo-de-contribuicao-previdenciaria</id>
         <dbId>301</dbId>
         <nome>Simulação da contagem de tempo de contribuição previdenciária</nome>
@@ -15890,8 +15104,8 @@ O cadastramento estará disponível para o contribuinte que tem "imposto de rend
             <item idSegmento="1" idServicoSegmento="1257">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Administração</item>
             <item>Economia e Finanças</item>
+            <item>Administração</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -16199,77 +15413,6 @@ O cadastramento estará disponível para o contribuinte que tem "imposto de rend
         </legislacoes>
     </servico>
     <servico>
-        <id>agendamento-eletronico-de-atendimento-na-previdencia</id>
-        <dbId>313</dbId>
-        <nome>Agendamento eletrônico de atendimento na Previdência</nome>
-        <sigla>84702382</sigla>
-        <nomes-populares>
-            <item id="204">Selma Vieira Marcelino</item>
-            <item id="205">jose Baptista Vieira</item>
-            <item id="206">nathy kastro</item>
-        </nomes-populares>
-        <descricao>solicitaçao</descricao>
-        <contato>ok</contato>
-        <gratuito>false</gratuito>
-        <solicitantes>
-            <solicitante id="189">
-                <tipo>aposentada por invalidez permanente</tipo>
-                <requisitos>Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="6" max="10" unidade="meses"/>
-            <descricao>consultas</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="999">
-                <titulo>10675780206</titulo>
-                <descricao>Quero meu problema resolvido
-o com voçes...obrigado</descricao>
-                <documentos>
-                    <default>
-                        <item id="437">RG e CPF</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1234" tipo="web">
-                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/12584" dbId="48681">
-            <nomeOrgao>Setor de Educação (SEDUC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1271">Cidadãos</item>
-            <item idSegmento="4" idServicoSegmento="1272">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Administração</item>
-            <item>Cidadania</item>
-            <item>Esporte e Lazer</item>
-            <item>Lazer</item>
-            <item>Operações de dívida pública</item>
-            <item>Previdência Social</item>
-            <item>Saúde</item>
-            <item>Segurança e Ordem Pública</item>
-            <item>Serviços Públicos</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="498">consulta teste  trabalho</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="159">Serviço</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>orientacoes-gerais-sobre-container</id>
         <dbId>314</dbId>
         <nome>Orientações Gerais sobre container</nome>
@@ -16359,8 +15502,8 @@ o com voçes...obrigado</descricao>
             <item idSegmento="2" idServicoSegmento="1130">Órgãos e entidades públicas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Abastecimento</item>
             <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="424">a</item>
@@ -16410,6 +15553,83 @@ o com voçes...obrigado</descricao>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>agendamento-eletronico-de-atendimento-na-previdencia</id>
+        <dbId>313</dbId>
+        <nome>Agendamento eletrônico de atendimento na Previdência</nome>
+        <sigla>84702</sigla>
+        <nomes-populares>
+            <item id="204">Selma Vieira Marcelino</item>
+            <item id="205">jose Baptista Vieira</item>
+            <item id="206">nathy kastro</item>
+        </nomes-populares>
+        <descricao>solicitaçao</descricao>
+        <contato>ok</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="189">
+                <tipo>aposentada por invalidez permanente</tipo>
+                <requisitos>Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="6" max="10" unidade="meses"/>
+            <descricao>consultas</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="999">
+                <titulo>10675780206</titulo>
+                <descricao>Quero meu problema resolvido
+o com voçes...obrigado</descricao>
+                <documentos>
+                    <default>
+                        <item id="437">RG e CPF</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1234" tipo="web">
+                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/12584" dbId="48681">
+            <nomeOrgao>Setor de Educação (SEDUC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1271">Cidadãos</item>
+            <item idSegmento="4" idServicoSegmento="1272">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Esporte e Lazer</item>
+            <item>Lazer</item>
+            <item>Operações de dívida pública</item>
+            <item>Previdência Social</item>
+            <item>Saúde</item>
+            <item>Segurança e Ordem Pública</item>
+            <item>Serviços Públicos</item>
+            <item>Abastecimento</item>
+            <item>Administração</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1016">dre</item>
+            <item id="1017">dre</item>
+            <item id="498">consulta teste  trabalho</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="159">Serviço</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>cadastramento-de-entidades-que-atuam-em-adocao-internacional-de-criancas-e-adolescentes-brasileiros</id>
@@ -19047,7 +18267,6 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <areas-de-interesse>
-            <item>Agropecuária</item>
             <item>Comércio e Serviços</item>
             <item>Comunicações</item>
             <item>Economia e Finanças</item>
@@ -19069,6 +18288,7 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
             <item>Trabalho</item>
             <item>Transportes</item>
             <item>Urbanismo</item>
+            <item>Agropecuária</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="948">Biblioteca</item>
@@ -19366,7 +18586,6 @@ Departamento Nacional de Infraestrutura de Transportes - DNIT, no endereço, S.A
             <item>Educação profissionalizante</item>
             <item>Educação superior</item>
             <item>Empregabilidade</item>
-            <item>Esporte comunitário</item>
             <item>Esporte e Lazer</item>
             <item>Habitação Urbana</item>
             <item>Indústria</item>
@@ -19381,6 +18600,7 @@ Departamento Nacional de Infraestrutura de Transportes - DNIT, no endereço, S.A
             <item>Sistema Financeiro</item>
             <item>Telecomunicações</item>
             <item>Turismo</item>
+            <item>Esporte comunitário</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -21651,6 +20871,112 @@ Telefone: (61) 2027-6000</contato>
         </legislacoes>
     </servico>
     <servico>
+        <id>selenium-servico-publicador-2</id>
+        <dbId>619</dbId>
+        <nome>Selenium Serviço Publicador 2</nome>
+        <sigla>Publicador</sigla>
+        <nomes-populares>
+            <item id="456">Public</item>
+            <item id="457">Private</item>
+            <item id="458">Protect</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço publicador</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="341">
+                <tipo>Solicitante Selenium publicador</tipo>
+                <requisitos>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>anos</unidade>
+            <descricao>Validos dfj kdhsa jkfha jskhfjh sdfljhjksghjkfhsgjkh Validos  dfjkdhsajkfhajskhfjhsdfljhjk sghjkfhsgjkh  Validos dfjkdhsajkfhajs khfjhsdfljh jksghjkfhsgjkh Validos dfjk dhsa j kfhajskhfjhsdfljh jksghjkfh sgjkh Validos dfjkdhsajk  fhajskhfjhsdfljhj  ksghjkfh sgjkh Validos dfjkdhsaj kfhajsk hfjhs dfljhjksghjkfh sgjkh Validos dfjkdhsajkfhajskhfjh sdfljhjksg hjkfh sgjkh Validos dfjkdh  sajkf   hajskhfjhsdflj hjksghjkfhsgjkh</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1304">
+                <titulo>Etapa 1 Selenium Publicador</titulo>
+                <descricao>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjsh,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljg</descricao>
+                <documentos>
+                    <default>
+                        <item id="1030">CPF</item>
+                        <item id="1031">IDENTIDADE</item>
+                        <item id="1032">CARTEIRA</item>
+                    </default>
+                    <caso id="279" descricao="palavra chave 2 publicador">
+                        <documento>
+                            <id>1029</id>
+                            <descricao>palavra chave 3 publicador</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="45">
+                            <descricao>Custos Selenium publicador</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1762" tipo="presencial">
+                            <descricao>Canal Selenium publicador</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="280" descricao="Canal Novo">
+                        <canal-de-prestacao id="1768" tipo="e-mail">
+                            <descricao>test2@teste.com</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1308">
+                <titulo>Titulo 2</titulo>
+                <descricao>sdfibcktrvrvi ugi fjkfhdgkhfdjghjfkdhgjkfhdjkghfdjskhgjkfhsdgjhfjkdhgkjfhsdkg</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1769" tipo="postal">
+                            <descricao>teste @poetsa</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="986">palavra chave 1 publicador</item>
+            <item id="987">palavra chave 2 publicador</item>
+            <item id="988">palavra chave 3 publicador</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="325">Legislação publicador</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>selenium-servico-ponto-focal</id>
         <dbId>618</dbId>
         <nome>Selenium Serviço Ponto Focal</nome>
@@ -21705,8 +21031,8 @@ Telefone: (61) 2027-6000</contato>
             <item idSegmento="3" idServicoSegmento="1650">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Agropecuária</item>
             <item>Atendimento básico</item>
+            <item>Agropecuária</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="992">palavra chave 1 ponto focal</item>
@@ -21715,72 +21041,6 @@ Telefone: (61) 2027-6000</contato>
         </palavras-chave>
         <legislacoes>
             <item id="327">Legislação  ponto focal</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>selenium-servico-publicador</id>
-        <dbId>619</dbId>
-        <nome>Selenium Serviço Publicador</nome>
-        <sigla></sigla>
-        <descricao>Selenium teste descrição serviço publicador</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="341">
-                <tipo>Solicitante Selenium publicador</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1304">
-                <titulo>Etapa 1 Selenium Publicador</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="45">
-                            <descricao>Custos Selenium publicador</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1762" tipo="presencial">
-                            <descricao>Canal Selenium publicador</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="986">palavra chave 1 publicador</item>
-            <item id="987">palavra chave 2 publicador</item>
-            <item id="988">palavra chave 3 publicador</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="325">Legislação publicador</item>
         </legislacoes>
     </servico>
     <servico>
@@ -23146,14 +22406,14 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item idSegmento="4" idServicoSegmento="679">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Compras governamentais</item>
             <item>Serviços Públicos</item>
             <item>Transporte Aéreo</item>
             <item>Transporte Ferroviário</item>
             <item>Transporte Hidroviário</item>
             <item>Transporte Rodoviário</item>
             <item>Transportes</item>
+            <item>Abastecimento</item>
+            <item>Compras governamentais</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="255">SICRO</item>
@@ -23245,8 +22505,8 @@ O sistema permite a atualização de cadastro de estações e dados climáticos 
             <item idSegmento="1" idServicoSegmento="683">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Agropecuária</item>
             <item>Meio ambiente</item>
+            <item>Agropecuária</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -25192,7 +24452,6 @@ Telefone: (61) 2027-5379/6608/6969</contato>
             <item idSegmento="4" idServicoSegmento="743">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Administração</item>
             <item>Cidadania</item>
             <item>Comunicações</item>
             <item>Cultura</item>
@@ -25201,6 +24460,7 @@ Telefone: (61) 2027-5379/6608/6969</contato>
             <item>Meio ambiente</item>
             <item>Serviços Públicos</item>
             <item>Telecomunicações</item>
+            <item>Administração</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="272">Inclusão Digital</item>
@@ -25352,10 +24612,10 @@ Telefone: (61) 2027-5379/6608/6969</contato>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Comunicações</item>
-            <item>Comunicações Postais</item>
             <item>Recursos humanos</item>
             <item>Serviços Públicos</item>
             <item>Telecomunicações</item>
+            <item>Comunicações Postais</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="277">Ouvidoria</item>
@@ -26617,11 +25877,11 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
             <item idSegmento="1" idServicoSegmento="778">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
+            <item>Meio ambiente</item>
+            <item>Agropecuária</item>
             <item>Abastecimento</item>
             <item>Administração</item>
-            <item>Agropecuária</item>
             <item>Água</item>
-            <item>Meio ambiente</item>
         </areas-de-interesse>
         <palavras-chave>
             <item id="291">Palavras-Chave 01</item>
@@ -27223,68 +26483,6 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-categoria-servico</id>
-        <dbId>617</dbId>
-        <nome>Selenium categoria serviço</nome>
-        <sigla>hfhghg sgs 213</sigla>
-        <descricao>23</descricao>
-        <contato>dfsfsdfdsfdsf</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <solicitantes>
-            <solicitante id="340">
-                <tipo>dsasdda</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1302">
-                <titulo>dsadasd</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1018">dsada</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1760" tipo="fax">
-                            <descricao>sdsadasdsda</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="983">sadadsad</item>
-            <item id="984">sdadssad</item>
-            <item id="985">sdadsadsadsa</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="324">sdsadsadsadas</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>alteracao-cadastral-no-cnpj</id>
         <dbId>296</dbId>
         <nome>Alteração Cadastral no CNPJ</nome>
@@ -27608,12 +26806,1415 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
         </legislacoes>
     </servico>
     <servico>
-        <id>selenium-servico</id>
-        <dbId>613</dbId>
-        <nome>Selenium Serviço</nome>
+        <id>aposentadoria-especial</id>
+        <dbId>300</dbId>
+        <nome>Aposentadoria Especial</nome>
         <sigla></sigla>
-        <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
-        <contato>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</contato>
+        <nomes-populares>
+            <item id="187">Rosemara Luiz</item>
+        </nomes-populares>
+        <descricao>Benefício concedido ao segurado que tenha trabalhado em condições prejudiciais à saúde ou à integridade física. Para ter direito à aposentadoria especial, o trabalhador deverá comprovar, além do tempo de trabalho, efetiva exposição aos agentes nocivos químicos, físicos, biológicos ou associação de agentes prejudiciais pelo período exigido para a concessão do benefício (15, 20 ou 25 anos).</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="344">
+                <tipo>Solicitante 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="975">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1194" tipo="presencial">
+                            <descricao>Serviço prestado nas Agências da Previdência Social.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1193" tipo="web-agendar">
+                            <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1930" dbId="37533">
+            <nomeOrgao>Ministério da Previdência Social (MPS)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1249">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Previdência Social</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="995">Apo</item>
+            <item id="996">pao</item>
+            <item id="997">pp</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="328">dddsda</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>renovar-passe-livre</id>
+        <dbId>1</dbId>
+        <nome>Renovar Passe Livre</nome>
+        <sigla></sigla>
+        <descricao>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</descricao>
+        <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
+
+ Telefones: (61) 2029-8035.
+
+ e-mail: passelivre@transportes.gov.br
+
+ Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="297">
+                <tipo>Quem já é beneficiário do Passe Livre.</tipo>
+                <requisitos>Para que uma pessoa tenha direito a renovação é necessário:
+
+*Ser beneficiário do passe livre.
+
+*Possuir Deficiência física, mental, auditiva, visual ou múltipla.
+
+*Ser comprovadamente carente.
+Conheça como funciona o cálculo para definir se uma pessoa é ou não carente clicando [aqui](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre.html#conheca_melhorPL_beneficiario)</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-corridos"/>
+            <descricao>O prazo estimado acima começa a contar a partir do recebimento dos documentos pelo Passe Livre.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1250">
+                <titulo>Preencher formulários para Renovação</titulo>
+                <descricao>O beneficiário preenche os formulários disponíveis no site do Ministério dos Transportes, Portos e Aviação Civil ou presencialmente.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1666" tipo="presencial">
+                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1665" tipo="web">
+                            <descricao>http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1251">
+                <titulo>Enviar formulários e documentação</titulo>
+                <descricao>Os formulários da etapa 1 e a documentação devem ser encaminhados via correios ou entregue pessoalmente.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="234" descricao="Renovação de Benefício sem a necessidade de acompanhante">
+                        <documento>
+                            <id>869</id>
+                            <descricao>Novo requerimento, acompanhado da Declaração da Composição e Renda Familiar, informando dados pessoais, declaração de rendimentos da família e o número de pessoas dependentes do rendimento indicado.</descricao>
+                        </documento>
+                        <documento>
+                            <id>870</id>
+                            <descricao>Novo Atestado Médico, devendo os médicos indicar a Classificação Internacional de Doenças, ou seja, o CID.10, que caracteriza a deficiência.</descricao>
+                        </documento>
+                        <documento>
+                            <id>871</id>
+                            <descricao>Cópia do documento de identificação.</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="235" descricao="Renovação de Benefício com a necessidade de acompanhante">
+                        <documento>
+                            <id>872</id>
+                            <descricao>Novo requerimento, acompanhado da Declaração da Composição e Renda Familiar, informando dados pessoais, declaração de rendimentos da família e o número de pessoas dependentes do rendimento indicado.</descricao>
+                        </documento>
+                        <documento>
+                            <id>873</id>
+                            <descricao>Novo Atestado Médico, com a declaração do mesmo médico que atestou a deficiência, informando que é imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
+                        </documento>
+                        <documento>
+                            <id>874</id>
+                            <descricao>Novo requerimento do acompanhante, com a Declaração da Composição e Renda Familiar, informando dados pessoais, declaração de rendimentos da família e o número de pessoas dependentes .</descricao>
+                        </documento>
+                        <documento>
+                            <id>875</id>
+                            <descricao>Cópia do documento de identificação do Acompanhante.</descricao>
+                        </documento>
+                        <documento>
+                            <id>876</id>
+                            <descricao>Cópia do documento de identificação do Beneficiário.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1668" tipo="presencial">
+                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1667" tipo="postal">
+                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1252">
+                <titulo>Aguardar análise do processo</titulo>
+                <descricao>Nesta etapa o beneficiário aguardará a análise dos formulários e da documentação enviada ao passe livre.
+
+Serão resultados desta etapa:
+
+- **Benefício aprovado**(será enviado a credencial via correios para o beneficiário);
+
+- **Benefício com pendências**(será comunicado via correio, quais pendências estão impossibilitando a emissão da credencial para o beneficiário);
+
+- **Benefício rejeitado**(será comunicado via correio que o solicitante não cumpre com os requisitos do programa passe livre).</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1669" tipo="web-acompanhar">
+                            <descricao>http://sistemas3.transportes.gov.br/CAPPL/paginas/requerente/home.jsp</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
+            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1581">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transportes</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="873">Passe Livre</item>
+            <item id="874">Carteira</item>
+            <item id="875">Credencial</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="286">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracoes-de-pos-outorga</id>
+        <dbId>9</dbId>
+        <nome>Alterações de Pós-Outorga</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="376">Atos de Pós-Outorga</item>
+        </nomes-populares>
+        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="306">
+                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1272">
+                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1704" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1602">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1603">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1604">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="903">Renovação</item>
+            <item id="904">Transferência de Outorga</item>
+            <item id="905">Alteração de Quadro Societário</item>
+            <item id="906">Pós-Outorga</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="302">Geral
+
+Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
+            <item id="303">Renovação/ revisão de outorga
+
+Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
+            <item id="304">Alterações contratuais
+
+Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>sair-do-github</id>
+        <dbId>669</dbId>
+        <nome>Sair do Github</nome>
+        <sigla>GitHub hfjkjfdh</sigla>
+        <nomes-populares>
+            <item id="459">git</item>
+            <item id="460">hub</item>
+            <item id="461">codigo</item>
+            <item id="462">github</item>
+        </nomes-populares>
+        <descricao>GitHub</descricao>
+        <contato>Teste Contato</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="353">
+                <tipo>Programadores</tipo>
+                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de organizacão que é amplamente utilizado por aqueles que querem uma escola maior para seus projetos. Na maioria das vezes, o recurso é usado por empresas já</requisitos>
+            </solicitante>
+            <solicitante id="354">
+                <tipo>Arquitetos</tipo>
+                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>Depende da pessoa</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1309">
+                <titulo>Subir Codigo</titulo>
+                <descricao>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</descricao>
+                <documentos>
+                    <default>
+                        <item id="1034">email</item>
+                        <item id="1035">senha</item>
+                    </default>
+                    <caso id="281" descricao="Rico">
+                        <documento>
+                            <id>1033</id>
+                            <descricao>Certificado Digital</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1772" tipo="web">
+                            <descricao>[GitHub](https://www.github.com)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="282" descricao="Git local Empresa Web">
+                        <canal-de-prestacao id="1770" tipo="web">
+                            <descricao>Endereço do Git Local</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="283" descricao="Git Local Empresa Física">
+                        <canal-de-prestacao id="1771" tipo="presencial">
+                            <descricao>Local da empresa, levar código fonte no CD.</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1310">
+                <titulo>Baixar Código</titulo>
+                <descricao>Acessar Git da primeira Etapa</descricao>
+                <documentos>
+                    <default>
+                        <item id="1037">email</item>
+                        <item id="1038">senha</item>
+                    </default>
+                    <caso id="284" descricao="Rico 2">
+                        <documento>
+                            <id>1036</id>
+                            <descricao>Certificado Digital</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1773" tipo="e-mail">
+                            <descricao>github@github.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1654">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1655">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1656">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="1657">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Serviços Públicos</item>
+            <item>Sistema Financeiro</item>
+            <item>test</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="999">Gt</item>
+            <item id="1000">Tes</item>
+            <item id="1001">Github</item>
+            <item id="1002">Programação</item>
+            <item id="1003">Programas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="329">LEgislação Mill</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-fisica-guia-de-turismo</id>
+        <dbId>6</dbId>
+        <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Física/Guia de Turismo</nome>
+        <sigla>Cadastur</sigla>
+        <descricao>Cadastro no Ministério do Turismo de pessoas físicas que atuam como Guia de Turismo. 
+É obrigatório e válido por 5 anos. O cadastro permite ao prestador atuar legalmente, de acordo com a Lei nº 8.623/93, por meio da emissão do Certificado Cadastur e crachá de Guia de Turismo, assim como oferece benefícios aos cadastrados.</descricao>
+        <contato>- Lista dos órgãos estaduais de turismo, responsáveis pelo Cadastur na UF, disponível no site [Cadastur](http://www.cadastur.turismo.gov.br) na aba
+[Como cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em "órgãos oficiais de turismo".     
+Coordenação-Geral de Cadastramento e Fiscalização (MTur)      
+E-mail: snptur.ouvidoria@turismo.gov.br / 0800-2008484 (opção 04 - Cadastur)</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="303">
+                <tipo>Guia de Turismo</tipo>
+                <requisitos>1. O exercício regular da atividade de Guia de Turismo depende de prévia realização de curso técnico de formação profissional e de cadastro no Ministério do Turismo (Cadastur).
+
+2. Permitido a brasileiros ou estrangeiros residentes no País e habilitados para o exercício da atividade profissional; maiores de dezoito anos; eleitor (em dia com as obrigações eleitorais); reservista (em dia com as obrigações militares).</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="105" unidade="dias-corridos"/>
+            <descricao>1. 30 dias: prazo para a entrega, por parte do prestador, da documentação do cadastro ao órgão delegado do Ministério do Turismo.
+
+2. 30 dias seguintes: prazo para o órgão delegado analisar a documentação, homologar o cadastro e gerar o certificado.
+
+3. Até 45 dias após homologação: disponibilização do crachá de Guia de Turismo. Observação: o Guia de Turismo pode atuar nesse período sem o crachá, mas deverá portar o certificado Cadastur válido.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1258">
+                <titulo>Criar um "novo usuário"</titulo>
+                <descricao>1. Se o prestador nunca foi cadastrado no Cadastur, é necessário criar um “novo usuário” no sistema no sítio do [Cadastur](http://www.cadastur.turismo.gov.br). 
+
+2. Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado o login e a senha para acessar o sistema [Cadastur](http://www.cadastur.turismo.gov.br).</descricao>
+                <documentos>
+                    <default>
+                        <item id="877">CPF do responsável pelo cadastro</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1682" tipo="presencial">
+                            <descricao>Caso o solicitante não possua acesso ao computador/internet, poderá contatar o órgão estadual de turismo responsável pelo Cadastur. Acesse 
+[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur) em "órgãos oficiais de turismo".</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1681" tipo="web">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/novoUsuario.mtur</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1259">
+                <titulo>Acessar o sistema Cadastur</titulo>
+                <descricao>Acessar a página inicial do site do Cadastur e digitar nos campos indicados o login e senha recebidos. O solicitante deverá mudar a senha. A tela seguinte apresentará o "Ambiente de Negócios" do prestador, onde se encontra o botão “meu cadastro”. Para iniciar o cadastramento é necessário clicar nessa opção.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1683" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1260">
+                <titulo>Preencher o formulário eletrônico de cadastro (Dados pessoais)</titulo>
+                <descricao>Na próxima tela aparecerá o formulário eletrônico de cadastro. Ao lado de cada campo do formulário há um ponto de exclamação que, ao ser clicado, exibe as informações de preenchimento. Após preencher todos os campos solicitados clicar no botão “salvar” para registrar as informações. O sistema enviará uma confirmação por e-mail de que a operação foi realizada com sucesso.</descricao>
+                <documentos>
+                    <default>
+                        <item id="878">CPF do cadastrado</item>
+                        <item id="879">RG do cadastrado</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1684" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1261">
+                <titulo>Preencher formulário eletrônico de cadastro (Dados da atividade)</titulo>
+                <descricao>Após preencher e salvar os dados pessoais, o solicitante deverá completar as informações na aba "Atividades" sobre a categoria de atuação (Guia Regional, Guia Nacional, Guia Especializado em Atrativos, Guia Internacional) e sobre os segmentos turísticos e idiomas.</descricao>
+                <documentos>
+                    <default>
+                        <item id="880">Certificado de conclusão de curso técnico em Guia de Turismo com a devida categoria de atuação</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1685" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1262">
+                <titulo>Imprimir e preencher documentos obrigatórios</titulo>
+                <descricao>Ao final do preenchimento de todas as abas e campos obrigatórios do formulário eletrônico, deverá ser impresso e preenchido o Requerimento e o Termo de Responsabilidade disponibilizados. Esses documentos deverão ser entregues ao órgão estadual de turismo responsável pelo Cadastur juntamente com outros necessários.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1686" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1263">
+                <titulo>Encaminhar a documentação obrigatória</titulo>
+                <descricao>Junto com o Requerimento e o Termo de Responsabilidade, encaminhar a documentação obrigatória. Os documentos podem ser entregues pessoalmente  ou de forma remota (e-mail, Correios). O solicitante deverá entrar em contato com o órgão responsável para verificar os meios disponíveis.</descricao>
+                <documentos>
+                    <default>
+                        <item id="882">Ficha de Cadastro eletrônica ou impressa devidamente preenchido</item>
+                        <item id="883">Foto padrão 3x4 recente (plano de fundo e roupa contrastando com a cor da pele)</item>
+                        <item id="884">Cópia do Certificado de conclusão de Curso Técnico de Formação Profissional de Guia de Turismo com carga horária mínima conforme estabelecido no Catálogo Nacional de Cursos Técnicos</item>
+                        <item id="885">Cópia do CPF</item>
+                        <item id="886">Cópia do RG</item>
+                        <item id="887">RNE (Registro Nacional de Estrangeiro) ou CIE (Cédula de Identidade de Estrangeiro) para estrangeiro residente no país e habilitado para o exercício da atividade profissional</item>
+                        <item id="888">Título de eleitor (e quitação de obrigações eleitorais)</item>
+                        <item id="889">Comprovante de quitação militar</item>
+                        <item id="890">Termo de Responsabilidade emitido pelo sistema, devidamente assinado</item>
+                        <item id="891">Comprovante de residência</item>
+                    </default>
+                    <caso id="236" descricao="Inclusão de idioma no cadastro">
+                        <documento>
+                            <id>881</id>
+                            <descricao>Cópia de certificado/diploma de curso de idioma, ou comprovante de Exame de Proficiência ou Atestado de Fluência.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1688" tipo="postal">
+                            <descricao>Verificar procedimentos com o órgão estadual de turismo responsável pelo Cadastur na UF.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1687" tipo="presencial">
+                            <descricao>Caso o solicitante não possua acesso ao computador/internet, poderá contatar o órgão estadual de turismo responsável pelo Cadastur. Acesse 
+[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur) em "órgãos oficiais de turismo".</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1264">
+                <titulo>Homologação do cadastro e disponibilização do certificado</titulo>
+                <descricao>A homologação do requerimento de cadastro e emissão do certificado serão realizadas após a análise e aprovação da documentação exigida. O requerente terá 30 dias para entregar essa documentação. No caso de não cumprimento do prazo acima estipulado, será necessário proceder a novo requerimento de cadastro. O cadastro é válido por 5 anos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1689" tipo="web-acompanhar">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/Certificados.mtur</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1265">
+                <titulo>Entrega do crachá de Guia de Turismo</titulo>
+                <descricao>O crachá estará disponível para coleta no órgão estadual de turismo, responsável pelo Cadastur na UF,  até 45 dias após a homologação. Durante o período de confecção do documento, o guia de turismo pode atuar portando somente o certificado Cadastur válido.</descricao>
+                <documentos>
+                    <default>
+                        <item id="892">RG</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1691" tipo="postal">
+                            <descricao>Verificar disponibilidade e procedimentos diretamente com o órgão estadual de turismo responsável pelo Cadastur na UF. Acesse 
+[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em "órgãos oficiais de turismo".</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1690" tipo="presencial">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1266">
+                <titulo>Renovação de Cadastro</titulo>
+                <descricao>Em função de readequação do sistema, a renovação online de cadastro está suspensa, sendo somente possível por meio de solicitação em formulário impresso. 
+Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo na UF. O prestador terá 30 dias para entregar a documentação exigida. A renovação do cadastro deverá ser solicitada a partir de 90 dias antes do término da validade do certificado.</descricao>
+                <documentos>
+                    <default>
+                        <item id="894">Termo de Responsabilidade assinado</item>
+                        <item id="895">Formulário de Requerimento de Pessoa Física Guia de Turismo atualizado</item>
+                        <item id="896">Cópia dos comprovantes de recolhimento da Guia de Recolhimento da Contribuição Sindical Urbana – GRCSU de período igual ao da credencial a ser renovada</item>
+                        <item id="897">Foto 3x4 atual</item>
+                    </default>
+                    <caso id="237" descricao="Profissionais com relação empregatícia">
+                        <documento>
+                            <id>893</id>
+                            <descricao>Para comprovação de contribuição sindical, poderá ser apresentanda a Carteira de Trabalho e Previdência Social com o respectivo registro do empregador.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1693" tipo="postal">
+                            <descricao>Verificar disponibilidade e procedimentos com órgão estadual de turismo.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1692" tipo="presencial">
+                            <descricao>Lista dos órgãos estaduais de turismo:  Acesse [Como se cadastrar] (http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em "órgãos oficiais de turismo".</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1267">
+                <titulo>Alteração de cadastro</titulo>
+                <descricao>Em função de readequação do sistema, a alteração de cadastro online está suspensa, sendo somente possível por meio de solicitação junto ao órgão delegado de turismo na UF.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1694" tipo="presencial">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
+            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1594">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1595">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1596">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="1597">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Educação profissionalizante</item>
+            <item>Esporte e Lazer</item>
+            <item>Lazer</item>
+            <item>Relações de Trabalho</item>
+            <item>Serviços Públicos</item>
+            <item>Trabalho</item>
+            <item>Turismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="884">Guia de Turismo</item>
+            <item id="885">Turismo</item>
+            <item id="886">Cadastro MTur</item>
+            <item id="887">Cadastro Ministério do Turismo</item>
+            <item id="888">Cadastro Embratur</item>
+            <item id="889">Cadastro Guia de Turismo</item>
+            <item id="890">Guia Turístico</item>
+            <item id="891">Crachá Guia de Turismo</item>
+            <item id="892">Credencial Guia de Turismo</item>
+            <item id="893">Carteira Guia de Turismo</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="291">Lei sobre a profissão de Guia de Turismo: &lt;a href="http://www.planalto.gov.br/ccivil_03/leis/L8623.htm"&gt;Lei nº 8.623/93&lt;/a&gt;</item>
+            <item id="292">Decreto que regulamenta a Lei nº 8.623/93: &lt;a href="http://www.planalto.gov.br/ccivil_03/decreto/Antigos/D0946.htm"&gt;Decreto nº 946/93&lt;/a&gt;</item>
+            <item id="293">Portaria que institui o Cadastur: &lt;a href="http://www.turismo.gov.br/legislacao/?p=112"&gt;Portaria MTur nº 130/2011&lt;/a&gt;</item>
+            <item id="294">Portaria que regulamenta o Cadastur: &lt;a href="http://www.turismo.gov.br/legislacao/?p=135"&gt;Portaria MTur nº 197/2013&lt;/a&gt;</item>
+            <item id="295">Portaria que estabelece requisitos e critérios para o exercício da atividade de Guia de Turismo: &lt;a href="http://www.turismo.gov.br/legislacao/?p=117"&gt;Portaria MTur nº 27/2014&lt;/a&gt;</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>emissao-de-autorizacao-especial-de-transito</id>
+        <dbId>34</dbId>
+        <nome>Emissão de Autorização Especial de Trânsito</nome>
+        <sigla>AET</sigla>
+        <descricao>Autorização Especial de Trânsito é o documento expedido pelo Departamento Nacional de Infraestrutura de Transportes - DNIT, para veículo ou combinação de veículos utilizados no transporte de carga, que não se enquadre nos limites de peso e dimensões estabelecidos pelo Conselho Nacional de Trânsito - CONTRAN na [Resolução 210/06](http://www.denatran.gov.br/download/Resolucoes/RESOLUCAO_210.rtf).</descricao>
+        <contato>E-mail: siaet@dnit.gov.br
+Central de Atendimento: 0800-61-1535</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="107">
+                <tipo>Empresas Transportadoras</tipo>
+                <requisitos>É necessário que o veículo extrapole os limites de peso e dimensões  estabelecidos pela [Resolução 210/06](http://www.denatran.gov.br/download/Resolucoes/RESOLUCAO_210.rtf) do CONTRAN e que o solicitante esteja previamente cadastrado junto à Coordenação Geral de Operações Rodoviárias - CGPERT/DIR/DNIT, sendo este cadastro feito no próprio [site](https://siaet.dnit.gov.br)</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="dias-uteis"/>
+            <descricao>Em caso de cargas indivisíveis o prazo será:
+De 24h quando a rota não for definida previamente; 
+De 5 dias úteis quando houver rota estabelecida e for necessário consulta da referida por superintendência do DNIT ou concessionária;
+De 30 dias quando houver especificação de rota, porém seja necessário consulta e aferição de laudo.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="640">
+                <titulo>Solicitar emissão de AET</titulo>
+                <descricao>O interessado deve acessar o site do DNIT para solicitar a autorização através do Sistema de Gerenciamento de Autorizações Especiais de Trânsito, [SIAET](https://siaet.dnit.gov.br)</descricao>
+                <documentos>
+                    <default>
+                        <item id="271">É necessário estar cadastrado na Coordenação Geral de Operações Rodoviárias - CGPERT/DIR/DNIT</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="6">
+                            <descricao>Taxa de Emissão Regular</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,654</valor>
+                        </custo>
+                    </default>
+                    <caso id="77" descricao="Tarifa de Utilização da Via - TUV - Para configurações veiculares com peso superior a 74 toneladas.">
+                        <custo id="5">
+                            <descricao>Calculada em função da distância a ser percorrida entre pontos de origem e destino da carga com o peso excedente.</descricao>
+                            <moeda>R$</moeda>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="781" tipo="web">
+                            <descricao>https://siaet.dnit.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="641">
+                <titulo>Suporte ao processo de liberação de AET</titulo>
+                <descricao>O SIAET oferece suporte de operação e gerenciamento ao processo de liberação de Autorização Especial de Trânsito – AET, bem como orientação aos usuários, envolvendo o levantamento e cadastramento de dimensões de obras-de-arte especiais e elementos relacionados às limitações de largura e peso de veículos em trechos de rodovias federais.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="782" tipo="web-acompanhar">
+                            <descricao>https://siaet.dnit.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54844" dbId="23732">
+            <nomeOrgao>Departamento Nacional de Infraestrutura de Transportes (DNIT)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="811">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transportes</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="305">Autorização</item>
+            <item id="306">Trânsito</item>
+            <item id="307">Transporte</item>
+            <item id="308">Carga</item>
+            <item id="309">DNIT</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="94">[Resoluções sobre Autorização Especial de Trânsito](http://www.dnit.gov.br/rodovias/operacoes-rodoviarias/sistema-de-gerenciamento-de-autorizacao-especial-de-transito-siaet/resolucao-aet)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>servicocarlos3-29-08-17</id>
+        <dbId>672</dbId>
+        <nome>ServiçoCarlos3-29-08-17</nome>
+        <sigla>SC3</sigla>
+        <nomes-populares>
+            <item id="464">ServiçoCarlos</item>
+        </nomes-populares>
+        <descricao>ServiçoCarlos</descricao>
+        <contato>987654321</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="356">
+                <tipo>ServiçoCarlos</tipo>
+                <requisitos>ServiçoCarlos</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao>ServiçoCarlos</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1312">
+                <titulo>ServiçoCarlos</titulo>
+                <descricao>ServiçoCarlos</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1775" tipo="e-mail">
+                            <descricao>ServiçoCarlos</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1660">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Produção Industrial</item>
+            <item>Saúde</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1007">ServiçoCarlos</item>
+            <item id="1008">SC</item>
+            <item id="1009">Carlos</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="331">ServiçoCarlos</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>testeservicocarlos-29-08-17</id>
+        <dbId>671</dbId>
+        <nome>TesteServiçoCarlos-29-08-17</nome>
+        <sigla>TSC</sigla>
+        <nomes-populares>
+            <item id="463">TesteServiçoCarlos-29-08-17</item>
+        </nomes-populares>
+        <descricao>Desc do TesteServiçoCarlos-29-08-17</descricao>
+        <contato>987654321</contato>
+        <gratuito>true</gratuito>
+        <porcentagem>95</porcentagem>
+        <porcentagem-manual>true</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="355">
+                <tipo>Pessoa TesteServiçoCarlos-29-08-17</tipo>
+                <requisitos>requisito do TesteServiçoCarlos-29-08-17</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="2" unidade="dias-corridos"/>
+            <descricao>TesteServiçoCarlos-29-08-17</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>12</quantidade>
+            <unidade>meses</unidade>
+            <descricao>validade do TesteServiçoCarlos-29-08-17</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1311">
+                <titulo>Etapa_TesteServiçoCarlos-29-08-17</titulo>
+                <descricao>testedeetapa_TesteServiçoCarlos-29-08-17</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1774" tipo="postal">
+                            <descricao>TesteServiçoCarlos-29-08-17</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/214460" dbId="37535">
+            <nomeOrgao>Ministério da Transparência e Controladoria-Geral da União (CGU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1658">Cidadãos</item>
+            <item idSegmento="4" idServicoSegmento="1659">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1004">TSC</item>
+            <item id="1005">TesteServiçoCarlos-29-08-17</item>
+            <item id="1006">Teste</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="330">TesteServiçoCarlos-29-08-17</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>testecarlos-mcidades-29-08-17</id>
+        <dbId>673</dbId>
+        <nome>TesteCarlos-MCidades-29-08-17</nome>
+        <sigla>TCMC</sigla>
+        <nomes-populares>
+            <item id="465">TesteCarlos-MCidades-29-08-17</item>
+        </nomes-populares>
+        <descricao>TesteCarlos-MCidades-29-08-17</descricao>
+        <contato>987654321</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="357">
+                <tipo>TesteCarlos-MCidades-29-08-17</tipo>
+                <requisitos>TesteCarlos-MCidades-29-08-17</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1313">
+                <titulo>TesteCarlos-MCidades-29-08-17</titulo>
+                <descricao>TesteCarlos-MCidades-29-08-17</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1776" tipo="presencial">
+                            <descricao>TesteCarlos-MCidades-29-08-17</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42672" dbId="37536">
+            <nomeOrgao>Ministério das Cidades (MCIDADES)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1661">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Biodiversidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1010">TesteCarlos-MCidades-29-08-17</item>
+            <item id="1011">TesteCarlos-MCidades-29-08-17</item>
+            <item id="1012">TesteCarlos-MCidades-29-08-17</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="332">TesteCarlos-MCidades-29-08-17</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>consultar-servicos-estabelecimentos-disponiveis</id>
+        <dbId>3</dbId>
+        <nome>Consultar serviços/estabelecimentos disponíveis</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="368">Guia Turismo Acessível</item>
+        </nomes-populares>
+        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações diversas. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
+
+Neste espaço você aprenderá a consultar um estabelecimento ou atrativo turístico.</descricao>
+        <contato>Departamento de Marketing e Apoio à Comercialização  
+Coordenação de Produtos Turísticos    
+Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF Telefone: 61 2023-8165    
+Email - incentivo.viagens@turismo.gov.br</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="298">
+                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="299">
+                <tipo>Público em geral</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="5" unidade="minutos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1254">
+                <titulo>Buscar empreendimento ou atrativo turístico</titulo>
+                <descricao>Navegue pelo site [GUIA DE TURISMO ACESSÍVEL](http://www.turismoacessivel.gov.br)
+
+Passo 1 - Indicar a cidade e o tipo de estabelecimento ou atrativo e filtro da perspectiva  de deficiência que gostaria de buscar;  
+Passo 2 - Indicar nome do estabelecimento ou consultar estabelecimento e atrativos listados no resultado da busca.
+
+Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
+* Auditiva
+* Física ou motora
+* Visual
+* Mobilidade reduzida</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1673" tipo="aplicativo-movel">
+                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1672" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
+            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1584">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1585">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1586">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1587">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Cidadania</item>
+            <item>Combate a desigualdade</item>
+            <item>Cultura</item>
+            <item>Esporte e Lazer</item>
+            <item>Infraestrutura Urbana</item>
+            <item>Lazer</item>
+            <item>Normalização e Qualidade</item>
+            <item>Patrimônio</item>
+            <item>Turismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="876">Turismo</item>
+            <item id="877">Acessibilidade</item>
+            <item id="878">Pessoa com deficiência</item>
+            <item id="879">Viagens</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="287">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
+            <item id="288">Norma Brasileira ABNT NBR 9050 - http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>outorga-de-radiodifusao-comercial</id>
+        <dbId>7</dbId>
+        <nome>Outorga de Radiodifusão Comercial</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="372">TV</item>
+            <item id="373">FM</item>
+            <item id="374">AM</item>
+        </nomes-populares>
+        <descricao>O processo de outorga de radiodifusão de sons ou de sons e imagens, em caráter comercial, ocorre por processo licitatório (Lei nº 8.666/93), na modalidade Concorrência, mediante a publicação, na Imprensa Oficial, do devido edital, e é julgada pelo critério de maior valor da média ponderada da pontuação da Proposta Técnica e da Proposta de Preço pela Outorga.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="304">
+                <tipo>Sociedades anônimas ou de responsabilidade limitada, fundações e universidades</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1268">
+                <titulo>Participação em Edital de Licitação</titulo>
+                <descricao>A outorga de serviço de radiodifusão de natureza comercial é precedida de licitação, na modalidade de Concorrência, a qual tem início com a publicação de Aviso no Diário Oficial da União (DOU), contendo a indicação do local e as condições em que os interessados poderão obter o texto do edital, bem assim o local, a data e a hora para a apresentação das propostas para fins de habilitação e julgamento.</descricao>
+                <documentos>
+                    <default>
+                        <item id="898">Publicado o Edital no DOU, e não havendo impugnação ao mesmo, será marcada data, após 60 dias da publicação do Edital, para apresentação dos envelopes dos documentos de habilitação e das propostas técnicas e de preço.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1695" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/radiodifusao-comercial</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1598">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1599">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1600">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="894">Radiodifusão</item>
+            <item id="895">Comercial</item>
+            <item id="896">Privada</item>
+            <item id="897">FM</item>
+            <item id="898">TV</item>
+            <item id="899">AM</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="296">Legislação básica
+
+- Lei 4.117/1962: Código Brasileiro de Telecomunicações
+
+- Decreto n.º 52.795/1963: Regulamento de Serviços de Radiodifusão
+
+- Lei n.º 9.472/1997: Lei Geral das Telecomunicações</item>
+            <item id="297">FM
+
+- Resolução Anatel n° 67/1998: Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada
+
+- Resolução Anatel n° 546/2010: Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada</item>
+            <item id="298">TV
+
+- Resolução Anatel n° 284/2001: Regulamento Técnico para a Prestação de Serviços de Radiodifusão de Sons e Imagens e de Retransmissão de Televisão</item>
+            <item id="299">OC e OT de 60 e 90 metros
+
+- Portaria n° 25/1983: Norma Técnica para Emissoras de Radiodifusão Sonora em Ondas Decamétrica</item>
+            <item id="300">Aumento de potência
+
+- Portaria n° 231/2013: Estabelece regras para a autorização de alteração de características técnicas de operação das emissoras de serviços de radiodifusão e seus ancilares que resultem em alteração da classe e grupo de enquadramento
+
+- Retificação da portaria n° 2031/2013</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>programa-nacional-de-credito-fundiario-pncf</id>
+        <dbId>675</dbId>
+        <nome>Programa Nacional de Crédito Fundiário - PNCF</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="467">Crédito Fundiário</item>
+        </nomes-populares>
+        <descricao>É uma ação complementar à Reforma Agrária, que possibilita o acesso à terra aos trabalhadores e trabalhadoras rurais sem terra ou com pouca terra, por meio de um financiamento para a aquisição de imóveis rurais e investimento em infraestrutura.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="359">
+                <tipo>Cidadãos e Famílias</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1318">
+                <titulo>Contato com os Sindicatos de Trabalhadores Rurais e da Agricultura Familiar</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1070">Nenhum</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1781" tipo="presencial">
+                            <descricao>Sindicatos de Trabalhadores Rurais e da Agricultura Familiar.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1319">
+                <titulo>Apresentação dos documentos</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1071">Carteira de identidade</item>
+                        <item id="1072">Certidão de casamento</item>
+                        <item id="1073">Certidão de nascimento</item>
+                        <item id="1074">Certidões de cartório</item>
+                        <item id="1075">Comprovante de endereço/residência</item>
+                        <item id="1076">Comprovante de renda</item>
+                        <item id="1077">Comprovante de quitação eleitoral</item>
+                        <item id="1078">CPF</item>
+                        <item id="1079">NIS</item>
+                        <item id="1080">Registro em Cartório</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1782" tipo="presencial">
+                            <descricao>Sindicatos de Trabalhadores Rurais e da Agricultura Familiar.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1320">
+                <titulo>Abertura de conta corrente no agente financeiro.</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1081">Carteira de identidade</item>
+                        <item id="1082">Certidão de casamento</item>
+                        <item id="1083">Certidão de nascimento</item>
+                        <item id="1084">Certidões de cartório</item>
+                        <item id="1085">Comprovante de endereço/residência</item>
+                        <item id="1086">Comprovante de renda</item>
+                        <item id="1087">Comprovante de quitação eleitoral</item>
+                        <item id="1088">CPF</item>
+                        <item id="1089">NIS</item>
+                        <item id="1090">Registro em Cartório</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1783" tipo="presencial">
+                            <descricao>Bancos Oficiais.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1321">
+                <titulo>Assinatura da escritura ao final do processo.</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1091">Carteira de identidade</item>
+                        <item id="1092">Certidão de casamento</item>
+                        <item id="1093">Certidão de nascimento</item>
+                        <item id="1094">Certidões de cartório</item>
+                        <item id="1095">Comprovante de endereço/residência</item>
+                        <item id="1096">Comprovante de renda</item>
+                        <item id="1097">Comprovante de quitação eleitoral</item>
+                        <item id="1098">CPF</item>
+                        <item id="1099">NIS</item>
+                        <item id="1100">Registro em Cartório</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1784" tipo="presencial">
+                            <descricao>Cartórios de Registro de Imóveis.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2837" dbId="6041">
+            <nomeOrgao>Casa Civil da Presidência da República (CC-PR)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1662">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1013">asdasf</item>
+            <item id="1014">asdfasdf</item>
+            <item id="1015">asdfas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="333">asdfasdfas</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-categoria-servico</id>
+        <dbId>617</dbId>
+        <nome>Selenium categoria serviço</nome>
+        <sigla>hfhghg sgs 213</sigla>
+        <nomes-populares>
+            <item id="452">Acesso aos documentos do Acervo do Arquivo Legal</item>
+        </nomes-populares>
+        <descricao>23</descricao>
+        <contato>dfsfsdfdsfdsf</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <solicitantes>
+            <solicitante id="340">
+                <tipo>dsasdda</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1302">
+                <titulo>dsadasd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1018">dsada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1760" tipo="fax">
+                            <descricao>sdsadasdsda</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
+            <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="983">sadadsad</item>
+            <item id="984">sdadssad</item>
+            <item id="985">sdadsadsadsa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="324">sdsadsadsadas</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico-2</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço 2</nome>
+        <sigla>Sigla</sigla>
+        <nomes-populares>
+            <item id="453">Serviço</item>
+            <item id="454">X MEN</item>
+            <item id="455">Teste Milll</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato></contato>
         <gratuito>false</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <solicitantes>
@@ -27632,7 +28233,7 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
         <etapas>
             <etapa id="1298">
                 <titulo>Etapa 1 Selenium</titulo>
-                <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+                <descricao></descricao>
                 <documentos>
                     <default/>
                 </documentos>
@@ -27641,21 +28242,20 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
                         <custo id="44">
                             <descricao>Custos Selenium</descricao>
                             <moeda>R$</moeda>
-                            <valor>10</valor>
                         </custo>
                     </default>
                 </custos>
                 <canais-de-prestacao>
                     <default>
                         <canal-de-prestacao id="1755" tipo="presencial">
-                            <descricao></descricao>
+                            <descricao>Canal Selenium</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2207" dbId="34310">
+            <nomeOrgao>Fundação Nacional de Saúde (FUNASA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
@@ -27665,11 +28265,11 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
         <areas-de-interesse>
             <item>Atendimento básico</item>
             <item>Combate a desigualdade</item>
-            <item>Comunicações Postais</item>
             <item>Educação básica</item>
+            <item>Comunicações Postais</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="971">palavra chave 1</item>
+            <item id="971">palavra chave 3</item>
             <item id="972">palavra chave 2</item>
             <item id="973">palavra chave 3</item>
         </palavras-chave>
