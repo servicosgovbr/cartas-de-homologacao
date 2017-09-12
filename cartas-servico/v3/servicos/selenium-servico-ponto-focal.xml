@@ -8,8 +8,10 @@
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="343">
+        <solicitante id="365">
             <tipo>Solicitante Selenium ponto focal</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -22,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1303">
+        <etapa id="1328">
             <titulo>Etapa 1 Selenium ponto focal</titulo>
             <descricao></descricao>
             <documentos>
@@ -30,7 +32,7 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="46">
+                    <custo id="47">
                         <descricao>Custos Selenium ponto focal</descricao>
                         <moeda>R$</moeda>
                         <valor>10</valor>
@@ -39,7 +41,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1761" tipo="presencial">
+                    <canal-de-prestacao id="1788" tipo="presencial">
                         <descricao>Canal Selenium ponto focal</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -52,17 +54,21 @@
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="1649">Cidadãos</item>
         <item idSegmento="3" idServicoSegmento="1650">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1668">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1669">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Atendimento básico</item>
         <item>Agropecuária</item>
+        <item>Atendimento básico</item>
+        <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="992">palavra chave 1 ponto focal</item>
-        <item id="993">palavra chave 2 ponto focal</item>
-        <item id="994">palavra chave 3  ponto focal</item>
+        <item id="1033">palavra chave 1 ponto focal</item>
+        <item id="1034">palavra chave 2 ponto focal</item>
+        <item id="1035">palavra chave 3  ponto focal</item>
     </palavras-chave>
     <legislacoes>
-        <item id="327">Legislação  ponto focal</item>
+        <item id="335">Legislação  ponto focal</item>
     </legislacoes>
 </servico>
