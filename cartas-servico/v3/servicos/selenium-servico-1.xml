@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>selenium-servico-1</id>
-    <dbId>614</dbId>
+    <dbId>687</dbId>
     <nome>Selenium Serviço 1</nome>
     <sigla>Sigla Selenium</sigla>
     <nomes-populares>
-        <item id="445">Popular 1</item>
-        <item id="444">Popular 2</item>
+        <item id="488">Popular 4</item>
+        <item id="484">Popular 1</item>
+        <item id="485">Popular 2</item>
+        <item id="486">Popular 3</item>
     </nomes-populares>
-    <descricao>Selenium teste descrição serviço</descricao>
+    <descricao>Selenium teste descrição serviço **Teste Mil**</descricao>
     <contato>Contato novo serviço</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <solicitantes>
-        <solicitante id="337">
-            <tipo>Solicitante Selenium</tipo>
-            <requisitos>Requisitos Selelnium</requisitos>
-        </solicitante>
-    </solicitantes>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
     <tempo-total-estimado>
         <entre min="2" max="6" unidade="horas"/>
         <descricao>Muito tempo</descricao>
@@ -28,47 +26,13 @@
         <unidade>dias</unidade>
         <descricao>Informações válidas selenium</descricao>
     </validade-documento>
-    <etapas>
-        <etapa id="1299">
-            <titulo>Etapa 1 Selenium</titulo>
-            <descricao>Descrição Selenium</descricao>
-            <documentos>
-                <default>
-                    <item id="1019">CPF</item>
-                    <item id="1020">Identidade</item>
-                    <item id="1021">Comprovante</item>
-                </default>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1757" tipo="web">
-                        <descricao>[Canal web](http://www.google.com.br)</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
-    <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1644">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="1645">Órgãos e entidades públicas</item>
-    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Clima</item>
         <item>Cidadania</item>
         <item>Comercio externo</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="974">palavra chave 3</item>
-        <item id="975">palavra chave 2</item>
-        <item id="976">palavra chave 3</item>
-    </palavras-chave>
-    <legislacoes>
-        <item id="321">Legislação</item>
-    </legislacoes>
 </servico>
