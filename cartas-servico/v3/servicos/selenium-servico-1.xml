@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>selenium-servico-1</id>
-    <dbId>687</dbId>
+    <dbId>689</dbId>
     <nome>Selenium Serviço 1</nome>
     <sigla>Sigla Selenium</sigla>
-    <nomes-populares>
-        <item id="488">Popular 4</item>
-        <item id="484">Popular 1</item>
-        <item id="485">Popular 2</item>
-        <item id="486">Popular 3</item>
-    </nomes-populares>
     <descricao>Selenium teste descrição serviço **Teste Mil**</descricao>
     <contato>Contato novo serviço</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.gmail.com</link-servico-digital>
     <tempo-total-estimado>
         <entre min="2" max="6" unidade="horas"/>
         <descricao>Muito tempo</descricao>
@@ -31,6 +25,9 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <areas-de-interesse>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
         <item>Clima</item>
         <item>Cidadania</item>
         <item>Comercio externo</item>
