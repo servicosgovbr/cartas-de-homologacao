@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>tentando-inserir-pela-api-1</id>
+    <dbId>692</dbId>
+    <nome>Tentando Inserir Pela Api 1</nome>
+    <sigla>sigla</sigla>
+    <nomes-populares>
+        <item id="501">nome</item>
+        <item id="502">nume</item>
+        <item id="503">nemo</item>
+    </nomes-populares>
+    <descricao>Descrição do serviço</descricao>
+    <contato>Contato do Serviço</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://servicos.gov.br</link-servico-digital>
+    <solicitantes>
+        <solicitante id="376">
+            <tipo>Tipo Solicitante 1</tipo>
+            <requisitos>Requisito Tipo Solicitante 1</requisitos>
+        </solicitante>
+        <solicitante id="377">
+            <tipo>Tipo Solicitante 2</tipo>
+            <requisitos>Requisito Tipo Solicitante 2</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="1" max="30" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>30</quantidade>
+        <unidade>meses</unidade>
+        <descricao>Descrição do tempo de validade do documento</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1344">
+            <titulo>Etapa 1</titulo>
+            <descricao>Descrição Etapa 1</descricao>
+            <documentos>
+                <default>
+                    <item id="1107">Documento 2 Etapa 1</item>
+                    <item id="1108">Documento 1 Etapa 1</item>
+                </default>
+                <caso id="285" descricao="Caso 1 Documento Etapa 1">
+                    <documento>
+                        <id>1103</id>
+                        <descricao>Documento 1 Caso 1 Etapa 1</descricao>
+                    </documento>
+                    <documento>
+                        <id>1104</id>
+                        <descricao>Documento 2 Caso 1 Etapa 1</descricao>
+                    </documento>
+                </caso>
+                <caso id="286" descricao="Caso 2 Documento Etapa 1">
+                    <documento>
+                        <id>1105</id>
+                        <descricao>Documento 1 Caso 2 Etapa 1</descricao>
+                    </documento>
+                    <documento>
+                        <id>1106</id>
+                        <descricao>Documento 2 Caso 2 Etapa 1</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="55">
+                        <descricao>Custo 2 Etapa 1</descricao>
+                        <moeda>$</moeda>
+                        <valor>5</valor>
+                    </custo>
+                    <custo id="54">
+                        <descricao>Custo 1 Etapa 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>20</valor>
+                    </custo>
+                </default>
+                <caso id="290" descricao="Caso 1 Custo Etapa 1">
+                    <custo id="56">
+                        <descricao>Custo 1 Caso 1 Etapa 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>230</valor>
+                    </custo>
+                    <custo id="57">
+                        <descricao>Custo 2 Caso 1 Etapa 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10</valor>
+                    </custo>
+                </caso>
+                <caso id="291" descricao="Caso 2 Custo Etapa 1">
+                    <custo id="58">
+                        <descricao>Custo 1 Caso 2 Etapa 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>123</valor>
+                    </custo>
+                    <custo id="59">
+                        <descricao>Custo 2 Caso 2 Etapa 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>321</valor>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1794" tipo="aplicativo-movel">
+                        <descricao>Canal 1 Etapa 1</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1793" tipo="e-mail">
+                        <descricao>Canal 2 Etapa 1</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="289" descricao="Caso 1 Canal Etapa 1">
+                    <canal-de-prestacao id="1792" tipo="aplicativo-movel">
+                        <descricao>Canal 1 Caso 1 Etapa 1</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1687">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1688">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Atendimento básico</item>
+        <item>Atendimento básico</item>
+        <item>Biodiversidade</item>
+        <item>Biodiversidade</item>
+        <item>Clima</item>
+        <item>Clima</item>
+        <item>Categoria Selenium 1</item>
+        <item>Categoria Selenium 1</item>
+        <item>Abastecimento</item>
+        <item>Abastecimento</item>
+        <item>Administração Financeira</item>
+        <item>Administração Financeira</item>
+        <item>Água</item>
+        <item>Água</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Atendimento básico</item>
+        <item>Atendimento básico</item>
+        <item>Biodiversidade</item>
+        <item>Biodiversidade</item>
+        <item>Clima</item>
+        <item>Clima</item>
+        <item>Categoria Selenium 1</item>
+        <item>Categoria Selenium 1</item>
+        <item>Abastecimento</item>
+        <item>Abastecimento</item>
+        <item>Administração Financeira</item>
+        <item>Administração Financeira</item>
+        <item>Água</item>
+        <item>Água</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1067">pal</item>
+        <item id="1068">a</item>
+        <item id="1069">vras</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="342">Legislação 1</item>
+        <item id="343">Legislação 2</item>
+    </legislacoes>
+</servico>
