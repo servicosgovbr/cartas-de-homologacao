@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>denuncias-sobre-telecentros</id>
-    <dbId>710</dbId>
+    <dbId>711</dbId>
     <nome>Denúncias sobre Telecentros.</nome>
     <sigla>DST</sigla>
     <descricao>Caso haja constatação de má utilização dos recursos do telecentro, qualquer cidadão pode fazer uma denúncia para que o fato seja apurado e acarrete em providências cabíveis.</descricao>
@@ -38,4 +38,8 @@
         <item>Fomento ao Trabalho</item>
         <item>Fiscalização do Estado</item>
     </areas-de-interesse>
+    <servicos-relacionados>
+        <item>617</item>
+        <item>614</item>
+    </servicos-relacionados>
 </servico>
