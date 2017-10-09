@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>selenium-servico-1</id>
-    <dbId>689</dbId>
+    <dbId>696</dbId>
     <nome>Selenium Serviço 1</nome>
-    <sigla>Sigla Selenium</sigla>
+    <sigla>1</sigla>
     <descricao>Selenium teste descrição serviço **Teste Mil**</descricao>
     <contato>Contato novo serviço</contato>
     <gratuito>true</gratuito>
@@ -31,5 +31,14 @@
         <item>Clima</item>
         <item>Cidadania</item>
         <item>Comercio externo</item>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
     </areas-de-interesse>
+    <servicos-relacionados>
+        <item>618</item>
+    </servicos-relacionados>
 </servico>
