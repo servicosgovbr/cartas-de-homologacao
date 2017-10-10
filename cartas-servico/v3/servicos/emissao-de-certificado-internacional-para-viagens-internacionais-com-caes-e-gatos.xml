@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>emissao-de-certificado-internacional-para-viagens-internacionais-com-caes-e-gatos</id>
-    <dbId>714</dbId>
+    <dbId>715</dbId>
     <nome>Emissão de Certificado Internacional para viagens internacionais com cães e gatos</nome>
     <sigla>CVI</sigla>
     <descricao>O trânsito de cães e gatos entre países exige documento emitido pela autoridade veterinária do país de origem e aceito pelos países de destino que atestem as condições e o histórico de saúde do animal de estimação bem como o atendimento às exigências sanitárias do país de destino. No Brasil, um dos documentos utilizados para essa finalidade é o CVI (Certificado Veterinário Internacional), que é expedido por Auditores Fiscais Federais Agropecuários das unidades de Vigilância Agropecuária Internacional (Vigiagro), vinculadas à Secretaria de Defesa Agropecuária (SDA) do Ministério da Agricultura, Pecuária e Abastecimento.
@@ -14,12 +14,6 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
-    <solicitantes>
-        <solicitante id="397">
-            <tipo>Qualquer cidadão</tipo>
-            <requisitos></requisitos>
-        </solicitante>
-    </solicitantes>
     <tempo-total-estimado>
         <em-media max="30" unidade="dias-corridos"/>
         <descricao></descricao>
@@ -27,78 +21,21 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas>
-        <etapa id="1388">
-            <titulo>Cadastrar a solicitação</titulo>
-            <descricao>Etapa destinada ao cidadão que vai abrir sua solicitação de Certificado Veterinário Internacional. Nessa etapa o cidadão deve preencher o destino para o qual ele deseja enviar o animal e após isso serão solicitadas informações específicas e obrigatórias para o país de destino.</descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1807" tipo="web">
-                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="1389">
-            <titulo>Analisar o requerimento</titulo>
-            <descricao>Após a solicitação feita pelo cidadão, o processo é destinado a um Auditor Fiscal Federal Agropecuário conforme que é responsável por analisar a solicitação e todos os documentos obrigatórios para então dar o seu parecer se poderá ser emitido ou não o Certificado Veterinário Internacional. O Auditor pode nessa etapa devolver ao cidadão solicitando mais informações ou correções.</descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1808" tipo="web-acompanhar">
-                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="1390">
-            <titulo>Emitir CVI</titulo>
-            <descricao>Após a análise de todo o processo e documentos obrigatórios, o Auditor Fiscal Federal Agropecuário emite o Certificado Veterinário Internacional gerando um PDF que vai ser assinado digitalmente de modo a ter validade. Após emissão no sistema, o cidadão deverá imprimir o documento e apresenta-lo no dia da viagem.</descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1809" tipo="web">
-                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
         <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
     </orgao>
-    <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1720">Cidadãos</item>
-    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
         <item>Transporte Aéreo</item>
         <item>Turismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1131">veterinário</item>
-        <item id="1132">certificado</item>
-        <item id="1133">viagem</item>
-        <item id="1134">cão</item>
-        <item id="1135">gato</item>
+        <item id="1136">veterinário</item>
+        <item id="1137">certificado</item>
+        <item id="1138">viagem</item>
+        <item id="1139">cão</item>
+        <item id="1140">gato</item>
+        <item id="1141">CVI</item>
     </palavras-chave>
-    <legislacoes>
-        <item id="369">Resolução MERCOSUL/GMC/RES. nº 52/12, de 05 de dezembro de 2012</item>
-    </legislacoes>
 </servico>
