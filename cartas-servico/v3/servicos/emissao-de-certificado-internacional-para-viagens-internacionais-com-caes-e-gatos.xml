@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>emissao-de-certificado-internacional-para-viagens-internacionais-com-caes-e-gatos</id>
-    <dbId>715</dbId>
+    <dbId>716</dbId>
     <nome>Emissão de Certificado Internacional para viagens internacionais com cães e gatos</nome>
     <sigla>CVI</sigla>
     <descricao>O trânsito de cães e gatos entre países exige documento emitido pela autoridade veterinária do país de origem e aceito pelos países de destino que atestem as condições e o histórico de saúde do animal de estimação bem como o atendimento às exigências sanitárias do país de destino. No Brasil, um dos documentos utilizados para essa finalidade é o CVI (Certificado Veterinário Internacional), que é expedido por Auditores Fiscais Federais Agropecuários das unidades de Vigilância Agropecuária Internacional (Vigiagro), vinculadas à Secretaria de Defesa Agropecuária (SDA) do Ministério da Agricultura, Pecuária e Abastecimento.
@@ -19,6 +19,9 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>1</quantidade>
+        <unidade>anos</unidade>
         <descricao></descricao>
     </validade-documento>
     <etapas/>
@@ -30,12 +33,4 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <item>Transporte Aéreo</item>
         <item>Turismo</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="1136">veterinário</item>
-        <item id="1137">certificado</item>
-        <item id="1138">viagem</item>
-        <item id="1139">cão</item>
-        <item id="1140">gato</item>
-        <item id="1141">CVI</item>
-    </palavras-chave>
 </servico>
