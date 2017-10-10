@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitar-arquitetura-e-urbanismo-5</id>
+    <dbId>728</dbId>
+    <nome>Solicitar Arquitetura e Urbanismo 5</nome>
+    <sigla>SAU</sigla>
+    <descricao>Não aparece mais o "x" para fechar as mensagens.</descricao>
+    <contato>Telefone 1000</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="409">
+            <tipo>Sol</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="2" max="3" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1409">
+            <titulo>Eta</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1817" tipo="e-mail">
+                        <descricao>asdsadsad</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao dbId="58050">
+        <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1745">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+        <item>Energia</item>
+        <item>Urbanismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1190">s</item>
+        <item id="1191">s</item>
+        <item id="1192">a</item>
+    </palavras-chave>
+</servico>
