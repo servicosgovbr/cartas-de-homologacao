@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>alteracoes-de-pos-outorga</id>
-    <dbId>720</dbId>
+    <dbId>721</dbId>
     <nome>Alterações de Pós-Outorga</nome>
     <sigla></sigla>
     <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
@@ -34,5 +34,6 @@ Telefone: (61) 2027-6000</contato>
     <servicos-relacionados>
         <item>221</item>
         <item>305</item>
+        <item>492</item>
     </servicos-relacionados>
 </servico>
