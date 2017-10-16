@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>solicitar-arquitetura-e-urbanismo</id>
-    <dbId>606</dbId>
+    <dbId>738</dbId>
     <nome>Solicitar Arquitetura e Urbanismo</nome>
     <sigla></sigla>
-    <nomes-populares>
-        <item id="405">SAU</item>
-    </nomes-populares>
     <descricao>Não aparece mais o "x" para fechar as mensagens.</descricao>
     <contato>Telefone 1000</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.teste.com.br</link-servico-digital>
     <solicitantes>
-        <solicitante id="320">
-            <tipo>Solicitante SAU</tipo>
-            <requisitos>Não aparece mais o "x" para fechar as mensagens.</requisitos>
+        <solicitante id="420">
+            <tipo>fsdgsdfg</tipo>
+            <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -28,46 +27,17 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1292">
-            <titulo>Solicitar SAU</titulo>
-            <descricao>Solicitação do SAU na central do CAU</descricao>
+        <etapa id="1434">
+            <titulo>gsgsdgsg</titulo>
+            <descricao></descricao>
             <documentos>
-                <default>
-                    <item id="967">Identidade</item>
-                    <item id="968">CPF</item>
-                </default>
+                <default/>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1747" tipo="e-mail">
-                        <descricao>cau@cau.gov.br</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="1746" tipo="presencial">
-                        <descricao>Etapa Presencial</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="1293">
-            <titulo>Receber Benefício</titulo>
-            <descricao>Benefício de Arquitetura</descricao>
-            <documentos>
-                <default>
-                    <item id="969">Ordem de Serviço</item>
-                </default>
-            </documentos>
-            <custos>
                 <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1748" tipo="presencial">
-                        <descricao>Local do endereço do solicitante</descricao>
-                    </canal-de-prestacao>
-                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
@@ -75,8 +45,7 @@
         <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1630">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="1631">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1760">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Cidadania</item>
@@ -84,11 +53,8 @@
         <item>Urbanismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="962">Urbanismo</item>
-        <item id="963">Melhoria</item>
-        <item id="964">Construção</item>
+        <item id="1232">v</item>
+        <item id="1233">v</item>
+        <item id="1234">v</item>
     </palavras-chave>
-    <legislacoes>
-        <item id="317">Legislação 2011/10</item>
-    </legislacoes>
 </servico>
