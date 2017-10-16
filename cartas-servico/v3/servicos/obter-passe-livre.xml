@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>obter-passe-livre</id>
-    <dbId>709</dbId>
+    <dbId>734</dbId>
     <nome>Obter Passe livre</nome>
-    <sigla></sigla>
-    <descricao>O Passe Livre é um programa do Governo Federal que proporciona a pessoas que possuem deficiência e são carentes gratuidade nas passagens para viajar entre os estados brasileiros.</descricao>
+    <sigla>sd</sigla>
+    <descricao>16/10/17
+O Passe Livre é um programa do Governo Federal que proporciona a pessoas que possuem deficiência e são carentes gratuidade nas passagens para viajar entre os estados brasileiros.</descricao>
     <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
 
  Telefones: (61) 2029-8035.
@@ -28,6 +29,166 @@
         <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
     </orgao>
     <areas-de-interesse>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Transporte Ferroviário</item>
+        <item>Transporte Hidroviário</item>
+        <item>Transportes</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
