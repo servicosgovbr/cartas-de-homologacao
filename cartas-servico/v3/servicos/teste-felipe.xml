@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>teste-felipe</id>
-    <dbId>729</dbId>
+    <dbId>730</dbId>
     <nome>Teste Felipe</nome>
     <sigla>TSTFELIPE</sigla>
-    <nomes-populares>
-        <item id="531">Teste Felipe</item>
-    </nomes-populares>
     <descricao>Certificado Veterinário Internacional</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br</link-servico-digital>
-    <solicitantes>
-        <solicitante id="410">
-            <tipo>Cidadão</tipo>
-            <requisitos></requisitos>
-        </solicitante>
-    </solicitantes>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <tempo-total-estimado>
         <atendimento-imediato/>
         <descricao></descricao>
@@ -26,37 +17,11 @@
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas>
-        <etapa id="1410">
-            <titulo>Etapa 1</titulo>
-            <descricao>Etapa 1</descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1818" tipo="aplicativo-movel">
-                        <descricao></descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
-    <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1746">Cidadãos</item>
-    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="1193">teste</item>
-        <item id="1194">felipe</item>
-        <item id="1195">testefelipe</item>
-    </palavras-chave>
 </servico>
