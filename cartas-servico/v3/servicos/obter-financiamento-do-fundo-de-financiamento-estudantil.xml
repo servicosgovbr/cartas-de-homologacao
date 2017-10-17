@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>obter-financiamento-do-fundo-de-financiamento-estudantil</id>
-    <dbId>706</dbId>
+    <dbId>740</dbId>
     <nome>Obter financiamento do Fundo de Financiamento Estudantil</nome>
     <sigla>FIES teste</sigla>
     <descricao>O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda</descricao>
     <contato>0800 616161</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.uol.com.br</link-servico-digital>
     <tempo-total-estimado>
         <entre min="15" max="60" unidade="dias-corridos"/>
         <descricao></descricao>
@@ -22,6 +22,12 @@
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <areas-de-interesse>
+        <item>Educação</item>
+        <item>Educação superior</item>
+        <item>Empregabilidade</item>
+        <item>Educação</item>
+        <item>Educação superior</item>
+        <item>Empregabilidade</item>
         <item>Educação</item>
         <item>Educação superior</item>
         <item>Empregabilidade</item>
