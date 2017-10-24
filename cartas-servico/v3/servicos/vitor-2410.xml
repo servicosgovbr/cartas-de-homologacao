@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>vitor-2410</id>
-    <dbId>744</dbId>
+    <dbId>748</dbId>
     <nome>Vitor 2410</nome>
-    <sigla>V 10</sigla>
-    <nomes-populares>
-        <item id="559">10</item>
-        <item id="560">24</item>
-        <item id="561">Teste</item>
-        <item id="562">54</item>
-        <item id="563">78</item>
-    </nomes-populares>
+    <sigla>V 10 1</sigla>
     <descricao>Vitor 2410
 
 * Teste
@@ -21,13 +14,6 @@
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://teste.com</link-servico-digital>
-    <solicitantes>
-        <solicitante id="428">
-            <tipo>Teste</tipo>
-            <requisitos>* Teste
-* Teste 2</requisitos>
-        </solicitante>
-    </solicitantes>
     <tempo-total-estimado>
         <entre min="5" max="10" unidade="meses"/>
         <descricao>* Teste
@@ -42,62 +28,14 @@
 * Teste
 * Teste 2</descricao>
     </validade-documento>
-    <etapas>
-        <etapa id="1448">
-            <titulo>Etapa</titulo>
-            <descricao>* Teste
-* Teste 2</descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default>
-                    <custo id="92">
-                        <descricao>Sem custo</descricao>
-                        <moeda>R$</moeda>
-                        <valor>100,000</valor>
-                    </custo>
-                </default>
-                <caso id="332" descricao="Caso X">
-                    <custo id="95">
-                        <descricao>teste</descricao>
-                        <moeda>R$</moeda>
-                        <valor>1,000</valor>
-                    </custo>
-                </caso>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1823" tipo="postal">
-                        <descricao>Correios
-
-* Teste
-* Teste 2</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
         <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
     </orgao>
-    <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1771">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="1772">Órgãos e entidades públicas</item>
-    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Assistência ao Idoso</item>
         <item>Assistência ao Portador de Deficiência</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="1259">24</item>
-        <item id="1260">10</item>
-        <item id="1261">11</item>
-    </palavras-chave>
-    <legislacoes>
-        <item id="404">* Teste
-* Teste 2</item>
-    </legislacoes>
     <servicos-relacionados>
         <item>705</item>
         <item>8</item>
