@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>cvi-lecom</id>
-    <dbId>750</dbId>
+    <dbId>751</dbId>
     <nome>CVI - Lecom</nome>
     <sigla>CVI LECOM</sigla>
     <descricao>Certificado Veterinário Internacional - Lecom</descricao>
@@ -18,8 +18,8 @@
         <descricao></descricao>
     </validade-documento>
     <etapas/>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
+        <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
     </orgao>
     <areas-de-interesse>
         <item>Abastecimento</item>
