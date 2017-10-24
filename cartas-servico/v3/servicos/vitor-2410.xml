@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>vitor-2410</id>
-    <dbId>745</dbId>
+    <dbId>746</dbId>
     <nome>Vitor 2410</nome>
     <sigla>V 10</sigla>
-    <nomes-populares>
-        <item id="544">10</item>
-        <item id="545">24</item>
-        <item id="546">Teste</item>
-        <item id="547">54</item>
-        <item id="548">78</item>
-    </nomes-populares>
-    <descricao>Vitor 2410</descricao>
-    <contato></contato>
+    <descricao>Vitor 2410
+&lt;br&gt;&lt;/br&gt;
+* &lt;b&gt;Teste&lt;/b&gt;
+* Teste 2</descricao>
+    <contato>* Teste
+* Teste 2</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
@@ -26,6 +23,7 @@
         <quantidade>10</quantidade>
         <unidade>anos</unidade>
         <descricao>informações +++++++++++++++++++++++++++++++++++
+
 * Teste
 * Teste 2</descricao>
     </validade-documento>
