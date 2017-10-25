@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>cvi-lecom</id>
-    <dbId>751</dbId>
+    <dbId>752</dbId>
     <nome>CVI - Lecom</nome>
     <sigla>CVI LECOM</sigla>
     <descricao>Certificado Veterinário Internacional - Lecom</descricao>
@@ -17,7 +17,47 @@
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1453">
+            <titulo>Solicitar</titulo>
+            <descricao>Cidadão realiza a solicitação para emissão do certificado.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1454">
+            <titulo>Análise</titulo>
+            <descricao>Nesta etapa é feita a análise da solicitação.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1455">
+            <titulo>Emissão e Recebimento</titulo>
+            <descricao>Nesta fase o certificado foi aprovado e o cidadão recebe o certificado para impressão.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default/>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
         <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
     </orgao>
