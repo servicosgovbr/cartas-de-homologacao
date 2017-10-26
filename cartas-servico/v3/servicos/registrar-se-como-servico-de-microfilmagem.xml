@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>registrar-se-como-servico-de-microfilmagem</id>
+    <dbId>14</dbId>
+    <nome>Registrar-se como serviço de microfilmagem</nome>
+    <sigla></sigla>
+    <descricao>Registro das empresas interessadas em atuar com serviços de microfilmagem.
+Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Ministério da Justiça  e Cidadania sua autorização.</descricao>
+    <contato>sac.dejus@mj.gov.br</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <tempo-total-estimado>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
+        <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+    </orgao>
+    <areas-de-interesse>
+        <item>Proteção Social</item>
+    </areas-de-interesse>
+</servico>
