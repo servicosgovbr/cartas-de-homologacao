@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastrar-veiculos-e-condutores-para-o-rtu</id>
+    <dbId>61</dbId>
+    <nome>Cadastrar Veículos e Condutores para o RTU</nome>
+    <sigla></sigla>
+    <descricao>Solicitar o cadastramento de veículos e condutores no Regime de Tributação Unificada (RTU).</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="440">
+            <tipo>Pessoas físicas e jurídicas que tenham direito ao RTU</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+        <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+    </orgao>
+    <areas-de-interesse>
+        <item>Economia e Finanças</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1290">rtu</item>
+        <item id="1291">condutor</item>
+        <item id="1292">veículo</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="410">lei do rtu</item>
+    </legislacoes>
+</servico>
