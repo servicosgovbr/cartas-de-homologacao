@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-cnh</id>
+    <dbId>753</dbId>
+    <nome>Obter CNH</nome>
+    <sigla>CNH</sigla>
+    <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteria de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
+    <contato>0800-123456</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <tempo-total-estimado>
+        <entre min="2" max="6" unidade="meses"/>
+        <descricao>Há vários fatores que influenciam no tempo para aquisição da CNH, tais como:
+- Pagamento da taxa;
+- Exame médico e psicológico;
+- Prova teórica e prática no Detran da sua cidade.</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>5</quantidade>
+        <unidade>anos</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
+        <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+    </orgao>
+    <areas-de-interesse>
+        <item>Transportes</item>
+    </areas-de-interesse>
+    <servicos-relacionados>
+        <item>496</item>
+    </servicos-relacionados>
+</servico>
