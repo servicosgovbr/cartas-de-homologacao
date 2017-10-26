@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastrar-se-no-cadunico</id>
+    <dbId>21</dbId>
+    <nome>Cadastrar-se no CadÚnico</nome>
+    <sigla>CadÚnico</sigla>
+    <nomes-populares>
+        <item id="493">Cadastro Único</item>
+        <item id="494">CadÚnico</item>
+        <item id="495">Cadastro</item>
+        <item id="496">Teste</item>
+    </nomes-populares>
+    <descricao>O Cadastro Único é um banco de dados que foi criado para o Governo Federal saber melhor quem são e como vivem as famílias brasileiras mais pobres. Para sua família ser beneficiada por programas como o Bolsa Família, a Tarifa Social de Energia Elétrica e o Telefone Popular, entre outros, ela deve estar inscrita no Cadastro Único, embora estar no Cadastro não significa a entrada automática nestes programas, pois cada um deles tem suas regras.
+O Cadastro deve ser atualizado a cada dois anos.</descricao>
+    <contato>Secretaria Nacional de Renda e Cidadania
+Telefone: (61) 2030-1939
+Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Trecho 3 – Lote 1 – Ao lado da Leroy Merlin - 2º Andar - Gabinete Senarc – CEP: 71215-300 – Brasília – DF</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <tempo-total-estimado>
+        <ate max="1" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
+        <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
+    </orgao>
+    <areas-de-interesse>
+        <item>Educação profissionalizante</item>
+        <item>Proteção e Benefícios ao Trabalhador</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Idoso</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Atendimento básico</item>
+        <item>Cidadania</item>
+        <item>Combate a desigualdade</item>
+        <item>Educação</item>
+        <item>Educação básica</item>
+        <item>Proteção Social</item>
+    </areas-de-interesse>
+</servico>
