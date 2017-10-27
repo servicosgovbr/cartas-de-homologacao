@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitar-arquitetura-358</id>
+    <dbId>770</dbId>
+    <nome>Solicitar Arquitetura 358</nome>
+    <sigla></sigla>
+    <descricao>Não aparece mais o "x" para fechar as mensagens.</descricao>
+    <contato>Telefone 1000</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.teste.com.br</link-servico-digital>
+    <solicitantes>
+        <solicitante id="459">
+            <tipo>dsffdsf</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="2" max="3" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1497">
+            <titulo>dsfdsfdf</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1827" tipo="e-mail">
+                        <descricao>dfdfsfd</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
+        <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="1801">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+        <item>Energia</item>
+        <item>Urbanismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1337">d</item>
+        <item id="1338">d</item>
+        <item id="1339">d</item>
+    </palavras-chave>
+    <servicos-relacionados>
+        <item>753</item>
+    </servicos-relacionados>
+</servico>
