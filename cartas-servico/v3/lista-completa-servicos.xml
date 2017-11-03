@@ -1634,161 +1634,6 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         </legislacoes>
     </servico>
     <servico>
-        <id>solicitacao-de-imagens-e-videos-turisticos-do-brasil</id>
-        <dbId>24</dbId>
-        <nome>Solicitação de imagens e vídeos turísticos do Brasil</nome>
-        <sigla></sigla>
-        <descricao>Obtenção de imagens e vídeos turísticos do Brasil</descricao>
-        <contato>* Coordenação Geral de Publicidade e Propaganda
-* Telefones: (61) 2023-8598 / 8624/ 8604 / 8605
-* E-mail: promotional@embratur.gov.br</contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="28">
-                <tipo>Agências de turismo nacionais/internacionais</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="29">
-                <tipo>Operadoras de turismo nacionais/internacionais</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="30">
-                <tipo>Imprensa nacional/internacional</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="5" unidade="dias-uteis"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="50">
-                <titulo>Selecionar as imagens e vídeos da EMBRATUR</titulo>
-                <descricao>Para as imagens, selecionar as fotos no Flickr da EMBRATUR. Para os vídeos, acessar o canal de youtube oficial da EMBRATUR.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="93" tipo="web">
-                            <descricao>http://www.youtube.com/user/visitbrasil/videos</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="92" tipo="web">
-                            <descricao>http://www.flickr.com/photos/visitbrasil/albums</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="51">
-                <titulo>Enviar e-mail à EMBRATUR solicitando as fotos/vídeos e o Termo de Utilização</titulo>
-                <descricao>Enviar e-mail à EMBRATUR solicitando as imagens/vídeos, explicando o motivo e solicitando o  Termo de Utilização de Fotos e Vídeos. A EMBRATUR analisará a validade ou não do pedido. Em caso de aprovação, a EMBRATUR enviará o Termo de Utilização de Fotos e Vídeos</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="94" tipo="e-mail">
-                            <descricao>promotional@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="52">
-                <titulo>Preencher o Termo de Utilização de Fotos e Vídeos da EMBRATUR</titulo>
-                <descricao>Preencher todos os campos necessários no Termo de Utilização de Fotos e Vídeos da EMBRATUR, bem como assinar e digitalizar.</descricao>
-                <documentos>
-                    <default>
-                        <item id="113">Termo de Utilização de Fotos e Vídeos</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="95" tipo="e-mail">
-                            <descricao>promotional@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="53">
-                <titulo>Enviar o Termo de Utilização de Fotos e Vídeos à EMBRATUR.</titulo>
-                <descricao>Enviar o Termo de Utilização de Fotos e Vídeos preenchido, assinado e digitalizado para a EMBRATUR.</descricao>
-                <documentos>
-                    <default>
-                        <item id="114">Termo de Utilização de Fotos e Vídeos</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="96" tipo="e-mail">
-                            <descricao>promotional@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="54">
-                <titulo>Obter resposta à solicitação de fotos/vídeos (OPCIONAL)</titulo>
-                <descricao>Caso deseje, o solicitante poderá entrar  em contato com a EMBRATUR para saber em quantos dias a solicitação poderá ser atendida. Os vídeos e fotos ficarão disponíveis a partir de um link fornecido pela EMBRATUR por até 07 dias  contados a partir do envio do link.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="98" tipo="telefone">
-                            <descricao>(61) 2023-8598 / 8624/ 8604 / 8605</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="97" tipo="e-mail">
-                            <descricao>promotional@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
-            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="4" idServicoSegmento="55">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="3" idServicoSegmento="56">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="57">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="58">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Turismo</item>
-            <item>Comércio e Serviços</item>
-            <item>Relações Internacionais</item>
-            <item>Cultura</item>
-            <item>Difusão Cultural</item>
-            <item>Esporte e Lazer</item>
-            <item>Lazer</item>
-            <item>Meio ambiente</item>
-            <item>Patrimônio Cultural</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="113">Fotos do Brasil</item>
-            <item id="114">Fotos Brasil</item>
-            <item id="115">Fotos turísticas</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="36">http://www.planalto.gov.br/ccivil_03/leis/L8181.htm</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>solicitacao-de-restituicao-de-multa-dnit</id>
         <dbId>25</dbId>
         <nome>Solicitação de restituição de Multa DNIT</nome>
@@ -2679,6 +2524,161 @@ Portaria STE nº 2, de 26 de agosto de 2013</item>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>solicitacao-de-imagens-e-videos-turisticos-do-brasil</id>
+        <dbId>24</dbId>
+        <nome>Solicitação de imagens e vídeos turísticos do Brasil</nome>
+        <sigla></sigla>
+        <descricao>Obtenção de imagens e vídeos turísticos do Brasil</descricao>
+        <contato>* Coordenação Geral de Publicidade e Propaganda
+* Telefones: (61) 2023-8598 / 8624/ 8604 / 8605
+* E-mail: promotional@embratur.gov.br</contato>
+        <gratuito>true</gratuito>
+        <servico-digital>false</servico-digital>
+        <solicitantes>
+            <solicitante id="28">
+                <tipo>Agências de turismo nacionais/internacionais</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="29">
+                <tipo>Operadoras de turismo nacionais/internacionais</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="30">
+                <tipo>Imprensa nacional/internacional</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="5" unidade="dias-uteis"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="50">
+                <titulo>Selecionar as imagens e vídeos da EMBRATUR</titulo>
+                <descricao>Para as imagens, selecionar as fotos no Flickr da EMBRATUR. Para os vídeos, acessar o canal de youtube oficial da EMBRATUR.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="93" tipo="web">
+                            <descricao>http://www.youtube.com/user/visitbrasil/videos</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="92" tipo="web">
+                            <descricao>http://www.flickr.com/photos/visitbrasil/albums</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="51">
+                <titulo>Enviar e-mail à EMBRATUR solicitando as fotos/vídeos e o Termo de Utilização</titulo>
+                <descricao>Enviar e-mail à EMBRATUR solicitando as imagens/vídeos, explicando o motivo e solicitando o  Termo de Utilização de Fotos e Vídeos. A EMBRATUR analisará a validade ou não do pedido. Em caso de aprovação, a EMBRATUR enviará o Termo de Utilização de Fotos e Vídeos</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="94" tipo="e-mail">
+                            <descricao>promotional@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="52">
+                <titulo>Preencher o Termo de Utilização de Fotos e Vídeos da EMBRATUR</titulo>
+                <descricao>Preencher todos os campos necessários no Termo de Utilização de Fotos e Vídeos da EMBRATUR, bem como assinar e digitalizar.</descricao>
+                <documentos>
+                    <default>
+                        <item id="113">Termo de Utilização de Fotos e Vídeos</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="95" tipo="e-mail">
+                            <descricao>promotional@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="53">
+                <titulo>Enviar o Termo de Utilização de Fotos e Vídeos à EMBRATUR.</titulo>
+                <descricao>Enviar o Termo de Utilização de Fotos e Vídeos preenchido, assinado e digitalizado para a EMBRATUR.</descricao>
+                <documentos>
+                    <default>
+                        <item id="114">Termo de Utilização de Fotos e Vídeos</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="96" tipo="e-mail">
+                            <descricao>promotional@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="54">
+                <titulo>Obter resposta à solicitação de fotos/vídeos (OPCIONAL)</titulo>
+                <descricao>Caso deseje, o solicitante poderá entrar  em contato com a EMBRATUR para saber em quantos dias a solicitação poderá ser atendida. Os vídeos e fotos ficarão disponíveis a partir de um link fornecido pela EMBRATUR por até 07 dias  contados a partir do envio do link.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="98" tipo="telefone">
+                            <descricao>(61) 2023-8598 / 8624/ 8604 / 8605</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="97" tipo="e-mail">
+                            <descricao>promotional@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
+            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="4" idServicoSegmento="55">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="3" idServicoSegmento="56">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="57">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="58">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Turismo</item>
+            <item>Comércio e Serviços</item>
+            <item>Relações Internacionais</item>
+            <item>Cultura</item>
+            <item>Difusão Cultural</item>
+            <item>Esporte e Lazer</item>
+            <item>Lazer</item>
+            <item>Meio ambiente</item>
+            <item>Patrimônio Cultural</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="113">Fotos do Brasil</item>
+            <item id="114">Fotos Brasil</item>
+            <item id="115">Fotos turísticas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="36">http://www.planalto.gov.br/ccivil_03/leis/L8181.htm</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>extrato-do-cadastro-nacional-de-informacoes-sociais-vinculos-e-remuneracoes</id>
@@ -30479,7 +30479,7 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         <nome>Viajar para outro país com seu cão ou gato</nome>
         <sigla>CVI</sigla>
         <nomes-populares>
-            <item id="594">Emissão de Certificado Internacional para viagens internacionais com cães e gatos</item>
+            <item id="595">Emissão de Certificado Internacional para viagens internacionais com cães e gatos</item>
         </nomes-populares>
         <descricao>O trânsito de cães e gatos entre países exige documento emitido pela autoridade veterinária do país de origem e aceito pelos países de destino que atestem as condições e o histórico de saúde do animal de estimação bem como o atendimento às exigências sanitárias do país de destino. No Brasil, um dos documentos utilizados para essa finalidade é o CVI (Certificado Veterinário Internacional), que é expedido por Auditores Fiscais Federais Agropecuários das unidades de Vigilância Agropecuária Internacional (Vigiagro), vinculadas à Secretaria de Defesa Agropecuária (SDA) do Ministério da Agricultura, Pecuária e Abastecimento.
 
@@ -30492,7 +30492,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <servico-digital>true</servico-digital>
         <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
         <solicitantes>
-            <solicitante id="458">
+            <solicitante id="460">
                 <tipo>Qualquer cidadão</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -30508,7 +30508,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1494">
+            <etapa id="1498">
                 <titulo>Cadastrar a solicitação</titulo>
                 <descricao>Etapa destinada ao cidadão que vai abrir sua solicitação de Certificado Veterinário Internacional. Nessa etapa o cidadão deve preencher o destino para o qual ele deseja enviar o animal e após isso serão solicitadas informações específicas e obrigatórias para o país de destino.</descricao>
                 <documentos>
@@ -30525,7 +30525,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="1495">
+            <etapa id="1499">
                 <titulo>Analisar o requerimento</titulo>
                 <descricao>Após a solicitação feita pelo cidadão, o processo é destinado a um Auditor Fiscal Federal Agropecuário conforme que é responsável por analisar a solicitação e todos os documentos obrigatórios para então dar o seu parecer se poderá ser emitido ou não o Certificado Veterinário Internacional. O Auditor pode nessa etapa devolver ao cidadão solicitando mais informações ou correções.</descricao>
                 <documentos>
@@ -30542,7 +30542,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="1496">
+            <etapa id="1500">
                 <titulo>Emitir CVI</titulo>
                 <descricao>Após a análise de todo o processo e documentos obrigatórios, o Auditor Fiscal Federal Agropecuário emite o Certificado Veterinário Internacional gerando um PDF que vai ser assinado digitalmente de modo a ter validade. Após emissão no sistema, o cidadão deverá imprimir o documento e apresenta-lo no dia da viagem.</descricao>
                 <documentos>
@@ -30560,11 +30560,11 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1800">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="1802">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Agropecuária</item>
@@ -30572,15 +30572,15 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
             <item>Turismo</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1331">veterinário</item>
-            <item id="1332">certificado</item>
-            <item id="1333">viagem</item>
-            <item id="1334">cão</item>
-            <item id="1335">gato</item>
-            <item id="1336">CVI</item>
+            <item id="1340">veterinário</item>
+            <item id="1341">certificado</item>
+            <item id="1342">viagem</item>
+            <item id="1343">cão</item>
+            <item id="1344">gato</item>
+            <item id="1345">CVI</item>
         </palavras-chave>
         <legislacoes>
-            <item id="420">Resolução MERCOSUL/GMC/RES. nº 52/12, de 05 de dezembro de 2012</item>
+            <item id="421">Resolução MERCOSUL/GMC/RES. nº 52/12, de 05 de dezembro de 2012</item>
         </legislacoes>
     </servico>
     <servico>
