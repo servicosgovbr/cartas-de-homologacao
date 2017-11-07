@@ -26066,7 +26066,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -26156,7 +26156,7 @@ Email - incentivo.viagens@turismo.gov.br</contato>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -30363,7 +30363,7 @@ Email - incentivo.viagens@turismo.gov.br</contato>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -30812,7 +30812,7 @@ Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -30996,7 +30996,7 @@ o com voçes...obrigado</descricao>
             <descricao></descricao>
         </validade-documento>
         <etapas/>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <areas-de-interesse>
