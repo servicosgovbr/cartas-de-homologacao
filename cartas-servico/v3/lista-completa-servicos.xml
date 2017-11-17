@@ -321,118 +321,6 @@ Em até 12 meses após a publicação da autorização de uso de radiofrequênci
         </palavras-chave>
     </servico>
     <servico>
-        <id>cadastrar-servicos-acessiveis</id>
-        <dbId>10</dbId>
-        <nome>Cadastrar serviços acessíveis</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="586">Turismo Acessível</item>
-            <item id="587">Guia de Turismo Acessível</item>
-        </nomes-populares>
-        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
-
-Neste espaço você aprenderá a cadastrar um estabelecimento ou atrativo turístico.</descricao>
-        <contato>Departamento de Marketing e Apoio à Comercialização                  
-Coordenação de Produtos Turísticos                   
-Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF
-Telefone: 61 2023-8165                   
-Email - incentivo.viagens@turismo.gov.br</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="450">
-                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="451">
-                <tipo>Público em geral</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="10" unidade="minutos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1479">
-                <titulo>Cadastramento do usuário</titulo>
-                <descricao>O cadastramento do usuário, efetuado por meio do portal Turismo Acessível - 
-[Cadastro do usuário](http://www.turismoacessivel.gov.br/ta/cadastroUsuario/cadastrarUsuario.mtur), o habilita a utilizá-lo e ter acesso às informações e funcionalidades básicas do site.  Após o cadastramento, o usuário estará habilitado a utilizar os recursos do Turismo Acessível, desde que haja aceitação prévia aos termos e condições de estabelecidos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1706" tipo="aplicativo-movel">
-                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1705" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1480">
-                <titulo>Cadastro de empreendimento ou atrativo turísticos</titulo>
-                <descricao>Passo 1- Localização e identificação - indicar a cidade e o nome do estabelecimento ou atrativo.
-Passo 2 - Detalhes sobre o estabelecimento - inserir informações sobre a localização, tipo e contatos do estabelecimento ou atrativo;    
-Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cadastro do estabelecimento ou atrativo.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1707" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
-            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1791">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1792">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1793">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1794">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Cidadania</item>
-            <item>Difusão Cultural</item>
-            <item>Esporte e Lazer</item>
-            <item>Infraestrutura Urbana</item>
-            <item>Patrimônio</item>
-            <item>Turismo</item>
-            <item>Normalização e Qualidade</item>
-            <item>Lazer</item>
-            <item>Cultura</item>
-            <item>Assistência ao Portador de Deficiência</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1312">Acessibilidade</item>
-            <item id="1313">Turismo</item>
-            <item id="1314">Pessoa com deficiência</item>
-            <item id="1315">Viagens</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="417">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
-            <item id="418">Norma Brasileira ABNT NBR 9050 - http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>registrar-servico-de-microfilmagem</id>
         <dbId>14</dbId>
         <nome>Registrar serviço de microfilmagem</nome>
@@ -31445,6 +31333,66 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </servicos-relacionados>
     </servico>
     <servico>
+        <id>teste-de-horas</id>
+        <dbId>777</dbId>
+        <nome>Teste de Horas</nome>
+        <sigla></sigla>
+        <descricao>teste de tempo de espera</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="466">
+                <tipo>teste</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="49" unidade="horas"/>
+            <descricao>teste de tempo de espera</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1508">
+                <titulo>teste</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1834" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1812">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Ambiente e saúde</item>
+            <item>Assistência ao Idoso</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1364">teste</item>
+            <item id="1365">tempo</item>
+            <item id="1366">espera</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit</id>
         <dbId>192</dbId>
         <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT</nome>
@@ -31566,5 +31514,117 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
             <item id="1356">2</item>
             <item id="1357">3</item>
         </palavras-chave>
+    </servico>
+    <servico>
+        <id>cadastrar-servicos-acessiveis</id>
+        <dbId>10</dbId>
+        <nome>Cadastrar serviços acessíveis</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="586">Turismo Acessível</item>
+            <item id="587">Guia de Turismo Acessível</item>
+        </nomes-populares>
+        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
+
+Neste espaço você aprenderá a cadastrar um estabelecimento ou atrativo turístico.</descricao>
+        <contato>Departamento de Marketing e Apoio à Comercialização                  
+Coordenação de Produtos Turísticos                   
+Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF
+Telefone: 61 2023-8165                   
+Email - incentivo.viagens@turismo.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="450">
+                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="451">
+                <tipo>Público em geral</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="10" unidade="minutos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1479">
+                <titulo>Cadastramento do usuário</titulo>
+                <descricao>O cadastramento do usuário, efetuado por meio do portal Turismo Acessível - 
+[Cadastro do usuário](http://www.turismoacessivel.gov.br/ta/cadastroUsuario/cadastrarUsuario.mtur), o habilita a utilizá-lo e ter acesso às informações e funcionalidades básicas do site.  Após o cadastramento, o usuário estará habilitado a utilizar os recursos do Turismo Acessível, desde que haja aceitação prévia aos termos e condições de estabelecidos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1706" tipo="aplicativo-movel">
+                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1705" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1480">
+                <titulo>Cadastro de empreendimento ou atrativo turísticos</titulo>
+                <descricao>Passo 1- Localização e identificação - indicar a cidade e o nome do estabelecimento ou atrativo.
+Passo 2 - Detalhes sobre o estabelecimento - inserir informações sobre a localização, tipo e contatos do estabelecimento ou atrativo;    
+Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cadastro do estabelecimento ou atrativo.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1707" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
+            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1791">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1792">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1793">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1794">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Difusão Cultural</item>
+            <item>Esporte e Lazer</item>
+            <item>Infraestrutura Urbana</item>
+            <item>Patrimônio</item>
+            <item>Turismo</item>
+            <item>Normalização e Qualidade</item>
+            <item>Lazer</item>
+            <item>Cultura</item>
+            <item>Assistência ao Portador de Deficiência</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1312">Acessibilidade</item>
+            <item id="1313">Turismo</item>
+            <item id="1314">Pessoa com deficiência</item>
+            <item id="1315">Viagens</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="417">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
+            <item id="418">Norma Brasileira ABNT NBR 9050 - http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf</item>
+        </legislacoes>
     </servico>
 </servicos>
