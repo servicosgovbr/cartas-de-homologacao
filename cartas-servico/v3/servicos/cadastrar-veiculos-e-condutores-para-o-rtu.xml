@@ -10,12 +10,6 @@
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
-    <solicitantes>
-        <solicitante id="440">
-            <tipo>Pessoas físicas e jurídicas que tenham direito ao RTU</tipo>
-            <requisitos></requisitos>
-        </solicitante>
-    </solicitantes>
     <tempo-total-estimado>
         <atendimento-imediato/>
         <descricao></descricao>
@@ -30,12 +24,7 @@
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="1290">rtu</item>
-        <item id="1291">condutor</item>
-        <item id="1292">veículo</item>
-    </palavras-chave>
-    <legislacoes>
-        <item id="410">lei do rtu</item>
-    </legislacoes>
+    <servicos-relacionados>
+        <item>753</item>
+    </servicos-relacionados>
 </servico>
