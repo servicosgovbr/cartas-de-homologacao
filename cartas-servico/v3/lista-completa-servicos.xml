@@ -4280,48 +4280,6 @@ Observação: A comunicação à Polícia Rodoviária Federal não dispensa o re
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>agendamento-da-opcao-pelo-simples-nacional</id>
-        <dbId>82</dbId>
-        <nome>Agendamento da Opção pelo Simples Nacional</nome>
-        <sigla></sigla>
-        <descricao>Agendar a opção pelo Simples Nacional entre o primeiro dia útil de novembro e o penúltimo dia útil de dezembro do ano anterior ao da opção.</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <servico-digital>false</servico-digital>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="682">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="829" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=t&amp;area=1</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="860">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>consulta-processamento-per-dcomp</id>
         <dbId>83</dbId>
         <nome>Consulta processamento PER/DCOMP</nome>
@@ -4827,6 +4785,67 @@ Portaria nº 4/ 2014: Dispõe sobre os critérios e procedimentos para as Consig
 
 Portaria nº 408/2016: Dispõe sobre os procedimentos de permissão e concessão para execução dos serviços de radiodifusão sonora em frequência modulada e de sons e imagens, com finalidade exclusivamente educativa.</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>agendamento-da-opcao-pelo-simples-nacional</id>
+        <dbId>82</dbId>
+        <nome>Agendamento da Opção pelo Simples Nacional</nome>
+        <sigla>tes</sigla>
+        <descricao>Agendar a opção pelo Simples Nacional entre o primeiro dia útil de novembro e o penúltimo dia útil de dezembro do ano anterior ao da opção.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="477">
+                <tipo>Teste</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1524">
+                <titulo>ete</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="829" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=t&amp;area=1</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1826">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1402">e</item>
+            <item id="1403">d</item>
+            <item id="1404">t</item>
+        </palavras-chave>
+        <servicos-relacionados>
+            <item>705</item>
+        </servicos-relacionados>
     </servico>
     <servico>
         <id>substituicao-ou-levantamento-de-garantia-extrajudicial-pgfn</id>
