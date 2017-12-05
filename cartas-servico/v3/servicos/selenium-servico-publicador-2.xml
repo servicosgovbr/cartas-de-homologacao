@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-servico-publicador-2</id>
+    <dbId>619</dbId>
+    <nome>Selenium Serviço Publicador 2</nome>
+    <sigla>Publicador</sigla>
+    <nomes-populares>
+        <item id="625">Public</item>
+        <item id="626">Private</item>
+        <item id="627">Protect</item>
+    </nomes-populares>
+    <descricao>Selenium teste descrição serviço publicador</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="486">
+            <tipo>Solicitante Selenium publicador</tipo>
+            <requisitos>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>anos</unidade>
+        <descricao>Validos dfj kdhsa jkfha jskhfjh sdfljhjksghjkfhsgjkh Validos  dfjkdhsajkfhajskhfjhsdfljhjk sghjkfhsgjkh  Validos dfjkdhsajkfhajs khfjhsdfljh jksghjkfhsgjkh Validos dfjk dhsa j kfhajskhfjhsdfljh jksghjkfh sgjkh Validos dfjkdhsajk  fhajskhfjhsdfljhj  ksghjkfh sgjkh Validos dfjkdhsaj kfhajsk hfjhs dfljhjksghjkfh sgjkh Validos dfjkdhsajkfhajskhfjh sdfljhjksg hjkfh sgjkh Validos dfjkdh  sajkf   hajskhfjhsdflj hjksghjkfhsgjkh</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1535">
+            <titulo>Etapa 1 Selenium Publicador</titulo>
+            <descricao>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjsh,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljg</descricao>
+            <documentos>
+                <default>
+                    <item id="1143">CPF</item>
+                    <item id="1144">IDENTIDADE</item>
+                    <item id="1145">CARTEIRA</item>
+                </default>
+                <caso id="336" descricao="palavra chave 2 publicador">
+                    <documento>
+                        <id>1142</id>
+                        <descricao>palavra chave 3 publicador</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="99">
+                        <descricao>Custos Selenium publicador</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1840" tipo="presencial">
+                        <descricao>Canal Selenium publicador</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="337" descricao="Canal Novo">
+                    <canal-de-prestacao id="1839" tipo="e-mail">
+                        <descricao>test2@teste.com</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1536">
+            <titulo>Titulo 2</titulo>
+            <descricao>sdfibcktrvrvi ugi fjkfhdgkhfdjghjfkdhgjkfhdjkghfdjskhgjkfhsdgjhfjkdhgkjfhsdkg</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1841" tipo="postal">
+                        <descricao>teste @poetsa</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="1846">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1847">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1428">palavra chave 1 publicador</item>
+        <item id="1429">palavra chave 2 publicador</item>
+        <item id="1430">palavra chave 3 publicador</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="439">Legislação publicador</item>
+    </legislacoes>
+</servico>
