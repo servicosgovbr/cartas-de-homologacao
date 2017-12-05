@@ -5,8 +5,9 @@
     <nome>Serviço publicação Github</nome>
     <sigla>SPG</sigla>
     <nomes-populares>
-        <item id="473">github</item>
-        <item id="474">teste</item>
+        <item id="475">github</item>
+        <item id="476">teste</item>
+        <item id="477">Spiderman</item>
     </nomes-populares>
     <descricao>hgjkhgjkhfjdhgjbvmnvcb,vncmbnm.,v cnbnvcm,n mdskflçdskflçk sdlçfldçfsk lçkds.,cv.;c,v.;,c.;v,.;czx,v .;cx.;vb,. vcmb,.vmcxb,xc vbm,nxvc,bdfjksgjkhfjghjf kdhgjfhdgjkh fkhgjkafhjhioeurioe wuqriouewioq ruioeqwurioeuwp rioueiowurioe wuirouewqio urioqeuwrikld sjklsdjfkljfkgjk lfjaklgjklfjgklajd</descricao>
     <contato>Contato</contato>
@@ -14,12 +15,6 @@
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://www.uol.com.br</link-servico-digital>
-    <solicitantes>
-        <solicitante id="369">
-            <tipo>Solicitante 1</tipo>
-            <requisitos>jdhjghjkahgjhjfghjkfdhgjhjfkhgjkhj fkdhgjkhfasjkghjkafhgjf jksfhgjkashfg</requisitos>
-        </solicitante>
-    </solicitantes>
     <tempo-total-estimado>
         <ate max="1" unidade="horas"/>
         <descricao></descricao>
@@ -30,47 +25,14 @@
         <unidade>dias</unidade>
         <descricao>hfsajkhjghjfh xcjnvm,xcbnm,nx jfklfghjkhfjghjklfdhjkgfhdjk</descricao>
     </validade-documento>
-    <etapas>
-        <etapa id="1332">
-            <titulo>Etapa 1</titulo>
-            <descricao></descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default>
-                    <custo id="48">
-                        <descricao>Custo</descricao>
-                        <moeda>R$</moeda>
-                        <valor>1,000</valor>
-                    </custo>
-                </default>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1790" tipo="e-mail">
-                        <descricao>email@email.com</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
-    <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1673">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="1674">Empresas</item>
-    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Alimento</item>
         <item>Assistência à Criança e ao Adolescente</item>
         <item>Alimento</item>
         <item>Assistência à Criança e ao Adolescente</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="1045">Gihut</item>
-        <item id="1046">Teste</item>
-        <item id="1047">djfhey</item>
-    </palavras-chave>
 </servico>
