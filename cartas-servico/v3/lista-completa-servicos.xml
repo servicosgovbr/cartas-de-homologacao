@@ -11784,6 +11784,7 @@ gratto</requisitos>
                             <descricao>NAmMARTILIANO JOSE DA SILVA</descricao>
                             <moeda>R$</moeda>
                             <valor>0</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -20292,113 +20293,6 @@ Telefone: (61) 2027-6000</contato>
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>selenium-servico-publicador-2</id>
-        <dbId>619</dbId>
-        <nome>Selenium Serviço Publicador 2</nome>
-        <sigla>Publicador</sigla>
-        <nomes-populares>
-            <item id="456">Public</item>
-            <item id="457">Private</item>
-            <item id="458">Protect</item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço publicador</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="341">
-                <tipo>Solicitante Selenium publicador</tipo>
-                <requisitos>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>10</quantidade>
-            <unidade>anos</unidade>
-            <descricao>Validos dfj kdhsa jkfha jskhfjh sdfljhjksghjkfhsgjkh Validos  dfjkdhsajkfhajskhfjhsdfljhjk sghjkfhsgjkh  Validos dfjkdhsajkfhajs khfjhsdfljh jksghjkfhsgjkh Validos dfjk dhsa j kfhajskhfjhsdfljh jksghjkfh sgjkh Validos dfjkdhsajk  fhajskhfjhsdfljhj  ksghjkfh sgjkh Validos dfjkdhsaj kfhajsk hfjhs dfljhjksghjkfh sgjkh Validos dfjkdhsajkfhajskhfjh sdfljhjksg hjkfh sgjkh Validos dfjkdh  sajkf   hajskhfjhsdflj hjksghjkfhsgjkh</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1304">
-                <titulo>Etapa 1 Selenium Publicador</titulo>
-                <descricao>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjsh,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljg</descricao>
-                <documentos>
-                    <default>
-                        <item id="1030">CPF</item>
-                        <item id="1031">IDENTIDADE</item>
-                        <item id="1032">CARTEIRA</item>
-                    </default>
-                    <caso id="279" descricao="palavra chave 2 publicador">
-                        <documento>
-                            <id>1029</id>
-                            <descricao>palavra chave 3 publicador</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="45">
-                            <descricao>Custos Selenium publicador</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1762" tipo="presencial">
-                            <descricao>Canal Selenium publicador</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="280" descricao="Canal Novo">
-                        <canal-de-prestacao id="1768" tipo="e-mail">
-                            <descricao>test2@teste.com</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1308">
-                <titulo>Titulo 2</titulo>
-                <descricao>sdfibcktrvrvi ugi fjkfhdgkhfdjghjfkdhgjkfhdjkghfdjskhgjkfhsdgjhfjkdhgkjfhsdkg</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1769" tipo="postal">
-                            <descricao>teste @poetsa</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1651">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="1652">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="986">palavra chave 1 publicador</item>
-            <item id="987">palavra chave 2 publicador</item>
-            <item id="988">palavra chave 3 publicador</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="325">Legislação publicador</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>verificacao-de-mercadoria-antes-do-registro-da-di</id>
         <dbId>442</dbId>
         <nome>Verificação de Mercadoria Antes do Registro da DI</nome>
@@ -20904,6 +20798,7 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
                             <descricao>Taxa da 2ª via de CNH</descricao>
                             <moeda>R$</moeda>
                             <valor>9,471</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -21085,6 +20980,115 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>selenium-servico-publicador-2</id>
+        <dbId>619</dbId>
+        <nome>Selenium Serviço Publicador 2</nome>
+        <sigla>Publicador</sigla>
+        <nomes-populares>
+            <item id="625">Public</item>
+            <item id="626">Private</item>
+            <item id="627">Protect</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço publicador</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="486">
+                <tipo>Solicitante Selenium publicador</tipo>
+                <requisitos>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklç</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>anos</unidade>
+            <descricao>Validos dfj kdhsa jkfha jskhfjh sdfljhjksghjkfhsgjkh Validos  dfjkdhsajkfhajskhfjhsdfljhjk sghjkfhsgjkh  Validos dfjkdhsajkfhajs khfjhsdfljh jksghjkfhsgjkh Validos dfjk dhsa j kfhajskhfjhsdfljh jksghjkfh sgjkh Validos dfjkdhsajk  fhajskhfjhsdfljhj  ksghjkfh sgjkh Validos dfjkdhsaj kfhajsk hfjhs dfljhjksghjkfh sgjkh Validos dfjkdhsajkfhajskhfjh sdfljhjksg hjkfh sgjkh Validos dfjkdh  sajkf   hajskhfjhsdflj hjksghjkfhsgjkh</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1535">
+                <titulo>Etapa 1 Selenium Publicador</titulo>
+                <descricao>treyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljgjhklgjhklgfklgdjljhklçtreyqtviohgjkbnm,nm.,cxnbm,cnxkjsh,cxnbm,cnxkjshklgjklhjgfkhjklgjhkljg</descricao>
+                <documentos>
+                    <default>
+                        <item id="1143">CPF</item>
+                        <item id="1144">IDENTIDADE</item>
+                        <item id="1145">CARTEIRA</item>
+                    </default>
+                    <caso id="336" descricao="palavra chave 2 publicador">
+                        <documento>
+                            <id>1142</id>
+                            <descricao>palavra chave 3 publicador</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="99">
+                            <descricao>Custos Selenium publicador</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1840" tipo="presencial">
+                            <descricao>Canal Selenium publicador</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="337" descricao="Canal Novo">
+                        <canal-de-prestacao id="1839" tipo="e-mail">
+                            <descricao>test2@teste.com</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1536">
+                <titulo>Titulo 2</titulo>
+                <descricao>sdfibcktrvrvi ugi fjkfhdgkhfdjghjfkdhgjkfhdjkghfdjskhgjkfhsdgjhfjkdhgkjfhsdkg</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1841" tipo="postal">
+                            <descricao>teste @poetsa</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1846">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="1847">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1428">palavra chave 1 publicador</item>
+            <item id="1429">palavra chave 2 publicador</item>
+            <item id="1430">palavra chave 3 publicador</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="439">Legislação publicador</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-juridica</id>
@@ -25838,50 +25842,6 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>alteracao-cadastral-no-cnpj</id>
-        <dbId>296</dbId>
-        <nome>Alteração Cadastral no CNPJ</nome>
-        <sigla>endereço</sigla>
-        <descricao>Solicitar alteração no Cadastro Nacional da Pessoa Jurídica, acompanhado do Documento Básico de Entrada (DBE) e demais documentos necessários.</descricao>
-        <contato>Blog informativo com mais informações sobre [CNPJ](http://cartaocnpj.net) para empresas e como consultar o cartão e outras dicas úteis.</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="970">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1188" tipo="web">
-                            <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/ConsulSitCadastralCNPJ.htm</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao dbId="58050">
-            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1244">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
         <id>avaliar-estabelecimentos-servicos-acessiveis</id>
         <dbId>4</dbId>
         <nome>Avaliar estabelecimentos/serviços acessíveis</nome>
@@ -25961,7 +25921,7 @@ Email - incentivo.viagens@turismo.gov.br</contato>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -25991,83 +25951,6 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         <legislacoes>
             <item id="289">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
             <item id="290">[Norma Brasileira ABNT NBR 9050] (http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf)</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>test-ghost-inspector</id>
-        <dbId>612</dbId>
-        <nome>Test Ghost Inspector</nome>
-        <sigla>TGI</sigla>
-        <nomes-populares>
-            <item id="440">YEUIYEUYUYUY</item>
-            <item id="441">KJKLJKJKLJKJKJKJKLJL</item>
-            <item id="432">TTGHY</item>
-        </nomes-populares>
-        <descricao>SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
-SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
-SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="331">
-                <tipo>Solicitante Novo Novo Novo</tipo>
-                <requisitos>Solicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="0"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>10</quantidade>
-            <unidade>anos</unidade>
-            <descricao>SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
-SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1296">
-                <titulo>Etapa Nova 3</titulo>
-                <descricao>Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho</descricao>
-                <documentos>
-                    <default>
-                        <item id="1006">CPF</item>
-                        <item id="1007">TESTE</item>
-                        <item id="1008">IDENTIDADE</item>
-                        <item id="1009">MUI</item>
-                        <item id="1010">DOIDO</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="41">
-                            <descricao>Novo Custo</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10,000</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1751" tipo="e-mail">
-                            <descricao></descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <palavras-chave>
-            <item id="968"></item>
-            <item id="969"></item>
-            <item id="970"></item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="319"></item>
         </legislacoes>
     </servico>
     <servico>
@@ -26134,128 +26017,6 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
         </palavras-chave>
         <legislacoes>
             <item id="328">dddsda</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>sair-do-github</id>
-        <dbId>669</dbId>
-        <nome>Sair do Github</nome>
-        <sigla>GitHub hfjkjfdh</sigla>
-        <nomes-populares>
-            <item id="459">git</item>
-            <item id="460">hub</item>
-            <item id="461">codigo</item>
-            <item id="462">github</item>
-        </nomes-populares>
-        <descricao>GitHub</descricao>
-        <contato>Teste Contato</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="353">
-                <tipo>Programadores</tipo>
-                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de organizacão que é amplamente utilizado por aqueles que querem uma escola maior para seus projetos. Na maioria das vezes, o recurso é usado por empresas já</requisitos>
-            </solicitante>
-            <solicitante id="354">
-                <tipo>Arquitetos</tipo>
-                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>Depende da pessoa</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1309">
-                <titulo>Subir Codigo</titulo>
-                <descricao>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</descricao>
-                <documentos>
-                    <default>
-                        <item id="1034">email</item>
-                        <item id="1035">senha</item>
-                    </default>
-                    <caso id="281" descricao="Rico">
-                        <documento>
-                            <id>1033</id>
-                            <descricao>Certificado Digital</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1772" tipo="web">
-                            <descricao>[GitHub](https://www.github.com)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="282" descricao="Git local Empresa Web">
-                        <canal-de-prestacao id="1770" tipo="web">
-                            <descricao>Endereço do Git Local</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="283" descricao="Git Local Empresa Física">
-                        <canal-de-prestacao id="1771" tipo="presencial">
-                            <descricao>Local da empresa, levar código fonte no CD.</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1310">
-                <titulo>Baixar Código</titulo>
-                <descricao>Acessar Git da primeira Etapa</descricao>
-                <documentos>
-                    <default>
-                        <item id="1037">email</item>
-                        <item id="1038">senha</item>
-                    </default>
-                    <caso id="284" descricao="Rico 2">
-                        <documento>
-                            <id>1036</id>
-                            <descricao>Certificado Digital</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1773" tipo="e-mail">
-                            <descricao>github@github.com</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1654">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1655">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1656">Órgãos e entidades públicas</item>
-            <item idSegmento="4" idServicoSegmento="1657">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Serviços Públicos</item>
-            <item>Sistema Financeiro</item>
-            <item>test</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="999">Gt</item>
-            <item id="1000">Tes</item>
-            <item id="1001">Github</item>
-            <item id="1002">Programação</item>
-            <item id="1003">Programas</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="329">LEgislação Mill</item>
         </legislacoes>
     </servico>
     <servico>
@@ -26351,6 +26112,211 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
             <item>Transporte Hidroviário</item>
             <item>Transportes</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>test-ghost-inspector</id>
+        <dbId>612</dbId>
+        <nome>Test Ghost Inspector</nome>
+        <sigla>TGI</sigla>
+        <nomes-populares>
+            <item id="609">YEUIYEUYUYUY</item>
+            <item id="610">KJKLJKJKLJKJKJKJKLJL</item>
+            <item id="611">TTGHY</item>
+        </nomes-populares>
+        <descricao>SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
+SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
+SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="481">
+                <tipo>Solicitante Novo Novo Novo</tipo>
+                <requisitos>Solicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo NovoSolicitante Novo Novo</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>anos</unidade>
+            <descricao>SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm
+SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.mcv,.bm,.vcmb.,vcm,.bmv,.cmmmmm mmmmmmmmmmmmm  mmmmmm</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1529">
+                <titulo>Etapa Nova 3</titulo>
+                <descricao>Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho Solicitante Velho</descricao>
+                <documentos>
+                    <default>
+                        <item id="1006">CPF</item>
+                        <item id="1007">TESTE</item>
+                        <item id="1008">IDENTIDADE</item>
+                        <item id="1009">MUI</item>
+                        <item id="1010">DOIDO</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="41">
+                            <descricao>Novo Custo</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1751" tipo="e-mail">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1835">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1414">k</item>
+            <item id="1415">k</item>
+            <item id="1416">k</item>
+        </palavras-chave>
+    </servico>
+    <servico>
+        <id>sair-do-github</id>
+        <dbId>669</dbId>
+        <nome>Sair do Github</nome>
+        <sigla>GitHub hfjkjfdh</sigla>
+        <nomes-populares>
+            <item id="615">git</item>
+            <item id="616">hub</item>
+            <item id="617">codigo</item>
+            <item id="618">github</item>
+        </nomes-populares>
+        <descricao>GitHub</descricao>
+        <contato>Teste Contato</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="483">
+                <tipo>Programadores</tipo>
+                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de organizacão que é amplamente utilizado por aqueles que querem uma escola maior para seus projetos. Na maioria das vezes, o recurso é usado por empresas já</requisitos>
+            </solicitante>
+            <solicitante id="484">
+                <tipo>Arquitetos</tipo>
+                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>Depende da pessoa</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1532">
+                <titulo>Subir Codigo</titulo>
+                <descricao>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</descricao>
+                <documentos>
+                    <default>
+                        <item id="1034">email</item>
+                        <item id="1035">senha</item>
+                    </default>
+                    <caso id="281" descricao="Rico">
+                        <documento>
+                            <id>1033</id>
+                            <descricao>Certificado Digital</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1772" tipo="web">
+                            <descricao>[GitHub](https://www.github.com)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="282" descricao="Git local Empresa Web">
+                        <canal-de-prestacao id="1770" tipo="web">
+                            <descricao>Endereço do Git Local</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="283" descricao="Git Local Empresa Física">
+                        <canal-de-prestacao id="1771" tipo="presencial">
+                            <descricao>Local da empresa, levar código fonte no CD.</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1533">
+                <titulo>Baixar Código</titulo>
+                <descricao>Acessar Git da primeira Etapa</descricao>
+                <documentos>
+                    <default>
+                        <item id="1037">email</item>
+                        <item id="1038">senha</item>
+                    </default>
+                    <caso id="284" descricao="Rico 2">
+                        <documento>
+                            <id>1036</id>
+                            <descricao>Certificado Digital</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1773" tipo="e-mail">
+                            <descricao>github@github.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1841">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="1842">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="1" idServicoSegmento="1839">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1840">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Serviços Públicos</item>
+            <item>Sistema Financeiro</item>
+            <item>test</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1420">Gt</item>
+            <item id="1421">Tes</item>
+            <item id="1422">Github</item>
+            <item id="1423">Programação</item>
+            <item id="1424">Programas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="437">LEgislação Mill</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>testeservicocarlos-29-08-17</id>
@@ -26477,6 +26443,7 @@ E-mail: snptur.ouvidoria@turismo.gov.br / 0800-2008484 (opção 04 - Cadastur)</
                             <descricao>NE</descricao>
                             <moeda>R$</moeda>
                             <valor>5,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -26884,141 +26851,6 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         </legislacoes>
     </servico>
     <servico>
-        <id>selenium-categoria-servico</id>
-        <dbId>617</dbId>
-        <nome>Selenium categoria serviço</nome>
-        <sigla>hfhghg sgs 213</sigla>
-        <nomes-populares>
-            <item id="452">Acesso aos documentos do Acervo do Arquivo Legal</item>
-        </nomes-populares>
-        <descricao>23</descricao>
-        <contato>dfsfsdfdsfdsf</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="340">
-                <tipo>dsasdda</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1302">
-                <titulo>dsadasd</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
-            <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="983">sadadsad</item>
-            <item id="984">sdadssad</item>
-            <item id="985">sdadsadsadsa</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="324">sdsadsadsadas</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>selenium-servico-2</id>
-        <dbId>613</dbId>
-        <nome>Selenium Serviço 2</nome>
-        <sigla>Sigla</sigla>
-        <nomes-populares>
-            <item id="453">Serviço</item>
-            <item id="454">X MEN</item>
-            <item id="455">Teste Milll</item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="336">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1298">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="44">
-                            <descricao>Custos Selenium</descricao>
-                            <moeda>R$</moeda>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1755" tipo="presencial">
-                            <descricao>Canal Selenium</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2207" dbId="34310">
-            <nomeOrgao>Fundação Nacional de Saúde (FUNASA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1641">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1642">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1643">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Combate a desigualdade</item>
-            <item>Comunicações Postais</item>
-            <item>Educação básica</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="971">palavra chave 3</item>
-            <item id="972">palavra chave 2</item>
-            <item id="973">palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="320">Legislação</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>servico-digital</id>
         <dbId>677</dbId>
         <nome>Serviço Digital</nome>
@@ -27340,6 +27172,7 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
                             <descricao>Custos Selenium ponto focal</descricao>
                             <moeda>R$</moeda>
                             <valor>10</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -27366,6 +27199,7 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
                             <descricao>Custo 1</descricao>
                             <moeda>R$</moeda>
                             <valor>1,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -27763,6 +27597,249 @@ Serão resultados desta etapa:
         </palavras-chave>
     </servico>
     <servico>
+        <id>servico-01122017-novo</id>
+        <dbId>787</dbId>
+        <nome>Serviço 01122017 Novo</nome>
+        <sigla>12</sigla>
+        <nomes-populares>
+            <item id="612">12</item>
+            <item id="613">4</item>
+            <item id="614">1</item>
+        </nomes-populares>
+        <descricao>Nova Descrição</descricao>
+        <contato>Novo COn</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="482">
+                <tipo>Solictante 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="10" unidade="horas"/>
+            <descricao>xczcx</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1530">
+                <titulo>Etap 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1140">Novo documento</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1836" tipo="e-mail">
+                            <descricao>fsdfdsfdsf</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="335" descricao="Caso Novo">
+                        <canal-de-prestacao id="1835" tipo="fax">
+                            <descricao>Super fax</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1531">
+                <titulo>Eap j</titulo>
+                <descricao>8789798</descricao>
+                <documentos>
+                    <default>
+                        <item id="1141">Novo</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1837" tipo="e-mail">
+                            <descricao>* te
+* y</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1836">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1837">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1838">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Combate a epidemias</item>
+            <item>Combustíveis</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1417">d</item>
+            <item id="1418">s</item>
+            <item id="1419">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="436">sdadasdsad</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>151</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>selenium-categoria-servico</id>
+        <dbId>617</dbId>
+        <nome>Selenium categoria serviço</nome>
+        <sigla>hfhghg sgs 213</sigla>
+        <nomes-populares>
+            <item id="468">Acesso aos documentos do Acervo do Arquivo Legal</item>
+        </nomes-populares>
+        <descricao>23 teste descrição.</descricao>
+        <contato>dfsfsdfdsfdsf</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="361">
+                <tipo>dsasdda</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1323">
+                <titulo>dsadasd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1018">dsada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1760" tipo="fax">
+                            <descricao>sdsadasdsda</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
+            <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1664">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1021">sadadsad</item>
+            <item id="1022">sdadssad</item>
+            <item id="1023">sdadsadsadsa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="334">sdsadsadsadas</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico-2</id>
+        <dbId>613</dbId>
+        <nome>Selenium Serviço 2</nome>
+        <sigla>Sigla</sigla>
+        <nomes-populares>
+            <item id="622">Serviço</item>
+            <item id="623">X MEN</item>
+            <item id="624">Teste Milll</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="485">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1534">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="98">
+                            <descricao>Custos Selenium</descricao>
+                            <moeda>R$</moeda>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1838" tipo="presencial">
+                            <descricao>Canal Selenium</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2207" dbId="34310">
+            <nomeOrgao>Fundação Nacional de Saúde (FUNASA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1843">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1844">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1845">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Combate a desigualdade</item>
+            <item>Comunicações Postais</item>
+            <item>Educação básica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1425">palavra chave 3</item>
+            <item id="1426">palavra chave 2</item>
+            <item id="1427">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="438">Legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>consulta-cnpj-eleicoes</id>
         <dbId>92</dbId>
         <nome>Consulta CNPJ Eleições</nome>
@@ -27847,12 +27924,14 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
                             <descricao>Taxa de Emissão Regular</descricao>
                             <moeda>R$</moeda>
                             <valor>1,654</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                     <caso id="329" descricao="Tarifa de Utilização da Via - TUV - Para configurações veiculares com peso superior a 74 toneladas.">
                         <custo id="90">
                             <descricao>Calculada em função da distância a ser percorrida entre pontos de origem e destino da carga com o peso excedente.</descricao>
                             <moeda>R$</moeda>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </caso>
                 </custos>
@@ -28067,6 +28146,7 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
                         <custo id="89">
                             <descricao>Após a conclusão do curso, o aluno pagará o financiamento nos termos acordados.</descricao>
                             <moeda>R$</moeda>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -28257,71 +28337,6 @@ Fusce maximus leo non enim imperdiet varius. Nullam augue mauris, fringilla id c
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>servico-publicacao-github</id>
-        <dbId>684</dbId>
-        <nome>Serviço publicação Github</nome>
-        <sigla>SPG</sigla>
-        <nomes-populares>
-            <item id="473">github</item>
-            <item id="474">teste</item>
-        </nomes-populares>
-        <descricao>hgjkhgjkhfjdhgjbvmnvcb,vncmbnm.,v cnbnvcm,n mdskflçdskflçk sdlçfldçfsk lçkds.,cv.;c,v.;,c.;v,.;czx,v .;cx.;vb,. vcmb,.vmcxb,xc vbm,nxvc,bdfjksgjkhfjghjf kdhgjfhdgjkh fkhgjkafhjhioeurioe wuqriouewioq ruioeqwurioeuwp rioueiowurioe wuirouewqio urioqeuwrikld sjklsdjfkljfkgjk lfjaklgjklfjgklajd</descricao>
-        <contato>Contato</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
-        <solicitantes>
-            <solicitante id="369">
-                <tipo>Solicitante 1</tipo>
-                <requisitos>jdhjghjkahgjhjfghjkfdhgjhjfkhgjkhj fkdhgjkhfasjkghjkafhgjf jksfhgjkashfg</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>10</quantidade>
-            <unidade>dias</unidade>
-            <descricao>hfsajkhjghjfh xcjnvm,xcbnm,nx jfklfghjkhfjghjklfdhjkgfhdjk</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1332">
-                <titulo>Etapa 1</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1673">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1674">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Alimento</item>
-            <item>Assistência à Criança e ao Adolescente</item>
-            <item>Alimento</item>
-            <item>Assistência à Criança e ao Adolescente</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1045">Gihut</item>
-            <item id="1046">Teste</item>
-            <item id="1047">djfhey</item>
-        </palavras-chave>
-    </servico>
-    <servico>
         <id>selenium-servico-ponto-focal</id>
         <dbId>686</dbId>
         <nome>Selenium Serviço Ponto Focal</nome>
@@ -28381,6 +28396,67 @@ Fusce maximus leo non enim imperdiet varius. Nullam augue mauris, fringilla id c
             <item>Atendimento básico</item>
             <item>Agropecuária</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>teste-elastic</id>
+        <dbId>793</dbId>
+        <nome>Teste Elastic</nome>
+        <sigla>sahfjkhsjk</sigla>
+        <nomes-populares>
+            <item id="629">jhdafjkhasjkfh</item>
+        </nomes-populares>
+        <descricao>sdaadsadsad</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="489">
+                <tipo>dssad</tipo>
+                <requisitos>sdsd</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1538">
+                <titulo>dsad</titulo>
+                <descricao>dsad</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1842" tipo="fax">
+                            <descricao>sdadasdsad</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1849">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Água</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1437">W</item>
+            <item id="1438">W</item>
+            <item id="1439">W</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>selenium-servico-1</id>
@@ -28517,11 +28593,13 @@ Fusce maximus leo non enim imperdiet varius. Nullam augue mauris, fringilla id c
                             <descricao>Custo 2 Etapa 1</descricao>
                             <moeda>$</moeda>
                             <valor>5</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                         <custo id="54">
                             <descricao>Custo 1 Etapa 1</descricao>
                             <moeda>R$</moeda>
                             <valor>20</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                     <caso id="290" descricao="Caso 1 Custo Etapa 1">
@@ -28529,11 +28607,13 @@ Fusce maximus leo non enim imperdiet varius. Nullam augue mauris, fringilla id c
                             <descricao>Custo 1 Caso 1 Etapa 1</descricao>
                             <moeda>R$</moeda>
                             <valor>230</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                         <custo id="57">
                             <descricao>Custo 2 Caso 1 Etapa 1</descricao>
                             <moeda>R$</moeda>
                             <valor>10</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </caso>
                     <caso id="291" descricao="Caso 2 Custo Etapa 1">
@@ -28541,11 +28621,13 @@ Fusce maximus leo non enim imperdiet varius. Nullam augue mauris, fringilla id c
                             <descricao>Custo 1 Caso 2 Etapa 1</descricao>
                             <moeda>R$</moeda>
                             <valor>123</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                         <custo id="59">
                             <descricao>Custo 2 Caso 2 Etapa 1</descricao>
                             <moeda>R$</moeda>
                             <valor>321</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </caso>
                 </custos>
@@ -30238,6 +30320,158 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         </palavras-chave>
     </servico>
     <servico>
+        <id>credenciar-laboratorio-na-rede-nacional-de-laboratorios-agropecuarios</id>
+        <dbId>794</dbId>
+        <nome>Credenciar Laboratório na Rede Nacional de Laboratórios Agropecuários</nome>
+        <sigla>LANAGRO</sigla>
+        <nomes-populares>
+            <item id="632">Rede MAPA de laboratórios</item>
+        </nomes-populares>
+        <descricao>O credenciamento de laboratórios junto ao MAPA se destina a atender, de forma complementar,  aos programas e controles oficias do MAPA, suprindo demandas por ensaios laboratoriais excedentes, não atendidas pelos laboratórios do próprio MAPA.</descricao>
+        <contato>¨ **Telefone:** (61) 3218-2041      
+¨ **Email:** credenciamento.cgal@agricultura.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="492">
+                <tipo>Laboratórios</tipo>
+                <requisitos>Públicos ou privados, que realizam ensaios laboratoriais para os programas e controles oficiais do MAPA.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="3" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1545">
+                <titulo>Requerer credenciamento</titulo>
+                <descricao>Os modelos dos formulários, relações e termos podem ser obtidos [aqui](http://www.agricultura.gov.br/assuntos/laboratorios/credenciamento).</descricao>
+                <documentos>
+                    <default>
+                        <item id="1173">Formulário de solicitação de credenciamento, preenchido e assinado pelo representante legal do laboratório</item>
+                        <item id="1174">Cópia do contrato social do laboratório ou documento equivalente, válido e atualizado</item>
+                        <item id="1175">Cópia do Cadastro Nacional de Pessoa Jurídica – CNPJ do laboratório, válido e atualizado</item>
+                        <item id="1176">Cópia do alvará de funcionamento do laboratório ou documento equivalente, expedido pelo órgão competente, válido e atualizado</item>
+                        <item id="1177">Croqui das instalações do laboratório, assinado por profissional com registro válido junto ao Conselho Regional de Engenharia e Agronomia - CREA, indicando a finalidade de cada ambiente</item>
+                        <item id="1178">Memorial descritivo das instalações do laboratório, assinado por profissional com registro válido junto ao CREA</item>
+                        <item id="1179">Descrição do fluxo das amostras no laboratório, indicando as áreas percorridas desde a sua recepção até a finalização dos ensaios, seu armazenamento e descarte</item>
+                        <item id="1180">Relação de equipamentos, indicando marca, modelo e código de identificação no laboratório</item>
+                        <item id="1181">Termo de compromisso com o credenciamento, assinado pelo representante legal do laboratório, com firma reconhecida em cartório</item>
+                        <item id="1182">Termo de compromisso de responsabilidade técnica, de cada um dos responsáveis técnicos e dos responsáveis técnicos substitutos, com firma reconhecida em cartório</item>
+                        <item id="1183">Cópia da carteira de habilitação profissional, válida e atualizada, emitida pelo respectivo conselho de classe, de cada um dos Responsáveis Técnicos e dos Responsáveis Técnicos Substitutos</item>
+                        <item id="1184">Cópia da lista mestra de documentos do Sistema de Gestão da Qualidade do laboratório</item>
+                        <item id="1185">Cópias do certificado e do escopo de acreditação na ABNT NBR ISO/IEC 17025 – Requisitos Gerais para a Competência de Laboratórios de Ensaio e Calibração, emitidos pelo INMETRO, contemplando os ensaios constantes na solicitação de credenciamento</item>
+                        <item id="1186">Indicação deum de seus representantes legais, denominado Responsável pela Direção do Laboratório no âmbito do credenciamento junto ao MAPA, que será responsável pela interlocução entre o laboratório e a CGAL/SDA.</item>
+                        <item id="1187">Nomeação formal de um profissional de nível superior, do seu quadro efetivo de funcionários, que será o Responsável pelo Sistema de Gestão da Qualidade no âmbito do credenciamento junto ao MAPA</item>
+                    </default>
+                    <caso id="339" descricao="Para cada ensaio a ser credenciado, deverão ser informados:">
+                        <documento>
+                            <id>1167</id>
+                            <descricao>A referência bibliográfica do método, quando pertinente</descricao>
+                        </documento>
+                        <documento>
+                            <id>1168</id>
+                            <descricao>Determinação analítica a ser obtida</descricao>
+                        </documento>
+                        <documento>
+                            <id>1169</id>
+                            <descricao>Técnica aplicada na realização do ensaio</descricao>
+                        </documento>
+                        <documento>
+                            <id>1170</id>
+                            <descricao>Código do procedimento referente à execução do método no laboratório, com o seu respectivo número de revisão</descricao>
+                        </documento>
+                        <documento>
+                            <id>1171</id>
+                            <descricao>Matriz à qual o método será aplicado</descricao>
+                        </documento>
+                        <documento>
+                            <id>1172</id>
+                            <descricao>A espécie, a cultura ou o hospedeiro, quando pertinente</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1848" tipo="presencial">
+                            <descricao>**Ministério da Agricultura, Pecuária e Abastecimento - Coordenação-Geral de Apoio Laboratorial - CGAL/SDA** - Esplanada dos Ministérios Bloco D Anexo B - Sala 433 - Brasília/DF - CEP 70043-900</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1847" tipo="postal">
+                            <descricao>**Ministério da Agricultura, Pecuária e Abastecimento - Coordenação-Geral de Apoio Laboratorial - CGAL/SDA** - Esplanada dos Ministérios Bloco D Anexo B - Sala 433 - Brasília/DF - CEP 70043-900</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1546">
+                <titulo>Receber resultado</titulo>
+                <descricao>O credenciamento do laboratório será publicado no Diário Oficial da União</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1849" tipo="web">
+                            <descricao>http://portal.imprensanacional.gov.br/</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1547">
+                <titulo>Ser autorizado a realizar ensaios</titulo>
+                <descricao>O laboratório credenciado somente poderá realizar ensaios para os programas e
+controles oficiais do MAPA após ter seus dados e escopo publicados no sítio eletrônico do MAPA</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1850" tipo="web">
+                            <descricao>http://www.agricultura.gov.br/assuntos/laboratorios/rede-nacional-de-laboratorios-agropecuarios/rede-nacional-de-laboratorios-agropecuarios</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1854">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1855">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Defesa agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1448">laboratórios</item>
+            <item id="1449">LANAGRO</item>
+            <item id="1450">ensaio laboratorial</item>
+            <item id="1451">laboratório agropecuário</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="450">[DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC 8.471-2015?OpenDocument)</item>
+            <item id="451">[INSTRUÇÃO NORMATIVA No 57, DE 11 DE DEZEMBRO DE 2013](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/InstruoNormativan57de11.12.2013versoPDFdowordNovaRedaoNRsegundoIN19e41.pdf)</item>
+            <item id="452">[INSTRUÇÃO NORMATIVA Nº 19, DE 25 DE JUNHO DE 2014](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/instrucao-normativa-no-19-de-25-06-2014-alteracao-de-artigos-da-in57-2013.pdf)</item>
+            <item id="453">[INSTRUÇÃO NORMATIVA No - 41, DE 29 DE OUTUBRO DE 2015](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/IN412015.pdf)</item>
+            <item id="454">[DECRETO Nº 5.741, DE 30 DE MARÇO DE 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>solicitar-arquitetura-e-urbanismo-5</id>
         <dbId>728</dbId>
         <nome>Solicitar Arquitetura e Urbanismo 5</nome>
@@ -30283,7 +30517,7 @@ Email - incentivo.viagens@turismo.gov.br</contato>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -30732,7 +30966,7 @@ Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
@@ -30916,7 +31150,7 @@ o com voçes...obrigado</descricao>
             <descricao></descricao>
         </validade-documento>
         <etapas/>
-        <orgao dbId="58050">
+        <orgao id="" dbId="58050">
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <areas-de-interesse>
@@ -31162,6 +31396,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                             <descricao>Sem custo</descricao>
                             <moeda>R$</moeda>
                             <valor>100,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                     <caso id="334" descricao="Caso X">
@@ -31169,6 +31404,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                             <descricao>teste</descricao>
                             <moeda>R$</moeda>
                             <valor>1,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </caso>
                 </custos>
@@ -31264,6 +31500,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                             <descricao>Pagamento de taxa</descricao>
                             <moeda>R$</moeda>
                             <valor>8,500</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
                         </custo>
                     </default>
                 </custos>
@@ -31425,65 +31662,6 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </palavras-chave>
     </servico>
     <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT</nome>
-        <sigla>MTco gjhj</sigla>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="462">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="1" unidade="horas"/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1502">
-                <titulo>asdasdasda</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1805">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1806">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1349">a</item>
-            <item id="1350">a</item>
-            <item id="1351">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="423">a</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>teste-painel-2</id>
         <dbId>774</dbId>
         <nome>Teste Painel 2</nome>
@@ -31544,6 +31722,207 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </palavras-chave>
     </servico>
     <servico>
+        <id>servico-publicacao-github</id>
+        <dbId>684</dbId>
+        <nome>Serviço publicação Github</nome>
+        <sigla>SPG</sigla>
+        <nomes-populares>
+            <item id="619">github</item>
+            <item id="620">teste</item>
+            <item id="621">Spiderman</item>
+        </nomes-populares>
+        <descricao>hgjkhgjkhfjdhgjbvmnvcb,vncmbnm.,v cnbnvcm,n mdskflçdskflçk sdlçfldçfsk lçkds.,cv.;c,v.;,c.;v,.;czx,v .;cx.;vb,. vcmb,.vmcxb,xc vbm,nxvc,bdfjksgjkhfjghjf kdhgjfhdgjkh fkhgjkafhjhioeurioe wuqriouewioq ruioeqwurioeuwp rioueiowurioe wuirouewqio urioqeuwrikld sjklsdjfkljfkgjk lfjaklgjklfjgklajd</descricao>
+        <contato>Contato</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="370">
+                <tipo>Solicitante 1</tipo>
+                <requisitos>jdhjghjkahgjhjfghjkfdhgjhjfkhgjkhj fkdhgjkhfasjkghjkafhgjf jksfhgjkashfg</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>dias</unidade>
+            <descricao>hfsajkhjghjfh xcjnvm,xcbnm,nx jfklfghjkhfjghjklfdhjkgfhdjk</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1333">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="48">
+                            <descricao>Custo</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1790" tipo="e-mail">
+                            <descricao>email@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1675">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1676">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Alimento</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+            <item>Alimento</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1048">Gihut</item>
+            <item id="1049">Teste</item>
+            <item id="1050">djfhey</item>
+        </palavras-chave>
+    </servico>
+    <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-2</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 2</nome>
+        <sigla>MTco gjhj</sigla>
+        <nomes-populares>
+            <item id="628">Teste</item>
+        </nomes-populares>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="480">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="1" unidade="horas"/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1528">
+                <titulo>asdasdasda</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1828" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1832">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1833">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1411">a</item>
+            <item id="1412">a</item>
+            <item id="1413">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="435">a</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracao-cadastral-no-cnpj</id>
+        <dbId>296</dbId>
+        <nome>Alteração Cadastral no CNPJ</nome>
+        <sigla>endereço</sigla>
+        <descricao>Solicitar alteração no Cadastro Nacional da Pessoa Jurídica, acompanhado do Documento Básico de Entrada (DBE) e demais documentos necessários.</descricao>
+        <contato>Blog informativo com mais informações sobre [CNPJ](http://cartaocnpj.net) para empresas e como consultar o cartão e outras dicas úteis.</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="488">
+                <tipo>dfsf</tipo>
+                <requisitos>dfsdsf</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1537">
+                <titulo>fdsfsdf</titulo>
+                <descricao>sdfsdf</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1188" tipo="web">
+                            <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/ConsulSitCadastralCNPJ.htm</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="" dbId="58050">
+            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1848">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1434">f</item>
+            <item id="1435">f</item>
+            <item id="1436">f</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>declaracoes-simplificadas-de-pessoa-juridica-simples-2008</id>
         <dbId>70</dbId>
         <nome>Declarações Simplificadas de Pessoa Jurídica (Simples 2008)</nome>
@@ -31583,104 +31962,5 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>servico-01122017-novo</id>
-        <dbId>787</dbId>
-        <nome>Serviço 01122017 Novo</nome>
-        <sigla>12</sigla>
-        <nomes-populares>
-            <item id="605">12</item>
-            <item id="606">4</item>
-            <item id="607">1</item>
-        </nomes-populares>
-        <descricao>Nova Descrição</descricao>
-        <contato>Novo COn</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>www.uol.com.br</link-servico-digital>
-        <solicitantes>
-            <solicitante id="479">
-                <tipo>Solictante 1</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <em-media max="10" unidade="horas"/>
-            <descricao>xczcx</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1526">
-                <titulo>Etap 1</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1140">Novo documento</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1836" tipo="e-mail">
-                            <descricao>fsdfdsfdsf</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="335" descricao="Caso Novo">
-                        <canal-de-prestacao id="1835" tipo="fax">
-                            <descricao>Super fax</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1527">
-                <titulo>Eap j</titulo>
-                <descricao>8789798</descricao>
-                <documentos>
-                    <default>
-                        <item id="1141">Novo</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1837" tipo="e-mail">
-                            <descricao>* te
-* y</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1829">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1830">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1831">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Combate a epidemias</item>
-            <item>Combustíveis</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1408">d</item>
-            <item id="1409">s</item>
-            <item id="1410">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="434">sdadasdsad</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>151</item>
-        </servicos-relacionados>
     </servico>
 </servicos>
