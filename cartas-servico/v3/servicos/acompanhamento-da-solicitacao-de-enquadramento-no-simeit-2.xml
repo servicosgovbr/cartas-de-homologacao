@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-2</id>
+    <dbId>192</dbId>
+    <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 2</nome>
+    <sigla>MTco gjhj</sigla>
+    <nomes-populares>
+        <item id="608">Teste</item>
+    </nomes-populares>
+    <descricao>ultimo contracheque</descricao>
+    <contato>visualizar ultimo contracheque</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <tempo-total-estimado>
+        <entre min="1" max="1" unidade="horas"/>
+        <descricao>a</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <areas-de-interesse>
+        <item>Economia e Finanças</item>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+</servico>
