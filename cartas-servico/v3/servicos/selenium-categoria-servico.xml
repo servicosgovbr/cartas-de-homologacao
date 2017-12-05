@@ -4,19 +4,12 @@
     <dbId>617</dbId>
     <nome>Selenium categoria serviço</nome>
     <sigla>hfhghg sgs 213</sigla>
-    <nomes-populares>
-        <item id="452">Acesso aos documentos do Acervo do Arquivo Legal</item>
-    </nomes-populares>
-    <descricao>23</descricao>
+    <descricao>23 teste descrição.</descricao>
     <contato>dfsfsdfdsfdsf</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <solicitantes>
-        <solicitante id="340">
-            <tipo>dsasdda</tipo>
-            <requisitos></requisitos>
-        </solicitante>
-    </solicitantes>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
     <tempo-total-estimado>
         <atendimento-imediato/>
         <descricao></descricao>
@@ -24,43 +17,12 @@
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas>
-        <etapa id="1302">
-            <titulo>dsadasd</titulo>
-            <descricao></descricao>
-            <documentos>
-                <default>
-                    <item id="1018">dsada</item>
-                </default>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="1760" tipo="fax">
-                        <descricao>sdsadasdsda</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
         <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
     </orgao>
-    <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1648">Cidadãos</item>
-    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
         <item>Agropecuária</item>
     </areas-de-interesse>
-    <palavras-chave>
-        <item id="983">sadadsad</item>
-        <item id="984">sdadssad</item>
-        <item id="985">sdadsadsadsa</item>
-    </palavras-chave>
-    <legislacoes>
-        <item id="324">sdsadsadsadas</item>
-    </legislacoes>
 </servico>
