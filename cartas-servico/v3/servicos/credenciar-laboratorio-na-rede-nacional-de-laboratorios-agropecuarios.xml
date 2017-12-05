@@ -4,6 +4,9 @@
     <dbId>794</dbId>
     <nome>Credenciar Laboratório na Rede Nacional de Laboratórios Agropecuários</nome>
     <sigla>LANAGRO</sigla>
+    <nomes-populares>
+        <item id="632">Rede MAPA de laboratórios</item>
+    </nomes-populares>
     <descricao>O credenciamento de laboratórios junto ao MAPA se destina a atender, de forma complementar,  aos programas e controles oficias do MAPA, suprindo demandas por ensaios laboratoriais excedentes, não atendidas pelos laboratórios do próprio MAPA.</descricao>
     <contato>¨ **Telefone:** (61) 3218-2041      
 ¨ **Email:** credenciamento.cgal@agricultura.gov.br</contato>
@@ -11,6 +14,12 @@
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="492">
+            <tipo>Laboratórios</tipo>
+            <requisitos>Públicos ou privados, que realizam ensaios laboratoriais para os programas e controles oficiais do MAPA.</requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="3" unidade="meses"/>
         <descricao></descricao>
@@ -18,12 +27,127 @@
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1545">
+            <titulo>Requerer credenciamento</titulo>
+            <descricao>Os modelos dos formulários, relações e termos podem ser obtidos [aqui](http://www.agricultura.gov.br/assuntos/laboratorios/credenciamento).</descricao>
+            <documentos>
+                <default>
+                    <item id="1173">Formulário de solicitação de credenciamento, preenchido e assinado pelo representante legal do laboratório</item>
+                    <item id="1174">Cópia do contrato social do laboratório ou documento equivalente, válido e atualizado</item>
+                    <item id="1175">Cópia do Cadastro Nacional de Pessoa Jurídica – CNPJ do laboratório, válido e atualizado</item>
+                    <item id="1176">Cópia do alvará de funcionamento do laboratório ou documento equivalente, expedido pelo órgão competente, válido e atualizado</item>
+                    <item id="1177">Croqui das instalações do laboratório, assinado por profissional com registro válido junto ao Conselho Regional de Engenharia e Agronomia - CREA, indicando a finalidade de cada ambiente</item>
+                    <item id="1178">Memorial descritivo das instalações do laboratório, assinado por profissional com registro válido junto ao CREA</item>
+                    <item id="1179">Descrição do fluxo das amostras no laboratório, indicando as áreas percorridas desde a sua recepção até a finalização dos ensaios, seu armazenamento e descarte</item>
+                    <item id="1180">Relação de equipamentos, indicando marca, modelo e código de identificação no laboratório</item>
+                    <item id="1181">Termo de compromisso com o credenciamento, assinado pelo representante legal do laboratório, com firma reconhecida em cartório</item>
+                    <item id="1182">Termo de compromisso de responsabilidade técnica, de cada um dos responsáveis técnicos e dos responsáveis técnicos substitutos, com firma reconhecida em cartório</item>
+                    <item id="1183">Cópia da carteira de habilitação profissional, válida e atualizada, emitida pelo respectivo conselho de classe, de cada um dos Responsáveis Técnicos e dos Responsáveis Técnicos Substitutos</item>
+                    <item id="1184">Cópia da lista mestra de documentos do Sistema de Gestão da Qualidade do laboratório</item>
+                    <item id="1185">Cópias do certificado e do escopo de acreditação na ABNT NBR ISO/IEC 17025 – Requisitos Gerais para a Competência de Laboratórios de Ensaio e Calibração, emitidos pelo INMETRO, contemplando os ensaios constantes na solicitação de credenciamento</item>
+                    <item id="1186">Indicação deum de seus representantes legais, denominado Responsável pela Direção do Laboratório no âmbito do credenciamento junto ao MAPA, que será responsável pela interlocução entre o laboratório e a CGAL/SDA.</item>
+                    <item id="1187">Nomeação formal de um profissional de nível superior, do seu quadro efetivo de funcionários, que será o Responsável pelo Sistema de Gestão da Qualidade no âmbito do credenciamento junto ao MAPA</item>
+                </default>
+                <caso id="339" descricao="Para cada ensaio a ser credenciado, deverão ser informados:">
+                    <documento>
+                        <id>1167</id>
+                        <descricao>A referência bibliográfica do método, quando pertinente</descricao>
+                    </documento>
+                    <documento>
+                        <id>1168</id>
+                        <descricao>Determinação analítica a ser obtida</descricao>
+                    </documento>
+                    <documento>
+                        <id>1169</id>
+                        <descricao>Técnica aplicada na realização do ensaio</descricao>
+                    </documento>
+                    <documento>
+                        <id>1170</id>
+                        <descricao>Código do procedimento referente à execução do método no laboratório, com o seu respectivo número de revisão</descricao>
+                    </documento>
+                    <documento>
+                        <id>1171</id>
+                        <descricao>Matriz à qual o método será aplicado</descricao>
+                    </documento>
+                    <documento>
+                        <id>1172</id>
+                        <descricao>A espécie, a cultura ou o hospedeiro, quando pertinente</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1848" tipo="presencial">
+                        <descricao>**Ministério da Agricultura, Pecuária e Abastecimento - Coordenação-Geral de Apoio Laboratorial - CGAL/SDA** - Esplanada dos Ministérios Bloco D Anexo B - Sala 433 - Brasília/DF - CEP 70043-900</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1847" tipo="postal">
+                        <descricao>**Ministério da Agricultura, Pecuária e Abastecimento - Coordenação-Geral de Apoio Laboratorial - CGAL/SDA** - Esplanada dos Ministérios Bloco D Anexo B - Sala 433 - Brasília/DF - CEP 70043-900</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1546">
+            <titulo>Receber resultado</titulo>
+            <descricao>O credenciamento do laboratório será publicado no Diário Oficial da União</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1849" tipo="web">
+                        <descricao>http://portal.imprensanacional.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1547">
+            <titulo>Ser autorizado a realizar ensaios</titulo>
+            <descricao>O laboratório credenciado somente poderá realizar ensaios para os programas e
+controles oficiais do MAPA após ter seus dados e escopo publicados no sítio eletrônico do MAPA</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1850" tipo="web">
+                        <descricao>http://www.agricultura.gov.br/assuntos/laboratorios/rede-nacional-de-laboratorios-agropecuarios/rede-nacional-de-laboratorios-agropecuarios</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="1854">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="1855">Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="1448">laboratórios</item>
+        <item id="1449">LANAGRO</item>
+        <item id="1450">ensaio laboratorial</item>
+        <item id="1451">laboratório agropecuário</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="450">[DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC 8.471-2015?OpenDocument)</item>
+        <item id="451">[INSTRUÇÃO NORMATIVA No 57, DE 11 DE DEZEMBRO DE 2013](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/InstruoNormativan57de11.12.2013versoPDFdowordNovaRedaoNRsegundoIN19e41.pdf)</item>
+        <item id="452">[INSTRUÇÃO NORMATIVA Nº 19, DE 25 DE JUNHO DE 2014](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/instrucao-normativa-no-19-de-25-06-2014-alteracao-de-artigos-da-in57-2013.pdf)</item>
+        <item id="453">[INSTRUÇÃO NORMATIVA No - 41, DE 29 DE OUTUBRO DE 2015](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/IN412015.pdf)</item>
+        <item id="454">[DECRETO Nº 5.741, DE 30 DE MARÇO DE 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)</item>
+    </legislacoes>
 </servico>
