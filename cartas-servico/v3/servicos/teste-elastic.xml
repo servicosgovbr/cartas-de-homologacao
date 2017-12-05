@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-elastic</id>
+    <dbId>793</dbId>
+    <nome>Teste Elastic</nome>
+    <sigla>sahfjkhsjk</sigla>
+    <nomes-populares>
+        <item id="629">jhdafjkhasjkfh</item>
+    </nomes-populares>
+    <descricao>sdaadsadsad</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="489">
+            <tipo>dssad</tipo>
+            <requisitos>sdsd</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="1" max="2" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1538">
+            <titulo>dsad</titulo>
+            <descricao>dsad</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1842" tipo="fax">
+                        <descricao>sdadasdsad</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1849">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Água</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1437">W</item>
+        <item id="1438">W</item>
+        <item id="1439">W</item>
+    </palavras-chave>
+</servico>
