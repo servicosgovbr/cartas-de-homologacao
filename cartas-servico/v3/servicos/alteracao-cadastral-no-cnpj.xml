@@ -1,40 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>alteracao-cadastral-no-cnpj</id>
+    <dbId>296</dbId>
     <nome>Alteração Cadastral no CNPJ</nome>
-    <sigla/>
-    <nomes-populares/>
+    <sigla>endereço</sigla>
     <descricao>Solicitar alteração no Cadastro Nacional da Pessoa Jurídica, acompanhado do Documento Básico de Entrada (DBE) e demais documentos necessários.</descricao>
-    <gratuito/>
-    <solicitantes/>
+    <contato>Blog informativo com mais informações sobre [CNPJ](http://cartaocnpj.net) para empresas e como consultar o cartão e outras dicas úteis.</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="487">
+            <tipo>dfsf</tipo>
+            <requisitos>dfsdsf</requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <atendimento-imediato/>
+        <descricao></descricao>
     </tempo-total-estimado>
-    <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao tipo="web">
-                        <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/ConsulSitCadastralCNPJ.htm</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77"/>
-    <segmentos-da-sociedade>
-        <item>Empresas</item>
-    </segmentos-da-sociedade>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="" dbId="58050">
+        <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+    </orgao>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="1431">f</item>
+        <item id="1432">f</item>
+        <item id="1433">f</item>
+    </palavras-chave>
 </servico>
