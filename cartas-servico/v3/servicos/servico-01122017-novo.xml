@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-01122017-novo</id>
+    <dbId>787</dbId>
+    <nome>Serviço 01122017 Novo</nome>
+    <sigla>12</sigla>
+    <descricao>Nova Descrição</descricao>
+    <contato>Novo COn</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>www.uol.com.br</link-servico-digital>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="horas"/>
+        <descricao>xczcx</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <areas-de-interesse>
+        <item>Combate a epidemias</item>
+        <item>Combustíveis</item>
+    </areas-de-interesse>
+    <servicos-relacionados>
+        <item>151</item>
+    </servicos-relacionados>
+</servico>
