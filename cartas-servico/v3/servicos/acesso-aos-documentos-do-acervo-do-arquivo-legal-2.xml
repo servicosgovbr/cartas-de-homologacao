@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <id>acesso-aos-documentos-do-acervo-do-arquivo-legal-3</id>
+    <id>acesso-aos-documentos-do-acervo-do-arquivo-legal-2</id>
     <dbId>5</dbId>
-    <nome>Acesso aos documentos do Acervo do Arquivo Legal 3</nome>
+    <nome>Acesso aos documentos do Acervo do Arquivo Legal 2</nome>
     <sigla>SPED</sigla>
+    <nomes-populares>
+        <item id="633">SPED CONTRIBUIÇÕES 123</item>
+    </nomes-populares>
     <descricao>Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
 
 Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requisita e examina os documentos de seu interesse, sejam os manuscritos, os filmes, as fitas audiomagnéticas, as fotografias, os mapas e plantas ou os livros, periódicos, folh</descricao>
@@ -12,19 +15,61 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>www.uol.com.br</link-servico-digital>
+    <solicitantes>
+        <solicitante id="493">
+            <tipo>Empresas</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <ate max="23" unidade="horas"/>
+        <atendimento-imediato/>
         <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1548">
+            <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1680" tipo="e-mail">
+                        <descricao>Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1679" tipo="telefone">
+                        <descricao>Para atendimento a distância: (21) 2179-1257</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1678" tipo="e-mail">
+                        <descricao>Para atendimento a distância - consultas@arquivonacional.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1677" tipo="web">
+                        <descricao>http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&amp;sid=8</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
         <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1856">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1857">Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Proteção Social</item>
         <item>Serviços Públicos</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="1452">sd</item>
+        <item id="1453">ads</item>
+        <item id="1454">ads</item>
+    </palavras-chave>
 </servico>
