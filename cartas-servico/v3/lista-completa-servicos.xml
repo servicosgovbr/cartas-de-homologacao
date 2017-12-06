@@ -341,80 +341,6 @@ Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</de
         </legislacoes>
     </servico>
     <servico>
-        <id>acesso-aos-documentos-do-acervo-do-arquivo-legal-2</id>
-        <dbId>5</dbId>
-        <nome>Acesso aos documentos do Acervo do Arquivo Legal 2</nome>
-        <sigla>SPED</sigla>
-        <nomes-populares>
-            <item id="604">SPED CONTRIBUIÇÕES 123</item>
-        </nomes-populares>
-        <descricao>Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
-
-Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requisita e examina os documentos de seu interesse, sejam os manuscritos, os filmes, as fitas audiomagnéticas, as fotografias, os mapas e plantas ou os livros, periódicos, folh</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>www.uol.com.br</link-servico-digital>
-        <solicitantes>
-            <solicitante id="478">
-                <tipo>Empresas</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="23" unidade="horas"/>
-            <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1525">
-                <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1680" tipo="e-mail">
-                            <descricao>Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1679" tipo="telefone">
-                            <descricao>Para atendimento a distância: (21) 2179-1257</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1678" tipo="e-mail">
-                            <descricao>Para atendimento a distância - consultas@arquivonacional.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1677" tipo="web">
-                            <descricao>http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&amp;sid=8</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
-            <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1827">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1828">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Proteção Social</item>
-            <item>Serviços Públicos</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1405">sd</item>
-            <item id="1406">ads</item>
-            <item id="1407">ads</item>
-        </palavras-chave>
-    </servico>
-    <servico>
         <id>cadastrar-se-no-sicaf</id>
         <dbId>2</dbId>
         <nome>Cadastrar-se no SICAF</nome>
@@ -30807,92 +30733,6 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
         </legislacoes>
     </servico>
     <servico>
-        <id>alteracoes-de-pos-outorga</id>
-        <dbId>9</dbId>
-        <nome>Alterações de Pós-Outorga</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="529">Atos de Pós-Outorga</item>
-        </nomes-populares>
-        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="407">
-                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1406">
-                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1704" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1740">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1741">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1742">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1183">Renovação</item>
-            <item id="1184">Transferência de Outorga</item>
-            <item id="1185">Alteração de Quadro Societário</item>
-            <item id="1186">Pós-Outorga</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="390">Alterações contratuais
-
-Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-            <item id="388">Geral
-
-Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="389">Renovação/ revisão de outorga
-
-Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>492</item>
-            <item>462</item>
-        </servicos-relacionados>
-    </servico>
-    <servico>
         <id>solicitar-arquitetura-e-urbanismo-3</id>
         <dbId>726</dbId>
         <nome>Solicitar Arquitetura e Urbanismo 3</nome>
@@ -31799,72 +31639,6 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </palavras-chave>
     </servico>
     <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-2</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 2</nome>
-        <sigla>MTco gjhj</sigla>
-        <nomes-populares>
-            <item id="628">Teste</item>
-        </nomes-populares>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="480">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="1" unidade="horas"/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1528">
-                <titulo>asdasdasda</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1828" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1832">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1833">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1411">a</item>
-            <item id="1412">a</item>
-            <item id="1413">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="435">a</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>alteracao-cadastral-no-cnpj</id>
         <dbId>296</dbId>
         <nome>Alteração Cadastral no CNPJ</nome>
@@ -31962,5 +31736,239 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>acesso-aos-documentos-do-acervo-do-arquivo-legal-2</id>
+        <dbId>5</dbId>
+        <nome>Acesso aos documentos do Acervo do Arquivo Legal 2</nome>
+        <sigla>SPED</sigla>
+        <nomes-populares>
+            <item id="633">SPED CONTRIBUIÇÕES 123</item>
+        </nomes-populares>
+        <descricao>Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
+
+Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requisita e examina os documentos de seu interesse, sejam os manuscritos, os filmes, as fitas audiomagnéticas, as fotografias, os mapas e plantas ou os livros, periódicos, folh</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="493">
+                <tipo>Empresas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1548">
+                <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1680" tipo="e-mail">
+                            <descricao>Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1679" tipo="telefone">
+                            <descricao>Para atendimento a distância: (21) 2179-1257</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1678" tipo="e-mail">
+                            <descricao>Para atendimento a distância - consultas@arquivonacional.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1677" tipo="web">
+                            <descricao>http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&amp;sid=8</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
+            <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1856">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1857">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Proteção Social</item>
+            <item>Serviços Públicos</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1452">sd</item>
+            <item id="1453">ads</item>
+            <item id="1454">ads</item>
+        </palavras-chave>
+    </servico>
+    <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-2</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 2</nome>
+        <sigla>MTco gjhj</sigla>
+        <nomes-populares>
+            <item id="635">Teste</item>
+        </nomes-populares>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="495">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1550">
+                <titulo>asdasdasda</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1828" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1860">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1861">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1458">a</item>
+            <item id="1459">a</item>
+            <item id="1460">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="456">a</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracoes-de-pos-outorga</id>
+        <dbId>9</dbId>
+        <nome>Alterações de Pós-Outorga</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="636">Atos de Pós-Outorga</item>
+        </nomes-populares>
+        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="496">
+                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1551">
+                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="100">
+                            <descricao></descricao>
+                            <moeda>R$</moeda>
+                            <valor>2,100</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1704" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1862">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1863">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1864">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1462">Transferência de Outorga</item>
+            <item id="1463">Alteração de Quadro Societário</item>
+            <item id="1464">Pós-Outorga</item>
+            <item id="1461">Renovação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="457">Alterações contratuais
+
+Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
+            <item id="458">Geral
+
+Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
+            <item id="459">Renovação/ revisão de outorga
+
+Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>492</item>
+            <item>462</item>
+        </servicos-relacionados>
     </servico>
 </servicos>
