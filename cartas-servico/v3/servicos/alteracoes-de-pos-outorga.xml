@@ -5,7 +5,7 @@
     <nome>Alterações de Pós-Outorga</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="636">Atos de Pós-Outorga</item>
+        <item id="640">Atos de Pós-Outorga</item>
     </nomes-populares>
     <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
     <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
@@ -21,7 +21,7 @@ Telefone: (61) 2027-6000</contato>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="496">
+        <solicitante id="502">
             <tipo>Detentores de Outorgas de Radiodifusão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -34,11 +34,13 @@ Telefone: (61) 2027-6000</contato>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1551">
+        <etapa id="1562">
             <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
             <descricao></descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
+                </default>
             </documentos>
             <custos>
                 <default>
@@ -64,27 +66,27 @@ Telefone: (61) 2027-6000</contato>
         <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="1862">Órgãos e entidades públicas</item>
-        <item idSegmento="3" idServicoSegmento="1863">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="1864">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comunicações</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1462">Transferência de Outorga</item>
-        <item id="1463">Alteração de Quadro Societário</item>
-        <item id="1464">Pós-Outorga</item>
-        <item id="1461">Renovação</item>
+        <item id="1483">Transferência de Outorga</item>
+        <item id="1484">Alteração de Quadro Societário</item>
+        <item id="1485">Pós-Outorga</item>
+        <item id="1486">Renovação</item>
     </palavras-chave>
     <legislacoes>
-        <item id="457">Alterações contratuais
+        <item id="468">Alterações contratuais
 
 Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-        <item id="458">Geral
+        <item id="469">Geral
 
 Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-        <item id="459">Renovação/ revisão de outorga
+        <item id="470">Renovação/ revisão de outorga
 
 Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
     </legislacoes>
