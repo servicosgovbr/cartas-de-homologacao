@@ -4,12 +4,27 @@
     <dbId>753</dbId>
     <nome>Obter CNH</nome>
     <sigla>CNH</sigla>
+    <nomes-populares>
+        <item id="637">Carta de Motorista</item>
+        <item id="638">Carteira de Habilitação</item>
+        <item id="639">Carta de condutor automotivo</item>
+    </nomes-populares>
     <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteria de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
     <contato>0800-123456</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="497">
+            <tipo>Habilitação na categoria C, D ou E</tipo>
+            <requisitos>O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).</requisitos>
+        </solicitante>
+        <solicitante id="498">
+            <tipo>Habilitação na categoria A, B ou AB</tipo>
+            <requisitos>Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.</requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <entre min="2" max="6" unidade="meses"/>
         <descricao>Há vários fatores que influenciam no tempo para aquisição da CNH, tais como:
@@ -23,13 +38,62 @@
         <unidade>anos</unidade>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1552">
+            <titulo>Agendar atendimento no Detran</titulo>
+            <descricao>O agendamento por telefone deverá ser realizado no período de 8h às 18h, de segunda à sexta.</descricao>
+            <documentos>
+                <default>
+                    <item id="1136">Carteira de Identidade</item>
+                    <item id="1137">Comprovante de residência</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="97">
+                        <descricao>Pagamento de taxa</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>10 x Renda</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+                <caso id="341" descricao="Caso seja tres">
+                    <custo id="102">
+                        <descricao>Custo Novo</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1826" tipo="web-agendar">
+                        <descricao>http://www.detran.df.gov.br/agendamento.html</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
         <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1865">Cidadãos</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transportes</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="1465">carta</item>
+        <item id="1466">carteira</item>
+        <item id="1467">condutor</item>
+        <item id="1468">habilitação</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="460">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
+    </legislacoes>
     <servicos-relacionados>
         <item>496</item>
     </servicos-relacionados>
