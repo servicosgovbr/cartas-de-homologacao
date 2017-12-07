@@ -1,20 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastro-de-senha-para-auto-atendimento-previdenciario</id>
+    <dbId>131</dbId>
     <nome>Cadastro De Senha Para Auto Atendimento Previdenciário</nome>
-    <sigla/>
-    <nomes-populares/>
+    <sigla></sigla>
     <descricao>Cadastrar senha que permite, por meio da internet, consultar dados básicos do cadastro, ao extrato de
         contribuições, verificação da regularidade das contribuições previdenciárias e emissão de certidão com
         finalidade de baixa no cadastro previdenciário.</descricao>
-    <gratuito/>
-    <solicitantes/>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="514">
+            <tipo>sads</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <atendimento-imediato/>
+        <descricao></descricao>
     </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
+        <etapa id="1592">
+            <titulo>dsadsad</titulo>
+            <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -23,21 +37,26 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="909" tipo="web">
                         <descricao>http://www010.dataprev.gov.br/cws/contexto/cndfisco/cndfisco.html</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219925" dbId="58048">
+        <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
-        <item>Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1876">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1877">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="1535">s</item>
+        <item id="1536">s</item>
+        <item id="1537">s</item>
+    </palavras-chave>
 </servico>
