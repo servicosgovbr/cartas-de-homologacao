@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-publicacao-github-2</id>
+    <dbId>684</dbId>
+    <nome>Serviço publicação Github 2</nome>
+    <sigla>SPG</sigla>
+    <nomes-populares>
+        <item id="641">github</item>
+        <item id="642">teste</item>
+        <item id="643">Spiderman</item>
+    </nomes-populares>
+    <descricao>hgjkhgjkhfjdhgjbvmnvcb,vncmbnm.,v cnbnvcm,n mdskflçdskflçk sdlçfldçfsk lçkds.,cv.;c,v.;,c.;v,.;czx,v .;cx.;vb,. vcmb,.vmcxb,xc vbm,nxvc,bdfjksgjkhfjghjf kdhgjfhdgjkh fkhgjkafhjhioeurioe wuqriouewioq ruioeqwurioeuwp rioueiowurioe wuirouewqio urioqeuwrikld sjklsdjfkljfkgjk lfjaklgjklfjgklajd</descricao>
+    <contato>Contato</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.uol.com.br</link-servico-digital>
+    <solicitantes>
+        <solicitante id="520">
+            <tipo>Solicitante 1</tipo>
+            <requisitos>jdhjghjkahgjhjfghjkfdhgjhjfkhgjkhj fkdhgjkhfasjkghjkafhgjf jksfhgjkashfg</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>dias</unidade>
+        <descricao>hfsajkhjghjfh xcjnvm,xcbnm,nx jfklfghjkhfjghjklfdhjkgfhdjk</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1609">
+            <titulo>Etapa 1</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="104">
+                        <descricao>Custo</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1,000</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1852" tipo="e-mail">
+                        <descricao>email@email.com</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1882">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1883">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Alimento</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Alimento</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1553">Gihut</item>
+        <item id="1554">Teste</item>
+        <item id="1555">djfhey</item>
+    </palavras-chave>
+</servico>
