@@ -10,24 +10,24 @@
 [Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur)       
 Coordenação-Geral de Cadastramento e Fiscalização (MTur)                
 E-mail: snptur.ouvidoria@turismo.gov.br / 0800-2008484 (opção 04 - Cadastur)</contato>
-    <gratuito>true</gratuito>
+    <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="504">
+        <solicitante id="507">
             <tipo>Meios de Hospedagem, Acampamentos Turísticos (Campings), Organizadoras de Eventos, Transportadoras Turísticas e Parques Temáticos</tipo>
             <requisitos>O solicitante deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. 
 Deve ainda possuir registro no Cadastro Nacional de Pessoa Jurídica (CNPJ) da Receita Federal em atividades econômicas (CNAEs) conforme a definição na Lei do Turismo nº 11.771/2008. 
 [Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
         </solicitante>
-        <solicitante id="505">
+        <solicitante id="508">
             <tipo>Agências de Turismo</tipo>
             <requisitos>O solicitante deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. 
 O Objeto do Contrato Social deve estar em conformidade com a definição de Agências de Turismo na Lei nº 12.974/2014 e o CNPJ possuir atividades econômicas (CNAEs) de acordo com o objeto social e 
 [Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
         </solicitante>
-        <solicitante id="506">
+        <solicitante id="509">
             <tipo>Outros Prestadores de Serviços Turísticos (cadastro opcional)</tipo>
             <requisitos>Deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. Deve possuir CNPJ com CNAEs de atividades relacionadas na Lei do Turismo: restaurantes, bares e similares; centros de convenções; parques aquáticos; apoio ao turismo náutico; casas de espetáculos; infraestrutura para eventos; locadoras de veículos; e especializados em segmentos turísticos. [Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
         </solicitante>
@@ -42,7 +42,7 @@ O Objeto do Contrato Social deve estar em conformidade com a definição de Agê
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1565">
+        <etapa id="1574">
             <titulo>Criar um "novo usuário"</titulo>
             <descricao>Se o prestador nunca foi cadastrado no Cadastur, é necessário criar um “novo usuário” no sistema no sítio do [Cadastur](www.cadastur.turismo.gov.br).
 Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado o login e a senha para acessar o Sistema Cadastur.</descricao>
@@ -53,7 +53,14 @@ Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado
                 </default>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="103">
+                        <descricao>Custo</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>10 Reais X 4</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
                 <default>
@@ -67,7 +74,7 @@ Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1566">
+        <etapa id="1575">
             <titulo>Acessar o sistema Cadastur</titulo>
             <descricao>Acessar a página inicial do site do Cadastur e digitar nos campos indicados o login e senha recebidos. O solicitante deverá mudar a senha. 
 A tela seguinte apresentará o "Ambiente de Negócios" do prestador, onde se encontra o botão “meu cadastro”. Para iniciar o cadastramento é necessário clicar nessa opção.</descricao>
@@ -85,7 +92,7 @@ A tela seguinte apresentará o "Ambiente de Negócios" do prestador, onde se enc
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1567">
+        <etapa id="1576">
             <titulo>Preencher o formulário eletrônico de cadastro (Dados Institucionais)</titulo>
             <descricao>Na próxima tela aparecerá o formulário eletrônico de cadastro. Ao lado de cada campo do formulário há um ponto de exclamação que, ao ser clicado, exibe as informações de preenchimento. 
 Atenção: preencher somente com dados pertencentes ao estabelecimento, e não  com dados do contador.
@@ -108,7 +115,7 @@ Após preencher todos os campos solicitados clicar no botão “salvar” para r
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1568">
+        <etapa id="1577">
             <titulo>Preencher formulário eletrônico de cadastro (Dados da atividade)</titulo>
             <descricao>Após preencher e salvar os dados institucionais, o solicitante deverá completar as informações na aba "Atividades", que se tratam de características físicas e serviços oferecidos pela empresa.</descricao>
             <documentos>
@@ -125,7 +132,7 @@ Após preencher todos os campos solicitados clicar no botão “salvar” para r
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1569">
+        <etapa id="1578">
             <titulo>Imprimir e preencher documentos obrigatórios</titulo>
             <descricao>Ao final do preenchimento de todas as abas e campos obrigatórios do formulário eletrônico, deverá ser impresso e preenchido o Requerimento e o Termo de Responsabilidade disponibilizados. Esses documentos deverão ser entregues ao órgão estadual de turismo responsável pelo Cadastur juntamente com outros necessários.</descricao>
             <documentos>
@@ -142,7 +149,7 @@ Após preencher todos os campos solicitados clicar no botão “salvar” para r
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1570">
+        <etapa id="1579">
             <titulo>Encaminhar a documentação obrigatória</titulo>
             <descricao>Junto com o Requerimento e o Termo de Responsabilidade, encaminhar a documentação obrigatória. Os documentos podem ser entregues pessoalmente  ou de forma remota (e-mail, Correios). O solicitante deverá entrar em contato com o órgão responsável para verificar os meios disponíveis.</descricao>
             <documentos>
@@ -182,16 +189,16 @@ Após preencher todos os campos solicitados clicar no botão “salvar” para r
                 </caso>
                 <caso id="61" descricao="Agências de Turismo com frota e Transportadoras Turísticas">
                     <documento>
+                        <id>211</id>
+                        <descricao>Veículos alugados, agregados/arrendados, é permitido o cadastro, desde que haja comprovação do vínculo do prestador de serviço com o proprietário do veículo.</descricao>
+                    </documento>
+                    <documento>
                         <id>209</id>
                         <descricao>Veículos terrestres: cópia do Certificado de Registro e Licenciamento do Veículo (CRLV) válido, de todos os veículos (automóvel, micro-ônibus, ônibus ou utilitário).</descricao>
                     </documento>
                     <documento>
                         <id>210</id>
                         <descricao>Embarcações/veículos aquáticos: Título de Inscrição da Embarcação Normal (TIE) ou Miúda (TIEM) válido, de todas as embarcações</descricao>
-                    </documento>
-                    <documento>
-                        <id>211</id>
-                        <descricao>Veículos alugados, agregados/arrendados, é permitido o cadastro, desde que haja comprovação do vínculo do prestador de serviço com o proprietário do veículo.</descricao>
                     </documento>
                 </caso>
             </documentos>
@@ -210,7 +217,7 @@ Após preencher todos os campos solicitados clicar no botão “salvar” para r
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1571">
+        <etapa id="1580">
             <titulo>Homologação do cadastro e disponibilização do certificado</titulo>
             <descricao>A homologação do requerimento de cadastro e consequente emissão do certificado serão realizadas após a análise e aprovação da documentação exigida. O requerente terá 30 dias para entregar essa documentação. No caso de não cumprimento do prazo acima estipulado, será necessário proceder a novo requerimento de cadastro. O cadastro é válido por dois anos.</descricao>
             <documentos>
@@ -227,7 +234,7 @@ Após preencher todos os campos solicitados clicar no botão “salvar” para r
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1572">
+        <etapa id="1581">
             <titulo>Renovação de cadastro</titulo>
             <descricao>Em função de readequação do sistema, a renovação online de cadastro está suspensa, sendo somente possível por meio de solicitação em formulário impresso. 
 Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo na UF. O prestador terá 30 dias para entregar a documentação exigida. A renovação do cadastro deverá ser solicitada a partir de 90 dias antes do término da validade do certificado.</descricao>
@@ -252,7 +259,7 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1573">
+        <etapa id="1582">
             <titulo>Alteração de Cadastro</titulo>
             <descricao>Em função de readequação do sistema, a alteração de cadastro online está suspensa, sendo somente possível por meio de solicitação junto ao órgão delegado de turismo na UF.</descricao>
             <documentos>
@@ -277,7 +284,7 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1873">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1874">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
@@ -285,35 +292,35 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         <item>Lazer</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1490">Cadastur</item>
-        <item id="1491">Cadastro Ministério do Turismo</item>
-        <item id="1492">Cadastro Embratur</item>
-        <item id="1493">Cadastro de prestadores de serviços turístico</item>
-        <item id="1494">Meios de Hospedagem</item>
-        <item id="1495">Hotel</item>
-        <item id="1496">Agência de Turismo</item>
-        <item id="1497">Agência de Viagens</item>
-        <item id="1498">Acampamento Turístico</item>
-        <item id="1499">Transportadora turística</item>
-        <item id="1502">Turismo</item>
-        <item id="1500">Parque temático</item>
-        <item id="1501">Organizadora de eventos</item>
-        <item id="1503">Cadastro turismo</item>
+        <item id="1504">Cadastur</item>
+        <item id="1505">Cadastro Ministério do Turismo</item>
+        <item id="1506">Cadastro Embratur</item>
+        <item id="1507">Cadastro de prestadores de serviços turístico</item>
+        <item id="1508">Meios de Hospedagem</item>
+        <item id="1509">Hotel</item>
+        <item id="1510">Agência de Turismo</item>
+        <item id="1511">Agência de Viagens</item>
+        <item id="1512">Acampamento Turístico</item>
+        <item id="1513">Transportadora turística</item>
+        <item id="1514">Turismo</item>
+        <item id="1515">Parque temático</item>
+        <item id="1516">Organizadora de eventos</item>
+        <item id="1517">Cadastro turismo</item>
     </palavras-chave>
     <legislacoes>
-        <item id="471">Resoluções da ANTT sobre transporte sob regime de fretamento interestadual e internacional: 
+        <item id="478">Resoluções da ANTT sobre transporte sob regime de fretamento interestadual e internacional: 
 &lt;a href="http://www.antt.gov.br/index.php/content/view/40407/Resolucao_n__4777.html"&gt;Resolução ANTT nº 4777/2015&lt;/a&gt;
 &lt;a href="http://www.antt.gov.br/index.php/content/view/45830/Resolucao_n__5017.html"&gt;Resolução ANTT nº 5017/2016&lt;/a&gt;</item>
-        <item id="472">Portaria sobre Transportes Turísticos: &lt;a href="http://www.turismo.gov.br/legislacao/?p=89"&gt;Portaria MTur n° 312/2013&lt;/a&gt;</item>
-        <item id="473">Lei do Turismo:
+        <item id="479">Portaria sobre Transportes Turísticos: &lt;a href="http://www.turismo.gov.br/legislacao/?p=89"&gt;Portaria MTur n° 312/2013&lt;/a&gt;</item>
+        <item id="480">Lei do Turismo:
 &lt;a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11771.htm"&gt;Lei nº 11.771, de 17 de Setembro de 2008&lt;/a&gt;</item>
-        <item id="476">Portaria que regulamenta os procedimentos do cadastro:
+        <item id="481">Portaria que regulamenta os procedimentos do cadastro:
 &lt;a href="http://www.turismo.gov.br/legislacao/?p=135"&gt;Portaria MTur n° 197/2013&lt;/a&gt;</item>
-        <item id="477">Lei das Agências de Turismo: 
+        <item id="482">Lei das Agências de Turismo: 
 &lt;a href="http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2014/Lei/L12974.htm"&gt;Lei nº 12.974/2014&lt;/a&gt;</item>
-        <item id="474">Decreto que regulamenta a Lei do Turismo:
+        <item id="483">Decreto que regulamenta a Lei do Turismo:
 &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2010-12-02;7381"&gt;Decreto nº 7.381, de 2 de Dezembro de 2010&lt;/a&gt;</item>
-        <item id="475">Portaria que institui o cadastro de prestadores de serviços turísticos:
+        <item id="484">Portaria que institui o cadastro de prestadores de serviços turísticos:
 &lt;a href="http://www.turismo.gov.br/legislacao/?p=112"&gt;Portaria MTur nº 130/2011&lt;/a&gt;</item>
     </legislacoes>
 </servico>
