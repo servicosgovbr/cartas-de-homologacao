@@ -7306,11 +7306,7 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
                     <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="946" tipo="web">
-                            <descricao>https://idg.receita.fazenda.gov.br/contato/unidades-de-atendimento/unidades-de-atendimento</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
@@ -10458,48 +10454,6 @@ CAT - Certidão de Autorização para Transferência (CAT).</descricao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1111">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>cadastro-de-instituicoes-financeiras</id>
-        <dbId>227</dbId>
-        <nome>Cadastro de instituições financeiras</nome>
-        <sigla></sigla>
-        <descricao>Mostra todas as instituições financeiras autorizadas a funcionar pelo Banco Central do Brasil, como bancos, cooperativas e administradoras de consórcio. É possível pesquisar pelo nome da instituição ou do conglomerado financeiro ao qual ela pertence. Mostra ainda as tarifas, os administradores, os dados cadastrais e as informações contábeis de cada instituição.</descricao>
-        <gratuito>false</gratuito>
-        <servico-digital>false</servico-digital>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="837">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1008" tipo="web">
-                            <descricao>http://www.bc.gov.br/?IF</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89" dbId="4715">
-            <nomeOrgao>Banco Central do Brasil (BACEN)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1063">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1064">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
@@ -21017,319 +20971,6 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
         </legislacoes>
     </servico>
     <servico>
-        <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-juridica</id>
-        <dbId>459</dbId>
-        <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Jurídica</nome>
-        <sigla>CADASTUR</sigla>
-        <descricao>Cadastro no Ministério do Turismo de pessoas jurídicas que atuam no setor turístico. 
-É obrigatório para Meios de Hospedagem, Agências de Turismo, Transportadoras Turísticas, Organizadoras de Eventos, Parques Temáticos, Acampamentos Turísticos. Válido por 2 anos. Em caráter opcional outras atividades podem ser cadastradas. O cadastro permite ao prestador atuar legalmente, de acordo com a Lei do Turismo, por meio da emissão do Certificado Cadastur, assim como oferece benefícios aos cadastrados.</descricao>
-        <contato>- Órgãos delegados responsáveis pelo Cadastur. 
-[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur)       
-Coordenação-Geral de Cadastramento e Fiscalização (MTur)                
-E-mail: snptur.ouvidoria@turismo.gov.br / 0800-2008484 (opção 04 - Cadastur)</contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="83">
-                <tipo>Meios de Hospedagem, Acampamentos Turísticos (Campings), Organizadoras de Eventos, Transportadoras Turísticas e Parques Temáticos</tipo>
-                <requisitos>O solicitante deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. 
-Deve ainda possuir registro no Cadastro Nacional de Pessoa Jurídica (CNPJ) da Receita Federal em atividades econômicas (CNAEs) conforme a definição na Lei do Turismo nº 11.771/2008. 
-[Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
-            </solicitante>
-            <solicitante id="84">
-                <tipo>Agências de Turismo</tipo>
-                <requisitos>O solicitante deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. 
-O Objeto do Contrato Social deve estar em conformidade com a definição de Agências de Turismo na Lei nº 12.974/2014 e o CNPJ possuir atividades econômicas (CNAEs) de acordo com o objeto social e 
-[Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
-            </solicitante>
-            <solicitante id="85">
-                <tipo>Outros Prestadores de Serviços Turísticos (cadastro opcional)</tipo>
-                <requisitos>Deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. Deve possuir CNPJ com CNAEs de atividades relacionadas na Lei do Turismo: restaurantes, bares e similares; centros de convenções; parques aquáticos; apoio ao turismo náutico; casas de espetáculos; infraestrutura para eventos; locadoras de veículos; e especializados em segmentos turísticos. [Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="60" unidade="dias-corridos"/>
-            <descricao>1. 30 dias: prazo para a entrega, por parte do prestador, da documentação do cadastro ao órgão delegado do Ministério do Turismo.
-
-2. 30 dias seguintes: prazo para o órgão delegado analisar a documentação, homologar o cadastro e gerar o certificado.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="513">
-                <titulo>Criar um "novo usuário"</titulo>
-                <descricao>Se o prestador nunca foi cadastrado no Cadastur, é necessário criar um “novo usuário” no sistema no sítio do [Cadastur](www.cadastur.turismo.gov.br).
-Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado o login e a senha para acessar o Sistema Cadastur.</descricao>
-                <documentos>
-                    <default>
-                        <item id="199">CPF do responsável pelo Cadastur na empresa</item>
-                        <item id="200">Cartão CNPJ da Empresa</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="629" tipo="presencial">
-                            <descricao>Caso o solicitante não possua acesso ao computador/internet, ele poderá contatar o órgão estadual de turismo responsável pelo Cadastur. 
-[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em Lista dos "órgãos delegados".</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="628" tipo="web">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/novoUsuario.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="514">
-                <titulo>Acessar o sistema Cadastur</titulo>
-                <descricao>Acessar a página inicial do site do Cadastur e digitar nos campos indicados o login e senha recebidos. O solicitante deverá mudar a senha. 
-A tela seguinte apresentará o "Ambiente de Negócios" do prestador, onde se encontra o botão “meu cadastro”. Para iniciar o cadastramento é necessário clicar nessa opção.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="630" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="515">
-                <titulo>Preencher o formulário eletrônico de cadastro (Dados Institucionais)</titulo>
-                <descricao>Na próxima tela aparecerá o formulário eletrônico de cadastro. Ao lado de cada campo do formulário há um ponto de exclamação que, ao ser clicado, exibe as informações de preenchimento. 
-Atenção: preencher somente com dados pertencentes ao estabelecimento, e não  com dados do contador.
-Após preencher todos os campos solicitados clicar no botão “salvar” para registrar as informações. O sistema enviará uma confirmação por e-mail de que a operação foi realizada com sucesso.</descricao>
-                <documentos>
-                    <default>
-                        <item id="201">Cartão CNPJ</item>
-                        <item id="202">Registro na OCB para cooperativas</item>
-                        <item id="203">CPF do representante legal da empresa</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="631" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="516">
-                <titulo>Preencher formulário eletrônico de cadastro (Dados da atividade)</titulo>
-                <descricao>Após preencher e salvar os dados institucionais, o solicitante deverá completar as informações na aba "Atividades", que se tratam de características físicas e serviços oferecidos pela empresa.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="632" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="517">
-                <titulo>Imprimir e preencher documentos obrigatórios</titulo>
-                <descricao>Ao final do preenchimento de todas as abas e campos obrigatórios do formulário eletrônico, deverá ser impresso e preenchido o Requerimento e o Termo de Responsabilidade disponibilizados. Esses documentos deverão ser entregues ao órgão estadual de turismo responsável pelo Cadastur juntamente com outros necessários.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="633" tipo="web-preencher">
-                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="518">
-                <titulo>Encaminhar a documentação obrigatória</titulo>
-                <descricao>Junto com o Requerimento e o Termo de Responsabilidade, encaminhar a documentação obrigatória. Os documentos podem ser entregues pessoalmente  ou de forma remota (e-mail, Correios). O solicitante deverá entrar em contato com o órgão responsável para verificar os meios disponíveis.</descricao>
-                <documentos>
-                    <default>
-                        <item id="212">Ficha de Cadastro eletrônica ou impressa devidamente preenchida</item>
-                        <item id="213">Cartão de Inscrição no CNPJ</item>
-                        <item id="214">Cópia dos Atos Constitutivos da razão social e seu registro no Órgão Público competente</item>
-                        <item id="215">Termo de Responsabilidade devidamente assinado pelo representante legal</item>
-                    </default>
-                    <caso id="57" descricao="Cooperativas">
-                        <documento>
-                            <id>204</id>
-                            <descricao>Registro na Organização das Cooperativas Brasileiras (OCB)</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="58" descricao="Microempreendedores individuais">
-                        <documento>
-                            <id>205</id>
-                            <descricao>Carteira de Identidade – RG</descricao>
-                        </documento>
-                        <documento>
-                            <id>206</id>
-                            <descricao>Certificado da Condição de Microempreendedor Individual – CCMEI no Portal do Empreendedor</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="59" descricao="Empresário Individual">
-                        <documento>
-                            <id>207</id>
-                            <descricao>Requerimento de Empresário na Junta Comercial</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="60" descricao="Sociedade Simples">
-                        <documento>
-                            <id>208</id>
-                            <descricao>Contrato Social e suas alterações no Cartório de Registro Civil das Pessoas Jurídicas</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="61" descricao="Agências de Turismo com frota e Transportadoras Turísticas">
-                        <documento>
-                            <id>209</id>
-                            <descricao>Veículos terrestres: cópia do Certificado de Registro e Licenciamento do Veículo (CRLV) válido, de todos os veículos (automóvel, micro-ônibus, ônibus ou utilitário).</descricao>
-                        </documento>
-                        <documento>
-                            <id>210</id>
-                            <descricao>Embarcações/veículos aquáticos: Título de Inscrição da Embarcação Normal (TIE) ou Miúda (TIEM) válido, de todas as embarcações</descricao>
-                        </documento>
-                        <documento>
-                            <id>211</id>
-                            <descricao>Veículos alugados, agregados/arrendados, é permitido o cadastro, desde que haja comprovação do vínculo do prestador de serviço com o proprietário do veículo.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="635" tipo="postal">
-                            <descricao>Verificar disponibilidade e procedimentos com o órgão estadual de turismo.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="634" tipo="presencial">
-                            <descricao>Caso o solicitante não possua acesso ao computador/internet, ele poderá contatar o órgão estadual de turismo responsável pelo Cadastur. 
-[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em Lista dos "órgãos delegados".</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="519">
-                <titulo>Homologação do cadastro e disponibilização do certificado</titulo>
-                <descricao>A homologação do requerimento de cadastro e consequente emissão do certificado serão realizadas após a análise e aprovação da documentação exigida. O requerente terá 30 dias para entregar essa documentação. No caso de não cumprimento do prazo acima estipulado, será necessário proceder a novo requerimento de cadastro. O cadastro é válido por dois anos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="636" tipo="web-acompanhar">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/Certificados.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="520">
-                <titulo>Renovação de cadastro</titulo>
-                <descricao>Em função de readequação do sistema, a renovação online de cadastro está suspensa, sendo somente possível por meio de solicitação em formulário impresso. 
-Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo na UF. O prestador terá 30 dias para entregar a documentação exigida. A renovação do cadastro deverá ser solicitada a partir de 90 dias antes do término da validade do certificado.</descricao>
-                <documentos>
-                    <default>
-                        <item id="216">Formulário de requerimento de cadastro</item>
-                        <item id="217">Termo de Responsabilidade - Renovação</item>
-                        <item id="218">Documentos da etapa "Encaminhar documentação obrigatória"</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="638" tipo="presencial">
-                            <descricao>[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur).</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="637" tipo="web-consultar">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="521">
-                <titulo>Alteração de Cadastro</titulo>
-                <descricao>Em função de readequação do sistema, a alteração de cadastro online está suspensa, sendo somente possível por meio de solicitação junto ao órgão delegado de turismo na UF.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="640" tipo="presencial">
-                            <descricao>[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="639" tipo="web-consultar">
-                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
-            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="665">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comércio e Serviços</item>
-            <item>Turismo</item>
-            <item>Lazer</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="241">Cadastur</item>
-            <item id="242">Cadastro Ministério do Turismo</item>
-            <item id="243">Cadastro Embratur</item>
-            <item id="244">Cadastro de prestadores de serviços turístico</item>
-            <item id="245">Meios de Hospedagem</item>
-            <item id="246">Hotel</item>
-            <item id="247">Agência de Turismo</item>
-            <item id="248">Agência de Viagens</item>
-            <item id="249">Acampamento Turístico</item>
-            <item id="250">Transportadora turística</item>
-            <item id="251">Parque temático</item>
-            <item id="252">Organizadora de eventos</item>
-            <item id="253">Turismo</item>
-            <item id="254">Cadastro turismo</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="76">Lei do Turismo:
-&lt;a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11771.htm"&gt;Lei nº 11.771, de 17 de Setembro de 2008&lt;/a&gt;</item>
-            <item id="77">Decreto que regulamenta a Lei do Turismo:
-&lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2010-12-02;7381"&gt;Decreto nº 7.381, de 2 de Dezembro de 2010&lt;/a&gt;</item>
-            <item id="78">Portaria que institui o cadastro de prestadores de serviços turísticos:
-&lt;a href="http://www.turismo.gov.br/legislacao/?p=112"&gt;Portaria MTur nº 130/2011&lt;/a&gt;</item>
-            <item id="79">Portaria que regulamenta os procedimentos do cadastro:
-&lt;a href="http://www.turismo.gov.br/legislacao/?p=135"&gt;Portaria MTur n° 197/2013&lt;/a&gt;</item>
-            <item id="80">Lei das Agências de Turismo: 
-&lt;a href="http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2014/Lei/L12974.htm"&gt;Lei nº 12.974/2014&lt;/a&gt;</item>
-            <item id="81">Resoluções da ANTT sobre transporte sob regime de fretamento interestadual e internacional: 
-&lt;a href="http://www.antt.gov.br/index.php/content/view/40407/Resolucao_n__4777.html"&gt;Resolução ANTT nº 4777/2015&lt;/a&gt;
-&lt;a href="http://www.antt.gov.br/index.php/content/view/45830/Resolucao_n__5017.html"&gt;Resolução ANTT nº 5017/2016&lt;/a&gt;</item>
-            <item id="82">Portaria sobre Transportes Turísticos: &lt;a href="http://www.turismo.gov.br/legislacao/?p=89"&gt;Portaria MTur n° 312/2013&lt;/a&gt;</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>consulta-cadastro-previdenciario</id>
         <dbId>460</dbId>
         <nome>Consulta Cadastro Previdenciário</nome>
@@ -23613,47 +23254,6 @@ Acessar o Sisobranet para realizar a transmissão do relatório. Serviço dispon
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="3" idServicoSegmento="739">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>atividade-rural</id>
-        <dbId>515</dbId>
-        <nome>Atividade Rural</nome>
-        <sigla></sigla>
-        <descricao>Acessar o programa Atividade Rural para download.</descricao>
-        <gratuito>false</gratuito>
-        <servico-digital>false</servico-digital>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="578">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="702" tipo="web">
-                            <descricao>http://www.receita.fazenda.gov.br/PessoaFisica/LivroCaixa/default.htm</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="740">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
@@ -26998,65 +26598,6 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
         </legislacoes>
     </servico>
     <servico>
-        <id>teste-2-28-07-17</id>
-        <dbId>625</dbId>
-        <nome>teste 2 28-07-17</nome>
-        <sigla></sigla>
-        <descricao>wdaawd</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>/sugestao?q=servico</link-servico-digital>
-        <solicitantes>
-            <solicitante id="366">
-                <tipo>wadasdw</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1329">
-                <titulo>asddawd</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1789" tipo="aplicativo-movel">
-                            <descricao>awdasdw</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1670">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1036">a</item>
-            <item id="1037">b</item>
-            <item id="1038">c</item>
-        </palavras-chave>
-    </servico>
-    <servico>
         <id>selenium-servico-ponto-focal</id>
         <dbId>618</dbId>
         <nome>Selenium Serviço Ponto Focal</nome>
@@ -27766,6 +27307,65 @@ Serão resultados desta etapa:
         </legislacoes>
     </servico>
     <servico>
+        <id>teste-2-28-07-17-2</id>
+        <dbId>625</dbId>
+        <nome>teste 2 28-07-17 2</nome>
+        <sigla></sigla>
+        <descricao>wdaawd</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>/sugestao?q=servico</link-servico-digital>
+        <solicitantes>
+            <solicitante id="503">
+                <tipo>wadasdw</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1564">
+                <titulo>asddawd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1851" tipo="aplicativo-movel">
+                            <descricao>awdasdw</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1872">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1487">a</item>
+            <item id="1488">b</item>
+            <item id="1489">c</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>consulta-cnpj-eleicoes</id>
         <dbId>92</dbId>
         <nome>Consulta CNPJ Eleições</nome>
@@ -27939,9 +27539,9 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>obter-o-fies</id>
+        <id>obter-o-fies-2</id>
         <dbId>705</dbId>
-        <nome>Obter o FIES</nome>
+        <nome>Obter o FIES 2</nome>
         <sigla>FIES teste</sigla>
         <descricao>O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda</descricao>
         <contato>0800 616161</contato>
@@ -27950,6 +27550,15 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
         <servico-digital>true</servico-digital>
         <link-servico-digital>http://www.uol.com.br</link-servico-digital>
         <solicitantes>
+            <solicitante id="517">
+                <tipo>Estudante</tipo>
+                <requisitos>Que atenda as seguintes condições:
+
+•	Já estar matriculado em curso universitário presencial e pago, que tenha avaliação positiva no SINAES e seja oferecido por instituição que tenha aderido ao FIES;
+•	Não ter concluído curso superior antes de se candidatar;
+•	Ter participado de alguma edição do Enem de 2010 para cá, e obtido média das notas das questões objetivas de 450 ou mais pontos, e nota na redação superior a zero;
+•	Possuir renda familiar de até 3 salários mínimos mensais por pessoa.</requisitos>
+            </solicitante>
             <solicitante id="447">
                 <tipo>Estudante</tipo>
                 <requisitos>Que atenda as seguintes condições:
@@ -27972,116 +27581,130 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
                 <titulo>Inscrever-se no FIES seleção</titulo>
                 <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1109">Número do CPF;</item>
-                        <item id="1110">Informações e documentos pessoais;</item>
-                        <item id="1111">Informações e documentos relativos à sua escolaridade;</item>
-                        <item id="1112">Informações sobre a escola onde você estudou o Ensino Médio;</item>
-                        <item id="1113">Informações sobre a Instituição de Ensino Superior onde você está matriculado;</item>
-                        <item id="1114">Informações e documentos sobre a sua renda familiar;</item>
-                        <item id="1115">Informações e documentos sobre as edições do ENEM que tiver prestado a partir de 2010;</item>
-                        <item id="1116">Suas informações de endereço e contato;</item>
-                        <item id="1117">Certidão de casamento e informações sobre o cônjuge, se tiver;</item>
-                        <item id="1118">Informações e documentos sobre a bolsa parcial do ProUni, se tiver.</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
                     <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1796" tipo="web">
-                            <descricao>http://fiesselecaoaluno.mec.gov.br/usuario-login</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
             <etapa id="1474">
                 <titulo>Obter resultado da Pré-Seleção</titulo>
                 <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1119">Informações sobre o curso superior e instituição de ensino onde você está matriculado.</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
                     <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1797" tipo="web">
-                            <descricao>http://fiesselecaoaluno.mec.gov.br/selecao</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
             <etapa id="1475">
                 <titulo>Inscrever-se no SISFIES</titulo>
                 <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1120">Número do CPF;</item>
-                        <item id="1121">Dados do financiamento escolhido;</item>
-                        <item id="1122">Dados do fiador, se optar por fiança convencional ou solidária.</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
                     <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1798" tipo="web">
-                            <descricao>http://sisfiesportal.mec.gov.br/?pagina=inscricao</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
             <etapa id="1476">
                 <titulo>Validar inscrição junto à CPSA</titulo>
                 <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1123">Documento de identificação válido com foto;</item>
-                        <item id="1124">Comprovante de residência;</item>
-                        <item id="1125">Diploma, certificado ou documento equivalente de conclusão do ensino médio expedido por instituição competente;</item>
-                        <item id="1126">Comprovante de rendimentos;</item>
-                        <item id="1127">CPF (para menores de 18 anos não emancipados, CPF do representante legal); e</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
                     <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1799" tipo="presencial">
-                            <descricao>Instituição de ensino onde o financiamento será usado.</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
             <etapa id="1477">
                 <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
                 <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1128">Originais e fotocópias dos seguintes documentos:</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
-                    <default>
-                        <custo id="89">
-                            <descricao>Após a conclusão do curso, o aluno pagará o financiamento nos termos acordados.</descricao>
-                            <moeda>R$</moeda>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
+                    <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1800" tipo="presencial">
-                            <descricao>Agência do Banco do Brasil ou Caixa Econômica Federal escolhida durante a inscrição no SISFIES</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1594">
+                <titulo>Inscrever-se no FIES seleção</titulo>
+                <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1595">
+                <titulo>Obter resultado da Pré-Seleção</titulo>
+                <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1596">
+                <titulo>Inscrever-se no SISFIES</titulo>
+                <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1597">
+                <titulo>Validar inscrição junto à CPSA</titulo>
+                <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1598">
+                <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
+                <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
@@ -28089,7 +27712,7 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
             <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1789">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="1880">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Educação</item>
@@ -28109,9 +27732,13 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
             <item id="1305">bolsa</item>
             <item id="1306">vestibular</item>
             <item id="1307">Financiamento</item>
+            <item id="1544">bolsa</item>
+            <item id="1545">vestibular</item>
+            <item id="1546">Financiamento</item>
         </palavras-chave>
         <legislacoes>
             <item id="415">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
+            <item id="492">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
         </legislacoes>
     </servico>
     <servico>
@@ -29036,541 +28663,6 @@ Telefone: (61) 2027-6000</contato>
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>obter-passe-livre</id>
-        <dbId>8</dbId>
-        <nome>Obter Passe livre</nome>
-        <sigla>sd</sigla>
-        <nomes-populares>
-            <item id="576">Carteirinha do Passe Livre</item>
-        </nomes-populares>
-        <descricao>O Passe Livre é um programa do Governo Federal que proporciona a pessoas que possuem deficiência e são carentes gratuidade nas passagens para viajar entre os estados brasileiros.</descricao>
-        <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
-
- Telefones: (61) 2029-8035.
-
- e-mail: passelivre@transportes.gov.br
-
- Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
-        <solicitantes>
-            <solicitante id="436">
-                <tipo>Pessoa com deficiência física, mental, auditiva, visual ou múltipla comprovadamente carente.</tipo>
-                <requisitos>Para que uma pessoa tenha direito ao passe livre é necessário:
-
-*Possuir deficiência física, mental, auditiva, visual ou múltipla.
-
-*Ser comprovadamente carente.
-Conheça como funciona o cálculo para definir se uma pessoa é ou não carente clicando [aqui](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre.html#conheca_melhorPL_beneficiario)</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="30" unidade="dias-corridos"/>
-            <descricao>O prazo estimado acima começa a contar a partir do recebimento dos documentos pelo Passe Livre.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1460">
-                <titulo>Preencher formulários</titulo>
-                <descricao>O beneficiário preenche os formulários disponíveis no site do Ministério dos Transportes, Portos e Aviação Civil ou presencialmente.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1696" tipo="web">
-                            <descricao>[Formulários](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1699" tipo="e-mail">
-                            <descricao>passelivre@transportes.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1698" tipo="postal">
-                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1697" tipo="presencial">
-                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1700" tipo="telefone">
-                            <descricao>(61) 3329-9068.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1461">
-                <titulo>Enviar formulários e documentação</titulo>
-                <descricao>Os formulários da etapa 1 e a documentação devem ser encaminhados via correio ou entregues pessoalmente.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
-                        <documento>
-                            <id>901</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>903</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>899</id>
-                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>900</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>902</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>904</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>906</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
-                        </documento>
-                        <documento>
-                            <id>907</id>
-                            <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
-                        </documento>
-                        <documento>
-                            <id>908</id>
-                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
-                        </documento>
-                        <documento>
-                            <id>905</id>
-                            <descricao>Título de Eleitor</descricao>
-                        </documento>
-                    </caso>
-                    <caso id="239" descricao="Benefício com necessidade de acompanhante">
-                        <documento>
-                            <id>909</id>
-                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
-                        </documento>
-                        <documento>
-                            <id>913</id>
-                            <descricao>Carteira de Identidade;</descricao>
-                        </documento>
-                        <documento>
-                            <id>910</id>
-                            <descricao>Certidão de Nascimento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>911</id>
-                            <descricao>Certidão de Casamento;</descricao>
-                        </documento>
-                        <documento>
-                            <id>912</id>
-                            <descricao>Certificado de Reservista;</descricao>
-                        </documento>
-                        <documento>
-                            <id>914</id>
-                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
-                        </documento>
-                        <documento>
-                            <id>918</id>
-                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
-                        </documento>
-                        <documento>
-                            <id>915</id>
-                            <descricao>Título de Eleitor;</descricao>
-                        </documento>
-                        <documento>
-                            <id>916</id>
-                            <descricao>Carteira Nacional de Habilitação.</descricao>
-                        </documento>
-                        <documento>
-                            <id>917</id>
-                            <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1702" tipo="presencial">
-                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1701" tipo="postal">
-                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1462">
-                <titulo>Aguardar análise do processo</titulo>
-                <descricao>Nesta etapa o solicitante aguarda a análise dos formulários e da documentação enviada ao Passe Livre.
-
-Serão resultados desta etapa:
-
-**Benefício aprovado**(será enviado a credencial via correios para o beneficiário)
-
-**Benefício com pendências**(será comunicado via correios quais as pendências para a emissão da credencial para o beneficiário)
-
-**Benefício rejeitado**(será comunicado via correios que o solicitante não cumpre com os requisitos do programa passe livre)</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1703" tipo="web">
-                            <descricao>http://sistemas3.transportes.gov.br/CAPPL/paginas/requerente/home.jsp</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1780">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Transporte Rodoviário</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transportes</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1281">Passe Livre</item>
-            <item id="1282">Carteira</item>
-            <item id="1283">Credencial</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="407">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>cadastrar-servicos-acessiveis</id>
         <dbId>10</dbId>
         <nome>Cadastrar serviços acessíveis</nome>
@@ -29684,6 +28776,541 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
         <servicos-relacionados>
             <item>8</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>obter-passe-livre</id>
+        <dbId>8</dbId>
+        <nome>Obter Passe livre</nome>
+        <sigla>sd</sigla>
+        <nomes-populares>
+            <item id="644">Carteirinha do Passe Livre</item>
+        </nomes-populares>
+        <descricao>O Passe Livre é um programa do Governo Federal que proporciona a pessoas que possuem deficiência e são carentes gratuidade nas passagens para viajar entre os estados brasileiros.</descricao>
+        <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
+
+ Telefones: (61) 2029-8035.
+
+ e-mail: passelivre@transportes.gov.br
+
+ Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="521">
+                <tipo>Pessoa com deficiência física, mental, auditiva, visual ou múltipla comprovadamente carente.</tipo>
+                <requisitos>Para que uma pessoa tenha direito ao passe livre é necessário:
+
+*Possuir deficiência física, mental, auditiva, visual ou múltipla.
+
+*Ser comprovadamente carente.
+Conheça como funciona o cálculo para definir se uma pessoa é ou não carente clicando [aqui](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre.html#conheca_melhorPL_beneficiario)</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-corridos"/>
+            <descricao>O prazo estimado acima começa a contar a partir do recebimento dos documentos pelo Passe Livre.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1610">
+                <titulo>Preencher formulários</titulo>
+                <descricao>O beneficiário preenche os formulários disponíveis no site do Ministério dos Transportes, Portos e Aviação Civil ou presencialmente.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1696" tipo="web">
+                            <descricao>[Formulários](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1697" tipo="presencial">
+                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1700" tipo="telefone">
+                            <descricao>(61) 3329-9068.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1699" tipo="e-mail">
+                            <descricao>passelivre@transportes.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1698" tipo="postal">
+                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1611">
+                <titulo>Enviar formulários e documentação</titulo>
+                <descricao>Os formulários da etapa 1 e a documentação devem ser encaminhados via correio ou entregues pessoalmente.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>907</id>
+                            <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
+                        </documento>
+                        <documento>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="239" descricao="Benefício com necessidade de acompanhante">
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>917</id>
+                            <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1702" tipo="presencial">
+                            <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1701" tipo="postal">
+                            <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1612">
+                <titulo>Aguardar análise do processo</titulo>
+                <descricao>Nesta etapa o solicitante aguarda a análise dos formulários e da documentação enviada ao Passe Livre.
+
+Serão resultados desta etapa:
+
+**Benefício aprovado**(será enviado a credencial via correios para o beneficiário)
+
+**Benefício com pendências**(será comunicado via correios quais as pendências para a emissão da credencial para o beneficiário)
+
+**Benefício rejeitado**(será comunicado via correios que o solicitante não cumpre com os requisitos do programa passe livre)</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1703" tipo="web">
+                            <descricao>http://sistemas3.transportes.gov.br/CAPPL/paginas/requerente/home.jsp</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42673" dbId="42841">
+            <nomeOrgao>Secretaria de Governo da Presidência da República (SEGOV/PR)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1884">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transportes</item>
+            <item>Transporte Rodoviário</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1556">Passe Livre</item>
+            <item id="1557">Carteira</item>
+            <item id="1558">Credencial</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="495">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>outorga-de-radiodifusao-comercial</id>
@@ -29918,6 +29545,67 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>cadastro-de-senha-para-auto-atendimento-previdenciario</id>
+        <dbId>131</dbId>
+        <nome>Cadastro De Senha Para Auto Atendimento Previdenciário</nome>
+        <sigla></sigla>
+        <descricao>Cadastrar senha que permite, por meio da internet, consultar dados básicos do cadastro, ao extrato de
+        contribuições, verificação da regularidade das contribuições previdenciárias e emissão de certidão com
+        finalidade de baixa no cadastro previdenciário.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="514">
+                <tipo>sads</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1592">
+                <titulo>dsadsad</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="909" tipo="web">
+                            <descricao>http://www010.dataprev.gov.br/cws/contexto/cndfisco/cndfisco.html</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219925" dbId="58048">
+            <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1876">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1877">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1535">s</item>
+            <item id="1536">s</item>
+            <item id="1537">s</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>obter-passe-livre</id>
         <dbId>700</dbId>
         <nome>Obter Passe livre</nome>
@@ -30138,50 +29826,6 @@ Email - incentivo.viagens@turismo.gov.br</contato>
             <item>Abastecimento</item>
             <item>Abastecimento</item>
             <item>Abastecimento</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>cadastro-de-senha-para-auto-atendimento-previdenciario</id>
-        <dbId>131</dbId>
-        <nome>Cadastro De Senha Para Auto Atendimento Previdenciário</nome>
-        <sigla></sigla>
-        <descricao>Cadastrar senha que permite, por meio da internet, consultar dados básicos do cadastro, ao extrato de
-        contribuições, verificação da regularidade das contribuições previdenciárias e emissão de certidão com
-        finalidade de baixa no cadastro previdenciário.</descricao>
-        <gratuito>false</gratuito>
-        <servico-digital>false</servico-digital>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="748">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="909" tipo="web">
-                            <descricao>http://www010.dataprev.gov.br/cws/contexto/cndfisco/cndfisco.html</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="952">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="953">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -31291,9 +30935,9 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <nome>Obter CNH</nome>
         <sigla>CNH</sigla>
         <nomes-populares>
-            <item id="583">Carta de Motorista</item>
-            <item id="584">Carteira de Habilitação</item>
-            <item id="585">Carta de condutor automotivo</item>
+            <item id="645">Carta de Motorista</item>
+            <item id="646">Carteira de Habilitação</item>
+            <item id="647">Carta de condutor automotivo</item>
         </nomes-populares>
         <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteria de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
         <contato>0800-123456</contato>
@@ -31302,11 +30946,11 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="449">
+            <solicitante id="522">
                 <tipo>Habilitação na categoria C, D ou E</tipo>
                 <requisitos>O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).</requisitos>
             </solicitante>
-            <solicitante id="448">
+            <solicitante id="523">
                 <tipo>Habilitação na categoria A, B ou AB</tipo>
                 <requisitos>Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.</requisitos>
             </solicitante>
@@ -31325,7 +30969,7 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1478">
+            <etapa id="1613">
                 <titulo>Agendar atendimento no Detran</titulo>
                 <descricao>O agendamento por telefone deverá ser realizado no período de 8h às 18h, de segunda à sexta.</descricao>
                 <documentos>
@@ -31339,10 +30983,19 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
                         <custo id="97">
                             <descricao>Pagamento de taxa</descricao>
                             <moeda>R$</moeda>
-                            <valor>8,500</valor>
-                            <statusCustoVariavel>0</statusCustoVariavel>
+                            <valorVariavel>10 x Renda</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
                         </custo>
                     </default>
+                    <caso id="343" descricao="Caso seja tres">
+                        <custo id="105">
+                            <descricao>Custo Novo</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </caso>
                 </custos>
                 <canais-de-prestacao>
                     <default>
@@ -31357,19 +31010,19 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
             <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1790">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="1885">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Transportes</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1308">carta</item>
-            <item id="1309">carteira</item>
-            <item id="1310">condutor</item>
-            <item id="1311">habilitação</item>
+            <item id="1559">carta</item>
+            <item id="1560">carteira</item>
+            <item id="1561">condutor</item>
+            <item id="1562">habilitação</item>
         </palavras-chave>
         <legislacoes>
-            <item id="416">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
+            <item id="496">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
         </legislacoes>
         <servicos-relacionados>
             <item>496</item>
@@ -31562,83 +31215,6 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </palavras-chave>
     </servico>
     <servico>
-        <id>servico-publicacao-github</id>
-        <dbId>684</dbId>
-        <nome>Serviço publicação Github</nome>
-        <sigla>SPG</sigla>
-        <nomes-populares>
-            <item id="619">github</item>
-            <item id="620">teste</item>
-            <item id="621">Spiderman</item>
-        </nomes-populares>
-        <descricao>hgjkhgjkhfjdhgjbvmnvcb,vncmbnm.,v cnbnvcm,n mdskflçdskflçk sdlçfldçfsk lçkds.,cv.;c,v.;,c.;v,.;czx,v .;cx.;vb,. vcmb,.vmcxb,xc vbm,nxvc,bdfjksgjkhfjghjf kdhgjfhdgjkh fkhgjkafhjhioeurioe wuqriouewioq ruioeqwurioeuwp rioueiowurioe wuirouewqio urioqeuwrikld sjklsdjfkljfkgjk lfjaklgjklfjgklajd</descricao>
-        <contato>Contato</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
-        <solicitantes>
-            <solicitante id="370">
-                <tipo>Solicitante 1</tipo>
-                <requisitos>jdhjghjkahgjhjfghjkfdhgjhjfkhgjkhj fkdhgjkhfasjkghjkafhgjf jksfhgjkashfg</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>10</quantidade>
-            <unidade>dias</unidade>
-            <descricao>hfsajkhjghjfh xcjnvm,xcbnm,nx jfklfghjkhfjghjklfdhjkgfhdjk</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1333">
-                <titulo>Etapa 1</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="48">
-                            <descricao>Custo</descricao>
-                            <moeda>R$</moeda>
-                            <valor>1,000</valor>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1790" tipo="e-mail">
-                            <descricao>email@email.com</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1675">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1676">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Alimento</item>
-            <item>Assistência à Criança e ao Adolescente</item>
-            <item>Alimento</item>
-            <item>Assistência à Criança e ao Adolescente</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1048">Gihut</item>
-            <item id="1049">Teste</item>
-            <item id="1050">djfhey</item>
-        </palavras-chave>
-    </servico>
-    <servico>
         <id>alteracao-cadastral-no-cnpj</id>
         <dbId>296</dbId>
         <nome>Alteração Cadastral no CNPJ</nome>
@@ -31697,9 +31273,9 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </palavras-chave>
     </servico>
     <servico>
-        <id>declaracoes-simplificadas-de-pessoa-juridica-simples-2008</id>
+        <id>declaracoes-simplificadas-de-pessoa-juridica-simples-2009</id>
         <dbId>70</dbId>
-        <nome>Declarações Simplificadas de Pessoa Jurídica (Simples 2008)</nome>
+        <nome>Declarações Simplificadas de Pessoa Jurídica (Simples 2009)</nome>
         <sigla></sigla>
         <descricao>Acessar o programa gerador da declaração – PGD para download.</descricao>
         <gratuito>false</gratuito>
@@ -31878,12 +31454,396 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
         </legislacoes>
     </servico>
     <servico>
+        <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-juridica</id>
+        <dbId>459</dbId>
+        <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Jurídica</nome>
+        <sigla>CADASTUR</sigla>
+        <descricao>Cadastro no Ministério do Turismo de pessoas jurídicas que atuam no setor turístico. 
+É obrigatório para Meios de Hospedagem, Agências de Turismo, Transportadoras Turísticas, Organizadoras de Eventos, Parques Temáticos, Acampamentos Turísticos. Válido por 2 anos. Em caráter opcional outras atividades podem ser cadastradas. O cadastro permite ao prestador atuar legalmente, de acordo com a Lei do Turismo, por meio da emissão do Certificado Cadastur, assim como oferece benefícios aos cadastrados.</descricao>
+        <contato>- Órgãos delegados responsáveis pelo Cadastur. 
+[Como se cadastrar](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur)       
+Coordenação-Geral de Cadastramento e Fiscalização (MTur)                
+E-mail: snptur.ouvidoria@turismo.gov.br / 0800-2008484 (opção 04 - Cadastur)</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="510">
+                <tipo>Meios de Hospedagem, Acampamentos Turísticos (Campings), Organizadoras de Eventos, Transportadoras Turísticas e Parques Temáticos</tipo>
+                <requisitos>O solicitante deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. 
+Deve ainda possuir registro no Cadastro Nacional de Pessoa Jurídica (CNPJ) da Receita Federal em atividades econômicas (CNAEs) conforme a definição na Lei do Turismo nº 11.771/2008. 
+[Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
+            </solicitante>
+            <solicitante id="511">
+                <tipo>Agências de Turismo</tipo>
+                <requisitos>O solicitante deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. 
+O Objeto do Contrato Social deve estar em conformidade com a definição de Agências de Turismo na Lei nº 12.974/2014 e o CNPJ possuir atividades econômicas (CNAEs) de acordo com o objeto social e 
+[Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
+            </solicitante>
+            <solicitante id="512">
+                <tipo>Outros Prestadores de Serviços Turísticos (cadastro opcional)</tipo>
+                <requisitos>Deve ser uma sociedade empresária, sociedade simples, empresário individual ou entidade de serviço social autônomo. Deve possuir CNPJ com CNAEs de atividades relacionadas na Lei do Turismo: restaurantes, bares e similares; centros de convenções; parques aquáticos; apoio ao turismo náutico; casas de espetáculos; infraestrutura para eventos; locadoras de veículos; e especializados em segmentos turísticos. [Lista de CNAEs](http://www.cadastur.turismo.gov.br/cadastur/Cnaes.mtur).</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>1. 30 dias: prazo para a entrega, por parte do prestador, da documentação do cadastro ao órgão delegado do Ministério do Turismo.
+
+2. 30 dias seguintes: prazo para o órgão delegado analisar a documentação, homologar o cadastro e gerar o certificado.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1583">
+                <titulo>Criar um "novo usuário"</titulo>
+                <descricao>Se o prestador nunca foi cadastrado no Cadastur, é necessário criar um “novo usuário” no sistema no sítio do [Cadastur](www.cadastur.turismo.gov.br).
+Após preencher os dados solicitados, o prestador receberá no e-mail cadastrado o login e a senha para acessar o Sistema Cadastur.</descricao>
+                <documentos>
+                    <default>
+                        <item id="199">CPF do responsável pelo Cadastur na empresa</item>
+                        <item id="200">Cartão CNPJ da Empresa</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="103">
+                            <descricao>Custo</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>10 Reais X 4</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="628" tipo="web">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/novoUsuario.mtur</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="629" tipo="presencial">
+                            <descricao>Caso o solicitante não possua acesso ao computador/internet, ele poderá contatar o órgão estadual de turismo responsável pelo Cadastur. 
+[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em Lista dos "órgãos delegados".</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1584">
+                <titulo>Acessar o sistema Cadastur</titulo>
+                <descricao>Acessar a página inicial do site do Cadastur e digitar nos campos indicados o login e senha recebidos. O solicitante deverá mudar a senha. 
+A tela seguinte apresentará o "Ambiente de Negócios" do prestador, onde se encontra o botão “meu cadastro”. Para iniciar o cadastramento é necessário clicar nessa opção.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="630" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1585">
+                <titulo>Preencher o formulário eletrônico de cadastro (Dados Institucionais)</titulo>
+                <descricao>Na próxima tela aparecerá o formulário eletrônico de cadastro. Ao lado de cada campo do formulário há um ponto de exclamação que, ao ser clicado, exibe as informações de preenchimento. 
+Atenção: preencher somente com dados pertencentes ao estabelecimento, e não  com dados do contador.
+Após preencher todos os campos solicitados clicar no botão “salvar” para registrar as informações. O sistema enviará uma confirmação por e-mail de que a operação foi realizada com sucesso.</descricao>
+                <documentos>
+                    <default>
+                        <item id="201">Cartão CNPJ</item>
+                        <item id="202">Registro na OCB para cooperativas</item>
+                        <item id="203">CPF do representante legal da empresa</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="631" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1586">
+                <titulo>Preencher formulário eletrônico de cadastro (Dados da atividade)</titulo>
+                <descricao>Após preencher e salvar os dados institucionais, o solicitante deverá completar as informações na aba "Atividades", que se tratam de características físicas e serviços oferecidos pela empresa.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="632" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1587">
+                <titulo>Imprimir e preencher documentos obrigatórios</titulo>
+                <descricao>Ao final do preenchimento de todas as abas e campos obrigatórios do formulário eletrônico, deverá ser impresso e preenchido o Requerimento e o Termo de Responsabilidade disponibilizados. Esses documentos deverão ser entregues ao órgão estadual de turismo responsável pelo Cadastur juntamente com outros necessários.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="633" tipo="web-preencher">
+                            <descricao>http://www.cadastur.turismo.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1588">
+                <titulo>Encaminhar a documentação obrigatória</titulo>
+                <descricao>Junto com o Requerimento e o Termo de Responsabilidade, encaminhar a documentação obrigatória. Os documentos podem ser entregues pessoalmente  ou de forma remota (e-mail, Correios). O solicitante deverá entrar em contato com o órgão responsável para verificar os meios disponíveis.</descricao>
+                <documentos>
+                    <default>
+                        <item id="212">Ficha de Cadastro eletrônica ou impressa devidamente preenchida</item>
+                        <item id="213">Cartão de Inscrição no CNPJ</item>
+                        <item id="214">Cópia dos Atos Constitutivos da razão social e seu registro no Órgão Público competente</item>
+                        <item id="215">Termo de Responsabilidade devidamente assinado pelo representante legal</item>
+                    </default>
+                    <caso id="57" descricao="Cooperativas">
+                        <documento>
+                            <id>204</id>
+                            <descricao>Registro na Organização das Cooperativas Brasileiras (OCB)</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="58" descricao="Microempreendedores individuais">
+                        <documento>
+                            <id>205</id>
+                            <descricao>Carteira de Identidade – RG</descricao>
+                        </documento>
+                        <documento>
+                            <id>206</id>
+                            <descricao>Certificado da Condição de Microempreendedor Individual – CCMEI no Portal do Empreendedor</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="59" descricao="Empresário Individual">
+                        <documento>
+                            <id>207</id>
+                            <descricao>Requerimento de Empresário na Junta Comercial</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="60" descricao="Sociedade Simples">
+                        <documento>
+                            <id>208</id>
+                            <descricao>Contrato Social e suas alterações no Cartório de Registro Civil das Pessoas Jurídicas</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="61" descricao="Agências de Turismo com frota e Transportadoras Turísticas">
+                        <documento>
+                            <id>210</id>
+                            <descricao>Embarcações/veículos aquáticos: Título de Inscrição da Embarcação Normal (TIE) ou Miúda (TIEM) válido, de todas as embarcações</descricao>
+                        </documento>
+                        <documento>
+                            <id>211</id>
+                            <descricao>Veículos alugados, agregados/arrendados, é permitido o cadastro, desde que haja comprovação do vínculo do prestador de serviço com o proprietário do veículo.</descricao>
+                        </documento>
+                        <documento>
+                            <id>209</id>
+                            <descricao>Veículos terrestres: cópia do Certificado de Registro e Licenciamento do Veículo (CRLV) válido, de todos os veículos (automóvel, micro-ônibus, ônibus ou utilitário).</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="635" tipo="postal">
+                            <descricao>Verificar disponibilidade e procedimentos com o órgão estadual de turismo.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="634" tipo="presencial">
+                            <descricao>Caso o solicitante não possua acesso ao computador/internet, ele poderá contatar o órgão estadual de turismo responsável pelo Cadastur. 
+[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur), em Lista dos "órgãos delegados".</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1589">
+                <titulo>Homologação do cadastro e disponibilização do certificado</titulo>
+                <descricao>A homologação do requerimento de cadastro e consequente emissão do certificado serão realizadas após a análise e aprovação da documentação exigida. O requerente terá 30 dias para entregar essa documentação. No caso de não cumprimento do prazo acima estipulado, será necessário proceder a novo requerimento de cadastro. O cadastro é válido por dois anos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="636" tipo="web-acompanhar">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/Certificados.mtur</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1590">
+                <titulo>Renovação de cadastro</titulo>
+                <descricao>Em função de readequação do sistema, a renovação online de cadastro está suspensa, sendo somente possível por meio de solicitação em formulário impresso. 
+Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo na UF. O prestador terá 30 dias para entregar a documentação exigida. A renovação do cadastro deverá ser solicitada a partir de 90 dias antes do término da validade do certificado.</descricao>
+                <documentos>
+                    <default>
+                        <item id="216">Formulário de requerimento de cadastro</item>
+                        <item id="217">Termo de Responsabilidade - Renovação</item>
+                        <item id="218">Documentos da etapa "Encaminhar documentação obrigatória"</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="638" tipo="presencial">
+                            <descricao>[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur).</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="637" tipo="web-consultar">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1591">
+                <titulo>Alteração de Cadastro</titulo>
+                <descricao>Em função de readequação do sistema, a alteração de cadastro online está suspensa, sendo somente possível por meio de solicitação junto ao órgão delegado de turismo na UF.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="639" tipo="web-consultar">
+                            <descricao>http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="640" tipo="presencial">
+                            <descricao>[Lista de contatos](http://www.cadastur.turismo.gov.br/cadastur/ComoCadastrar.mtur)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/72084" dbId="37547">
+            <nomeOrgao>Ministério do Turismo (MTur)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1875">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comércio e Serviços</item>
+            <item>Turismo</item>
+            <item>Lazer</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1518">Cadastur</item>
+            <item id="1519">Cadastro Ministério do Turismo</item>
+            <item id="1520">Cadastro Embratur</item>
+            <item id="1521">Cadastro de prestadores de serviços turístico</item>
+            <item id="1522">Meios de Hospedagem</item>
+            <item id="1523">Hotel</item>
+            <item id="1524">Agência de Turismo</item>
+            <item id="1525">Agência de Viagens</item>
+            <item id="1526">Acampamento Turístico</item>
+            <item id="1527">Transportadora turística</item>
+            <item id="1528">Turismo</item>
+            <item id="1529">Parque temático</item>
+            <item id="1530">Organizadora de eventos</item>
+            <item id="1531">Cadastro turismo</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="485">Resoluções da ANTT sobre transporte sob regime de fretamento interestadual e internacional: 
+&lt;a href="http://www.antt.gov.br/index.php/content/view/40407/Resolucao_n__4777.html"&gt;Resolução ANTT nº 4777/2015&lt;/a&gt;
+&lt;a href="http://www.antt.gov.br/index.php/content/view/45830/Resolucao_n__5017.html"&gt;Resolução ANTT nº 5017/2016&lt;/a&gt;</item>
+            <item id="486">Portaria sobre Transportes Turísticos: &lt;a href="http://www.turismo.gov.br/legislacao/?p=89"&gt;Portaria MTur n° 312/2013&lt;/a&gt;</item>
+            <item id="487">Lei do Turismo:
+&lt;a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11771.htm"&gt;Lei nº 11.771, de 17 de Setembro de 2008&lt;/a&gt;</item>
+            <item id="488">Portaria que regulamenta os procedimentos do cadastro:
+&lt;a href="http://www.turismo.gov.br/legislacao/?p=135"&gt;Portaria MTur n° 197/2013&lt;/a&gt;</item>
+            <item id="489">Lei das Agências de Turismo: 
+&lt;a href="http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2014/Lei/L12974.htm"&gt;Lei nº 12.974/2014&lt;/a&gt;</item>
+            <item id="490">Decreto que regulamenta a Lei do Turismo:
+&lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2010-12-02;7381"&gt;Decreto nº 7.381, de 2 de Dezembro de 2010&lt;/a&gt;</item>
+            <item id="491">Portaria que institui o cadastro de prestadores de serviços turísticos:
+&lt;a href="http://www.turismo.gov.br/legislacao/?p=112"&gt;Portaria MTur nº 130/2011&lt;/a&gt;</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>cadastro-de-instituicoes-financeiras</id>
+        <dbId>227</dbId>
+        <nome>Cadastro de instituições financeiras</nome>
+        <sigla>Teste</sigla>
+        <descricao>Mostra todas as instituições financeiras autorizadas a funcionar pelo Banco Central do Brasil, como bancos, cooperativas e administradoras de consórcio. É possível pesquisar pelo nome da instituição ou do conglomerado financeiro ao qual ela pertence. Mostra ainda as tarifas, os administradores, os dados cadastrais e as informações contábeis de cada instituição.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="516">
+                <tipo>Teste</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1593">
+                <titulo>teste</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1008" tipo="web">
+                            <descricao>http://www.bc.gov.br/?IF</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89" dbId="4715">
+            <nomeOrgao>Banco Central do Brasil (BACEN)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1878">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1879">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1541">d</item>
+            <item id="1542">d</item>
+            <item id="1543">d</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>alteracoes-de-pos-outorga</id>
         <dbId>9</dbId>
         <nome>Alterações de Pós-Outorga</nome>
         <sigla></sigla>
         <nomes-populares>
-            <item id="636">Atos de Pós-Outorga</item>
+            <item id="640">Atos de Pós-Outorga</item>
         </nomes-populares>
         <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
         <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
@@ -31899,7 +31859,7 @@ Telefone: (61) 2027-6000</contato>
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="496">
+            <solicitante id="502">
                 <tipo>Detentores de Outorgas de Radiodifusão</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -31912,11 +31872,13 @@ Telefone: (61) 2027-6000</contato>
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1551">
+            <etapa id="1562">
                 <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
                 <descricao></descricao>
                 <documentos>
-                    <default/>
+                    <default>
+                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
                 </documentos>
                 <custos>
                     <default>
@@ -31942,27 +31904,27 @@ Telefone: (61) 2027-6000</contato>
             <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1862">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1863">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1864">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Comunicações</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1462">Transferência de Outorga</item>
-            <item id="1463">Alteração de Quadro Societário</item>
-            <item id="1464">Pós-Outorga</item>
-            <item id="1461">Renovação</item>
+            <item id="1483">Transferência de Outorga</item>
+            <item id="1484">Alteração de Quadro Societário</item>
+            <item id="1485">Pós-Outorga</item>
+            <item id="1486">Renovação</item>
         </palavras-chave>
         <legislacoes>
-            <item id="457">Alterações contratuais
+            <item id="468">Alterações contratuais
 
 Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-            <item id="458">Geral
+            <item id="469">Geral
 
 Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="459">Renovação/ revisão de outorga
+            <item id="470">Renovação/ revisão de outorga
 
 Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
         </legislacoes>
@@ -31970,5 +31932,123 @@ Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
             <item>492</item>
             <item>462</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>atividade-rural-2</id>
+        <dbId>515</dbId>
+        <nome>Atividade Rural 2</nome>
+        <sigla></sigla>
+        <descricao>Acessar o programa Atividade Rural para download.</descricao>
+        <gratuito>false</gratuito>
+        <servico-digital>false</servico-digital>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="578">
+                <titulo></titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="702" tipo="web">
+                            <descricao>http://www.receita.fazenda.gov.br/PessoaFisica/LivroCaixa/default.htm</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="740">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>servico-publicacao-github-2</id>
+        <dbId>684</dbId>
+        <nome>Serviço publicação Github 2</nome>
+        <sigla>SPG</sigla>
+        <nomes-populares>
+            <item id="641">github</item>
+            <item id="642">teste</item>
+            <item id="643">Spiderman</item>
+        </nomes-populares>
+        <descricao>hgjkhgjkhfjdhgjbvmnvcb,vncmbnm.,v cnbnvcm,n mdskflçdskflçk sdlçfldçfsk lçkds.,cv.;c,v.;,c.;v,.;czx,v .;cx.;vb,. vcmb,.vmcxb,xc vbm,nxvc,bdfjksgjkhfjghjf kdhgjfhdgjkh fkhgjkafhjhioeurioe wuqriouewioq ruioeqwurioeuwp rioueiowurioe wuirouewqio urioqeuwrikld sjklsdjfkljfkgjk lfjaklgjklfjgklajd</descricao>
+        <contato>Contato</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="520">
+                <tipo>Solicitante 1</tipo>
+                <requisitos>jdhjghjkahgjhjfghjkfdhgjhjfkhgjkhj fkdhgjkhfasjkghjkafhgjf jksfhgjkashfg</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>dias</unidade>
+            <descricao>hfsajkhjghjfh xcjnvm,xcbnm,nx jfklfghjkhfjghjklfdhjkgfhdjk</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1609">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="104">
+                            <descricao>Custo</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,000</valor>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1852" tipo="e-mail">
+                            <descricao>email@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1882">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1883">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Alimento</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+            <item>Alimento</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1553">Gihut</item>
+            <item id="1554">Teste</item>
+            <item id="1555">djfhey</item>
+        </palavras-chave>
     </servico>
 </servicos>
