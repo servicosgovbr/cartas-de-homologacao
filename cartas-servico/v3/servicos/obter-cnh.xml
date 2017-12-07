@@ -5,9 +5,9 @@
     <nome>Obter CNH</nome>
     <sigla>CNH</sigla>
     <nomes-populares>
-        <item id="637">Carta de Motorista</item>
-        <item id="638">Carteira de Habilitação</item>
-        <item id="639">Carta de condutor automotivo</item>
+        <item id="645">Carta de Motorista</item>
+        <item id="646">Carteira de Habilitação</item>
+        <item id="647">Carta de condutor automotivo</item>
     </nomes-populares>
     <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteria de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
     <contato>0800-123456</contato>
@@ -16,11 +16,11 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="497">
+        <solicitante id="522">
             <tipo>Habilitação na categoria C, D ou E</tipo>
             <requisitos>O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).</requisitos>
         </solicitante>
-        <solicitante id="498">
+        <solicitante id="523">
             <tipo>Habilitação na categoria A, B ou AB</tipo>
             <requisitos>Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.</requisitos>
         </solicitante>
@@ -39,7 +39,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1552">
+        <etapa id="1613">
             <titulo>Agendar atendimento no Detran</titulo>
             <descricao>O agendamento por telefone deverá ser realizado no período de 8h às 18h, de segunda à sexta.</descricao>
             <documentos>
@@ -57,8 +57,8 @@
                         <statusCustoVariavel>1</statusCustoVariavel>
                     </custo>
                 </default>
-                <caso id="341" descricao="Caso seja tres">
-                    <custo id="102">
+                <caso id="343" descricao="Caso seja tres">
+                    <custo id="105">
                         <descricao>Custo Novo</descricao>
                         <moeda>R$</moeda>
                         <valor>10</valor>
@@ -80,19 +80,19 @@
         <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1865">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="1885">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transportes</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1465">carta</item>
-        <item id="1466">carteira</item>
-        <item id="1467">condutor</item>
-        <item id="1468">habilitação</item>
+        <item id="1559">carta</item>
+        <item id="1560">carteira</item>
+        <item id="1561">condutor</item>
+        <item id="1562">habilitação</item>
     </palavras-chave>
     <legislacoes>
-        <item id="460">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
+        <item id="496">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
     </legislacoes>
     <servicos-relacionados>
         <item>496</item>
