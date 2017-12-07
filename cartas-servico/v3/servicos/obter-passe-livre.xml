@@ -4,6 +4,9 @@
     <dbId>8</dbId>
     <nome>Obter Passe livre</nome>
     <sigla>sd</sigla>
+    <nomes-populares>
+        <item id="644">Carteirinha do Passe Livre</item>
+    </nomes-populares>
     <descricao>O Passe Livre é um programa do Governo Federal que proporciona a pessoas que possuem deficiência e são carentes gratuidade nas passagens para viajar entre os estados brasileiros.</descricao>
     <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
 
@@ -16,6 +19,17 @@
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="521">
+            <tipo>Pessoa com deficiência física, mental, auditiva, visual ou múltipla comprovadamente carente.</tipo>
+            <requisitos>Para que uma pessoa tenha direito ao passe livre é necessário:
+
+*Possuir deficiência física, mental, auditiva, visual ou múltipla.
+
+*Ser comprovadamente carente.
+Conheça como funciona o cálculo para definir se uma pessoa é ou não carente clicando [aqui](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre.html#conheca_melhorPL_beneficiario)</requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="30" unidade="dias-corridos"/>
         <descricao>O prazo estimado acima começa a contar a partir do recebimento dos documentos pelo Passe Livre.</descricao>
@@ -23,11 +37,175 @@
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-        <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+    <etapas>
+        <etapa id="1610">
+            <titulo>Preencher formulários</titulo>
+            <descricao>O beneficiário preenche os formulários disponíveis no site do Ministério dos Transportes, Portos e Aviação Civil ou presencialmente.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1696" tipo="web">
+                        <descricao>[Formulários](http://www.transportes.gov.br/direto-ao-cidadao/passe-livre/2-uncategorised/2761-formularios-para-requisicao-passe-livre.html)</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1697" tipo="presencial">
+                        <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1700" tipo="telefone">
+                        <descricao>(61) 3329-9068.</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1699" tipo="e-mail">
+                        <descricao>passelivre@transportes.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1698" tipo="postal">
+                        <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1611">
+            <titulo>Enviar formulários e documentação</titulo>
+            <descricao>Os formulários da etapa 1 e a documentação devem ser encaminhados via correio ou entregues pessoalmente.</descricao>
+            <documentos>
+                <default/>
+                <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
+                    <documento>
+                        <id>902</id>
+                        <descricao>Certificado de Reservista;</descricao>
+                    </documento>
+                    <documento>
+                        <id>905</id>
+                        <descricao>Título de Eleitor</descricao>
+                    </documento>
+                    <documento>
+                        <id>908</id>
+                        <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                    </documento>
+                    <documento>
+                        <id>907</id>
+                        <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
+                    </documento>
+                    <documento>
+                        <id>906</id>
+                        <descricao>Carteira Nacional de Habilitação.</descricao>
+                    </documento>
+                    <documento>
+                        <id>904</id>
+                        <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                    </documento>
+                    <documento>
+                        <id>900</id>
+                        <descricao>Certidão de Nascimento;</descricao>
+                    </documento>
+                    <documento>
+                        <id>899</id>
+                        <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
+                    </documento>
+                    <documento>
+                        <id>903</id>
+                        <descricao>Carteira de Identidade;</descricao>
+                    </documento>
+                    <documento>
+                        <id>901</id>
+                        <descricao>Certidão de Casamento;</descricao>
+                    </documento>
+                </caso>
+                <caso id="239" descricao="Benefício com necessidade de acompanhante">
+                    <documento>
+                        <id>917</id>
+                        <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
+                    </documento>
+                    <documento>
+                        <id>916</id>
+                        <descricao>Carteira Nacional de Habilitação.</descricao>
+                    </documento>
+                    <documento>
+                        <id>915</id>
+                        <descricao>Título de Eleitor;</descricao>
+                    </documento>
+                    <documento>
+                        <id>918</id>
+                        <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                    </documento>
+                    <documento>
+                        <id>914</id>
+                        <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                    </documento>
+                    <documento>
+                        <id>912</id>
+                        <descricao>Certificado de Reservista;</descricao>
+                    </documento>
+                    <documento>
+                        <id>911</id>
+                        <descricao>Certidão de Casamento;</descricao>
+                    </documento>
+                    <documento>
+                        <id>910</id>
+                        <descricao>Certidão de Nascimento;</descricao>
+                    </documento>
+                    <documento>
+                        <id>913</id>
+                        <descricao>Carteira de Identidade;</descricao>
+                    </documento>
+                    <documento>
+                        <id>909</id>
+                        <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1702" tipo="presencial">
+                        <descricao>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1701" tipo="postal">
+                        <descricao>Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1612">
+            <titulo>Aguardar análise do processo</titulo>
+            <descricao>Nesta etapa o solicitante aguarda a análise dos formulários e da documentação enviada ao Passe Livre.
+
+Serão resultados desta etapa:
+
+**Benefício aprovado**(será enviado a credencial via correios para o beneficiário)
+
+**Benefício com pendências**(será comunicado via correios quais as pendências para a emissão da credencial para o beneficiário)
+
+**Benefício rejeitado**(será comunicado via correios que o solicitante não cumpre com os requisitos do programa passe livre)</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1703" tipo="web">
+                        <descricao>http://sistemas3.transportes.gov.br/CAPPL/paginas/requerente/home.jsp</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42673" dbId="42841">
+        <nomeOrgao>Secretaria de Governo da Presidência da República (SEGOV/PR)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1884">Cidadãos</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
+        <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
@@ -49,11 +227,11 @@
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
@@ -75,17 +253,14 @@
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -100,14 +275,17 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
@@ -129,11 +307,11 @@
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
@@ -155,17 +333,14 @@
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -180,15 +355,18 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -208,13 +386,13 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -234,18 +412,15 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -260,15 +435,18 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -288,13 +466,13 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -314,18 +492,15 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
-        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
@@ -340,13 +515,22 @@
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
         <item>Transportes</item>
+        <item>Transporte Rodoviário</item>
         <item>Assistência ao Portador de Deficiência</item>
         <item>Transporte Ferroviário</item>
         <item>Transporte Hidroviário</item>
-        <item>Transportes</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="1556">Passe Livre</item>
+        <item id="1557">Carteira</item>
+        <item id="1558">Credencial</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="495">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
+    </legislacoes>
 </servico>
