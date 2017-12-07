@@ -1,18 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastro-de-instituicoes-financeiras</id>
+    <dbId>227</dbId>
     <nome>Cadastro de instituições financeiras</nome>
-    <sigla/>
-    <nomes-populares/>
+    <sigla>Teste</sigla>
     <descricao>Mostra todas as instituições financeiras autorizadas a funcionar pelo Banco Central do Brasil, como bancos, cooperativas e administradoras de consórcio. É possível pesquisar pelo nome da instituição ou do conglomerado financeiro ao qual ela pertence. Mostra ainda as tarifas, os administradores, os dados cadastrais e as informações contábeis de cada instituição.</descricao>
-    <gratuito/>
-    <solicitantes/>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="516">
+            <tipo>Teste</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <atendimento-imediato/>
+        <descricao></descricao>
     </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
+        <etapa id="1593">
+            <titulo>teste</titulo>
+            <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -21,24 +35,26 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="1008" tipo="web">
                         <descricao>http://www.bc.gov.br/?IF</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89" dbId="4715">
+        <nomeOrgao>Banco Central do Brasil (BACEN)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
-        <item>Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1878">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1879">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
-        <item>Encargos financeiros</item>
-        <item>Finanças</item>
-        <item>Administração financeira</item>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="1541">d</item>
+        <item id="1542">d</item>
+        <item id="1543">d</item>
+    </palavras-chave>
 </servico>
