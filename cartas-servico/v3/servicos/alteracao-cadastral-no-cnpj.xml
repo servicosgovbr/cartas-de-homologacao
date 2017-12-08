@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="542">
+        <solicitante id="543">
             <tipo>dfsf</tipo>
             <requisitos>dfsdsf</requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1627">
+        <etapa id="1628">
             <titulo>fdsfsdf</titulo>
             <descricao>sdfsdf</descricao>
             <documentos>
@@ -53,14 +53,14 @@
         <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1914">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1915">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1602">f</item>
-        <item id="1603">f</item>
-        <item id="1604">f</item>
+        <item id="1605">f</item>
+        <item id="1606">f</item>
+        <item id="1607">f</item>
     </palavras-chave>
 </servico>
