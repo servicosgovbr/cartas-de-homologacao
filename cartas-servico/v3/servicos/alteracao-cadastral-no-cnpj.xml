@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="540">
+        <solicitante id="541">
             <tipo>dfsf</tipo>
             <requisitos>dfsdsf</requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1625">
+        <etapa id="1626">
             <titulo>fdsfsdf</titulo>
             <descricao>sdfsdf</descricao>
             <documentos>
@@ -35,9 +35,8 @@
                     <custo id="122">
                         <descricao>Custo inicial</descricao>
                         <moeda>R$</moeda>
-                        <valor>2,000</valor>
-                        <valorVariavel></valorVariavel>
-                        <statusCustoVariavel>0</statusCustoVariavel>
+                        <valorVariavel>De acorco com o salario</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
                     </custo>
                 </default>
             </custos>
@@ -54,14 +53,14 @@
         <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1912">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1913">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1596">f</item>
-        <item id="1597">f</item>
-        <item id="1598">f</item>
+        <item id="1599">f</item>
+        <item id="1600">f</item>
+        <item id="1601">f</item>
     </palavras-chave>
 </servico>
