@@ -3,7 +3,7 @@
     <id>agendamento-da-opcao-pelo-simples-nacional</id>
     <dbId>82</dbId>
     <nome>Agendamento da Opção pelo Simples Nacional</nome>
-    <sigla>tes</sigla>
+    <sigla>teste</sigla>
     <descricao>Agendar a opção pelo Simples Nacional entre o primeiro dia útil de novembro e o penúltimo dia útil de dezembro do ano anterior ao da opção.</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="549">
+        <solicitante id="550">
             <tipo>Teste</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1634">
+        <etapa id="1635">
             <titulo>ete</titulo>
             <descricao></descricao>
             <documentos>
@@ -54,15 +54,15 @@
         <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1923">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1924">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1617">e</item>
-        <item id="1618">d</item>
-        <item id="1619">t</item>
+        <item id="1620">e</item>
+        <item id="1621">d</item>
+        <item id="1622">t</item>
     </palavras-chave>
     <servicos-relacionados>
         <item>705</item>
