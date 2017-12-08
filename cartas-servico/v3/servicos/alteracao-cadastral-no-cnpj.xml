@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="487">
+        <solicitante id="540">
             <tipo>dfsf</tipo>
             <requisitos>dfsdsf</requisitos>
         </solicitante>
@@ -23,16 +23,45 @@
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1625">
+            <titulo>fdsfsdf</titulo>
+            <descricao>sdfsdf</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="122">
+                        <descricao>Custo inicial</descricao>
+                        <moeda>R$</moeda>
+                        <valor>2,000</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1188" tipo="web">
+                        <descricao>http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/ConsulSitCadastralCNPJ.htm</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="" dbId="58050">
         <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="1912">Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1431">f</item>
-        <item id="1432">f</item>
-        <item id="1433">f</item>
+        <item id="1596">f</item>
+        <item id="1597">f</item>
+        <item id="1598">f</item>
     </palavras-chave>
 </servico>
