@@ -5,9 +5,9 @@
     <nome>Cadastrar Veículos e Condutores para o RTU</nome>
     <sigla>RTU</sigla>
     <nomes-populares>
-        <item id="705">T</item>
-        <item id="706">R</item>
-        <item id="707">U</item>
+        <item id="708">T</item>
+        <item id="709">R</item>
+        <item id="710">U</item>
     </nomes-populares>
     <descricao>Solicitar o cadastramento de veículos e condutores no Regime de Tributação Unificada (RTU).</descricao>
     <contato></contato>
@@ -16,8 +16,8 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="566">
-            <tipo>Pessoas físicas e jurídicas que tenham direito ao RTU</tipo>
+        <solicitante id="567">
+            <tipo>Pessoas físicas e jurídicas que tenham direito ao RTU Pessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTU klvklvkjdfbkjnbnm,vn</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1650">
+        <etapa id="1651">
             <titulo>Requerer registro</titulo>
             <descricao></descricao>
             <documentos>
@@ -51,18 +51,18 @@
         <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1948">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1949">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1650">rtu</item>
-        <item id="1651">condutor</item>
-        <item id="1652">veículo</item>
+        <item id="1653">rtu</item>
+        <item id="1654">condutor</item>
+        <item id="1655">veículo</item>
     </palavras-chave>
     <legislacoes>
-        <item id="519">lei do rtu</item>
+        <item id="520">lei do rtu</item>
     </legislacoes>
     <servicos-relacionados>
         <item>753</item>
