@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-release-9</id>
+    <dbId>821</dbId>
+    <nome>Teste Release 9</nome>
+    <sigla>Release 9</sigla>
+    <nomes-populares>
+        <item id="678">Release</item>
+        <item id="679">9</item>
+        <item id="680">Teste</item>
+    </nomes-populares>
+    <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9</descricao>
+    <contato>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://g1.com</link-servico-digital>
+    <solicitantes>
+        <solicitante id="544">
+            <tipo>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</tipo>
+            <requisitos>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</requisitos>
+        </solicitante>
+        <solicitante id="545">
+            <tipo>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</tipo>
+            <requisitos>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd
+Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>meses</unidade>
+        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1629">
+            <titulo>Release</titulo>
+            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+            <documentos>
+                <default>
+                    <item id="1197">* [Portal de Serviços](http://servicos.gov.br)</item>
+                    <item id="1198">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="124">
+                        <descricao>Custo 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1,000</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                    <custo id="125">
+                        <descricao>Custo 2</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>Salario 10 Reais</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+                <caso id="357" descricao="Custo Novo">
+                    <custo id="128">
+                        <descricao>Custo novo</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>LOOP</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1862" tipo="presencial">
+                        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1861" tipo="e-mail">
+                        <descricao>fgghgfhgfhgfhgfh</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1630">
+            <titulo>Teste Etaoa</titulo>
+            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+            <documentos>
+                <default>
+                    <item id="1199">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+                    <item id="1200">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="127">
+                        <descricao>Custo 10</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>10000</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1865" tipo="presencial">
+                        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1864" tipo="e-mail">
+                        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="356" descricao="Caso tenha">
+                    <canal-de-prestacao id="1863" tipo="e-mail">
+                        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1916">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1917">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="1918">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração</item>
+        <item>Agropecuária</item>
+        <item>Alimento</item>
+        <item>Defesa militar</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1608">relea</item>
+        <item id="1609">6</item>
+        <item id="1610">9</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="508">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>274</item>
+        <item>613</item>
+    </servicos-relacionados>
+</servico>
