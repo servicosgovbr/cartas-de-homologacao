@@ -1309,7 +1309,12 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
         <id>cadastrar-veiculos-e-condutores-para-o-rtu</id>
         <dbId>61</dbId>
         <nome>Cadastrar Veículos e Condutores para o RTU</nome>
-        <sigla></sigla>
+        <sigla>RTU</sigla>
+        <nomes-populares>
+            <item id="708">T</item>
+            <item id="709">R</item>
+            <item id="710">U</item>
+        </nomes-populares>
         <descricao>Solicitar o cadastramento de veículos e condutores no Regime de Tributação Unificada (RTU).</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
@@ -1317,20 +1322,20 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="474">
-                <tipo>Pessoas físicas e jurídicas que tenham direito ao RTU</tipo>
+            <solicitante id="567">
+                <tipo>Pessoas físicas e jurídicas que tenham direito ao RTU Pessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTUPessoas físicas e jurídicas que tenham direito ao RTU klvklvkjdfbkjnbnm,vn</tipo>
                 <requisitos></requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <atendimento-imediato/>
+            <nao-estimado-ainda/>
             <descricao></descricao>
         </tempo-total-estimado>
         <validade-documento>
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1522">
+            <etapa id="1651">
                 <titulo>Requerer registro</titulo>
                 <descricao></descricao>
                 <documentos>
@@ -1352,18 +1357,18 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
             <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1824">Empresas</item>
+            <item idSegmento="3" idServicoSegmento="1949">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1393">rtu</item>
-            <item id="1394">condutor</item>
-            <item id="1395">veículo</item>
+            <item id="1653">rtu</item>
+            <item id="1654">condutor</item>
+            <item id="1655">veículo</item>
         </palavras-chave>
         <legislacoes>
-            <item id="433">lei do rtu</item>
+            <item id="520">lei do rtu</item>
         </legislacoes>
         <servicos-relacionados>
             <item>753</item>
@@ -4676,7 +4681,7 @@ Portaria nº 408/2016: Dispõe sobre os procedimentos de permissão e concessão
         <id>agendamento-da-opcao-pelo-simples-nacional</id>
         <dbId>82</dbId>
         <nome>Agendamento da Opção pelo Simples Nacional</nome>
-        <sigla>tes</sigla>
+        <sigla>teste</sigla>
         <descricao>Agendar a opção pelo Simples Nacional entre o primeiro dia útil de novembro e o penúltimo dia útil de dezembro do ano anterior ao da opção.</descricao>
         <contato></contato>
         <gratuito>false</gratuito>
@@ -4684,27 +4689,35 @@ Portaria nº 408/2016: Dispõe sobre os procedimentos de permissão e concessão
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="477">
+            <solicitante id="550">
                 <tipo>Teste</tipo>
                 <requisitos></requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <atendimento-imediato/>
+            <nao-estimado-ainda/>
             <descricao></descricao>
         </tempo-total-estimado>
         <validade-documento>
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1524">
+            <etapa id="1635">
                 <titulo>ete</titulo>
                 <descricao></descricao>
                 <documentos>
                     <default/>
                 </documentos>
                 <custos>
-                    <default/>
+                    <default>
+                        <custo id="130">
+                            <descricao>Teste</descricao>
+                            <moeda>R$</moeda>
+                            <valor>100</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
                 </custos>
                 <canais-de-prestacao>
                     <default>
@@ -4719,15 +4732,15 @@ Portaria nº 408/2016: Dispõe sobre os procedimentos de permissão e concessão
             <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1826">Empresas</item>
+            <item idSegmento="3" idServicoSegmento="1924">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1402">e</item>
-            <item id="1403">d</item>
-            <item id="1404">t</item>
+            <item id="1620">e</item>
+            <item id="1621">d</item>
+            <item id="1622">t</item>
         </palavras-chave>
         <servicos-relacionados>
             <item>705</item>
@@ -20971,6 +20984,126 @@ SUGESTÃO: Quando a CNH estiver próxima ao limite de sua validade, sugerimos re
         </legislacoes>
     </servico>
     <servico>
+        <id>teste-release-55</id>
+        <dbId>812</dbId>
+        <nome>Teste Release 55</nome>
+        <sigla>Release 6</sigla>
+        <nomes-populares>
+            <item id="690">Resl</item>
+            <item id="691">ere</item>
+            <item id="692">rerer</item>
+        </nomes-populares>
+        <descricao>Teste release 6 descrição jfdlkjfsaflkdsjflkjdskf</descricao>
+        <contato>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="556">
+                <tipo>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</tipo>
+                <requisitos>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</requisitos>
+            </solicitante>
+            <solicitante id="557">
+                <tipo>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</tipo>
+                <requisitos>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>dias</unidade>
+            <descricao>reytiureytreiutyriuyt</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1641">
+                <titulo>Teste</titulo>
+                <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+                <documentos>
+                    <default>
+                        <item id="1206">Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</item>
+                        <item id="1207">Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</item>
+                        <item id="1208">[Portal de Serviços](https://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="139">
+                            <descricao>CUSTO TESTE 2</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,000</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                        <custo id="138">
+                            <descricao>Custo Teste</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>100 X SALARIO</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                    <caso id="362" descricao="Custo Para Outras Pessoas">
+                        <custo id="136">
+                            <descricao>Teste caso</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,100</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </caso>
+                    <caso id="363" descricao="Custo para varias pessoas">
+                        <custo id="137">
+                            <descricao>Teste caso 2</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>Renda da pessoa</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1869" tipo="e-mail">
+                            <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1868" tipo="presencial">
+                            <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
+            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1935">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1936">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="1937">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="3" idServicoSegmento="1938">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Alimento</item>
+            <item>Agropecuária</item>
+            <item>Administração</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1635">6</item>
+            <item id="1636">release</item>
+            <item id="1637">basis</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="514">Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>753</item>
+            <item>8</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
         <id>consulta-cadastro-previdenciario</id>
         <dbId>460</dbId>
         <nome>Consulta Cadastro Previdenciário</nome>
@@ -26377,6 +26510,93 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         </legislacoes>
     </servico>
     <servico>
+        <id>teste-api</id>
+        <dbId>713</dbId>
+        <nome>Teste API</nome>
+        <sigla>Nova Sigla</sigla>
+        <descricao>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</descricao>
+        <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
+        
+        Telefones: (61) 2029-8035.
+        
+        e-mail: passelivre@transportes.gov.br
+        
+        Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="553">
+                <tipo>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14,</tipo>
+                <requisitos>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao>dasdsdsadsaddsad</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1639">
+                <titulo>12312312</titulo>
+                <descricao>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1201">Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</item>
+                        <item id="1202">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="131">
+                            <descricao>Teste</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>tetse</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1806" tipo="fax">
+                            <descricao>123</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1930">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Transporte Ferroviário</item>
+            <item>Transporte Hidroviário</item>
+            <item>Transporte Rodoviário</item>
+            <item>Transportes</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1629">a</item>
+            <item id="1630">a</item>
+            <item id="1631">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="512">[Portal de Serviços](http://servicos.gov.br)</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>753</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
         <id>servico-digital</id>
         <dbId>677</dbId>
         <nome>Serviço Digital</nome>
@@ -26598,116 +26818,6 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
         </legislacoes>
     </servico>
     <servico>
-        <id>selenium-servico-ponto-focal</id>
-        <dbId>618</dbId>
-        <nome>Selenium Serviço Ponto Focal</nome>
-        <sigla>Teste Selenium</sigla>
-        <nomes-populares>
-            <item id="481">Nome 1</item>
-            <item id="482">Nome 2</item>
-            <item id="483">Nome 3</item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço ponto focal</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="371">
-                <tipo>Solicitante Selenium ponto focal</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="10" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1336">
-                <titulo>Etapa 1 Selenium ponto focal</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="47">
-                            <descricao>Custos Selenium ponto focal</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10</valor>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1788" tipo="presencial">
-                            <descricao>Canal Selenium ponto focal</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1337">
-                <titulo>Etapa 2</titulo>
-                <descricao>Etapa nova</descricao>
-                <documentos>
-                    <default>
-                        <item id="1101">Documentação nova</item>
-                        <item id="1102">Documentação nova 2</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="49">
-                            <descricao>Custo 1</descricao>
-                            <moeda>R$</moeda>
-                            <valor>1,000</valor>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1791" tipo="presencial">
-                            <descricao>Endereço novo</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1677">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1678">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="1679">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1680">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Atendimento básico</item>
-            <item>Agropecuária</item>
-            <item>Atendimento básico</item>
-            <item>Agropecuária</item>
-            <item>Atendimento básico</item>
-            <item>Agropecuária</item>
-            <item>Atendimento básico</item>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1051">palavra chave 1 ponto focal</item>
-            <item id="1052">palavra chave 2 ponto focal</item>
-            <item id="1053">palavra chave 3  ponto focal</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="337">Legislação  ponto focal</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>selenium-servico-1</id>
         <dbId>687</dbId>
         <nome>Selenium Serviço 1</nome>
@@ -26743,95 +26853,6 @@ Se desejar, filtre sua pesquisa por tipos de Recursos de Acessibilidade:
             <item>Cidadania</item>
             <item>Comercio externo</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>selenium-servico-1</id>
-        <dbId>614</dbId>
-        <nome>Selenium Serviço 1</nome>
-        <sigla>1</sigla>
-        <nomes-populares>
-            <item id="512">Popular 1</item>
-            <item id="511">Popular 4</item>
-            <item id="513">Popular 2</item>
-            <item id="514">Popular 3</item>
-        </nomes-populares>
-        <descricao>Selenium teste descrição serviço **Teste Mil**</descricao>
-        <contato>Contato novo serviço</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://www.gmail.com</link-servico-digital>
-        <solicitantes>
-            <solicitante id="382">
-                <tipo>Solicitante Selenium</tipo>
-                <requisitos>Requisitos Selelnium</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="2" max="6" unidade="horas"/>
-            <descricao>Muito tempo</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>2</quantidade>
-            <unidade>dias</unidade>
-            <descricao>Informações válidas selenium</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1349">
-                <titulo>Etapa 1 Selenium</titulo>
-                <descricao>Descrição Selenium</descricao>
-                <documentos>
-                    <default>
-                        <item id="1019">CPF</item>
-                        <item id="1020">Identidade</item>
-                        <item id="1021">Comprovante</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1757" tipo="web">
-                            <descricao>[Canal web](http://www.google.com.br)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1699">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1700">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Clima</item>
-            <item>Cidadania</item>
-            <item>Comercio externo</item>
-            <item>Clima</item>
-            <item>Cidadania</item>
-            <item>Comercio externo</item>
-            <item>Clima</item>
-            <item>Cidadania</item>
-            <item>Comercio externo</item>
-            <item>Clima</item>
-            <item>Cidadania</item>
-            <item>Comercio externo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1086">palavra chave 3</item>
-            <item id="1087">palavra chave 2</item>
-            <item id="1088">palavra chave 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="356">Legislação</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>618</item>
-        </servicos-relacionados>
     </servico>
     <servico>
         <id>teste-com-api-de-insercao</id>
@@ -26996,74 +27017,6 @@ Serão resultados desta etapa:
         </legislacoes>
     </servico>
     <servico>
-        <id>api-insercao-123</id>
-        <dbId>713</dbId>
-        <nome>Api Inserção 123</nome>
-        <sigla></sigla>
-        <descricao>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</descricao>
-        <contato>Posto de atendimento - SAN Quadra 3 Bloco N/O térreo - Brasília/DF
-        
-        Telefones: (61) 2029-8035.
-        
-        e-mail: passelivre@transportes.gov.br
-        
-        Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="396">
-                <tipo>123123</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="30" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1387">
-                <titulo>12312312</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1806" tipo="fax">
-                            <descricao>123</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1719">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Transporte Ferroviário</item>
-            <item>Transporte Hidroviário</item>
-            <item>Transporte Rodoviário</item>
-            <item>Transportes</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1128">a</item>
-            <item id="1129">a</item>
-            <item id="1130">a</item>
-        </palavras-chave>
-    </servico>
-    <servico>
         <id>servico-01122017-novo</id>
         <dbId>787</dbId>
         <nome>Serviço 01122017 Novo</nome>
@@ -27161,73 +27114,6 @@ Serão resultados desta etapa:
         <servicos-relacionados>
             <item>151</item>
         </servicos-relacionados>
-    </servico>
-    <servico>
-        <id>selenium-categoria-servico</id>
-        <dbId>617</dbId>
-        <nome>Selenium categoria serviço</nome>
-        <sigla>hfhghg sgs 213</sigla>
-        <nomes-populares>
-            <item id="468">Acesso aos documentos do Acervo do Arquivo Legal</item>
-        </nomes-populares>
-        <descricao>23 teste descrição.</descricao>
-        <contato>dfsfsdfdsfdsf</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="361">
-                <tipo>dsasdda</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1323">
-                <titulo>dsadasd</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1018">dsada</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1760" tipo="fax">
-                            <descricao>sdsadasdsda</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
-            <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1664">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1021">sadadsad</item>
-            <item id="1022">sdadssad</item>
-            <item id="1023">sdadsadsadsa</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="334">sdsadsadsadas</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>selenium-servico-2</id>
@@ -27364,6 +27250,425 @@ Serão resultados desta etapa:
             <item id="1488">b</item>
             <item id="1489">c</item>
         </palavras-chave>
+    </servico>
+    <servico>
+        <id>selenium-categoria-servico-2</id>
+        <dbId>617</dbId>
+        <nome>Selenium categoria serviço 2</nome>
+        <sigla>hfhghg sgs 213</sigla>
+        <nomes-populares>
+            <item id="664">Acesso aos documentos do Acervo do Arquivo Legal</item>
+            <item id="665">Acesso aos documentos do Acervo do Arquivo Legal</item>
+        </nomes-populares>
+        <descricao>23 teste descrição.</descricao>
+        <contato>dfsfsdfdsfdsf</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="535">
+                <tipo>dsasdda</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="536">
+                <tipo>dsasdda</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1620">
+                <titulo>dsadasd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1859" tipo="e-mail">
+                            <descricao>dsadasds</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1621">
+                <titulo>dsadasd</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1018">dsada</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1760" tipo="fax">
+                            <descricao>sdsadasdsda</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2852" dbId="37540">
+            <nomeOrgao>Ministério de Minas e Energia (MME)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1907">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1581">sadadsad</item>
+            <item id="1582">sdadssad</item>
+            <item id="1583">sdadsadsadsa</item>
+            <item id="1584">sadadsad</item>
+            <item id="1585">sdadssad</item>
+            <item id="1586">sdadsadsadsa</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="503">sdsadsadsadas</item>
+            <item id="504">sdsadsadsadas</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selenium-servico-54</id>
+        <dbId>614</dbId>
+        <nome>Selenium Serviço 54</nome>
+        <sigla>1 dfdsf</sigla>
+        <nomes-populares>
+            <item id="677">Popular 3</item>
+            <item id="674">Popular 1</item>
+            <item id="675">Popular 4</item>
+            <item id="676">Popular 2</item>
+            <item id="670">Popular 1</item>
+            <item id="671">Popular 4</item>
+            <item id="672">Popular 2</item>
+            <item id="673">Popular 3</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço **Teste Mil**</descricao>
+        <contato>Contato novo serviço</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://www.gmail.com</link-servico-digital>
+        <solicitantes>
+            <solicitante id="538">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos>Requisitos Selelnium</requisitos>
+            </solicitante>
+            <solicitante id="539">
+                <tipo>Solicitante Selenium</tipo>
+                <requisitos>Requisitos Selelnium</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="6" unidade="horas"/>
+            <descricao>Muito tempo</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>dias</unidade>
+            <descricao>Informações válidas selenium</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1623">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Descrição Selenium</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1860" tipo="fax">
+                            <descricao>rewrewr</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1624">
+                <titulo>Etapa 1 Selenium</titulo>
+                <descricao>Descrição Selenium</descricao>
+                <documentos>
+                    <default>
+                        <item id="1019">CPF</item>
+                        <item id="1020">Identidade</item>
+                        <item id="1021">Comprovante</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1757" tipo="web">
+                            <descricao>[Canal web](http://www.google.com.br)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1910">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1911">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Clima</item>
+            <item>Cidadania</item>
+            <item>Comercio externo</item>
+            <item>Clima</item>
+            <item>Cidadania</item>
+            <item>Comercio externo</item>
+            <item>Clima</item>
+            <item>Cidadania</item>
+            <item>Comercio externo</item>
+            <item>Clima</item>
+            <item>Cidadania</item>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1590">palavra chave 3</item>
+            <item id="1591">palavra chave 2</item>
+            <item id="1592">palavra chave 3</item>
+            <item id="1593">palavra chave 3</item>
+            <item id="1594">palavra chave 2</item>
+            <item id="1595">palavra chave 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="506">Legislação</item>
+            <item id="507">Legislação</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>618</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>selenium-servico-ponto-focal</id>
+        <dbId>618</dbId>
+        <nome>Selenium Serviço Ponto Focal</nome>
+        <sigla>Teste Selenium</sigla>
+        <nomes-populares>
+            <item id="684">Nome 1</item>
+            <item id="685">Nome 2</item>
+            <item id="686">Nome 3</item>
+        </nomes-populares>
+        <descricao>Selenium teste descrição serviço ponto focal teste</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="551">
+                <tipo>Solicitante Selenium ponto focal</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="10" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1636">
+                <titulo>Etapa 1 Selenium ponto focal</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="47">
+                            <descricao>Custos Selenium ponto focal</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1788" tipo="presencial">
+                            <descricao>Canal Selenium ponto focal</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1637">
+                <titulo>Etapa 2</titulo>
+                <descricao>Etapa nova</descricao>
+                <documentos>
+                    <default>
+                        <item id="1101">Documentação nova</item>
+                        <item id="1102">Documentação nova 2</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="49">
+                            <descricao>Custo 1</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,000</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1791" tipo="presencial">
+                            <descricao>Endereço novo</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1925">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1926">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="1927">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1928">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Atendimento básico</item>
+            <item>Agropecuária</item>
+            <item>Atendimento básico</item>
+            <item>Agropecuária</item>
+            <item>Atendimento básico</item>
+            <item>Agropecuária</item>
+            <item>Atendimento básico</item>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1623">palavra chave 1 ponto focal</item>
+            <item id="1624">palavra chave 2 ponto focal</item>
+            <item id="1625">palavra chave 3  ponto focal</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="510">Legislação  ponto focal</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracoes-de-pos-outorga</id>
+        <dbId>9</dbId>
+        <nome>Alterações de Pós-Outorga</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="640">Atos de Pós-Outorga</item>
+        </nomes-populares>
+        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="502">
+                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1562">
+                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="100">
+                            <descricao></descricao>
+                            <moeda>R$</moeda>
+                            <valor>2,100</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1704" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1483">Transferência de Outorga</item>
+            <item id="1484">Alteração de Quadro Societário</item>
+            <item id="1485">Pós-Outorga</item>
+            <item id="1486">Renovação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="468">Alterações contratuais
+
+Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
+            <item id="469">Geral
+
+Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
+            <item id="470">Renovação/ revisão de outorga
+
+Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>492</item>
+            <item>462</item>
+        </servicos-relacionados>
     </servico>
     <servico>
         <id>consulta-cnpj-eleicoes</id>
@@ -29347,6 +29652,157 @@ Telefone: (61) 2027-6000</contato>
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>sem-renomear</id>
+        <dbId>831</dbId>
+        <nome>Sem renomear</nome>
+        <sigla>SR teste</sigla>
+        <nomes-populares>
+            <item id="700">S</item>
+            <item id="701">renomear</item>
+        </nomes-populares>
+        <descricao>teste do sem renomear teste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomear m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomear Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear
+
+Sem renomear</descricao>
+        <contato>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="564">
+                <tipo>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</tipo>
+                <requisitos>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</requisitos>
+            </solicitante>
+            <solicitante id="565">
+                <tipo>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</tipo>
+                <requisitos>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste dm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1648">
+                <titulo>Etapa sem renomear</titulo>
+                <descricao>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</descricao>
+                <documentos>
+                    <default>
+                        <item id="1209">m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</item>
+                        <item id="1210">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="142">
+                            <descricao>Custo variavel</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>Reais 1000</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                        <custo id="141">
+                            <descricao>Custo teste</descricao>
+                            <moeda>R$</moeda>
+                            <valor>100</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1870" tipo="presencial">
+                            <descricao>[Portal de Serviços](http://servicos.gov.br) [Portal de Serviços](http://servicos.gov.br) [Portal de Serviços](http://servicos.gov.br) [Portal de Serviços](http://servicos.gov.br)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1649">
+                <titulo>Etapa 2 sem renomear</titulo>
+                <descricao>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</descricao>
+                <documentos>
+                    <default>
+                        <item id="1212">m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</item>
+                    </default>
+                    <caso id="366" descricao="Caso Documentação">
+                        <documento>
+                            <id>1211</id>
+                            <descricao>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                    <caso id="373" descricao="Caso seja de alta renda">
+                        <custo id="147">
+                            <descricao>Custo</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>1000</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1871" tipo="e-mail">
+                            <descricao>m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1946">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1947">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Administração Financeira</item>
+            <item>Empregabilidade</item>
+            <item>Energia elétrica</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1647">Teste</item>
+            <item id="1648">release</item>
+            <item id="1649">renomear</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="518">m renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearm renomearteste do sem renomearteste do sem renomearteste do sem renomearteste do sem renomearteste d</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>8</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
         <id>outorga-de-radiodifusao-comercial</id>
         <dbId>7</dbId>
         <nome>Outorga de Radiodifusão Comercial</nome>
@@ -31029,6 +31485,86 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </servicos-relacionados>
     </servico>
     <servico>
+        <id>acesso-aos-acervos-da-fundacao-nacional-do-indio</id>
+        <dbId>315</dbId>
+        <nome>Acesso aos Acervos da Fundação Nacional do Índio</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="207">Acervo Indígena sdasdas</item>
+        </nomes-populares>
+        <descricao>A Fundação Nacional do Índio - FUNAI - tem como missão coordenar o processo de formulação e implementação da política indigenista do Estado brasileiro, instituindo mecanismos efetivos de controle social e de gestão participativa, visando à proteção e promoção dos direitos dos povos indígenas.
+
+Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus acervos são:
+
+- Acesso aos acervos arquivísticos (documentais) do fundo Serviço de Proteção ao Índio - SPI e aos acervos do p</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="568">
+                <tipo>vfdgfdgd</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1001">
+                <titulo>fdgfdgdfg</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1241" tipo="presencial">
+                            <descricao>Para Acervos Etnográficos e Audiovisuais: Serviço de Referências Documentais do Museu do Índio Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1240" tipo="presencial">
+                            <descricao>Para Acervos Bibliográficos: Biblioteca Marechal Rondon Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1239" tipo="presencial">
+                            <descricao>Para Acervos Bibliográficos: Biblioteca Curt Nimuendaju SBS 02, lote 14, Ed. Cleto Meirelles 70070-120 BRASÍLIA - DF Telefones: (61) 3247-6549 / 3247-6551</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1238" tipo="presencial">
+                            <descricao>Para Acervos Arquivísticos (documentais): Serviço de Referências Documentais do Museu do Índio Rua das Palmeiras, 55 – Botafogo 22270-070 RIO DE JANEIRO - RJ Telefones: (21) 3214-8725 / 3214-8726 / 3214-8727</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1237" tipo="presencial">
+                            <descricao>Para Acervos Arquivísticos (documentais): Serviço de Gestão Documental SBS 02, lote 14, Ed. Cleto Meirelles 1º Subsolo 70070-120 BRASÍLIA - DF Telefones: (61) 3247-6552 / 3247-6554</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1236" tipo="web">
+                            <descricao>http://base2.museudoindio.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/173" dbId="34311">
+            <nomeOrgao>Fundação Nacional do Índio (FUNAI)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1950">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Proteção Social</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1656">f</item>
+            <item id="1657">f</item>
+            <item id="1658">f</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>solicitar-arquitetura-358</id>
         <dbId>770</dbId>
         <nome>Solicitar Arquitetura 358</nome>
@@ -31226,27 +31762,34 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="488">
+            <solicitante id="543">
                 <tipo>dfsf</tipo>
                 <requisitos>dfsdsf</requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
+            <nao-estimado-ainda/>
+            <descricao>teste de tempo</descricao>
         </tempo-total-estimado>
         <validade-documento>
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1537">
+            <etapa id="1628">
                 <titulo>fdsfsdf</titulo>
                 <descricao>sdfsdf</descricao>
                 <documentos>
                     <default/>
                 </documentos>
                 <custos>
-                    <default/>
+                    <default>
+                        <custo id="122">
+                            <descricao>Custo inicial</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>De acorco com o salario</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
                 </custos>
                 <canais-de-prestacao>
                     <default>
@@ -31261,15 +31804,15 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
             <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1848">Empresas</item>
+            <item idSegmento="3" idServicoSegmento="1915">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1434">f</item>
-            <item id="1435">f</item>
-            <item id="1436">f</item>
+            <item id="1605">f</item>
+            <item id="1606">f</item>
+            <item id="1607">f</item>
         </palavras-chave>
     </servico>
     <servico>
@@ -31312,80 +31855,6 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>acesso-aos-documentos-do-acervo-do-arquivo-legal-2</id>
-        <dbId>5</dbId>
-        <nome>Acesso aos documentos do Acervo do Arquivo Legal 2</nome>
-        <sigla>SPED</sigla>
-        <nomes-populares>
-            <item id="633">SPED CONTRIBUIÇÕES 123</item>
-        </nomes-populares>
-        <descricao>Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
-
-Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requisita e examina os documentos de seu interesse, sejam os manuscritos, os filmes, as fitas audiomagnéticas, as fotografias, os mapas e plantas ou os livros, periódicos, folh</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>www.uol.com.br</link-servico-digital>
-        <solicitantes>
-            <solicitante id="493">
-                <tipo>Empresas</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>Houve um problema inesperado com o banco de dados do PVA, favor encaminhar a descrição completa da operação realizada, com cópias de telas, mensagens de erros e se possível com o arquivo de escrituração, conforme orientações contidas no Fale Conosco da EFD-Contribuições - Solução de Inconsistência na Escrituração (Erros e Avisos), no sítio do SPED na Internet.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1548">
-                <titulo>DIVINO ANTONIO NUNES CRISTINO</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1680" tipo="e-mail">
-                            <descricao>Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1679" tipo="telefone">
-                            <descricao>Para atendimento a distância: (21) 2179-1257</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1678" tipo="e-mail">
-                            <descricao>Para atendimento a distância - consultas@arquivonacional.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1677" tipo="web">
-                            <descricao>http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&amp;sid=8</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/334" dbId="3929">
-            <nomeOrgao>Arquivo Nacional (AN)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1856">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1857">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Proteção Social</item>
-            <item>Serviços Públicos</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1452">sd</item>
-            <item id="1453">ads</item>
-            <item id="1454">ads</item>
-        </palavras-chave>
     </servico>
     <servico>
         <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-2</id>
@@ -31838,102 +32307,6 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         </palavras-chave>
     </servico>
     <servico>
-        <id>alteracoes-de-pos-outorga</id>
-        <dbId>9</dbId>
-        <nome>Alterações de Pós-Outorga</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="640">Atos de Pós-Outorga</item>
-        </nomes-populares>
-        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="502">
-                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1562">
-                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="100">
-                            <descricao></descricao>
-                            <moeda>R$</moeda>
-                            <valor>2,100</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1704" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1483">Transferência de Outorga</item>
-            <item id="1484">Alteração de Quadro Societário</item>
-            <item id="1485">Pós-Outorga</item>
-            <item id="1486">Renovação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="468">Alterações contratuais
-
-Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-            <item id="469">Geral
-
-Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="470">Renovação/ revisão de outorga
-
-Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>492</item>
-            <item>462</item>
-        </servicos-relacionados>
-    </servico>
-    <servico>
         <id>atividade-rural-2</id>
         <dbId>515</dbId>
         <nome>Atividade Rural 2</nome>
@@ -32050,5 +32423,151 @@ Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
             <item id="1554">Teste</item>
             <item id="1555">djfhey</item>
         </palavras-chave>
+    </servico>
+    <servico>
+        <id>teste-release-88</id>
+        <dbId>821</dbId>
+        <nome>Teste Release 88</nome>
+        <sigla>Release 9 teste</sigla>
+        <nomes-populares>
+            <item id="693">Release j</item>
+            <item id="694">9</item>
+            <item id="695">Teste</item>
+        </nomes-populares>
+        <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9</descricao>
+        <contato>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://g1.com</link-servico-digital>
+        <solicitantes>
+            <solicitante id="558">
+                <tipo>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</tipo>
+                <requisitos>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</requisitos>
+            </solicitante>
+            <solicitante id="559">
+                <tipo>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</tipo>
+                <requisitos>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd
+Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>10</quantidade>
+            <unidade>meses</unidade>
+            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1642">
+                <titulo>Release</titulo>
+                <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                <documentos>
+                    <default>
+                        <item id="1197">* [Portal de Serviços](http://servicos.gov.br)</item>
+                        <item id="1198">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="124">
+                            <descricao>Custo 1</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1,000</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                        <custo id="125">
+                            <descricao>Custo 2</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>Salario 10 Reais</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                    <caso id="365" descricao="Custo Novo">
+                        <custo id="140">
+                            <descricao>Custo novo</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>LOOP</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1862" tipo="presencial">
+                            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1861" tipo="e-mail">
+                            <descricao>fgghgfhgfhgfhgfh</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1643">
+                <titulo>Teste Etaoa</titulo>
+                <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                <documentos>
+                    <default>
+                        <item id="1199">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+                        <item id="1200">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="127">
+                            <descricao>Custo 10</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>10000</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1864" tipo="e-mail">
+                            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1865" tipo="presencial">
+                            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="356" descricao="Caso tenha">
+                        <canal-de-prestacao id="1863" tipo="e-mail">
+                            <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1939">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1940">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1941">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Administração</item>
+            <item>Agropecuária</item>
+            <item>Alimento</item>
+            <item>Defesa militar</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1638">relea</item>
+            <item id="1639">6</item>
+            <item id="1640">9</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="515">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>274</item>
+            <item>613</item>
+        </servicos-relacionados>
     </servico>
 </servicos>
