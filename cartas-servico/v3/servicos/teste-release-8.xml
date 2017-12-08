@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-release-8</id>
+    <dbId>812</dbId>
+    <nome>Teste Release 8</nome>
+    <sigla>Release 6</sigla>
+    <nomes-populares>
+        <item id="687">Resl</item>
+        <item id="688">ere</item>
+        <item id="689">rerer</item>
+    </nomes-populares>
+    <descricao>Teste release 6 descrição jfdlkjfsaflkdsjflkjdskf</descricao>
+    <contato>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>www.uol.com.br</link-servico-digital>
+    <solicitantes>
+        <solicitante id="554">
+            <tipo>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</tipo>
+            <requisitos>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</requisitos>
+        </solicitante>
+        <solicitante id="555">
+            <tipo>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</tipo>
+            <requisitos>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>dias</unidade>
+        <descricao>reytiureytreiutyriuyt</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1640">
+            <titulo>Teste</titulo>
+            <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+            <documentos>
+                <default>
+                    <item id="1203">Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</item>
+                    <item id="1204">Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</item>
+                    <item id="1205">[Portal de Serviços](https://servicos.gov.br)</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="135">
+                        <descricao>Custo Teste</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>100 X SALARIO</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                    <custo id="134">
+                        <descricao>CUSTO TESTE 2</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1,000</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+                <caso id="360" descricao="Custo Para Outras Pessoas">
+                    <custo id="132">
+                        <descricao>Teste caso</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1,100</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </caso>
+                <caso id="361" descricao="Custo para varias pessoas">
+                    <custo id="133">
+                        <descricao>Teste caso 2</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>Renda da pessoa</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1867" tipo="presencial">
+                        <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1866" tipo="e-mail">
+                        <descricao>Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
+        <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1931">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="1932">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="1933">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="1934">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Alimento</item>
+        <item>Agropecuária</item>
+        <item>Administração</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1632">6</item>
+        <item id="1633">release</item>
+        <item id="1634">basis</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="513">Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 descrição Teste release 6 desc Teste release 6 descrição Teste release 6 descrição Teste release 6 descriçãorelease 6 descrição Teste release 6 descrição Teste release 6 descriçãov Teste release 6 descrição Teste release 6 descrição  uyrewuiyrejjkkkkTeste release 6 descrição Teste release 6 descrição</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>753</item>
+        <item>8</item>
+    </servicos-relacionados>
+</servico>
