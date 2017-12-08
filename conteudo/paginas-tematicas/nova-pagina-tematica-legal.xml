@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>dgsakgklfhgjdfkhgjkhfjkdghjkfhdjghafjkldg</conteudo>
+    <dbId>66</dbId>
+    <nome>Nova pagina tematica legal</nome>
+    <orgaos>
+        <orgao id="41066" dbId="37527">
+            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+        </orgao>
+        <orgao id="14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
