@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-servico-54</id>
+    <dbId>614</dbId>
+    <nome>Selenium Serviço 54</nome>
+    <sigla>1 dfdsf</sigla>
+    <nomes-populares>
+        <item id="677">Popular 3</item>
+        <item id="674">Popular 1</item>
+        <item id="675">Popular 4</item>
+        <item id="676">Popular 2</item>
+        <item id="670">Popular 1</item>
+        <item id="671">Popular 4</item>
+        <item id="672">Popular 2</item>
+        <item id="673">Popular 3</item>
+    </nomes-populares>
+    <descricao>Selenium teste descrição serviço **Teste Mil**</descricao>
+    <contato>Contato novo serviço</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.gmail.com</link-servico-digital>
+    <solicitantes>
+        <solicitante id="538">
+            <tipo>Solicitante Selenium</tipo>
+            <requisitos>Requisitos Selelnium</requisitos>
+        </solicitante>
+        <solicitante id="539">
+            <tipo>Solicitante Selenium</tipo>
+            <requisitos>Requisitos Selelnium</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="2" max="6" unidade="horas"/>
+        <descricao>Muito tempo</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>2</quantidade>
+        <unidade>dias</unidade>
+        <descricao>Informações válidas selenium</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1623">
+            <titulo>Etapa 1 Selenium</titulo>
+            <descricao>Descrição Selenium</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1860" tipo="fax">
+                        <descricao>rewrewr</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1624">
+            <titulo>Etapa 1 Selenium</titulo>
+            <descricao>Descrição Selenium</descricao>
+            <documentos>
+                <default>
+                    <item id="1019">CPF</item>
+                    <item id="1020">Identidade</item>
+                    <item id="1021">Comprovante</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1757" tipo="web">
+                        <descricao>[Canal web](http://www.google.com.br)</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1910">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="1911">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
+        <item>Clima</item>
+        <item>Cidadania</item>
+        <item>Comercio externo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1590">palavra chave 3</item>
+        <item id="1591">palavra chave 2</item>
+        <item id="1592">palavra chave 3</item>
+        <item id="1593">palavra chave 3</item>
+        <item id="1594">palavra chave 2</item>
+        <item id="1595">palavra chave 3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="506">Legislação</item>
+        <item id="507">Legislação</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>618</item>
+    </servicos-relacionados>
+</servico>
