@@ -10,20 +10,60 @@
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="548">
+            <tipo>Teste</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <atendimento-imediato/>
+        <nao-estimado-ainda/>
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1633">
+            <titulo>ete</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="130">
+                        <descricao>Teste</descricao>
+                        <moeda>R$</moeda>
+                        <valor>100</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="829" tipo="web">
+                        <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=t&amp;area=1</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
         <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="1922">Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="1614">e</item>
+        <item id="1615">d</item>
+        <item id="1616">t</item>
+    </palavras-chave>
     <servicos-relacionados>
         <item>705</item>
     </servicos-relacionados>
