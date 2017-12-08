@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>selenium-servico-ponto-focal</id>
-    <dbId>686</dbId>
+    <dbId>618</dbId>
     <nome>Selenium Serviço Ponto Focal</nome>
     <sigla>Teste Selenium</sigla>
     <nomes-populares>
-        <item id="478">Nome 1</item>
-        <item id="479">Nome 2</item>
-        <item id="480">Nome 3</item>
+        <item id="684">Nome 1</item>
+        <item id="685">Nome 2</item>
+        <item id="686">Nome 3</item>
     </nomes-populares>
-    <descricao>Selenium teste descrição serviço ponto focal</descricao>
+    <descricao>Selenium teste descrição serviço ponto focal teste</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="551">
+            <tipo>Solicitante Selenium ponto focal</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="10" unidade="horas"/>
         <descricao></descricao>
@@ -23,40 +29,85 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1334">
+        <etapa id="1636">
             <titulo>Etapa 1 Selenium ponto focal</titulo>
             <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="47">
+                        <descricao>Custos Selenium ponto focal</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao id="1788" tipo="presencial">
+                        <descricao>Canal Selenium ponto focal</descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1335">
+        <etapa id="1637">
             <titulo>Etapa 2</titulo>
             <descricao>Etapa nova</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="1101">Documentação nova</item>
+                    <item id="1102">Documentação nova 2</item>
+                </default>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="49">
+                        <descricao>Custo 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1,000</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao id="1791" tipo="presencial">
+                        <descricao>Endereço novo</descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1925">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1926">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="1927">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1928">Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Atendimento básico</item>
         <item>Agropecuária</item>
         <item>Atendimento básico</item>
         <item>Agropecuária</item>
+        <item>Atendimento básico</item>
+        <item>Agropecuária</item>
+        <item>Atendimento básico</item>
+        <item>Agropecuária</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="1623">palavra chave 1 ponto focal</item>
+        <item id="1624">palavra chave 2 ponto focal</item>
+        <item id="1625">palavra chave 3  ponto focal</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="510">Legislação  ponto focal</item>
+    </legislacoes>
 </servico>
