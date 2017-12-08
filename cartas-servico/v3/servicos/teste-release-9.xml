@@ -3,11 +3,11 @@
     <id>teste-release-9</id>
     <dbId>821</dbId>
     <nome>Teste Release 9</nome>
-    <sigla>Release 9</sigla>
+    <sigla>Release 9 teste</sigla>
     <nomes-populares>
-        <item id="678">Release</item>
-        <item id="679">9</item>
-        <item id="680">Teste</item>
+        <item id="681">Release</item>
+        <item id="682">9</item>
+        <item id="683">Teste</item>
     </nomes-populares>
     <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9</descricao>
     <contato>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</contato>
@@ -16,11 +16,11 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://g1.com</link-servico-digital>
     <solicitantes>
-        <solicitante id="544">
+        <solicitante id="546">
             <tipo>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</tipo>
             <requisitos>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</requisitos>
         </solicitante>
-        <solicitante id="545">
+        <solicitante id="547">
             <tipo>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</tipo>
             <requisitos>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd
 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</requisitos>
@@ -37,7 +37,7 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         <descricao>Release 9Release 9Release 9Release 9Release 9Release 9</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1629">
+        <etapa id="1631">
             <titulo>Release</titulo>
             <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
             <documentos>
@@ -62,8 +62,8 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
                         <statusCustoVariavel>1</statusCustoVariavel>
                     </custo>
                 </default>
-                <caso id="357" descricao="Custo Novo">
-                    <custo id="128">
+                <caso id="359" descricao="Custo Novo">
+                    <custo id="129">
                         <descricao>Custo novo</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel>LOOP</valorVariavel>
@@ -82,7 +82,7 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1630">
+        <etapa id="1632">
             <titulo>Teste Etaoa</titulo>
             <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
             <documentos>
@@ -103,10 +103,10 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1865" tipo="presencial">
+                    <canal-de-prestacao id="1864" tipo="e-mail">
                         <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="1864" tipo="e-mail">
+                    <canal-de-prestacao id="1865" tipo="presencial">
                         <descricao>Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -122,9 +122,9 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1916">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="1917">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="1918">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="1919">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="1920">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="1921">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
@@ -133,12 +133,12 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         <item>Defesa militar</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1608">relea</item>
-        <item id="1609">6</item>
-        <item id="1610">9</item>
+        <item id="1611">relea</item>
+        <item id="1612">6</item>
+        <item id="1613">9</item>
     </palavras-chave>
     <legislacoes>
-        <item id="508">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
+        <item id="509">Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9 Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Releasdsfafd</item>
     </legislacoes>
     <servicos-relacionados>
         <item>274</item>
