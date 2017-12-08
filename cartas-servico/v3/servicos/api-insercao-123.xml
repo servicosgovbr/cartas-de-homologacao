@@ -12,14 +12,14 @@
         e-mail: passelivre@transportes.gov.br
         
         Caixa Postal - 9.600 - CEP 70.040-976 - Brasília/DF</contato>
-    <gratuito>true</gratuito>
+    <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://www.uol.com.br</link-servico-digital>
     <solicitantes>
-        <solicitante id="552">
-            <tipo>123123</tipo>
-            <requisitos></requisitos>
+        <solicitante id="553">
+            <tipo>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14,</tipo>
+            <requisitos>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -27,17 +27,30 @@
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <descricao></descricao>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao>dasdsdsadsaddsad</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1638">
+        <etapa id="1639">
             <titulo>12312312</titulo>
-            <descricao></descricao>
+            <descricao>Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="1201">Para renovação da credencial do Passe Livre, conforme determina à legislação, o beneficiário deverá requerer nova credencial até 30 (trinta) dias antes do término da validade do documento anterior, na forma do artigo 14, da Portaria nº 261 GM-MT, de 03/12/2012.</item>
+                    <item id="1202">[Portal de Serviços](http://servicos.gov.br)</item>
+                </default>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="131">
+                        <descricao>Teste</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>tetse</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
                 <default>
@@ -52,7 +65,7 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1929">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="1930">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Assistência ao Portador de Deficiência</item>
@@ -62,8 +75,14 @@
         <item>Transportes</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1626">a</item>
-        <item id="1627">a</item>
-        <item id="1628">a</item>
+        <item id="1629">a</item>
+        <item id="1630">a</item>
+        <item id="1631">a</item>
     </palavras-chave>
+    <legislacoes>
+        <item id="512">[Portal de Serviços](http://servicos.gov.br)</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>753</item>
+    </servicos-relacionados>
 </servico>
