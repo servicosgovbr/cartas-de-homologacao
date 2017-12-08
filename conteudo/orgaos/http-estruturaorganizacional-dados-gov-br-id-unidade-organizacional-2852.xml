@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <orgao>
-    <contato>dfsgfdsgfdgfdgfdgfdg</contato>
-    <conteudo>kjfdgfkdlgkljgfl</conteudo>
+    <contato>dfsgfdsgfdgfdgfdgfdg teste</contato>
+    <conteudo>kjfdgfkdlgkljgfl teste</conteudo>
     <dbId>56</dbId>
-    <nome>http-estruturaorganizacional-dados-gov-br-id-unidade-organizacional-2852</nome>
+    <nome>Ministério de Minas e Energia (MME)</nome>
     <orgaoDbId>37540</orgaoDbId>
     <url>http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2852</url>
 </orgao>
