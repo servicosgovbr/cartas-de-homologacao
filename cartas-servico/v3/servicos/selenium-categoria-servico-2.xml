@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selenium-categoria-servico-2</id>
+    <dbId>617</dbId>
+    <nome>Selenium categoria serviço 2</nome>
+    <sigla>hfhghg sgs 213</sigla>
+    <nomes-populares>
+        <item id="664">Acesso aos documentos do Acervo do Arquivo Legal</item>
+        <item id="665">Acesso aos documentos do Acervo do Arquivo Legal</item>
+    </nomes-populares>
+    <descricao>23 teste descrição.</descricao>
+    <contato>dfsfsdfdsfdsf</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="535">
+            <tipo>dsasdda</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="536">
+            <tipo>dsasdda</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1620">
+            <titulo>dsadasd</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1859" tipo="e-mail">
+                        <descricao>dsadasds</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1621">
+            <titulo>dsadasd</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1018">dsada</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1760" tipo="fax">
+                        <descricao>sdsadasdsda</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2852" dbId="37540">
+        <nomeOrgao>Ministério de Minas e Energia (MME)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1907">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1581">sadadsad</item>
+        <item id="1582">sdadssad</item>
+        <item id="1583">sdadsadsadsa</item>
+        <item id="1584">sadadsad</item>
+        <item id="1585">sdadssad</item>
+        <item id="1586">sdadsadsadsa</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="503">sdsadsadsadas</item>
+        <item id="504">sdsadsadsadas</item>
+    </legislacoes>
+</servico>
