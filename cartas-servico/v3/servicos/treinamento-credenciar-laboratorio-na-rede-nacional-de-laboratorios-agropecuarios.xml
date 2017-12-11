@@ -5,7 +5,7 @@
     <nome>[Treinamento] Credenciar Laboratório na Rede Nacional de Laboratórios Agropecuários</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="713">Rede MAPA de laboratórios</item>
+        <item id="714">Rede MAPA de laboratórios</item>
     </nomes-populares>
     <descricao>O credenciamento de laboratórios junto ao MAPA se destina a atender, de forma complementar,  aos programas e controles oficias do MAPA, suprindo demandas por ensaios laboratoriais excedentes, não atendidas pelos laboratórios do próprio MAPA.</descricao>
     <contato>¨ **Telefone:** (61) 3218-2041      
@@ -13,10 +13,10 @@
     <gratuito>true</gratuito>
     <porcentagem>66</porcentagem>
     <porcentagem-manual>true</porcentagem-manual>
-    <servico-digital>false</servico-digital>
+    <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-trn-ps.lecom.com.br/processos/iniciar?codServico=836</link-servico-digital>
     <solicitantes>
-        <solicitante id="571">
+        <solicitante id="572">
             <tipo>Laboratórios</tipo>
             <requisitos>Públicos ou privados, que realizam ensaios laboratoriais para os programas e controles oficiais do MAPA.</requisitos>
         </solicitante>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1656">
+        <etapa id="1658">
             <titulo>Requerer credenciamento</titulo>
             <descricao>Os modelos dos formulários, relações e termos podem ser obtidos [aqui](http://www.agricultura.gov.br/assuntos/laboratorios/credenciamento).</descricao>
             <documentos>
@@ -83,12 +83,12 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao id="1874" tipo="web">
-                        <descricao></descricao>
+                        <descricao>http://mpdg-trn-ps.lecom.com.br/processos/iniciar?codServico=836</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1657">
+        <etapa id="1659">
             <titulo>Receber resultado</titulo>
             <descricao>O credenciamento do laboratório será publicado no Diário Oficial da União</descricao>
             <documentos>
@@ -110,24 +110,24 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1955">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="1956">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="1957">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="1958">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1667">laboratórios</item>
-        <item id="1668">LANAGRO</item>
-        <item id="1669">ensaio laboratorial</item>
-        <item id="1670">laboratório agropecuário</item>
+        <item id="1671">laboratórios</item>
+        <item id="1672">LANAGRO</item>
+        <item id="1673">ensaio laboratorial</item>
+        <item id="1674">laboratório agropecuário</item>
     </palavras-chave>
     <legislacoes>
-        <item id="532">[INSTRUÇÃO NORMATIVA No 57, DE 11 DE DEZEMBRO DE 2013](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/InstruoNormativan57de11.12.2013versoPDFdowordNovaRedaoNRsegundoIN19e41.pdf)</item>
-        <item id="533">[INSTRUÇÃO NORMATIVA Nº 19, DE 25 DE JUNHO DE 2014](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/instrucao-normativa-no-19-de-25-06-2014-alteracao-de-artigos-da-in57-2013.pdf)</item>
-        <item id="531">[DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC 8.471-2015?OpenDocument)</item>
-        <item id="534">[INSTRUÇÃO NORMATIVA No - 41, DE 29 DE OUTUBRO DE 2015](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/IN412015.pdf)</item>
-        <item id="535">[DECRETO Nº 5.741, DE 30 DE MARÇO DE 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)</item>
+        <item id="536">[INSTRUÇÃO NORMATIVA No 57, DE 11 DE DEZEMBRO DE 2013](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/InstruoNormativan57de11.12.2013versoPDFdowordNovaRedaoNRsegundoIN19e41.pdf)</item>
+        <item id="537">[INSTRUÇÃO NORMATIVA Nº 19, DE 25 DE JUNHO DE 2014](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/instrucao-normativa-no-19-de-25-06-2014-alteracao-de-artigos-da-in57-2013.pdf)</item>
+        <item id="539">[INSTRUÇÃO NORMATIVA No - 41, DE 29 DE OUTUBRO DE 2015](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/IN412015.pdf)</item>
+        <item id="540">[DECRETO Nº 5.741, DE 30 DE MARÇO DE 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)</item>
+        <item id="538">[DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC 8.471-2015?OpenDocument)</item>
     </legislacoes>
 </servico>
