@@ -30813,6 +30813,133 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
         </legislacoes>
     </servico>
     <servico>
+        <id>viajar-para-o-espaco</id>
+        <dbId>842</dbId>
+        <nome>Viajar para o espaço</nome>
+        <sigla>VE</sigla>
+        <nomes-populares>
+            <item id="717">Ir para lua</item>
+        </nomes-populares>
+        <descricao>Pegar um transporte para o espaço</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="575">
+                <tipo>Astronautas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1197" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1664">
+                <titulo>Pegar o ônibus espacial</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1276">Passe livre</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1878" tipo="presencial">
+                            <descricao>Canaveral Cape</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/4243" dbId="890">
+            <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1962">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Categoria Teste Edson</item>
+            <item>Nova Categoria 1</item>
+            <item>test</item>
+            <item>Transporte Aéreo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1683">ônibus espacial</item>
+            <item id="1684">viajar</item>
+            <item id="1685">lua</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="551">Convenção mundial do espaço</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>testes-orgao1</id>
+        <dbId>843</dbId>
+        <nome>testes orgão1</nome>
+        <sigla>testes orgão1</sigla>
+        <descricao>testes orgão1</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital>testes orgão1</link-servico-digital>
+        <solicitantes>
+            <solicitante id="576">
+                <tipo>testes orgão1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1665">
+                <titulo>testes orgão1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1879" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="" dbId="58057">
+            <nomeOrgao>ORGÃO 1 (org)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1963">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1686">testes orgão1</item>
+            <item id="1687">testes orgão</item>
+            <item id="1688">testes orgã</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>solicitar-arquitetura-e-urbanismo-3</id>
         <dbId>726</dbId>
         <nome>Solicitar Arquitetura e Urbanismo 3</nome>
