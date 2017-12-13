@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>testes-orgao1</id>
+    <dbId>843</dbId>
+    <nome>testes orgão1</nome>
+    <sigla>testes orgão1</sigla>
+    <descricao>testes orgão1</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital>testes orgão1</link-servico-digital>
+    <solicitantes>
+        <solicitante id="576">
+            <tipo>testes orgão1</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1665">
+            <titulo>testes orgão1</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1879" tipo="presencial">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="" dbId="58057">
+        <nomeOrgao>ORGÃO 1 (org)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1963">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1686">testes orgão1</item>
+        <item id="1687">testes orgão</item>
+        <item id="1688">testes orgã</item>
+    </palavras-chave>
+</servico>
