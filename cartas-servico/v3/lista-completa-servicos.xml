@@ -1375,88 +1375,6 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
         </servicos-relacionados>
     </servico>
     <servico>
-        <id>atendimento-ao-contribuinte-do-funttel</id>
-        <dbId>23</dbId>
-        <nome>Atendimento ao Contribuinte do Funttel</nome>
-        <sigla>ACF</sigla>
-        <nomes-populares>
-            <item id="44">atendimento ao contribuinte</item>
-        </nomes-populares>
-        <descricao>Serviço destinado ao esclarecimento de dúvidas, recepção de  requerimentos de compensação, restituição, impugnações, concessão de vistas e cópias de processos administrativos e processos administrativos fiscais e emissão de certidões, análise de cadastro e petições.</descricao>
-        <contato>arrecadacao.funttel@comunicacoes.gov.br; telefone: (61) 2027-6133; Fax (61) 2017-6756</contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="26">
-                <tipo>Pessoa jurídica contribuinte do Funttel por meio do representante legal da pessoa jurídica</tipo>
-                <requisitos>ser representante legal da pessoa jurídica, ter cadastro de pessoa física e cadastro de pessoa jurídica aprovados no sistema CADSEI;</requisitos>
-            </solicitante>
-            <solicitante id="27">
-                <tipo>Procurador</tipo>
-                <requisitos>possuir cadastro de pessoa física (advogado) e/ou jurídica (escritório de advocacia) aprovados no CADSEI; procuração eletrônica outorgada pela pessoa jurídica a quem representa no CADSEI, sendo permitido o subestabelecimento.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="30" unidade="dias-uteis"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="49">
-                <titulo>Petição</titulo>
-                <descricao>Emissão da petição via sistema CADSEI, com descrição detalhada do que o usuário deseja.</descricao>
-                <documentos>
-                    <default>
-                        <item id="112">Petição e documentação acessória que dê suporte ao pedido.</item>
-                    </default>
-                    <caso id="29" descricao="Impugnação">
-                        <documento>
-                            <id>111</id>
-                            <descricao>documentos do CADSEI, acrescida da impugnação detalhando: a autoridade julgadora a quem é dirigida; a qualificação do impugnante e os motivos de fato e de direito em que se fundamenta, os pontos de discordância e as razões e provas que possuir;</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="91" tipo="web">
-                            <descricao>http://sistema.mc.gov.br/CADSEIWeb/pages/externo/SisCADSEI.jsf</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="54">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Telecomunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="103">Funttel</item>
-            <item id="104">tributos</item>
-            <item id="105">contribuições</item>
-            <item id="106">impostos</item>
-            <item id="107">inovação tecnológica</item>
-            <item id="108">desenvolvimento tecnológico</item>
-            <item id="109">processo administrativo fiscal</item>
-            <item id="110">restituição</item>
-            <item id="111">compensação</item>
-            <item id="112">impugnação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="35">LEI No 10.052, DE 28 DE NOVEMBRO DE 2000.
-DECRETO Nº 3.737,  DE 30 DE JANEIRO DE 2001.
-Resolução nº 95/2013, de 20 de março de 2013 - CGF
-LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.
-DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>solicitacao-de-restituicao-de-multa-dnit</id>
         <dbId>25</dbId>
         <nome>Solicitação de restituição de Multa DNIT</nome>
@@ -30879,6 +30797,93 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
         </palavras-chave>
         <legislacoes>
             <item id="551">Convenção mundial do espaço</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>atendimento-ao-contribuinte-do-funttel</id>
+        <dbId>23</dbId>
+        <nome>Atendimento ao Contribuinte do Funttel</nome>
+        <sigla>ACF</sigla>
+        <nomes-populares>
+            <item id="720">atendimento ao contribuinte</item>
+        </nomes-populares>
+        <descricao>Serviço destinado ao esclarecimento de dúvidas, recepção de  requerimentos de compensação, restituição, impugnações, concessão de vistas e cópias de processos administrativos e processos administrativos fiscais e emissão de certidões, análise de cadastro e petições.</descricao>
+        <contato>arrecadacao.funttel@comunicacoes.gov.br; telefone: (61) 2027-6133; Fax (61) 2017-6756</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="580">
+                <tipo>Pessoa jurídica contribuinte do Funttel por meio do representante legal da pessoa jurídica</tipo>
+                <requisitos>ser representante legal da pessoa jurídica, ter cadastro de pessoa física e cadastro de pessoa jurídica aprovados no sistema CADSEI;</requisitos>
+            </solicitante>
+            <solicitante id="581">
+                <tipo>Procurador</tipo>
+                <requisitos>possuir cadastro de pessoa física (advogado) e/ou jurídica (escritório de advocacia) aprovados no CADSEI; procuração eletrônica outorgada pela pessoa jurídica a quem representa no CADSEI, sendo permitido o subestabelecimento.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-uteis"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1668">
+                <titulo>Petição</titulo>
+                <descricao>Emissão da petição via sistema CADSEI, com descrição detalhada do que o usuário deseja.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1278">Petição e documentação acessória que dê suporte ao pedido.</item>
+                    </default>
+                    <caso id="377" descricao="Impugnação">
+                        <documento>
+                            <id>1277</id>
+                            <descricao>documentos do CADSEI, acrescida da impugnação detalhando: a autoridade julgadora a quem é dirigida; a qualificação do impugnante e os motivos de fato e de direito em que se fundamenta, os pontos de discordância e as razões e provas que possuir;</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1880" tipo="web">
+                            <descricao>http://sistema.mc.gov.br/CADSEIWeb/pages/externo/SisCADSEI.jsf</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1927" dbId="37544">
+            <nomeOrgao>Ministério do Meio Ambiente (MMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1966">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Telecomunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1702">Funttel</item>
+            <item id="1703">tributos</item>
+            <item id="1704">contribuições</item>
+            <item id="1705">impostos</item>
+            <item id="1706">inovação tecnológica</item>
+            <item id="1707">desenvolvimento tecnológico</item>
+            <item id="1708">processo administrativo fiscal</item>
+            <item id="1709">restituição</item>
+            <item id="1710">compensação</item>
+            <item id="1711">impugnação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="553">LEI No 10.052, DE 28 DE NOVEMBRO DE 2000.
+DECRETO Nº 3.737,  DE 30 DE JANEIRO DE 2001.
+Resolução nº 95/2013, de 20 de março de 2013 - CGF
+LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.
+DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         </legislacoes>
     </servico>
     <servico>
