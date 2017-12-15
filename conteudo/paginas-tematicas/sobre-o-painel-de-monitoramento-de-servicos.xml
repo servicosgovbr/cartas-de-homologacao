@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>O Painel de Monitoramento fornece aos cidadãos informações sobre o desempenho dos serviços públicos. Ao obter informações como o tempo de prestação e o nível de digitalização de um determinado serviço, o cidadão pode calibrar suas expectativas em termos de atendimento e cobrar do Governo a melhoria dos serviços públicos. 
+    <conteudo>O Painel de Monitoramento fornece aos cidadãos informações sobre o desempenho dos serviços públicos. Ao obter informações como o tempo de prestação e o nível de digitalização de um determinado serviço, o cidadão pode calibrar suas expectativas em termos de atendimento e cobrar do Governo a melhoria dos serviços públicos.
+ 
 As sugestões de melhoria podem ser encaminhadas ao Governo Federal por meio do canal Simplique!, criado pelo Decreto 9.094/2017, que permite ao cidadão propor mudanças e sugestões de simplificação para os serviços públicos. Um dos indicadores do Painel de Monitoramento é a quantidade de manifestações de simplificação recebidas pelo Governo.
+
 O Painel de Monitoramento é um dos componentes da Plataforma de Cidadania Digital, criada pelo Decreto 8.936/2016, que tem como objetivo trazer maior inovação, eficiência e qualidade na entrega dos serviços públicos por meio da digitalização.
 
 Sobre os Indicadores
@@ -28,9 +30,11 @@ Fonte dos dados: Portal de Serviços – “Etapas para a realização deste ser
 4 - Tempo médio de espera
 Descrição: Tempo médio estimado entre a solicitação do serviço e a entrega (dias).
 Fórmula: Soma do tempo estimado de todos os serviços (dias), dividida pela quantidade total de serviços (resultado em números inteiros). O tempo estimado de cada serviço é a quantidade de dias informada no Portal de Serviços.
+
 Exemplo 1: 
 - Valor informado: até 15 dias corridos.
 - Valor considerado: 15 dias.
+
 Exemplo 2:
 - Valor informado: até 6 dias úteis.
 - Valor considerado: 6 dias.
@@ -43,7 +47,7 @@ Fórmula: Quantidade de avaliações positivas, dividida pelo total de avaliaç�
 Frequência de atualização dos dados: Diariamente (uma vez ao dia).
 Fonte dos dados: Portal de Serviços – “Manifeste sua opinião: 1. Esta informação foi útil para você?” – Opções: Sim / Não.
 </conteudo>
-    <dbId>62</dbId>
+    <dbId>60</dbId>
     <nome>Sobre o Painel de Monitoramento de Serviços</nome>
     <orgaos/>
 </pagina-tematica>
