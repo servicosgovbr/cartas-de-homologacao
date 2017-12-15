@@ -5,7 +5,7 @@
     <nome>Atendimento ao Contribuinte do Funttel</nome>
     <sigla>ACF</sigla>
     <nomes-populares>
-        <item id="719">atendimento ao contribuinte</item>
+        <item id="720">atendimento ao contribuinte</item>
     </nomes-populares>
     <descricao>Serviço destinado ao esclarecimento de dúvidas, recepção de  requerimentos de compensação, restituição, impugnações, concessão de vistas e cópias de processos administrativos e processos administrativos fiscais e emissão de certidões, análise de cadastro e petições.</descricao>
     <contato>arrecadacao.funttel@comunicacoes.gov.br; telefone: (61) 2027-6133; Fax (61) 2017-6756</contato>
@@ -14,11 +14,11 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="578">
+        <solicitante id="580">
             <tipo>Pessoa jurídica contribuinte do Funttel por meio do representante legal da pessoa jurídica</tipo>
             <requisitos>ser representante legal da pessoa jurídica, ter cadastro de pessoa física e cadastro de pessoa jurídica aprovados no sistema CADSEI;</requisitos>
         </solicitante>
-        <solicitante id="579">
+        <solicitante id="581">
             <tipo>Procurador</tipo>
             <requisitos>possuir cadastro de pessoa física (advogado) e/ou jurídica (escritório de advocacia) aprovados no CADSEI; procuração eletrônica outorgada pela pessoa jurídica a quem representa no CADSEI, sendo permitido o subestabelecimento.</requisitos>
         </solicitante>
@@ -31,16 +31,16 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1667">
+        <etapa id="1668">
             <titulo>Petição</titulo>
             <descricao>Emissão da petição via sistema CADSEI, com descrição detalhada do que o usuário deseja.</descricao>
             <documentos>
                 <default>
-                    <item id="112">Petição e documentação acessória que dê suporte ao pedido.</item>
+                    <item id="1278">Petição e documentação acessória que dê suporte ao pedido.</item>
                 </default>
-                <caso id="29" descricao="Impugnação">
+                <caso id="377" descricao="Impugnação">
                     <documento>
-                        <id>111</id>
+                        <id>1277</id>
                         <descricao>documentos do CADSEI, acrescida da impugnação detalhando: a autoridade julgadora a quem é dirigida; a qualificação do impugnante e os motivos de fato e de direito em que se fundamenta, os pontos de discordância e as razões e provas que possuir;</descricao>
                     </documento>
                 </caso>
@@ -50,7 +50,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="91" tipo="web">
+                    <canal-de-prestacao id="1880" tipo="web">
                         <descricao>http://sistema.mc.gov.br/CADSEIWeb/pages/externo/SisCADSEI.jsf</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -61,25 +61,25 @@
         <nomeOrgao>Ministério do Meio Ambiente (MMA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="1965">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1966">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Telecomunicações</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1692">Funttel</item>
-        <item id="1693">tributos</item>
-        <item id="1694">contribuições</item>
-        <item id="1695">impostos</item>
-        <item id="1696">inovação tecnológica</item>
-        <item id="1697">desenvolvimento tecnológico</item>
-        <item id="1698">processo administrativo fiscal</item>
-        <item id="1699">restituição</item>
-        <item id="1700">compensação</item>
-        <item id="1701">impugnação</item>
+        <item id="1702">Funttel</item>
+        <item id="1703">tributos</item>
+        <item id="1704">contribuições</item>
+        <item id="1705">impostos</item>
+        <item id="1706">inovação tecnológica</item>
+        <item id="1707">desenvolvimento tecnológico</item>
+        <item id="1708">processo administrativo fiscal</item>
+        <item id="1709">restituição</item>
+        <item id="1710">compensação</item>
+        <item id="1711">impugnação</item>
     </palavras-chave>
     <legislacoes>
-        <item id="552">LEI No 10.052, DE 28 DE NOVEMBRO DE 2000.
+        <item id="553">LEI No 10.052, DE 28 DE NOVEMBRO DE 2000.
 DECRETO Nº 3.737,  DE 30 DE JANEIRO DE 2001.
 Resolução nº 95/2013, de 20 de março de 2013 - CGF
 LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.
