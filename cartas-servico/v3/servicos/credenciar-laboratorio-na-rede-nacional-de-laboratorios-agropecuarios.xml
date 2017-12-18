@@ -3,9 +3,9 @@
     <id>credenciar-laboratorio-na-rede-nacional-de-laboratorios-agropecuarios</id>
     <dbId>794</dbId>
     <nome>Credenciar Laboratório na Rede Nacional de Laboratórios Agropecuários</nome>
-    <sigla>LANAGRO</sigla>
+    <sigla></sigla>
     <nomes-populares>
-        <item id="632">Rede MAPA de laboratórios</item>
+        <item id="721">Rede MAPA de laboratórios</item>
     </nomes-populares>
     <descricao>O credenciamento de laboratórios junto ao MAPA se destina a atender, de forma complementar,  aos programas e controles oficias do MAPA, suprindo demandas por ensaios laboratoriais excedentes, não atendidas pelos laboratórios do próprio MAPA.</descricao>
     <contato>¨ **Telefone:** (61) 3218-2041      
@@ -15,7 +15,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="492">
+        <solicitante id="582">
             <tipo>Laboratórios</tipo>
             <requisitos>Públicos ou privados, que realizam ensaios laboratoriais para os programas e controles oficiais do MAPA.</requisitos>
         </solicitante>
@@ -28,7 +28,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1545">
+        <etapa id="1669">
             <titulo>Requerer credenciamento</titulo>
             <descricao>Os modelos dos formulários, relações e termos podem ser obtidos [aqui](http://www.agricultura.gov.br/assuntos/laboratorios/credenciamento).</descricao>
             <documentos>
@@ -51,18 +51,6 @@
                 </default>
                 <caso id="339" descricao="Para cada ensaio a ser credenciado, deverão ser informados:">
                     <documento>
-                        <id>1167</id>
-                        <descricao>A referência bibliográfica do método, quando pertinente</descricao>
-                    </documento>
-                    <documento>
-                        <id>1168</id>
-                        <descricao>Determinação analítica a ser obtida</descricao>
-                    </documento>
-                    <documento>
-                        <id>1169</id>
-                        <descricao>Técnica aplicada na realização do ensaio</descricao>
-                    </documento>
-                    <documento>
                         <id>1170</id>
                         <descricao>Código do procedimento referente à execução do método no laboratório, com o seu respectivo número de revisão</descricao>
                     </documento>
@@ -73,6 +61,18 @@
                     <documento>
                         <id>1172</id>
                         <descricao>A espécie, a cultura ou o hospedeiro, quando pertinente</descricao>
+                    </documento>
+                    <documento>
+                        <id>1167</id>
+                        <descricao>A referência bibliográfica do método, quando pertinente</descricao>
+                    </documento>
+                    <documento>
+                        <id>1168</id>
+                        <descricao>Determinação analítica a ser obtida</descricao>
+                    </documento>
+                    <documento>
+                        <id>1169</id>
+                        <descricao>Técnica aplicada na realização do ensaio</descricao>
                     </documento>
                 </caso>
             </documentos>
@@ -90,7 +90,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1546">
+        <etapa id="1670">
             <titulo>Receber resultado</titulo>
             <descricao>O credenciamento do laboratório será publicado no Diário Oficial da União</descricao>
             <documentos>
@@ -107,7 +107,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1547">
+        <etapa id="1671">
             <titulo>Ser autorizado a realizar ensaios</titulo>
             <descricao>O laboratório credenciado somente poderá realizar ensaios para os programas e
 controles oficiais do MAPA após ter seus dados e escopo publicados no sítio eletrônico do MAPA</descricao>
@@ -130,24 +130,24 @@ controles oficiais do MAPA após ter seus dados e escopo publicados no sítio el
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="1854">Órgãos e entidades públicas</item>
-        <item idSegmento="3" idServicoSegmento="1855">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="1967">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="1968">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1448">laboratórios</item>
-        <item id="1449">LANAGRO</item>
-        <item id="1450">ensaio laboratorial</item>
-        <item id="1451">laboratório agropecuário</item>
+        <item id="1715">laboratório agropecuário</item>
+        <item id="1712">laboratórios</item>
+        <item id="1713">LANAGRO</item>
+        <item id="1714">ensaio laboratorial</item>
     </palavras-chave>
     <legislacoes>
-        <item id="450">[DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC 8.471-2015?OpenDocument)</item>
-        <item id="451">[INSTRUÇÃO NORMATIVA No 57, DE 11 DE DEZEMBRO DE 2013](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/InstruoNormativan57de11.12.2013versoPDFdowordNovaRedaoNRsegundoIN19e41.pdf)</item>
-        <item id="452">[INSTRUÇÃO NORMATIVA Nº 19, DE 25 DE JUNHO DE 2014](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/instrucao-normativa-no-19-de-25-06-2014-alteracao-de-artigos-da-in57-2013.pdf)</item>
-        <item id="453">[INSTRUÇÃO NORMATIVA No - 41, DE 29 DE OUTUBRO DE 2015](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/IN412015.pdf)</item>
-        <item id="454">[DECRETO Nº 5.741, DE 30 DE MARÇO DE 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)</item>
+        <item id="554">[DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC 8.471-2015?OpenDocument)</item>
+        <item id="555">[INSTRUÇÃO NORMATIVA No 57, DE 11 DE DEZEMBRO DE 2013](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/InstruoNormativan57de11.12.2013versoPDFdowordNovaRedaoNRsegundoIN19e41.pdf)</item>
+        <item id="556">[INSTRUÇÃO NORMATIVA Nº 19, DE 25 DE JUNHO DE 2014](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/instrucao-normativa-no-19-de-25-06-2014-alteracao-de-artigos-da-in57-2013.pdf)</item>
+        <item id="557">[INSTRUÇÃO NORMATIVA No - 41, DE 29 DE OUTUBRO DE 2015](http://www.agricultura.gov.br/assuntos/laboratorios/arquivos-credenciamento/IN412015.pdf)</item>
+        <item id="558">[DECRETO Nº 5.741, DE 30 DE MARÇO DE 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5741.htm)</item>
     </legislacoes>
 </servico>
