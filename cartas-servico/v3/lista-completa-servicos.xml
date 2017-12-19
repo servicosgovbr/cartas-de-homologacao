@@ -30883,6 +30883,65 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
         </legislacoes>
     </servico>
     <servico>
+        <id>teste-1-3</id>
+        <dbId>886</dbId>
+        <nome>Teste 1-3</nome>
+        <sigla>21 3</sigla>
+        <nomes-populares>
+            <item id="773">21</item>
+        </nomes-populares>
+        <descricao>wqewqe</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="624">
+                <tipo>qweqwewqe</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1715">
+                <titulo>ewqewqe</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013" dbId="910">
+            <nomeOrgao>Agência Nacional de Saúde Suplementar (ANS)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2089">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2090">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Água</item>
+            <item>Alimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1839">e</item>
+            <item id="1840">w</item>
+            <item id="1841">w</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>viajar-para-o-espaco</id>
         <dbId>842</dbId>
         <nome>Viajar para o espaço</nome>
@@ -32189,7 +32248,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 2</nome>
         <sigla>MTco gjhj</sigla>
         <nomes-populares>
-            <item id="635">Teste</item>
+            <item id="767">Teste 1</item>
         </nomes-populares>
         <descricao>ultimo contracheque</descricao>
         <contato>visualizar ultimo contracheque</contato>
@@ -32198,7 +32257,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="495">
+            <solicitante id="620">
                 <tipo>a</tipo>
                 <requisitos>a</requisitos>
             </solicitante>
@@ -32211,7 +32270,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1550">
+            <etapa id="1711">
                 <titulo>asdasdasda</titulo>
                 <descricao>a</descricao>
                 <documentos>
@@ -32222,7 +32281,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1828" tipo="web">
+                        <canal-de-prestacao id="1893" tipo="web">
                             <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
                         </canal-de-prestacao>
                     </default>
@@ -32233,20 +32292,20 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
             <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1860">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1861">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="2079">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="2080">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
             <item>Abastecimento</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1458">a</item>
-            <item id="1459">a</item>
-            <item id="1460">a</item>
+            <item id="1827">a</item>
+            <item id="1828">a</item>
+            <item id="1829">a</item>
         </palavras-chave>
         <legislacoes>
-            <item id="456">a</item>
+            <item id="596">a</item>
         </legislacoes>
     </servico>
     <servico>
@@ -33000,13 +33059,199 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </servicos-relacionados>
     </servico>
     <servico>
+        <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
+        <dbId>881</dbId>
+        <nome>Obter certificados de exportação de vinhos e bebidas</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="764">certificado de livre venda</item>
+            <item id="765">certificado de origem</item>
+        </nomes-populares>
+        <descricao>Emissão de certificados para exportação de produtos (bebidas, vinagres e derivados da uva e do vinho) elaborados nacionalmente.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="617">
+                <tipo>Produtores de vinhos e outras bebidas brasileiros</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="15" max="30" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1706">
+                <titulo>Solicitar certificado</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1283">Requerimento</item>
+                        <item id="1284">Contrato ou Carta proposta firmada e relativa aos produtos a serem analisados</item>
+                        <item id="1285">Documentação comprobatória da exigência oficial do país importador</item>
+                        <item id="1286">Cópia do Registro do estabelecimento exportador e dos produtos a serem exportado</item>
+                        <item id="1287">Amostra do produto a ser certificado</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1886" tipo="web">
+                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=881</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1885" tipo="presencial">
+                            <descricao>Em uma [Superintendência Federal de Agricultura](http://www.agricultura.gov.br/sfa)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1707">
+                <titulo>Receber certificado</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1288">Documento de identificação oficial</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1888" tipo="web">
+                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=881</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1887" tipo="presencial">
+                            <descricao>Em uma [Superintendência Federal de Agricultura](http://www.agricultura.gov.br/sfa)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2071">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="2072">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1818">vinho</item>
+            <item id="1819">bebida</item>
+            <item id="1820">exportação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="593">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
+            <item id="594">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>obter-autorizacao-de-importacao-de-material-genetico-e-animais-vivos-exceto-caes-e-gatos</id>
+        <dbId>882</dbId>
+        <nome>Obter autorização de importação de material genético e animais vivos, exceto cães e gatos</nome>
+        <sigla></sigla>
+        <descricao>Para importar animais vivos, assim como materiais para multiplicação de animais, é necessário receber autorização prévia do Ministério da Agricultura, Pecuária e Abastecimento, obtida através deste serviço.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=882</link-servico-digital>
+        <solicitantes>
+            <solicitante id="618">
+                <tipo>Pessoas físicas e jurídicas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="30" max="60" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1708">
+                <titulo>Requerer autorização de importação</titulo>
+                <descricao>O usuário deve fornecer toda a documentação solicitada e o formulário corretamente preenchido.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1289">Licenciamento de Importação</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1890" tipo="web">
+                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=882</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1889" tipo="presencial">
+                            <descricao>Sede da Superintendência Federal da Agricultura da Unidade da Federação onde o cidadão reside.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1709">
+                <titulo>Receber autorização de importação</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1290">Carteira de identidade</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1892" tipo="web">
+                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=882</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1891" tipo="presencial">
+                            <descricao>Superintendência Federal da Agricultura do estado onde o cidadão reside.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2073">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2074">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="2075">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="2" idServicoSegmento="2076">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1821">material genético</item>
+            <item id="1822">importação</item>
+            <item id="1823">animais</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>0teste-carlos-18-12-2017</id>
         <dbId>848</dbId>
         <nome>0teste Carlos 18-12-2017</nome>
-        <sigla>0TCWAD</sigla>
+        <sigla>0TCWAD 2</sigla>
         <nomes-populares>
-            <item id="762">0teste</item>
-            <item id="763">0TC Carlos</item>
+            <item id="768">0teste</item>
+            <item id="769">0TC Carlos</item>
         </nomes-populares>
         <descricao>0teste Carlos 18-12-2017. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
 
@@ -33026,7 +33271,7 @@ Aliquam a consectetur nibh. Sed turpis nisi, ullamcorper sit amet bibendum et, v
         <servico-digital>true</servico-digital>
         <link-servico-digital>https://br.lipsum.com/feed/html</link-servico-digital>
         <solicitantes>
-            <solicitante id="616">
+            <solicitante id="621">
                 <tipo>Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.
 
 Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit.</tipo>
@@ -33046,31 +33291,17 @@ Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas e
             <descricao>Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros.</descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1705">
+            <etapa id="1712">
                 <titulo>Etiam ac nulla sollicitudin, sodales</titulo>
                 <descricao>Donec hendrerit lorem suscipit tortor elementum pretium. Aliquam erat volutpat. Quisque auctor mauris id metus vestibulum feugiat. Duis vel consectetur turpis, id placerat odio. Quisque rhoncus mauris eros, nec facilisis ante rutrum at. Duis feugiat euismod tellus ac euismod. Etiam tellus purus, blandit sed neque sed, porta varius orci. Nullam convallis congue malesuada. Donec faucibus justo luctus, placerat sem eget, elementum odio. Integer at felis a ligula placerat interdum.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1279">Mauris scelerisque porttitor leo non semper. Ut purus mi, aliquet eget felis nec, venenatis sollicitudin leo. Fusce egestas leo at orci eleifend, sit amet aliquet leo volutpat. Aliquam in lorem diam. Quisque ornare neque non enim gravida, vel pellentesque dolor imperdiet. Curabitur tristique massa sed dolor vehicula, sit amet placerat arcu efficitur. Ut mollis tellus dui, nec scelerisque elit dictum eu. Etiam rhoncus viverra tellus non ullamcorper. Curabitur venenatis enim mollis orci ullamcorp.</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
-                    <default>
-                        <custo id="148">
-                            <descricao>Taxa fixa</descricao>
-                            <moeda>R$</moeda>
-                            <valor>4,563</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
+                    <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1881" tipo="e-mail">
-                            <descricao>Nam leo velit, placerat at faucibus nec, consectetur porttitor arcu. Sed bibendum metus nec nisl sagittis viverra. Quisque sit amet maximus eros, non ultrices diam. Etiam id vehicula arcu. Proin at leo efficitur, interdum dui in, cursus lacus. Sed mattis nibh quis lorem eleifend, quis eleifend arcu consectetur. Maecenas rutrum lectus non est convallis, sed blandit mi ultricies. Suspendisse vulputate dignissim neque, ut dictum odio rutrum ut. Nunc a semper metus.</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
@@ -33078,9 +33309,9 @@ Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas e
             <nomeOrgao>Agência Nacional do Cinema (ANCINE)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="4" idServicoSegmento="2068">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="2" idServicoSegmento="2069">Órgãos e entidades públicas</item>
-            <item idSegmento="1" idServicoSegmento="2070">Cidadãos</item>
+            <item idSegmento="4" idServicoSegmento="2081">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="2" idServicoSegmento="2082">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="2083">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Assistência ao Portador de Deficiência</item>
@@ -33093,12 +33324,12 @@ Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas e
             <item>Infraestrutura Urbana</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1815">Carlos</item>
-            <item id="1816">0teste</item>
-            <item id="1817">18-12-2017</item>
+            <item id="1832">18-12-2017</item>
+            <item id="1830">Carlos</item>
+            <item id="1831">0teste</item>
         </palavras-chave>
         <legislacoes>
-            <item id="592">Etiam id odio dapibus, vestibulum orci eget, blandit metus. Sed at neque in est porta dapibus sed sed lacus. Morbi pulvinar dapibus tempus. Quisque vel augue nec ante pulvinar luctus. Nulla nec molestie elit, a rhoncus est. Integer aliquet tristique diam in pharetra. Donec sagittis, purus quis volutpat cursus, sem purus ullamcorper nibh, eget dignissim ex dolor ut nisi.
+            <item id="597">Etiam id odio dapibus, vestibulum orci eget, blandit metus. Sed at neque in est porta dapibus sed sed lacus. Morbi pulvinar dapibus tempus. Quisque vel augue nec ante pulvinar luctus. Nulla nec molestie elit, a rhoncus est. Integer aliquet tristique diam in pharetra. Donec sagittis, purus quis volutpat cursus, sem purus ullamcorper nibh, eget dignissim ex dolor ut nisi.
 
 Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed viverra ligula ligula.</item>
         </legislacoes>
