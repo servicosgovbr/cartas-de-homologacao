@@ -3,9 +3,9 @@
     <id>agendamento-de-atendimento-presencial</id>
     <dbId>175</dbId>
     <nome>Agendamento de Atendimento Presencial</nome>
-    <sigla>SISCOSERV</sigla>
+    <sigla>SISCOSERV2</sigla>
     <nomes-populares>
-        <item id="775">SISCOSERV</item>
+        <item id="776">SISCOSERV</item>
     </nomes-populares>
     <descricao>ORIENTAÇÃO PARA HABILITAÇÃO</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="626">
+        <solicitante id="627">
             <tipo>Pessoa fisica</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1717">
+        <etapa id="1718">
             <titulo>Sem etapa</titulo>
             <descricao>sem etapa</descricao>
             <documentos>
@@ -57,15 +57,15 @@
         <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2093">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2094">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2095">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2096">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1848">tetste</item>
-        <item id="1849">teste</item>
-        <item id="1850">DISO - Espólio José Joaquim de Souza</item>
+        <item id="1851">tetste</item>
+        <item id="1852">teste</item>
+        <item id="1853">DISO - Espólio José Joaquim de Souza</item>
     </palavras-chave>
 </servico>
