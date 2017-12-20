@@ -1,41 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>agendamento-de-atendimento-presencial</id>
+    <dbId>175</dbId>
     <nome>Agendamento de Atendimento Presencial</nome>
-    <sigla/>
-    <nomes-populares/>
-    <descricao>Efetuar agendamento de serviços para atendimento nas unidades da Receita Federal.</descricao>
-    <gratuito/>
-    <solicitantes/>
+    <sigla>SISCOSERV</sigla>
+    <nomes-populares>
+        <item id="775">SISCOSERV</item>
+    </nomes-populares>
+    <descricao>ORIENTAÇÃO PARA HABILITAÇÃO</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="626">
+            <tipo>Pessoa fisica</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <entre min="4" max="25" unidade="minutos"/>
+        <descricao>Imposto de renda</descricao>
     </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
+        <etapa id="1717">
+            <titulo>Sem etapa</titulo>
+            <descricao>sem etapa</descricao>
             <documentos>
                 <default/>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="152">
+                        <descricao></descricao>
+                        <moeda>R$</moeda>
+                        <valor>10</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="977" tipo="web">
                         <descricao>https://www.receita.fazenda.gov.br/Aplicacoes/SSL/ATBHE/SAGA/RegrasAgendamento.aspx</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+        <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
-        <item>Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2093">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2094">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="1848">tetste</item>
+        <item id="1849">teste</item>
+        <item id="1850">DISO - Espólio José Joaquim de Souza</item>
+    </palavras-chave>
 </servico>
