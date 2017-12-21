@@ -5,18 +5,18 @@
     <nome>teste para custo</nome>
     <sigla>teste para</sigla>
     <nomes-populares>
-        <item id="782">teste para custo</item>
+        <item id="783">teste para custo</item>
     </nomes-populares>
-    <descricao>teste para custo</descricao>
+    <descricao>teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custoteste para custoteste para para</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital>teste para custo</link-servico-digital>
     <solicitantes>
-        <solicitante id="633">
-            <tipo>teste para custo</tipo>
-            <requisitos></requisitos>
+        <solicitante id="634">
+            <tipo>teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para dfd</tipo>
+            <requisitos>teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para dfdeeteste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para df</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -24,14 +24,20 @@
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>dias</unidade>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1724">
+        <etapa id="1725">
             <titulo>teste para custo</titulo>
             <descricao></descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="1299">teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste para custoteste para cu teste para custo teste para custoteste para custoteste para custoteste para custoteste para custoteste para custo teste para custo teste para custoteste parasto teste para custo teste para custoteste parasto teste para custo teste para custoteste parasto teste para custo teste para custoteste parasto teste para custo te66</item>
+                    <item id="1300">[Portal de Serviços](http://servicos.gov.br)</item>
+                </default>
             </documentos>
             <custos>
                 <default>
@@ -63,14 +69,14 @@
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2100">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2101">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1863">teste para custo</item>
-        <item id="1864">teste para custo 2</item>
-        <item id="1865">v</item>
+        <item id="1866">teste para custo</item>
+        <item id="1867">teste para custo 2</item>
+        <item id="1868">v</item>
     </palavras-chave>
 </servico>
