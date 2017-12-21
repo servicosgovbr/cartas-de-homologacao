@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-para-custo</id>
+    <dbId>897</dbId>
+    <nome>teste para custo</nome>
+    <sigla>teste para</sigla>
+    <nomes-populares>
+        <item id="782">teste para custo</item>
+    </nomes-populares>
+    <descricao>teste para custo</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital>teste para custo</link-servico-digital>
+    <solicitantes>
+        <solicitante id="633">
+            <tipo>teste para custo</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1724">
+            <titulo>teste para custo</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="158">
+                        <descricao>custo fixo</descricao>
+                        <moeda>R$</moeda>
+                        <valor>2,038</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                    <custo id="159">
+                        <descricao>custo variavel</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>10x salario minimo</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1898" tipo="aplicativo-movel">
+                        <descricao>descrição</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2100">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1863">teste para custo</item>
+        <item id="1864">teste para custo 2</item>
+        <item id="1865">v</item>
+    </palavras-chave>
+</servico>
