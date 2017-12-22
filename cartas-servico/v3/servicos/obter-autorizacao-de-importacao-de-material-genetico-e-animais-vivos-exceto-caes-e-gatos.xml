@@ -9,9 +9,9 @@
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=882</link-servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="618">
+        <solicitante id="636">
             <tipo>Pessoas físicas e jurídicas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1708">
+        <etapa id="1729">
             <titulo>Requerer autorização de importação</titulo>
             <descricao>O usuário deve fornecer toda a documentação solicitada e o formulário corretamente preenchido.</descricao>
             <documentos>
@@ -46,7 +46,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1709">
+        <etapa id="1730">
             <titulo>Receber autorização de importação</titulo>
             <descricao></descricao>
             <documentos>
@@ -73,17 +73,17 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2073">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2074">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2075">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        <item idSegmento="2" idServicoSegmento="2076">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2104">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2105">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2106">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="2107">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1821">material genético</item>
-        <item id="1822">importação</item>
-        <item id="1823">animais</item>
+        <item id="1872">material genético</item>
+        <item id="1873">importação</item>
+        <item id="1874">animais</item>
     </palavras-chave>
 </servico>
