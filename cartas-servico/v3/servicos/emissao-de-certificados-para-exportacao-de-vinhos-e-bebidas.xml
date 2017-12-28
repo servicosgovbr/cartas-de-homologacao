@@ -3,11 +3,11 @@
     <id>emissao-de-certificados-para-exportacao-de-vinhos-e-bebidas</id>
     <dbId>914</dbId>
     <nome>Emissão de Certificados para Exportação de Vinhos e Bebidas</nome>
-    <sigla>ECE</sigla>
+    <sigla></sigla>
     <nomes-populares>
-        <item id="790">ECE</item>
-        <item id="791">CLV</item>
-        <item id="792">CO</item>
+        <item id="793">ECE</item>
+        <item id="794">CLV</item>
+        <item id="795">CO</item>
     </nomes-populares>
     <descricao>Os certificados de exportação de vinhos e bebidas se faz necessário para quem deseja realizar a exportação de produtos dessa natureza.</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="642">
+        <solicitante id="643">
             <tipo>Representantes legais das empresas exportadoras.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1742">
+        <etapa id="1745">
             <titulo>Solicitar</titulo>
             <descricao>Cidadão realiza a solicitação para emissão do certificado.</descricao>
             <documentos>
@@ -46,7 +46,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1743">
+        <etapa id="1746">
             <titulo>Análise</titulo>
             <descricao>Nesta etapa é feita a análise da solicitação.</descricao>
             <documentos>
@@ -63,7 +63,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1744">
+        <etapa id="1747">
             <titulo>Emissão e Recebimento</titulo>
             <descricao>Nesta fase o certificado foi aprovado e o cidadão recebe o certificado para impressão.</descricao>
             <documentos>
@@ -85,15 +85,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2121">Empresas</item>
-        <item idSegmento="1" idServicoSegmento="2122">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2123">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2124">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1890">exportação</item>
-        <item id="1891">vinhos</item>
-        <item id="1892">bebidas</item>
+        <item id="1893">exportação</item>
+        <item id="1894">vinhos</item>
+        <item id="1895">bebidas</item>
     </palavras-chave>
 </servico>
