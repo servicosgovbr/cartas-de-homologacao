@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>emissao-de-certificados-para-exportacao-de-vinhos-e-bebidas</id>
+    <dbId>914</dbId>
+    <nome>Emissão de Certificados para Exportação de Vinhos e Bebidas</nome>
+    <sigla>ECE</sigla>
+    <nomes-populares>
+        <item id="790">ECE</item>
+        <item id="791">CLV</item>
+        <item id="792">CO</item>
+    </nomes-populares>
+    <descricao>Os certificados de exportação de vinhos e bebidas se faz necessário para quem deseja realizar a exportação de produtos dessa natureza.</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="642">
+            <tipo>Representantes legais das empresas exportadoras.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="30" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1742">
+            <titulo>Solicitar</titulo>
+            <descricao>Cidadão realiza a solicitação para emissão do certificado.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1900" tipo="web">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1743">
+            <titulo>Análise</titulo>
+            <descricao>Nesta etapa é feita a análise da solicitação.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1901" tipo="web">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1744">
+            <titulo>Emissão e Recebimento</titulo>
+            <descricao>Nesta fase o certificado foi aprovado e o cidadão recebe o certificado para impressão.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1902" tipo="web">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2121">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2122">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1890">exportação</item>
+        <item id="1891">vinhos</item>
+        <item id="1892">bebidas</item>
+    </palavras-chave>
+</servico>
