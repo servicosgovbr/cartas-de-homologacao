@@ -5,7 +5,7 @@
     <nome>1teste Carlos 18-12-2017 (0TC)</nome>
     <sigla>1TCC</sigla>
     <nomes-populares>
-        <item id="761">1TC</item>
+        <item id="787">1TC</item>
     </nomes-populares>
     <descricao>1TC - 1</descricao>
     <contato>1TC - 10</contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://br.lipsum.com/feed/html</link-servico-digital>
     <solicitantes>
-        <solicitante id="615">
+        <solicitante id="639">
             <tipo>1TC - 3</tipo>
             <requisitos>1TC - 4</requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao>1TC - 2</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1704">
+        <etapa id="1738">
             <titulo>1TC - 5</titulo>
             <descricao>1TC - 6</descricao>
             <documentos>
@@ -62,22 +62,23 @@
         <nomeOrgao>Agência Nacional do Cinema (ANCINE)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2065">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2066">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2067">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2112">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2113">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2114">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Assistência à Criança e ao Adolescente</item>
         <item>Comercio externo</item>
         <item>Comunicações Postais</item>
         <item>Previdência Social</item>
+        <item>Categoria Teste Edson</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1812">1TC - 1</item>
-        <item id="1813">1TC - 12</item>
-        <item id="1814">1TC</item>
+        <item id="1881">1TC - 1</item>
+        <item id="1882">1TC - 12</item>
+        <item id="1883">1TC</item>
     </palavras-chave>
     <legislacoes>
-        <item id="591">1TC - 13</item>
+        <item id="601">1TC - 13</item>
     </legislacoes>
 </servico>
