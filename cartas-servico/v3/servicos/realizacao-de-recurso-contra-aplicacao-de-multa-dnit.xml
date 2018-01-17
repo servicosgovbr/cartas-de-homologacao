@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>realizacao-de-recurso-contra-aplicacao-de-multa-dnit</id>
+    <dbId>596</dbId>
+    <nome>Realização de Recurso Contra Aplicação de Multa - DNIT</nome>
+    <sigla>Recurso</sigla>
+    <nomes-populares>
+        <item id="202">Recurso de Multa</item>
+    </nomes-populares>
+    <descricao>Processo administrativo, através do qual o interessado ou seu representante manifesta sua discordância da multa aplicada.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="187">
+            <tipo>Qualquer cidadão que receba uma notificação de penalidade</tipo>
+            <requisitos>Ter recebido a notificação de penalidade de uma multa DNIT</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao>Realização de Recurso Contra Aplicação de Multa - DNIT (Recurso)</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="993">
+            <titulo>Preencher formulário de recurso</titulo>
+            <descricao>O condutor deve apresentar os fatos que achar prudentes para anular a penalidade.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1227" tipo="web">
+                        <descricao>http://www.dnit.gov.br/rodovias/operacoes-rodoviarias/multas/multas-de-transito-aplicadas-pelo-dnit</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1749">
+            <titulo>Etapa teste 2</titulo>
+            <descricao>teste dois</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1904" tipo="web">
+                        <descricao>djsdhfiusdhfusdifhiusdhf</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1903" tipo="presencial">
+                        <descricao>tytdsduyasgduygasyudgsad</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/0" dbId="58045">
+        <nomeOrgao>Órgão não encontrado</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2128">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Água</item>
+        <item>Ambiente e saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1899">teste</item>
+        <item id="1900">teste2</item>
+        <item id="1901">teste3</item>
+    </palavras-chave>
+</servico>
