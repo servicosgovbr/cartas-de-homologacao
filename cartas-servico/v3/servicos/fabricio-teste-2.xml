@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>fabricio-teste-2</id>
+    <dbId>920</dbId>
+    <nome>fabricio teste 2</nome>
+    <sigla>af</sigla>
+    <descricao>asdfa</descricao>
+    <contato>2345234</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="649">
+            <tipo>dfasdfa</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="2" unidade="horas"/>
+        <descricao>asfasd</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>2</quantidade>
+        <unidade>meses</unidade>
+        <descricao>asdfa</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1756">
+            <titulo>etapa 1</titulo>
+            <descricao>asdfas</descricao>
+            <documentos>
+                <default>
+                    <item id="1308">afasdfas</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1907" tipo="presencial">
+                        <descricao>asdfasdfasf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1757">
+            <titulo>Etapa 2</titulo>
+            <descricao>asdfa</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1908" tipo="presencial">
+                        <descricao>asfasdfas</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1758">
+            <titulo>etapa 3</titulo>
+            <descricao>aafsdfasdf</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1909" tipo="presencial">
+                        <descricao>asdfasdfa</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2135">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1912">nnfhn</item>
+        <item id="1913">cvbncb</item>
+        <item id="1914">ncvbnbcv</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="608">cvbncv</item>
+    </legislacoes>
+</servico>
