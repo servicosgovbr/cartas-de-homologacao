@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>fabricio-teste</id>
+    <dbId>919</dbId>
+    <nome>Fabricio teste</nome>
+    <sigla>ft</sigla>
+    <descricao>sdfgsdfg</descricao>
+    <contato>23452345</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="648">
+            <tipo>sdfgsdfg</tipo>
+            <requisitos>xcbxcvb</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="3" unidade="horas"/>
+        <descricao>dgsdfgs</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>2</quantidade>
+        <unidade>meses</unidade>
+        <descricao>sdfgsdf</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1755">
+            <titulo>xcbxcb</titulo>
+            <descricao>xcvbx</descricao>
+            <documentos>
+                <default>
+                    <item id="1307">xcbvxx</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1906" tipo="e-mail">
+                        <descricao>xcbxcvb@asdfa.com</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2134">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1909">sdfgsdfg</item>
+        <item id="1910">cvbncvbn</item>
+        <item id="1911">cvbncv</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="607">cvncv</item>
+    </legislacoes>
+</servico>
