@@ -32220,6 +32220,72 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </legislacoes>
     </servico>
     <servico>
+        <id>fabricio-teste</id>
+        <dbId>919</dbId>
+        <nome>Fabricio teste</nome>
+        <sigla>ft</sigla>
+        <descricao>sdfgsdfg</descricao>
+        <contato>23452345</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="648">
+                <tipo>sdfgsdfg</tipo>
+                <requisitos>xcbxcvb</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="3" unidade="horas"/>
+            <descricao>dgsdfgs</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>meses</unidade>
+            <descricao>sdfgsdf</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1755">
+                <titulo>xcbxcb</titulo>
+                <descricao>xcvbx</descricao>
+                <documentos>
+                    <default>
+                        <item id="1307">xcbvxx</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1906" tipo="e-mail">
+                            <descricao>xcbxcvb@asdfa.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2134">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1909">sdfgsdfg</item>
+            <item id="1910">cvbncvbn</item>
+            <item id="1911">cvbncv</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="607">cvncv</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-juridica</id>
         <dbId>459</dbId>
         <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Jurídica</nome>
@@ -32772,6 +32838,106 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>fabricio-teste-2</id>
+        <dbId>920</dbId>
+        <nome>fabricio teste 2</nome>
+        <sigla>af</sigla>
+        <descricao>asdfa</descricao>
+        <contato>2345234</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="649">
+                <tipo>dfasdfa</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="2" unidade="horas"/>
+            <descricao>asfasd</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>meses</unidade>
+            <descricao>asdfa</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1756">
+                <titulo>etapa 1</titulo>
+                <descricao>asdfas</descricao>
+                <documentos>
+                    <default>
+                        <item id="1308">afasdfas</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1907" tipo="presencial">
+                            <descricao>asdfasdfasf</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1757">
+                <titulo>Etapa 2</titulo>
+                <descricao>asdfa</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1908" tipo="presencial">
+                            <descricao>asfasdfas</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1758">
+                <titulo>etapa 3</titulo>
+                <descricao>aafsdfasdf</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1909" tipo="presencial">
+                            <descricao>asdfasdfa</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2135">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1912">nnfhn</item>
+            <item id="1913">cvbncb</item>
+            <item id="1914">ncvbnbcv</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="608">cvbncv</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>servico-publicacao-github-2</id>
         <dbId>684</dbId>
         <nome>Serviço publicação Github 2</nome>
@@ -33060,22 +33226,22 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         <nome>Obter CNH</nome>
         <sigla>CNH</sigla>
         <nomes-populares>
-            <item id="779">Carta de Motorista</item>
-            <item id="780">Carteira de Habilitação</item>
-            <item id="781">Carta de condutor automotivo</item>
+            <item id="799">Carta de Motorista</item>
+            <item id="800">Carteira de Habilitação</item>
+            <item id="801">Carta de condutor automotivo</item>
         </nomes-populares>
-        <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteria de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
+        <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteira de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
         <contato>0800-123456</contato>
         <gratuito>false</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="631">
+            <solicitante id="646">
                 <tipo>Habilitação na categoria C, D ou E</tipo>
                 <requisitos>O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).</requisitos>
             </solicitante>
-            <solicitante id="632">
+            <solicitante id="647">
                 <tipo>Habilitação na categoria A, B ou AB</tipo>
                 <requisitos>Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.</requisitos>
             </solicitante>
@@ -33094,7 +33260,7 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1723">
+            <etapa id="1754">
                 <titulo>Agendar atendimento no Detran</titulo>
                 <descricao>O agendamento por telefone deverá ser realizado no período de 8h às 18h, de segunda à sexta.</descricao>
                 <documentos>
@@ -33112,8 +33278,8 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
                             <statusCustoVariavel>1</statusCustoVariavel>
                         </custo>
                     </default>
-                    <caso id="381" descricao="Caso seja tres">
-                        <custo id="157">
+                    <caso id="384" descricao="Caso seja tres">
+                        <custo id="181">
                             <descricao>Custo Novo</descricao>
                             <moeda>R$</moeda>
                             <valor>10,00</valor>
@@ -33135,19 +33301,19 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
             <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2099">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="2133">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Transportes</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1859">carta</item>
-            <item id="1860">carteira</item>
-            <item id="1861">condutor</item>
-            <item id="1862">habilitação</item>
+            <item id="1905">carta</item>
+            <item id="1906">carteira</item>
+            <item id="1907">condutor</item>
+            <item id="1908">habilitação</item>
         </palavras-chave>
         <legislacoes>
-            <item id="599">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
+            <item id="606">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
         </legislacoes>
         <servicos-relacionados>
             <item>496</item>
