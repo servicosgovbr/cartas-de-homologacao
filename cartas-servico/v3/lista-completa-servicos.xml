@@ -25372,6 +25372,129 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         </legislacoes>
     </servico>
     <servico>
+        <id>sair-do-github</id>
+        <dbId>669</dbId>
+        <nome>Sair do Github</nome>
+        <sigla>GitHub hfjkjfdh</sigla>
+        <nomes-populares>
+            <item id="802">git</item>
+            <item id="803">hub</item>
+            <item id="804">codigo</item>
+            <item id="805">github</item>
+        </nomes-populares>
+        <descricao>GitHub</descricao>
+        <contato>Teste Contato</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="650">
+                <tipo>Programadores</tipo>
+                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de organizacão que é amplamente utilizado por aqueles que querem uma escola maior para seus projetos. Na maioria das vezes, o recurso é usado por empresas já</requisitos>
+            </solicitante>
+            <solicitante id="651">
+                <tipo>Arquitetos t</tipo>
+                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>Depende da pessoa</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1759">
+                <titulo>Subir Codigo</titulo>
+                <descricao>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</descricao>
+                <documentos>
+                    <default>
+                        <item id="1034">email</item>
+                        <item id="1035">senha</item>
+                    </default>
+                    <caso id="281" descricao="Rico">
+                        <documento>
+                            <id>1033</id>
+                            <descricao>Certificado Digital</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1772" tipo="web">
+                            <descricao>[GitHub](https://www.github.com)</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="282" descricao="Git local Empresa Web">
+                        <canal-de-prestacao id="1770" tipo="web">
+                            <descricao>Endereço do Git Local</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="283" descricao="Git Local Empresa Física">
+                        <canal-de-prestacao id="1771" tipo="presencial">
+                            <descricao>Local da empresa, levar código fonte no CD.</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1760">
+                <titulo>Baixar Código</titulo>
+                <descricao>Acessar Git da primeira Etapa</descricao>
+                <documentos>
+                    <default>
+                        <item id="1037">email</item>
+                        <item id="1038">senha</item>
+                    </default>
+                    <caso id="284" descricao="Rico 2">
+                        <documento>
+                            <id>1036</id>
+                            <descricao>Certificado Digital</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1773" tipo="e-mail">
+                            <descricao>github@github.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2136">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="2137">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="1" idServicoSegmento="2138">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2139">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Serviços Públicos</item>
+            <item>Sistema Financeiro</item>
+            <item>test</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1915">Gt</item>
+            <item id="1916">Tes</item>
+            <item id="1917">Github</item>
+            <item id="1918">Programação</item>
+            <item id="1919">Programas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="609">LEgislação Mill</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>testecarlos-mcidades-29-08-17</id>
         <dbId>673</dbId>
         <nome>TesteCarlos-MCidades-29-08-17</nome>
@@ -25546,129 +25669,6 @@ SHFJKHFDJKHFJKHDJKFJFJDxv cFJFJcxbvxcbbvc,mnxbnvc.,bm,.vcm,.bm,.vcmb,.mvc ,.mb,.
             <item id="1415">k</item>
             <item id="1416">k</item>
         </palavras-chave>
-    </servico>
-    <servico>
-        <id>sair-do-github</id>
-        <dbId>669</dbId>
-        <nome>Sair do Github</nome>
-        <sigla>GitHub hfjkjfdh</sigla>
-        <nomes-populares>
-            <item id="615">git</item>
-            <item id="616">hub</item>
-            <item id="617">codigo</item>
-            <item id="618">github</item>
-        </nomes-populares>
-        <descricao>GitHub</descricao>
-        <contato>Teste Contato</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="483">
-                <tipo>Programadores</tipo>
-                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de organizacão que é amplamente utilizado por aqueles que querem uma escola maior para seus projetos. Na maioria das vezes, o recurso é usado por empresas já</requisitos>
-            </solicitante>
-            <solicitante id="484">
-                <tipo>Arquitetos</tipo>
-                <requisitos>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>Depende da pessoa</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1532">
-                <titulo>Subir Codigo</titulo>
-                <descricao>O GitHub é mundialmente usado e chega a ter mais de 3 milhões de usuários ativos mundialmente contribuindo em projetos comercias ou pessoais. Hoje o GitHub abriga mais de 65 milhões de projetos[1], alguns deles que são conhecidos mundialmente. WordPress, GNU/Linux, Atom, Electron. GitHub também oferece suporte ao recurso de</descricao>
-                <documentos>
-                    <default>
-                        <item id="1034">email</item>
-                        <item id="1035">senha</item>
-                    </default>
-                    <caso id="281" descricao="Rico">
-                        <documento>
-                            <id>1033</id>
-                            <descricao>Certificado Digital</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1772" tipo="web">
-                            <descricao>[GitHub](https://www.github.com)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="282" descricao="Git local Empresa Web">
-                        <canal-de-prestacao id="1770" tipo="web">
-                            <descricao>Endereço do Git Local</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="283" descricao="Git Local Empresa Física">
-                        <canal-de-prestacao id="1771" tipo="presencial">
-                            <descricao>Local da empresa, levar código fonte no CD.</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1533">
-                <titulo>Baixar Código</titulo>
-                <descricao>Acessar Git da primeira Etapa</descricao>
-                <documentos>
-                    <default>
-                        <item id="1037">email</item>
-                        <item id="1038">senha</item>
-                    </default>
-                    <caso id="284" descricao="Rico 2">
-                        <documento>
-                            <id>1036</id>
-                            <descricao>Certificado Digital</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1773" tipo="e-mail">
-                            <descricao>github@github.com</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1841">Órgãos e entidades públicas</item>
-            <item idSegmento="4" idServicoSegmento="1842">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="1" idServicoSegmento="1839">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1840">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Serviços Públicos</item>
-            <item>Sistema Financeiro</item>
-            <item>test</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1420">Gt</item>
-            <item id="1421">Tes</item>
-            <item id="1422">Github</item>
-            <item id="1423">Programação</item>
-            <item id="1424">Programas</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="437">LEgislação Mill</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>testeservicocarlos-29-08-17</id>
