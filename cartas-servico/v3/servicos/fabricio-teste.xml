@@ -7,20 +7,22 @@
     <descricao>sdfgsdfg</descricao>
     <contato>**Coordenação-Geral de Gestão Econômica de Ativos** 
     
-*E-mail*: **faleconosco.spu@planejamento.gov.br**.
+*E-mail*: __faleconosco.spu@planejamento.gov.br__
          
+
 Endereço: **Esplanada dos Ministérios** 
        
 **Bloco C, 2º andar, Brasília-DF** 
      
  
+
 CEP: **70.046-900**</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="659">
+        <solicitante id="660">
             <tipo>sdfgsdfg</tipo>
             <requisitos>xcbxcvb</requisitos>
         </solicitante>
@@ -36,7 +38,7 @@ CEP: **70.046-900**</contato>
         <descricao>sdfgsdf</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1768">
+        <etapa id="1769">
             <titulo>xcbxcb</titulo>
             <descricao>xcvbx</descricao>
             <documentos>
@@ -60,17 +62,17 @@ CEP: **70.046-900**</contato>
         <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2147">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2148">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1941">sdfgsdfg</item>
-        <item id="1942">cvbncvbn</item>
-        <item id="1943">cvbncv</item>
+        <item id="1944">sdfgsdfg</item>
+        <item id="1945">cvbncvbn</item>
+        <item id="1946">cvbncv</item>
     </palavras-chave>
     <legislacoes>
-        <item id="617">cvncv</item>
+        <item id="618">cvncv</item>
     </legislacoes>
 </servico>
