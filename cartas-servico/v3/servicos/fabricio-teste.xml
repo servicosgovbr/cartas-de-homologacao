@@ -5,13 +5,21 @@
     <nome>Fabricio teste</nome>
     <sigla>ft</sigla>
     <descricao>sdfgsdfg</descricao>
-    <contato>**Coordenação-Geral de Gestão Econômica de Ativos** &lt;p&gt; *E-mail*: **[faleconosco.spu@planejamento.gov.br](#)** &lt;/p&gt;&lt;p&gt;Endereço: **Esplanada dos Ministérios** &lt;/p&gt;&lt;p&gt; **Bloco C, 2º andar, Brasília-DF** &lt;/p&gt;&lt;p&gt;CEP: **70.046-900** &lt;/p&gt;&lt;p&gt;</contato>
+    <contato>**Coordenação-Geral de Gestão Econômica de Ativos** 
+    
+*E-mail*: **[faleconosco.spu@planejamento.gov.br](#)** 
+    
+Endereço: **Esplanada dos Ministérios** 
+       
+**Bloco C, 2º andar, Brasília-DF** 
+     
+CEP: **70.046-900**</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="656">
+        <solicitante id="657">
             <tipo>sdfgsdfg</tipo>
             <requisitos>xcbxcvb</requisitos>
         </solicitante>
@@ -27,7 +35,7 @@
         <descricao>sdfgsdf</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1765">
+        <etapa id="1766">
             <titulo>xcbxcb</titulo>
             <descricao>xcvbx</descricao>
             <documentos>
@@ -51,17 +59,17 @@
         <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2144">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2145">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1932">sdfgsdfg</item>
-        <item id="1933">cvbncvbn</item>
-        <item id="1934">cvbncv</item>
+        <item id="1935">sdfgsdfg</item>
+        <item id="1936">cvbncvbn</item>
+        <item id="1937">cvbncv</item>
     </palavras-chave>
     <legislacoes>
-        <item id="614">cvncv</item>
+        <item id="615">cvncv</item>
     </legislacoes>
 </servico>
