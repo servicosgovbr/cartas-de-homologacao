@@ -1056,163 +1056,6 @@ Email - incentivo.viagens@turismo.gov.br</contato>
         </legislacoes>
     </servico>
     <servico>
-        <id>campanha-nacional-do-desarmamento</id>
-        <dbId>22</dbId>
-        <nome>Campanha Nacional do Desarmamento</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="41">Campanha do Desarmamento</item>
-            <item id="42">Campanha de entrega voluntária de armas</item>
-            <item id="43">Entregue sua arma</item>
-        </nomes-populares>
-        <descricao>A Campanha Nacional do Desarmamento é uma ação do Governo Federal de prevenção à violência.O Estatuto do Desarmamento prevê a possibilidade dos possuidores e dos proprietários de armas de fogo entregarem-nas voluntariamente e a qualquer tempo nas unidades da Polícia Federal, ou em órgãos ou entidades credenciados pelo Ministério da Justiça e Cidadania. O cidadão tem direito ao anonimato e ao recebimento de indenização pela(s) arma(s) entregue(s).</descricao>
-        <contato>* www.justica.gov.br/desarmamento 
-* desarmamento@mj.gov.br
-* (61) 2025-8988</contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="25">
-                <tipo>Qualquer cidadão (pessoa física)</tipo>
-                <requisitos>Estar de posse de uma arma de fogo, seja esta registrada ou não.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="2" max="30" unidade="dias-corridos"/>
-            <descricao>Via de regra, a indenização fica disponível para saque pelo cidadão em 48 horas após a entrega da arma. O saque pode ser realizado em até 30 dias a contar da data de entrega.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="45">
-                <titulo>Emissão da Guia de Trânsito da arma a ser entregue</titulo>
-                <descricao>Nessa etapa, o cidadão deverá preencher a Guia de Trânsito onde estarão descritos os postos credenciados para entrega de armas. 
-
-A Guia de Trânsito é um documento obrigatório para que o cidadão transporte legalmente a arma de sua residência ou local de trabalho até o posto no qual a arma será entregue. Durante o próprio preenchimento da guia, o cidadão poderá consultar a lista de postos de entrega credenciados.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="85" tipo="presencial">
-                            <descricao>Caso o cidadão não tenha acesso à internet ou uma impressora, poderá se dirigir a um posto de entrega credenciado para emitir a guia de trânsito obrigatória, antes de transportar a arma.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="84" tipo="web-emitir">
-                            <descricao>http://desarma.mj.gov.br/SisDesarmamento/formulario/portador.do</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="46">
-                <titulo>Entrega da arma em um posto credenciado</titulo>
-                <descricao>Nesta etapa, o cidadão se dirige ao posto selecionado durante a emissão da guia de trânsito e realiza a entrega da arma. A arma deverá estar descarregada e embalada de maneira que não possa ser utilizada. O cidadão terá o direito de não se identificar e não será penalizado pela entrega da arma. Se possível, a arma de fogo será imediatamente inutilizada na presença do cidadão que a entregou.</descricao>
-                <documentos>
-                    <default>
-                        <item id="107">Guia de Trânsito da arma (emitida na etapa 1)</item>
-                        <item id="108">Registro e documentos da arma (opcionais)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="86" tipo="presencial">
-                            <descricao>Endereço do posto de coleta selecionado durante o preenchimento da guia de trânsito.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="47">
-                <titulo>Emissão da guia de entrega (voucher) e cadastramento da senha para saque da indenização</titulo>
-                <descricao>Imediatamente após a entrega da arma, o cidadão fará o cadastramento de uma senha com quatro dígitos para o posterior saque da indenização em um caixa eletrônico do Banco do Brasil. O cidadão receberá uma guia de entrega da arma, que conterá um código de indenização com 16 dígitos, constando também o período em que o saque poderá ser realizado.</descricao>
-                <documentos>
-                    <default/>
-                    <caso id="27" descricao="Entrega de armas artesanais, de brinquedo, simulacros (imitações), munições e acessórios">
-                        <documento>
-                            <id>109</id>
-                            <descricao>Para estes casos, não haverá cadastramento de senha, pois não haverá indenização.</descricao>
-                        </documento>
-                    </caso>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="87" tipo="presencial">
-                            <descricao>Endereço do posto de coleta selecionado durante o preenchimento da guia de trânsito.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="48">
-                <titulo>Saque da indenização da arma entregue</titulo>
-                <descricao>A partir de 48 horas após a entrega da arma e, no prazo máximo de 30 dias, o cidadão deverá se dirigir a um caixa eletrônico do Banco do Brasil para o saque da indenização. Para isso, recomenda-se ter em mãos a guia de entrega da arma, que contém o código de indenização de dezesseis dígitos e o passo a passo para saque no caixa eletrônico. O cidadão também precisará da senha de quatro dígitos cadastrada na etapa 3.</descricao>
-                <documentos>
-                    <default>
-                        <item id="110">Guia de Entrega da arma</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="90" tipo="presencial">
-                            <descricao>Qualquer caixa eletrônico do Banco do Brasil.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="28" descricao="Impossibilidade de saque no caixa eletrônico do Banco do Brasil">
-                        <canal-de-prestacao id="88" tipo="e-mail">
-                            <descricao>desarmamento@mj.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="89" tipo="telefone">
-                            <descricao>(61) 2025-8988</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="51">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="52">Órgãos e entidades públicas</item>
-            <item idSegmento="4" idServicoSegmento="53">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Cidadania</item>
-            <item>Proteção Social</item>
-            <item>Policiamento</item>
-            <item>Serviços Públicos</item>
-            <item>Segurança e Ordem Pública</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="91">Desarmamento</item>
-            <item id="92">Entrega de Armas</item>
-            <item id="93">Campanha do Desarmamento</item>
-            <item id="94">Controle de Armas</item>
-            <item id="95">Entrega voluntária de armas</item>
-            <item id="96">Saque de indenização</item>
-            <item id="97">Desarma</item>
-            <item id="98">Indenização</item>
-            <item id="99">Saque de indenização</item>
-            <item id="100">Entregue sua arma</item>
-            <item id="101">Como entregar minha arma</item>
-            <item id="102">Estatuto do Desarmamento</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="33">(Estatuto do Desarmamento - Lei nº 10.826/2003)[http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2003-12-22;10826]
-(Decreto nº 5.123/2004)[http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2004-07-01;5123]</item>
-            <item id="34">(Portaria MJ n° 797/2011)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=34&amp;data=06/05/2011] - Página 1
-(Portaria MJ n° 797/2011)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/05/2011&amp;jornal=1&amp;pagina=35&amp;totalArquivos=152] - Página 2
-(Portaria MJ 2.969/2012 - Valor da Indenização)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=114&amp;data=23/11/2012]</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>cadastrar-veiculos-e-condutores-para-o-rtu</id>
         <dbId>61</dbId>
         <nome>Cadastrar Veículos e Condutores para o RTU</nome>
@@ -1280,6 +1123,168 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
         <servicos-relacionados>
             <item>753</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>campanha-nacional-do-desarmamento</id>
+        <dbId>22</dbId>
+        <nome>Campanha Nacional do Desarmamento</nome>
+        <sigla>CND</sigla>
+        <nomes-populares>
+            <item id="806">Campanha do Desarmamento</item>
+            <item id="807">Campanha de entrega voluntária de armas</item>
+            <item id="808">Entregue sua arma</item>
+        </nomes-populares>
+        <descricao>A Campanha Nacional do Desarmamento é uma ação do Governo Federal de prevenção à violência.O Estatuto do Desarmamento prevê a possibilidade dos possuidores e dos proprietários de armas de fogo entregarem-nas voluntariamente e a qualquer tempo nas unidades da Polícia Federal, ou em órgãos ou entidades credenciados pelo Ministério da Justiça e Cidadania. O cidadão tem direito ao anonimato e ao recebimento de indenização pela(s) arma(s) entregue(s).</descricao>
+        <contato>* www.justica.gov.br/desarmamento 
+* desarmamento@mj.gov.br
+* (61) 2025-8988</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="683">
+                <tipo>Qualquer cidadão (pessoa física)</tipo>
+                <requisitos>Estar de posse de uma arma de fogo, seja esta registrada ou não.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="2" max="30" unidade="dias-corridos"/>
+            <descricao>Via de regra, a indenização fica disponível para saque pelo cidadão em 48 horas após a entrega da arma. O saque pode ser realizado em até 30 dias a contar da data de entrega.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1792">
+                <titulo>Emissão da Guia de Trânsito da arma a ser entregue</titulo>
+                <descricao>Nessa etapa, o cidadão deverá preencher a Guia de Trânsito onde estarão descritos os postos credenciados para entrega de armas. 
+
+A Guia de Trânsito é um documento obrigatório para que o cidadão transporte legalmente a arma de sua residência ou local de trabalho até o posto no qual a arma será entregue. Durante o próprio preenchimento da guia, o cidadão poderá consultar a lista de postos de entrega credenciados.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="85" tipo="presencial">
+                            <descricao>Caso o cidadão não tenha acesso à internet ou uma impressora, poderá se dirigir a um posto de entrega credenciado para emitir a guia de trânsito obrigatória, antes de transportar a arma.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="84" tipo="web-emitir">
+                            <descricao>http://desarma.mj.gov.br/SisDesarmamento/formulario/portador.do</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1793">
+                <titulo>Entrega da arma em um posto credenciado</titulo>
+                <descricao>Nesta etapa, o cidadão se dirige ao posto selecionado durante a emissão da guia de trânsito e realiza a entrega da arma. A arma deverá estar descarregada e embalada de maneira que não possa ser utilizada. O cidadão terá o direito de não se identificar e não será penalizado pela entrega da arma. Se possível, a arma de fogo será imediatamente inutilizada na presença do cidadão que a entregou.</descricao>
+                <documentos>
+                    <default>
+                        <item id="107">Guia de Trânsito da arma (emitida na etapa 1)</item>
+                        <item id="108">Registro e documentos da arma (opcionais)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="86" tipo="presencial">
+                            <descricao>Endereço do posto de coleta selecionado durante o preenchimento da guia de trânsito.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1794">
+                <titulo>Emissão da guia de entrega (voucher) e cadastramento da senha para saque da indenização</titulo>
+                <descricao>Imediatamente após a entrega da arma, o cidadão fará o cadastramento de uma senha com quatro dígitos para o posterior saque da indenização em um caixa eletrônico do Banco do Brasil. O cidadão receberá uma guia de entrega da arma, que conterá um código de indenização com 16 dígitos, constando também o período em que o saque poderá ser realizado.</descricao>
+                <documentos>
+                    <default/>
+                    <caso id="27" descricao="Entrega de armas artesanais, de brinquedo, simulacros (imitações), munições e acessórios">
+                        <documento>
+                            <id>109</id>
+                            <descricao>Para estes casos, não haverá cadastramento de senha, pois não haverá indenização.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="87" tipo="presencial">
+                            <descricao>Endereço do posto de coleta selecionado durante o preenchimento da guia de trânsito.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1795">
+                <titulo>Saque da indenização da arma entregue</titulo>
+                <descricao>A partir de 48 horas após a entrega da arma e, no prazo máximo de 30 dias, o cidadão deverá se dirigir a um caixa eletrônico do Banco do Brasil para o saque da indenização. Para isso, recomenda-se ter em mãos a guia de entrega da arma, que contém o código de indenização de dezesseis dígitos e o passo a passo para saque no caixa eletrônico. O cidadão também precisará da senha de quatro dígitos cadastrada na etapa 3.</descricao>
+                <documentos>
+                    <default>
+                        <item id="110">Guia de Entrega da arma</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="90" tipo="presencial">
+                            <descricao>Qualquer caixa eletrônico do Banco do Brasil.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="28" descricao="Impossibilidade de saque no caixa eletrônico do Banco do Brasil">
+                        <canal-de-prestacao id="88" tipo="e-mail">
+                            <descricao>desarmamento@mj.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="89" tipo="telefone">
+                            <descricao>(61) 2025-8988</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2171">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2172">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="2173">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Cidadania</item>
+            <item>Proteção Social</item>
+            <item>Policiamento</item>
+            <item>Serviços Públicos</item>
+            <item>Segurança e Ordem Pública</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2013">Desarmamento</item>
+            <item id="2014">Entrega de Armas</item>
+            <item id="2015">Campanha do Desarmamento</item>
+            <item id="2016">Controle de Armas</item>
+            <item id="2017">Entrega voluntária de armas</item>
+            <item id="2019">Desarma</item>
+            <item id="2020">Indenização</item>
+            <item id="2021">Saque de indenização</item>
+            <item id="2022">Entregue sua arma</item>
+            <item id="2023">Como entregar minha arma</item>
+            <item id="2024">Estatuto do Desarmamento</item>
+            <item id="2018">Saque de indenização</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="642">(Portaria MJ n° 797/2011)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=34&amp;data=06/05/2011] - Página 1
+(Portaria MJ n° 797/2011)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/05/2011&amp;jornal=1&amp;pagina=35&amp;totalArquivos=152] - Página 2
+(Portaria MJ 2.969/2012 - Valor da Indenização)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=114&amp;data=23/11/2012]</item>
+            <item id="641">(Estatuto do Desarmamento - Lei nº 10.826/2003)[http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2003-12-22;10826]
+(Decreto nº 5.123/2004)[http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2004-07-01;5123]</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>solicitacao-de-restituicao-de-multa-dnit</id>
@@ -27441,209 +27446,6 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>obter-o-fies-2</id>
-        <dbId>705</dbId>
-        <nome>Obter o FIES 2</nome>
-        <sigla>FIES teste</sigla>
-        <descricao>O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda</descricao>
-        <contato>0800 616161</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
-        <solicitantes>
-            <solicitante id="517">
-                <tipo>Estudante</tipo>
-                <requisitos>Que atenda as seguintes condições:
-
-•	Já estar matriculado em curso universitário presencial e pago, que tenha avaliação positiva no SINAES e seja oferecido por instituição que tenha aderido ao FIES;
-•	Não ter concluído curso superior antes de se candidatar;
-•	Ter participado de alguma edição do Enem de 2010 para cá, e obtido média das notas das questões objetivas de 450 ou mais pontos, e nota na redação superior a zero;
-•	Possuir renda familiar de até 3 salários mínimos mensais por pessoa.</requisitos>
-            </solicitante>
-            <solicitante id="447">
-                <tipo>Estudante</tipo>
-                <requisitos>Que atenda as seguintes condições:
-
-•	Já estar matriculado em curso universitário presencial e pago, que tenha avaliação positiva no SINAES e seja oferecido por instituição que tenha aderido ao FIES;
-•	Não ter concluído curso superior antes de se candidatar;
-•	Ter participado de alguma edição do Enem de 2010 para cá, e obtido média das notas das questões objetivas de 450 ou mais pontos, e nota na redação superior a zero;
-•	Possuir renda familiar de até 3 salários mínimos mensais por pessoa.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="15" max="60" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1473">
-                <titulo>Inscrever-se no FIES seleção</titulo>
-                <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1474">
-                <titulo>Obter resultado da Pré-Seleção</titulo>
-                <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1475">
-                <titulo>Inscrever-se no SISFIES</titulo>
-                <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1476">
-                <titulo>Validar inscrição junto à CPSA</titulo>
-                <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1477">
-                <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
-                <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1594">
-                <titulo>Inscrever-se no FIES seleção</titulo>
-                <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1595">
-                <titulo>Obter resultado da Pré-Seleção</titulo>
-                <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1596">
-                <titulo>Inscrever-se no SISFIES</titulo>
-                <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1597">
-                <titulo>Validar inscrição junto à CPSA</titulo>
-                <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1598">
-                <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
-                <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1880">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Educação</item>
-            <item>Educação superior</item>
-            <item>Empregabilidade</item>
-            <item>Educação</item>
-            <item>Educação superior</item>
-            <item>Empregabilidade</item>
-            <item>Educação</item>
-            <item>Educação superior</item>
-            <item>Empregabilidade</item>
-            <item>Educação</item>
-            <item>Educação superior</item>
-            <item>Empregabilidade</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1305">bolsa</item>
-            <item id="1306">vestibular</item>
-            <item id="1307">Financiamento</item>
-            <item id="1544">bolsa</item>
-            <item id="1545">vestibular</item>
-            <item id="1546">Financiamento</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="415">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
-            <item id="492">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>alteracoes-de-pos-outorga</id>
         <dbId>9</dbId>
         <nome>Alterações de Pós-Outorga</nome>
@@ -29626,6 +29428,119 @@ Sem renomear</descricao>
         <servicos-relacionados>
             <item>8</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>etapas-embaralhadas</id>
+        <dbId>953</dbId>
+        <nome>Etapas embaralhadas</nome>
+        <sigla>EE</sigla>
+        <nomes-populares>
+            <item id="809">embralhar</item>
+        </nomes-populares>
+        <descricao>Verificando se as etapas vão ficar embralhadas</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="684">
+                <tipo>Eu mesmo</tipo>
+                <requisitos>Nenhum</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1796">
+                <titulo>Verificar no portal</titulo>
+                <descricao>Etapa de verificação</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1910" tipo="web">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1797">
+                <titulo>Validação</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1911" tipo="web">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1798">
+                <titulo>Entrega</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1912" tipo="web">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1799">
+                <titulo>Enviar email</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1913" tipo="e-mail">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
+            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2174">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Clima</item>
+            <item>Combate a desigualdade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2025">Emb</item>
+            <item id="2026">teste</item>
+            <item id="2027">teste 4</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>outorga-de-radiodifusao-comercial</id>
@@ -32225,13 +32140,21 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <nome>Fabricio teste</nome>
         <sigla>ft</sigla>
         <descricao>sdfgsdfg</descricao>
-        <contato>23452345</contato>
+        <contato>__Coordenação-Geral de Gestão Econômica de Ativos__
+
+*E-mail*: faleconosco.spu@planejamento.gov.br
+
+Endereço: Esplanada dos Ministérios
+
+Bloco C, 2º andar, Brasília-DF
+
+CEP: 70.046-900</contato>
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="648">
+            <solicitante id="682">
                 <tipo>sdfgsdfg</tipo>
                 <requisitos>xcbxcvb</requisitos>
             </solicitante>
@@ -32247,7 +32170,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
             <descricao>sdfgsdf</descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1755">
+            <etapa id="1791">
                 <titulo>xcbxcb</titulo>
                 <descricao>xcvbx</descricao>
                 <documentos>
@@ -32267,22 +32190,22 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/4243" dbId="890">
+            <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2134">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="2170">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Abastecimento</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1909">sdfgsdfg</item>
-            <item id="1910">cvbncvbn</item>
-            <item id="1911">cvbncv</item>
+            <item id="2010">sdfgsdfg</item>
+            <item id="2011">cvbncvbn</item>
+            <item id="2012">cvbncv</item>
         </palavras-chave>
         <legislacoes>
-            <item id="607">cvncv</item>
+            <item id="640">cvncv</item>
         </legislacoes>
     </servico>
     <servico>
@@ -33379,108 +33302,6 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         </palavras-chave>
     </servico>
     <servico>
-        <id>2teste-carlos-18-12-2017</id>
-        <dbId>852</dbId>
-        <nome>2teste Carlos 18-12-2017</nome>
-        <sigla>2TC</sigla>
-        <nomes-populares>
-            <item id="760">2TC</item>
-        </nomes-populares>
-        <descricao>0teste Carlos 18-12-2017. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
-
-Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.
-
-Integer aliquet sit amet sem eget ornare. Phasellus id tempor nunc. Mauris luctus ligula ut nunc euismod, in accumsan dui sodales. Donec nec nisi eget leo fringilla facilisis sit amet a sem. In sit amet sagittis felis. Praesent dignissim magna justo, sit amet porta tortor tincidunt vitae. Praesent ultrices neque eget ipsum blandit congue et vitae nibh. Maecenas eu sodales mauris. Morbi luctus diam justo, at dignissim massa porta porta. Duis interdum sapien in malesuada iaculis. Proin odio tellus, varius sed tristique sagittis, pellentesque in magna. Quisque vitae volutpat ante, id fermentum mi. Donec euismod purus quis dui volutpat, nec auctor arcu accumsan.
-
-Nam egestas magna et arcu tincidunt, a auctor lacus pellentesque. Quisque non libero tincidunt, gravida tortor id, auctor augue. Etiam semper a nisi dictum rutrum. Vestibulum congue velit in odio tempor facilisis. Etiam ac nulla sollicitudin, sodales.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
-
-Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.</descricao>
-        <contato>Vivamus ipsum enim, blandit ut mi a, suscipit tincidunt magna. Donec sit amet eros dictum, commodo magna et, fermentum risus. Integer ac luctus orci. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin aliquam erat non euismod viverra. Curabitur mi sem, sagittis id lorem vel, posuere finibus leo.
-
-Aliquam a consectetur nibh. Sed turpis nisi, ullamcorper sit amet bibendum et, viverra ac nibh. Aliquam id congue nisl. Mauris magna felis.</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>https://br.lipsum.com/feed/html</link-servico-digital>
-        <solicitantes>
-            <solicitante id="614">
-                <tipo>Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.
-
-Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit.</tipo>
-                <requisitos>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
-
-Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="7" unidade="horas"/>
-            <descricao>Vestibulum id metus sit amet dolor ultrices dignissim. Sed consequat metus a tincidunt malesuada. Integer semper quam quis semper maximus. Donec aliquet mauris in eros interdum, vel vehicula est pulvinar. Pellentesque pellentesque placerat dolor quis pulvinar. Etiam rutrum sit amet ex non finibus. Ut molestie aliquam justo, vel condimentum metus consectetur sed. Praesent faucibus sollicitudin metus et pulvinar. Ut id dolor condimentum, rutrum metus lobortis, molestie nibh. Cras erat adio.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>3</quantidade>
-            <unidade>meses</unidade>
-            <descricao>Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros.</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1703">
-                <titulo>Etiam ac nulla sollicitudin, sodales</titulo>
-                <descricao>Donec hendrerit lorem suscipit tortor elementum pretium. Aliquam erat volutpat. Quisque auctor mauris id metus vestibulum feugiat. Duis vel consectetur turpis, id placerat odio. Quisque rhoncus mauris eros, nec facilisis ante rutrum at. Duis feugiat euismod tellus ac euismod. Etiam tellus purus, blandit sed neque sed, porta varius orci. Nullam convallis congue malesuada. Donec faucibus justo luctus, placerat sem eget, elementum odio. Integer at felis a ligula placerat interdum.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1282">Mauris scelerisque porttitor leo non semper. Ut purus mi, aliquet eget felis nec, venenatis sollicitudin leo. Fusce egestas leo at orci eleifend, sit amet aliquet leo volutpat. Aliquam in lorem diam. Quisque ornare neque non enim gravida, vel pellentesque dolor imperdiet. Curabitur tristique massa sed dolor vehicula, sit amet placerat arcu efficitur. Ut mollis tellus dui, nec scelerisque elit dictum eu. Etiam rhoncus viverra tellus non ullamcorper. Curabitur venenatis enim mollis orci ullamcorp</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="151">
-                            <descricao>Taxa fixa</descricao>
-                            <moeda>R$</moeda>
-                            <valor>847,00</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1884" tipo="e-mail">
-                            <descricao>Nam leo velit, placerat at faucibus nec, consectetur porttitor arcu. Sed bibendum metus nec nisl sagittis viverra. Quisque sit amet maximus eros, non ultrices diam. Etiam id vehicula arcu. Proin at leo efficitur, interdum dui in, cursus lacus. Sed mattis nibh quis lorem eleifend, quis eleifend arcu consectetur. Maecenas rutrum lectus non est convallis, sed blandit mi ultricies. Suspendisse vulputate dignissim neque, ut dictum odio rutrum ut. Nunc a semper metus.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013" dbId="910">
-            <nomeOrgao>Agência Nacional de Saúde Suplementar (ANS)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="2062">Órgãos e entidades públicas</item>
-            <item idSegmento="1" idServicoSegmento="2063">Cidadãos</item>
-            <item idSegmento="4" idServicoSegmento="2064">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Assistência à Criança e ao Adolescente</item>
-            <item>Assistência Hospitalar e Ambulatorial</item>
-            <item>Esporte comunitário</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1809">TC</item>
-            <item id="1810">Carlos</item>
-            <item id="1811">2TC</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="590">Etiam id odio dapibus, vestibulum orci eget, blandit metus. Sed at neque in est porta dapibus sed sed lacus. Morbi pulvinar dapibus tempus. Quisque vel augue nec ante pulvinar luctus. Nulla nec molestie elit, a rhoncus est. Integer aliquet tristique diam in pharetra. Donec sagittis, purus quis volutpat cursus, sem purus ullamcorper nibh, eget dignissim ex dolor ut nisi.
-
-Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed viverra ligula ligula.</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>87</item>
-            <item>432</item>
-        </servicos-relacionados>
-    </servico>
-    <servico>
         <id>registrar-servico-de-microfilmagem</id>
         <dbId>14</dbId>
         <nome>Registrar serviço de microfilmagem</nome>
@@ -33572,6 +33393,108 @@ Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</de
             <item id="419">[Lei 5.433/68](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1968-05-08;5433);
 [Decreto 1.799/96](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1996-01-30;1799)</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>2teste-carlos-18-12-2017</id>
+        <dbId>852</dbId>
+        <nome>2teste Carlos 18-12-2017</nome>
+        <sigla>2TC 3</sigla>
+        <nomes-populares>
+            <item id="815">2TC</item>
+        </nomes-populares>
+        <descricao>0teste Carlos 18-12-2017. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
+
+Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.
+
+Integer aliquet sit amet sem eget ornare. Phasellus id tempor nunc. Mauris luctus ligula ut nunc euismod, in accumsan dui sodales. Donec nec nisi eget leo fringilla facilisis sit amet a sem. In sit amet sagittis felis. Praesent dignissim magna justo, sit amet porta tortor tincidunt vitae. Praesent ultrices neque eget ipsum blandit congue et vitae nibh. Maecenas eu sodales mauris. Morbi luctus diam justo, at dignissim massa porta porta. Duis interdum sapien in malesuada iaculis. Proin odio tellus, varius sed tristique sagittis, pellentesque in magna. Quisque vitae volutpat ante, id fermentum mi. Donec euismod purus quis dui volutpat, nec auctor arcu accumsan.
+
+Nam egestas magna et arcu tincidunt, a auctor lacus pellentesque. Quisque non libero tincidunt, gravida tortor id, auctor augue. Etiam semper a nisi dictum rutrum. Vestibulum congue velit in odio tempor facilisis. Etiam ac nulla sollicitudin, sodales.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
+
+Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.</descricao>
+        <contato>Vivamus ipsum enim, blandit ut mi a, suscipit tincidunt magna. Donec sit amet eros dictum, commodo magna et, fermentum risus. Integer ac luctus orci. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin aliquam erat non euismod viverra. Curabitur mi sem, sagittis id lorem vel, posuere finibus leo.
+
+Aliquam a consectetur nibh. Sed turpis nisi, ullamcorper sit amet bibendum et, viverra ac nibh. Aliquam id congue nisl. Mauris magna felis.</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>https://br.lipsum.com/feed/html</link-servico-digital>
+        <solicitantes>
+            <solicitante id="695">
+                <tipo>Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla. Nam id consectetur tellus.
+
+Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit.</tipo>
+                <requisitos>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo, diam ut fermentum facilisis, libero erat efficitur est, eget laoreet est dolor quis nibh. Proin sed enim ac tortor pulvinar ornare suscipit ut neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tristique massa in nisi consectetur malesuada. Nullam non tincidunt eros. Sed varius, lacus eu luctus blandit, nisi nunc auctor dolor, sed bibendum nisl nibh et leo. In mollis eu dolor nec sodales. Etiam vel dui et urna ullamcorper aliquam non nec ipsum.
+
+Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Duis ut nibh quis tellus suscipit bibendum varius sit amet tellus. Morbi dapibus orci vel turpis tempor, interdum semper dui suscipit. Donec suscipit eleifend volutpat. Duis finibus fermentum est, a maximus dui luctus eget. Morbi est elit, commodo sed urna quis, maximus cursus felis. Vivamus sagittis sit amet augue a fringilla.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="7" unidade="horas"/>
+            <descricao>Vestibulum id metus sit amet dolor ultrices dignissim. Sed consequat metus a tincidunt malesuada. Integer semper quam quis semper maximus. Donec aliquet mauris in eros interdum, vel vehicula est pulvinar. Pellentesque pellentesque placerat dolor quis pulvinar. Etiam rutrum sit amet ex non finibus. Ut molestie aliquam justo, vel condimentum metus consectetur sed. Praesent faucibus sollicitudin metus et pulvinar. Ut id dolor condimentum, rutrum metus lobortis, molestie nibh. Cras erat adio.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>3</quantidade>
+            <unidade>meses</unidade>
+            <descricao>Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros. Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas eleifend suscipit. Nunc at lacinia eros.</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1850">
+                <titulo>Etiam ac nulla sollicitudin, sodales</titulo>
+                <descricao>Donec hendrerit lorem suscipit tortor elementum pretium. Aliquam erat volutpat. Quisque auctor mauris id metus vestibulum feugiat. Duis vel consectetur turpis, id placerat odio. Quisque rhoncus mauris eros, nec facilisis ante rutrum at. Duis feugiat euismod tellus ac euismod. Etiam tellus purus, blandit sed neque sed, porta varius orci. Nullam convallis congue malesuada. Donec faucibus justo luctus, placerat sem eget, elementum odio. Integer at felis a ligula placerat interdum.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1282">Mauris scelerisque porttitor leo non semper. Ut purus mi, aliquet eget felis nec, venenatis sollicitudin leo. Fusce egestas leo at orci eleifend, sit amet aliquet leo volutpat. Aliquam in lorem diam. Quisque ornare neque non enim gravida, vel pellentesque dolor imperdiet. Curabitur tristique massa sed dolor vehicula, sit amet placerat arcu efficitur. Ut mollis tellus dui, nec scelerisque elit dictum eu. Etiam rhoncus viverra tellus non ullamcorper. Curabitur venenatis enim mollis orci ullamcorp</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="151">
+                            <descricao>Taxa fixa</descricao>
+                            <moeda>R$</moeda>
+                            <valor>847,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1884" tipo="e-mail">
+                            <descricao>Nam leo velit, placerat at faucibus nec, consectetur porttitor arcu. Sed bibendum metus nec nisl sagittis viverra. Quisque sit amet maximus eros, non ultrices diam. Etiam id vehicula arcu. Proin at leo efficitur, interdum dui in, cursus lacus. Sed mattis nibh quis lorem eleifend, quis eleifend arcu consectetur. Maecenas rutrum lectus non est convallis, sed blandit mi ultricies. Suspendisse vulputate dignissim neque, ut dictum odio rutrum ut. Nunc a semper metus.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/45013" dbId="910">
+            <nomeOrgao>Agência Nacional de Saúde Suplementar (ANS)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2180">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="2181">Cidadãos</item>
+            <item idSegmento="4" idServicoSegmento="2182">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência à Criança e ao Adolescente</item>
+            <item>Assistência Hospitalar e Ambulatorial</item>
+            <item>Esporte comunitário</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2058">TC</item>
+            <item id="2059">Carlos</item>
+            <item id="2060">2TC</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="653">Etiam id odio dapibus, vestibulum orci eget, blandit metus. Sed at neque in est porta dapibus sed sed lacus. Morbi pulvinar dapibus tempus. Quisque vel augue nec ante pulvinar luctus. Nulla nec molestie elit, a rhoncus est. Integer aliquet tristique diam in pharetra. Donec sagittis, purus quis volutpat cursus, sem purus ullamcorper nibh, eget dignissim ex dolor ut nisi.
+
+Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed viverra ligula ligula.</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>87</item>
+            <item>432</item>
+        </servicos-relacionados>
     </servico>
     <servico>
         <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
@@ -33758,5 +33681,283 @@ Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</de
             <item id="1873">importação</item>
             <item id="1874">animais</item>
         </palavras-chave>
+    </servico>
+    <servico>
+        <id>obter-o-fies</id>
+        <dbId>705</dbId>
+        <nome>Obter o FIES</nome>
+        <sigla>FIES</sigla>
+        <nomes-populares>
+            <item id="814">Teste</item>
+        </nomes-populares>
+        <descricao>O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda daO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda daO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda daO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da hghjgfhsdhhksdgfhghghjgdsjkhO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da</descricao>
+        <contato>0800 616161</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="693">
+                <tipo>Estudante</tipo>
+                <requisitos>Que atenda as seguintes condições:
+
+•	Já estar matriculado em curso universitário presencial e pago, que tenha avaliação positiva no SINAES e seja oferecido por instituição que tenha aderido ao FIES;
+•	Não ter concluído curso superior antes de se candidatar;
+•	Ter participado de alguma edição do Enem de 2010 para cá, e obtido média das notas das questões objetivas de 450 ou mais pontos, e nota na redação superior a zero;
+•	Possuir renda familiar de até 3 salários mínimos mensais por pessoa.</requisitos>
+            </solicitante>
+            <solicitante id="694">
+                <tipo>Estudante</tipo>
+                <requisitos>Que atenda as seguintes condições:
+
+•	Já estar matriculado em curso universitário presencial e pago, que tenha avaliação positiva no SINAES e seja oferecido por instituição que tenha aderido ao FIES;
+•	Não ter concluído curso superior antes de se candidatar;
+•	Ter participado de alguma edição do Enem de 2010 para cá, e obtido média das notas das questões objetivas de 450 ou mais pontos, e nota na redação superior a zero;
+•	Possuir renda familiar de até 3 salários mínimos mensais por pessoa.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="15" max="60" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1840">
+                <titulo>Inscrever-se no FIES seleção</titulo>
+                <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1914" tipo="e-mail">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1841">
+                <titulo>Obter resultado da Pré-Seleção</titulo>
+                <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1915" tipo="fax">
+                            <descricao>Teste</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1842">
+                <titulo>Inscrever-se no SISFIES</titulo>
+                <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1916" tipo="postal">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1843">
+                <titulo>Validar inscrição junto à CPSA</titulo>
+                <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1917" tipo="presencial">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1844">
+                <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
+                <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1918" tipo="sms">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1845">
+                <titulo>Inscrever-se no FIES seleção</titulo>
+                <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1109">Número do CPF;</item>
+                        <item id="1110">Informações e documentos pessoais;</item>
+                        <item id="1111">Informações e documentos relativos à sua escolaridade;</item>
+                        <item id="1112">Informações sobre a escola onde você estudou o Ensino Médio;</item>
+                        <item id="1113">Informações sobre a Instituição de Ensino Superior onde você está matriculado;</item>
+                        <item id="1114">Informações e documentos sobre a sua renda familiar;</item>
+                        <item id="1115">Informações e documentos sobre as edições do ENEM que tiver prestado a partir de 2010;</item>
+                        <item id="1116">Suas informações de endereço e contato;</item>
+                        <item id="1117">Certidão de casamento e informações sobre o cônjuge, se tiver;</item>
+                        <item id="1118">Informações e documentos sobre a bolsa parcial do ProUni, se tiver.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1796" tipo="web">
+                            <descricao>http://fiesselecaoaluno.mec.gov.br/usuario-login</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1846">
+                <titulo>Obter resultado da Pré-Seleção</titulo>
+                <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1119">Informações sobre o curso superior e instituição de ensino onde você está matriculado.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1797" tipo="web">
+                            <descricao>http://fiesselecaoaluno.mec.gov.br/selecao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1847">
+                <titulo>Inscrever-se no SISFIES</titulo>
+                <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1120">Número do CPF;</item>
+                        <item id="1121">Dados do financiamento escolhido;</item>
+                        <item id="1122">Dados do fiador, se optar por fiança convencional ou solidária.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1798" tipo="web">
+                            <descricao>http://sisfiesportal.mec.gov.br/?pagina=inscricao</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1848">
+                <titulo>Validar inscrição junto à CPSA</titulo>
+                <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1123">Documento de identificação válido com foto;</item>
+                        <item id="1124">Comprovante de residência;</item>
+                        <item id="1125">Diploma, certificado ou documento equivalente de conclusão do ensino médio expedido por instituição competente;</item>
+                        <item id="1126">Comprovante de rendimentos;</item>
+                        <item id="1127">CPF (para menores de 18 anos não emancipados, CPF do representante legal); e</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1799" tipo="presencial">
+                            <descricao>Instituição de ensino onde o financiamento será usado.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1849">
+                <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
+                <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1128">Originais e fotocópias dos seguintes documentos:</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="89">
+                            <descricao>Após a conclusão do curso, o aluno pagará o financiamento nos termos acordados.</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1800" tipo="presencial">
+                            <descricao>Agência do Banco do Brasil ou Caixa Econômica Federal escolhida durante a inscrição no SISFIES</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2179">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Educação</item>
+            <item>Educação superior</item>
+            <item>Empregabilidade</item>
+            <item>Educação</item>
+            <item>Educação superior</item>
+            <item>Empregabilidade</item>
+            <item>Educação</item>
+            <item>Educação superior</item>
+            <item>Empregabilidade</item>
+            <item>Educação</item>
+            <item>Educação superior</item>
+            <item>Empregabilidade</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2052">Financiamento</item>
+            <item id="2053">bolsa</item>
+            <item id="2054">vestibular</item>
+            <item id="2055">Financiamento</item>
+            <item id="2056">bolsa</item>
+            <item id="2057">vestibular</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="651">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
+            <item id="652">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
+        </legislacoes>
     </servico>
 </servicos>
