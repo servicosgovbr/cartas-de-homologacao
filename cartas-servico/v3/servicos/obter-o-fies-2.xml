@@ -3,15 +3,18 @@
     <id>obter-o-fies-2</id>
     <dbId>705</dbId>
     <nome>Obter o FIES 2</nome>
-    <sigla>FIES teste 2</sigla>
-    <descricao>O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda</descricao>
+    <sigla>FIES</sigla>
+    <nomes-populares>
+        <item id="812">Teste</item>
+    </nomes-populares>
+    <descricao>O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda daO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda daO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda daO FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda renda da</descricao>
     <contato>0800 616161</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://www.uol.com.br</link-servico-digital>
     <solicitantes>
-        <solicitante id="518">
+        <solicitante id="689">
             <tipo>Estudante</tipo>
             <requisitos>Que atenda as seguintes condições:
 
@@ -20,7 +23,7 @@
 •	Ter participado de alguma edição do Enem de 2010 para cá, e obtido média das notas das questões objetivas de 450 ou mais pontos, e nota na redação superior a zero;
 •	Possuir renda familiar de até 3 salários mínimos mensais por pessoa.</requisitos>
         </solicitante>
-        <solicitante id="519">
+        <solicitante id="690">
             <tipo>Estudante</tipo>
             <requisitos>Que atenda as seguintes condições:
 
@@ -38,7 +41,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1599">
+        <etapa id="1820">
             <titulo>Inscrever-se no FIES seleção</titulo>
             <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
             <documentos>
@@ -55,7 +58,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1600">
+        <etapa id="1821">
             <titulo>Obter resultado da Pré-Seleção</titulo>
             <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
             <documentos>
@@ -72,7 +75,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1601">
+        <etapa id="1822">
             <titulo>Inscrever-se no SISFIES</titulo>
             <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
             <documentos>
@@ -89,7 +92,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1602">
+        <etapa id="1823">
             <titulo>Validar inscrição junto à CPSA</titulo>
             <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
             <documentos>
@@ -106,7 +109,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1603">
+        <etapa id="1824">
             <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
             <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
             <documentos>
@@ -123,7 +126,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1604">
+        <etapa id="1825">
             <titulo>Inscrever-se no FIES seleção</titulo>
             <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
             <documentos>
@@ -151,7 +154,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1605">
+        <etapa id="1826">
             <titulo>Obter resultado da Pré-Seleção</titulo>
             <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
             <documentos>
@@ -170,7 +173,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1606">
+        <etapa id="1827">
             <titulo>Inscrever-se no SISFIES</titulo>
             <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
             <documentos>
@@ -191,7 +194,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1607">
+        <etapa id="1828">
             <titulo>Validar inscrição junto à CPSA</titulo>
             <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
             <documentos>
@@ -214,7 +217,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1608">
+        <etapa id="1829">
             <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
             <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
             <documentos>
@@ -245,7 +248,7 @@
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1881">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2177">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
@@ -262,15 +265,15 @@
         <item>Empregabilidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1547">bolsa</item>
-        <item id="1548">vestibular</item>
-        <item id="1549">Financiamento</item>
-        <item id="1550">bolsa</item>
-        <item id="1551">vestibular</item>
-        <item id="1552">Financiamento</item>
+        <item id="2040">Financiamento</item>
+        <item id="2041">bolsa</item>
+        <item id="2042">vestibular</item>
+        <item id="2043">Financiamento</item>
+        <item id="2044">bolsa</item>
+        <item id="2045">vestibular</item>
     </palavras-chave>
     <legislacoes>
-        <item id="493">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
-        <item id="494">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
+        <item id="647">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
+        <item id="648">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
     </legislacoes>
 </servico>
