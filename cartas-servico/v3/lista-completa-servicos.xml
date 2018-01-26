@@ -30788,6 +30788,105 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         </legislacoes>
     </servico>
     <servico>
+        <id>obter-cnh</id>
+        <dbId>753</dbId>
+        <nome>Obter CNH</nome>
+        <sigla>CNH 1</sigla>
+        <nomes-populares>
+            <item id="820">Carta de Motorista</item>
+            <item id="821">Carteira de Habilitação</item>
+            <item id="822">Carta de condutor automotivo</item>
+        </nomes-populares>
+        <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteira de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
+        <contato>0800-123456</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="698">
+                <tipo>Habilitação na categoria C, D ou E</tipo>
+                <requisitos>O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).</requisitos>
+            </solicitante>
+            <solicitante id="699">
+                <tipo>Habilitação na categoria A, B ou AB</tipo>
+                <requisitos>Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao>Há vários fatores que influenciam no tempo para aquisição da CNH, tais como:
+- Pagamento da taxa;
+- Exame médico e psicológico;
+- Prova teórica e prática no Detran da sua cidade.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>5</quantidade>
+            <unidade>anos</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1855">
+                <titulo>Agendar atendimento no Detran</titulo>
+                <descricao>O agendamento por telefone deverá ser realizado no período de 8h às 18h, de segunda à sexta.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1136">Carteira de Identidade</item>
+                        <item id="1137">Comprovante de residência</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="97">
+                            <descricao>Pagamento de taxa</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>10 x Renda</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                    <caso id="387" descricao="Caso seja tres">
+                        <custo id="183">
+                            <descricao>Custo Novo</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1826" tipo="web-agendar">
+                            <descricao>http://www.detran.df.gov.br/agendamento.html</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
+            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2187">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transportes</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2067">carta</item>
+            <item id="2068">carteira</item>
+            <item id="2069">condutor</item>
+            <item id="2070">habilitação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="658">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>496</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
         <id>testes-orgao1</id>
         <dbId>843</dbId>
         <nome>testes orgão1</nome>
@@ -31920,72 +32019,6 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-2</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 2</nome>
-        <sigla>MTco gjhj</sigla>
-        <nomes-populares>
-            <item id="767">Teste 1</item>
-        </nomes-populares>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="620">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1711">
-                <titulo>asdasdasda</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1893" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="2079">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="2080">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1827">a</item>
-            <item id="1828">a</item>
-            <item id="1829">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="596">a</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>realizacao-de-recurso-contra-multa-dnit</id>
         <dbId>312</dbId>
         <nome>Realização de Recurso contra multa - DNIT</nome>
@@ -32174,19 +32207,13 @@ CEP: 70.046-900</contato>
                 <titulo>xcbxcb</titulo>
                 <descricao>xcvbx</descricao>
                 <documentos>
-                    <default>
-                        <item id="1307">xcbvxx</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
                     <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1906" tipo="e-mail">
-                            <descricao>xcbxcvb@asdfa.com</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
@@ -32206,6 +32233,72 @@ CEP: 70.046-900</contato>
         </palavras-chave>
         <legislacoes>
             <item id="640">cvncv</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
+        <sigla>MTco gjhj</sigla>
+        <nomes-populares>
+            <item id="767">Teste 1</item>
+        </nomes-populares>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="620">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1711">
+                <titulo>asdasdasda</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1893" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2079">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="2080">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1827">a</item>
+            <item id="1828">a</item>
+            <item id="1829">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="596">a</item>
         </legislacoes>
     </servico>
     <servico>
@@ -33144,105 +33237,6 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         </palavras-chave>
     </servico>
     <servico>
-        <id>obter-cnh</id>
-        <dbId>753</dbId>
-        <nome>Obter CNH</nome>
-        <sigla>CNH</sigla>
-        <nomes-populares>
-            <item id="799">Carta de Motorista</item>
-            <item id="800">Carteira de Habilitação</item>
-            <item id="801">Carta de condutor automotivo</item>
-        </nomes-populares>
-        <descricao>A Carteira Nacional de Habilitação atesta que o cidadão brasileiro está apto a conduzir veículos. O porte é obrigatório para quem está dirigindo. O modelo atual de CNH possui fotografia da pessoa, o número da Carteira de Identidade (RG) e do Cadastro de Pessoa Física (CPF). Assim, a CNH pode ser utilizada para a identificação em todo território nacional.</descricao>
-        <contato>0800-123456</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="646">
-                <tipo>Habilitação na categoria C, D ou E</tipo>
-                <requisitos>O condutor deve estar habilitado há pelo menos um ano na categoria anterior exigida (por exemplo, para obter a CNH na categoria C, é necessário ter no mínimo um ano de habilitação na categoria B).</requisitos>
-            </solicitante>
-            <solicitante id="647">
-                <tipo>Habilitação na categoria A, B ou AB</tipo>
-                <requisitos>Estão aptos a solicitar a Carteira Nacional de Habilitação nas categorias A e B os brasileiros maiores de 18 anos, que saibam ler e escrever, possuem documento de identidade e CPF. O processo deve ser concluído em um ano.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <nao-estimado-ainda/>
-            <descricao>Há vários fatores que influenciam no tempo para aquisição da CNH, tais como:
-- Pagamento da taxa;
-- Exame médico e psicológico;
-- Prova teórica e prática no Detran da sua cidade.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>5</quantidade>
-            <unidade>anos</unidade>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1754">
-                <titulo>Agendar atendimento no Detran</titulo>
-                <descricao>O agendamento por telefone deverá ser realizado no período de 8h às 18h, de segunda à sexta.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1136">Carteira de Identidade</item>
-                        <item id="1137">Comprovante de residência</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="97">
-                            <descricao>Pagamento de taxa</descricao>
-                            <moeda>R$</moeda>
-                            <valorVariavel>10 x Renda</valorVariavel>
-                            <statusCustoVariavel>1</statusCustoVariavel>
-                        </custo>
-                    </default>
-                    <caso id="384" descricao="Caso seja tres">
-                        <custo id="181">
-                            <descricao>Custo Novo</descricao>
-                            <moeda>R$</moeda>
-                            <valor>10,00</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </caso>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1826" tipo="web-agendar">
-                            <descricao>http://www.detran.df.gov.br/agendamento.html</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2846" dbId="37548">
-            <nomeOrgao>Ministério dos Transportes, Portos e Aviação Civil (MTPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2133">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Transportes</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1905">carta</item>
-            <item id="1906">carteira</item>
-            <item id="1907">condutor</item>
-            <item id="1908">habilitação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="606">[RESOLUÇÃO Nº 684, DE 25 DE JULHO DE 2017](http://www.denatran.gov.br/images/Resolucoes/Resolu%C3%A7%C3%A3o6842017.pdf)</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>496</item>
-        </servicos-relacionados>
-    </servico>
-    <servico>
         <id>erro-despublicar</id>
         <dbId>899</dbId>
         <nome>Erro Despublicar</nome>
@@ -33444,27 +33438,13 @@ Morbi in orci lectus. Aliquam molestie semper elit quis commodo. Nulla egestas e
                 <titulo>Etiam ac nulla sollicitudin, sodales</titulo>
                 <descricao>Donec hendrerit lorem suscipit tortor elementum pretium. Aliquam erat volutpat. Quisque auctor mauris id metus vestibulum feugiat. Duis vel consectetur turpis, id placerat odio. Quisque rhoncus mauris eros, nec facilisis ante rutrum at. Duis feugiat euismod tellus ac euismod. Etiam tellus purus, blandit sed neque sed, porta varius orci. Nullam convallis congue malesuada. Donec faucibus justo luctus, placerat sem eget, elementum odio. Integer at felis a ligula placerat interdum.</descricao>
                 <documentos>
-                    <default>
-                        <item id="1282">Mauris scelerisque porttitor leo non semper. Ut purus mi, aliquet eget felis nec, venenatis sollicitudin leo. Fusce egestas leo at orci eleifend, sit amet aliquet leo volutpat. Aliquam in lorem diam. Quisque ornare neque non enim gravida, vel pellentesque dolor imperdiet. Curabitur tristique massa sed dolor vehicula, sit amet placerat arcu efficitur. Ut mollis tellus dui, nec scelerisque elit dictum eu. Etiam rhoncus viverra tellus non ullamcorper. Curabitur venenatis enim mollis orci ullamcorp</item>
-                    </default>
+                    <default/>
                 </documentos>
                 <custos>
-                    <default>
-                        <custo id="151">
-                            <descricao>Taxa fixa</descricao>
-                            <moeda>R$</moeda>
-                            <valor>847,00</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
+                    <default/>
                 </custos>
                 <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1884" tipo="e-mail">
-                            <descricao>Nam leo velit, placerat at faucibus nec, consectetur porttitor arcu. Sed bibendum metus nec nisl sagittis viverra. Quisque sit amet maximus eros, non ultrices diam. Etiam id vehicula arcu. Proin at leo efficitur, interdum dui in, cursus lacus. Sed mattis nibh quis lorem eleifend, quis eleifend arcu consectetur. Maecenas rutrum lectus non est convallis, sed blandit mi ultricies. Suspendisse vulputate dignissim neque, ut dictum odio rutrum ut. Nunc a semper metus.</descricao>
-                        </canal-de-prestacao>
-                    </default>
+                    <default/>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
@@ -33495,104 +33475,6 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <item>87</item>
             <item>432</item>
         </servicos-relacionados>
-    </servico>
-    <servico>
-        <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
-        <dbId>881</dbId>
-        <nome>Obter certificados de exportação de vinhos e bebidas</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="764">certificado de livre venda</item>
-            <item id="765">certificado de origem</item>
-        </nomes-populares>
-        <descricao>Emissão de certificados para exportação de produtos (bebidas, vinagres e derivados da uva e do vinho) elaborados nacionalmente.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
-        <solicitantes>
-            <solicitante id="617">
-                <tipo>Produtores de vinhos e outras bebidas brasileiros</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="15" max="30" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1706">
-                <titulo>Solicitar certificado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1283">Requerimento</item>
-                        <item id="1284">Contrato ou Carta proposta firmada e relativa aos produtos a serem analisados</item>
-                        <item id="1285">Documentação comprobatória da exigência oficial do país importador</item>
-                        <item id="1286">Cópia do Registro do estabelecimento exportador e dos produtos a serem exportado</item>
-                        <item id="1287">Amostra do produto a ser certificado</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1886" tipo="web">
-                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=881</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1885" tipo="presencial">
-                            <descricao>Em uma [Superintendência Federal de Agricultura](http://www.agricultura.gov.br/sfa)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1707">
-                <titulo>Receber certificado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1288">Documento de identificação oficial</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1888" tipo="web">
-                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=881</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1887" tipo="presencial">
-                            <descricao>Em uma [Superintendência Federal de Agricultura](http://www.agricultura.gov.br/sfa)</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2071">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="2072">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1818">vinho</item>
-            <item id="1819">bebida</item>
-            <item id="1820">exportação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="593">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
-            <item id="594">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>obter-autorizacao-de-importacao-de-material-genetico-e-animais-vivos-exceto-caes-e-gatos</id>
@@ -33681,6 +33563,82 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <item id="1873">importação</item>
             <item id="1874">animais</item>
         </palavras-chave>
+    </servico>
+    <servico>
+        <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
+        <dbId>881</dbId>
+        <nome>Obter certificados de exportação de vinhos e bebidas</nome>
+        <sigla>vinho</sigla>
+        <nomes-populares>
+            <item id="818">certificado de livre venda</item>
+            <item id="819">certificado de origem</item>
+        </nomes-populares>
+        <descricao>Emissão de certificados para exportação de produtos (bebidas, vinagres e derivados da uva e do vinho) elaborados nacionalmente.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="697">
+                <tipo>Produtores de vinhos e outras bebidas brasileiros</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="15" max="30" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1853">
+                <titulo>Solicitar certificado</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1854">
+                <titulo>Receber certificado</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2185">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="2186">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2064">vinho</item>
+            <item id="2065">bebida</item>
+            <item id="2066">exportação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="656">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
+            <item id="657">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>obter-o-fies</id>
