@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>Ordem</conteudo>
+    <dbId>81</dbId>
+    <nome>Ordem Tematica</nome>
+    <orgaos>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
