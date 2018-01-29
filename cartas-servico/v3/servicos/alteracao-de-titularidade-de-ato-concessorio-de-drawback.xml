@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>alteracao-de-titularidade-de-ato-concessorio-de-drawback</id>
+    <dbId>966</dbId>
+    <nome>Alteração de Titularidade de Ato Concessório de Drawback</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="826">Alteração de Titularidade de Drawback</item>
+    </nomes-populares>
+    <descricao>Promover a alteração do titular do ato concessório de Drawback nos casos em que houve sucessão legal entre empresas</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="703">
+            <tipo>Empresas</tipo>
+            <requisitos>que possuem Ato Concessório de Drawback a ter a titularidade alterada em caso de sucessão legal.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1860">
+            <titulo>Solicitação</titulo>
+            <descricao>Informar os dados necessários à solicitação da alteração, como a forma de sucessão legal e os números dos atos concessórios a serem transferidos.</descricao>
+            <documentos>
+                <default>
+                    <item id="1309">Instrumento de Mandato Público válido que conceda poderes aos representantes legais da empresa para acompanhamento do processo perante o DECEX.</item>
+                    <item id="1310">Para a empresa sucessora, contrato social ou alterações contratuais (se for Sociedade Limitada) registrado em junta comercial competente ou ata de assembleia geral ordinária e/ou extraordinária (se for Sociedade Anônima) registrada em junta comercial competente ou averbação do contrato da alienação do estabelecimento empresarial (apenas para os casos de trespasse).</item>
+                    <item id="1311">Para a empresa sucedida, contrato social ou alterações contratuais (se for Sociedade Limitada) registrado em junta comercial competente ou ata de assembleia geral ordinária e/ou extraordinária (se for Sociedade Anônima) registrada em junta comercial competente ou averbação do contrato da alienação do estabelecimento empresarial (apenas para os casos de trespasse).</item>
+                    <item id="1312">Protocolo e Justificação da operação realizada registrado em junta comercial competente.</item>
+                    <item id="1313">Laudo de Avaliação do patrimônio da empresa sucedida registrado em junta comercial competente.</item>
+                    <item id="1314">Publicação, em Diário Oficial, da alienação de estabelecimento comercial (apenas para os casos de trespasse).</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1921" tipo="web">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
+        <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2194">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comércio e Serviços</item>
+        <item>Comercio externo</item>
+        <item>Economia e Finanças</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2080">Alteração de Titularidade</item>
+        <item id="2081">Ato Concessório</item>
+        <item id="2082">Drawback</item>
+        <item id="2083">MDIC</item>
+        <item id="2084">Ministério da Indústria, Comércio Exterior e</item>
+    </palavras-chave>
+</servico>
