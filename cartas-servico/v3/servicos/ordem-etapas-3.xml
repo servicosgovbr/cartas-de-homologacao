@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>ordem-etapas-3</id>
+    <dbId>969</dbId>
+    <nome>Ordem etapas 3</nome>
+    <sigla>OE</sigla>
+    <nomes-populares>
+        <item id="830">ordem</item>
+    </nomes-populares>
+    <descricao>Novo serviço de ordem das etapas.</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="708">
+            <tipo>Solicitante 3</tipo>
+            <requisitos>Requisito soliciante</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="12" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1871">
+            <titulo>Planejar</titulo>
+            <descricao>etapa de planejamento</descricao>
+            <documentos>
+                <default>
+                    <item id="1316">documento 3</item>
+                    <item id="1317">documento 4</item>
+                </default>
+                <caso id="388" descricao="Caso seja controler">
+                    <documento>
+                        <id>1315</id>
+                        <descricao>documento 5</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1922" tipo="e-mail">
+                        <descricao>email@email.com</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1872">
+            <titulo>Executar</titulo>
+            <descricao>Executar etapa</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="184">
+                        <descricao>Cudto</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1925" tipo="fax">
+                        <descricao>61554525478</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1924" tipo="presencial">
+                        <descricao>No posto</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="389" descricao="Caso digital">
+                    <canal-de-prestacao id="1923" tipo="web">
+                        <descricao>www.web.com</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1873">
+            <titulo>Monitorar</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+                <caso id="390" descricao="Caso tenha documento">
+                    <documento>
+                        <id>1318</id>
+                        <descricao>monitora</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="186">
+                        <descricao>Custo</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>Salário</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+                <caso id="398" descricao="Caso">
+                    <custo id="191">
+                        <descricao>Teste</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </caso>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1926" tipo="presencial">
+                        <descricao>sadsadsad</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1874">
+            <titulo>Resolver</titulo>
+            <descricao>dfdsfdsf</descricao>
+            <documentos>
+                <default>
+                    <item id="1319">dfsfdsfdsfdsfds</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1927" tipo="e-mail">
+                        <descricao>dsfdsfsdfsdf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
+        <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2201">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2202">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência ao Idoso</item>
+        <item>Clima</item>
+        <item>Compras governamentais</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2099">o</item>
+        <item id="2100">a</item>
+        <item id="2101">e</item>
+    </palavras-chave>
+</servico>
