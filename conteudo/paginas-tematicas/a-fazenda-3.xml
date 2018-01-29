@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<pagina-tematica>
+<pagina-tematica >
     <conteudo>Teste publicação editor novo teste</conteudo>
     <dbId>85</dbId>
-    <nome>a-fazenda-3</nome>
+    <nome>A fazenda 3</nome>
     <orgaos>
-        <orgao dbId="37529" id="1929">
+        <orgao id="1929" dbId="37529">
             <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
         </orgao>
-        <orgao dbId="37527" id="41066">
+        <orgao id="41066" dbId="37527">
             <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
         </orgao>
     </orgaos>
