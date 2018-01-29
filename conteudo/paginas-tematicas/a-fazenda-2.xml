@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>Teste publicação editor</conteudo>
+    <dbId>85</dbId>
+    <nome>A fazenda 2</nome>
+    <orgaos>
+        <orgao id="1929" dbId="37529">
+            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
+        </orgao>
+        <orgao id="41066" dbId="37527">
+            <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
