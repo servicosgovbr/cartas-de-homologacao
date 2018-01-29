@@ -6860,67 +6860,6 @@ Quem pode solicitar: somente o condutor de veículo envolvido no acidente.
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>aqui-tem-farmacia-popular</id>
-        <dbId>143</dbId>
-        <nome>Aqui tem Farmácia Popular</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="132">Farmácia do Povo</item>
-            <item id="133">Drogaria Barata</item>
-        </nomes-populares>
-        <descricao>Na rede credenciada é possível ter acesso aos medicamentos para as doenças mais comuns entre os cidadãos. O Programa possui uma rede própria de Farmácias Populares e a parceria com farmácias e drogarias da rede privada, chamada de "Aqui tem Farmácia Popular".</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="132">
-                <tipo>Cidadão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="horas"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="774">
-                <titulo>Ir à farmácia</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="940" tipo="web">
-                            <descricao>http://sage.saude.gov.br/?link=aqt&amp;flt=true&amp;param=null</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
-            <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="975">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Previdência Social</item>
-            <item>Saúde</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="377">farmácia</item>
-            <item id="378">povo</item>
-            <item id="379">remédio</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="119">Constituição</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>siscomex-importacao-acesso-ao-sistema-web</id>
         <dbId>144</dbId>
         <nome>Siscomex Importação - Acesso ao Sistema Web</nome>
@@ -32168,74 +32107,6 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </legislacoes>
     </servico>
     <servico>
-        <id>fabricio-teste</id>
-        <dbId>919</dbId>
-        <nome>Fabricio teste</nome>
-        <sigla>ft</sigla>
-        <descricao>sdfgsdfg</descricao>
-        <contato>__Coordenação-Geral de Gestão Econômica de Ativos__
-
-*E-mail*: faleconosco.spu@planejamento.gov.br
-
-Endereço: Esplanada dos Ministérios
-
-Bloco C, 2º andar, Brasília-DF
-
-CEP: 70.046-900</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="682">
-                <tipo>sdfgsdfg</tipo>
-                <requisitos>xcbxcvb</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="3" unidade="horas"/>
-            <descricao>dgsdfgs</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>2</quantidade>
-            <unidade>meses</unidade>
-            <descricao>sdfgsdf</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1791">
-                <titulo>xcbxcb</titulo>
-                <descricao>xcvbx</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/4243" dbId="890">
-            <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2170">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2010">sdfgsdfg</item>
-            <item id="2011">cvbncvbn</item>
-            <item id="2012">cvbncv</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="640">cvncv</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
         <dbId>192</dbId>
         <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
@@ -32299,6 +32170,80 @@ CEP: 70.046-900</contato>
         </palavras-chave>
         <legislacoes>
             <item id="596">a</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>fabricio-teste</id>
+        <dbId>919</dbId>
+        <nome>Fabricio teste</nome>
+        <sigla>ft tg</sigla>
+        <descricao>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LmYCNcCxbmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</descricao>
+        <contato>__Coordenação-Geral de Gestão Econômica de Ativos__
+
+*E-mail*: faleconosco.spu@planejamento.gov.br
+
+Endereço: Esplanada dos Ministérios
+
+Bloco C, 2º andar, Brasília-DF
+
+CEP: 70.046-900</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="705">
+                <tipo>sdfgsdfg</tipo>
+                <requisitos>xcbxcvb</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="3" unidade="horas"/>
+            <descricao>dgsdfgs</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>2</quantidade>
+            <unidade>meses</unidade>
+            <descricao>sdfgsdf</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1862">
+                <titulo>xcbxcb</titulo>
+                <descricao>xcvbx</descricao>
+                <documentos>
+                    <default>
+                        <item id="1307">xcbvxx</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1906" tipo="e-mail">
+                            <descricao>xcbxcvb@asdfa.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/4243" dbId="890">
+            <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2196">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2090">sdfgsdfg</item>
+            <item id="2091">cvbncvbn</item>
+            <item id="2092">cvbncv</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="663">cvncv</item>
         </legislacoes>
     </servico>
     <servico>
@@ -33477,6 +33422,170 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </servicos-relacionados>
     </servico>
     <servico>
+        <id>ordem-etapas-4</id>
+        <dbId>969</dbId>
+        <nome>Ordem etapas 4</nome>
+        <sigla>OE</sigla>
+        <nomes-populares>
+            <item id="831">ordem</item>
+        </nomes-populares>
+        <descricao>Novo serviço de ordem das etapas.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="709">
+                <tipo>Solicitante 3</tipo>
+                <requisitos>Requisito soliciante</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="12" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1875">
+                <titulo>Planejar</titulo>
+                <descricao>etapa de planejamento</descricao>
+                <documentos>
+                    <default>
+                        <item id="1321">documento 3</item>
+                        <item id="1322">documento 4</item>
+                    </default>
+                    <caso id="399" descricao="Caso seja controler">
+                        <documento>
+                            <id>1320</id>
+                            <descricao>documento 5</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1928" tipo="e-mail">
+                            <descricao>email@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1876">
+                <titulo>Executar</titulo>
+                <descricao>Executar etapa</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="192">
+                            <descricao>Cudto</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1931" tipo="presencial">
+                            <descricao>No posto</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1930" tipo="fax">
+                            <descricao>61554525478</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="400" descricao="Caso digital">
+                        <canal-de-prestacao id="1929" tipo="web">
+                            <descricao>www.web.com</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1877">
+                <titulo>Monitorar</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                    <caso id="401" descricao="Caso tenha documento">
+                        <documento>
+                            <id>1323</id>
+                            <descricao>monitora</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="194">
+                            <descricao>Custo</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>Salário</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                    <caso id="402" descricao="Caso">
+                        <custo id="193">
+                            <descricao>Teste</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </caso>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1932" tipo="presencial">
+                            <descricao>sadsadsad</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1878">
+                <titulo>Resolver</titulo>
+                <descricao>dfdsfdsf</descricao>
+                <documentos>
+                    <default>
+                        <item id="1324">dfsfdsfdsfdsfds</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1933" tipo="e-mail">
+                            <descricao>dsfdsfsdfsdf</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
+            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2203">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2204">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Assistência ao Idoso</item>
+            <item>Clima</item>
+            <item>Compras governamentais</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2102">o</item>
+            <item id="2103">a</item>
+            <item id="2104">e</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>obter-autorizacao-de-importacao-de-material-genetico-e-animais-vivos-exceto-caes-e-gatos</id>
         <dbId>882</dbId>
         <nome>Obter autorização de importação de material genético e animais vivos, exceto cães e gatos</nome>
@@ -33638,6 +33747,74 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <legislacoes>
             <item id="656">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
             <item id="657">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>aqui-tem-farmacia-popular</id>
+        <dbId>143</dbId>
+        <nome>Aqui tem Farmácia Popular</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="843">Drogaria Barata</item>
+            <item id="842">Farmácia do Povo</item>
+        </nomes-populares>
+        <descricao>Na rede credenciada é possível ter acesso aos medicamentos para as doenças mais comuns entre os cidadãos. O Programa possui uma rede própria de Farmácias Populares e a parceria com farmácias e drogarias da rede privada, chamada de "Aqui tem Farmácia Popular".
+
+&lt;/br&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LmYCNcCxbmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="715">
+                <tipo>Cidadão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1884">
+                <titulo>Ir à farmácia</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="940" tipo="web">
+                            <descricao>http://sage.saude.gov.br/?link=aqt&amp;flt=true&amp;param=null</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
+            <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2210">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Previdência Social</item>
+            <item>Saúde</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2120">farmácia</item>
+            <item id="2121">povo</item>
+            <item id="2122">remédio</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="669">Constituição</item>
         </legislacoes>
     </servico>
     <servico>
