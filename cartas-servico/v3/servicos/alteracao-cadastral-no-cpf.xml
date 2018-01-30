@@ -1,46 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>alteracao-cadastral-no-cpf</id>
+    <dbId>196</dbId>
     <nome>Alteração Cadastral no CPF</nome>
-    <sigla/>
-    <nomes-populares/>
+    <sigla>09070406403</sigla>
+    <nomes-populares>
+        <item id="777">Caixa Econômica Federal 2</item>
+    </nomes-populares>
     <descricao>Realizar pedido de alteração de dados no CPF em uma conveniada (Banco do Brasil, Caixa Econômica Federal, Correios) ou alteração de endereço em entidades que prestam o serviço gratuitamente.</descricao>
-    <gratuito/>
-    <solicitantes/>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="628">
+            <tipo>cidadão</tipo>
+            <requisitos>Pretendo regularisa meu CPF</requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <entre min="1" max="2" unidade="minutos"/>
+        <descricao>Pretedo Regularisa meu CPF</descricao>
     </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
+        <etapa id="1719">
+            <titulo>renovação cadastro CPF</titulo>
+            <descricao>Regularisa meu CPF</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="311">55396432x</item>
+                </default>
+                <caso id="85" descricao="Regularisa meu CPF">
+                    <documento>
+                        <id>310</id>
+                        <descricao>08082101490</descricao>
+                    </documento>
+                </caso>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="153">
+                        <descricao>etapas</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1.000,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="1002" tipo="web-consultar">
                         <descricao>http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFEntPublicConven.htm</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao>Unidades de Atendimento Conveniadas: Agências da CEF, BB e Correios</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="1004" tipo="web">
                         <descricao>[Informações sobre alteração cadastral do CPF](http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFAlteracaoDadosCad.htm)</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1003" tipo="presencial">
+                        <descricao>Unidades de Atendimento Conveniadas: Agências da CEF, BB e Correios</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+        <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2097">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="2129">Regularisa meu CPF</item>
+        <item id="2130">s</item>
+        <item id="2131">s</item>
+    </palavras-chave>
 </servico>
