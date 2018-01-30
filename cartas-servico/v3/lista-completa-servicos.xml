@@ -1287,6 +1287,71 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
         </legislacoes>
     </servico>
     <servico>
+        <id>ade-de-exclusao-do-simples-nacional-2012-consulta-debitos</id>
+        <dbId>384</dbId>
+        <nome>ADE de Exclusão do Simples Nacional 2012 - Consulta Débitos</nome>
+        <sigla>augusto teste</sigla>
+        <nomes-populares>
+            <item id="518">augusto valentim da costa</item>
+            <item id="519">augusto</item>
+        </nomes-populares>
+        <descricao>Consultar débitos referentes ao Ato Declaratório de Exclusão do Simples Nacional 2012.</descricao>
+        <contato>declaraçao imposto de renda baixa</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="717">
+                <tipo>Solicitnare</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1359">
+                <titulo>Acesse</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="545" tipo="web">
+                            <descricao>https://www.receita.fazenda.gov.br/aplicacoes/SSL/ATBHE/SivexSN.App/ControleAcesso.aspx</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1704">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+            <item>Proteção Social</item>
+            <item>Recursos humanos</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2126">s</item>
+            <item id="2127">s</item>
+            <item id="2128">s</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>solicitacao-de-restituicao-de-multa-dnit</id>
         <dbId>25</dbId>
         <nome>Solicitação de restituição de Multa DNIT</nome>
@@ -8974,56 +9039,6 @@ As séries podem ser consultadas individualmente, em grupos ou listas personaliz
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>alteracao-cadastral-no-cpf</id>
-        <dbId>196</dbId>
-        <nome>Alteração Cadastral no CPF</nome>
-        <sigla>09070406403</sigla>
-        <nomes-populares>
-            <item id="141">Caixa Econômica Federal</item>
-        </nomes-populares>
-        <descricao>Realizar pedido de alteração de dados no CPF em uma conveniada (Banco do Brasil, Caixa Econômica Federal, Correios) ou alteração de endereço em entidades que prestam o serviço gratuitamente.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="138">
-                <tipo>cidadão</tipo>
-                <requisitos>Pretendo regularisa meu CPF</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="1" max="2" unidade="minutos"/>
-            <descricao>Pretedo Regularisa meu CPF</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="833">
-                <titulo>renovação cadastro CPF</titulo>
-                <descricao>Regularisa meu CPF</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1059">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="390">Regularisa meu CPF</item>
-        </palavras-chave>
     </servico>
     <servico>
         <id>declaracao-anual-do-simples-nacional-ano-calendario-ate-2011</id>
@@ -16718,51 +16733,6 @@ http://justica.gov.br/sua-protecao/cooperacao-internacional/transferencia-de-pes
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
-        </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>ade-de-exclusao-do-simples-nacional-2012-consulta-debitos</id>
-        <dbId>384</dbId>
-        <nome>ADE de Exclusão do Simples Nacional 2012 - Consulta Débitos</nome>
-        <sigla>augusto</sigla>
-        <nomes-populares>
-            <item id="94">augusto valentim da costa</item>
-            <item id="95">augusto</item>
-        </nomes-populares>
-        <descricao>Consultar débitos referentes ao Ato Declaratório de Exclusão do Simples Nacional 2012.</descricao>
-        <contato>declaraçao imposto de renda baixa</contato>
-        <gratuito>true</gratuito>
-        <servico-digital>false</servico-digital>
-        <tempo-total-estimado>
-            <entre min="0" max="0"/>
-            <descricao>por este motivo nao poso fazernada</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="436">
-                <titulo></titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
-            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="554">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Assistência à Criança e ao Adolescente</item>
-            <item>Proteção Social</item>
-            <item>Recursos humanos</item>
         </areas-de-interesse>
     </servico>
     <servico>
@@ -33750,6 +33720,80 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </legislacoes>
     </servico>
     <servico>
+        <id>alterar-o-beneficiario-da-titularidade-do-ato-concessorio-de-drawback</id>
+        <dbId>979</dbId>
+        <nome>Alterar o beneficiário da titularidade do ato concessório de drawback</nome>
+        <sigla></sigla>
+        <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="719">
+                <tipo>Empresas privadas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="15" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1886">
+                <titulo>Requerer alteração</titulo>
+                <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1325">CNPJ</item>
+                        <item id="1326">Certidão de Receita Federal</item>
+                        <item id="1327">Contrato Social</item>
+                        <item id="1328">Procuração do representante legal</item>
+                        <item id="1329">Registro na junta comercial</item>
+                        <item id="1330">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
+                        <item id="1331">Mandato Público</item>
+                        <item id="1332">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                        <item id="1333">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                        <item id="1334">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
+                        <item id="1335">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1935" tipo="postal">
+                            <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1934" tipo="presencial">
+                            <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
+            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2212">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comercio externo</item>
+            <item>Comércio e Serviços</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2135">drawback</item>
+            <item id="2136">titularidade</item>
+            <item id="2137">alteração</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>aqui-tem-farmacia-popular</id>
         <dbId>143</dbId>
         <nome>Aqui tem Farmácia Popular</nome>
@@ -33816,6 +33860,89 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <legislacoes>
             <item id="669">Constituição</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracao-cadastral-no-cpf</id>
+        <dbId>196</dbId>
+        <nome>Alteração Cadastral no CPF</nome>
+        <sigla>09070406403</sigla>
+        <nomes-populares>
+            <item id="777">Caixa Econômica Federal 2</item>
+        </nomes-populares>
+        <descricao>Realizar pedido de alteração de dados no CPF em uma conveniada (Banco do Brasil, Caixa Econômica Federal, Correios) ou alteração de endereço em entidades que prestam o serviço gratuitamente.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="628">
+                <tipo>cidadão</tipo>
+                <requisitos>Pretendo regularisa meu CPF</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="1" max="2" unidade="minutos"/>
+            <descricao>Pretedo Regularisa meu CPF</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1719">
+                <titulo>renovação cadastro CPF</titulo>
+                <descricao>Regularisa meu CPF</descricao>
+                <documentos>
+                    <default>
+                        <item id="311">55396432x</item>
+                    </default>
+                    <caso id="85" descricao="Regularisa meu CPF">
+                        <documento>
+                            <id>310</id>
+                            <descricao>08082101490</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="153">
+                            <descricao>etapas</descricao>
+                            <moeda>R$</moeda>
+                            <valor>1.000,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1002" tipo="web-consultar">
+                            <descricao>http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFEntPublicConven.htm</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1004" tipo="web">
+                            <descricao>[Informações sobre alteração cadastral do CPF](http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFAlteracaoDadosCad.htm)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1003" tipo="presencial">
+                            <descricao>Unidades de Atendimento Conveniadas: Agências da CEF, BB e Correios</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2097">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2129">Regularisa meu CPF</item>
+            <item id="2130">s</item>
+            <item id="2131">s</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>obter-o-fies</id>
