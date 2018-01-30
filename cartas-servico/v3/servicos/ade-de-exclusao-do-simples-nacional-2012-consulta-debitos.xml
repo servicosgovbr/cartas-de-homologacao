@@ -1,18 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>ade-de-exclusao-do-simples-nacional-2012-consulta-debitos</id>
+    <dbId>384</dbId>
     <nome>ADE de Exclusão do Simples Nacional 2012 - Consulta Débitos</nome>
-    <sigla/>
-    <nomes-populares/>
+    <sigla>augusto teste</sigla>
+    <nomes-populares>
+        <item id="518">augusto valentim da costa</item>
+        <item id="519">augusto</item>
+    </nomes-populares>
     <descricao>Consultar débitos referentes ao Ato Declaratório de Exclusão do Simples Nacional 2012.</descricao>
-    <gratuito/>
-    <solicitantes/>
+    <contato>declaraçao imposto de renda baixa</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="717">
+            <tipo>Solicitnare</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <atendimento-imediato/>
+        <descricao></descricao>
     </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
     <etapas>
-        <etapa>
-            <titulo/>
-            <descricao/>
+        <etapa id="1359">
+            <titulo>Acesse</titulo>
+            <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -21,20 +39,28 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
+                    <canal-de-prestacao id="545" tipo="web">
                         <descricao>https://www.receita.fazenda.gov.br/aplicacoes/SSL/ATBHE/SivexSN.App/ControleAcesso.aspx</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77"/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+        <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+    </orgao>
     <segmentos-da-sociedade>
-        <item>Empresas</item>
+        <item idSegmento="3" idServicoSegmento="1704">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Proteção Social</item>
+        <item>Recursos humanos</item>
     </areas-de-interesse>
-    <palavras-chave/>
-    <legislacoes/>
+    <palavras-chave>
+        <item id="2126">s</item>
+        <item id="2127">s</item>
+        <item id="2128">s</item>
+    </palavras-chave>
 </servico>
