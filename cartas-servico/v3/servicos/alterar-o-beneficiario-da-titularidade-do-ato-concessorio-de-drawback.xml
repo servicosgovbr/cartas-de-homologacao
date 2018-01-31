@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="720">
+        <solicitante id="721">
             <tipo>Empresas privadas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1887">
+        <etapa id="1888">
             <titulo>Requerer alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
@@ -61,15 +61,15 @@
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2213">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2214">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comercio externo</item>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2138">drawback</item>
-        <item id="2139">titularidade</item>
-        <item id="2140">alteração</item>
+        <item id="2141">drawback</item>
+        <item id="2142">titularidade</item>
+        <item id="2143">alteração</item>
     </palavras-chave>
 </servico>
