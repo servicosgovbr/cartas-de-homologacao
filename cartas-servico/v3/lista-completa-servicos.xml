@@ -27355,102 +27355,6 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>alteracoes-de-pos-outorga</id>
-        <dbId>9</dbId>
-        <nome>Alterações de Pós-Outorga</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="640">Atos de Pós-Outorga</item>
-        </nomes-populares>
-        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="502">
-                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1562">
-                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="100">
-                            <descricao></descricao>
-                            <moeda>R$</moeda>
-                            <valor>2.100,00</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1704" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1483">Transferência de Outorga</item>
-            <item id="1484">Alteração de Quadro Societário</item>
-            <item id="1485">Pós-Outorga</item>
-            <item id="1486">Renovação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="468">Alterações contratuais
-
-Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-            <item id="469">Geral
-
-Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="470">Renovação/ revisão de outorga
-
-Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>492</item>
-            <item>462</item>
-        </servicos-relacionados>
-    </servico>
-    <servico>
         <id>treinamento-credenciar-laboratorio-na-rede-nacional-de-laboratorios-agropecuarios</id>
         <dbId>836</dbId>
         <nome>[Treinamento] Credenciar Laboratório na Rede Nacional de Laboratórios Agropecuários</nome>
@@ -30628,75 +30532,6 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         </legislacoes>
     </servico>
     <servico>
-        <id>viajar-para-o-espaco</id>
-        <dbId>842</dbId>
-        <nome>Viajar para o espaço</nome>
-        <sigla>VE</sigla>
-        <nomes-populares>
-            <item id="717">Ir para lua</item>
-        </nomes-populares>
-        <descricao>Pegar um transporte para o espaço</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="575">
-                <tipo>Astronautas</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1197" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1664">
-                <titulo>Pegar o ônibus espacial</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1276">Passe livre</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1878" tipo="presencial">
-                            <descricao>Canaveral Cape</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/4243" dbId="890">
-            <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1962">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Categoria Teste Edson</item>
-            <item>Nova Categoria 1</item>
-            <item>test</item>
-            <item>Transporte Aéreo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1683">ônibus espacial</item>
-            <item id="1684">viajar</item>
-            <item id="1685">lua</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="551">Convenção mundial do espaço</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>obter-cnh</id>
         <dbId>753</dbId>
         <nome>Obter CNH</nome>
@@ -30794,6 +30629,75 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         <servicos-relacionados>
             <item>496</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>viajar-para-o-espaco</id>
+        <dbId>842</dbId>
+        <nome>Viajar para o espaço</nome>
+        <sigla>VE</sigla>
+        <nomes-populares>
+            <item id="717">Ir para lua</item>
+        </nomes-populares>
+        <descricao>Pegar um transporte para o espaço</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="575">
+                <tipo>Astronautas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1197" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1664">
+                <titulo>Pegar o ônibus espacial</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1276">Passe livre</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1878" tipo="presencial">
+                            <descricao>Canaveral Cape</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/4243" dbId="890">
+            <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1962">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Categoria Teste Edson</item>
+            <item>Nova Categoria 1</item>
+            <item>test</item>
+            <item>Transporte Aéreo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1683">ônibus espacial</item>
+            <item id="1684">viajar</item>
+            <item id="1685">lua</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="551">Convenção mundial do espaço</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>testes-orgao1</id>
@@ -32077,72 +31981,6 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </legislacoes>
     </servico>
     <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
-        <sigla>MTco gjhj</sigla>
-        <nomes-populares>
-            <item id="767">Teste 1</item>
-        </nomes-populares>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="620">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1711">
-                <titulo>asdasdasda</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1893" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="2079">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="2080">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1827">a</item>
-            <item id="1828">a</item>
-            <item id="1829">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="596">a</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>fabricio-teste</id>
         <dbId>919</dbId>
         <nome>Fabricio teste</nome>
@@ -32214,6 +32052,72 @@ CEP: 70.046-900</contato>
         </palavras-chave>
         <legislacoes>
             <item id="663">cvncv</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
+        <sigla>MTco gjhj</sigla>
+        <nomes-populares>
+            <item id="844">Teste 1</item>
+        </nomes-populares>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="723">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1890">
+                <titulo>asdasdasda</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1893" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2216">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="2217">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2147">a</item>
+            <item id="2148">a</item>
+            <item id="2149">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="670">a</item>
         </legislacoes>
     </servico>
     <servico>
@@ -34224,5 +34128,101 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <item id="651">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
             <item id="652">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracoes-de-pos-outorga</id>
+        <dbId>9</dbId>
+        <nome>Alterações de Pós-Outorga</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="640">Atos de Pós-Outorga</item>
+        </nomes-populares>
+        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="502">
+                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1562">
+                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="100">
+                            <descricao></descricao>
+                            <moeda>R$</moeda>
+                            <valor>2.100,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1704" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1483">Transferência de Outorga</item>
+            <item id="1484">Alteração de Quadro Societário</item>
+            <item id="1485">Pós-Outorga</item>
+            <item id="1486">Renovação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="468">Alterações contratuais
+
+Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
+            <item id="469">Geral
+
+Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
+            <item id="470">Renovação/ revisão de outorga
+
+Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>492</item>
+            <item>462</item>
+        </servicos-relacionados>
     </servico>
 </servicos>
