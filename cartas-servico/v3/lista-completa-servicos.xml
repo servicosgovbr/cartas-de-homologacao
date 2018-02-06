@@ -24709,6 +24709,80 @@ CEP: 70.064-900 – Brasília – DF.</descricao>
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>novo-2</id>
+        <dbId>990</dbId>
+        <nome>Novo 2</nome>
+        <sigla>SN</sigla>
+        <nomes-populares>
+            <item id="847">Servço</item>
+            <item id="848">Novo</item>
+        </nomes-populares>
+        <descricao>Novo</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="729">
+                <tipo>Solicitante</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="2" unidade="horas"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1896">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="195">
+                            <descricao>Documento 1</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1937" tipo="e-mail">
+                            <descricao>email@email.com</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2223">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2224">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comércio e Serviços</item>
+            <item>Comercio externo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2165">w</item>
+            <item id="2166">s</item>
+            <item id="2167">e</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="671">wsdada</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>ranking-do-valor-efetivo-total-vet-das-operacoes-de-cambio</id>
         <dbId>548</dbId>
         <nome>Ranking do Valor Efetivo Total - VET - das operações de câmbio</nome>
@@ -33692,12 +33766,89 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </legislacoes>
     </servico>
     <servico>
+        <id>alterar-o-beneficiario-da-titularidade-do-ato-concessorio-de-drawback</id>
+        <dbId>979</dbId>
+        <nome>Alterar o beneficiário da titularidade do ato concessório de drawback</nome>
+        <sigla></sigla>
+        <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas. t</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="726">
+                <tipo>Empresas privadas</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="15" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1893">
+                <titulo>Requerer alteração</titulo>
+                <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1325">CNPJ</item>
+                        <item id="1326">Certidão de Receita Federal</item>
+                        <item id="1327">Contrato Social</item>
+                        <item id="1328">Procuração do representante legal</item>
+                        <item id="1329">Registro na junta comercial</item>
+                        <item id="1330">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
+                        <item id="1331">Mandato Público</item>
+                        <item id="1332">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                        <item id="1333">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                        <item id="1334">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
+                        <item id="1335">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1935" tipo="postal">
+                            <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1934" tipo="presencial">
+                            <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1936" tipo="web">
+                            <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
+            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2220">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comercio externo</item>
+            <item>Comércio e Serviços</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2156">drawback</item>
+            <item id="2157">titularidade</item>
+            <item id="2158">alteração</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>alteracao-cadastral-no-cpf</id>
         <dbId>196</dbId>
         <nome>Alteração Cadastral no CPF</nome>
         <sigla>09070406403</sigla>
         <nomes-populares>
-            <item id="777">Caixa Econômica Federal 2</item>
+            <item id="846">Caixa Econômica Federal 2 4 5</item>
         </nomes-populares>
         <descricao>Realizar pedido de alteração de dados no CPF em uma conveniada (Banco do Brasil, Caixa Econômica Federal, Correios) ou alteração de endereço em entidades que prestam o serviço gratuitamente.</descricao>
         <contato></contato>
@@ -33706,7 +33857,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="628">
+            <solicitante id="728">
                 <tipo>cidadão</tipo>
                 <requisitos>Pretendo regularisa meu CPF</requisitos>
             </solicitante>
@@ -33719,7 +33870,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1719">
+            <etapa id="1895">
                 <titulo>renovação cadastro CPF</titulo>
                 <descricao>Regularisa meu CPF</descricao>
                 <documentos>
@@ -33763,92 +33914,15 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2097">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="2222">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="2129">Regularisa meu CPF</item>
-            <item id="2130">s</item>
-            <item id="2131">s</item>
-        </palavras-chave>
-    </servico>
-    <servico>
-        <id>alterar-o-beneficiario-da-titularidade-do-ato-concessorio-de-drawback</id>
-        <dbId>979</dbId>
-        <nome>Alterar o beneficiário da titularidade do ato concessório de drawback</nome>
-        <sigla></sigla>
-        <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
-        <solicitantes>
-            <solicitante id="722">
-                <tipo>Empresas privadas</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="15" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1889">
-                <titulo>Requerer alteração</titulo>
-                <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1325">CNPJ</item>
-                        <item id="1326">Certidão de Receita Federal</item>
-                        <item id="1327">Contrato Social</item>
-                        <item id="1328">Procuração do representante legal</item>
-                        <item id="1329">Registro na junta comercial</item>
-                        <item id="1330">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
-                        <item id="1331">Mandato Público</item>
-                        <item id="1332">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
-                        <item id="1333">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
-                        <item id="1334">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
-                        <item id="1335">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1935" tipo="postal">
-                            <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1934" tipo="presencial">
-                            <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1936" tipo="web">
-                            <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
-            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2215">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comercio externo</item>
-            <item>Comércio e Serviços</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2144">drawback</item>
-            <item id="2145">titularidade</item>
-            <item id="2146">alteração</item>
+            <item id="2162">Regularisa meu CPF</item>
+            <item id="2163">s</item>
+            <item id="2164">s</item>
         </palavras-chave>
     </servico>
     <servico>
