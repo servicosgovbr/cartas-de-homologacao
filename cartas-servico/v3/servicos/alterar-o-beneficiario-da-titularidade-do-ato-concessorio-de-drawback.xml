@@ -4,14 +4,14 @@
     <dbId>979</dbId>
     <nome>Alterar o beneficiário da titularidade do ato concessório de drawback</nome>
     <sigla></sigla>
-    <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas.</descricao>
+    <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas. t</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="725">
+        <solicitante id="726">
             <tipo>Empresas privadas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1892">
+        <etapa id="1893">
             <titulo>Requerer alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
@@ -64,15 +64,15 @@
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2219">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2220">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comercio externo</item>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2153">drawback</item>
-        <item id="2154">titularidade</item>
-        <item id="2155">alteração</item>
+        <item id="2156">drawback</item>
+        <item id="2157">titularidade</item>
+        <item id="2158">alteração</item>
     </palavras-chave>
 </servico>
