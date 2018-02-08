@@ -30606,9 +30606,9 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         </legislacoes>
     </servico>
     <servico>
-        <id>obter-cnh</id>
+        <id>obter-cnh-2</id>
         <dbId>753</dbId>
-        <nome>Obter CNH</nome>
+        <nome>Obter CNH 2</nome>
         <sigla>CNH 1</sigla>
         <nomes-populares>
             <item id="820">Carta de Motorista</item>
