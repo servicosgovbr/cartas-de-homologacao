@@ -33775,9 +33775,9 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <servico-digital>true</servico-digital>
-        <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
+        <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
         <solicitantes>
-            <solicitante id="726">
+            <solicitante id="730">
                 <tipo>Empresas privadas</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -33790,7 +33790,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1893">
+            <etapa id="1897">
                 <titulo>Requerer alteração</titulo>
                 <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
                 <documentos>
@@ -33830,16 +33830,16 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2220">Empresas</item>
+            <item idSegmento="3" idServicoSegmento="2225">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Comercio externo</item>
             <item>Comércio e Serviços</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="2156">drawback</item>
-            <item id="2157">titularidade</item>
-            <item id="2158">alteração</item>
+            <item id="2168">drawback</item>
+            <item id="2169">titularidade</item>
+            <item id="2170">alteração</item>
         </palavras-chave>
     </servico>
     <servico>
