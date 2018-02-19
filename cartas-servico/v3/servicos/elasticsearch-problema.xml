@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>elasticsearch-problema</id>
+    <dbId>997</dbId>
+    <nome>Elasticsearch problema</nome>
+    <sigla>EP</sigla>
+    <descricao>s2teste-carlos-18-12-2017 2teste-carlos-18-12-2017 sdfdsfdsfssssss fkjkdfgjkldjfg kljdfkldjlkjslkdfjkldsf jfhdjkvhjbvm,cbmv</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="736">
+            <tipo>Empresas</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>3</quantidade>
+        <unidade>meses</unidade>
+        <descricao>teste</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1903">
+            <titulo>Alteração</titulo>
+            <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
+            <documentos>
+                <default>
+                    <item id="1336">CPF</item>
+                    <item id="1337">Receita</item>
+                    <item id="1338">Contrato</item>
+                    <item id="1339">Procuração</item>
+                    <item id="1340">Registro</item>
+                    <item id="1341">Carta</item>
+                    <item id="1342">Mandato</item>
+                    <item id="1343">Deliberação</item>
+                    <item id="1344">Deliberação 2</item>
+                    <item id="1345">Protocolo</item>
+                    <item id="1346">Laudo</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1940" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1939" tipo="presencial">
+                        <descricao>Rua 3</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1938" tipo="postal">
+                        <descricao>Esplnada</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2231">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Ambiente e saúde</item>
+        <item>Alimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2186">ela</item>
+        <item id="2187">tic</item>
+        <item id="2188">search</item>
+    </palavras-chave>
+</servico>
