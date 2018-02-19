@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="738">
+        <solicitante id="739">
             <tipo>Empresas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,22 +27,12 @@
         <descricao>teste</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1905">
+        <etapa id="1906">
             <titulo>Alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
                 <default>
                     <item id="1336">CPF</item>
-                    <item id="1337">Receita</item>
-                    <item id="1338">Contrato</item>
-                    <item id="1339">Procuração</item>
-                    <item id="1340">Registro</item>
-                    <item id="1341">Carta</item>
-                    <item id="1342">Mandato</item>
-                    <item id="1343">Deliberação</item>
-                    <item id="1344">Deliberação 2</item>
-                    <item id="1345">Protocolo</item>
-                    <item id="1346">Laudo</item>
                 </default>
             </documentos>
             <custos>
@@ -67,16 +57,16 @@
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2238">Empresas</item>
-        <item idSegmento="1" idServicoSegmento="2239">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2240">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2241">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
         <item>Alimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2192">ela</item>
-        <item id="2193">tic</item>
-        <item id="2194">search</item>
+        <item id="2195">ela</item>
+        <item id="2196">tic</item>
+        <item id="2197">search</item>
     </palavras-chave>
 </servico>
