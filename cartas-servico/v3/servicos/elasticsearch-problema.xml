@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="736">
+        <solicitante id="738">
             <tipo>Empresas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao>teste</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1903">
+        <etapa id="1905">
             <titulo>Alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
@@ -67,15 +67,16 @@
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2231">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2238">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2239">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
         <item>Alimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2186">ela</item>
-        <item id="2187">tic</item>
-        <item id="2188">search</item>
+        <item id="2192">ela</item>
+        <item id="2193">tic</item>
+        <item id="2194">search</item>
     </palavras-chave>
 </servico>
