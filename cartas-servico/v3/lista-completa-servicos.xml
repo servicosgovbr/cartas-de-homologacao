@@ -33204,7 +33204,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <id>alterar-o-beneficiario-da-titularidade-do-ato-concessorio-de-drawback</id>
         <dbId>979</dbId>
         <nome>Alterar o beneficiário da titularidade do ato concessório de drawback</nome>
-        <sigla>DR</sigla>
+        <sigla></sigla>
         <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
@@ -33212,7 +33212,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <servico-digital>true</servico-digital>
         <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
         <solicitantes>
-            <solicitante id="737">
+            <solicitante id="740">
                 <tipo>Empresas privadas</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -33228,7 +33228,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <descricao>teste</descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1904">
+            <etapa id="1907">
                 <titulo>Requerer alteração</titulo>
                 <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
                 <documentos>
@@ -33251,14 +33251,14 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
                 </custos>
                 <canais-de-prestacao>
                     <default>
+                        <canal-de-prestacao id="1936" tipo="web">
+                            <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
+                        </canal-de-prestacao>
                         <canal-de-prestacao id="1935" tipo="postal">
                             <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="1934" tipo="presencial">
                             <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1936" tipo="web">
-                            <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -33268,17 +33268,17 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2234">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="2235">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2242">Empresas</item>
+            <item idSegmento="1" idServicoSegmento="2243">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Comercio externo</item>
             <item>Comércio e Serviços</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="2189">drawback</item>
-            <item id="2190">titularidade</item>
-            <item id="2191">alteração</item>
+            <item id="2198">drawback</item>
+            <item id="2199">titularidade</item>
+            <item id="2200">alteração</item>
         </palavras-chave>
     </servico>
     <servico>
