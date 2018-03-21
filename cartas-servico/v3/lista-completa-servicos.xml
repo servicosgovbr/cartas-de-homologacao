@@ -27405,6 +27405,144 @@ Serão resultados desta etapa:
         </legislacoes>
     </servico>
     <servico>
+        <id>participar-em-feiras-internacionais-de-agronegocios</id>
+        <dbId>1004</dbId>
+        <nome>Participar em feiras internacionais de Agronegócios</nome>
+        <sigla></sigla>
+        <descricao>O Ministério da Agricultura, Pecuária e Abastecimento (MAPA) em parceria com o Ministério das Relações Exteriores (MRE) organizam a mais de uma década a participação brasileira em feiras internacionais voltadas ao setor de alimentos e bebidas. Através do Pavilhão Brasil, fornecendo infraestrutura necessária para que as empresas brasileiras tenham a oportunidade de promover seus produtos e a realização de novos negócios, como também para a abertura de novos mercados para o agronegócio brasileiro, contribuindo assim para o aumento e diversificação das exportações nacionais.    
+O MAPA disponibiliza anualmente o [calendário das feiras internacionais nas quais pretende participar](www.agricultura.gov.br/assuntos/relacoes-internacionais/eventos-internacionais/feiras-internacionais), com informações específicas sobre cada evento.       
+
+&amp;nbsp;       
+   
+__Termos e Condições de Participação__      
+
+&amp;nbsp;       
+
+A organização do Pavilhão Brasil (MAPA/MRE) compete o fornecimento, sem ônus para os expositores, dos seguintes itens de infraestrutura e serviços de apoio: 
+¨ Contratação do espaço, projeto, montagem do estande, bem como a elaboração e impressão das artes de comunicação visual;    
+
+¨ Locação de mobiliário básico dos estandes, utensílios e equipamentos de utilização coletiva;     
+
+¨ Contratação de pessoal de cozinha (Chef, Assistente de Cozinha, Barman e Garçom) para a preparação e distribuição de degustações dos produtos promovidos;     
+
+¨ Manutenção do estande (limpeza, eletricidade, água, etc.);    
+
+¨ Elaboração e impressão do catálogo oficial de expositores do pavilhão e cadastro no diretório geral de expositores do evento; e    
+
+¨ Contratação de recepcionistas bilingues para auxiliarem os expositores do Pavilhão Brasil.   
+
+Às Empresas e/ou Entidades Setoriais selecionadas competem:    
+
+¨ Arcarem com os custos e procedimentos referentes à participação de seus representantes de negócios (passagens aéreas, alimentação, hospedagem, procedimentos consulares, vacinação, seguro viagem e demais despesas pessoais);     
+
+¨ Arcarem com os custos de logística para o envio de amostras de produtos e materiais promocionais impressos (folders, catálogos, revistas etc), lembrando que os postos diplomáticos brasileiros no exterior (Embaixadas, Consulados e Escritórios) não receberão ou armazenarão produtos dos expositores;     
+
+¨ Tomarem ciência de que é vedada a exposição e/ou promoção de produtos diferentes dos indicados no Formulário de Inscrição;    
+
+¨ Tomarem ciência de que é vedada a utilização de banners, cartazes, totens e outros tipos de peças publicitárias no Pavilhão Brasil;     
+
+¨ Tomarem ciência de que é obrigatória a participação dos representantes na reunião de coordenação que antecede o evento; e     
+
+¨ Tomarem ciência de que é recomendado o envio de ao menos 2 (dois) representantes para a feira.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="742">
+                <tipo>Empresas e Entidades Setoriais (Associações, Cooperativas, Federações etc)</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1909">
+                <titulo>Inscrição no Processo Seletivo de Expositores Brasileiros</titulo>
+                <descricao>Etapa destinada à Empresa ou Entidade Setorial para preencher o formulário de inscrição do processo seletivo de expositores para a feira que deseja participar, com dados relativos a atividade de exportação, participação em feiras internacionais, estratégias para o mercado alvo da feira e produtos que pretende promover.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1348">Formulário de inscrição</item>
+                        <item id="1349">Logomarca em alta resolução (Mínimo de 3.000 megapixels)</item>
+                        <item id="1350">Imagens dos produtos que deseja promover em alta resolução (Mínimo de 3.000 megapixels)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1944" tipo="web">
+                            <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=1004</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1910">
+                <titulo>Receber resultado</titulo>
+                <descricao>O MAPA divulgará por meio de nota através do seu site oficial a lista das Empresas e/ou Entidades Setoriais selecionadas para participar como expositores do Pavilhão Brasil. 
+O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou Entidades Setoriais que participaram do processo seletivo.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1946" tipo="web">
+                            <descricao>http://www.agricultura.gov.br/assuntos/relacoes-internacionais/eventos-internacionais</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1945" tipo="e-mail">
+                            <descricao>E-mail informado na inscrição</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1911">
+                <titulo>Receber instruções de informações</titulo>
+                <descricao>Etapa destinada aos servidores do MAPA e MRE repassarem instruções e informações relativas a participação brasileira na feira às Empresas e/ou Entidades Setoriais selecionadas.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1947" tipo="e-mail">
+                            <descricao>E-mail informado na inscrição</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2246">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="2247">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+            <item>Cooperação Internacional</item>
+            <item>Comercio externo</item>
+            <item>Relações Diplomáticas</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2205">agropecuária</item>
+            <item id="2206">feira</item>
+            <item id="2207">inscrição</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>consulta-cnpj-eleicoes</id>
         <dbId>92</dbId>
         <nome>Consulta CNPJ Eleições</nome>
