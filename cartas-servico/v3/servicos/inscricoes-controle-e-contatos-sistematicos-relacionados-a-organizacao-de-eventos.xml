@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>inscricoes-controle-e-contatos-sistematicos-relacionados-a-organizacao-de-eventos</id>
+    <dbId>1003</dbId>
+    <nome>Inscrições, controle e contatos sistemáticos relacionados a organização de eventos</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="854">Participação</item>
+        <item id="855">Eventos</item>
+        <item id="856">Feiras</item>
+        <item id="857">Interrnacionais</item>
+    </nomes-populares>
+    <descricao>Fornecer meios de empresas efetuarem o cadastro para participação em eventos e feiras internacionais, desde que comprovado toda a documentação necessária.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="743">
+            <tipo>Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="15" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>2</quantidade>
+        <unidade>dias</unidade>
+        <descricao>teste</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1912">
+            <titulo>Solicitação</titulo>
+            <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
+            <documentos>
+                <default>
+                    <item id="1347">CNPJ</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1943" tipo="presencial">
+                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1942" tipo="postal">
+                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1941" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1004</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2248">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2249">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comércio e Serviços</item>
+        <item>Comercio externo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2208">Inscrição</item>
+        <item id="2209">Eventos</item>
+        <item id="2210">Feiras</item>
+        <item id="2211">Internacionais</item>
+    </palavras-chave>
+</servico>
