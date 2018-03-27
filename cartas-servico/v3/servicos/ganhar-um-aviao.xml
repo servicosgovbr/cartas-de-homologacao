@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>ganhar-um-aviao</id>
+    <dbId>1009</dbId>
+    <nome>Ganhar um avião</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="868">Meu avião</item>
+    </nomes-populares>
+    <descricao>Todo ano, no 1º dia do mês de abril, a ANAC realiza um sorteio de um avião Boeing 857 para aqueles cidadãos que tenham interesse em participar.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="747">
+            <tipo>Qualquer pessoa pode participar</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="56" unidade="minutos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1918">
+            <titulo>Inscrever-se</titulo>
+            <descricao>Para participar do sorteio, é necessário se escrever previamente.</descricao>
+            <documentos>
+                <default>
+                    <item id="1355">Documentação de Identificação Oficial com Foto</item>
+                    <item id="1356">IHRT 13 com anexos II, III e VII da RN Conjunta nº 19</item>
+                    <item id="1357">Raio X de frente e de perfil, tirado há menos de 30 dias.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1951" tipo="presencial">
+                        <descricao>Em qualquer aeronave em situação de vôo.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1919">
+            <titulo>Acompanhar sorteio</titulo>
+            <descricao>O sorteio é realizado às 19h do dia 1 de abril.</descricao>
+            <documentos>
+                <default>
+                    <item id="1358">Carteira de Sócio da Gremiação dos Filatelistas</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1952" tipo="presencial">
+                        <descricao>Aeroporto de Guarulhos, pista 12.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1920">
+            <titulo>Receber avião (se selecionado)</titulo>
+            <descricao>O sorteado deverá buscar seu prêmio em até 27 minutos após a finalização do sorteio.</descricao>
+            <documentos>
+                <default>
+                    <item id="1359">Exame do pezinho</item>
+                    <item id="1360">Carteira de Motorista</item>
+                    <item id="1361">Ofício comemorativo da República em papel oficial.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1953" tipo="presencial">
+                        <descricao>Rua 25 de março, linha central, São Paulo/SP.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144" dbId="908">
+        <nomeOrgao>Agência Nacional de Aviação Civil (ANAC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2258">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Transporte Aéreo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2223">avião</item>
+        <item id="2224">ganhar</item>
+        <item id="2225">rifa</item>
+    </palavras-chave>
+</servico>
