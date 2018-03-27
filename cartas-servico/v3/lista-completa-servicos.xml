@@ -27531,6 +27531,118 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
         </palavras-chave>
     </servico>
     <servico>
+        <id>optar-pela-perda-de-bagagem</id>
+        <dbId>1008</dbId>
+        <nome>Optar pela perda de bagagem</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="866">Mandar a bagagem viajar</item>
+            <item id="867">desapegar</item>
+        </nomes-populares>
+        <descricao>Se você já está cansado de carregar suas malas, bolsas e equivalentes quando vai viajar de avião, este serviço vai resolver este problema para você.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="746">
+                <tipo>Passageiros de qualquer linha aérea nacional ou internacional que realize escala em algum aeroporto brasileiro.</tipo>
+                <requisitos>Não desejar mais a posse de sua bagagem.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1915">
+                <titulo>Entregar declaração de requisição do serviço</titulo>
+                <descricao>O modelo da declaração pode ser obtido em qualquer posto da ANAC ou da INFRAERO. Nela o cidadão declara expressamente seu desejo de nunca mais sequer deitar as vistas sobre sua bagagem, e transfere sua posse integral, definitiva e subjetiva aos supracitados órgãos para que disponham da mesma como acharem conveniente.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1351">Declaração de transferência de posse</item>
+                        <item id="1352">Atestado de capacidade decisória e psicológica atribuído por profissional credenciado ao SUS.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1948" tipo="presencial">
+                            <descricao>Em qualquer posto da ANAC ou da INFRAERO</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1916">
+                <titulo>Entregar a bagagem</titulo>
+                <descricao>A bagagem deve ser entregue normalmente, na ocasião do check-in do vôo no stand da companhia aérea. A ANAC informa à companhia aérea os dados dos clientes que optaram pelo serviço, e a mesma separa as bagagens correspondentes por ocasião da carga ao avião.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1353">Documento de identificação oficial com foto</item>
+                        <item id="1354">Reserva do vôo</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1949" tipo="presencial">
+                            <descricao>Guichê da companhia aérea</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1917">
+                <titulo>Realizar sua viagem livre do apego material</titulo>
+                <descricao>Pronto! Você poderá viajar sem a preocupação com posses, sem carregar peso extra ou ter que aguardar na fila de recuperação de bagagem. Boa viagem!</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1950" tipo="presencial">
+                            <descricao>Seu vôo</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144" dbId="908">
+            <nomeOrgao>Agência Nacional de Aviação Civil (ANAC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2254">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2255">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="2256">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="2" idServicoSegmento="2257">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transporte Aéreo</item>
+            <item>Transportes</item>
+            <item>Relações Internacionais</item>
+            <item>Serviços Urbanos</item>
+            <item>Cooperação Internacional</item>
+            <item>Difusão</item>
+            <item>Lazer</item>
+            <item>Turismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2220">bagagem</item>
+            <item id="2221">perder</item>
+            <item id="2222">desapega</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>consulta-cnpj-eleicoes</id>
         <dbId>92</dbId>
         <nome>Consulta CNPJ Eleições</nome>
@@ -28167,6 +28279,111 @@ Fusce maximus leo non enim imperdiet varius. Nullam augue mauris, fringilla id c
             <item>Abastecimento</item>
             <item>Abastecimento</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>ganhar-um-aviao</id>
+        <dbId>1009</dbId>
+        <nome>Ganhar um avião</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="868">Meu avião</item>
+        </nomes-populares>
+        <descricao>Todo ano, no 1º dia do mês de abril, a ANAC realiza um sorteio de um avião Boeing 857 para aqueles cidadãos que tenham interesse em participar.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="747">
+                <tipo>Qualquer pessoa pode participar</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="56" unidade="minutos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1918">
+                <titulo>Inscrever-se</titulo>
+                <descricao>Para participar do sorteio, é necessário se escrever previamente.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1355">Documentação de Identificação Oficial com Foto</item>
+                        <item id="1356">IHRT 13 com anexos II, III e VII da RN Conjunta nº 19</item>
+                        <item id="1357">Raio X de frente e de perfil, tirado há menos de 30 dias.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1951" tipo="presencial">
+                            <descricao>Em qualquer aeronave em situação de vôo.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1919">
+                <titulo>Acompanhar sorteio</titulo>
+                <descricao>O sorteio é realizado às 19h do dia 1 de abril.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1358">Carteira de Sócio da Gremiação dos Filatelistas</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1952" tipo="presencial">
+                            <descricao>Aeroporto de Guarulhos, pista 12.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1920">
+                <titulo>Receber avião (se selecionado)</titulo>
+                <descricao>O sorteado deverá buscar seu prêmio em até 27 minutos após a finalização do sorteio.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1359">Exame do pezinho</item>
+                        <item id="1360">Carteira de Motorista</item>
+                        <item id="1361">Ofício comemorativo da República em papel oficial.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1953" tipo="presencial">
+                            <descricao>Rua 25 de março, linha central, São Paulo/SP.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144" dbId="908">
+            <nomeOrgao>Agência Nacional de Aviação Civil (ANAC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2258">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transporte Aéreo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2223">avião</item>
+            <item id="2224">ganhar</item>
+            <item id="2225">rifa</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>tentando-inserir-pela-api-1</id>
@@ -28940,6 +29157,86 @@ Sem renomear</descricao>
         <servicos-relacionados>
             <item>8</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>obter-reducao-em-tarifas-de-importacao-de-autopecas</id>
+        <dbId>1010</dbId>
+        <nome>Obter redução em tarifas de importação de autopeças</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="869">Regime Automotivo (ACE 14)</item>
+        </nomes-populares>
+        <descricao>Habilitação de usuário no Regime Automotivo (ACE 14) para usufruto de redução em tarifas de importação de autopeças.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="748">
+                <tipo>Empresas do setor automotivo</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="7" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1921">
+                <titulo>Protocolar requerimento</titulo>
+                <descricao>Encaminhamento da solicitação e abertura de processo;</descricao>
+                <documentos>
+                    <default>
+                        <item id="1363">Carta/ofício solicitando a habilitação (assinado por mandatário da empresa – ver a ata de assembleia geral ou contrato social, conforme o caso - ou por detentor de procuração pública)</item>
+                        <item id="1364">Anexo II da Portaria MDIC nº 160/2008, devidamente preenchido</item>
+                        <item id="1365">Cópia do cartão de identificação de inscrição no Cadastro Nacional de Pessoa Jurídica – CNPJ</item>
+                        <item id="1366">Cópia da Certidão Negativa (ou Positiva com efeito de Negativa) de Débitos Relativos aos Tributos Federais e à Dívida Ativa da União</item>
+                        <item id="1367">Certificado de Regularidade do FGTS, emitido pela Caixa Econômica Federal</item>
+                    </default>
+                    <caso id="403" descricao="Fabricantes de peças, conjuntos e subconjuntos">
+                        <documento>
+                            <id>1362</id>
+                            <descricao>Declaração de que mais de 25% do valor de seu faturamento líquido anual é decorrente de venda de bens de sua produção dos “Produtos Automotivos”, e/ou ao mercado de reposição de autopeças.</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1955" tipo="postal">
+                            <descricao>Ministério da Indústria e Comércio Exterior e Serviços - Esplanada dos Ministérios, Bloco J, Protocolo - Brasília/DF - CEP 70.053.900</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1954" tipo="presencial">
+                            <descricao>Ministério da Indústria e Comércio Exterior e Serviços - Esplanada dos Ministérios, Bloco J, Protocolo - Brasília/DF - CEP 70.053.900</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="" dbId="58059">
+            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2259">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Administração Financeira</item>
+            <item>Economia e Finanças</item>
+            <item>Comércio e Serviços</item>
+            <item>Comercio externo</item>
+            <item>Relações Internacionais</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2226">automóvel</item>
+            <item id="2227">importação</item>
+            <item id="2228">peças</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>etapas-embaralhadas</id>
