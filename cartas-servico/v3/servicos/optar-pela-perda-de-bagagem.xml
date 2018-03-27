@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>optar-pela-perda-de-bagagem</id>
+    <dbId>1008</dbId>
+    <nome>Optar pela perda de bagagem</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="866">Mandar a bagagem viajar</item>
+        <item id="867">desapegar</item>
+    </nomes-populares>
+    <descricao>Se você já está cansado de carregar suas malas, bolsas e equivalentes quando vai viajar de avião, este serviço vai resolver este problema para você.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="746">
+            <tipo>Passageiros de qualquer linha aérea nacional ou internacional que realize escala em algum aeroporto brasileiro.</tipo>
+            <requisitos>Não desejar mais a posse de sua bagagem.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1915">
+            <titulo>Entregar declaração de requisição do serviço</titulo>
+            <descricao>O modelo da declaração pode ser obtido em qualquer posto da ANAC ou da INFRAERO. Nela o cidadão declara expressamente seu desejo de nunca mais sequer deitar as vistas sobre sua bagagem, e transfere sua posse integral, definitiva e subjetiva aos supracitados órgãos para que disponham da mesma como acharem conveniente.</descricao>
+            <documentos>
+                <default>
+                    <item id="1351">Declaração de transferência de posse</item>
+                    <item id="1352">Atestado de capacidade decisória e psicológica atribuído por profissional credenciado ao SUS.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1948" tipo="presencial">
+                        <descricao>Em qualquer posto da ANAC ou da INFRAERO</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1916">
+            <titulo>Entregar a bagagem</titulo>
+            <descricao>A bagagem deve ser entregue normalmente, na ocasião do check-in do vôo no stand da companhia aérea. A ANAC informa à companhia aérea os dados dos clientes que optaram pelo serviço, e a mesma separa as bagagens correspondentes por ocasião da carga ao avião.</descricao>
+            <documentos>
+                <default>
+                    <item id="1353">Documento de identificação oficial com foto</item>
+                    <item id="1354">Reserva do vôo</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1949" tipo="presencial">
+                        <descricao>Guichê da companhia aérea</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1917">
+            <titulo>Realizar sua viagem livre do apego material</titulo>
+            <descricao>Pronto! Você poderá viajar sem a preocupação com posses, sem carregar peso extra ou ter que aguardar na fila de recuperação de bagagem. Boa viagem!</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1950" tipo="presencial">
+                        <descricao>Seu vôo</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/86144" dbId="908">
+        <nomeOrgao>Agência Nacional de Aviação Civil (ANAC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2254">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2255">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2256">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="2257">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Transporte Aéreo</item>
+        <item>Transportes</item>
+        <item>Relações Internacionais</item>
+        <item>Serviços Urbanos</item>
+        <item>Cooperação Internacional</item>
+        <item>Difusão</item>
+        <item>Lazer</item>
+        <item>Turismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2220">bagagem</item>
+        <item id="2221">perder</item>
+        <item id="2222">desapega</item>
+    </palavras-chave>
+</servico>
