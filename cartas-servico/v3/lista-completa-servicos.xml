@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servicos xmlns="http://servicos.gov.br/v3/schema">
     <servico>
+        <id>cadastrar-se-no-sicaf</id>
+        <dbId>2</dbId>
+        <nome>Cadastrar-se no SICAF</nome>
+        <sigla></sigla>
+        <descricao>O serviço tem como finalidade cadastrar e habilitar parcialmente pessoas físicas ou jurídicas, interessadas em participar de licitações realizadas por órgãos/entidades do Poder Executivo Federal, bem como acompanhar o desempenho dos fornecimentos contratados.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="446">
+                <tipo>Empresas e particulares com interesse de fornecer ao Poder Público</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1472">
+                <titulo>Realizar cadastro</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1671" tipo="e-mail">
+                            <descricao>cogrl.df.spoa@fazenda.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1670" tipo="web">
+                            <descricao>https://www.comprasnet.gov.br/seguro/index.asp?login=0</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
+            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1787">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1788">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Urbanismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1302">sicaf</item>
+            <item id="1303">poder público</item>
+            <item id="1304">venda</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="414">lei do sicaf</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>solicitacao-de-conexao-gesac</id>
         <dbId>12</dbId>
         <nome>Solicitação de Conexão GESAC</nome>
@@ -178,71 +243,6 @@ Em até 12 meses após a publicação da autorização de uso de radiofrequênci
         </legislacoes>
     </servico>
     <servico>
-        <id>cadastrar-se-no-sicaf</id>
-        <dbId>2</dbId>
-        <nome>Cadastrar-se no SICAF</nome>
-        <sigla></sigla>
-        <descricao>O serviço tem como finalidade cadastrar e habilitar parcialmente pessoas físicas ou jurídicas, interessadas em participar de licitações realizadas por órgãos/entidades do Poder Executivo Federal, bem como acompanhar o desempenho dos fornecimentos contratados.</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="446">
-                <tipo>Empresas e particulares com interesse de fornecer ao Poder Público</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1472">
-                <titulo>Realizar cadastro</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1671" tipo="e-mail">
-                            <descricao>cogrl.df.spoa@fazenda.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1670" tipo="web">
-                            <descricao>https://www.comprasnet.gov.br/seguro/index.asp?login=0</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
-            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1787">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1788">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Urbanismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1302">sicaf</item>
-            <item id="1303">poder público</item>
-            <item id="1304">venda</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="414">lei do sicaf</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>selenium-servico-ponto-focal-3</id>
         <dbId>620</dbId>
         <nome>Selenium Serviço Ponto Focal 3</nome>
@@ -311,92 +311,6 @@ Em até 12 meses após a publicação da autorização de uso de radiofrequênci
             <item id="991">palavra chave 2 ponto focal</item>
             <item id="989">palavra chave 3 ponto focal</item>
         </palavras-chave>
-    </servico>
-    <servico>
-        <id>outorga-de-radiodifusao-comunitaria</id>
-        <dbId>15</dbId>
-        <nome>Outorga de Radiodifusão Comunitária</nome>
-        <sigla>RADCOM</sigla>
-        <descricao>Radiodifusão Comunitária é o serviço de radiodifusão sonora, em frequência modulada (FM), operado em baixa potência (25 watts ERP) e que tem por finalidade atender uma comunidade, a exemplo de uma vila, um bairro ou mesmo uma municipalidade de pequeno porte.</descricao>
-        <contato>Caso tenha alguma dúvida sobre a legislação aplicável ou sobre qualquer tema acerca do Serviço de Radiodifusão Comunitária, envie um e-mail para duvidasradcom@comunicacoes.gov.br</contato>
-        <gratuito>false</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="314">
-                <tipo>Pessoas jurídicas comunitárias, constituídas na forma de Associações ou Fundações, que assegurem a ampla participação da comunidade atendida.</tipo>
-                <requisitos>Essas entidades não podem ter fins lucrativos e devem ser legalmente instituídas, devidamente registradas e sediadas na área da comunidade na qual pretendem prestar o serviço. Seus dirigentes devem ter atingido a maioridade e serem brasileiros natos ou naturalizados há mais de dez anos e devem residir na área da comunidade atendida.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1280">
-                <titulo>Demonstração de Interesse</titulo>
-                <descricao>Primeiro o interessado peticiona ao Poder Público, demonstrando interesse na publicação de edital de seleção pública para localidade específica. O objetivo do – CDI - Cadastro de Demonstração de Interesse é, exclusivamente, o de identificar a demanda por outorgas e fornecer subsídios para a elaboração do Plano Nacional de Outorgas – PNO – não gerando direito à autorização ou ao funcionamento de estação de rádio comunitária.</descricao>
-                <documentos>
-                    <default>
-                        <item id="927">Encaminhar toda a documentação descrita no Art. 9º, §2º, da lei nº 9.612, de 1998, no prazo de inscrição e cumprir os requisitos previstos na Portaria nº 4334 de 17 de setembro de 2015, publicada no Diário Oficial da União em 21/09/2015.</item>
-                        <item id="928">Essa Portaria dispõe, também, sobre os passos a serem seguidos pelos concorrentes, e lista os documentos necessários para a apresentação correta das propostas para habilitação neste serviço, tanto em seu texto quanto em seus anexos.</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1717" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/radio-comunitaria</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1281">
-                <titulo>Participação da Seleção Pública</titulo>
-                <descricao>Analisada a viabilidade técnica do pedido e observado o disposto no PNO, o Ministério da Ciência, Tecnologia, Inovações e Comunicações publicará no Diário Oficial da União extrato de edital com a finalidade de convocar as entidades interessadas a participarem da Seleção Pública. 
-Requisitos para obter o serviço: Encaminhar toda a documentação</descricao>
-                <documentos>
-                    <default>
-                        <item id="929">Encaminhar toda a documentação descrita no Art. 9º, §2º, da lei nº 9.612, de 1998, no prazo de inscrição e cumprir os requisitos previstos na Portaria nº 4334 de 17 de setembro de 2015, publicada no Diário Oficial da União em 21/09/2015.</item>
-                        <item id="930">Essa Portaria dispõe, também, sobre os passos a serem seguidos pelos concorrentes, e lista os documentos necessários para a apresentação correta das propostas para habilitação neste serviço, tanto em seu texto quanto em seus anexos.</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1718" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/radio-comunitaria</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="4" idServicoSegmento="1619">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="1" idServicoSegmento="1620">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="926">RADCOM</item>
-            <item id="927">Rádio Comunitária</item>
-            <item id="928">Comunitária</item>
-            <item id="929">Comunitário</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="312">Lei nº 9.612/1998: Institui o Serviço de Radiodifusão Comunitária e dá outras providências
-
-Decreto nº 2.615/1998: Aprova o Regulamento do Serviço de Radiodifusão Comunitária
-
-Portaria nº. 4334/2015 (Norma 1/2015): Regulamenta, no âmbito do Ministério das Comunicações, o Serviço de Radiodifusão Comunitária.</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>participacao-em-feiras-internacionais-de-turismo-embratur</id>
@@ -25171,118 +25085,6 @@ O Valor Efetivo Total - VET - engloba a taxa de câmbio, as tarifas e os tributo
         </areas-de-interesse>
     </servico>
     <servico>
-        <id>avaliar-estabelecimentos-servicos-acessiveis</id>
-        <dbId>4</dbId>
-        <nome>Avaliar estabelecimentos/serviços acessíveis</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="369">Turismo Acessível</item>
-            <item id="370">Guia Turismo Acessível</item>
-        </nomes-populares>
-        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações diversas. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
-
-Neste espaço você aprenderá a avaliar um estabelecimento ou atrativo turístico.</descricao>
-        <contato>Departamento de Marketing e Apoio à Comercialização  
-Coordenação de Produtos Turísticos   
-Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF
-Telefone: 61 2023-8165   
-Email - incentivo.viagens@turismo.gov.br</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="300">
-                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="301">
-                <tipo>Público em geral</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="24" unidade="horas"/>
-            <descricao>As avaliações cadastradas no portal são submetidas a moderação do Ministério do Turismo, podendo levar algumas horas para serem publicadas.</descricao>
-        </tempo-total-estimado>
-        <validade-documento/>
-        <etapas>
-            <etapa id="1255">
-                <titulo>Cadastramento do Usuário no Portal</titulo>
-                <descricao>O cadastramento do usuário, efetuado por meio do portal Turismo Acessível - 
-[Cadastro do usuário](http://www.turismoacessivel.gov.br/ta/cadastroUsuario/cadastrarUsuario.mtur), o habilita a utilizá-lo e ter acesso às informações e funcionalidades básicas do site.  Após o cadastramento, o usuário estará habilitado a utilizar os recursos do Turismo Acessível, desde que haja aceitação prévia aos termos e condições de estabelecidos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1675" tipo="aplicativo-movel">
-                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1674" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1256">
-                <titulo>Avaliação dos serviços cadastrados</titulo>
-                <descricao>1- Pesquisar nome da cidade onde se encontra o estabelecimento ou atrativo que você quer avaliar;  
-2- Pesquisar nome do estabelecimento ou atrativo que desejar avaliar;  
-3- Selecionar estabelecimento ou atrativo listado;  
-4- Selecionar a perspectiva de Acessibilidade que você quer avaliar;  
-5- Responder as questões sobre local, infraestrutura de acesso, sinalização, equipamentos e equipe de atendimento;  
-6- Indicar nota, data da visita e avaliação sobre o empreendimento ou atrativo.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1676" tipo="web">
-                            <descricao>http://www.turismoacessivel.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="" dbId="58050">
-            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1588">Cidadãos</item>
-            <item idSegmento="2" idServicoSegmento="1589">Órgãos e entidades públicas</item>
-            <item idSegmento="4" idServicoSegmento="1590">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="3" idServicoSegmento="1591">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Esporte e Lazer</item>
-            <item>Turismo</item>
-            <item>Cultura</item>
-            <item>Cidadania</item>
-            <item>Assistência ao Portador de Deficiência</item>
-            <item>Lazer</item>
-            <item>Infraestrutura Urbana</item>
-            <item>Patrimônio</item>
-            <item>Normalização e Qualidade</item>
-            <item>Difusão Cultural</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="880">Acessibilidade</item>
-            <item id="881">Turismo</item>
-            <item id="882">Pessoa com deficiência</item>
-            <item id="883">Viagens</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="289">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
-            <item id="290">[Norma Brasileira ABNT NBR 9050] (http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf)</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>realizacao-de-recurso-contra-aplicacao-de-multa-dnit</id>
         <dbId>596</dbId>
         <nome>Realização de Recurso Contra Aplicação de Multa - DNIT</nome>
@@ -27682,6 +27484,119 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
         <areas-de-interesse>
             <item>Economia e Finanças</item>
         </areas-de-interesse>
+    </servico>
+    <servico>
+        <id>obter-carteira-de-condutor-de-veiculo-de-transporte-de-mini-humanos</id>
+        <dbId>1012</dbId>
+        <nome>Obter Carteira de Condutor de Veículo de Transporte de Mini-Humanos</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="873">Carteira para carrinho de bebê</item>
+        </nomes-populares>
+        <descricao>A correta condução de Veículo de Transporte de Mini-Humanos (popularmente conhecido como carrinho de bebê) exige treinamento e dedicação. Condutores não capacitados causam todos os anos acidentes que resultam em muito choro e biquinhos por parte dos donos dos veículos.
+Para evitar a operação de pessoas não autorizadas é que a Agência Nacional de Transportes Terrestre realiza periodicamente o teste de aptidão para direção de Veículos de Transporte de Mini-Humanos.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="750">
+                <tipo>Cidadãos brasileiros que tem interesse em conduzir tais veículos.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="3" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>5</quantidade>
+            <unidade>anos</unidade>
+            <descricao>Prorrogável por igual período, indefinidamente, mediante novo teste de aptidão.</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1925">
+                <titulo>Requerer participação de teste</titulo>
+                <descricao>O interessado deve se dirigir a uma unidade para fiscalização de transportes para mini-humanos da ANTT e realizar inscrição para o teste.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1375">Certidão de Nascimento do Condutor</item>
+                        <item id="1376">Certidão de Nascimento do usuário do veículo</item>
+                        <item id="1377">Nota fiscal da compra do veículo, onde constem todas as especificações técnicas de potêncial, segurança e fofura do mesmo.</item>
+                        <item id="1378">Transcrição da canção de nanar preferida do mini-humano.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1960" tipo="presencial">
+                            <descricao>Unidades para fiscalização de transportes para mini-humanos da ANTT.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1926">
+                <titulo>Realizar teste</titulo>
+                <descricao>O usuário irá conduzir um transporte de teste, fornecido pela ANTT, acompanhado de um avaliador humano e de um usuário avaliador mini-humano.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1379">Fraldas descartáveis</item>
+                        <item id="1380">Livro de histórias</item>
+                        <item id="1381">Lencinhos humidecidos</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1961" tipo="presencial">
+                            <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1927">
+                <titulo>Receber carteira (se aprovado)</titulo>
+                <descricao>Ao final do teste, o avaliador humano adulto fará suas considerações que não terão validade alguma para efeito da decisão de concessão ou não da carteira. Tal decisão se baseará única e exclusivamente na reação do avaliador mini-humano  à tentativa de chamar atenção do candidato. Caso o avaliador mini-humano chore neste momento, o candidato terá sua habilitação negada.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1382">Mamadeira</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1962" tipo="presencial">
+                            <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
+            <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2261">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transportes</item>
+            <item>Serviços Urbanos</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2232">nenê</item>
+            <item id="2233">bebê</item>
+            <item id="2234">papai</item>
+            <item id="2235">mamãe</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>emissao-de-autorizacao-especial-de-transito</id>
@@ -30251,6 +30166,118 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         </legislacoes>
     </servico>
     <servico>
+        <id>avaliar-estabelecimentos-servicos-acessiveis</id>
+        <dbId>4</dbId>
+        <nome>Avaliar estabelecimentos/serviços acessíveis</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="369">Turismo Acessível</item>
+            <item id="370">Guia Turismo Acessível</item>
+        </nomes-populares>
+        <descricao>O site Turismo Acessível é colaborativo e você pode cadastrar, avaliar e consultar a acessibilidade de pontos turísticos, hotéis, restaurantes e atrações diversas. A ferramenta permite ao cidadão inserir novos estabelecimentos ou atrações, ajudando as pessoas com deficiência ou mobilidade reduzida a viajarem pelo Brasil com mais autonomia. Está disponível na internet e para download para aplicativos móveis.
+
+Neste espaço você aprenderá a avaliar um estabelecimento ou atrativo turístico.</descricao>
+        <contato>Departamento de Marketing e Apoio à Comercialização  
+Coordenação de Produtos Turísticos   
+Anexo ID - SCN, Quadra 06, Bloco A, 10º andar - Brasília - DF
+Telefone: 61 2023-8165   
+Email - incentivo.viagens@turismo.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <solicitantes>
+            <solicitante id="300">
+                <tipo>Pessoas com deficiência ou mobilidade reduzida.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="301">
+                <tipo>Público em geral</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="24" unidade="horas"/>
+            <descricao>As avaliações cadastradas no portal são submetidas a moderação do Ministério do Turismo, podendo levar algumas horas para serem publicadas.</descricao>
+        </tempo-total-estimado>
+        <validade-documento/>
+        <etapas>
+            <etapa id="1255">
+                <titulo>Cadastramento do Usuário no Portal</titulo>
+                <descricao>O cadastramento do usuário, efetuado por meio do portal Turismo Acessível - 
+[Cadastro do usuário](http://www.turismoacessivel.gov.br/ta/cadastroUsuario/cadastrarUsuario.mtur), o habilita a utilizá-lo e ter acesso às informações e funcionalidades básicas do site.  Após o cadastramento, o usuário estará habilitado a utilizar os recursos do Turismo Acessível, desde que haja aceitação prévia aos termos e condições de estabelecidos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1675" tipo="aplicativo-movel">
+                            <descricao>Baixar - [App Store](https://itunes.apple.com/br/app/turismo-acessivel/id924446289); [Windown Phone](https://www.microsoft.com/pt-br/store/apps/turismo-acessivel/9nblgggzjgqg); [Google Play](https://play.google.com/store/apps/details?id=br.gov.mtur.ta)</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1674" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1256">
+                <titulo>Avaliação dos serviços cadastrados</titulo>
+                <descricao>1- Pesquisar nome da cidade onde se encontra o estabelecimento ou atrativo que você quer avaliar;  
+2- Pesquisar nome do estabelecimento ou atrativo que desejar avaliar;  
+3- Selecionar estabelecimento ou atrativo listado;  
+4- Selecionar a perspectiva de Acessibilidade que você quer avaliar;  
+5- Responder as questões sobre local, infraestrutura de acesso, sinalização, equipamentos e equipe de atendimento;  
+6- Indicar nota, data da visita e avaliação sobre o empreendimento ou atrativo.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1676" tipo="web">
+                            <descricao>http://www.turismoacessivel.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="" dbId="58050">
+            <nomeOrgao>Conselho de Arquitetura e Urbanismo (CAU)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1588">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="1589">Órgãos e entidades públicas</item>
+            <item idSegmento="4" idServicoSegmento="1590">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="3" idServicoSegmento="1591">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Esporte e Lazer</item>
+            <item>Turismo</item>
+            <item>Cultura</item>
+            <item>Cidadania</item>
+            <item>Assistência ao Portador de Deficiência</item>
+            <item>Lazer</item>
+            <item>Infraestrutura Urbana</item>
+            <item>Patrimônio</item>
+            <item>Normalização e Qualidade</item>
+            <item>Difusão Cultural</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="880">Acessibilidade</item>
+            <item id="881">Turismo</item>
+            <item id="882">Pessoa com deficiência</item>
+            <item id="883">Viagens</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="289">Lei Brasileira da Inclusão - Lei nº 13.146, de 06 de julho de 2015i &lt;a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-07-06;13146"&gt;Lei nº 13.146,  de 06 de julho de 2015&lt;/a&gt;</item>
+            <item id="290">[Norma Brasileira ABNT NBR 9050] (http://www.ufpb.br/cia/contents/manuais/abnt-nbr9050-edicao-2015.pdf)</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>cadastrar-se-no-cadunico</id>
         <dbId>21</dbId>
         <nome>Cadastrar-se no CadÚnico</nome>
@@ -30441,90 +30468,89 @@ Endereço: Ed. The Union – SMAS – Setor de Múltiplas Atividades Sul – Tre
         </palavras-chave>
     </servico>
     <servico>
-        <id>atendimento-ao-contribuinte-do-funttel</id>
-        <dbId>23</dbId>
-        <nome>Atendimento ao Contribuinte do Funttel</nome>
-        <sigla>ACF</sigla>
-        <nomes-populares>
-            <item id="720">atendimento ao contribuinte</item>
-        </nomes-populares>
-        <descricao>Serviço destinado ao esclarecimento de dúvidas, recepção de  requerimentos de compensação, restituição, impugnações, concessão de vistas e cópias de processos administrativos e processos administrativos fiscais e emissão de certidões, análise de cadastro e petições.</descricao>
-        <contato>arrecadacao.funttel@comunicacoes.gov.br; telefone: (61) 2027-6133; Fax (61) 2017-6756</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
+        <id>outorga-de-radiodifusao-comunitaria</id>
+        <dbId>15</dbId>
+        <nome>Outorga de Radiodifusão Comunitária</nome>
+        <sigla>RADCOM</sigla>
+        <descricao>Radiodifusão Comunitária é o serviço de radiodifusão sonora, em frequência modulada (FM), operado em baixa potência (25 watts ERP) e que tem por finalidade atender uma comunidade, a exemplo de uma vila, um bairro ou mesmo uma municipalidade de pequeno porte.</descricao>
+        <contato>Caso tenha alguma dúvida sobre a legislação aplicável ou sobre qualquer tema acerca do Serviço de Radiodifusão Comunitária, envie um e-mail para duvidasradcom@comunicacoes.gov.br</contato>
+        <gratuito>false</gratuito>
         <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="580">
-                <tipo>Pessoa jurídica contribuinte do Funttel por meio do representante legal da pessoa jurídica</tipo>
-                <requisitos>ser representante legal da pessoa jurídica, ter cadastro de pessoa física e cadastro de pessoa jurídica aprovados no sistema CADSEI;</requisitos>
-            </solicitante>
-            <solicitante id="581">
-                <tipo>Procurador</tipo>
-                <requisitos>possuir cadastro de pessoa física (advogado) e/ou jurídica (escritório de advocacia) aprovados no CADSEI; procuração eletrônica outorgada pela pessoa jurídica a quem representa no CADSEI, sendo permitido o subestabelecimento.</requisitos>
+            <solicitante id="314">
+                <tipo>Pessoas jurídicas comunitárias, constituídas na forma de Associações ou Fundações, que assegurem a ampla participação da comunidade atendida.</tipo>
+                <requisitos>Essas entidades não podem ter fins lucrativos e devem ser legalmente instituídas, devidamente registradas e sediadas na área da comunidade na qual pretendem prestar o serviço. Seus dirigentes devem ter atingido a maioridade e serem brasileiros natos ou naturalizados há mais de dez anos e devem residir na área da comunidade atendida.</requisitos>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <ate max="30" unidade="dias-uteis"/>
-            <descricao></descricao>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
         </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
         <etapas>
-            <etapa id="1668">
-                <titulo>Petição</titulo>
-                <descricao>Emissão da petição via sistema CADSEI, com descrição detalhada do que o usuário deseja.</descricao>
+            <etapa id="1280">
+                <titulo>Demonstração de Interesse</titulo>
+                <descricao>Primeiro o interessado peticiona ao Poder Público, demonstrando interesse na publicação de edital de seleção pública para localidade específica. O objetivo do – CDI - Cadastro de Demonstração de Interesse é, exclusivamente, o de identificar a demanda por outorgas e fornecer subsídios para a elaboração do Plano Nacional de Outorgas – PNO – não gerando direito à autorização ou ao funcionamento de estação de rádio comunitária.</descricao>
                 <documentos>
                     <default>
-                        <item id="1278">Petição e documentação acessória que dê suporte ao pedido.</item>
+                        <item id="927">Encaminhar toda a documentação descrita no Art. 9º, §2º, da lei nº 9.612, de 1998, no prazo de inscrição e cumprir os requisitos previstos na Portaria nº 4334 de 17 de setembro de 2015, publicada no Diário Oficial da União em 21/09/2015.</item>
+                        <item id="928">Essa Portaria dispõe, também, sobre os passos a serem seguidos pelos concorrentes, e lista os documentos necessários para a apresentação correta das propostas para habilitação neste serviço, tanto em seu texto quanto em seus anexos.</item>
                     </default>
-                    <caso id="377" descricao="Impugnação">
-                        <documento>
-                            <id>1277</id>
-                            <descricao>documentos do CADSEI, acrescida da impugnação detalhando: a autoridade julgadora a quem é dirigida; a qualificação do impugnante e os motivos de fato e de direito em que se fundamenta, os pontos de discordância e as razões e provas que possuir;</descricao>
-                        </documento>
-                    </caso>
                 </documentos>
                 <custos>
                     <default/>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1880" tipo="web">
-                            <descricao>http://sistema.mc.gov.br/CADSEIWeb/pages/externo/SisCADSEI.jsf</descricao>
+                        <canal-de-prestacao id="1717" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/radio-comunitaria</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1281">
+                <titulo>Participação da Seleção Pública</titulo>
+                <descricao>Analisada a viabilidade técnica do pedido e observado o disposto no PNO, o Ministério da Ciência, Tecnologia, Inovações e Comunicações publicará no Diário Oficial da União extrato de edital com a finalidade de convocar as entidades interessadas a participarem da Seleção Pública. 
+Requisitos para obter o serviço: Encaminhar toda a documentação</descricao>
+                <documentos>
+                    <default>
+                        <item id="929">Encaminhar toda a documentação descrita no Art. 9º, §2º, da lei nº 9.612, de 1998, no prazo de inscrição e cumprir os requisitos previstos na Portaria nº 4334 de 17 de setembro de 2015, publicada no Diário Oficial da União em 21/09/2015.</item>
+                        <item id="930">Essa Portaria dispõe, também, sobre os passos a serem seguidos pelos concorrentes, e lista os documentos necessários para a apresentação correta das propostas para habilitação neste serviço, tanto em seu texto quanto em seus anexos.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1718" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/radio-comunitaria</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1927" dbId="37544">
-            <nomeOrgao>Ministério do Meio Ambiente (MMA)</nomeOrgao>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1966">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1619">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="1" idServicoSegmento="1620">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
-            <item>Telecomunicações</item>
+            <item>Comunicações</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1702">Funttel</item>
-            <item id="1703">tributos</item>
-            <item id="1704">contribuições</item>
-            <item id="1705">impostos</item>
-            <item id="1706">inovação tecnológica</item>
-            <item id="1707">desenvolvimento tecnológico</item>
-            <item id="1708">processo administrativo fiscal</item>
-            <item id="1709">restituição</item>
-            <item id="1710">compensação</item>
-            <item id="1711">impugnação</item>
+            <item id="926">RADCOM</item>
+            <item id="927">Rádio Comunitária</item>
+            <item id="928">Comunitária</item>
+            <item id="929">Comunitário</item>
         </palavras-chave>
         <legislacoes>
-            <item id="553">LEI No 10.052, DE 28 DE NOVEMBRO DE 2000.
-DECRETO Nº 3.737,  DE 30 DE JANEIRO DE 2001.
-Resolução nº 95/2013, de 20 de março de 2013 - CGF
-LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.
-DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
+            <item id="312">Lei nº 9.612/1998: Institui o Serviço de Radiodifusão Comunitária e dá outras providências
+
+Decreto nº 2.615/1998: Aprova o Regulamento do Serviço de Radiodifusão Comunitária
+
+Portaria nº. 4334/2015 (Norma 1/2015): Regulamenta, no âmbito do Ministério das Comunicações, o Serviço de Radiodifusão Comunitária.</item>
         </legislacoes>
     </servico>
     <servico>
@@ -30625,6 +30651,93 @@ DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
         <servicos-relacionados>
             <item>496</item>
         </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>atendimento-ao-contribuinte-do-funttel</id>
+        <dbId>23</dbId>
+        <nome>Atendimento ao Contribuinte do Funttel</nome>
+        <sigla>ACF</sigla>
+        <nomes-populares>
+            <item id="720">atendimento ao contribuinte</item>
+        </nomes-populares>
+        <descricao>Serviço destinado ao esclarecimento de dúvidas, recepção de  requerimentos de compensação, restituição, impugnações, concessão de vistas e cópias de processos administrativos e processos administrativos fiscais e emissão de certidões, análise de cadastro e petições.</descricao>
+        <contato>arrecadacao.funttel@comunicacoes.gov.br; telefone: (61) 2027-6133; Fax (61) 2017-6756</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="580">
+                <tipo>Pessoa jurídica contribuinte do Funttel por meio do representante legal da pessoa jurídica</tipo>
+                <requisitos>ser representante legal da pessoa jurídica, ter cadastro de pessoa física e cadastro de pessoa jurídica aprovados no sistema CADSEI;</requisitos>
+            </solicitante>
+            <solicitante id="581">
+                <tipo>Procurador</tipo>
+                <requisitos>possuir cadastro de pessoa física (advogado) e/ou jurídica (escritório de advocacia) aprovados no CADSEI; procuração eletrônica outorgada pela pessoa jurídica a quem representa no CADSEI, sendo permitido o subestabelecimento.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-uteis"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1668">
+                <titulo>Petição</titulo>
+                <descricao>Emissão da petição via sistema CADSEI, com descrição detalhada do que o usuário deseja.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1278">Petição e documentação acessória que dê suporte ao pedido.</item>
+                    </default>
+                    <caso id="377" descricao="Impugnação">
+                        <documento>
+                            <id>1277</id>
+                            <descricao>documentos do CADSEI, acrescida da impugnação detalhando: a autoridade julgadora a quem é dirigida; a qualificação do impugnante e os motivos de fato e de direito em que se fundamenta, os pontos de discordância e as razões e provas que possuir;</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1880" tipo="web">
+                            <descricao>http://sistema.mc.gov.br/CADSEIWeb/pages/externo/SisCADSEI.jsf</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1927" dbId="37544">
+            <nomeOrgao>Ministério do Meio Ambiente (MMA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1966">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Telecomunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1702">Funttel</item>
+            <item id="1703">tributos</item>
+            <item id="1704">contribuições</item>
+            <item id="1705">impostos</item>
+            <item id="1706">inovação tecnológica</item>
+            <item id="1707">desenvolvimento tecnológico</item>
+            <item id="1708">processo administrativo fiscal</item>
+            <item id="1709">restituição</item>
+            <item id="1710">compensação</item>
+            <item id="1711">impugnação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="553">LEI No 10.052, DE 28 DE NOVEMBRO DE 2000.
+DECRETO Nº 3.737,  DE 30 DE JANEIRO DE 2001.
+Resolução nº 95/2013, de 20 de março de 2013 - CGF
+LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.
+DECRETO Nº 70.235, DE 6 DE MARÇO DE 1972.</item>
+        </legislacoes>
     </servico>
     <servico>
         <id>viajar-para-o-espaco</id>
@@ -31129,6 +31242,123 @@ Com a automação desse processo o objetivo é a geração digital do Certificad
         <legislacoes>
             <item id="427">Resolução MERCOSUL/GMC/RES. nº 52/12, de 05 de dezembro de 2012</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>jogar-a-copa-do-mundo</id>
+        <dbId>1011</dbId>
+        <nome>Jogar a Copa do Mundo</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="870">Copa da FIFA</item>
+            <item id="871">Seleção Canarinho</item>
+            <item id="872">Virar Artilheiro</item>
+        </nomes-populares>
+        <descricao>A cada quatro anos, a Federação Internacional de Futebol Amador (FIFA) promove a Copa do Mundo, evento em que seleções de futebol do mundo todo se enfrentam para descobrir quem é a melhor.
+O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol (CBF), disponibiliza, por meio de concurso para os cidadãos brasileiros uma das onze vagas no time titular da seleção brasileira. Se você sempre sonhou em representar o Brasil na Copa do Mundo, sua oportunidade está aqui.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="749">
+                <tipo>Cidadãos brasileiros amadores do futebol.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="12" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>1</quantidade>
+            <unidade>anos</unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1922">
+                <titulo>Inscrever-se</titulo>
+                <descricao>Você deve comparecer a um posto itinerante da CBF, aquirir, preencher, assinar e entregar o formulário de inscrição no sorteio</descricao>
+                <documentos>
+                    <default>
+                        <item id="1368">Formulário de inscrição</item>
+                        <item id="1369">Documento de identificação oficial com foto</item>
+                        <item id="1370">Declaração, escrita e assinada de próprio punho, com comprovação de autoria por exame de caligrafia realizado por técnico especializado e credenciado, onde está explicado de forma explícita seu amor pelo futebol.</item>
+                        <item id="1371">Figurinha número 1.527 do álbum oficial da copa do mundo.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1957" tipo="aplicativo-movel">
+                            <descricao>Aplicativo "Eu com a seleção" para plataforma DOS 1.34</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1956" tipo="presencial">
+                            <descricao>Em um posto itinerante da CBF (não é possível informar locais porque os mesmos são decididos pelos motoristas no momento em que entram e ligam os meios de transporte).</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1923">
+                <titulo>Participar do evento de seleção da declaração mais apaixonada</titulo>
+                <descricao>Após a conferência da documentação e informação fornecida, os candidatos classificados serão convocados para evento público onde deverão ler (e interpretar) suas declarações e onde o vencedor será escolhido por aclamação popular (em caso de empate, a vitória será decidida em uma partida de bafo).</descricao>
+                <documentos>
+                    <default>
+                        <item id="1372">Declaração, escrita e assinada de próprio punho, com comprovação de autoria por exame de caligrafia realizado por técnico especializado e credenciado, onde está explicado de forma explícita seu amor pelo futebol.</item>
+                        <item id="1373">Receita do bolo preferido da sua avó por parte de mãe.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1958" tipo="presencial">
+                            <descricao>Evento popular e público em local a ser informado com antecedência aos candidatos e espectadores.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1924">
+                <titulo>Jogar pela seleção</titulo>
+                <descricao>Agora é só embarcar e jogar as partidas junto com a seleção brasileira.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1374">Certidão de nada-consta junto à AEB</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1959" tipo="presencial">
+                            <descricao>Campos escolhidos para os jogos da seleção</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36670" dbId="37543">
+            <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2260">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Esporte e Lazer</item>
+            <item>Lazer</item>
+            <item>Esporte profissional</item>
+            <item>Cooperação Internacional</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2229">copa</item>
+            <item id="2230">brasil</item>
+            <item id="2231">seleção</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>vitor-20102017</id>
@@ -32117,6 +32347,133 @@ CEP: 70.046-900</contato>
         </legislacoes>
     </servico>
     <servico>
+        <id>lutar-pela-preservacao-do-mosquito-aedes-aegypti</id>
+        <dbId>895</dbId>
+        <nome>Lutar pela preservação do Mosquito *Aedes Aegypti*</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="778">Toda vida conta</item>
+        </nomes-populares>
+        <descricao>O mosquito da espécie *Aedes Aegypti* tem sido alvo de uma verdadeira política de genocídio por conta de interesses inescrupulosos da prática médica de preservação da vida humana. Como uma forma de se contrapor a esta prática criminosa e para tentar salvar o espécie da extinção surgiu o Programa Toda Vida Conta, por um Brasil mais Dengoso;.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="629">
+                <tipo>Qualquer pessoa que seja contra a prática de extermínio</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+            <solicitante id="630">
+                <tipo>Mosquitos</tipo>
+                <requisitos>Que sejam da espécie *Aedes Aegypti*</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1200" unidade="meses"/>
+            <descricao>O tempo de prestação vai depender do tempo de duração da sua vida.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1720">
+                <titulo>Alistar-se na Força Ecológica de Interseção pelo Aedes</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1291">Carteira de identidade (RG)</item>
+                        <item id="1292">CPF</item>
+                        <item id="1293">CNH</item>
+                        <item id="1294">Exames físicos e psicológicos de aptidão à luta armada</item>
+                        <item id="1295">Formulário de Adesão em 3 vias autenticadas em cartórios de pelo menos 5 Unidades da Federação</item>
+                        <item id="1296">Comprovante de residência</item>
+                        <item id="1297">Certidão de Nascimento da Avó materna</item>
+                        <item id="1298">Comprovante de pagamento</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="154">
+                            <descricao>Contribuição compulsória de auxílio ao Aedes</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>35 vezes o preço do barril de petróleo de Bahrain no dia da inscrição</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1895" tipo="fax">
+                            <descricao>+55 61 43035-4361917     
+*Atendimento às terças de 12:35 às 13:12, segunda quarta do mês de 17:25 às 17:53 e no segundo sábado após o solstício de inverno nos anos bissextos nos primeiros 30 segundos do dia.*</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1721">
+                <titulo>Doar sangue ao mosquito</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1896" tipo="presencial">
+                            <descricao>No viveiro mais próximo de sua residência</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1722">
+                <titulo>Partcipar das ações de extinção aos repelentes</titulo>
+                <descricao>Ocasionalmente também de distribuição de utensílios com água parada.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1897" tipo="presencial">
+                            <descricao>Local determinado no momento da convocação.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/91842" dbId="36726">
+            <nomeOrgao>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2098">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Categoria Teste Edson</item>
+            <item>Meio ambiente</item>
+            <item>Preservação e Conservação Ambiental</item>
+            <item>Nova Categoria 1</item>
+            <item>Patrimônio Cultural</item>
+            <item>Policiamento</item>
+            <item>Proteção Social</item>
+            <item>Produção agropecuária</item>
+            <item>Saúde</item>
+            <item>Segurança e Ordem Pública</item>
+            <item>test</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1855">extermínio</item>
+            <item id="1856">genocídio</item>
+            <item id="1857">a</item>
+            <item id="1858">o</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>cadastrar-prestadores-de-servicos-turisticos-pessoa-juridica</id>
         <dbId>459</dbId>
         <nome>Cadastrar Prestadores de Serviços Turísticos - Pessoa Jurídica</nome>
@@ -32498,133 +32855,6 @@ Deverá ser feita por meio de requerimento junto ao Órgão Oficial de Turismo n
             <item id="1541">d</item>
             <item id="1542">d</item>
             <item id="1543">d</item>
-        </palavras-chave>
-    </servico>
-    <servico>
-        <id>lutar-pela-preservacao-do-mosquito-aedes-aegypti</id>
-        <dbId>895</dbId>
-        <nome>Lutar pela preservação do Mosquito *Aedes Aegypti*</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="778">Toda vida conta</item>
-        </nomes-populares>
-        <descricao>O mosquito da espécie *Aedes Aegypti* tem sido alvo de uma verdadeira política de genocídio por conta de interesses inescrupulosos da prática médica de preservação da vida humana. Como uma forma de se contrapor a esta prática criminosa e para tentar salvar o espécie da extinção surgiu o Programa Toda Vida Conta, por um Brasil mais Dengoso;.</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="629">
-                <tipo>Qualquer pessoa que seja contra a prática de extermínio</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-            <solicitante id="630">
-                <tipo>Mosquitos</tipo>
-                <requisitos>Que sejam da espécie *Aedes Aegypti*</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1200" unidade="meses"/>
-            <descricao>O tempo de prestação vai depender do tempo de duração da sua vida.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1720">
-                <titulo>Alistar-se na Força Ecológica de Interseção pelo Aedes</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1291">Carteira de identidade (RG)</item>
-                        <item id="1292">CPF</item>
-                        <item id="1293">CNH</item>
-                        <item id="1294">Exames físicos e psicológicos de aptidão à luta armada</item>
-                        <item id="1295">Formulário de Adesão em 3 vias autenticadas em cartórios de pelo menos 5 Unidades da Federação</item>
-                        <item id="1296">Comprovante de residência</item>
-                        <item id="1297">Certidão de Nascimento da Avó materna</item>
-                        <item id="1298">Comprovante de pagamento</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="154">
-                            <descricao>Contribuição compulsória de auxílio ao Aedes</descricao>
-                            <moeda>R$</moeda>
-                            <valorVariavel>35 vezes o preço do barril de petróleo de Bahrain no dia da inscrição</valorVariavel>
-                            <statusCustoVariavel>1</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1895" tipo="fax">
-                            <descricao>+55 61 43035-4361917     
-*Atendimento às terças de 12:35 às 13:12, segunda quarta do mês de 17:25 às 17:53 e no segundo sábado após o solstício de inverno nos anos bissextos nos primeiros 30 segundos do dia.*</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1721">
-                <titulo>Doar sangue ao mosquito</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1896" tipo="presencial">
-                            <descricao>No viveiro mais próximo de sua residência</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1722">
-                <titulo>Partcipar das ações de extinção aos repelentes</titulo>
-                <descricao>Ocasionalmente também de distribuição de utensílios com água parada.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1897" tipo="presencial">
-                            <descricao>Local determinado no momento da convocação.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/91842" dbId="36726">
-            <nomeOrgao>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2098">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Categoria Teste Edson</item>
-            <item>Meio ambiente</item>
-            <item>Preservação e Conservação Ambiental</item>
-            <item>Nova Categoria 1</item>
-            <item>Patrimônio Cultural</item>
-            <item>Policiamento</item>
-            <item>Proteção Social</item>
-            <item>Produção agropecuária</item>
-            <item>Saúde</item>
-            <item>Segurança e Ordem Pública</item>
-            <item>test</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1855">extermínio</item>
-            <item id="1856">genocídio</item>
-            <item id="1857">a</item>
-            <item id="1858">o</item>
         </palavras-chave>
     </servico>
     <servico>
@@ -33111,6 +33341,99 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         </palavras-chave>
     </servico>
     <servico>
+        <id>registrar-servico-de-microfilmagem</id>
+        <dbId>14</dbId>
+        <nome>Registrar serviço de microfilmagem</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="588">Microfilmagem</item>
+        </nomes-populares>
+        <descricao>Registro das empresas interessadas em atuar com serviços de microfilmagem.
+Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Ministério da Justiça  e Cidadania sua autorização.</descricao>
+        <contato>sac.dejus@mj.gov.br</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="452">
+                <tipo>Empresas</tipo>
+                <requisitos>Que possuam em seu contrato social o serviço de microfilmagem.</requisitos>
+            </solicitante>
+            <solicitante id="453">
+                <tipo>Cartórios</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="30" unidade="dias-corridos"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1481">
+                <titulo>Apresentar requerimento</titulo>
+                <descricao>O requerimento deve conter:
+- Solicitação para executar os serviços de microfilmagem;
+- A identificação da empresa, com razão social e CNPJ;
+- A identificação do solicitante;
+- A identificação do (s) responsável (is) pela execução dos serviços de microfilmagem;
+- E-mail para contato.</descricao>
+                <documentos>
+                    <default>
+                        <item id="920">Cópia autenticada do contrato social;</item>
+                        <item id="921">Cartão de CNPJ;</item>
+                        <item id="922">Cópia autenticada do ato de nomeação do titular, e substituto, responsável pelo serviço notarial ou de registro;</item>
+                        <item id="923">Qualificação completa dos dirigentes da empresa ou do titular do serviço notarial ou de registro e do responsável pela execução da microfilmagem;</item>
+                        <item id="924">Comprovante de endereço da sede da empresa ou do serviço notarial ou de registro e do local da execução da microfilmagem;</item>
+                        <item id="925">Descrição do equipamento a ser utilizado na microfilmagem e prova da sua titularidade;</item>
+                        <item id="926">Declaração expressa do interessado na inscrição de que informará ao Ministério da Justiça e Cidadania eventuais alterações com relação à denominação, mudança de endereço ou substituição do responsável pela da microfilmagem.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1716" tipo="presencial">
+                            <descricao>Ministério da Justiça e Cidadania -
+Protocolo Geral -
+Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1715" tipo="postal">
+                            <descricao>Ministério da Justiça e Cidadania -
+SNJC/DPJUS/ Divisão de Administração -
+Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1714" tipo="web">
+                            <descricao>http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_externo.jsf</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
+            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1795">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Proteção Social</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1316">microfilmagem</item>
+            <item id="1317">serviços de microfilmagem</item>
+            <item id="1318">registro de microfilmagem</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="419">[Lei 5.433/68](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1968-05-08;5433);
+[Decreto 1.799/96](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1996-01-30;1799)</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>ordem-etapas-4</id>
         <dbId>969</dbId>
         <nome>Ordem etapas 4</nome>
@@ -33273,99 +33596,6 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
             <item id="2103">a</item>
             <item id="2104">e</item>
         </palavras-chave>
-    </servico>
-    <servico>
-        <id>registrar-servico-de-microfilmagem</id>
-        <dbId>14</dbId>
-        <nome>Registrar serviço de microfilmagem</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="588">Microfilmagem</item>
-        </nomes-populares>
-        <descricao>Registro das empresas interessadas em atuar com serviços de microfilmagem.
-Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Ministério da Justiça  e Cidadania sua autorização.</descricao>
-        <contato>sac.dejus@mj.gov.br</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="452">
-                <tipo>Empresas</tipo>
-                <requisitos>Que possuam em seu contrato social o serviço de microfilmagem.</requisitos>
-            </solicitante>
-            <solicitante id="453">
-                <tipo>Cartórios</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="30" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1481">
-                <titulo>Apresentar requerimento</titulo>
-                <descricao>O requerimento deve conter:
-- Solicitação para executar os serviços de microfilmagem;
-- A identificação da empresa, com razão social e CNPJ;
-- A identificação do solicitante;
-- A identificação do (s) responsável (is) pela execução dos serviços de microfilmagem;
-- E-mail para contato.</descricao>
-                <documentos>
-                    <default>
-                        <item id="920">Cópia autenticada do contrato social;</item>
-                        <item id="921">Cartão de CNPJ;</item>
-                        <item id="922">Cópia autenticada do ato de nomeação do titular, e substituto, responsável pelo serviço notarial ou de registro;</item>
-                        <item id="923">Qualificação completa dos dirigentes da empresa ou do titular do serviço notarial ou de registro e do responsável pela execução da microfilmagem;</item>
-                        <item id="924">Comprovante de endereço da sede da empresa ou do serviço notarial ou de registro e do local da execução da microfilmagem;</item>
-                        <item id="925">Descrição do equipamento a ser utilizado na microfilmagem e prova da sua titularidade;</item>
-                        <item id="926">Declaração expressa do interessado na inscrição de que informará ao Ministério da Justiça e Cidadania eventuais alterações com relação à denominação, mudança de endereço ou substituição do responsável pela da microfilmagem.</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1716" tipo="presencial">
-                            <descricao>Ministério da Justiça e Cidadania -
-Protocolo Geral -
-Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1715" tipo="postal">
-                            <descricao>Ministério da Justiça e Cidadania -
-SNJC/DPJUS/ Divisão de Administração -
-Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1714" tipo="web">
-                            <descricao>http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_externo.jsf</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-            <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1795">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Proteção Social</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1316">microfilmagem</item>
-            <item id="1317">serviços de microfilmagem</item>
-            <item id="1318">registro de microfilmagem</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="419">[Lei 5.433/68](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1968-05-08;5433);
-[Decreto 1.799/96](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1996-01-30;1799)</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>2teste-carlos-18-12-2017</id>
@@ -33864,102 +34094,6 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <item id="2163">s</item>
             <item id="2164">s</item>
         </palavras-chave>
-    </servico>
-    <servico>
-        <id>alteracoes-de-pos-outorga</id>
-        <dbId>9</dbId>
-        <nome>Alterações de Pós-Outorga</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="640">Atos de Pós-Outorga</item>
-        </nomes-populares>
-        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="502">
-                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1562">
-                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="100">
-                            <descricao></descricao>
-                            <moeda>R$</moeda>
-                            <valor>2.100,00</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1704" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1483">Transferência de Outorga</item>
-            <item id="1484">Alteração de Quadro Societário</item>
-            <item id="1485">Pós-Outorga</item>
-            <item id="1486">Renovação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="468">Alterações contratuais
-
-Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-            <item id="469">Geral
-
-Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="470">Renovação/ revisão de outorga
-
-Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>492</item>
-            <item>462</item>
-        </servicos-relacionados>
     </servico>
     <servico>
         <id>obter-o-fies</id>
@@ -34773,6 +34907,102 @@ Serão resultados desta etapa:
         <legislacoes>
             <item id="495">[Legislação - Passe Livre](http://www.transportes.gov.br/conteudo/2764-passe-livre-legislacao.html)</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>alteracoes-de-pos-outorga</id>
+        <dbId>9</dbId>
+        <nome>Alterações de Pós-Outorga</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="640">Atos de Pós-Outorga</item>
+        </nomes-populares>
+        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="502">
+                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1562">
+                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="100">
+                            <descricao></descricao>
+                            <moeda>R$</moeda>
+                            <valor>2.100,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1704" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1483">Transferência de Outorga</item>
+            <item id="1484">Alteração de Quadro Societário</item>
+            <item id="1485">Pós-Outorga</item>
+            <item id="1486">Renovação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="468">Alterações contratuais
+
+Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
+            <item id="469">Geral
+
+Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
+            <item id="470">Renovação/ revisão de outorga
+
+Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>492</item>
+            <item>462</item>
+        </servicos-relacionados>
     </servico>
     <servico>
         <id>cadastrar-servicos-acessiveis</id>
