@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-carteira-de-condutor-de-veiculo-de-transporte-de-mini-humanos</id>
+    <dbId>1012</dbId>
+    <nome>Obter Carteira de Condutor de Veículo de Transporte de Mini-Humanos</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="873">Carteira para carrinho de bebê</item>
+    </nomes-populares>
+    <descricao>A correta condução de Veículo de Transporte de Mini-Humanos (popularmente conhecido como carrinho de bebê) exige treinamento e dedicação. Condutores não capacitados causam todos os anos acidentes que resultam em muito choro e biquinhos por parte dos donos dos veículos.
+Para evitar a operação de pessoas não autorizadas é que a Agência Nacional de Transportes Terrestre realiza periodicamente o teste de aptidão para direção de Veículos de Transporte de Mini-Humanos.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="750">
+            <tipo>Cidadãos brasileiros que tem interesse em conduzir tais veículos.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="3" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>5</quantidade>
+        <unidade>anos</unidade>
+        <descricao>Prorrogável por igual período, indefinidamente, mediante novo teste de aptidão.</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1925">
+            <titulo>Requerer participação de teste</titulo>
+            <descricao>O interessado deve se dirigir a uma unidade para fiscalização de transportes para mini-humanos da ANTT e realizar inscrição para o teste.</descricao>
+            <documentos>
+                <default>
+                    <item id="1375">Certidão de Nascimento do Condutor</item>
+                    <item id="1376">Certidão de Nascimento do usuário do veículo</item>
+                    <item id="1377">Nota fiscal da compra do veículo, onde constem todas as especificações técnicas de potêncial, segurança e fofura do mesmo.</item>
+                    <item id="1378">Transcrição da canção de nanar preferida do mini-humano.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1960" tipo="presencial">
+                        <descricao>Unidades para fiscalização de transportes para mini-humanos da ANTT.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1926">
+            <titulo>Realizar teste</titulo>
+            <descricao>O usuário irá conduzir um transporte de teste, fornecido pela ANTT, acompanhado de um avaliador humano e de um usuário avaliador mini-humano.</descricao>
+            <documentos>
+                <default>
+                    <item id="1379">Fraldas descartáveis</item>
+                    <item id="1380">Livro de histórias</item>
+                    <item id="1381">Lencinhos humidecidos</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1961" tipo="presencial">
+                        <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1927">
+            <titulo>Receber carteira (se aprovado)</titulo>
+            <descricao>Ao final do teste, o avaliador humano adulto fará suas considerações que não terão validade alguma para efeito da decisão de concessão ou não da carteira. Tal decisão se baseará única e exclusivamente na reação do avaliador mini-humano  à tentativa de chamar atenção do candidato. Caso o avaliador mini-humano chore neste momento, o candidato terá sua habilitação negada.</descricao>
+            <documentos>
+                <default>
+                    <item id="1382">Mamadeira</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1962" tipo="presencial">
+                        <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
+        <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2261">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Transportes</item>
+        <item>Serviços Urbanos</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2232">nenê</item>
+        <item id="2233">bebê</item>
+        <item id="2234">papai</item>
+        <item id="2235">mamãe</item>
+    </palavras-chave>
+</servico>
