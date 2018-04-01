@@ -5,7 +5,7 @@
     <nome>Obter redução em tarifas de importação de autopeças</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="869">Regime Automotivo (ACE 14)</item>
+        <item id="874">Regime Automotivo (ACE 14)</item>
     </nomes-populares>
     <descricao>Habilitação de usuário no Regime Automotivo (ACE 14) para usufruto de redução em tarifas de importação de autopeças.</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="748">
+        <solicitante id="751">
             <tipo>Empresas do setor automotivo</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1921">
+        <etapa id="1928">
             <titulo>Protocolar requerimento</titulo>
             <descricao>Encaminhamento da solicitação e abertura de processo;</descricao>
             <documentos>
@@ -64,7 +64,7 @@
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2259">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2262">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração Financeira</item>
@@ -74,8 +74,9 @@
         <item>Relações Internacionais</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2226">automóvel</item>
-        <item id="2227">importação</item>
-        <item id="2228">peças</item>
+        <item id="2240">automóvel</item>
+        <item id="2241">importação</item>
+        <item id="2242">peças</item>
+        <item id="2243">autopeças</item>
     </palavras-chave>
 </servico>
