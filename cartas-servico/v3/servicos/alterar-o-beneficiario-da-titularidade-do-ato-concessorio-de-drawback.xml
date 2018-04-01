@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="740">
+        <solicitante id="752">
             <tipo>Empresas privadas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao>teste</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1907">
+        <etapa id="1929">
             <titulo>Requerer alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
@@ -67,16 +67,16 @@
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2242">Empresas</item>
-        <item idSegmento="1" idServicoSegmento="2243">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2263">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2264">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comercio externo</item>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2198">drawback</item>
-        <item id="2199">titularidade</item>
-        <item id="2200">alteração</item>
+        <item id="2244">drawback</item>
+        <item id="2245">titularidade</item>
+        <item id="2246">alteração</item>
     </palavras-chave>
 </servico>
