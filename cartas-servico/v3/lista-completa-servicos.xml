@@ -34014,11 +34014,12 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </palavras-chave>
     </servico>
     <servico>
-        <id>alteracao-cadastral-no-cpf</id>
+        <id>alteracao-cadastral-no-cpf-2</id>
         <dbId>196</dbId>
-        <nome>Alteração Cadastral no CPF</nome>
+        <nome>Alteração Cadastral no CPF 2</nome>
         <sigla>09070406403</sigla>
         <nomes-populares>
+            <item id="875">Caixa Econômica Federal 2 4 5</item>
             <item id="846">Caixa Econômica Federal 2 4 5</item>
         </nomes-populares>
         <descricao>Realizar pedido de alteração de dados no CPF em uma conveniada (Banco do Brasil, Caixa Econômica Federal, Correios) ou alteração de endereço em entidades que prestam o serviço gratuitamente.</descricao>
@@ -34028,6 +34029,10 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
+            <solicitante id="753">
+                <tipo>cidadão</tipo>
+                <requisitos>Pretendo regularisa meu CPF</requisitos>
+            </solicitante>
             <solicitante id="728">
                 <tipo>cidadão</tipo>
                 <requisitos>Pretendo regularisa meu CPF</requisitos>
@@ -34042,6 +34047,19 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </validade-documento>
         <etapas>
             <etapa id="1895">
+                <titulo>renovação cadastro CPF</titulo>
+                <descricao>Regularisa meu CPF</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default/>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1930">
                 <titulo>renovação cadastro CPF</titulo>
                 <descricao>Regularisa meu CPF</descricao>
                 <documentos>
@@ -34068,14 +34086,14 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1002" tipo="web-consultar">
-                            <descricao>http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFEntPublicConven.htm</descricao>
+                        <canal-de-prestacao id="1003" tipo="presencial">
+                            <descricao>Unidades de Atendimento Conveniadas: Agências da CEF, BB e Correios</descricao>
                         </canal-de-prestacao>
                         <canal-de-prestacao id="1004" tipo="web">
                             <descricao>[Informações sobre alteração cadastral do CPF](http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFAlteracaoDadosCad.htm)</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="1003" tipo="presencial">
-                            <descricao>Unidades de Atendimento Conveniadas: Agências da CEF, BB e Correios</descricao>
+                        <canal-de-prestacao id="1002" tipo="web-consultar">
+                            <descricao>http://www.receita.fazenda.gov.br/PessoaFisica/CPF/CPFEntPublicConven.htm</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
@@ -34085,7 +34103,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2222">Cidadãos</item>
+            <item idSegmento="1" idServicoSegmento="2265">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Economia e Finanças</item>
@@ -34094,6 +34112,9 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <item id="2162">Regularisa meu CPF</item>
             <item id="2163">s</item>
             <item id="2164">s</item>
+            <item id="2247">Regularisa meu CPF</item>
+            <item id="2248">s</item>
+            <item id="2249">s</item>
         </palavras-chave>
     </servico>
     <servico>
