@@ -429,11 +429,11 @@ E-mail: inscricao.feiras@embratur.gov.br</contato>
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1732" tipo="e-mail">
-                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
                         <canal-de-prestacao id="1733" tipo="telefone">
                             <descricao>61 2023 8632</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1732" tipo="e-mail">
+                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
                         </canal-de-prestacao>
                     </default>
                     <caso id="243" descricao="Formulário de Inscrição IFTM Top Resa 2016">
