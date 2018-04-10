@@ -3,10 +3,10 @@
     <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
     <dbId>881</dbId>
     <nome>Obter certificados de exportação de vinhos e bebidas</nome>
-    <sigla></sigla>
+    <sigla>vinho 1</sigla>
     <nomes-populares>
-        <item id="764">certificado de livre venda</item>
-        <item id="765">certificado de origem</item>
+        <item id="824">certificado de livre venda</item>
+        <item id="825">certificado de origem</item>
     </nomes-populares>
     <descricao>Emissão de certificados para exportação de produtos (bebidas, vinagres e derivados da uva e do vinho) elaborados nacionalmente.</descricao>
     <contato></contato>
@@ -15,7 +15,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="617">
+        <solicitante id="701">
             <tipo>Produtores de vinhos e outras bebidas brasileiros</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,50 +28,36 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1706">
+        <etapa id="1857">
             <titulo>Solicitar certificado</titulo>
             <descricao></descricao>
             <documentos>
-                <default>
-                    <item id="1283">Requerimento</item>
-                    <item id="1284">Contrato ou Carta proposta firmada e relativa aos produtos a serem analisados</item>
-                    <item id="1285">Documentação comprobatória da exigência oficial do país importador</item>
-                    <item id="1286">Cópia do Registro do estabelecimento exportador e dos produtos a serem exportado</item>
-                    <item id="1287">Amostra do produto a ser certificado</item>
-                </default>
+                <default/>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1886" tipo="web">
-                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=881</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="1885" tipo="presencial">
-                        <descricao>Em uma [Superintendência Federal de Agricultura](http://www.agricultura.gov.br/sfa)</descricao>
+                    <canal-de-prestacao id="1919" tipo="e-mail">
+                        <descricao>Teste</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1707">
+        <etapa id="1858">
             <titulo>Receber certificado</titulo>
             <descricao></descricao>
             <documentos>
-                <default>
-                    <item id="1288">Documento de identificação oficial</item>
-                </default>
+                <default/>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1888" tipo="web">
-                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=881</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="1887" tipo="presencial">
-                        <descricao>Em uma [Superintendência Federal de Agricultura](http://www.agricultura.gov.br/sfa)</descricao>
+                    <canal-de-prestacao id="1920" tipo="e-mail">
+                        <descricao>gfdgdfg</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -81,19 +67,19 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2071">Empresas</item>
-        <item idSegmento="1" idServicoSegmento="2072">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2192">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2191">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1818">vinho</item>
-        <item id="1819">bebida</item>
-        <item id="1820">exportação</item>
+        <item id="2074">vinho</item>
+        <item id="2075">bebida</item>
+        <item id="2076">exportação</item>
     </palavras-chave>
     <legislacoes>
-        <item id="593">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
-        <item id="594">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
+        <item id="661">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
+        <item id="660">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
     </legislacoes>
 </servico>
