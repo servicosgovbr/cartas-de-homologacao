@@ -33701,18 +33701,18 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </servicos-relacionados>
     </servico>
     <servico>
-        <id>obter-autorizacao-de-importacao-de-material-genetico-e-animais-vivos-exceto-caes-e-gatos</id>
+        <id>obter-autorizacao-de-importacao-de-animais-vivos-exceto-caes-e-gatos-material-genetico-e-produtos-de-origem-animal</id>
         <dbId>882</dbId>
-        <nome>Obter autorização de importação de material genético e animais vivos, exceto cães e gatos</nome>
+        <nome>Obter autorização de importação de animais vivos, exceto cães e gatos, material genético e produtos de origem animal</nome>
         <sigla></sigla>
-        <descricao>Para importar animais vivos, assim como materiais para multiplicação de animais, é necessário receber autorização prévia do Ministério da Agricultura, Pecuária e Abastecimento, obtida através deste serviço.</descricao>
+        <descricao>Para importar animais vivos (exceto cães e gatos), assim como materiais para multiplicação de animais e produtos de origem animal não comestíveis, é necessário receber autorização prévia do Ministério da Agricultura, Pecuária e Abastecimento, obtida através deste serviço.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <servico-digital>true</servico-digital>
         <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
         <solicitantes>
-            <solicitante id="636">
+            <solicitante id="756">
                 <tipo>Pessoas físicas e jurídicas</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -33725,7 +33725,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1729">
+            <etapa id="1934">
                 <titulo>Requerer autorização de importação</titulo>
                 <descricao>O usuário deve fornecer toda a documentação solicitada e o formulário corretamente preenchido.</descricao>
                 <documentos>
@@ -33747,7 +33747,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="1730">
+            <etapa id="1935">
                 <titulo>Receber autorização de importação</titulo>
                 <descricao></descricao>
                 <documentos>
@@ -33774,95 +33774,19 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2104">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2105">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="2106">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="2" idServicoSegmento="2107">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="2271">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2272">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="2273">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="2" idServicoSegmento="2274">Órgãos e entidades públicas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Agropecuária</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1872">material genético</item>
-            <item id="1873">importação</item>
-            <item id="1874">animais</item>
+            <item id="2257">material genético</item>
+            <item id="2258">importação</item>
+            <item id="2259">animais</item>
         </palavras-chave>
-    </servico>
-    <servico>
-        <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
-        <dbId>881</dbId>
-        <nome>Obter certificados de exportação de vinhos e bebidas</nome>
-        <sigla>vinho</sigla>
-        <nomes-populares>
-            <item id="818">certificado de livre venda</item>
-            <item id="819">certificado de origem</item>
-        </nomes-populares>
-        <descricao>Emissão de certificados para exportação de produtos (bebidas, vinagres e derivados da uva e do vinho) elaborados nacionalmente.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
-        <solicitantes>
-            <solicitante id="697">
-                <tipo>Produtores de vinhos e outras bebidas brasileiros</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="15" max="30" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1853">
-                <titulo>Solicitar certificado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1854">
-                <titulo>Receber certificado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2185">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="2186">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2064">vinho</item>
-            <item id="2065">bebida</item>
-            <item id="2066">exportação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="656">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
-            <item id="657">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>aqui-tem-farmacia-popular</id>
