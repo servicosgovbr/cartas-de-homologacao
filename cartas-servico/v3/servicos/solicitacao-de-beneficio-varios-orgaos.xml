@@ -5,7 +5,7 @@
     <nome>Solicitação de benefício vários órgãos</nome>
     <sigla>SBO</sigla>
     <nomes-populares>
-        <item id="877">Solicitação de benefício vários órgãos</item>
+        <item id="878">Solicitação de benefício vários órgãos</item>
     </nomes-populares>
     <descricao>Serviço criado para demostrar uma solicitação de um benefício genérico que precisa ser avaliado por mais de um órgão. Ao final, será emitido um certificado que representa a concessão do benefício pleiteado</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="758">
+        <solicitante id="759">
             <tipo>Qualquer Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1939">
+        <etapa id="1943">
             <titulo>Cadastrar a solicitação</titulo>
             <descricao>Etapa destinada ao cidadão que vai abrir sua solicitação. Nessa etapa o cidadão deve preencher o objetivo de seu pleito.</descricao>
             <documentos>
@@ -47,7 +47,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1940">
+        <etapa id="1944">
             <titulo>Analisar o requerimento</titulo>
             <descricao>Após a solicitação feita pelo cidadão, o processo é destinado a equipe de analistas do órgão que farão a análise documental e a análise técnica, que culminaram na elaboração do parecer.</descricao>
             <documentos>
@@ -64,7 +64,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1941">
+        <etapa id="1945">
             <titulo>Consultar outros órgãos</titulo>
             <descricao>Após a elaboração do parecer a solicitação é enviada, em caráter consultivo para o Órgão A e para o Órgão B, que poderão no prazo de 5 dias se manifestar em relação a solicitação.</descricao>
             <documentos>
@@ -81,7 +81,7 @@
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1942">
+        <etapa id="1946">
             <titulo>Emitir Certidão</titulo>
             <descricao>Após a análise de todo o processo e documentos obrigatórios, o analista emite o Certificado do Benefício, que será assinado digitalmente utilizando o SEI ou o BPMS. Após emissão no sistema, o cidadão deverá imprimir o documento.</descricao>
             <documentos>
@@ -99,19 +99,19 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="" dbId="58059">
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2276">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2277">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2278">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2279">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2263">benefício</item>
-        <item id="2264">solicitação</item>
-        <item id="2265">beneficio</item>
+        <item id="2266">benefício</item>
+        <item id="2267">solicitação</item>
+        <item id="2268">beneficio</item>
     </palavras-chave>
 </servico>
