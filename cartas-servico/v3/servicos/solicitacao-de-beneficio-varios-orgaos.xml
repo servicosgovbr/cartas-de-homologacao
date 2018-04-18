@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitacao-de-beneficio-varios-orgaos</id>
+    <dbId>1018</dbId>
+    <nome>Solicitação de benefício vários órgãos</nome>
+    <sigla>SBO</sigla>
+    <nomes-populares>
+        <item id="877">Solicitação de benefício vários órgãos</item>
+    </nomes-populares>
+    <descricao>Serviço criado para demostrar uma solicitação de um benefício genérico que precisa ser avaliado por mais de um órgão. Ao final, será emitido um certificado que representa a concessão do benefício pleiteado</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="758">
+            <tipo>Qualquer Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1939">
+            <titulo>Cadastrar a solicitação</titulo>
+            <descricao>Etapa destinada ao cidadão que vai abrir sua solicitação. Nessa etapa o cidadão deve preencher o objetivo de seu pleito.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1966" tipo="web">
+                        <descricao>Via site do governo!</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1940">
+            <titulo>Analisar o requerimento</titulo>
+            <descricao>Após a solicitação feita pelo cidadão, o processo é destinado a equipe de analistas do órgão que farão a análise documental e a análise técnica, que culminaram na elaboração do parecer.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1967" tipo="web">
+                        <descricao>Via sistema Lecom BPM</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1941">
+            <titulo>Consultar outros órgãos</titulo>
+            <descricao>Após a elaboração do parecer a solicitação é enviada, em caráter consultivo para o Órgão A e para o Órgão B, que poderão no prazo de 5 dias se manifestar em relação a solicitação.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1968" tipo="web">
+                        <descricao>Via sistema Lecom BPM</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1942">
+            <titulo>Emitir Certidão</titulo>
+            <descricao>Após a análise de todo o processo e documentos obrigatórios, o analista emite o Certificado do Benefício, que será assinado digitalmente utilizando o SEI ou o BPMS. Após emissão no sistema, o cidadão deverá imprimir o documento.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1969" tipo="web">
+                        <descricao>Via sistema Lecom BPM</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="" dbId="58059">
+        <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2276">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2277">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comércio e Serviços</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2263">benefício</item>
+        <item id="2264">solicitação</item>
+        <item id="2265">beneficio</item>
+    </palavras-chave>
+</servico>
