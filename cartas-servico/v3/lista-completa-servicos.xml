@@ -31978,6 +31978,72 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-23</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 23</nome>
+        <sigla>MTco gjhj</sigla>
+        <nomes-populares>
+            <item id="882">Teste 1</item>
+        </nomes-populares>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="762">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1951">
+                <titulo>asdasdasda</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1893" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2283">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="2284">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2275">a</item>
+            <item id="2276">a</item>
+            <item id="2277">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="679">a</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>realizacao-de-recurso-contra-multa-dnit</id>
         <dbId>312</dbId>
         <nome>Realização de Recurso contra multa - DNIT</nome>
@@ -32198,72 +32264,6 @@ CEP: 70.046-900</contato>
         </palavras-chave>
         <legislacoes>
             <item id="663">cvncv</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
-        <sigla>MTco gjhj</sigla>
-        <nomes-populares>
-            <item id="844">Teste 1</item>
-        </nomes-populares>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="723">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1890">
-                <titulo>asdasdasda</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1893" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="2216">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="2217">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2147">a</item>
-            <item id="2148">a</item>
-            <item id="2149">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="670">a</item>
         </legislacoes>
     </servico>
     <servico>
@@ -33287,15 +33287,18 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         <dbId>1017</dbId>
         <nome>Publicizar dados de produtos veterinários</nome>
         <sigla>PUBLIVET</sigla>
+        <nomes-populares>
+            <item id="880">PUBLIVET</item>
+        </nomes-populares>
         <descricao>É um serviço que permite dar publicidade dos dados de produtos de uso veterinários registrados no MAPA.  
 A publicidade será concedida após a validação pelo MAPA das informações gerais do produto disponibilizadas pelo detentor do registro.</descricao>
         <contato>A lista de produtos registrados será publicada mensalmente no site do MAPA.</contato>
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=1017</link-servico-digital>
         <solicitantes>
-            <solicitante id="757">
+            <solicitante id="760">
                 <tipo>Empresas detentoras do registro de produtos de uso veterinário</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -33308,7 +33311,7 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1936">
+            <etapa id="1947">
                 <titulo>Encaminhar dados e documentos do produto</titulo>
                 <descricao>O Detentor do registro do registro do produto preenche formulário eletrônico contendo as informações básicas e anexa certificado de registro do produto e seus impressos.</descricao>
                 <documentos>
@@ -33325,7 +33328,7 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="1937">
+            <etapa id="1948">
                 <titulo>Validação MAPA</titulo>
                 <descricao>O MAPA valida as informações prestadas. Havendo necessidade de correção das informações, o MAPA pode encaminhar exigências ao interessado.</descricao>
                 <documentos>
@@ -33342,7 +33345,7 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="1938">
+            <etapa id="1949">
                 <titulo>Publicação</titulo>
                 <descricao>As informações de registro do produto de uso veterinário são disponibilizadas no portal do MAPA.</descricao>
                 <documentos>
@@ -33364,20 +33367,20 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
             <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2275">Empresas</item>
+            <item idSegmento="3" idServicoSegmento="2280">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Agropecuária</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="2260">medicamentos</item>
-            <item id="2261">veterinária</item>
-            <item id="2262">registro</item>
+            <item id="2269">medicamentos</item>
+            <item id="2270">veterinária</item>
+            <item id="2271">registro</item>
         </palavras-chave>
         <legislacoes>
-            <item id="672">Decreto-Lei 467</item>
-            <item id="673">Regulamento aprovado pelo Decreto 5.053 de 22 de abril de 2004.</item>
-            <item id="674">Portaria SDA 168 de 28 de setembro de 2016</item>
+            <item id="675">Decreto-Lei 467</item>
+            <item id="676">Regulamento aprovado pelo Decreto 5.053 de 22 de abril de 2004.</item>
+            <item id="677">Portaria SDA 168 de 28 de setembro de 2016</item>
         </legislacoes>
     </servico>
     <servico>
