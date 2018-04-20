@@ -3,9 +3,9 @@
     <id>obter-carteira-de-condutor-de-veiculo-de-transporte-de-mini-humanos</id>
     <dbId>1012</dbId>
     <nome>Obter Carteira de Condutor de Veículo de Transporte de Mini-Humanos</nome>
-    <sigla></sigla>
+    <sigla>teste</sigla>
     <nomes-populares>
-        <item id="873">Carteira para carrinho de bebê</item>
+        <item id="877">Carteira para carrinho de bebê</item>
     </nomes-populares>
     <descricao>A correta condução de Veículo de Transporte de Mini-Humanos (popularmente conhecido como carrinho de bebê) exige treinamento e dedicação. Condutores não capacitados causam todos os anos acidentes que resultam em muito choro e biquinhos por parte dos donos dos veículos.
 Para evitar a operação de pessoas não autorizadas é que a Agência Nacional de Transportes Terrestre realiza periodicamente o teste de aptidão para direção de Veículos de Transporte de Mini-Humanos.</descricao>
@@ -15,7 +15,7 @@ Para evitar a operação de pessoas não autorizadas é que a Agência Nacional 
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="750">
+        <solicitante id="755">
             <tipo>Cidadãos brasileiros que tem interesse em conduzir tais veículos.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -31,7 +31,7 @@ Para evitar a operação de pessoas não autorizadas é que a Agência Nacional 
         <descricao>Prorrogável por igual período, indefinidamente, mediante novo teste de aptidão.</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1925">
+        <etapa id="1932">
             <titulo>Requerer participação de teste</titulo>
             <descricao>O interessado deve se dirigir a uma unidade para fiscalização de transportes para mini-humanos da ANTT e realizar inscrição para o teste.</descricao>
             <documentos>
@@ -53,7 +53,7 @@ Para evitar a operação de pessoas não autorizadas é que a Agência Nacional 
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1926">
+        <etapa id="1933">
             <titulo>Realizar teste</titulo>
             <descricao>O usuário irá conduzir um transporte de teste, fornecido pela ANTT, acompanhado de um avaliador humano e de um usuário avaliador mini-humano.</descricao>
             <documentos>
@@ -74,7 +74,7 @@ Para evitar a operação de pessoas não autorizadas é que a Agência Nacional 
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1927">
+        <etapa id="1934">
             <titulo>Receber carteira (se aprovado)</titulo>
             <descricao>Ao final do teste, o avaliador humano adulto fará suas considerações que não terão validade alguma para efeito da decisão de concessão ou não da carteira. Tal decisão se baseará única e exclusivamente na reação do avaliador mini-humano  à tentativa de chamar atenção do candidato. Caso o avaliador mini-humano chore neste momento, o candidato terá sua habilitação negada.</descricao>
             <documentos>
@@ -98,7 +98,7 @@ Para evitar a operação de pessoas não autorizadas é que a Agência Nacional 
         <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2261">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2267">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transportes</item>
@@ -106,9 +106,9 @@ Para evitar a operação de pessoas não autorizadas é que a Agência Nacional 
         <item>Assistência à Criança e ao Adolescente</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2232">nenê</item>
-        <item id="2233">bebê</item>
-        <item id="2234">papai</item>
-        <item id="2235">mamãe</item>
+        <item id="2254">nenê</item>
+        <item id="2255">bebê</item>
+        <item id="2256">papai</item>
+        <item id="2257">mamãe</item>
     </palavras-chave>
 </servico>
