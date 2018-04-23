@@ -5,7 +5,7 @@
     <nome>Publicizar dados de produtos veterinários</nome>
     <sigla>PUBLIVET</sigla>
     <nomes-populares>
-        <item id="880">PUBLIVET</item>
+        <item id="883">PUBLIVET</item>
     </nomes-populares>
     <descricao>É um serviço que permite dar publicidade dos dados de produtos de uso veterinários registrados no MAPA.  
 A publicidade será concedida após a validação pelo MAPA das informações gerais do produto disponibilizadas pelo detentor do registro.</descricao>
@@ -13,9 +13,9 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=1017</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="760">
+        <solicitante id="763">
             <tipo>Empresas detentoras do registro de produtos de uso veterinário</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,7 +28,7 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1947">
+        <etapa id="1952">
             <titulo>Encaminhar dados e documentos do produto</titulo>
             <descricao>O Detentor do registro do registro do produto preenche formulário eletrônico contendo as informações básicas e anexa certificado de registro do produto e seus impressos.</descricao>
             <documentos>
@@ -45,7 +45,7 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1948">
+        <etapa id="1953">
             <titulo>Validação MAPA</titulo>
             <descricao>O MAPA valida as informações prestadas. Havendo necessidade de correção das informações, o MAPA pode encaminhar exigências ao interessado.</descricao>
             <documentos>
@@ -62,7 +62,7 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1949">
+        <etapa id="1954">
             <titulo>Publicação</titulo>
             <descricao>As informações de registro do produto de uso veterinário são disponibilizadas no portal do MAPA.</descricao>
             <documentos>
@@ -84,19 +84,19 @@ A publicidade será concedida após a validação pelo MAPA das informações ge
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2280">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2285">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2269">medicamentos</item>
-        <item id="2270">veterinária</item>
-        <item id="2271">registro</item>
+        <item id="2278">medicamentos</item>
+        <item id="2279">veterinária</item>
+        <item id="2280">registro</item>
     </palavras-chave>
     <legislacoes>
-        <item id="675">Decreto-Lei 467</item>
-        <item id="676">Regulamento aprovado pelo Decreto 5.053 de 22 de abril de 2004.</item>
-        <item id="677">Portaria SDA 168 de 28 de setembro de 2016</item>
+        <item id="680">Decreto-Lei 467</item>
+        <item id="681">Regulamento aprovado pelo Decreto 5.053 de 22 de abril de 2004.</item>
+        <item id="682">Portaria SDA 168 de 28 de setembro de 2016</item>
     </legislacoes>
 </servico>
