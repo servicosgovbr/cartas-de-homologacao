@@ -4,6 +4,9 @@
     <dbId>14</dbId>
     <nome>Registrar serviço de microfilmagem</nome>
     <sigla></sigla>
+    <nomes-populares>
+        <item id="880">Microfilmagem</item>
+    </nomes-populares>
     <descricao>Registro das empresas interessadas em atuar com serviços de microfilmagem.
 Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Ministério da Justiça  e Cidadania sua autorização.</descricao>
     <contato>sac.dejus@mj.gov.br</contato>
@@ -11,6 +14,16 @@ Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Minist�
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="759">
+            <tipo>Empresas</tipo>
+            <requisitos>Que possuam em seu contrato social o serviço de microfilmagem.</requisitos>
+        </solicitante>
+        <solicitante id="760">
+            <tipo>Cartórios</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
         <ate max="30" unidade="dias-corridos"/>
         <descricao></descricao>
@@ -18,11 +31,59 @@ Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Minist�
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
-    <etapas/>
+    <etapas>
+        <etapa id="1948">
+            <titulo>Apresentar requerimento</titulo>
+            <descricao>O requerimento deve conter:
+- Solicitação para executar os serviços de microfilmagem;
+- A identificação da empresa, com razão social e CNPJ;
+- A identificação do solicitante;
+- A identificação do (s) responsável (is) pela execução dos serviços de microfilmagem;
+- E-mail para contato.</descricao>
+            <documentos>
+                <default>
+                    <item id="1383">Cópia autenticada do contrato social;</item>
+                    <item id="1384">Cartão de CNPJ (Cadastro de Pessoa Jurídica);</item>
+                    <item id="1385">Cópia autenticada do ato de nomeação do titular, e substituto, responsável pelo serviço notarial ou de registro;</item>
+                    <item id="1386">Qualificação completa dos dirigentes da empresa ou do titular do serviço notarial ou de registro e do responsável pela execução da microfilmagem;</item>
+                    <item id="1387">Comprovante de endereço da sede da empresa ou do serviço notarial ou de registro e do local da execução da microfilmagem;</item>
+                    <item id="1388">Descrição do equipamento a ser utilizado na microfilmagem e prova da sua titularidade;</item>
+                    <item id="1389">Declaração expressa do interessado na inscrição de que informará ao Ministério da Justiça e Cidadania eventuais alterações com relação à denominação, mudança de endereço ou substituição do responsável pela da microfilmagem.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1971" tipo="presencial">
+                        <descricao>Ministério da Justiça e Cidadania -
+Protocolo Geral -
+Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1973" tipo="web">
+                        <descricao>http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_externo.jsf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316" dbId="37532">
-        <nomeOrgao>Ministério da Justiça e Segurança Pública (MJ)</nomeOrgao>
+        <nomeOrgao>Ministério da Justiça  (MJ)</nomeOrgao>
     </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2270">Empresas</item>
+    </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Proteção Social</item>
     </areas-de-interesse>
+    <palavras-chave>
+        <item id="2267">microfilmagem</item>
+        <item id="2268">serviços de microfilmagem</item>
+        <item id="2269">registro de microfilmagem</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="675">[Lei 5.433/68](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1968-05-08;5433);
+[Decreto 1.799/96](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1996-01-30;1799)</item>
+    </legislacoes>
 </servico>
