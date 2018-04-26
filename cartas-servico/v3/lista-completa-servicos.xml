@@ -1201,6 +1201,71 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
         </legislacoes>
     </servico>
     <servico>
+        <id>ade-de-exclusao-do-simples-nacional-2012-consulta-debitos</id>
+        <dbId>384</dbId>
+        <nome>ADE de Exclusão do Simples Nacional 2012 - Consulta Débitos</nome>
+        <sigla>augusto teste</sigla>
+        <nomes-populares>
+            <item id="518">augusto valentim da costa</item>
+            <item id="519">augusto</item>
+        </nomes-populares>
+        <descricao>Consultar débitos referentes ao Ato Declaratório de Exclusão do Simples Nacional 2012.</descricao>
+        <contato>declaraçao imposto de renda baixa</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="717">
+                <tipo>Solicitnare</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1359">
+                <titulo>Acesse</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="545" tipo="web">
+                            <descricao>https://www.receita.fazenda.gov.br/aplicacoes/SSL/ATBHE/SivexSN.App/ControleAcesso.aspx</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/77" dbId="42526">
+            <nomeOrgao>Secretaria da Receita Federal do Brasil (RFB)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1704">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+            <item>Proteção Social</item>
+            <item>Recursos humanos</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2126">s</item>
+            <item id="2127">s</item>
+            <item id="2128">s</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>solicitacao-de-restituicao-de-multa-dnit</id>
         <dbId>25</dbId>
         <nome>Solicitação de restituição de Multa DNIT</nome>
@@ -27421,6 +27486,119 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>obter-carteira-de-condutor-de-veiculo-de-transporte-de-mini-humanos</id>
+        <dbId>1012</dbId>
+        <nome>Obter Carteira de Condutor de Veículo de Transporte de Mini-Humanos</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="873">Carteira para carrinho de bebê</item>
+        </nomes-populares>
+        <descricao>A correta condução de Veículo de Transporte de Mini-Humanos (popularmente conhecido como carrinho de bebê) exige treinamento e dedicação. Condutores não capacitados causam todos os anos acidentes que resultam em muito choro e biquinhos por parte dos donos dos veículos.
+Para evitar a operação de pessoas não autorizadas é que a Agência Nacional de Transportes Terrestre realiza periodicamente o teste de aptidão para direção de Veículos de Transporte de Mini-Humanos.</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="750">
+                <tipo>Cidadãos brasileiros que tem interesse em conduzir tais veículos.</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="3" unidade="meses"/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Válido por</tipo>
+            <quantidade>5</quantidade>
+            <unidade>anos</unidade>
+            <descricao>Prorrogável por igual período, indefinidamente, mediante novo teste de aptidão.</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1925">
+                <titulo>Requerer participação de teste</titulo>
+                <descricao>O interessado deve se dirigir a uma unidade para fiscalização de transportes para mini-humanos da ANTT e realizar inscrição para o teste.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1375">Certidão de Nascimento do Condutor</item>
+                        <item id="1376">Certidão de Nascimento do usuário do veículo</item>
+                        <item id="1377">Nota fiscal da compra do veículo, onde constem todas as especificações técnicas de potêncial, segurança e fofura do mesmo.</item>
+                        <item id="1378">Transcrição da canção de nanar preferida do mini-humano.</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1960" tipo="presencial">
+                            <descricao>Unidades para fiscalização de transportes para mini-humanos da ANTT.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1926">
+                <titulo>Realizar teste</titulo>
+                <descricao>O usuário irá conduzir um transporte de teste, fornecido pela ANTT, acompanhado de um avaliador humano e de um usuário avaliador mini-humano.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1379">Fraldas descartáveis</item>
+                        <item id="1380">Livro de histórias</item>
+                        <item id="1381">Lencinhos humidecidos</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1961" tipo="presencial">
+                            <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1927">
+                <titulo>Receber carteira (se aprovado)</titulo>
+                <descricao>Ao final do teste, o avaliador humano adulto fará suas considerações que não terão validade alguma para efeito da decisão de concessão ou não da carteira. Tal decisão se baseará única e exclusivamente na reação do avaliador mini-humano  à tentativa de chamar atenção do candidato. Caso o avaliador mini-humano chore neste momento, o candidato terá sua habilitação negada.</descricao>
+                <documentos>
+                    <default>
+                        <item id="1382">Mamadeira</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1962" tipo="presencial">
+                            <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
+            <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2261">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Transportes</item>
+            <item>Serviços Urbanos</item>
+            <item>Assistência à Criança e ao Adolescente</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2232">nenê</item>
+            <item id="2233">bebê</item>
+            <item id="2234">papai</item>
+            <item id="2235">mamãe</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>emissao-de-autorizacao-especial-de-transito</id>
         <dbId>34</dbId>
         <nome>Emissão de Autorização Especial de Trânsito</nome>
@@ -27551,119 +27729,6 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
             <item>Educação superior</item>
             <item>Empregabilidade</item>
         </areas-de-interesse>
-    </servico>
-    <servico>
-        <id>obter-carteira-de-condutor-de-veiculo-de-transporte-de-mini-humanos</id>
-        <dbId>1012</dbId>
-        <nome>Obter Carteira de Condutor de Veículo de Transporte de Mini-Humanos</nome>
-        <sigla>teste</sigla>
-        <nomes-populares>
-            <item id="877">Carteira para carrinho de bebê</item>
-        </nomes-populares>
-        <descricao>A correta condução de Veículo de Transporte de Mini-Humanos (popularmente conhecido como carrinho de bebê) exige treinamento e dedicação. Condutores não capacitados causam todos os anos acidentes que resultam em muito choro e biquinhos por parte dos donos dos veículos.
-Para evitar a operação de pessoas não autorizadas é que a Agência Nacional de Transportes Terrestre realiza periodicamente o teste de aptidão para direção de Veículos de Transporte de Mini-Humanos.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="755">
-                <tipo>Cidadãos brasileiros que tem interesse em conduzir tais veículos.</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <em-media max="3" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <tipo>Válido por</tipo>
-            <quantidade>5</quantidade>
-            <unidade>anos</unidade>
-            <descricao>Prorrogável por igual período, indefinidamente, mediante novo teste de aptidão.</descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1932">
-                <titulo>Requerer participação de teste</titulo>
-                <descricao>O interessado deve se dirigir a uma unidade para fiscalização de transportes para mini-humanos da ANTT e realizar inscrição para o teste.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1375">Certidão de Nascimento do Condutor</item>
-                        <item id="1376">Certidão de Nascimento do usuário do veículo</item>
-                        <item id="1377">Nota fiscal da compra do veículo, onde constem todas as especificações técnicas de potêncial, segurança e fofura do mesmo.</item>
-                        <item id="1378">Transcrição da canção de nanar preferida do mini-humano.</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1960" tipo="presencial">
-                            <descricao>Unidades para fiscalização de transportes para mini-humanos da ANTT.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1933">
-                <titulo>Realizar teste</titulo>
-                <descricao>O usuário irá conduzir um transporte de teste, fornecido pela ANTT, acompanhado de um avaliador humano e de um usuário avaliador mini-humano.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1379">Fraldas descartáveis</item>
-                        <item id="1380">Livro de histórias</item>
-                        <item id="1381">Lencinhos humidecidos</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1961" tipo="presencial">
-                            <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1934">
-                <titulo>Receber carteira (se aprovado)</titulo>
-                <descricao>Ao final do teste, o avaliador humano adulto fará suas considerações que não terão validade alguma para efeito da decisão de concessão ou não da carteira. Tal decisão se baseará única e exclusivamente na reação do avaliador mini-humano  à tentativa de chamar atenção do candidato. Caso o avaliador mini-humano chore neste momento, o candidato terá sua habilitação negada.</descricao>
-                <documentos>
-                    <default>
-                        <item id="1382">Mamadeira</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1962" tipo="presencial">
-                            <descricao>Calçadas pré-estabelecidas para realização dos testes pela ANTT em cada cidade.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
-            <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2267">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Transportes</item>
-            <item>Serviços Urbanos</item>
-            <item>Assistência à Criança e ao Adolescente</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2254">nenê</item>
-            <item id="2255">bebê</item>
-            <item id="2256">papai</item>
-            <item id="2257">mamãe</item>
-        </palavras-chave>
     </servico>
     <servico>
         <id>treinamento-credenciar-laboratorio-na-rede-nacional-de-laboratorios-agropecuarios</id>
@@ -31913,6 +31978,72 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-23</id>
+        <dbId>192</dbId>
+        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 23</nome>
+        <sigla>MTco gjhj</sigla>
+        <nomes-populares>
+            <item id="882">Teste 1</item>
+        </nomes-populares>
+        <descricao>ultimo contracheque</descricao>
+        <contato>visualizar ultimo contracheque</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="762">
+                <tipo>a</tipo>
+                <requisitos>a</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>a</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1951">
+                <titulo>asdasdasda</titulo>
+                <descricao>a</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1893" tipo="web">
+                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="2283">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="2284">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Economia e Finanças</item>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2275">a</item>
+            <item id="2276">a</item>
+            <item id="2277">a</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="679">a</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>realizacao-de-recurso-contra-multa-dnit</id>
         <dbId>312</dbId>
         <nome>Realização de Recurso contra multa - DNIT</nome>
@@ -32133,72 +32264,6 @@ CEP: 70.046-900</contato>
         </palavras-chave>
         <legislacoes>
             <item id="663">cvncv</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
-        <dbId>192</dbId>
-        <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
-        <sigla>MTco gjhj</sigla>
-        <nomes-populares>
-            <item id="844">Teste 1</item>
-        </nomes-populares>
-        <descricao>ultimo contracheque</descricao>
-        <contato>visualizar ultimo contracheque</contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="723">
-                <tipo>a</tipo>
-                <requisitos>a</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao>a</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1890">
-                <titulo>asdasdasda</titulo>
-                <descricao>a</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1893" tipo="web">
-                            <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="2216">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="2217">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Economia e Finanças</item>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2147">a</item>
-            <item id="2148">a</item>
-            <item id="2149">a</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="670">a</item>
         </legislacoes>
     </servico>
     <servico>
@@ -33218,6 +33283,107 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         </palavras-chave>
     </servico>
     <servico>
+        <id>publicizar-dados-de-produtos-veterinarios</id>
+        <dbId>1017</dbId>
+        <nome>Publicizar dados de produtos veterinários</nome>
+        <sigla>PUBLIVET</sigla>
+        <nomes-populares>
+            <item id="883">PUBLIVET</item>
+        </nomes-populares>
+        <descricao>É um serviço que permite dar publicidade dos dados de produtos de uso veterinários registrados no MAPA.  
+A publicidade será concedida após a validação pelo MAPA das informações gerais do produto disponibilizadas pelo detentor do registro.</descricao>
+        <contato>A lista de produtos registrados será publicada mensalmente no site do MAPA.</contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="763">
+                <tipo>Empresas detentoras do registro de produtos de uso veterinário</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1952">
+                <titulo>Encaminhar dados e documentos do produto</titulo>
+                <descricao>O Detentor do registro do registro do produto preenche formulário eletrônico contendo as informações básicas e anexa certificado de registro do produto e seus impressos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1963" tipo="web">
+                            <descricao>Site</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1953">
+                <titulo>Validação MAPA</titulo>
+                <descricao>O MAPA valida as informações prestadas. Havendo necessidade de correção das informações, o MAPA pode encaminhar exigências ao interessado.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1964" tipo="web">
+                            <descricao>Site</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1954">
+                <titulo>Publicação</titulo>
+                <descricao>As informações de registro do produto de uso veterinário são disponibilizadas no portal do MAPA.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1965" tipo="web">
+                            <descricao>Site</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="2285">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Agropecuária</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2278">medicamentos</item>
+            <item id="2279">veterinária</item>
+            <item id="2280">registro</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="680">Decreto-Lei 467</item>
+            <item id="681">Regulamento aprovado pelo Decreto 5.053 de 22 de abril de 2004.</item>
+            <item id="682">Portaria SDA 168 de 28 de setembro de 2016</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>erro-despublicar</id>
         <dbId>899</dbId>
         <nome>Erro Despublicar</nome>
@@ -33282,7 +33448,7 @@ Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 9Release 
         <nome>Registrar serviço de microfilmagem</nome>
         <sigla></sigla>
         <nomes-populares>
-            <item id="880">Microfilmagem</item>
+            <item id="588">Microfilmagem</item>
         </nomes-populares>
         <descricao>Registro das empresas interessadas em atuar com serviços de microfilmagem.
 Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Ministério da Justiça  e Cidadania sua autorização.</descricao>
@@ -33292,11 +33458,11 @@ Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Minist�
         <servico-digital>false</servico-digital>
         <link-servico-digital></link-servico-digital>
         <solicitantes>
-            <solicitante id="759">
+            <solicitante id="452">
                 <tipo>Empresas</tipo>
                 <requisitos>Que possuam em seu contrato social o serviço de microfilmagem.</requisitos>
             </solicitante>
-            <solicitante id="760">
+            <solicitante id="453">
                 <tipo>Cartórios</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -33309,7 +33475,7 @@ Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Minist�
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1948">
+            <etapa id="1481">
                 <titulo>Apresentar requerimento</titulo>
                 <descricao>O requerimento deve conter:
 - Solicitação para executar os serviços de microfilmagem;
@@ -33319,13 +33485,13 @@ Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Minist�
 - E-mail para contato.</descricao>
                 <documentos>
                     <default>
-                        <item id="1383">Cópia autenticada do contrato social;</item>
-                        <item id="1384">Cartão de CNPJ (Cadastro de Pessoa Jurídica);</item>
-                        <item id="1385">Cópia autenticada do ato de nomeação do titular, e substituto, responsável pelo serviço notarial ou de registro;</item>
-                        <item id="1386">Qualificação completa dos dirigentes da empresa ou do titular do serviço notarial ou de registro e do responsável pela execução da microfilmagem;</item>
-                        <item id="1387">Comprovante de endereço da sede da empresa ou do serviço notarial ou de registro e do local da execução da microfilmagem;</item>
-                        <item id="1388">Descrição do equipamento a ser utilizado na microfilmagem e prova da sua titularidade;</item>
-                        <item id="1389">Declaração expressa do interessado na inscrição de que informará ao Ministério da Justiça e Cidadania eventuais alterações com relação à denominação, mudança de endereço ou substituição do responsável pela da microfilmagem.</item>
+                        <item id="920">Cópia autenticada do contrato social;</item>
+                        <item id="921">Cartão de CNPJ;</item>
+                        <item id="922">Cópia autenticada do ato de nomeação do titular, e substituto, responsável pelo serviço notarial ou de registro;</item>
+                        <item id="923">Qualificação completa dos dirigentes da empresa ou do titular do serviço notarial ou de registro e do responsável pela execução da microfilmagem;</item>
+                        <item id="924">Comprovante de endereço da sede da empresa ou do serviço notarial ou de registro e do local da execução da microfilmagem;</item>
+                        <item id="925">Descrição do equipamento a ser utilizado na microfilmagem e prova da sua titularidade;</item>
+                        <item id="926">Declaração expressa do interessado na inscrição de que informará ao Ministério da Justiça e Cidadania eventuais alterações com relação à denominação, mudança de endereço ou substituição do responsável pela da microfilmagem.</item>
                     </default>
                 </documentos>
                 <custos>
@@ -33333,12 +33499,17 @@ Todas as entidades, antes de microfilmar documentos, devem solicitar ao  Minist�
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="1971" tipo="presencial">
+                        <canal-de-prestacao id="1716" tipo="presencial">
                             <descricao>Ministério da Justiça e Cidadania -
 Protocolo Geral -
 Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
                         </canal-de-prestacao>
-                        <canal-de-prestacao id="1973" tipo="web">
+                        <canal-de-prestacao id="1715" tipo="postal">
+                            <descricao>Ministério da Justiça e Cidadania -
+SNJC/DPJUS/ Divisão de Administração -
+Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1714" tipo="web">
                             <descricao>http://protocoloeletronico.mj.gov.br/protocolo_eletronico/pages/externo/login_externo.jsf</descricao>
                         </canal-de-prestacao>
                     </default>
@@ -33349,20 +33520,136 @@ Esplanada dos Ministérios, Bloco T, Anexo II - CEP 70064-900. Brasília/DF.</de
             <nomeOrgao>Ministério da Justiça  (MJ)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2270">Empresas</item>
+            <item idSegmento="3" idServicoSegmento="1795">Empresas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Proteção Social</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="2267">microfilmagem</item>
-            <item id="2268">serviços de microfilmagem</item>
-            <item id="2269">registro de microfilmagem</item>
+            <item id="1316">microfilmagem</item>
+            <item id="1317">serviços de microfilmagem</item>
+            <item id="1318">registro de microfilmagem</item>
         </palavras-chave>
         <legislacoes>
-            <item id="675">[Lei 5.433/68](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1968-05-08;5433);
+            <item id="419">[Lei 5.433/68](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1968-05-08;5433);
 [Decreto 1.799/96](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1996-01-30;1799)</item>
         </legislacoes>
+    </servico>
+    <servico>
+        <id>solicitacao-de-beneficio-varios-orgaos</id>
+        <dbId>1018</dbId>
+        <nome>Solicitação de benefício vários órgãos</nome>
+        <sigla>SBO</sigla>
+        <nomes-populares>
+            <item id="878">Solicitação de benefício vários órgãos</item>
+        </nomes-populares>
+        <descricao>Serviço criado para demostrar uma solicitação de um benefício genérico que precisa ser avaliado por mais de um órgão. Ao final, será emitido um certificado que representa a concessão do benefício pleiteado</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="759">
+                <tipo>Qualquer Cidadão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1943">
+                <titulo>Cadastrar a solicitação</titulo>
+                <descricao>Etapa destinada ao cidadão que vai abrir sua solicitação. Nessa etapa o cidadão deve preencher o objetivo de seu pleito.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1966" tipo="web">
+                            <descricao>Via site do governo!</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1944">
+                <titulo>Analisar o requerimento</titulo>
+                <descricao>Após a solicitação feita pelo cidadão, o processo é destinado a equipe de analistas do órgão que farão a análise documental e a análise técnica, que culminaram na elaboração do parecer.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1967" tipo="web">
+                            <descricao>Via sistema Lecom BPM</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1945">
+                <titulo>Consultar outros órgãos</titulo>
+                <descricao>Após a elaboração do parecer a solicitação é enviada, em caráter consultivo para o Órgão A e para o Órgão B, que poderão no prazo de 5 dias se manifestar em relação a solicitação.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1968" tipo="web">
+                            <descricao>Via sistema Lecom BPM</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1946">
+                <titulo>Emitir Certidão</titulo>
+                <descricao>Após a análise de todo o processo e documentos obrigatórios, o analista emite o Certificado do Benefício, que será assinado digitalmente utilizando o SEI ou o BPMS. Após emissão no sistema, o cidadão deverá imprimir o documento.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1969" tipo="web">
+                            <descricao>Via sistema Lecom BPM</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
+            <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2278">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2279">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comércio e Serviços</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2266">benefício</item>
+            <item id="2267">solicitação</item>
+            <item id="2268">beneficio</item>
+        </palavras-chave>
     </servico>
     <servico>
         <id>ordem-etapas-4</id>
@@ -33631,18 +33918,18 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
         </servicos-relacionados>
     </servico>
     <servico>
-        <id>obter-autorizacao-de-importacao-de-material-genetico-e-animais-vivos-exceto-caes-e-gatos</id>
+        <id>obter-autorizacao-de-importacao-de-animais-vivos-exceto-caes-e-gatos-material-genetico-e-produtos-de-origem-animal</id>
         <dbId>882</dbId>
-        <nome>Obter autorização de importação de material genético e animais vivos, exceto cães e gatos</nome>
+        <nome>Obter autorização de importação de animais vivos, exceto cães e gatos, material genético e produtos de origem animal</nome>
         <sigla></sigla>
-        <descricao>Para importar animais vivos, assim como materiais para multiplicação de animais, é necessário receber autorização prévia do Ministério da Agricultura, Pecuária e Abastecimento, obtida através deste serviço.</descricao>
+        <descricao>Para importar animais vivos (exceto cães e gatos), assim como materiais para multiplicação de animais e produtos de origem animal não comestíveis, é necessário receber autorização prévia do Ministério da Agricultura, Pecuária e Abastecimento, obtida através deste serviço.</descricao>
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
         <servico-digital>true</servico-digital>
         <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
         <solicitantes>
-            <solicitante id="636">
+            <solicitante id="756">
                 <tipo>Pessoas físicas e jurídicas</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -33655,7 +33942,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="1729">
+            <etapa id="1934">
                 <titulo>Requerer autorização de importação</titulo>
                 <descricao>O usuário deve fornecer toda a documentação solicitada e o formulário corretamente preenchido.</descricao>
                 <documentos>
@@ -33677,7 +33964,7 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="1730">
+            <etapa id="1935">
                 <titulo>Receber autorização de importação</titulo>
                 <descricao></descricao>
                 <documentos>
@@ -33704,95 +33991,19 @@ Proin imperdiet, eros porta vestibulum ornare, orci justo blandit eros, sed vive
             <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="2104">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="2105">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="2106">Demais segmentos (ONGs, organizações sociais, etc)</item>
-            <item idSegmento="2" idServicoSegmento="2107">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="2271">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="2272">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="2273">Demais segmentos (ONGs, organizações sociais, etc)</item>
+            <item idSegmento="2" idServicoSegmento="2274">Órgãos e entidades públicas</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Agropecuária</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="1872">material genético</item>
-            <item id="1873">importação</item>
-            <item id="1874">animais</item>
+            <item id="2257">material genético</item>
+            <item id="2258">importação</item>
+            <item id="2259">animais</item>
         </palavras-chave>
-    </servico>
-    <servico>
-        <id>obter-certificados-de-exportacao-de-vinhos-e-bebidas</id>
-        <dbId>881</dbId>
-        <nome>Obter certificados de exportação de vinhos e bebidas</nome>
-        <sigla>vinho</sigla>
-        <nomes-populares>
-            <item id="818">certificado de livre venda</item>
-            <item id="819">certificado de origem</item>
-        </nomes-populares>
-        <descricao>Emissão de certificados para exportação de produtos (bebidas, vinagres e derivados da uva e do vinho) elaborados nacionalmente.</descricao>
-        <contato></contato>
-        <gratuito>true</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>true</servico-digital>
-        <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
-        <solicitantes>
-            <solicitante id="697">
-                <tipo>Produtores de vinhos e outras bebidas brasileiros</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="15" max="30" unidade="dias-corridos"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1853">
-                <titulo>Solicitar certificado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1854">
-                <titulo>Receber certificado</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default/>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
-            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="2185">Empresas</item>
-            <item idSegmento="1" idServicoSegmento="2186">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Agropecuária</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="2064">vinho</item>
-            <item id="2065">bebida</item>
-            <item id="2066">exportação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="656">[Instrução Normativa Nº 54 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/in-54-de-2009.pdf)</item>
-            <item id="657">[Instrução Normativa Nº 55 de 18 de novembro de 2009](http://www.agricultura.gov.br/assuntos/inspecao/produtos-vegetal/arquivos/instrucao-normativa-no-55-de-18-de-novembro-de-2009.pdf)</item>
-        </legislacoes>
     </servico>
     <servico>
         <id>aqui-tem-farmacia-popular</id>
@@ -34326,6 +34537,90 @@ Conheça como funciona o cálculo para definir se uma pessoa é ou não carente 
                 <descricao>Os formulários da etapa 1 e a documentação devem ser encaminhados via correio ou entregues pessoalmente.</descricao>
                 <documentos>
                     <default/>
+                    <caso id="238" descricao="Benefício sem a necessidade de acompanhante">
+                        <documento>
+                            <id>901</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>903</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>899</id>
+                            <descricao>Cópia de um documento de identificação. Pode ser um dos seguintes:</descricao>
+                        </documento>
+                        <documento>
+                            <id>900</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>904</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>906</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>907</id>
+                            <descricao>Atestado (laudo) da Equipe Multiprofissional do Sistema Único de Saúde (SUS), comprovando a deficiência ou incapacidade do interessado.</descricao>
+                        </documento>
+                        <documento>
+                            <id>908</id>
+                            <descricao>Requerimento, acompanhado da Declaração da Composição e Renda Familiar</descricao>
+                        </documento>
+                        <documento>
+                            <id>905</id>
+                            <descricao>Título de Eleitor</descricao>
+                        </documento>
+                        <documento>
+                            <id>902</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                    </caso>
+                    <caso id="239" descricao="Benefício com necessidade de acompanhante">
+                        <documento>
+                            <id>909</id>
+                            <descricao>Cópia de um documento de identificação do Acompanhante. Pode ser um dos seguintes:</descricao>
+                        </documento>
+                        <documento>
+                            <id>913</id>
+                            <descricao>Carteira de Identidade;</descricao>
+                        </documento>
+                        <documento>
+                            <id>910</id>
+                            <descricao>Certidão de Nascimento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>911</id>
+                            <descricao>Certidão de Casamento;</descricao>
+                        </documento>
+                        <documento>
+                            <id>912</id>
+                            <descricao>Certificado de Reservista;</descricao>
+                        </documento>
+                        <documento>
+                            <id>914</id>
+                            <descricao>Carteira de Trabalho e Previdência Social;</descricao>
+                        </documento>
+                        <documento>
+                            <id>918</id>
+                            <descricao>Requerimento específico preenchido com os dados do Acompanhante, onde deverá constar além de outras informações, a renda familiar mensal. As regras para calculo da renda per capita do Acompanhante são as mesmas da Pessoa com Deficiência</descricao>
+                        </documento>
+                        <documento>
+                            <id>915</id>
+                            <descricao>Título de Eleitor;</descricao>
+                        </documento>
+                        <documento>
+                            <id>916</id>
+                            <descricao>Carteira Nacional de Habilitação.</descricao>
+                        </documento>
+                        <documento>
+                            <id>917</id>
+                            <descricao>Deve constar no Laudo Médico da Pessoa com Deficiência, declaração do mesmo médico que atestou a deficiência, caso seja imprescindível à presença de Acompanhante durante a locomoção em viagem.</descricao>
+                        </documento>
+                    </caso>
                 </documentos>
                 <custos>
                     <default/>
