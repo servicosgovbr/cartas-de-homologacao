@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>monitoramento-de-laboratorios-na-rede-nacional-dos-laboratorios-agropecuarios-do-sistema-unificado-de-atencao-a-sanidade-agropecuaria</id>
+    <dbId>1024</dbId>
+    <nome>Monitoramento de Laboratórios na Rede Nacional dos Laboratórios Agropecuários do Sistema Unificado de Atenção a Sanidade Agropecuária</nome>
+    <sigla></sigla>
+    <descricao>Monitoramento de Laboratórios na Rede Nacional dos Laboratórios Agropecuários do Sistema Unificado de Atenção a Sanidade Agropecuária</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="766">
+            <tipo>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1965">
+            <titulo>Monitoramento</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1970" tipo="web">
+                        <descricao>Processo interno do Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2287">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2287">laboratórios</item>
+        <item id="2288">rede nacional de laboratórios</item>
+        <item id="2289">monitoramento</item>
+    </palavras-chave>
+</servico>
