@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-alterar-o-beneficiario-da-titularidade-do-ato-concessorio-de-drawback</id>
+    <dbId>1029</dbId>
+    <nome>[Treinamento] - Alterar o beneficiário da titularidade do ato concessório de drawback</nome>
+    <sigla></sigla>
+    <descricao>Analisar documentação remetida pela empresa solicitante e promover a alteração do beneficiário da titularidade do ato concessório de drawback nos casos em que houve sucessão legal entre empresas.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="771">
+            <tipo>Empresas privadas</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="15" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>2</quantidade>
+        <unidade>dias</unidade>
+        <descricao>teste</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1970">
+            <titulo>Requerer alteração</titulo>
+            <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
+            <documentos>
+                <default>
+                    <item id="1384">CNPJ</item>
+                    <item id="1385">Certidão de Receita Federal</item>
+                    <item id="1386">Contrato Social</item>
+                    <item id="1387">Procuração do representante legal</item>
+                    <item id="1388">Registro na junta comercial</item>
+                    <item id="1389">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
+                    <item id="1390">Mandato Público</item>
+                    <item id="1391">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                    <item id="1392">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                    <item id="1393">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
+                    <item id="1394">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1977" tipo="presencial">
+                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1976" tipo="postal">
+                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1975" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
+        <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2292">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2293">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comércio e Serviços</item>
+        <item>Comercio externo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2302">drawback</item>
+        <item id="2303">titularidade</item>
+        <item id="2304">alteração</item>
+    </palavras-chave>
+</servico>
