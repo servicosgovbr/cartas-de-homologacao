@@ -12,7 +12,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="768">
+        <solicitante id="769">
             <tipo>qualquer um</tipo>
             <requisitos>qualquer um</requisitos>
         </solicitante>
@@ -25,7 +25,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1967">
+        <etapa id="1968">
             <titulo>teste</titulo>
             <descricao>&lt;div style=‘border:1px;solid;#309DFC;background:#309DFC;color:#309DFC’&gt;
 &lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</descricao>
@@ -37,7 +37,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1972" tipo="aplicativo-movel">
+                    <canal-de-prestacao id="1973" tipo="aplicativo-movel">
                         <descricao>&lt;a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.sinefacil&amp;hl=pt_BR"&gt;&lt;img style='margin:5px' src = "https://servicos.serpro.gov.br/cnh-digital/images/google-play-badge.png" width = "101" height = "30" align:'left'&gt;&lt;/a&gt;&lt;a href="https://itunes.apple.com/br/app/sine-facil/id1251035126?mt=8"&gt;&lt;img style='margin:5px' src = "https://servicos.serpro.gov.br/cnh-digital/images/apple-badge.png" width = "101" height = "30" align:'left'&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -48,14 +48,14 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2289">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2290">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2293">teste</item>
-        <item id="2294">a</item>
-        <item id="2295">b</item>
+        <item id="2296">teste</item>
+        <item id="2297">a</item>
+        <item id="2298">b</item>
     </palavras-chave>
 </servico>
