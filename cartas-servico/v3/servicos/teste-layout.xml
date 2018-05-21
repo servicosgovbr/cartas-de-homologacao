@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-layout</id>
+    <dbId>1025</dbId>
+    <nome>Teste layout</nome>
+    <sigla>teste</sigla>
+    <nomes-populares>
+        <item id="885">&lt;a href="http://www.planejamento.gov.br/"&gt;TESTE&lt;/a&gt;</item>
+    </nomes-populares>
+    <descricao>&lt;div style=‘border:1px;solid;#309DFC;background:#309DFC;color:#309DFC’&gt;
+&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;      
+
+&lt;div style='margin-left:5%;margin-right:5%;margin-bottom:8px;margin-top:0px'&gt;&lt;p align="justify"&gt;Acompanhe seu benefício do Seguro-Desemprego, pesquise e concorra a vagas de emprego, consulte o Abono Salarial e Contratos de Trabalho.&lt;/p&gt;&lt;/div&gt;
+
+&lt;div style='text-align:center; margin-top:10px'&gt;&lt;a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.sinefacil&amp;hl=pt_BR"&gt;&lt;img style='margin:5px' src = "https://servicos.serpro.gov.br/cnh-digital/images/google-play-badge.png" width = "101" height = "30" align:'left'&gt;&lt;/a&gt;&lt;a href="https://itunes.apple.com/br/app/sine-facil/id1251035126?mt=8"&gt;&lt;img style='margin:5px' src = "https://servicos.serpro.gov.br/cnh-digital/images/apple-badge.png" width = "101" height = "30" align:'left'&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;</descricao>
+    <contato>&lt;div style=‘border:1px;solid;#309DFC;background:#309DFC;color:#309DFC’&gt;
+&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="767">
+            <tipo>&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</tipo>
+            <requisitos>&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="2" unidade="horas"/>
+        <descricao>&lt;div style=‘border:1px;solid;#309DFC;background:#309DFC;color:#309DFC’&gt;
+&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1966">
+            <titulo>&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</titulo>
+            <descricao>&lt;div style=‘border:1px;solid;#309DFC;background:#309DFC;color:#309DFC’&gt;
+&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;      
+
+&lt;div style='margin-left:5%;margin-right:5%;margin-bottom:8px;margin-top:0px'&gt;&lt;p align="justify"&gt;Acompanhe seu benefício do Seguro-Desemprego, pesquise e concorra a vagas de emprego, consulte o Abono Salarial e Contratos de Trabalho.&lt;/p&gt;&lt;/div&gt;</descricao>
+            <documentos>
+                <default>
+                    <item id="1383">&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1971" tipo="aplicativo-movel">
+                        <descricao>&lt;a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.sinefacil&amp;hl=pt_BR"&gt;&lt;img style='margin:5px' src = "https://servicos.serpro.gov.br/cnh-digital/images/google-play-badge.png" width = "101" height = "30" align:'left'&gt;&lt;/a&gt;&lt;a href="https://itunes.apple.com/br/app/sine-facil/id1251035126?mt=8"&gt;&lt;img style='margin:5px' src = "https://servicos.serpro.gov.br/cnh-digital/images/apple-badge.png" width = "101" height = "30" align:'left'&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2288">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação superior</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2290">&lt;div style=‘text-align:center; height:50px; p</item>
+        <item id="2291">&lt;div style=‘text-align:center; height:50px; p</item>
+        <item id="2292">&lt;div style=‘text-align:center; height:50px; p</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="685">&lt;div style=‘text-align:center; height:50px; padding:5px’&gt;&lt;big&gt;&lt;font color=“white”&gt;SINE Fácil&lt;/font&gt;&lt;/big&gt;&lt;/div&gt;</item>
+    </legislacoes>
+</servico>
