@@ -9,9 +9,9 @@
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="771">
+        <solicitante id="772">
             <tipo>Empresas privadas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,22 +27,22 @@
         <descricao>teste</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1970">
+        <etapa id="1971">
             <titulo>Requerer alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
                 <default>
-                    <item id="1384">CNPJ</item>
-                    <item id="1385">Certidão de Receita Federal</item>
-                    <item id="1386">Contrato Social</item>
-                    <item id="1387">Procuração do representante legal</item>
-                    <item id="1388">Registro na junta comercial</item>
-                    <item id="1389">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
-                    <item id="1390">Mandato Público</item>
-                    <item id="1391">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
-                    <item id="1392">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
-                    <item id="1393">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
-                    <item id="1394">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
+                    <item id="1395">CNPJ</item>
+                    <item id="1396">Certidão de Receita Federal</item>
+                    <item id="1397">Contrato Social</item>
+                    <item id="1398">Procuração do representante legal</item>
+                    <item id="1399">Registro na junta comercial</item>
+                    <item id="1400">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
+                    <item id="1401">Mandato Público</item>
+                    <item id="1402">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                    <item id="1403">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                    <item id="1404">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
+                    <item id="1405">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
                 </default>
             </documentos>
             <custos>
@@ -50,13 +50,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1977" tipo="presencial">
+                    <canal-de-prestacao id="1978" tipo="presencial">
                         <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="1976" tipo="postal">
+                    <canal-de-prestacao id="1979" tipo="postal">
                         <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="1975" tipo="web">
+                    <canal-de-prestacao id="1980" tipo="web">
                         <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=979</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -67,16 +67,16 @@
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2292">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2293">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2294">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2295">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
         <item>Comercio externo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2302">drawback</item>
-        <item id="2303">titularidade</item>
-        <item id="2304">alteração</item>
+        <item id="2305">drawback</item>
+        <item id="2306">titularidade</item>
+        <item id="2307">alteração</item>
     </palavras-chave>
 </servico>
