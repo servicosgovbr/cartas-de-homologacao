@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="774">
+        <solicitante id="775">
             <tipo>Empresas privadas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,22 +27,22 @@
         <descricao>teste</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1973">
+        <etapa id="1974">
             <titulo>Requerer alteração</titulo>
             <descricao>Apresentação de documentos previsto na legislação para a análise.</descricao>
             <documentos>
                 <default>
-                    <item id="1417">CNPJ</item>
-                    <item id="1418">Certidão de Receita Federal</item>
-                    <item id="1419">Contrato Social</item>
-                    <item id="1420">Procuração do representante legal</item>
-                    <item id="1421">Registro na junta comercial</item>
-                    <item id="1422">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
-                    <item id="1423">Mandato Público</item>
-                    <item id="1424">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
-                    <item id="1425">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
-                    <item id="1426">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
-                    <item id="1427">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
+                    <item id="1428">CNPJ</item>
+                    <item id="1429">Certidão de Receita Federal</item>
+                    <item id="1430">Contrato Social</item>
+                    <item id="1431">Procuração do representante legal</item>
+                    <item id="1432">Registro na junta comercial</item>
+                    <item id="1433">Carta/ofício solicitando a alteração de titularidade do ato concessório de drawback</item>
+                    <item id="1434">Mandato Público</item>
+                    <item id="1435">Deliberação da empresa sucessora (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                    <item id="1436">Deliberação da empresa sucedida (Alteração do Contrato Social ou Ata de Assembleia Geral)</item>
+                    <item id="1437">Protocolo e Justificação (da incorporação, fusão, cisão)</item>
+                    <item id="1438">Laudo de Avaliação Publicação em Diário Oficial (caso de Trespasse)</item>
                 </default>
             </documentos>
             <custos>
@@ -50,14 +50,14 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1984" tipo="presencial">
-                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="1985" tipo="postal">
-                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="1986" tipo="web">
+                    <canal-de-prestacao id="1989" tipo="web">
                         <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar?codServico=1029</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1987" tipo="presencial">
+                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1988" tipo="postal">
+                        <descricao>Esplanada dos Ministérios, bloco J, Brasília - DF</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -67,16 +67,16 @@
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2298">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2299">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2300">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2301">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
         <item>Comercio externo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2311">drawback</item>
-        <item id="2312">titularidade</item>
-        <item id="2313">alteração</item>
+        <item id="2314">drawback</item>
+        <item id="2315">titularidade</item>
+        <item id="2316">alteração</item>
     </palavras-chave>
 </servico>
