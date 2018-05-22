@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>agendamento-solicitacao-de-consulta-medica</id>
+    <dbId>1035</dbId>
+    <nome>[Agendamento ] - Solicitação de Consulta Médica</nome>
+    <sigla>SCM</sigla>
+    <nomes-populares>
+        <item id="887">Solicitação de Consulta Médica</item>
+    </nomes-populares>
+    <descricao>Serviço criado para demonstrar uma solicitação de consulta médica utilizando a funcionalidade Agendamento feita dentro do Portal.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="777">
+            <tipo>Qualquer Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1978">
+            <titulo>Solicitação de Agendamento</titulo>
+            <descricao>Etapa destinada ao cidadão que vai abrir sua solicitação, e nela ele irá realizar o agendamento nas datas e horários livres.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1994" tipo="web">
+                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1979">
+            <titulo>Validação da Solicitação</titulo>
+            <descricao>Etapa destinada ao atendente validar o agendamento e selecionar médico que irá atender.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1995" tipo="web">
+                        <descricao>https://mpdg-hom-orgaoa.lecom.com.br/bpm</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1980">
+            <titulo>Avaliação da Consulta</titulo>
+            <descricao>Etapa destinada para o Cidadão realizar a avaliação da consulta médica feita.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1996" tipo="web">
+                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1981">
+            <titulo>Cancelamento da solicitação do Agendamento</titulo>
+            <descricao>Etapa destinada ao cidadão finalizar a solicitação como cancelada</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1997" tipo="web">
+                        <descricao>http://mpdg-hom-ps.lecom.com.br/processos/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2303">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2304">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2320">agendamento</item>
+        <item id="2321">consulta</item>
+        <item id="2322">médica</item>
+    </palavras-chave>
+</servico>
