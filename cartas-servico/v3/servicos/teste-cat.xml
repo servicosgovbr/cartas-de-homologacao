@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="779">
+        <solicitante id="780">
             <tipo>kjhlkj</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1986">
+        <etapa id="1987">
             <titulo>kçjlk</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2002" tipo="presencial">
+                    <canal-de-prestacao id="2003" tipo="presencial">
                         <descricao>~kj</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,14 +46,14 @@
         <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2307">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2308">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Defesa Civil</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2326">klçj</item>
-        <item id="2327">çlkj</item>
-        <item id="2328">lkjl</item>
+        <item id="2329">klçj</item>
+        <item id="2330">çlkj32</item>
+        <item id="2331">lkjl</item>
     </palavras-chave>
 </servico>
