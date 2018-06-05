@@ -6,18 +6,33 @@
     <sigla></sigla>
     <descricao>[teste](http://www.servicos.gov.br "teste")
 
-**negrito**
-_itálico_
+**negrito**  &lt;b&gt;negrito&lt;/b&gt;
+_itálico_     &lt;i&gt;itálico&lt;/i&gt;
 
 lista numerada
 1. um
 2. dois
 3. três
 
+Lista numerada
+&lt;ol&gt;
+&lt;li&gt;um&lt;/li&gt;
+&lt;li&gt;dois&lt;/li&gt;
+&lt;li&gt;três&lt;/li&gt;
+&lt;/ol&gt;
+
 lista bullets
 - primeiro
 - segundo
 - terceiro
+
+Lista bullets
+&lt;ul&gt;
+&lt;li&gt;Primeiro&lt;/li&gt;
+&lt;li&gt;Segundo&lt;/li&gt;
+&lt;li&gt;Terceiro&lt;/li&gt;
+&lt;/ul&gt;
+
 
 Título 1
 ========
@@ -38,7 +53,7 @@ Título 2
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="766">
+        <solicitante id="767">
             <tipo>sdfsdfsd</tipo>
             <requisitos>fasdf</requisitos>
         </solicitante>
@@ -51,7 +66,7 @@ Título 2
         <descricao>sdfasdfasdfsa</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1956">
+        <etapa id="1957">
             <titulo>dfasd</titulo>
             <descricao>fsdasfsd</descricao>
             <documentos>
@@ -62,7 +77,7 @@ Título 2
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1982" tipo="web-declarar">
+                    <canal-de-prestacao id="1983" tipo="web-declarar">
                         <descricao>afd</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -73,14 +88,14 @@ Título 2
         <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2275">Órgãos e entidades públicas</item>
+        <item idSegmento="2" idServicoSegmento="2276">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Biodiversidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2283">asdfasd</item>
-        <item id="2284">afadsfa</item>
-        <item id="2285">asdfsdafds</item>
+        <item id="2286">asdfasd</item>
+        <item id="2287">afadsfa</item>
+        <item id="2288">asdfsdafds</item>
     </palavras-chave>
 </servico>
