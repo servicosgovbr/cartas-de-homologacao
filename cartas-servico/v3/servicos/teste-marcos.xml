@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-marcos</id>
+    <dbId>1024</dbId>
+    <nome>TESTE MARCOS</nome>
+    <sigla></sigla>
+    <descricao>[teste](http://www.servicos.gov.br "teste")
+
+**zxsdfsF**
+_ASDADF_SA
+
+#### DSFAFASDF
+- IBE
+- DSAKLÇFSDJF
+- LDKFSJASKDC
+
+1. 1. DFGAFSD
+1. ADSFAWSDFSA
+1. ADSFSDFFDSA</descricao>
+    <contato>sdfsadf</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="764">
+            <tipo>sdfsdfsd</tipo>
+            <requisitos>fasdf</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao>sdfasdfasdfsa</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1954">
+            <titulo>dfasd</titulo>
+            <descricao>fsdasfsd</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1980" tipo="web-declarar">
+                        <descricao>afd</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219925" dbId="58048">
+        <nomeOrgao>Ministério dos Direitos Humanos (MDH)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2273">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Biodiversidade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2277">asdfasd</item>
+        <item id="2278">afadsfa</item>
+        <item id="2279">asdfsdafds</item>
+    </palavras-chave>
+</servico>
