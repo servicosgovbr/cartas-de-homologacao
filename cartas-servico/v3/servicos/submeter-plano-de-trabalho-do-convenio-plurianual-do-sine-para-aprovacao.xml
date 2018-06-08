@@ -5,7 +5,7 @@
     <nome>Submeter Plano de Trabalho do Convênio Plurianual do SINE para aprovação</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="886">Convênio Plurianual do SINE</item>
+        <item id="894">Convênio Plurianual do SINE</item>
     </nomes-populares>
     <descricao>A Rede SINE é composta por mais de 1.500 postos de atendimento e está presente em mais
 de 1.200 municípios dos 26 estados brasileiros e no Distrito Federal. A gestão dos postos é
@@ -35,10 +35,10 @@ ao trabalhador autônomo.</descricao>
     <contato>(61) 2031-6580</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="776">
+        <solicitante id="786">
             <tipo>Secretarias estaduais e municipais que tem convênio assinado com o Ministério do Trabalho.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -51,14 +51,14 @@ ao trabalhador autônomo.</descricao>
         <descricao>Secretarias estaduais e municipais que tem convênio assinado com o Ministério do Trabalho.</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1975">
+        <etapa id="2008">
             <titulo>Apresentar Plano de Trabalho</titulo>
             <descricao>A secretaria responsável (convenente) preenche o plano de trabalho, apresentando informações de sua rede de atendimento. O Plano será encaminhado para a área responsável do Ministério do Trabalho(Coordenação de Intermediação de Mão de Obra), para análise quanto às informações preenchidas.</descricao>
             <documentos>
                 <default>
-                    <item id="1439">Plano de Trabalho</item>
-                    <item id="1440">Número do CNPJ</item>
-                    <item id="1441">Documentos do responsável do Convênio (documentos pessoais e termos de posse como secretário ou outra autoridade).</item>
+                    <item id="1461">Plano de Trabalho</item>
+                    <item id="1462">Número do CNPJ</item>
+                    <item id="1463">Documentos do responsável do Convênio (documentos pessoais e termos de posse como secretário ou outra autoridade).</item>
                 </default>
             </documentos>
             <custos>
@@ -66,16 +66,16 @@ ao trabalhador autônomo.</descricao>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1991" tipo="presencial">
+                    <canal-de-prestacao id="2026" tipo="presencial">
                         <descricao>&lt;b&gt;Protocolo na Coordenação Geral do SINE&lt;/b&gt; - Esplanada dos Ministérios Bl. F Sede - 2º Andar-Sala 251 - CEP: 70059-900 - Brasília - DF</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="1990" tipo="e-mail">
+                    <canal-de-prestacao id="2027" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1976">
+        <etapa id="2009">
             <titulo>Receber nota técnica</titulo>
             <descricao>Após análise será elaborada nota técnica, contendo as informações exaradas pela Coordenação de Intermediação de Mão de Obra, que será comunicada via sistema à Secretaria (convenente)</descricao>
             <documentos>
@@ -86,13 +86,13 @@ ao trabalhador autônomo.</descricao>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1992" tipo="e-mail">
+                    <canal-de-prestacao id="2028" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1977">
+        <etapa id="2010">
             <titulo>Receber arquivo do Plano de Trabalho</titulo>
             <descricao>Após aprovadas as informações será gerado arquivo do plano de trabalho, que comporá o Sistema de Convenio do Governo Federal (SICONV), encarregado de liberação do recurso previamente estipulado.</descricao>
             <documentos>
@@ -103,7 +103,7 @@ ao trabalhador autônomo.</descricao>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1993" tipo="e-mail">
+                    <canal-de-prestacao id="2029" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -114,15 +114,15 @@ ao trabalhador autônomo.</descricao>
         <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2302">Órgãos e entidades públicas</item>
+        <item idSegmento="2" idServicoSegmento="2315">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração Financeira</item>
         <item>Trabalho</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2317">FAT</item>
-        <item id="2318">sine</item>
-        <item id="2319">Convênio</item>
+        <item id="2347">FAT</item>
+        <item id="2348">sine</item>
+        <item id="2349">Convênio</item>
     </palavras-chave>
 </servico>
