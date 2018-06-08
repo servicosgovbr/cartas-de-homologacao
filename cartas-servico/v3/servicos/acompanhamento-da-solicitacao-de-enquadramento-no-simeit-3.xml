@@ -3,18 +3,18 @@
     <id>acompanhamento-da-solicitacao-de-enquadramento-no-simeit-3</id>
     <dbId>192</dbId>
     <nome>Acompanhamento da Solicitação de Enquadramento no SIMEIT 3</nome>
-    <sigla>MTco gjhj</sigla>
+    <sigla>MTco gjhj 1234</sigla>
     <nomes-populares>
-        <item id="844">Teste 1</item>
+        <item id="883">Teste 1 12345</item>
     </nomes-populares>
-    <descricao>ultimo contracheque</descricao>
+    <descricao>ultimo contracheque sdijadsoifjasoidfjoiasjdfoijasodifjasoidjfoiasjdfiojasdoifjsaoidjfoisadjfoiasjdfoijasdoifjsadoidfjasdoijfoiasdjfoiasddjfoisjaddoifjsadiodfjosaidjfoiasjdfoisjdfoijsdifoj</descricao>
     <contato>visualizar ultimo contracheque</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="723">
+        <solicitante id="768">
             <tipo>a</tipo>
             <requisitos>a</requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1890">
+        <etapa id="1958">
             <titulo>asdasdasda</titulo>
             <descricao>a</descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1893" tipo="web">
+                    <canal-de-prestacao id="1984" tipo="web">
                         <descricao>http://www8.receita.fazenda.gov.br/SIMPLESNACIONAL/Servicos/Grupo.aspx?grp=7</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,19 +49,19 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2216">Órgãos e entidades públicas</item>
-        <item idSegmento="3" idServicoSegmento="2217">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2278">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2279">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2147">a</item>
-        <item id="2148">a</item>
-        <item id="2149">a</item>
+        <item id="2292">a</item>
+        <item id="2293">a</item>
+        <item id="2294">a</item>
     </palavras-chave>
     <legislacoes>
-        <item id="670">a</item>
+        <item id="679">a</item>
     </legislacoes>
 </servico>
