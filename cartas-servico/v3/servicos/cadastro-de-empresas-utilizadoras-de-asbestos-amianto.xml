@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastro-de-empresas-utilizadoras-de-asbestos-amianto</id>
+    <dbId>1048</dbId>
+    <nome>Cadastro de Empresas Utilizadoras de Asbestos (Amianto)</nome>
+    <sigla></sigla>
+    <descricao>Cadastro junto ao ministério do trabalho de empresas utilizadoras de Asbestos (Amianto)</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-orgaoa.lecom.com.br/bpm/</link-servico-digital>
+    <solicitantes>
+        <solicitante id="790">
+            <tipo>Empresas Utilizadoras de Asbestos</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2019">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2039" tipo="web-preencher">
+                        <descricao>Preenchimento de formulário</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+        <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2319">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Urbanismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2356">Amianto</item>
+        <item id="2357">Trabalho</item>
+        <item id="2358">Cadastro</item>
+    </palavras-chave>
+</servico>
