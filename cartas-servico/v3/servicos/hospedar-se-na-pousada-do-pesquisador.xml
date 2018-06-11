@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="782">
+        <solicitante id="787">
             <tipo>Servidores, pesquisadores, doutores, professores e convidados do JBRJ.</tipo>
             <requisitos>Que venham ao Instituto desenvolver atividades científicas de interesse institucional.</requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1991">
+        <etapa id="2011">
             <titulo>Solicitar reserva</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1442">CPF</item>
+                    <item id="1464">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -37,16 +37,16 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2008" tipo="web">
+                    <canal-de-prestacao id="2030" tipo="web">
                         <descricao>https://aplicacoes.jbrj.gov.br/pesquisa/pousada/emailpousada.htm</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2007" tipo="e-mail">
+                    <canal-de-prestacao id="2031" tipo="e-mail">
                         <descricao>amarmelo@jbrj.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1992">
+        <etapa id="2012">
             <titulo>Receber GRU</titulo>
             <descricao>Contato por email, confirmando ou não a reserva, e encaminhamento de GRU</descricao>
             <documentos>
@@ -57,23 +57,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2009" tipo="e-mail">
+                    <canal-de-prestacao id="2032" tipo="e-mail">
                         <descricao>E-mail informado no pedido de reserva.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1993">
+        <etapa id="2013">
             <titulo>Pagar Taxa de Hospedagem</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1443">GRU</item>
+                    <item id="1465">GRU</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="196">
+                    <custo id="197">
                         <descricao>Taxa de hospedagem</descricao>
                         <moeda>R$</moeda>
                         <valor>100,00</valor>
@@ -84,20 +84,20 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2010" tipo="presencial">
+                    <canal-de-prestacao id="2033" tipo="presencial">
                         <descricao>Rede bancária</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1994">
+        <etapa id="2014">
             <titulo>Hospedar-se na Pousada</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1444">CPF</item>
-                    <item id="1445">Documento de identificação oficial com foto</item>
-                    <item id="1446">Comprovante de pagamento</item>
+                    <item id="1466">CPF</item>
+                    <item id="1467">Documento de identificação oficial com foto</item>
+                    <item id="1468">Comprovante de pagamento</item>
                 </default>
             </documentos>
             <custos>
@@ -105,7 +105,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2011" tipo="presencial">
+                    <canal-de-prestacao id="2034" tipo="presencial">
                         <descricao>**Pousada do Pesquisador** - Rua Major Rubens Vaz, 66 - Gávea, Rio de Janeiro/RJ - CEP: 22470-070</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -116,16 +116,16 @@
         <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2310">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2311">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2316">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2317">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Pesquisa e Desenvolvimento</item>
         <item>Serviços Urbanos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2335">hotel</item>
-        <item id="2336">estadia</item>
-        <item id="2337">jardim botânico</item>
+        <item id="2350">hotel</item>
+        <item id="2351">estadia</item>
+        <item id="2352">jardim botânico</item>
     </palavras-chave>
 </servico>
