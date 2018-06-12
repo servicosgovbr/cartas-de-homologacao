@@ -5,17 +5,17 @@
     <nome>Cadastro de Empresas Utilizadoras de Benzeno</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="896">Benzeno</item>
+        <item id="897">Benzeno</item>
     </nomes-populares>
     <descricao>Cadastro junto ao ministério do trabalho de empresas utilizadoras de benzeno.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-orgaoa.lecom.com.br/bpm/</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="791">
-            <tipo>Empresa</tipo>
+        <solicitante id="792">
+            <tipo>Empresas</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
@@ -27,9 +27,9 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2020">
+        <etapa id="2021">
             <titulo>Solicitação</titulo>
-            <descricao></descricao>
+            <descricao>Nesta etapa, o solicitante deverá informar os seus dados para que seja possível a efetivação do seu cadastro.</descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2040" tipo="web-inscrever-se">
+                    <canal-de-prestacao id="2041" tipo="web-inscrever-se">
                         <descricao>Solicitação de cadastro da empresa junto ao Ministério do Trabalho</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,14 +49,14 @@
         <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2320">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2321">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2359">benzeno</item>
-        <item id="2360">empresa</item>
-        <item id="2361">cadastro</item>
+        <item id="2362">benzeno</item>
+        <item id="2363">empresa</item>
+        <item id="2364">cadastro</item>
     </palavras-chave>
 </servico>
