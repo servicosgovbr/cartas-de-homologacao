@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="794">
+        <solicitante id="795">
             <tipo>Empresas Utilizadoras de Asbestos</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2023">
+        <etapa id="2024">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2043" tipo="web-preencher">
+                    <canal-de-prestacao id="2044" tipo="web-preencher">
                         <descricao>Preenchimento de formulário</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,14 +46,14 @@
         <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2323">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2324">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Urbanismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2368">Amianto</item>
-        <item id="2369">Trabalho</item>
-        <item id="2370">Cadastro</item>
+        <item id="2371">Amianto</item>
+        <item id="2372">Trabalho</item>
+        <item id="2373">Cadastro</item>
     </palavras-chave>
 </servico>
