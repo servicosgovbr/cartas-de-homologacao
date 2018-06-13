@@ -5,7 +5,7 @@
     <nome>Submeter Plano de Trabalho do Convênio Plurianual do SINE para aprovação</nome>
     <sigla>SINE</sigla>
     <nomes-populares>
-        <item id="899">Convênio Plurianual do SINE</item>
+        <item id="900">Convênio Plurianual do SINE</item>
     </nomes-populares>
     <descricao>A Rede SINE é composta por mais de 1.500 postos de atendimento e está presente em mais
 de 1.200 municípios dos 26 estados brasileiros e no Distrito Federal. A gestão dos postos é
@@ -40,7 +40,7 @@ ao trabalhador autônomo.</descricao>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="796">
+        <solicitante id="797">
             <tipo>Convenente</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -56,12 +56,12 @@ ao trabalhador autônomo.</descricao>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2025">
+        <etapa id="2028">
             <titulo>Apresentar Plano de Trabalho</titulo>
             <descricao>A secretaria responsável (convenente) preenche o plano de trabalho, apresentando informações de sua rede de atendimento. O Plano será encaminhado para a área responsável do Ministério do Trabalho(Coordenação de Intermediação de Mão de Obra), para análise quanto às informações preenchidas.</descricao>
             <documentos>
                 <default>
-                    <item id="1489">Documentação em comum para todos os casos
+                    <item id="1491">Documentação em comum para todos os casos
 Plano de Trabalho
 Número do CNPJ
 Documentos do responsável do Convênio (documentos pessoais e termos de posse como secretário ou outra autoridade).</item>
@@ -72,16 +72,16 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2046" tipo="presencial">
+                    <canal-de-prestacao id="2049" tipo="presencial">
                         <descricao>Protocolo na Coordenação Geral do SINE - Esplanada dos Ministérios Bl. F Sede - 2º Andar-Sala 251 - CEP: 70059-900 - Brasília - DF</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2045" tipo="e-mail">
+                    <canal-de-prestacao id="2050" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2026">
+        <etapa id="2029">
             <titulo>Receber nota técnica</titulo>
             <descricao>Após análise será elaborada nota técnica, contendo as informações exaradas pela Coordenação de Intermediação de Mão de Obra, que será comunicada via sistema à Secretaria (convenente)</descricao>
             <documentos>
@@ -92,13 +92,13 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2047" tipo="e-mail">
+                    <canal-de-prestacao id="2051" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2027">
+        <etapa id="2030">
             <titulo>Receber arquivo do Plano de Trabalho</titulo>
             <descricao>Após aprovadas as informações será gerado arquivo do plano de trabalho, que comporá o Sistema de Convenio do Governo Federal (SICONV), encarregado de liberação do recurso previamente estipulado.</descricao>
             <documentos>
@@ -109,7 +109,7 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2048" tipo="e-mail">
+                    <canal-de-prestacao id="2052" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -120,14 +120,14 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
         <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2325">Órgãos e entidades públicas</item>
+        <item idSegmento="2" idServicoSegmento="2326">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Trabalho</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2374">SINE</item>
-        <item id="2375">SICONV</item>
-        <item id="2376">Convênio Plurianual</item>
+        <item id="2378">SICONV</item>
+        <item id="2379">Convênio Plurianual</item>
+        <item id="2377">SINE</item>
     </palavras-chave>
 </servico>
