@@ -1,70 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>submeter-plano-de-trabalho-do-convenio-plurianual-do-sine-para-aprovacao</id>
-    <dbId>1054</dbId>
+    <dbId>1034</dbId>
     <nome>Submeter Plano de Trabalho do Convênio Plurianual do SINE para aprovação</nome>
-    <sigla>SINE</sigla>
+    <sigla></sigla>
     <nomes-populares>
-        <item id="902">Convênio Plurianual do SINE</item>
+        <item id="903">Convênio Plurianual do SINE</item>
     </nomes-populares>
     <descricao>A Rede SINE é composta por mais de 1.500 postos de atendimento e está presente em mais
 de 1.200 municípios dos 26 estados brasileiros e no Distrito Federal. A gestão dos postos é
 feita por 72 convênios firmados entre o Ministério do Trabalho e Previdência Social e todos os
 estados brasileiros, o Distrito Federal e alguns municípios com mais de 200 mil habitantes.
 Cabe à Coordenação Nacional do SINE, vinculada ao MTPS, realizar o acompanhamento de
-execução de tais convênios.
+execução de tais convênios.      
 
+&amp;nbsp;        
  
-
 Os recursos do Fundo de Amparo ao Trabalhador são redistribuídos entre esses convenentes
 para a execução dos Planos de Trabalho. Estes planos contêm o detalhamento das atividades
-assumidas pelo convenente para a execução de serviços que visem à inserção de trabalhadores no mercado de trabalho.
+assumidas pelo convenente para a execução de serviços que visem à inserção de trabalhadores no mercado de trabalho.      
 
+&amp;nbsp;        
  
-
 Entre os serviços mais executados atualmente pelos postos de atendimento do Sistema
-Nacional de Emprego, destacam-se:
+Nacional de Emprego, destacam-se:      
 
- 
+&amp;nbsp;        
 * O atendimento e o encaminhamento de trabalhadores para entrevistas de emprego.
 * A habilitação para o recebimento do seguro-desemprego.
 * A orientação profissional e o encaminhamento para a qualificação profissional.
 * A emissão de Carteira de Trabalho e Previdência Social.
 * Ações de fomento ao empreendedorismo e à economia solidária e apoio
 ao trabalhador autônomo.</descricao>
-    <contato>Para mais informações ou dúvidas sobre este serviço, entre em contato:
-
-(61) 2031-6580</contato>
+    <contato>(61) 2031-6580</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="799">
-            <tipo>Convenente</tipo>
+        <solicitante id="800">
+            <tipo>Secretarias estaduais e municipais que tem convênio assinado com o Ministério do Trabalho.</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="30" unidade="dias-corridos"/>
-        <descricao>Este é um serviço do Ministério do Trabalho (MTB) e atende ao Decreto n° 9.094, de 17 de julho de 2017.</descricao>
+        <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <tipo>Sem validade</tipo>
-        <quantidade>0</quantidade>
-        <unidade></unidade>
-        <descricao></descricao>
+        <descricao>Secretarias estaduais e municipais que tem convênio assinado com o Ministério do Trabalho.</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2034">
+        <etapa id="2037">
             <titulo>Apresentar Plano de Trabalho</titulo>
             <descricao>A secretaria responsável (convenente) preenche o plano de trabalho, apresentando informações de sua rede de atendimento. O Plano será encaminhado para a área responsável do Ministério do Trabalho(Coordenação de Intermediação de Mão de Obra), para análise quanto às informações preenchidas.</descricao>
             <documentos>
                 <default>
-                    <item id="1493">Documentação em comum para todos os casos
-Plano de Trabalho
-Número do CNPJ
-Documentos do responsável do Convênio (documentos pessoais e termos de posse como secretário ou outra autoridade).</item>
+                    <item id="1494">Plano de Trabalho</item>
+                    <item id="1495">Número do CNPJ</item>
+                    <item id="1496">Documentos do responsável do Convênio (documentos pessoais e termos de posse como secretário ou outra autoridade).</item>
                 </default>
             </documentos>
             <custos>
@@ -72,16 +66,16 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2057" tipo="presencial">
-                        <descricao>Protocolo na Coordenação Geral do SINE - Esplanada dos Ministérios Bl. F Sede - 2º Andar-Sala 251 - CEP: 70059-900 - Brasília - DF</descricao>
+                    <canal-de-prestacao id="2061" tipo="presencial">
+                        <descricao>&lt;b&gt;Protocolo na Coordenação Geral do SINE&lt;/b&gt; - Esplanada dos Ministérios Bl. F Sede - 2º Andar-Sala 251 - CEP: 70059-900 - Brasília - DF</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2058" tipo="e-mail">
+                    <canal-de-prestacao id="2062" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2035">
+        <etapa id="2038">
             <titulo>Receber nota técnica</titulo>
             <descricao>Após análise será elaborada nota técnica, contendo as informações exaradas pela Coordenação de Intermediação de Mão de Obra, que será comunicada via sistema à Secretaria (convenente)</descricao>
             <documentos>
@@ -92,13 +86,13 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2059" tipo="e-mail">
+                    <canal-de-prestacao id="2063" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2036">
+        <etapa id="2039">
             <titulo>Receber arquivo do Plano de Trabalho</titulo>
             <descricao>Após aprovadas as informações será gerado arquivo do plano de trabalho, que comporá o Sistema de Convenio do Governo Federal (SICONV), encarregado de liberação do recurso previamente estipulado.</descricao>
             <documentos>
@@ -109,7 +103,7 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2060" tipo="e-mail">
+                    <canal-de-prestacao id="2064" tipo="e-mail">
                         <descricao>gestao.convenios@mte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -120,16 +114,17 @@ Documentos do responsável do Convênio (documentos pessoais e termos de posse c
         <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2331">Órgãos e entidades públicas</item>
-        <item idSegmento="1" idServicoSegmento="2332">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2333">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2337">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2338">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2339">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
+        <item>Administração Financeira</item>
         <item>Trabalho</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2383">SICONV</item>
-        <item id="2384">Convênio Plurianual</item>
-        <item id="2385">SINE</item>
+        <item id="2386">FAT</item>
+        <item id="2387">sine</item>
+        <item id="2388">Convênio</item>
     </palavras-chave>
 </servico>
