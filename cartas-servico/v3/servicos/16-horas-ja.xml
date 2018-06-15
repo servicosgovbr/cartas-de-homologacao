@@ -4,14 +4,16 @@
     <dbId>1045</dbId>
     <nome>16 horas já</nome>
     <sigla></sigla>
-    <descricao>ksdjfkajsdfkjdjkfdhdsfdr</descricao>
+    <descricao>ksdjfkajsdfkjdjkfdhdsfdr
+
+ TESTE DE ALTERAÇÃO</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="790">
+        <solicitante id="791">
             <tipo>dfgdsfgsdfgsdfgsd</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +26,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1977">
+        <etapa id="1978">
             <titulo>dsfgsdfgdsfgdfg</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +37,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2004" tipo="web">
+                    <canal-de-prestacao id="2005" tipo="web">
                         <descricao>dsfgsdfgsdfgsdfgsdfg</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,15 +48,15 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2303">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2304">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2366">sdfgsdfgf</item>
-        <item id="2367">gdsfgdsfgdf</item>
-        <item id="2368">dfgsdfgdsfgs</item>
+        <item id="2369">sdfgsdfgf</item>
+        <item id="2370">gdsfgdsfgdf</item>
+        <item id="2371">dfgsdfgdsfgs</item>
     </palavras-chave>
 </servico>
