@@ -9,14 +9,14 @@
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 1. skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-]1. sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
+1. sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="770">
+        <solicitante id="773">
             <tipo>Solic 1</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1960">
+        <etapa id="1963">
             <titulo>Etapa 1</titulo>
             <descricao></descricao>
             <documentos>
@@ -37,7 +37,7 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="197">
+                    <custo id="198">
                         <descricao>Custo</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
@@ -48,7 +48,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1986" tipo="web">
+                    <canal-de-prestacao id="1989" tipo="web">
                         <descricao>canal da etapa</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -59,15 +59,15 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2281">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2287">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Clima</item>
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2298">teste</item>
-        <item id="2299">controle</item>
-        <item id="2300">servico</item>
+        <item id="2307">teste</item>
+        <item id="2308">controle</item>
+        <item id="2309">servico</item>
     </palavras-chave>
 </servico>
