@@ -3,7 +3,10 @@
     <id>teste-de-controle</id>
     <dbId>1031</dbId>
     <nome>teste de controle</nome>
-    <sigla>teste</sigla>
+    <sigla>teste okokok</sigla>
+    <nomes-populares>
+        <item id="887">Novo nome</item>
+    </nomes-populares>
     <descricao>teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
@@ -14,34 +17,42 @@
 
 [Seu texto do link aqui...](https://redmine.planejamento.gov.br/rb/master_backlog/portal-de-servicos-release-8 "Red mine")
 
-[Seu texto do link aqui...](https://redmine.planejamento.gov.br/rb/master_backlog/portal-de-servicos-release-8 "REdmine 2")</descricao>
+[Seu texto do link aqui...](https://redmine.planejamento.gov.br/rb/master_backlog/portal-de-servicos-release-8 "REdmine 2")
+
+
+novo teste
+tese</descricao>
     <contato>teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
-- skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</contato>
+- 
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="779">
+        <solicitante id="780">
             <tipo>Solic 1teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</tipo>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</tipo>
             <requisitos>teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
-- skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</requisitos>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+novo teste</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -49,10 +60,11 @@
         <descricao>teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
-1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao>teste de descrição
@@ -61,50 +73,67 @@
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1969">
+        <etapa id="1970">
             <titulo>Etapa 1</titulo>
             <descricao>teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
-1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
+1. 
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</descricao>
             <documentos>
                 <default>
-                    <item id="1397">teste de descrição
+                    <item id="1398">teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
-1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
+1. 
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</item>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="204">
-                        <descricao>Custo</descricao>
+                    <custo id="205">
+                        <descricao>teste</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
                         <valorVariavel></valorVariavel>
                         <statusCustoVariavel>0</statusCustoVariavel>
                     </custo>
+                    <custo id="206">
+                        <descricao>custo</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>vezes</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
                 </default>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1995" tipo="web">
+                    <canal-de-prestacao id="1997" tipo="e-mail">
+                        <descricao>novo teste</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1996" tipo="web">
                         <descricao>canal da etapateste de descrição
 
-1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
+1. 
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
+- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+
+novo teste</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -114,26 +143,31 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2293">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2295">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
-        <item>Clima</item>
-        <item>Combustíveis</item>
+        <item>Alimento</item>
+        <item>Biodiversidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2325">teste</item>
-        <item id="2326">controle</item>
-        <item id="2327">servico</item>
+        <item id="2328">teste 1</item>
+        <item id="2329">cont</item>
+        <item id="2330">servico2</item>
     </palavras-chave>
     <legislacoes>
-        <item id="684">teste de descrição
+        <item id="685">teste de descrição
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
 
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
-- sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj
+- 
 
-[Seu texto do link aqui...](https://redmine.planejamento.gov.br/rb/master_backlog/portal-de-servicos-release-8 "Redmine")</item>
+[Seu texto do link aqui...](https://redmine.planejamento.gov.br/rb/master_backlog/portal-de-servicos-release-8 "Redmine")
+
+novo teste</item>
     </legislacoes>
+    <servicos-relacionados>
+        <item>105</item>
+    </servicos-relacionados>
 </servico>
