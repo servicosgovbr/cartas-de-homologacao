@@ -8,6 +8,7 @@
 
 1. ijfjsalkdfjlksadjfklsajdflksjadfkjasdlkfjlskadjf
 1. sdkfjjsalkdfjlasdjflkajsdfklasjddfkjalksddf
+
 - skdkjflkasdjfkajsdfdlkjasdkldfjaskldfjlkasdjf
 - sdsldklfksalkdfjlkasjdflajflasjdfkasdflkjsdkfdj</descricao>
     <contato></contato>
@@ -16,7 +17,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="774">
+        <solicitante id="775">
             <tipo>Solic 1</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -29,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1964">
+        <etapa id="1965">
             <titulo>Etapa 1</titulo>
             <descricao></descricao>
             <documentos>
@@ -37,7 +38,7 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="199">
+                    <custo id="200">
                         <descricao>Custo</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
@@ -48,7 +49,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1990" tipo="web">
+                    <canal-de-prestacao id="1991" tipo="web">
                         <descricao>canal da etapa</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -59,15 +60,15 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2288">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2289">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Clima</item>
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2310">teste</item>
-        <item id="2311">controle</item>
-        <item id="2312">servico</item>
+        <item id="2313">teste</item>
+        <item id="2314">controle</item>
+        <item id="2315">servico</item>
     </palavras-chave>
 </servico>
