@@ -8,10 +8,10 @@
     <contato>Entre em contato com a Ouvidoria da ANTT por meio do site www.antt.gov.br ou pelo telefone 166.</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="802">
+        <solicitante id="807">
             <tipo>Empresas e cooperativas de transportadores rodoviários internacionais de cargas já autorizados pela ANTT.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2044">
+        <etapa id="2055">
             <titulo>Verificar requisitos dos veículos</titulo>
             <descricao>&lt;p style="justify"&gt;Os veículos devem atender os requisitos em termos de estabelecidos em acordos internacionais previsto nas Resoluções MERCOSUL/GMC/RES. nº 25/11 e nº 26/11, aprovadas na LXXXVI Reunião do Grupo Mercado Comum – GMC em 18 de novembro de 2011, considerando os valores de carga útil informados &lt;a href="https://servicos.nuvem.gov.br/pagina-tematica/requisitos-de-veiculos-para-frotas-nacionais" target="_blank"&gt;aqui&lt;/a&gt;.&lt;/p&gt;</descricao>
             <documentos>
@@ -35,23 +35,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2070" tipo="presencial">
+                    <canal-de-prestacao id="2084" tipo="presencial">
                         <descricao>Local onde se encontram os veículos da frota objeto do serviço.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2045">
+        <etapa id="2056">
             <titulo>Gerar boleto e Pagar a taxa</titulo>
             <descricao>&lt;p&gt;A GRU deve ser emitida utilizando-se os seguintes dados:&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Unidade favorecida&lt;/b&gt;: 393001/39250 - Agência Nacional de Transportes Terrestres&lt;/li&gt;&lt;li&gt;&lt;b&gt;Código de recolhimento&lt;/b&gt;: 28830-6&lt;/li&gt;&lt;li&gt;&lt;b&gt;Número de referência&lt;/b&gt;: 105&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nome do contribuinte&lt;/b&gt;: Informar o nome do recolhedor, pessoa física ou jurídica.&lt;/li&gt;&lt;li&gt;&lt;b&gt;CPF ou CNPJ&lt;/b&gt;: informar o CPF ou CNPJ do recolhedor, conforme o caso.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Valor total&lt;/b&gt;: valor calculado para pagamento.&lt;/li&gt;&lt;/ul&gt;</descricao>
             <documentos>
                 <default>
-                    <item id="1509">GRU</item>
+                    <item id="1518">GRU</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="199">
+                    <custo id="201">
                         <descricao>Emolumento</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel>Para cada ligação: R$10,00 + (nº de placas x R$5,00)</valorVariavel>
@@ -61,67 +61,67 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2071" tipo="presencial">
+                    <canal-de-prestacao id="2085" tipo="presencial">
                         <descricao>Exclusivamente em &lt;a href="https://www36.bb.com.br/encontreobb/s001t026p001,500830,500831,1,1,1,1.bb#/" target="_blank"&gt;uma agência do Banco do Brasil&lt;/a&gt;.</descricao>
                     </canal-de-prestacao>
                 </default>
-                <caso id="412" descricao="Para gerar a GRU">
+                <caso id="418" descricao="Para gerar a GRU">
                     <canal-de-prestacao id="2066" tipo="web">
                         <descricao>https://appweb.antt.gov.br/gru/index.asp</descricao>
                     </canal-de-prestacao>
                 </caso>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2046">
+        <etapa id="2057">
             <titulo>Enviar formulários e documentação</titulo>
             <descricao>Devem ser encaminhados o formulário e anexados os documentos.</descricao>
             <documentos>
                 <default>
-                    <item id="1510">Comprovante de pagamento de emolumento. Não são aceitos comprovantes de agendamento.</item>
-                    <item id="1511">Cópia do CRLV vigente (ano em curso ou ano anterior)</item>
+                    <item id="1519">Comprovante de pagamento de emolumento. Não são aceitos comprovantes de agendamento.</item>
+                    <item id="1520">Cópia do CRLV vigente (ano em curso ou ano anterior)</item>
                 </default>
-                <caso id="413" descricao="Veículos de cooperados:">
+                <caso id="419" descricao="Veículos de cooperados:">
                     <documento>
                         <id>1499</id>
                         <descricao>Cópia autenticada do CRLV vigente (ano em curso ou ano anterior), juntamente com a comprovação de que o proprietário é cooperado.</descricao>
                     </documento>
                 </caso>
-                <caso id="414" descricao="Veículos arrendados/locados:">
+                <caso id="420" descricao="Veículos arrendados/locados:">
+                    <documento>
+                        <id>1504</id>
+                        <descricao>Além disso, o contrato deverá apresentar as seguintes informações dos veículos: tipo, ano, marca, modelo, chassis, número de eixos e placa</descricao>
+                    </documento>
                     <documento>
                         <id>1503</id>
                         <descricao>"A LOCATÁRIA obriga-se à contratação de Seguro Obrigatório de Responsabilidade Civil, nos termos da legislação específica vigente e destinado à reparação dos danos causados a terceiros, em decorrência da utilização dos veículos locados.
 Parágrafo único. A LOCATÁRIA responderá pelos prejuízos que excederem os limites previstos em lei, para o mencionado seguro compulsório."</descricao>
                     </documento>
                     <documento>
-                        <id>1504</id>
-                        <descricao>Além disso, o contrato deverá apresentar as seguintes informações dos veículos: tipo, ano, marca, modelo, chassis, número de eixos e placa</descricao>
+                        <id>1501</id>
+                        <descricao>Caso a anotação não esteja registrada no CRLV vigente, encaminhar a certidão de arrendamento, por meio eletrônico, e advinda diretamente do órgão competente ou;</descricao>
                     </documento>
                     <documento>
                         <id>1500</id>
                         <descricao>Cópia autenticada do CRLV vigente (ano em curso ou ano anterior), constando a anotação do contrato de aluguel ou arrendamento não vinculado ao financiamento do veículo ou;</descricao>
                     </documento>
                     <documento>
-                        <id>1501</id>
-                        <descricao>Caso a anotação não esteja registrada no CRLV vigente, encaminhar a certidão de arrendamento, por meio eletrônico, e advinda diretamente do órgão competente ou;</descricao>
-                    </documento>
-                    <documento>
                         <id>1502</id>
                         <descricao>Cópia autenticada dos contratos de locação dos veículos firmados entre o proprietário do veículo e a empresa, registrado em cartório. Nesse caso, o contrato de locação deve conter a seguinte cláusula contratual:</descricao>
                     </documento>
                 </caso>
-                <caso id="415" descricao="Veículos que apresentem no campo de observações pendência judicial:">
+                <caso id="421" descricao="Veículos que apresentem no campo de observações pendência judicial:">
                     <documento>
                         <id>1505</id>
                         <descricao>Permissão expressa do Juízo</descricao>
                     </documento>
                 </caso>
-                <caso id="416" descricao="Veículos que apresentem no campo de observações pendência judicial/administrativa:">
+                <caso id="422" descricao="Veículos que apresentem no campo de observações pendência judicial/administrativa:">
                     <documento>
                         <id>1506</id>
                         <descricao>Documento comprovando se tratar de pendência administrativa ou permissão expressa do Juízo, para o caso de pendência judicial.</descricao>
                     </documento>
                 </caso>
-                <caso id="417" descricao="Veículos que não possuem CRLV">
+                <caso id="423" descricao="Veículos que não possuem CRLV">
                     <documento>
                         <id>1507</id>
                         <descricao>Licença para trânsito vigente.</descricao>
@@ -133,13 +133,13 @@ Parágrafo único. A LOCATÁRIA responderá pelos prejuízos que excederem os li
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2072" tipo="postal">
+                    <canal-de-prestacao id="2086" tipo="postal">
                         <descricao>Para uma &lt;a href="http://www.antt.gov.br/textogeral/Enderecos.html" target="_blank"&gt;unidade da ANTT&lt;/a&gt;.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2047">
+        <etapa id="2058">
             <titulo>Receber resultado</titulo>
             <descricao>O resultado poderá ser deferimento, pendências ou indeferimento. Se deferido o pedido, será emitida a Licença Originária.</descricao>
             <documentos>
@@ -150,7 +150,7 @@ Parágrafo único. A LOCATÁRIA responderá pelos prejuízos que excederem os li
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2073" tipo="e-mail">
+                    <canal-de-prestacao id="2087" tipo="e-mail">
                         <descricao>E-mail informado pelo usuário no formulário.</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -161,15 +161,15 @@ Parágrafo único. A LOCATÁRIA responderá pelos prejuízos que excederem os li
         <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2341">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2347">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transportes</item>
         <item>Transporte Rodoviário</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2392">frota</item>
-        <item id="2393">registro</item>
-        <item id="2394">caminhão</item>
+        <item id="2409">frota</item>
+        <item id="2410">registro</item>
+        <item id="2411">caminhão</item>
     </palavras-chave>
 </servico>
