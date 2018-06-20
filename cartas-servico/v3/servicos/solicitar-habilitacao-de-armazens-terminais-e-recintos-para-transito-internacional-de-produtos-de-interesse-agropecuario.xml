@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitar-habilitacao-de-armazens-terminais-e-recintos-para-transito-internacional-de-produtos-de-interesse-agropecuario</id>
+    <dbId>1069</dbId>
+    <nome>Solicitar Habilitação de Armazéns, Terminais e Recintos para Trânsito Internacional de Produtos de Interesse Agropecuário</nome>
+    <sigla></sigla>
+    <descricao>&lt;p style="text-align:justify"&gt;A habilitação de armazéns, terminais e recintos é o instrumento administrativo a ser utilizado pelo Vigiagro para garantir que as operações de trânsito internacional de produtos de interesse agropecuário sejam conduzidas em espaços físicos que disponham de condições adequadas para a referida operação, bem como das instalações e equipamentos necessários para a execução dos controles e da fiscalização do Mapa.&lt;/p&gt;
+&lt;p style="text-align:justify"&gt;A habilitação será específica para a operação pretendida, bem como para os produtos que serão movimentados, podendo seu escopo ser ampliado ou reduzido a pedido do armazém, terminal ou recinto, e a critério do Mapa.&lt;/p&gt;</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="811">
+            <tipo>Pessoas jurídicas</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2069">
+            <titulo>Requerer habilitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1528">Formulário de solicitação</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2100" tipo="presencial">
+                        <descricao>MAPA</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2356">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2357">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2421">exportação</item>
+        <item id="2422">agropecuária</item>
+        <item id="2423">habilitação</item>
+    </palavras-chave>
+</servico>
