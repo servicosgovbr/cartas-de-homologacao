@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-video</id>
+    <dbId>1074</dbId>
+    <nome>teste video</nome>
+    <sigla>tv</sigla>
+    <nomes-populares>
+        <item id="909">np</item>
+    </nomes-populares>
+    <descricao>&lt;iframe frameborder="0" width="560" height="315" src="https://biteable.com/watch/embed/presentation-2-1896941" allowfullscreen="true"&gt;&lt;/iframe&gt;</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="816">
+            <tipo>adf</tipo>
+            <requisitos>afds</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2081">
+            <titulo>adfa</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2118" tipo="fax">
+                        <descricao>ads</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2366">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência ao Idoso</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2436">z</item>
+        <item id="2437">d</item>
+        <item id="2438">f</item>
+    </palavras-chave>
+</servico>
