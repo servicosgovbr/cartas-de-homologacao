@@ -13,11 +13,11 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="798">
+        <solicitante id="800">
             <tipo>dfgdsfgsdfgsdfgsd</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="799">
+        <solicitante id="801">
             <tipo>dfgdsfgsdfgsdfgsd</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1985">
+        <etapa id="1987">
             <titulo>dsfgsdfgdsfgdfg</titulo>
             <descricao></descricao>
             <documentos>
@@ -41,13 +41,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2012" tipo="web">
+                    <canal-de-prestacao id="2014" tipo="web">
                         <descricao>dsfgsdfgsdfgsdfgsdfg</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1986">
+        <etapa id="1988">
             <titulo>dsfgsdfgdsfgdfg</titulo>
             <descricao></descricao>
             <documentos>
@@ -58,7 +58,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2013" tipo="web">
+                    <canal-de-prestacao id="2015" tipo="web">
                         <descricao>dsfgsdfgsdfgsdfgsdfg</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -69,26 +69,26 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2311">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2312">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2390">dfgsdfgdsfgs</item>
-        <item id="2391">dfgsdfgdsfgs</item>
-        <item id="2392">sdfgsdfgf</item>
-        <item id="2393">gdsfgdsfgdf</item>
-        <item id="2394">sdfgsdfgf</item>
-        <item id="2395">gdsfgdsfgdf</item>
+        <item id="2396">dfgsdfgdsfgs</item>
+        <item id="2397">dfgsdfgdsfgs</item>
+        <item id="2398">sdfgsdfgf</item>
+        <item id="2399">gdsfgdsfgdf</item>
+        <item id="2400">sdfgsdfgf</item>
+        <item id="2401">gdsfgdsfgdf</item>
     </palavras-chave>
     <legislacoes>
-        <item id="692">- 1
+        <item id="693">- 1
 - 2
 - 3
 
-- 1
-- 2</item>
+1. 1
+1. 1</item>
     </legislacoes>
 </servico>
