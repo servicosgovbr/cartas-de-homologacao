@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastro-de-empresas-utilizadoras-de-benzeno-etapas</id>
+    <dbId>1075</dbId>
+    <nome>Cadastro de Empresas Utilizadoras de Benzeno (Etapas)</nome>
+    <sigla></sigla>
+    <descricao>Cadastro de empresas utilizadoras de benzeno.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="817">
+            <tipo>empresa</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2082">
+            <titulo>Solictitação</titulo>
+            <descricao>descrição</descricao>
+            <documentos>
+                <default>
+                    <item id="1542">documentação</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2119" tipo="web-preencher">
+                        <descricao>preencher formulário</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+        <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2367">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Combustíveis</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2439">benzeno</item>
+        <item id="2440">produtoras</item>
+        <item id="2441">empresas</item>
+    </palavras-chave>
+</servico>
