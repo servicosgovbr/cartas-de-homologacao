@@ -5,17 +5,17 @@
     <nome>Solicitação Publicação</nome>
     <sigla>SP</sigla>
     <nomes-populares>
-        <item id="890">Solicitação</item>
-        <item id="891">Publicação</item>
+        <item id="892">Solicitação</item>
+        <item id="893">Publicação</item>
     </nomes-populares>
-    <descricao>Teste Publicação vou embora então</descricao>
+    <descricao>Teste Publicação vou continuar</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="796">
+        <solicitante id="797">
             <tipo>Solicitante</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,12 +28,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1983">
+        <etapa id="1984">
             <titulo>Etapa 1</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1401">Documento</item>
+                    <item id="1402">Documento</item>
                 </default>
             </documentos>
             <custos>
@@ -41,7 +41,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2010" tipo="aplicativo-movel">
+                    <canal-de-prestacao id="2011" tipo="aplicativo-movel">
                         <descricao>Teste</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -52,15 +52,15 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2309">Órgãos e entidades públicas</item>
+        <item idSegmento="2" idServicoSegmento="2310">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Água</item>
         <item>Turismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2384">teste</item>
-        <item id="2385">teste</item>
-        <item id="2386">teste</item>
+        <item id="2387">teste</item>
+        <item id="2388">teste</item>
+        <item id="2389">teste</item>
     </palavras-chave>
 </servico>
