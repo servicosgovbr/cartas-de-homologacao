@@ -9,10 +9,10 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="783">
+        <solicitante id="818">
             <tipo>Pessoas jurídicas de direito privado sem fins lucrativos</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -25,7 +25,7 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1995">
+        <etapa id="2083">
             <titulo>Consultar edital</titulo>
             <descricao>Conhecer e entender do edital do Prêmio Funarte  Myriam Muniz de Teatro.</descricao>
             <documentos>
@@ -36,18 +36,18 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2012" tipo="web">
+                    <canal-de-prestacao id="2120" tipo="web">
                         <descricao>http://www.funarte.gov.br/editais/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1996">
+        <etapa id="2084">
             <titulo>Inscrever-se</titulo>
             <descricao>Enviar o Projeto</descricao>
             <documentos>
                 <default>
-                    <item id="1447">Projeto</item>
+                    <item id="1543">Projeto</item>
                 </default>
             </documentos>
             <custos>
@@ -55,13 +55,13 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2013" tipo="postal">
+                    <canal-de-prestacao id="2121" tipo="postal">
                         <descricao>**Centro de Artes Cênicas (Ceacen)** - Centro Empresarial Cidade Nova – Teleporto Av. Presidente Vargas nº 3.131 - 18º andar Cidade Nova – Rio de Janeiro – RJ CEP: 20.210-911</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1997">
+        <etapa id="2085">
             <titulo>Receber resposta provisória</titulo>
             <descricao>Acompanhar, pelo site da Funarte, a relação dos selecionados.</descricao>
             <documentos>
@@ -72,18 +72,18 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2014" tipo="web">
+                    <canal-de-prestacao id="2122" tipo="web">
                         <descricao>http://www.funarte.gov.br/editais/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1998">
+        <etapa id="2086">
             <titulo>Apresentar recurso (se necessário)</titulo>
             <descricao>Enviar o recurso, se for o caso.</descricao>
             <documentos>
                 <default>
-                    <item id="1448">Formulário de recurso</item>
+                    <item id="1544">Formulário de recurso</item>
                 </default>
             </documentos>
             <custos>
@@ -91,13 +91,13 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2015" tipo="presencial">
+                    <canal-de-prestacao id="2123" tipo="presencial">
                         <descricao>**Centro de Artes Cênicas (Ceacen)** - Centro Empresarial Cidade Nova – Teleporto Av. Presidente Vargas nº 3.131 - 18º andar Cidade Nova – Rio de Janeiro – RJ CEP: 20.210-911</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1999">
+        <etapa id="2087">
             <titulo>Receber resposta definitiva</titulo>
             <descricao>Acompanhar, pelo site, a relação dos contemplados.</descricao>
             <documentos>
@@ -108,23 +108,23 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2016" tipo="web">
+                    <canal-de-prestacao id="2124" tipo="web">
                         <descricao>http://www.funarte.gov.br/editais/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2000">
+        <etapa id="2088">
             <titulo>Enviar documentação complementar</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1449">Carteira de identidade</item>
-                    <item id="1450">Carteira de trabalho</item>
-                    <item id="1451">Certidões da Receita Federal</item>
-                    <item id="1452">CNPJ</item>
-                    <item id="1453">Contrato Social</item>
-                    <item id="1454">CPF</item>
+                    <item id="1545">Carteira de identidade</item>
+                    <item id="1546">Carteira de trabalho</item>
+                    <item id="1547">Certidões da Receita Federal</item>
+                    <item id="1548">CNPJ</item>
+                    <item id="1549">Contrato Social</item>
+                    <item id="1550">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -132,13 +132,13 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2017" tipo="postal">
+                    <canal-de-prestacao id="2125" tipo="postal">
                         <descricao>**Centro de Artes Cênicas (Ceacen)** - Centro Empresarial Cidade Nova – Teleporto Av. Presidente Vargas nº 3.131 - 18º andar Cidade Nova – Rio de Janeiro – RJ CEP: 20.210-911</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2001">
+        <etapa id="2089">
             <titulo>Receber o prêmio</titulo>
             <descricao></descricao>
             <documentos>
@@ -149,18 +149,18 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2018" tipo="presencial">
+                    <canal-de-prestacao id="2126" tipo="presencial">
                         <descricao>**Centro de Artes Cênicas (Ceacen)** - Centro Empresarial Cidade Nova – Teleporto Av. Presidente Vargas nº 3.131 - 18º andar Cidade Nova – Rio de Janeiro – RJ CEP: 20.210-911</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2002">
+        <etapa id="2090">
             <titulo>Prestar contas</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1455">relatório comprobatório de execução do projeto</item>
+                    <item id="1551">relatório comprobatório de execução do projeto</item>
                 </default>
             </documentos>
             <custos>
@@ -168,7 +168,7 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2019" tipo="postal">
+                    <canal-de-prestacao id="2127" tipo="postal">
                         <descricao>**Centro de Artes Cênicas (Ceacen)** - Centro Empresarial Cidade Nova – Teleporto Av. Presidente Vargas nº 3.131 - 18º andar Cidade Nova – Rio de Janeiro – RJ CEP: 20.210-911</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -179,7 +179,9 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
         <nomeOrgao>Fundação Nacional de Artes (FUNARTE)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="4" idServicoSegmento="2312">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="4" idServicoSegmento="2371">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2372">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2373">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Cultura</item>
@@ -187,8 +189,8 @@ Incentivar a produção e a competitividade no âmbito do processo de criação 
         <item>Lazer</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2338">teatro</item>
-        <item id="2339">financiamento</item>
-        <item id="2340">funarte</item>
+        <item id="2442">teatro</item>
+        <item id="2443">financiamento</item>
+        <item id="2444">funarte</item>
     </palavras-chave>
 </servico>
