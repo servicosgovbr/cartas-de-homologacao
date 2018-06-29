@@ -2,7 +2,7 @@
 <pagina-tematica >
     <conteudo>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
 &lt;style&gt;
-.cel{width:20%;margin-left:5%;margin-right:5%;padding:10px;text-align:justify;vertical-align:middle;color:#06acff;font-size:20px}
+.cel{width:20%;margin-left:5%;margin-right:5%;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
 &lt;/style&gt;
 &lt;br&gt;
 &lt;br&gt;
