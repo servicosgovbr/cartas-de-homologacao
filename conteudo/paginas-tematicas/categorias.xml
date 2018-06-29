@@ -3,7 +3,7 @@
     <conteudo>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
 &lt;style&gt;
 .cel{width:20%;margin-left:5%;margin-right:5%;margin-bottom:10px;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
-.button{background-color:#EBF9FF;color:darkblue;padding:5px}
+.button{background-color:#EBF9FF;color:darkblue;padding:10px}
 &lt;/style&gt;
 &lt;br&gt;
 &lt;br&gt;
