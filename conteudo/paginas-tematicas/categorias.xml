@@ -16,9 +16,9 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-industry"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/td&gt;
-&lt;td class="cel"&gt;Defesa e área militar&lt;/td&gt;
-&lt;td class="cel"&gt;Infraestrutura, obras,comunicações e transportes&lt;/td&gt;
-&lt;td class="cel"&gt;Saúde e esportes&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-sitemap"&gt;&lt;/i&gt;&lt;div&gt;Defesa e área militar&lt;/div&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-road"&gt;&lt;/i&gt;&lt;div&gt;Infraestrutura, obras,comunicações e transportes&lt;/div&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-heartbeat"&gt;&lt;/i&gt;&lt;div&gt;Saúde e esportes&lt;/div&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td class="cel"&gt;Educação e pesquisa&lt;/td&gt;
