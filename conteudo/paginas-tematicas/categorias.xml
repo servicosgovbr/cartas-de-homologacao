@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>&lt;style&gt;
+.cel{width:20%;margin-left:5%;margin-right:5%;padding:5px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
+&lt;/style&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="cel"&gt;Benefícios, assistência e programas sociais&lt;/td&gt;
+&lt;td class="cel"&gt;Emprego e Previdência&lt;/td&gt;
+&lt;td class="cel"&gt;Certidões,Permissões e registros&lt;/td&gt;
+&lt;td class="cel"&gt;Segurança, justiça e polícia&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</conteudo>
+    <dbId>98</dbId>
+    <nome>Categorias</nome>
+    <orgaos>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
