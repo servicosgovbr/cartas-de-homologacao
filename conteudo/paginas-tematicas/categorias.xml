@@ -3,13 +3,12 @@
     <conteudo>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
 &lt;style&gt;
 .cel{width:20%;margin-left:5%;margin-right:5%;margin-bottom:10px;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
-.cel:hover{color:white;background-color:#06acff}
 &lt;/style&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;table&gt;
 &lt;tr&gt;
-&lt;td class="cel"&gt;&lt;a href="https://servicos.dev.nuvem.gov.br/area-de-interesse/beneficios-assistencia-e-programas-sociais" target="_blank"&gt;&lt;div class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-users"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;td class="cel"&gt;&lt;a href="https://servicos.dev.nuvem.gov.br/area-de-interesse/beneficios-assistencia-e-programas-sociais" target="_blank"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-users"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/a&gt;
 &lt;/td&gt;
 &lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-vcard-o"&gt;&lt;/i&gt;&lt;div&gt;Emprego e Previdência&lt;/div&gt;&lt;/td&gt;
 &lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-check"&gt;&lt;/i&gt;&lt;div&gt;Certidões,Permissões e registros&lt;/div&gt;&lt;/td&gt;
