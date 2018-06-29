@@ -3,12 +3,32 @@
     <conteudo>&lt;style&gt;
 .cel{width:20%;margin-left:5%;margin-right:5%;padding:5px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
 &lt;/style&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td class="cel"&gt;Benefícios, assistência e programas sociais&lt;/td&gt;
 &lt;td class="cel"&gt;Emprego e Previdência&lt;/td&gt;
 &lt;td class="cel"&gt;Certidões,Permissões e registros&lt;/td&gt;
 &lt;td class="cel"&gt;Segurança, justiça e polícia&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="cel"&gt;Negócios e indústria&lt;/td&gt;
+&lt;td class="cel"&gt;Defesa e área militar&lt;/td&gt;
+&lt;td class="cel"&gt;Infraestrutura, obras,comunicações e transportes&lt;/td&gt;
+&lt;td class="cel"&gt;Saúde e esportes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="cel"&gt;Educação e pesquisa&lt;/td&gt;
+&lt;td class="cel"&gt;Finanças, impostos e fiscalização &lt;/td&gt;
+&lt;td class="cel"&gt;Meio ambiente e clima&lt;/td&gt;
+&lt;td class="cel"&gt;Passaporte, viagens,vistos e turismo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="cel"&gt;Importação e exportação&lt;/td&gt;
+&lt;td class="cel"&gt;Cultura, artes e patrimônio histórico&lt;/td&gt;
+&lt;td class="cel"&gt;Agricultura, pecuária e extrativismo&lt;/td&gt;
+&lt;td class="cel"&gt;Direitos autorais e propriedade intelectual&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 </conteudo>
