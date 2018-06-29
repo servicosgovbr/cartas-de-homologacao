@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
     <conteudo>&lt;style&gt;
-.cel{width:20%;margin-left:5%;margin-right:5%;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px;text-shadow: 3px 2px black}
+.cel{width:20%;margin-left:5%;margin-right:5%;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px;text-shadow: 1px 1px black}
 &lt;/style&gt;
 &lt;br&gt;
 &lt;br&gt;
