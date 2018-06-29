@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>&lt;style&gt;
-.cel{width:20%;margin-left:5%;margin-right:5%;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px;text-shadow: 1px 1px black}
+    <conteudo>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+&lt;style&gt;
+.cel{width:20%;margin-left:5%;margin-right:5%;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
 &lt;/style&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;table&gt;
 &lt;tr&gt;
-&lt;td class="cel"&gt;Benefícios, assistência e programas sociais&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;i class="fa fa-hand-holding-heart"&gt;&lt;/i&gt;Benefícios, assistência e programas sociais&lt;/td&gt;
 &lt;td class="cel"&gt;Emprego e Previdência&lt;/td&gt;
 &lt;td class="cel"&gt;Certidões,Permissões e registros&lt;/td&gt;
 &lt;td class="cel"&gt;Segurança, justiça e polícia&lt;/td&gt;
