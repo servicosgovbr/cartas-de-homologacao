@@ -10,7 +10,7 @@
 &lt;tr&gt;
 &lt;td class="cel"&gt;&lt;i class="fa fa-users"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;
 &lt;/td&gt;
-&lt;td class="cel"&gt;Emprego e Previdência&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;i class="fa fa-vcard-o"&gt;&lt;/i&gt;&lt;div&gt;Emprego e Previdência&lt;/div&gt;&lt;/td&gt;
 &lt;td class="cel"&gt;Certidões,Permissões e registros&lt;/td&gt;
 &lt;td class="cel"&gt;Segurança, justiça e polícia&lt;/td&gt;
 &lt;/tr&gt;
