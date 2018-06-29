@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-emprego-me-qualificar-ou-empreender-atraves-do-programa-progredir</id>
+    <dbId>1081</dbId>
+    <nome>Obter emprego, me qualificar ou empreender através do Programa Progredir</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="913">Progredir</item>
+    </nomes-populares>
+    <descricao>&lt;p style="text-align:justify"&gt;Progredir é um plano de ações do governo federal para gerar emprego e renda e promover a autonomia das pessoas inscritas no Cadastro Único e dos beneficiários do Programa Bolsa Família.&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align:justify"&gt;Integra ao Progredir os seguintes serviços:&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;QUERO UM EMPREGO&lt;/li&gt;
+&lt;li&gt;QUERO ME QUALIFICAR&lt;/li&gt;
+&lt;li&gt;QUERO EMPREENDER&lt;/li&gt;
+&lt;/ul&gt;</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="825">
+            <tipo>Cidadão de baixa renda</tipo>
+            <requisitos>Inscritos no Cadastro Único e Beneficiários do Bolsa Família</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2101">
+            <titulo>Cadastrar-se no Portal do Programa</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2142" tipo="web">
+                        <descricao>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2102">
+            <titulo>Acessar o Portal do Programa</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2143" tipo="web">
+                        <descricao>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php%20</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
+        <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2378">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Portador de Deficiência</item>
+        <item>Assistência ao Idoso</item>
+        <item>Atendimento básico</item>
+        <item>Cidadania</item>
+        <item>Combate a desigualdade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2457">emprego</item>
+        <item id="2458">bolsa família</item>
+        <item id="2459">cadúnico</item>
+    </palavras-chave>
+</servico>
