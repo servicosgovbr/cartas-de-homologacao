@@ -6,7 +6,7 @@
 &lt;style&gt;
 .cel{color:#06acff;font-size:16px;width:20%;height:20%;text-align:center;margin:1%}
 .icon{font-size:50px;padding:10px}
-.button{background-color:#F8F9F9;width:250px;height:150px}
+.button{background-color:#F8F9F9;width:250px;height:150px;margin:1%}
 &lt;/style&gt;
 &lt;table style="height:100%;margin-left:-50px"&gt;
 &lt;tr height="25%"&gt;
