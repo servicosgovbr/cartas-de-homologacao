@@ -7,7 +7,7 @@
 .icon{font-size:50px;padding:10px}
 .button{background-color:#F8F9F9;width:250px;height:150px;margin:5%;color:#06acff;font-size:16px;text-align:center}
 &lt;/style&gt;
-&lt;table style="height:100%;margin-left:-50px"&gt;
+&lt;table style="height:100%"&gt;
 &lt;tr height="25%"&gt;
 &lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-group icon"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
