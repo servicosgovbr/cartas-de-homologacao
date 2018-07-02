@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
     <conteudo>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;
 &lt;style&gt;
-.cel{width:20%;margin-left:5%;margin-right:5%;margin-bottom:10px;padding:10px;text-align:center;vertical-align:middle;color:#06acff;font-size:20px}
+.cel{color:#06acff;font-size:18px;padding:20px;padding-top:10px;padding-bottom:10px;width:20%;margin:2.5%;text-align:center}
+.icon{font-size:50px;padding:10px}
+.button{background-color:#F8F9F9;width:300px;height:135px}
 &lt;/style&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="cel"&gt;&lt;a href="https://servicos.dev.nuvem.gov.br/area-de-interesse/beneficios-assistencia-e-programas-sociais" target="_blank"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-users"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/a&gt;
-&lt;/td&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-vcard-o"&gt;&lt;/i&gt;&lt;div&gt;Emprego e Previdência&lt;/div&gt;&lt;/td&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-check"&gt;&lt;/i&gt;&lt;div&gt;Certidões,Permissões e registros&lt;/div&gt;&lt;/td&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-legal"&gt;&lt;/i&gt;&lt;div&gt;Segurança, justiça e polícia&lt;/div&gt;&lt;/td&gt;
+&lt;table style="margin-right:20px;margin-left:20px;height:100%"&gt;
+&lt;tr height="25%"&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-group icon"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-graduation-cap icon"&gt;&lt;/i&gt;&lt;div&gt;Educação e pesquisa&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-globe icon"&gt;&lt;/i&gt;&lt;div&gt;Importação e exportação&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-industry"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/td&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-sitemap"&gt;&lt;/i&gt;&lt;div&gt;Defesa e área militar&lt;/div&gt;&lt;/td&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-road"&gt;&lt;/i&gt;&lt;div&gt;Infraestrutura, obras,comunicações e transportes&lt;/div&gt;&lt;/td&gt;
-&lt;td class="cel"&gt;&lt;i style="font-size:35px;margin-bottom:5px" class="fa fa-heartbeat"&gt;&lt;/i&gt;&lt;div&gt;Saúde e esportes&lt;/div&gt;&lt;/td&gt;
+&lt;tr height="25%"&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="material-icons icon"&gt;assignment&lt;/i&gt;&lt;div&gt;Certidões, Permissões e registros&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-building-o icon"&gt;&lt;/i&gt;&lt;div&gt;Infraestrutura, obras,comunicações e transportes&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;span class="glyphicon glyphicon-tree-deciduous icon"&gt;&lt;/span&gt;&lt;div&gt;Meio ambiente e clima&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;span class="glyphicon glyphicon-grain icon"&gt;&lt;/span&gt;&lt;div&gt;Agricultura, pecuária e extrativismo&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class="cel"&gt;Educação e pesquisa&lt;/td&gt;
-&lt;td class="cel"&gt;Finanças, impostos e fiscalização &lt;/td&gt;
-&lt;td class="cel"&gt;Meio ambiente e clima&lt;/td&gt;
-&lt;td class="cel"&gt;Passaporte, viagens,vistos e turismo&lt;/td&gt;
+&lt;tr height="25%"&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;span class="glyphicon glyphicon-briefcase icon"&gt;&lt;/span&gt;&lt;div&gt;Emprego e previdência&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;div style="font-size:40px;padding:10px"&gt;&lt;i class="fa fa-fighter-jet"&gt;&lt;/i&gt; &lt;i class="fa fa-male"&gt;&lt;/i&gt; &lt;i class="fa fa-anchor"&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Defesa e área militar&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-money icon"&gt;&lt;/i&gt;&lt;div&gt;Finanças, impostos e fiscalização&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;div style="font-size:40px;padding:10px"&gt;&lt;i class="fa fa-paint-brush"&gt;&lt;/i&gt; &lt;i class="fa fa-music"&gt;&lt;/i&gt; &lt;i class="fa fa-ticket"&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Cultura, artes e patrimônio histórico&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class="cel"&gt;Importação e exportação&lt;/td&gt;
-&lt;td class="cel"&gt;Cultura, artes e patrimônio histórico&lt;/td&gt;
-&lt;td class="cel"&gt;Agricultura, pecuária e extrativismo&lt;/td&gt;
-&lt;td class="cel"&gt;Direitos autorais e propriedade intelectual&lt;/td&gt;
+&lt;tr height="25%"&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-legal icon"&gt;&lt;/i&gt;&lt;div&gt;Segurança, justiça e polícia&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-heartbeat icon"&gt;&lt;/i&gt;&lt;div&gt;Saúde e esportes&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-suitcase icon"&gt;&lt;/i&gt;&lt;div&gt;Passaporte, viagens, vistos e turismo&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td class="cel"&gt;&lt;button class="button"&gt;&lt;i class="fa fa-book icon"&gt;&lt;/i&gt;&lt;div&gt;Direitos autorais e propriedade intelectual&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;
-</conteudo>
+&lt;/table&gt;</conteudo>
     <dbId>98</dbId>
     <nome>Categorias</nome>
     <orgaos>
