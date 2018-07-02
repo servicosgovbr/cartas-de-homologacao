@@ -4,9 +4,9 @@
 &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;
 &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;
 &lt;style&gt;
-.cel{color:#06acff;font-size:18px;padding:20px;padding-top:10px;padding-bottom:10px;width:15%;margin:2.5%;text-align:center}
+.cel{color:#06acff;font-size:18px;padding:20px;padding-top:10px;padding-bottom:10px;width:20%;margin:2.5%;text-align:center}
 .icon{font-size:50px;padding:10px}
-.button{background-color:#F8F9F9;width:300px;height:135px}
+.button{background-color:#F8F9F9;width:200px;height:135px}
 &lt;/style&gt;
 &lt;table style="height:100%"&gt;
 &lt;tr height="25%"&gt;
