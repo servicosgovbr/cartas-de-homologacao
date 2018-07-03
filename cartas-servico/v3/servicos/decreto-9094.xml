@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>decreto-9094</id>
+    <dbId>1077</dbId>
+    <nome>Decreto 9094</nome>
+    <sigla>9094</sigla>
+    <nomes-populares>
+        <item id="899">90</item>
+        <item id="900">94</item>
+        <item id="901">decreto</item>
+    </nomes-populares>
+    <descricao>- sem n
+- sem b
+- sem g
+
+1. com n
+1. com g</descricao>
+    <contato>Contato do serviço</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>www.teste.com</link-servico-digital>
+    <solicitantes>
+        <solicitante id="823">
+            <tipo>Solicitante</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="824">
+            <tipo>Solicitante 2</tipo>
+            <requisitos>Requisitos 2</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>dias</unidade>
+        <descricao>**Teste**</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2012">
+            <titulo>Etapa 1</titulo>
+            <descricao>Descrição 1</descricao>
+            <documentos>
+                <default>
+                    <item id="1406">Documentos 1</item>
+                    <item id="1407">Documentos 2</item>
+                </default>
+                <caso id="413" descricao="Caso">
+                    <documento>
+                        <id>1405</id>
+                        <descricao>Documentos caso</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="209">
+                        <descricao>Custo 1 fixo</descricao>
+                        <moeda>R$</moeda>
+                        <valor>1,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                    <custo id="210">
+                        <descricao>Custo 2 variavel</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>teste</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+                <caso id="417" descricao="caso custo">
+                    <custo id="213">
+                        <descricao>custo fixo caso</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </caso>
+            </custos>
+            <tempo-total-estimado>
+                <entre min="5" max="10" unidade="horas"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2038" tipo="web" procedimento-sistema-indisponivel="Ir ate o canal presencial">
+                        <descricao>www.teste.com</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2037" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="10">
+                        <descricao>Canal presencial</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2333">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2334">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Alimento</item>
+        <item>Ambiente e saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2465">90</item>
+        <item id="2466">94</item>
+        <item id="2467">decreto</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="697">decreto</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>753</item>
+    </servicos-relacionados>
+    <condicoes-acessibilidade>Atendimento</condicoes-acessibilidade>
+    <tratamento-prioritario>prioritário</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>Deipoensja</tratamento-dispensado-atendimento>
+</servico>
