@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=1062</link-servico-digital>
     <solicitantes>
-        <solicitante id="804">
+        <solicitante id="826">
             <tipo>Pessoas jurídicas de direito público ou privado.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2049">
+        <etapa id="2103">
             <titulo>Pedir doação</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1512">Ofício</item>
+                    <item id="1575">Ofício</item>
                 </default>
             </documentos>
             <custos>
@@ -37,19 +37,19 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2078" tipo="e-mail">
+                    <canal-de-prestacao id="2144" tipo="e-mail">
                         <descricao>horto@jbrj.gov.br, rodinsky@jbrj.gov.br ou edson@jbrj.gov.br.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2077" tipo="telefone">
+                    <canal-de-prestacao id="2145" tipo="telefone">
                         <descricao>(21) 3875-6211</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2076" tipo="presencial">
+                    <canal-de-prestacao id="2146" tipo="presencial">
                         <descricao>**No Horto do JBRJ ou na DICAT - Diretoria de Conhecimento, Ambiente e Tecnologia - Rua Jardim Botânico, 1008 - Jardim Botânico - CEP 22470-180</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2050">
+        <etapa id="2104">
             <titulo>Agendar recebimento das mudas</titulo>
             <descricao></descricao>
             <documentos>
@@ -60,21 +60,21 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2079" tipo="telefone">
+                    <canal-de-prestacao id="2147" tipo="telefone">
                         <descricao>(21) 3874-6211</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2051">
+        <etapa id="2105">
             <titulo>Receber mudas</titulo>
             <descricao>Entrega da mudas selecionadas</descricao>
             <documentos>
                 <default>
-                    <item id="1513">Carteira de identidade</item>
-                    <item id="1514">Carteira de trabalho</item>
-                    <item id="1515">Crachás</item>
-                    <item id="1516">cópia do termo de doação</item>
+                    <item id="1576">Carteira de identidade</item>
+                    <item id="1577">Carteira de trabalho</item>
+                    <item id="1578">Crachás</item>
+                    <item id="1579">cópia do termo de doação</item>
                 </default>
             </documentos>
             <custos>
@@ -82,7 +82,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2080" tipo="presencial">
+                    <canal-de-prestacao id="2148" tipo="presencial">
                         <descricao>**No Horto do JBRJ** - Rua Jardim Botânico, 1008 - Jardim Botânico - CEP 22470-180</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -93,14 +93,14 @@
         <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2343">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2379">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Biodiversidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2398">Meio-ambiente</item>
-        <item id="2399">muda</item>
-        <item id="2400">reflorestamento</item>
+        <item id="2460">Meio-ambiente</item>
+        <item id="2461">muda</item>
+        <item id="2462">reflorestamento</item>
     </palavras-chave>
 </servico>
