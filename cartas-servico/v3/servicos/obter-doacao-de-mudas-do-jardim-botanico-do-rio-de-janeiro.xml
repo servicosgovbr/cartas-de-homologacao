@@ -9,9 +9,9 @@
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=1062</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="827">
+        <solicitante id="828">
             <tipo>Pessoas jurídicas de direito público ou privado.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2106">
+        <etapa id="2109">
             <titulo>Pedir doação</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1580">Ofício</item>
+                    <item id="1585">Ofício</item>
                 </default>
             </documentos>
             <custos>
@@ -37,19 +37,19 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2149" tipo="e-mail">
+                    <canal-de-prestacao id="2154" tipo="e-mail">
                         <descricao>horto@jbrj.gov.br, rodinsky@jbrj.gov.br ou edson@jbrj.gov.br.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2150" tipo="telefone">
+                    <canal-de-prestacao id="2155" tipo="telefone">
                         <descricao>(21) 3875-6211</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2151" tipo="presencial">
+                    <canal-de-prestacao id="2156" tipo="presencial">
                         <descricao>**No Horto do JBRJ ou na DICAT - Diretoria de Conhecimento, Ambiente e Tecnologia - Rua Jardim Botânico, 1008 - Jardim Botânico - CEP 22470-180</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2107">
+        <etapa id="2110">
             <titulo>Agendar recebimento das mudas</titulo>
             <descricao></descricao>
             <documentos>
@@ -60,21 +60,21 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2152" tipo="telefone">
+                    <canal-de-prestacao id="2157" tipo="telefone">
                         <descricao>(21) 3874-6211</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2108">
+        <etapa id="2111">
             <titulo>Receber mudas</titulo>
             <descricao>Entrega da mudas selecionadas</descricao>
             <documentos>
                 <default>
-                    <item id="1581">Carteira de identidade</item>
-                    <item id="1582">Carteira de trabalho</item>
-                    <item id="1583">Crachás</item>
-                    <item id="1584">cópia do termo de doação</item>
+                    <item id="1586">Carteira de identidade</item>
+                    <item id="1587">Carteira de trabalho</item>
+                    <item id="1588">Crachás</item>
+                    <item id="1589">cópia do termo de doação</item>
                 </default>
             </documentos>
             <custos>
@@ -82,7 +82,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2153" tipo="presencial">
+                    <canal-de-prestacao id="2158" tipo="presencial">
                         <descricao>**No Horto do JBRJ** - Rua Jardim Botânico, 1008 - Jardim Botânico - CEP 22470-180</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -93,14 +93,14 @@
         <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2380">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2381">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Biodiversidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2463">Meio-ambiente</item>
-        <item id="2464">muda</item>
-        <item id="2465">reflorestamento</item>
+        <item id="2466">Meio-ambiente</item>
+        <item id="2467">muda</item>
+        <item id="2468">reflorestamento</item>
     </palavras-chave>
 </servico>
