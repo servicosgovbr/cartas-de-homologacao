@@ -5,9 +5,10 @@
     <nome>Decreto 9094</nome>
     <sigla>9094</sigla>
     <nomes-populares>
-        <item id="899">90</item>
-        <item id="900">94</item>
-        <item id="901">decreto</item>
+        <item id="906">90</item>
+        <item id="907">94</item>
+        <item id="908">decreto</item>
+        <item id="909">cidadao</item>
     </nomes-populares>
     <descricao>- sem n
 - sem b
@@ -21,11 +22,11 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>www.teste.com</link-servico-digital>
     <solicitantes>
-        <solicitante id="823">
+        <solicitante id="825">
             <tipo>Solicitante</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="824">
+        <solicitante id="826">
             <tipo>Solicitante 2</tipo>
             <requisitos>Requisitos 2</requisitos>
         </solicitante>
@@ -41,15 +42,15 @@
         <descricao>**Teste**</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2012">
+        <etapa id="2013">
             <titulo>Etapa 1</titulo>
             <descricao>Descrição 1</descricao>
             <documentos>
                 <default>
-                    <item id="1406">Documentos 1</item>
-                    <item id="1407">Documentos 2</item>
+                    <item id="1408">Documentos 1</item>
+                    <item id="1409">Documentos 2</item>
                 </default>
-                <caso id="413" descricao="Caso">
+                <caso id="418" descricao="Caso">
                     <documento>
                         <id>1405</id>
                         <descricao>Documentos caso</descricao>
@@ -58,22 +59,22 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="209">
+                    <custo id="214">
                         <descricao>Custo 1 fixo</descricao>
                         <moeda>R$</moeda>
                         <valor>1,00</valor>
                         <valorVariavel></valorVariavel>
                         <statusCustoVariavel>0</statusCustoVariavel>
                     </custo>
-                    <custo id="210">
+                    <custo id="215">
                         <descricao>Custo 2 variavel</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel>teste</valorVariavel>
                         <statusCustoVariavel>1</statusCustoVariavel>
                     </custo>
                 </default>
-                <caso id="417" descricao="caso custo">
-                    <custo id="213">
+                <caso id="420" descricao="caso custo">
+                    <custo id="216">
                         <descricao>custo fixo caso</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
@@ -87,10 +88,10 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2038" tipo="web" procedimento-sistema-indisponivel="Ir ate o canal presencial">
+                    <canal-de-prestacao id="2039" tipo="web" procedimento-sistema-indisponivel="Ir ate o canal presencial">
                         <descricao>www.teste.com</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2037" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="10">
+                    <canal-de-prestacao id="2040" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="10">
                         <descricao>Canal presencial</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -101,20 +102,20 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2333">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2334">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2335">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2336">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Alimento</item>
         <item>Ambiente e saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2465">90</item>
-        <item id="2466">94</item>
-        <item id="2467">decreto</item>
+        <item id="2468">90</item>
+        <item id="2469">94</item>
+        <item id="2470">decreto</item>
     </palavras-chave>
     <legislacoes>
-        <item id="697">decreto</item>
+        <item id="698">decreto</item>
     </legislacoes>
     <servicos-relacionados>
         <item>753</item>
