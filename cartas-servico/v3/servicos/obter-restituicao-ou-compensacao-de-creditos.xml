@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="805">
+        <solicitante id="829">
             <tipo>Participantes e não participantes do mercado de valores mobiliários.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2052">
+        <etapa id="2112">
             <titulo>Registrar o pedido de restituição ou compensação</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,13 +35,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2081" tipo="e-mail">
+                    <canal-de-prestacao id="2159" tipo="e-mail">
                         <descricao>gac@cvm.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2053">
+        <etapa id="2113">
             <titulo>Receber resposta</titulo>
             <descricao>Obtida a autorização para restituir ou compensar será enviada uma mensagem eletrônica para o endereço de e-mail cadastrado comunicado o resultado do pedido.</descricao>
             <documentos>
@@ -52,7 +52,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2082" tipo="e-mail">
+                    <canal-de-prestacao id="2160" tipo="e-mail">
                         <descricao>E-mail cadastrado pelo usuário</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -63,15 +63,15 @@
         <nomeOrgao>Comissão de Valores Mobiliários (CVM)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2344">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2345">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2382">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2383">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2401">Taxa de Fiscalização</item>
-        <item id="2402">Multas aplicadas pela CVM</item>
-        <item id="2403">Restituição ou compensação</item>
+        <item id="2469">Taxa de Fiscalização</item>
+        <item id="2470">Multas aplicadas pela CVM</item>
+        <item id="2471">Restituição ou compensação</item>
     </palavras-chave>
 </servico>
