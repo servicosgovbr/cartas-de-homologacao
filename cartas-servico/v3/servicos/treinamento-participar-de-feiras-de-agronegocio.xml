@@ -5,17 +5,17 @@
     <nome>[Treinamento] - Participar de feiras de agronegócio</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="914">Feiras internacionais</item>
-        <item id="915">Missões Comerciais</item>
+        <item id="916">Feiras internacionais</item>
+        <item id="917">Missões Comerciais</item>
     </nomes-populares>
     <descricao>Disponibilizar a Empresa e/ou Entidade Setorial (Associações, Sindicatos, Federações etc) a possibilidade de participar de feiras, eventos, palestras e missões empresarias que visem a promoção de comércio internacional de produtos do agronegócio brasileiro organizadas pelo Departamento de Promoção Internacional do Agronegócio, da Secretaria de Relações Internacionais do Agronegócio (DPI/SRI/MAPA).</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="830">
+        <solicitante id="832">
             <tipo>Empresa e/ou Entidade Setorial (Associações, Sindicatos, Federações etc) a possibilidade de participar de feiras, eventos, palestras e missões empresarias que visem a promoção de comércio internacional de produtos do agronegócio brasileiro.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,7 +28,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2114">
+        <etapa id="2120">
             <titulo>Tomar conhecimento das oportunidades disponíveis</titulo>
             <descricao>A divulgação de feiras, missões comerciais e eventos são divulgadas através do site do Ministério da Agricultura (link nos canais desta etapa)</descricao>
             <documentos>
@@ -39,18 +39,18 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2161" tipo="web">
+                    <canal-de-prestacao id="2169" tipo="web">
                         <descricao>http://www.agricultura.gov.br/eventos-internacionais</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2115">
+        <etapa id="2121">
             <titulo>Inscrever-se no Processo seletivo</titulo>
             <descricao>Etapa destinada à Empresa ou Entidade Setorial para preencher o formulário de inscrição do processo seletivo de expositores para a feira ou missão comercial que deseja participar, com dados relativos a atividade de exportação, participação em feiras internacionais e missões, estratégias para o mercado alvo da feira e produtos que pretende promover. Nesta etapa a Empresa ou Entidade Setorial deverá disponibilizar a logomarca e imagens dos produtos que deseja promover.</descricao>
             <documentos>
                 <default>
-                    <item id="1590">Documentação em comum para todos os casos
+                    <item id="1594">Documentação em comum para todos os casos
 Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos produtos que deseja promover.</item>
                 </default>
             </documentos>
@@ -59,13 +59,13 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2162" tipo="web">
+                    <canal-de-prestacao id="2170" tipo="web">
                         <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3623</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2116">
+        <etapa id="2122">
             <titulo>Tomar conhecimento do resultado</titulo>
             <descricao>Encerrado o período de inscrições, os servidores do MAPA analisarão as inscrições preenchidas corretamente e farão a seleção de acordo com critérios dos Termos e Condições de Participação da missão. O MAPA divulgará por meio de nota, através do seu [site oficial]( http://www.agricultura.gov.br/) a lista das Empresas ou Entidades selecionadas para participar da feira, missão ou evento, assim como com em e-mail enviado a todos que se inscreveram no processo de seleção.</descricao>
             <documentos>
@@ -76,10 +76,10 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2164" tipo="e-mail">
+                    <canal-de-prestacao id="2171" tipo="e-mail">
                         <descricao>E-mail informado na inscrição ao evento</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2163" tipo="web">
+                    <canal-de-prestacao id="2172" tipo="web">
                         <descricao>http://www.agricultura.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -90,16 +90,16 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2384">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2385">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2388">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2389">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2472">Feiras internacionais</item>
-        <item id="2473">Missões Comerciais</item>
-        <item id="2474">Eventos</item>
+        <item id="2478">Feiras internacionais</item>
+        <item id="2479">Missões Comerciais</item>
+        <item id="2480">Eventos</item>
     </palavras-chave>
 </servico>
