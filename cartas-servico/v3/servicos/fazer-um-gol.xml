@@ -4,40 +4,40 @@
     <dbId>1082</dbId>
     <nome>Fazer um gol</nome>
     <sigla>Gol</sigla>
-    <descricao>Introduzir a bola no espaço retangular entre as traves e travessão num campo de futebol.</descricao>
-    <contato>Felipão</contato>
-    <gratuito>false</gratuito>
+    <descricao>Introduzir a bola no espaço retangular entre as traves e travessão num campo de futebol, ultrapassando a linha do gol, atingindo ou não a rede.</descricao>
+    <contato>Felipão ou Cuca</contato>
+    <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="832">
-            <tipo>Jogador de futebol</tipo>
-            <requisitos>Estar apto fisicamente.</requisitos>
+        <solicitante id="833">
+            <tipo>Jogador(a) de futebol</tipo>
+            <requisitos>Estar apto fisica e mentalmente.</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="100" unidade="minutos"/>
-        <descricao>Em caso de força maior, tempo pode ser até 200 minutos.</descricao>
+        <ate max="10" unidade="dias-corridos"/>
+        <descricao>Em caso de força maior e inesperada, o tempo pode ser ampliado.</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <tipo>Válido por</tipo>
-        <quantidade>1</quantidade>
-        <unidade>anos</unidade>
-        <descricao>Prorrogável</descricao>
+        <quantidade>10</quantidade>
+        <unidade>meses</unidade>
+        <descricao>Talvez prorrogável</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2018">
+        <etapa id="2019">
             <titulo>Chutar a bola</titulo>
-            <descricao>Chutar a bola em direção do gol.</descricao>
+            <descricao>Chutar a bola em direção do gol</descricao>
             <documentos>
                 <default>
-                    <item id="1416">Carteirinha de jogador de futebol</item>
+                    <item id="1417">Carteirinha de jogador de futebol (CJF)</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="226">
+                    <custo id="227">
                         <descricao>Auxílio-clube</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
@@ -47,12 +47,12 @@
                 </default>
             </custos>
             <tempo-total-estimado>
-                <ate max="90" unidade="minutos"/>
+                <ate max="89" unidade="minutos"/>
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2047" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="100">
-                        <descricao>Campo de futebol</descricao>
+                    <canal-de-prestacao id="2048" tipo="presencial" tempo-estimado-periodo="horas" tempo-estimado-espera="2">
+                        <descricao>Campo de futebol gramado</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -62,27 +62,31 @@
         <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2343">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2346">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2347">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Esporte e Lazer</item>
         <item>Esporte profissional</item>
         <item>Esporte comunitário</item>
+        <item>Ambiente e saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2480">Futebol</item>
-        <item id="2481">Bola</item>
-        <item id="2482">Gol</item>
+        <item id="2487">Futebol</item>
+        <item id="2488">Bola</item>
+        <item id="2489">Gol</item>
+        <item id="2490">Campo</item>
     </palavras-chave>
     <legislacoes>
-        <item id="702">1. Lei do Esporte Brasileiro
+        <item id="703">1. Lei do Esporte Brasileiro
 1. Lei do Futebol
-1. Regras de Arbitragem</item>
+1. Regras de Arbitragem
+1. Regulamento da FIFA</item>
     </legislacoes>
     <servicos-relacionados>
         <item>1064</item>
     </servicos-relacionados>
-    <condicoes-acessibilidade>Grama aparada.</condicoes-acessibilidade>
-    <tratamento-prioritario>Jogador sub-20.</tratamento-prioritario>
-    <tratamento-dispensado-atendimento>Profissional</tratamento-dispensado-atendimento>
+    <condicoes-acessibilidade>Grama aparada e linhas pintadas com cal.</condicoes-acessibilidade>
+    <tratamento-prioritario>Jogador sub-16.</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>Profissional e cordial</tratamento-dispensado-atendimento>
 </servico>
