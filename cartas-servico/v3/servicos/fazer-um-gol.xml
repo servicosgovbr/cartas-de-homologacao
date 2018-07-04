@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>fazer-um-gol</id>
+    <dbId>1082</dbId>
+    <nome>Fazer um gol</nome>
+    <sigla>Gol</sigla>
+    <descricao>Introduzir a bola no espaço retangular entre as traves e travessão num campo de futebol.</descricao>
+    <contato>Felipão</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="832">
+            <tipo>Jogador de futebol</tipo>
+            <requisitos>Estar apto fisicamente.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="100" unidade="minutos"/>
+        <descricao>Em caso de força maior, tempo pode ser até 200 minutos.</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>anos</unidade>
+        <descricao>Prorrogável</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2018">
+            <titulo>Chutar a bola</titulo>
+            <descricao>Chutar a bola em direção do gol.</descricao>
+            <documentos>
+                <default>
+                    <item id="1416">Carteirinha de jogador de futebol</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="226">
+                        <descricao>Auxílio-clube</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <tempo-total-estimado>
+                <ate max="90" unidade="minutos"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2047" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="100">
+                        <descricao>Campo de futebol</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/444" dbId="36736">
+        <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2343">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Esporte e Lazer</item>
+        <item>Esporte profissional</item>
+        <item>Esporte comunitário</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2480">Futebol</item>
+        <item id="2481">Bola</item>
+        <item id="2482">Gol</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="702">1. Lei do Esporte Brasileiro
+1. Lei do Futebol
+1. Regras de Arbitragem</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>1064</item>
+    </servicos-relacionados>
+    <condicoes-acessibilidade>Grama aparada.</condicoes-acessibilidade>
+    <tratamento-prioritario>Jogador sub-20.</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>Profissional</tratamento-dispensado-atendimento>
+</servico>
