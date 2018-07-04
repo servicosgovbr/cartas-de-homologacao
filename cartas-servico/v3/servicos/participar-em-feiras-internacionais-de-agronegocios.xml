@@ -43,9 +43,9 @@ A organização do Pavilhão Brasil (MAPA/MRE) compete o fornecimento, sem ônus
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="742">
+        <solicitante id="831">
             <tipo>Empresas e Entidades Setoriais (Associações, Cooperativas, Federações etc)</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -58,14 +58,14 @@ A organização do Pavilhão Brasil (MAPA/MRE) compete o fornecimento, sem ônus
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1909">
+        <etapa id="2117">
             <titulo>Inscrição no Processo Seletivo de Expositores Brasileiros</titulo>
             <descricao>Etapa destinada à Empresa ou Entidade Setorial para preencher o formulário de inscrição do processo seletivo de expositores para a feira que deseja participar, com dados relativos a atividade de exportação, participação em feiras internacionais, estratégias para o mercado alvo da feira e produtos que pretende promover.</descricao>
             <documentos>
                 <default>
-                    <item id="1348">Formulário de inscrição</item>
-                    <item id="1349">Logomarca em alta resolução (Mínimo de 3.000 megapixels)</item>
-                    <item id="1350">Imagens dos produtos que deseja promover em alta resolução (Mínimo de 3.000 megapixels)</item>
+                    <item id="1591">Formulário de inscrição</item>
+                    <item id="1592">Logomarca em alta resolução (Mínimo de 3.000 megapixels)</item>
+                    <item id="1593">Imagens dos produtos que deseja promover em alta resolução (Mínimo de 3.000 megapixels)</item>
                 </default>
             </documentos>
             <custos>
@@ -73,13 +73,13 @@ A organização do Pavilhão Brasil (MAPA/MRE) compete o fornecimento, sem ônus
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1944" tipo="web">
+                    <canal-de-prestacao id="2165" tipo="web">
                         <descricao>http://mpdg-hom-ps.lecom.com.br/processos/iniciar?codServico=1004</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1910">
+        <etapa id="2118">
             <titulo>Receber resultado</titulo>
             <descricao>O MAPA divulgará por meio de nota através do seu site oficial a lista das Empresas e/ou Entidades Setoriais selecionadas para participar como expositores do Pavilhão Brasil. 
 O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou Entidades Setoriais que participaram do processo seletivo.</descricao>
@@ -91,16 +91,16 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1946" tipo="web">
-                        <descricao>http://www.agricultura.gov.br/assuntos/relacoes-internacionais/eventos-internacionais</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="1945" tipo="e-mail">
+                    <canal-de-prestacao id="2167" tipo="e-mail">
                         <descricao>E-mail informado na inscrição</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2166" tipo="web">
+                        <descricao>http://www.agricultura.gov.br/assuntos/relacoes-internacionais/eventos-internacionais</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1911">
+        <etapa id="2119">
             <titulo>Receber instruções de informações</titulo>
             <descricao>Etapa destinada aos servidores do MAPA e MRE repassarem instruções e informações relativas a participação brasileira na feira às Empresas e/ou Entidades Setoriais selecionadas.</descricao>
             <documentos>
@@ -111,7 +111,7 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1947" tipo="e-mail">
+                    <canal-de-prestacao id="2168" tipo="e-mail">
                         <descricao>E-mail informado na inscrição</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -122,8 +122,8 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2246">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2247">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2386">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2387">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -132,8 +132,8 @@ O MAPA também enviará um e-mail com o resultado para todas as Empresas e/ou En
         <item>Relações Diplomáticas</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2205">agropecuária</item>
-        <item id="2206">feira</item>
-        <item id="2207">inscrição</item>
+        <item id="2475">agropecuária</item>
+        <item id="2476">feira</item>
+        <item id="2477">inscrição</item>
     </palavras-chave>
 </servico>
