@@ -11,8 +11,8 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="834">
-            <tipo>Jogador(a) de futebol</tipo>
+        <solicitante id="835">
+            <tipo>Jogador(a) de futebol(a)</tipo>
             <requisitos>Estar apto fisica e mentalmente.</requisitos>
         </solicitante>
     </solicitantes>
@@ -24,20 +24,21 @@
         <tipo>Válido por</tipo>
         <quantidade>10</quantidade>
         <unidade>meses</unidade>
-        <descricao>Talvez prorrogável</descricao>
+        <descricao>Talvez prorrogável ou não</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2024">
-            <titulo>Chutar a bola</titulo>
-            <descricao>Chutar a bola em direção do gol</descricao>
+        <etapa id="2026">
+            <titulo>Chutar a bola forte</titulo>
+            <descricao>Chutar a bola forte em direção direta do gol</descricao>
             <documentos>
                 <default>
-                    <item id="1418">Carteirinha de jogador de futebol (CJF)</item>
+                    <item id="1420">Carteirinha de jogador de futebol (CJF)</item>
+                    <item id="1423">CPF</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="228">
+                    <custo id="229">
                         <descricao>Auxílio-clube</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
@@ -47,33 +48,34 @@
                 </default>
             </custos>
             <tempo-total-estimado>
-                <ate max="87" unidade="dias-corridos"/>
+                <em-media max="89" unidade="dias-uteis"/>
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2049" tipo="presencial" tempo-estimado-periodo="horas" tempo-estimado-espera="2">
-                        <descricao>Campo de futebol gramado</descricao>
+                    <canal-de-prestacao id="2051" tipo="presencial" tempo-estimado-periodo="dias corridos" tempo-estimado-espera="2">
+                        <descricao>Campo de futebol gramado e aparado</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2025">
-            <titulo>Observar trajetória</titulo>
-            <descricao>Observar trajetória retilínea da bola</descricao>
+        <etapa id="2027">
+            <titulo>Observar trajetória ascendente</titulo>
+            <descricao>Observar trajetória ascendente e retilínea da bola</descricao>
             <documentos>
                 <default>
-                    <item id="1419">Acelerômetro</item>
+                    <item id="1421">Acelerômetro digital e pluviômetro</item>
+                    <item id="1422">RG do DF</item>
                 </default>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <tempo-total-estimado>
-                <em-media max="4" unidade="dias-uteis"/>
+                <ate max="5" unidade="meses"/>
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2050" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="2">
+                    <canal-de-prestacao id="2052" tipo="aplicativo-movel" procedimento-sistema-indisponivel="Baixar o App iOS" tempo-estimado-periodo="minutos" tempo-estimado-espera="2">
                         <descricao>Campinho de futebol</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -84,8 +86,8 @@
         <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="4" idServicoSegmento="2348">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        <item idSegmento="1" idServicoSegmento="2349">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2350">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2351">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Esporte e Lazer</item>
@@ -94,13 +96,13 @@
         <item>Ambiente e saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2491">Futebol</item>
-        <item id="2492">Bola</item>
-        <item id="2493">Gol</item>
-        <item id="2494">Campo</item>
+        <item id="2495">Futebol</item>
+        <item id="2496">Bola</item>
+        <item id="2497">Gol</item>
+        <item id="2498">Campo</item>
     </palavras-chave>
     <legislacoes>
-        <item id="704">1. Lei do Esporte Brasileiro
+        <item id="705">1. Lei do Esporte Brasileiro
 1. Lei do Futebol
 1. Regras de Arbitragem
 1. Regulamento da FIFA</item>
