@@ -4,17 +4,16 @@
     <dbId>1076</dbId>
     <nome>Estourar balão</nome>
     <sigla>BALAO</sigla>
-    <descricao>Estourar balões de festa.</descricao>
-    <contato>Joãozinho</contato>
-    <gratuito>true</gratuito>
+    <descricao>Estourar balões azuis.</descricao>
+    <contato>João e Maria</contato>
+    <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="822">
-            <tipo>1. Cidadão de primeira
-1. Cidadão de segunda</tipo>
-            <requisitos>Estar vivo.</requisitos>
+        <solicitante id="831">
+            <tipo>Cidadão das classes sociais X, Y e Z</tipo>
+            <requisitos>É preciso estar vivo...</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -28,24 +27,61 @@
         <descricao>Improrrogáveis</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2010">
+        <etapa id="2022">
             <titulo>Ligar para 777</titulo>
-            <descricao>Ligar **gratuitamente** para a central de atendimento 777.</descricao>
+            <descricao>Ligar **gratuitamente** para a central de atendimento 777 e agendar dia/hora para o estouro.</descricao>
             <documentos>
                 <default>
-                    <item id="1403">Número do CPF</item>
+                    <item id="1414">Número do CPF</item>
                 </default>
             </documentos>
             <custos>
-                <default/>
+                <default>
+                    <custo id="224">
+                        <descricao></descricao>
+                        <moeda>R$</moeda>
+                        <valor>0,10</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
             </custos>
             <tempo-total-estimado>
-                <em-media max="10" unidade="horas"/>
+                <em-media max="10" unidade="dias-uteis"/>
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2036" tipo="telefone" tempo-estimado-periodo="minutos" tempo-estimado-espera="1">
+                    <canal-de-prestacao id="2045" tipo="telefone" tempo-estimado-periodo="minutos" tempo-estimado-espera="1">
                         <descricao>777</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2023">
+            <titulo>Encher o balão</titulo>
+            <descricao>Introduzir ar no interior do balão azul.</descricao>
+            <documentos>
+                <default>
+                    <item id="1415">Atestado de saúde respiratória</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="225">
+                        <descricao></descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>2</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <tempo-total-estimado>
+                <ate max="2" unidade="dias-corridos"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2046" tipo="presencial" tempo-estimado-periodo="dias úteis" tempo-estimado-espera="1">
+                        <descricao>Instituto IFBA, seção de estouro de balões</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -55,8 +91,8 @@
         <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2331">Cidadãos</item>
-        <item idSegmento="4" idServicoSegmento="2332">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2341">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2342">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Atendimento básico</item>
@@ -64,12 +100,12 @@
         <item>Esporte e Lazer</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2462">balão</item>
-        <item id="2463">festa</item>
-        <item id="2464">ar</item>
+        <item id="2477">balão</item>
+        <item id="2478">festa</item>
+        <item id="2479">ar</item>
     </palavras-chave>
     <legislacoes>
-        <item id="696">1. Estatuto do Adolescente
+        <item id="701">1. Estatuto do Adolescente
 1. Estatuto do Idoso
 1. Estatuto do Bebê</item>
     </legislacoes>
