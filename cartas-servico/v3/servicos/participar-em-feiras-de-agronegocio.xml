@@ -9,9 +9,9 @@
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="836">
+        <solicitante id="837">
             <tipo>Empresa e/ou Entidade Setorial (Associações, Sindicatos, Federações etc) a possibilidade de participar de feiras, eventos, palestras e missões empresarias que visem a promoção de comércio internacional de produtos do agronegócio brasileiro.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,14 +24,14 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2132">
+        <etapa id="2135">
             <titulo>Tomar conhecimento das oportunidades disponíveis</titulo>
             <descricao>A divulgação de feiras, missões comerciais e eventos são divulgadas através do site do Ministério da Agricultura (link nos canais desta etapa)</descricao>
             <documentos>
                 <default>
-                    <item id="1600">Formulário de inscrição</item>
-                    <item id="1601">Logomarca em alta resolução (Mínimo de 3.000 megapixels)</item>
-                    <item id="1602">Imagens dos produtos que deseja promover em alta resolução (Mínimo de 3.000 megapixels)</item>
+                    <item id="1604">Formulário de inscrição</item>
+                    <item id="1605">Logomarca em alta resolução (Mínimo de 3.000 megapixels)</item>
+                    <item id="1606">Imagens dos produtos que deseja promover em alta resolução (Mínimo de 3.000 megapixels)</item>
                 </default>
             </documentos>
             <custos>
@@ -39,18 +39,18 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2185" tipo="web">
+                    <canal-de-prestacao id="2189" tipo="web">
                         <descricao>http://www.agricultura.gov.br/eventos-internacionais</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2133">
+        <etapa id="2136">
             <titulo>Inscrever-se no Processo seletivo</titulo>
             <descricao>Etapa destinada à Empresa ou Entidade Setorial para preencher o formulário de inscrição do processo seletivo de expositores para a feira ou missão comercial que deseja participar, com dados relativos a atividade de exportação, participação em feiras internacionais e missões, estratégias para o mercado alvo da feira e produtos que pretende promover. Nesta etapa a Empresa ou Entidade Setorial deverá disponibilizar a logomarca e imagens dos produtos que deseja promover.</descricao>
             <documentos>
                 <default>
-                    <item id="1603">Documentação em comum para todos os casos
+                    <item id="1607">Documentação em comum para todos os casos
 Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos produtos que deseja promover.</item>
                 </default>
             </documentos>
@@ -59,16 +59,16 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2186" tipo="e-mail">
+                    <canal-de-prestacao id="2190" tipo="e-mail">
                         <descricao>E-mail informado na inscrição</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2187" tipo="web">
+                    <canal-de-prestacao id="2191" tipo="web">
                         <descricao>http://www.agricultura.gov.br/assuntos/relacoes-internacionais/eventos-internacionais</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2134">
+        <etapa id="2137">
             <titulo>Tomar conhecimento do resultado</titulo>
             <descricao>Encerrado o período de inscrições, os servidores do MAPA analisarão as inscrições preenchidas corretamente e farão a seleção de acordo com critérios dos Termos e Condições de Participação da missão. O MAPA divulgará por meio de nota, através do seu [site oficial]( http://www.agricultura.gov.br/) a lista das Empresas ou Entidades selecionadas para participar da feira, missão ou evento, assim como com em e-mail enviado a todos que se inscreveram no processo de seleção.</descricao>
             <documentos>
@@ -79,7 +79,7 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2188" tipo="e-mail">
+                    <canal-de-prestacao id="2192" tipo="e-mail">
                         <descricao>E-mail informado na inscrição</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -90,8 +90,8 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2396">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2397">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2398">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2399">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -100,8 +100,8 @@ Imagens em alta resolução (mínimo de 3.000 megapixels) da logomarca e dos pro
         <item>Relações Diplomáticas</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2490">agropecuária</item>
-        <item id="2491">feira</item>
-        <item id="2492">inscrição</item>
+        <item id="2493">agropecuária</item>
+        <item id="2494">feira</item>
+        <item id="2495">inscrição</item>
     </palavras-chave>
 </servico>
