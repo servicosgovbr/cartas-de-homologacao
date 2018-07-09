@@ -5,16 +5,16 @@
     <nome>Monitorar Uso de Antimicrobianos em Animais</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="906">AgroPrevine</item>
+        <item id="922">AgroPrevine</item>
     </nomes-populares>
     <descricao>&lt;p style="text-align:justify"&gt;A resistência aos antimicrobianos (AMR) é considerada, por pesquisadores e estudiosos, como uma ameaça ao tratamento de várias doenças e à saúde pública. O uso indiscriminado de antimicrobianos (AM) na produção animal contribui com o surgimento de novas bactérias resistentes e patogênicas para os animais e humanos, superando a capacidade dos laboratórios e indústrias de produzirem novas drogas.&lt;/p&gt;</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="812">
+        <solicitante id="838">
             <tipo>Criadores de animais</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2070">
+        <etapa id="2138">
             <titulo>Requisitar monitoramento (?)</titulo>
             <descricao></descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2101" tipo="presencial">
+                    <canal-de-prestacao id="2193" tipo="presencial">
                         <descricao>MAPA</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,15 +49,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2358">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2359">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2400">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2401">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2424">gado</item>
-        <item id="2425">micróbio</item>
-        <item id="2426">prevenção</item>
+        <item id="2496">gado</item>
+        <item id="2497">micróbio</item>
+        <item id="2498">prevenção</item>
     </palavras-chave>
 </servico>
