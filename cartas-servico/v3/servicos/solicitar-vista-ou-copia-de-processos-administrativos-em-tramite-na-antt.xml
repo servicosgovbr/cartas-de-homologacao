@@ -9,7 +9,7 @@
 **Custo dos Serviços**
 Os interessados em obter cópia de processos deverão efetivar o pagamento das despesas destinadas ao ressarcimento do custo do material gasto com a reprodução de documentos e mídia digital. 
 O recolhimento deverá ser efetuado por meio da GRU Simples, que deverá ser gerada pelo recolhedor mediante acesso à rede mundial de computadores (internet), preferencialmente na página da ANTT (https://appweb.antt.gov.br/gru/index.asp), devendo o recolhedor, ao gerar a GRU - Simples, preencher os campos específicos da guia com os seguintes dados:
-
+&lt;br&gt;
 1. **Unidade favorecida:** 393001/39250 - Agência Nacional de Transportes Terrestres.
 2. **Código de recolhimento:** 68888-6
 3. **Número de referência:** 030
@@ -26,7 +26,7 @@ No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="848">
+        <solicitante id="849">
             <tipo>Pessoas Físicas ou Jurídicas.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -39,7 +39,7 @@ No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2150">
+        <etapa id="2151">
             <titulo>Cadastrar-se no portal do cidadão.</titulo>
             <descricao>Solicitação de cópias:
 O interessado deve se cadastrar no portal do cidadão;
@@ -54,10 +54,10 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2212" tipo="web">
+                    <canal-de-prestacao id="2214" tipo="web">
                         <descricao>Portal de serviços</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2213" tipo="presencial">
+                    <canal-de-prestacao id="2215" tipo="presencial">
                         <descricao>Protocolo da ANTT</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -68,10 +68,10 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
         <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2434">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2435">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2436">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        <item idSegmento="1" idServicoSegmento="2437">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2441">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2438">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2439">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2440">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transporte Rodoviário</item>
@@ -80,8 +80,8 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
         <item>Transportes</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2526">transporte</item>
-        <item id="2527">processos</item>
-        <item id="2528">administrativos</item>
+        <item id="2529">transporte</item>
+        <item id="2530">processos</item>
+        <item id="2531">administrativos</item>
     </palavras-chave>
 </servico>
