@@ -5,29 +5,21 @@
     <nome>Solicitar vista ou cópia de processos administrativos em trâmite na ANTT</nome>
     <sigla></sigla>
     <descricao>Plataforma digital por meio do qual pode o cidadão fazer pedido de vista ou cópia dos processos administrativos em trâmite na ANTT.
-&lt;br&gt;&lt;br&gt;
-**Custo dos Serviços**
 &lt;br&gt;
+**Custo dos Serviços**
 Os interessados em obter cópia de processos deverão efetivar o pagamento das despesas destinadas ao ressarcimento do custo do material gasto com a reprodução de documentos e mídia digital. 
 
 O recolhimento deverá ser efetuado por meio da GRU Simples, que deverá ser gerada pelo recolhedor mediante acesso à rede mundial de computadores (internet), preferencialmente na página da ANTT (https://appweb.antt.gov.br/gru/index.asp), devendo o recolhedor, ao gerar a GRU - Simples, preencher os campos específicos da guia com os seguintes dados:
-&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 UNIDADE FAVORECIDA: 393001/39250 AGÊNCIA NACIONAL DE TRANSPORTES TERRESTRES
-&lt;br&gt;
 CÓDIGO DE RECOLHIMENTO: 68888-6
-&lt;br&gt;
 NÚMERO DE REFERÊNCIA: 030
-&lt;br&gt;
 NOME DO CONTRIBUINTE: Informar o nome do recolhedor, pessoa física ou jurídica, conforme o caso.
-&lt;br&gt;
 CPF ou CNPJ: Informar o CPF ou CNPJ do recolhedor, conforme o caso.
-&lt;br&gt;
 VALOR TOTAL: Informar o valor a ser recolhido.
-&lt;br&gt;&lt;br&gt;
-Após a geração e impressão da GRU Simples, o pagamento deverá ser efetuado, exclusivamente, nas agências do Banco do Brasil S.A.
-&lt;br&gt;&lt;br&gt;
-**Gratuidade do Serviço**
+&lt;br&gt;Após a geração e impressão da GRU Simples, o pagamento deverá ser efetuado, exclusivamente, nas agências do Banco do Brasil S.A.
 &lt;br&gt;
+**Gratuidade do Serviço**
 No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço, desde que apresentada Declaração de Pobreza firmada pelo cidadão, de acordo com o anexo III da Resolução ANTT nº 5.755/2018 e nos termos da Lei nº 7.115, de 1983.</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
@@ -35,7 +27,7 @@ No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="841">
+        <solicitante id="842">
             <tipo>Pessoas Físicas ou Jurídicas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -48,7 +40,7 @@ No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2143">
+        <etapa id="2144">
             <titulo>Cadastrar-se no portal do cidadão</titulo>
             <descricao>Solicitação de cópias
 O interessado deve se cadastrar no portal do cidadão;
@@ -63,10 +55,10 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2199" tipo="presencial">
+                    <canal-de-prestacao id="2200" tipo="presencial">
                         <descricao>Protocolo da ANTT.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2198" tipo="web">
+                    <canal-de-prestacao id="2201" tipo="web">
                         <descricao>Portal de serviços</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -77,10 +69,10 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
         <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2406">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2407">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2408">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2409">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2410">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2411">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2412">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2413">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transporte Rodoviário</item>
@@ -89,11 +81,11 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
         <item>Transportes</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2505">processos</item>
-        <item id="2506">administrativos</item>
-        <item id="2507">antt</item>
+        <item id="2510">antt</item>
+        <item id="2508">processos</item>
+        <item id="2509">administrativos</item>
     </palavras-chave>
     <legislacoes>
-        <item id="701">Resolução ANTT nº 5.755/2018.</item>
+        <item id="702">Resolução ANTT nº 5.755/2018.</item>
     </legislacoes>
 </servico>
