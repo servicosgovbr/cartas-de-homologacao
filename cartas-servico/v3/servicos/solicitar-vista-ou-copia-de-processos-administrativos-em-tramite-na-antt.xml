@@ -16,8 +16,8 @@ O recolhimento deverá ser efetuado por meio da GRU Simples, que deverá ser ger
 4. **Nome do contribuinte:** informar o nome do recolhedor, pessoa física ou jurídica, conforme o caso.
 5. **CPF ou CNPJ:** informar o CPF ou CNPJ do recolhedor, conforme o caso.
 6. **Valor total:** informar o valor a ser recolhido.
-Após a geração e impressão da GRU Simples, o pagamento deverá ser efetuado, exclusivamente, nas agências do Banco do Brasil S.A.
-
+&lt;br&gt;Após a geração e impressão da GRU Simples, o pagamento deverá ser efetuado, exclusivamente, nas agências do Banco do Brasil S.A.
+&lt;br&gt;
 **Gratuidade do Serviço**
 No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço, desde que apresentada Declaração de Pobreza firmada pelo cidadão, de acordo com o anexo III da Resolução ANTT nº 5.755/2018 e nos termos da Lei nº 7.115, de 1983.</descricao>
     <contato></contato>
@@ -26,7 +26,7 @@ No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="849">
+        <solicitante id="850">
             <tipo>Pessoas Físicas ou Jurídicas.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -39,7 +39,7 @@ No caso de impossibilidade de pagamento, fica garantida a gratuidade do serviço
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2151">
+        <etapa id="2152">
             <titulo>Cadastrar-se no portal do cidadão.</titulo>
             <descricao>Solicitação de cópias:
 O interessado deve se cadastrar no portal do cidadão;
@@ -54,10 +54,10 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2214" tipo="web">
+                    <canal-de-prestacao id="2216" tipo="web">
                         <descricao>Portal de serviços</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2215" tipo="presencial">
+                    <canal-de-prestacao id="2217" tipo="presencial">
                         <descricao>Protocolo da ANTT</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -68,10 +68,10 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
         <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2441">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2438">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2439">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2440">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2442">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2443">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2444">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2445">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transporte Rodoviário</item>
@@ -80,8 +80,8 @@ Receber a cópia por meio eletrônico, por correspondência ou ter acesso aos au
         <item>Transportes</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2529">transporte</item>
-        <item id="2530">processos</item>
-        <item id="2531">administrativos</item>
+        <item id="2532">transporte</item>
+        <item id="2533">processos</item>
+        <item id="2534">administrativos</item>
     </palavras-chave>
 </servico>
