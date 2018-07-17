@@ -7,6 +7,7 @@
 .button{background-color:#F8F9F9;width:250px;height:150px;margin:20px;color:#06acff;font-size:16px;text-align:center;padding:2px}
 &lt;/style&gt;
 &lt;br&gt;
+&lt;div style="padding:5px;width:100%;height:100%"&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-group icon"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-graduation-cap icon"&gt;&lt;/i&gt;&lt;div&gt;Educação e pesquisa&lt;/div&gt;&lt;/button&gt;
@@ -22,7 +23,8 @@
 &lt;button class="button"&gt;&lt;i class="fa fa-legal icon"&gt;&lt;/i&gt;&lt;div&gt;Segurança, justiça e polícia&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-heartbeat icon"&gt;&lt;/i&gt;&lt;div&gt;Saúde e esportes&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-suitcase icon"&gt;&lt;/i&gt;&lt;div&gt;Passaporte, viagens, vistos e turismo&lt;/div&gt;&lt;/button&gt;
-&lt;button class="button"&gt;&lt;i class="fa fa-book icon"&gt;&lt;/i&gt;&lt;div&gt;Direitos autorais e propriedade intelectual&lt;/div&gt;&lt;/button&gt;</conteudo>
+&lt;button class="button"&gt;&lt;i class="fa fa-book icon"&gt;&lt;/i&gt;&lt;div&gt;Direitos autorais e propriedade intelectual&lt;/div&gt;&lt;/button&gt;
+&lt;/div&gt;</conteudo>
     <dbId>98</dbId>
     <nome>Categorias</nome>
     <orgaos>
