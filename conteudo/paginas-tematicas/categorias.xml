@@ -6,7 +6,7 @@
 .icon{font-size:50px;padding:10px}
 .button{background-color:#F8F9F9;width:250px;height:150px;margin:20px;color:#06acff;font-size:16px;text-align:center;padding:2px}
 &lt;/style&gt;
-&lt;div style="width:1200px;height:800px"&gt;
+&lt;div style="width:1200px;height:700px"&gt;
 &lt;button class="button" style="position:absolute;top:320px;left:300px"&gt;&lt;i class="fa fa-group icon"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button" style="position:absolute;top:320px;left:570px"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button" style="position:absolute;top:320px;left:840px"&gt;&lt;i class="fa fa-graduation-cap icon"&gt;&lt;/i&gt;&lt;div&gt;Educação e pesquisa&lt;/div&gt;&lt;/button&gt;
