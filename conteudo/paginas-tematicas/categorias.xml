@@ -18,7 +18,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;button class="button"&gt;&lt;i class="material-icons icon"&gt;assignment&lt;/i&gt;&lt;div&gt;Certidões, permissões e registros&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-building-o icon"&gt;&lt;/i&gt;&lt;div&gt;Infraestrutura, obras,comunicações e transportes&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
-&lt;td&gt;&lt;button class="button"&gt;&lt;div style="font-size:50px"&gt;&lt;span class="glyphicon glyphicon-tree-deciduous icon"&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Meio ambiente e clima&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td&gt;&lt;button class="button"&gt;&lt;div style="font-size:50px" class="icon"&gt;&lt;span class="glyphicon glyphicon-tree-deciduous icon"&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Meio ambiente e clima&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;td&gt;&lt;button class="button"&gt;&lt;div style="color:blue;font-size:50px"&gt;&lt;span class="glyphicon glyphicon-grain icon"&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Agricultura, pecuária e extrativismo&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
