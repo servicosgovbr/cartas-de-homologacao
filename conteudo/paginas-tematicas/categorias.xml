@@ -10,7 +10,9 @@
 &lt;button class="button" style="position:absolute;top:320px;left:570px"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button" style="position:absolute;top:320px;left:840px"&gt;&lt;i class="fa fa-graduation-cap icon"&gt;&lt;/i&gt;&lt;div&gt;Educação e pesquisa&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button" style="position:absolute;top:320px;left:1110px"&gt;&lt;i class="fa fa-globe icon"&gt;&lt;/i&gt;&lt;div&gt;Importação e exportação&lt;/div&gt;&lt;/button&gt;
-&lt;button class="button"&gt;&lt;i class="material-icons icon"&gt;assignment&lt;/i&gt;&lt;div&gt;Certidões, permissões e registros&lt;/div&gt;&lt;/button&gt;
+
+
+&lt;button class="button" style="position:absolute;top:490px;left:300px"&gt;&lt;i class="material-icons icon"&gt;assignment&lt;/i&gt;&lt;div&gt;Certidões, permissões e registros&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-building-o icon"&gt;&lt;/i&gt;&lt;div&gt;Infraestrutura, obras,comunicações e transportes&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;div style="font-size:40px;padding:10px"&gt;&lt;i class="fa fa-tree"&gt;&lt;/i&gt; &lt;i class="fa fa-tree"&gt;&lt;/i&gt; &lt;i class="fa fa-tree"&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Meio ambiente e clima&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-pagelines icon"&gt;&lt;/i&gt;&lt;div&gt;Agricultura, pecuária e extrativismo&lt;/div&gt;&lt;/button&gt;
