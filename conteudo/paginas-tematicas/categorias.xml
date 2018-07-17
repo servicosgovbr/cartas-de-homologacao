@@ -7,11 +7,14 @@
 .button{background-color:#F8F9F9;width:250px;height:150px;margin:20px;color:#06acff;font-size:16px;text-align:center;padding:2px}
 &lt;/style&gt;
 &lt;br&gt;
-&lt;div style="padding:5px;width:100%;height:100%"&gt;
-&lt;button class="button"&gt;&lt;i class="fa fa-group icon"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/button&gt;
-&lt;button class="button"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;
-&lt;button class="button"&gt;&lt;i class="fa fa-graduation-cap icon"&gt;&lt;/i&gt;&lt;div&gt;Educação e pesquisa&lt;/div&gt;&lt;/button&gt;
-&lt;button class="button"&gt;&lt;i class="fa fa-globe icon"&gt;&lt;/i&gt;&lt;div&gt;Importação e exportação&lt;/div&gt;&lt;/button&gt;
+&lt;table style="padding:5px;width:100%;height:100%"&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-group icon"&gt;&lt;/i&gt;&lt;div&gt;Benefícios, assistência e programas sociais&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-industry icon"&gt;&lt;/i&gt;&lt;div&gt;Negócios e indústria&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-graduation-cap icon"&gt;&lt;/i&gt;&lt;div&gt;Educação e pesquisa&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;td&gt;&lt;button class="button"&gt;&lt;i class="fa fa-globe icon"&gt;&lt;/i&gt;&lt;div&gt;Importação e exportação&lt;/div&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 &lt;button class="button"&gt;&lt;i class="material-icons icon"&gt;assignment&lt;/i&gt;&lt;div&gt;Certidões, permissões e registros&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;i class="fa fa-building-o icon"&gt;&lt;/i&gt;&lt;div&gt;Infraestrutura, obras,comunicações e transportes&lt;/div&gt;&lt;/button&gt;
 &lt;button class="button"&gt;&lt;div style="font-size:40px;padding:10px"&gt;&lt;i class="fa fa-tree"&gt;&lt;/i&gt; &lt;i class="fa fa-tree"&gt;&lt;/i&gt; &lt;i class="fa fa-tree"&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Meio ambiente e clima&lt;/div&gt;&lt;/button&gt;
