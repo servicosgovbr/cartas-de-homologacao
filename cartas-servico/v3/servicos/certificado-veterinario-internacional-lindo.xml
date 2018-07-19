@@ -5,16 +5,16 @@
     <nome>Certificado Veterinário Internacional - lindo</nome>
     <sigla>CVI - lindo</sigla>
     <nomes-populares>
-        <item id="929">CVI - lindo</item>
+        <item id="934">CVI - lindo</item>
     </nomes-populares>
     <descricao>Emissão de certificados veterinários para cães e gatos</descricao>
     <contato>Gibran baiano manseba</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.com.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="859">
+        <solicitante id="866">
             <tipo>dono do bichinho</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2171">
+        <etapa id="2192">
             <titulo>Solicitação</titulo>
             <descricao>Solicita dados do requerente</descricao>
             <documentos>
@@ -41,18 +41,18 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2237" tipo="web">
+                    <canal-de-prestacao id="2258" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2172">
+        <etapa id="2193">
             <titulo>Análise</titulo>
             <descricao>Analisa dados do bichinho e documentação em anexo</descricao>
             <documentos>
                 <default>
-                    <item id="1612">nothing</item>
+                    <item id="1614">nothing</item>
                 </default>
             </documentos>
             <custos>
@@ -60,18 +60,18 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2238" tipo="web">
+                    <canal-de-prestacao id="2259" tipo="web">
                         <descricao>Portal de serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2173">
+        <etapa id="2194">
             <titulo>Resultado</titulo>
             <descricao>Emissão do certificado</descricao>
             <documentos>
                 <default>
-                    <item id="1613">nothing</item>
+                    <item id="1615">nothing</item>
                 </default>
             </documentos>
             <custos>
@@ -79,7 +79,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2239" tipo="web">
+                    <canal-de-prestacao id="2260" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -90,7 +90,7 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2454">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2461">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Lazer</item>
@@ -98,8 +98,8 @@
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2552">cães</item>
-        <item id="2553">certificado</item>
-        <item id="2554">gatos</item>
+        <item id="2579">cães</item>
+        <item id="2580">certificado</item>
+        <item id="2581">gatos</item>
     </palavras-chave>
 </servico>
