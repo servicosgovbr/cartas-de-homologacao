@@ -26,9 +26,7 @@
 &lt;br&gt;
 &lt;br&gt;
 &lt;div style="float:center;text-align:center;margin:10%;margin-bottom:5%;margin-top:0"&gt;
-&lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;
-&lt;button class="button"&gt;&lt;b&gt;Voltar&lt;/b&gt;
-&lt;/button&gt;
+&lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-arrow-left"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
