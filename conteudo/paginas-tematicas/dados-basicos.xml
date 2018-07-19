@@ -47,13 +47,11 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Um ou dois parágrafos, máximo de 3.000 caracteres.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Através deste serviço o cidadão obterá a Carteira de Identidade, documento oficial de identificação no país.”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
- &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Solicitação de Serviço&lt;/b&gt;&lt;/p&gt; 
-
-&amp;nbsp;        
+&lt;div class="opc" style="position:absolute;top:800px;left:700px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Solicitação de Serviço&lt;/b&gt;&lt;/p&gt; 
+&lt;br&gt;    
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Este campo é destinado para serviços que o cidadão pode utilizar completamente pela internet (preferencialmente, serviços já integrados com o Portal).&lt;/p&gt;&lt;/li&gt;     
-
-&amp;nbsp;        
-&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Caso a opção seja marcada, é preciso incluir no campo “link para solicitação do serviço 100% digital” a url da página/sistema onde o usuário dará início à utilização do serviço.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;br&gt;    
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Caso a opção seja marcada, é preciso incluir no campo “link para solicitação do serviço 100% digital” a url da página/sistema onde o usuário dará início à utilização do serviço.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Tempo de Validade do Serviço&lt;/b&gt;&lt;/p&gt;     
 
