@@ -28,7 +28,7 @@ div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:c
 &lt;li&gt;
 &lt;font color="#6D0821"&gt;&lt;b&gt;Conheça seus usuários&lt;/b&gt;&lt;/font&gt;. Descubra quem são e o que querem. Ao ler um texto com instruções e informações, as pessoas querem saber só o que se aplica a elas. Sem conhecê-las você não conseguirá manter sua atenção.
 &lt;/li&gt;
-&lt;div style="width:50%;background-color:#06acff;text-align:justify;float:right;margin-left:10px;padding:5px;border:5px ridge white;border-radius:15px;font-family:'Comic Sans MS', cursive, sans-serif"&gt;
+&lt;div style="width:50%;background-color:#06acff;text-align:justify;float:right;margin-left:10px;padding:5px;border:5px ridge #26357B;border-radius:15px;font-family:'Comic Sans MS', cursive, sans-serif"&gt;
 &lt;p style="text-align:center;color:white"&gt;
 &lt;b&gt;&lt;ins&gt;Procure responder a estas perguntas antes de começar a escrever seu texto:&lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
