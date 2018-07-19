@@ -28,7 +28,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Para pegar a declaração de antecedentes criminais, é necessário entrar no site da DPF e informar os dados &lt;b&gt;(única ação do usuário)&lt;/b&gt;;&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;Para fazer o RG, é necessário ir até a Secretaria de Segurança Pública com os documentos necessários e dar entrada no pedido &lt;b&gt;(1ª ação do usuário)&lt;/b&gt;, e em 15 dias voltar para pegar o documento pronto &lt;b&gt;(2ª ação do usuário)&lt;/b&gt;&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p class="prgsim"&gt;&lt;strong&gt;2. Personalização&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="prgsim"&gt;&lt;strong&gt;2. Personalização&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;É um serviço onde cada usuário recebe o serviço por uma instância própria, particular, e não de forma generalizada, como ocorre com o policiamento, por exemplo.&lt;/p&gt;
 &lt;br&gt;
@@ -37,7 +37,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Todo brasileiro tem direito a ter CPF, mas para fazer o meu, eu tenho que pedir à Receita Federal;&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;Todo agricultor familiar pode vender seus produtos à CONAB, mas para se inscrever é preciso que ele ou uma associação da qual ele participe se inscreva.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p class="prgsim"&gt;&lt;strong&gt;3. Suficiência&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="prgsim"&gt;&lt;strong&gt;3. Suficiência&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;O processo deve englobar desde o "pedido" (inscrição, requisição, convocação, etc.) até a "entrega do produto", ou seja, o serviço termina quando o usuário receber aquilo que ele tinha por objetivo no início, ou então quando obtiver a resposta definitiva de que não tem direito/não foi selecionado ao serviço.&lt;/p&gt;
 &lt;br&gt;
@@ -46,7 +46,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Eu preciso me consultar com um médico em um hospital público. Eu primeiro agendo a consulta, depois no dia agendado me identifico no balcão de atendimento, e por fim sou atendido pelo médico. O serviço só é concluído quando eu saio do hospital após ser consultado. O agendamento e o atendimento prestado no balcão são etapas ou interações do serviço, não são serviços por si só, porque eu não fui ao hospital porque precisava conversar com o atendente ou receber um recibo de agendamento, eu fui porque precisava de ser consultado por um médico.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p class="prgsim"&gt;&lt;strong&gt;4. Processo padrão&lt;/strong&gt;&lt;/p&gt; 
+&lt;div class="prgsim"&gt;&lt;strong&gt;4. Processo padrão&lt;/strong&gt;&lt;/div&gt; 
 &lt;br&gt;
 &lt;p&gt;O serviço tem um "passo a passo" básico para sua prestação (salvo imprevistos), com definições claras de cada "passo" que o usuário deve realizar para obter o produto ou resposta do serviço.&lt;/p&gt;
 &lt;br&gt;
@@ -55,13 +55,13 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Para tirar a CNH é necessário dar entrada na autoescola, pagar a taxa, fazer o curso teórico, fazer a prova teórica, fazer as aulas práticas, fazer a prova prática e, se aprovado, receber a CNH provisória em casa. Podem ocorrer “desvios” no caminho, como precisar voltar para levar um documento que faltou, marcar mais aulas práticas ou outros imprevistos, mas eles não fazem parte do processo para todos os usuários. Já as etapas descritas no início terão que ser cumpridas por todos os usuários para que consigam a CNH.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p class="prgsim"&gt;&lt;strong&gt;5. Utilidade direta à sociedade&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="prgsim"&gt;&lt;strong&gt;5. Utilidade direta à sociedade&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
-&lt;p style=font-family:Tahoma;text-align:justify;"&gt;Deve ser uma atividade fim que atenda a uma parcela direta da população, e não somente à máquina pública.&lt;/p&gt;
+&lt;p&gt;Deve ser uma atividade fim que atenda a uma parcela direta da população, e não somente à máquina pública.&lt;/p&gt;
 &lt;br&gt;
-&lt;p style="font-family:Tahoma;text-align:left;"&gt;&lt;b&gt;&lt;ins&gt;Exemplos:&lt;/ins&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;ins&gt;Exemplos:&lt;/ins&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;div style="background-color:#D4F0F7;text-align:justify;padding:10px"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;A aprovação de cargos e salários das empresas pelo Ministério do Trabalho é um serviço, pois atende à sociedade. A aprovação de um plano de carreira a uma categoria de servidores públicos é um serviço à própria máquina pública e, portanto, não é um serviço público de atendimento.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;A aprovação de cargos e salários das empresas pelo Ministério do Trabalho é um serviço, pois atende à sociedade. A aprovação de um plano de carreira a uma categoria de servidores públicos é um serviço à própria máquina pública e, portanto, não é um serviço público de atendimento.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;h3 style="color:#26357B;font-family:Tahoma;text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Não pode ser:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
