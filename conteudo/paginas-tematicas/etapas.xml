@@ -97,7 +97,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Para tirar a CNH, você precisa levar seu RG e CPF no pedido inicial do processo. Estrangeiros também podem tirar a carteira, mas precisam, no entanto, levar a Carteira Nacional de Estrangeiro no lugar do RG. Então, após o campo documentação da referida etapa, você clicaria no botão “adicionar caso específico”, colocaria no título “Estrangeiros” e no campo abaixo colocaria “Carteira Nacional de Estrangeiro”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;br&gt;
-&lt;div style="float:center;text-align:center;margin:10px;position:absolute;top:1800px;left:750px"&gt;
+&lt;div style="float:center;text-align:center;margin:10px;position:absolute;top:1750px;left:750px"&gt;
 &lt;a href="https://servicos.gov.br/pagina-tematica/como-colocar-no-portal"&gt;
 &lt;button class="button"&gt;&lt;b&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/b&gt;
 &lt;/button&gt;
