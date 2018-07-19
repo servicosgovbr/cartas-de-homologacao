@@ -20,7 +20,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;h2 style="color:#309DFC;font-family:Tahoma;text-align:center;"&gt;Identificando um&lt;/h2&gt;
 &lt;h2 style="color:#26357B;font-family:Tahoma;text-align:center;"&gt;Serviço Público de Atendimento&lt;/font&gt;&lt;/h2&gt;
 &lt;br&gt;   
-&lt;h3 style="color:#26357B;font-family:'atma';text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Precisa ter:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
+&lt;h3 style="color:#26357B;text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Precisa ter:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
 &lt;br&gt;
 &lt;div class="prgsim"&gt;&lt;strong&gt;1. Interação&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
@@ -67,7 +67,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;A aprovação de cargos e salários das empresas pelo Ministério do Trabalho é um serviço, pois atende à sociedade. A aprovação de um plano de carreira a uma categoria de servidores públicos é um serviço à própria máquina pública e, portanto, não é um serviço público de atendimento.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;h3 style="color:#26357B;font-family:Tahoma;text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Não pode ser:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
+&lt;h3 style="color:#26357B;text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Não pode ser:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
 &lt;br&gt;
 &lt;div class="prgno"&gt;&lt;strong&gt;1. Uma &lt;del&gt;Área do Órgão&lt;/del&gt;&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
