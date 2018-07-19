@@ -15,15 +15,12 @@
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;table style="width:100%;font-family:tahoma;text-align:justify;border-spacing:5px"&gt;
   &lt;tr&gt;
-    &lt;td style="background-color:#FFE9E9;padding:10px;width:33%;bd:1"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nome do Serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
-
-&amp;nbsp;        
+    &lt;td style="background-color:#FFE9E9;padding:10px;width:33%;bd:1;border-radius:15px"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nome do Serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
+&lt;br&gt;        
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; A ação que o usuário pretende realizar&lt;/p&gt;&lt;/li&gt;     
-
-&amp;nbsp;        
+&lt;br&gt;        
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Verbo no infinitivo + &lt;/p&gt;&lt;p style="padding-left:23px"&gt;predicado desejado pelo usuário.&lt;/p&gt; &lt;p style="padding-left:23px"&gt;Máximo de 150 caracteres.&lt;/p&gt;&lt;/li&gt;     
-
-&amp;nbsp;        
+&lt;br&gt;       
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Obter segunda via de conta d’água”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Fazer o vestibular”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
 
  &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Sigla do Serviço&lt;/b&gt;&lt;/p&gt;     
