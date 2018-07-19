@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="851">
+        <solicitante id="864">
             <tipo>Qualquer cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2157">
+        <etapa id="2186">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,13 +35,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2218" tipo="web">
+                    <canal-de-prestacao id="2252" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2158">
+        <etapa id="2187">
             <titulo>Análise</titulo>
             <descricao>Web</descricao>
             <documentos>
@@ -52,13 +52,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2219" tipo="web">
+                    <canal-de-prestacao id="2253" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2159">
+        <etapa id="2188">
             <titulo>Emissão e Recebimento</titulo>
             <descricao></descricao>
             <documentos>
@@ -69,7 +69,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2220" tipo="web">
+                    <canal-de-prestacao id="2254" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -80,14 +80,14 @@
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2446">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2459">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2561">cvi</item>
-        <item id="2562">viagem</item>
-        <item id="2563">animal</item>
+        <item id="2573">cvi</item>
+        <item id="2574">viagem</item>
+        <item id="2575">animal</item>
     </palavras-chave>
 </servico>
