@@ -9,9 +9,9 @@
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="862">
+        <solicitante id="870">
             <tipo>Dono do animal</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2180">
+        <etapa id="2200">
             <titulo>Solicitar</titulo>
             <descricao>Solicitação do CVI</descricao>
             <documentos>
@@ -35,13 +35,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2246" tipo="web">
+                    <canal-de-prestacao id="2266" tipo="web">
                         <descricao>Página Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2181">
+        <etapa id="2201">
             <titulo>Analisar</titulo>
             <descricao>Analisando o Pedido</descricao>
             <documentos>
@@ -52,13 +52,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2247" tipo="web">
+                    <canal-de-prestacao id="2267" tipo="web">
                         <descricao>Página Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2182">
+        <etapa id="2202">
             <titulo>Emissão e Recebimento</titulo>
             <descricao></descricao>
             <documentos>
@@ -69,7 +69,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2248" tipo="web">
+                    <canal-de-prestacao id="2268" tipo="web">
                         <descricao>Página Web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -80,14 +80,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2457">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2465">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Esporte e Lazer</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2567">CVI</item>
-        <item id="2568">Lazer</item>
-        <item id="2569">Animal</item>
+        <item id="2591">CVI</item>
+        <item id="2592">Lazer</item>
+        <item id="2593">Animal</item>
     </palavras-chave>
 </servico>
