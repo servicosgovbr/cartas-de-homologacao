@@ -25,7 +25,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;br&gt;       
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Obter segunda via de conta d’água”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Fazer o vestibular”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class="opc" style="position:absolute;top:400px;left:650px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Sigla do Serviço&lt;/b&gt;&lt;/p&gt;     
+&lt;div class="opc" style="position:absolute;top:400px;left:750px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Sigla do Serviço&lt;/b&gt;&lt;/p&gt;     
 &lt;Br&gt;
 &lt;br&gt;    
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Sigla oficial ou sigla pelo qual o serviço é conhecido (somente se existir)&lt;/p&gt;&lt;/li&gt;     
