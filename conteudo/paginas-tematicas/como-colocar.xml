@@ -7,6 +7,10 @@
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;br&gt;
+&lt;div style="float:center;text-align:center;margin:10%;margin-bottom:5%;margin-top:0"&gt;
+&lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;br&gt;
 &lt;h2 style="color:#26357B;font-family:Tahoma;text-align:center;"&gt;O Editor de Serviços&lt;/h2&gt;  
 &lt;br&gt;
 &lt;div style=font-family:Tahoma;text-align:justify;"&gt;&lt;p&gt;Agora que já sabemos o quê cadastrar no Portal, vamos entender &lt;font color="red"&gt;&lt;b&gt;como&lt;/b&gt;&lt;/font&gt; fazer isso.&lt;/p&gt;
@@ -25,11 +29,7 @@
 &lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;
-&lt;div style="float:center;text-align:center;margin:10%;margin-bottom:5%;margin-top:0"&gt;
-&lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;br&gt;
-&lt;/div&gt;</conteudo>
+&lt;br&gt;</conteudo>
     <dbId>251</dbId>
     <nome>Como colocar</nome>
     <orgaos>
