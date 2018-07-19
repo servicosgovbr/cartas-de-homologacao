@@ -110,7 +110,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;div style="float:center;text-align:center;margin:10px;position:absolute;top:1550px;left:750px"&gt;
+&lt;div style="float:center;text-align:center;margin:10px;"&gt;
 &lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;
 &lt;button class="button"&gt;&lt;b&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/b&gt;
 &lt;/button&gt;
