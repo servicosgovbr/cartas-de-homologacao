@@ -4,7 +4,8 @@
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
-.prgsim{color:#267B46;font-family:Tahoma;text-align:left;font-size:120%}
+div.prgsim{color:#267B46;font-family:Tahoma;text-align:left;font-size:120%}
+div.prgno{color:#C92A17;font-family:Tahoma;text-align:left;font-size:120%}
 div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
@@ -68,13 +69,13 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;br&gt;
 &lt;h3 style="color:#26357B;font-family:Tahoma;text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Não pode ser:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
 &lt;br&gt;
-&lt;p style="color:#C92A17;font-family:Tahoma;text-align:left;font-size:120%;"&gt;&lt;strong&gt;1. Uma &lt;del&gt;Área do Órgão&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="prgno"&gt;&lt;strong&gt;1. Uma &lt;del&gt;Área do Órgão&lt;/del&gt;&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
-&lt;p style=font-family:Tahoma;text-align:justify;"&gt;O serviço é uma ação, não um substantivo&lt;/p
+&lt;p&gt;O serviço é uma ação, não um substantivo&lt;/p
 &lt;br&gt;
-&lt;p style="font-family:Tahoma;text-align:left;"&gt;&lt;b&gt;&lt;ins&gt;Exemplos:&lt;/ins&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;ins&gt;Exemplos:&lt;/ins&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;div style="background-color:#D4F0F7;text-align:justify;padding:10px"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;A área responsável por emitir o RG civil é o Departamento de Identificação da Secretaria de Segurança Pública. O serviço, no entanto, não é o Departamento de Identificação, e sim &lt;b&gt;Obter a Carteira de Identidade&lt;/b&gt; ou &lt;b&gt;Inscrever-se no Registro Geral Civil&lt;/b&gt;.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="exp"&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;A área responsável por emitir o RG civil é o Departamento de Identificação da Secretaria de Segurança Pública. O serviço, no entanto, não é o Departamento de Identificação, e sim &lt;b&gt;Obter a Carteira de Identidade&lt;/b&gt; ou &lt;b&gt;Inscrever-se no Registro Geral Civil&lt;/b&gt;.&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;p style="color:#C92A17;font-family:Tahoma;text-align:left;font-size:120%;"&gt;&lt;strong&gt;2. Um &lt;del&gt;Programa&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt; 
