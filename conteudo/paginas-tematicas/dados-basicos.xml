@@ -87,19 +87,17 @@
 
 &amp;nbsp;        
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Marcação Simples. Deve ser marcado apenas se há taxas &lt;b&gt;que ele precisa pagar para receber o serviço&lt;/b&gt;. Caso seja marcada a opção “tem custo”, aparecerão nas etapas a opção “Custo da etapa”&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td style="text-align:center;vertical-align:middle"&gt;&lt;a href="https://servicos.gov.br/pagina-tematica/como-colocar-no-portal"&gt;
-&lt;button class="button"&gt;&lt;b&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;/button&gt;
-&lt;/a&gt;
+&lt;td style="text-align:center;vertical-align:middle"&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br&gt;
+&lt;a href="https://servicos.gov.br/pagina-tematica/como-colocar-no-portal"&gt;
+&lt;button class="button"&gt;&lt;b&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;/button&gt;
+&lt;/a&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p style="font-size:80%;text-align:center;float:center"&gt;&lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;Veja aqui o índice completo do guia&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;p style="font-size:80%;text-align:center;float:center"&gt;&lt;a href="https://servicos.gov.br/"&gt;Voltar para Página Inicial do Portal&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;</conteudo>
     <dbId>270</dbId>
     <nome>Dados Básicos</nome>
