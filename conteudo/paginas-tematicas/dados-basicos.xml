@@ -34,7 +34,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;br&gt;    
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“RG”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“CTPS”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nomes Populares&lt;/b&gt;&lt;/p&gt;     
+&lt;div class="opc" style="position:absolute;top:400px;left:1050px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nomes Populares&lt;/b&gt;&lt;/p&gt;     
 &lt;br&gt;     
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Nomes pelos quais o serviço é conhecido pelos usuários, que possam ajudá-lo a encontrar a informação mais fácil no Portal&lt;/p&gt;&lt;/li&gt;     
 &lt;br&gt;        
