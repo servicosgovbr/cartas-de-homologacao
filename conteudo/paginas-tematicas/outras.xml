@@ -84,9 +84,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
-&lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;
-&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;
+&lt;div class="opc" style="position:absolute;top:750px;left:350px"&gt;&lt;div class="intr"&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Comentários sobre o tempo estimado&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;
@@ -104,9 +102,8 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/td&gt;
-&lt;td style="background-color:#FFE9E9;padding:10px;width:33%"&gt;
-&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;
+&lt;/div&gt;
+&lt;div class="obg" style="position:absolute;top:750px;left:700px"&gt;&lt;div class="intr"&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Segmentos da Sociedade&lt;/b&gt;&lt;/p&gt;
 &lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;      
@@ -128,9 +125,8 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/td&gt;
-&lt;td style="background-color:#FFE9E9;padding:10px;width:33%"&gt;
-&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;
+&lt;/div&gt;
+&lt;div class="obg" style="position:absolute;top:750px;left:1050px"&gt;&lt;div class="intr"&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Áreas de Interesse&lt;/b&gt;&lt;/p&gt;
 &lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
@@ -151,9 +147,9 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/td&gt; 
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;/div&gt; 
+&lt;br&gt;
+
 &lt;td style="background-color:#FFE9E9;padding:10px;width:33%"&gt;
 &lt;div style='border:1px solid black;padding:5px;height:320px'&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Palavras-Chave&lt;/b&gt;&lt;/p&gt;
