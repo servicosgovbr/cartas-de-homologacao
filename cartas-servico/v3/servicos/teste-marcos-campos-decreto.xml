@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-marcos-campos-decreto</id>
+    <dbId>1087</dbId>
+    <nome>teste Marcos campos decreto</nome>
+    <sigla>tmcd</sigla>
+    <nomes-populares>
+        <item id="925">teste</item>
+    </nomes-populares>
+    <descricao>testando</descricao>
+    <contato>Central</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="837">
+            <tipo>teste</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="40" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2031">
+            <titulo>teste</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <em-media max="30" unidade="meses"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2056" tipo="presencial" tempo-estimado-periodo="meses" tempo-estimado-espera="10">
+                        <descricao>leve sua própria barraca</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1934" dbId="36802">
+        <nomeOrgao>Instituto Nacional do Seguro Social (INSS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2353">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Emprego e previdência</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2503">teste</item>
+        <item id="2504">testes</item>
+        <item id="2505">testess</item>
+    </palavras-chave>
+    <condicoes-acessibilidade>acessível, sinais, limpo e confortável</condicoes-acessibilidade>
+    <tratamento-prioritario>idosos, portadores de necessidades especiais e grávidas.</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>o melhor possível</tratamento-dispensado-atendimento>
+</servico>
