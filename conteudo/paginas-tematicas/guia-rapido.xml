@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
     <conteudo>&lt;style&gt;
-.button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
+.button{float:center;margin:2px;width:350px;height:50px;background-color:#06acff;color:white;font-size:120%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer;text-align:center}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
 &lt;/style&gt;
