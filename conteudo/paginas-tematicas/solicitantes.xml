@@ -16,31 +16,23 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;table style="width:100%;font-family:tahoma;text-align:justify;border-spacing:5px"&gt;
-  &lt;tr&gt;
-&lt;td style="background-color:#FFE9E9;padding:10px;width:33%;bd:1"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Tipo de Solicitante&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+div class="obg" style="position:absolute;top:400px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Tipo de Solicitante&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;       
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Identificação do público alvo ou de um grupo que faça parte dele.&lt;/p&gt;&lt;/li&gt;     
-
-&amp;nbsp;        
+&lt;br&gt;       
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Identificação do grupo. Máximo de 500 caracteres.&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;     
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Jovens de 15 a 18 anos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Famílias de baixa renda”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Pessoas físicas”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
-&amp;nbsp;        
-&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Jovens de 15 a 18 anos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Famílias de baixa renda”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Pessoas físicas”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
-
- &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Requisitos necessários para o solicitante&lt;/b&gt;&lt;/p&gt;     
-
-&amp;nbsp;                       
-
-&amp;nbsp;        
+&lt;div class="opc" style="position:absolute;top:400px;left:700px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Requisitos necessários para o solicitante&lt;/b&gt;&lt;/p&gt;     
+&lt;br&gt;
+&lt;br&gt;       
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Características ou pré-requisitos que o integrante daquele grupo precisa ter para utilizar o serviço.&lt;/p&gt;&lt;/li&gt;     
-
-&amp;nbsp;        
+&lt;Br&gt;       
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Enumeração objetiva e clara dos pré-requisitos. Máximo de 1.000 caracteres&lt;/p&gt;&lt;/li&gt; 
-
-&amp;nbsp;        
-&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Ter renda de até dois salários mínimos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Ser brasileiro nato ou naturalizado”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;Br&gt;       
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Ter renda de até dois salários mínimos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Ser brasileiro nato ou naturalizado”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
