@@ -35,31 +35,31 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Documentos exigidos do usuário para realizar aquela etapa&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Apenas o nome do documento, com explicação sobre cópia e autenticação, se necessário. &lt;b&gt;Cada documento deve ser colocado em um campo próprio.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“RG”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“CPF”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Procuração autenticada em cartório”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;br&gt;
 
- &lt;tr&gt;
-   &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Nome do Custo)&lt;/b&gt;&lt;/p&gt;     
+&lt;div class="opc" style="position:absolute;top:750px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Nome do Custo)&lt;/b&gt;&lt;/p&gt;     
 &lt;br&gt;       
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Nome ou identificação da taxa que será cobrada naquela etapa.&lt;/p&gt;&lt;/li&gt;
 &lt;br&gt; 
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente o nome ou identificação, idealmente não mais que uma frase. Máximo de 150 caracteres.&lt;/p&gt;&lt;/li&gt;
 &lt;br&gt; 
-&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Taxa de Fiscalização”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Preço de reprodução de documentos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Custo de emissão”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Taxa de Fiscalização”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Preço de reprodução de documentos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Custo de emissão”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
-
- &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Fixo ou Variável)&lt;/b&gt;&lt;/p&gt;
+&lt;div class="opc" style="position:absolute;top:750px;left:700px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Fixo ou Variável)&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Identificação se a taxa tem um valor fixo ou se é calculada de acordo com as características do caso.&lt;/p&gt;&lt;/li&gt;
 &lt;br&gt;
-&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Caso o serviço tenha uma taxa ou tabela únicas, com valores definidos, escolher custo fixo. Caso contrário, escolher custo variável.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Caso o serviço tenha uma taxa ou tabela únicas, com valores definidos, escolher custo fixo. Caso contrário, escolher custo variável.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Moeda)&lt;/b&gt;&lt;/p&gt;
+&lt;div class="opc" style="position:absolute;top:750px;left:1050px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Moeda)&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;  
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Unidade Monetária em que a taxa do serviço é cobrada.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente o símbolo da moeda. Máximo de 3 caracteres. Por padrão é inicialmente preenchida com o símbolo do Real (R$)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“R$”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“€”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“$”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“R$”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“€”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“$”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;br&gt;
+
  &lt;td style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Valor Fixo)&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;
