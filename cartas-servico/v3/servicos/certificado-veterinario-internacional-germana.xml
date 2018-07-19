@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="864">
+        <solicitante id="868">
             <tipo>Qualquer cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2186">
+        <etapa id="2196">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,13 +35,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2252" tipo="web">
+                    <canal-de-prestacao id="2262" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2187">
+        <etapa id="2197">
             <titulo>Análise</titulo>
             <descricao>Web</descricao>
             <documentos>
@@ -52,13 +52,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2253" tipo="web">
+                    <canal-de-prestacao id="2263" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2188">
+        <etapa id="2198">
             <titulo>Emissão e Recebimento</titulo>
             <descricao></descricao>
             <documentos>
@@ -69,25 +69,25 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2254" tipo="web">
+                    <canal-de-prestacao id="2264" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
-        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2459">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2463">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2573">cvi</item>
-        <item id="2574">viagem</item>
-        <item id="2575">animal</item>
+        <item id="2585">cvi</item>
+        <item id="2586">viagem</item>
+        <item id="2587">animal</item>
     </palavras-chave>
 </servico>
