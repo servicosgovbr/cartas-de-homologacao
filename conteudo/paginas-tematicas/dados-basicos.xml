@@ -14,7 +14,7 @@
 &lt;br&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;br&gt;
-&lt;div style="background-color:#FFE9E9;padding:10px;width:33%;bd:1;border-radius:15px;position:absolute;top:400px;left:350px"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px;border-radius:15px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nome do Serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
+&lt;div style="background-color:#FFE9E9;padding:10px;width:20%;bd:1;border-radius:15px;position:absolute;top:400px;left:350px"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px;border-radius:15px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nome do Serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
 &lt;br&gt;        
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; A ação que o usuário pretende realizar&lt;/p&gt;&lt;/li&gt;     
 &lt;br&gt;        
