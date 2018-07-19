@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>certificado-veterinario-internacional-lindo</id>
+    <dbId>1111</dbId>
+    <nome>Certificado Veterinário Internacional - lindo</nome>
+    <sigla>CVI - lindo</sigla>
+    <nomes-populares>
+        <item id="929">CVI - lindo</item>
+    </nomes-populares>
+    <descricao>Emissão de certificados veterinários para cães e gatos</descricao>
+    <contato>Gibran baiano manseba</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.com.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="859">
+            <tipo>dono do bichinho</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="24" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>3</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2171">
+            <titulo>Solicitação</titulo>
+            <descricao>Solicita dados do requerente</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2237" tipo="web">
+                        <descricao>Portal de Serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2172">
+            <titulo>Análise</titulo>
+            <descricao>Analisa dados do bichinho e documentação em anexo</descricao>
+            <documentos>
+                <default>
+                    <item id="1612">nothing</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2238" tipo="web">
+                        <descricao>Portal de serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2173">
+            <titulo>Resultado</titulo>
+            <descricao>Emissão do certificado</descricao>
+            <documentos>
+                <default>
+                    <item id="1613">nothing</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2239" tipo="web">
+                        <descricao>Portal de Serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2454">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Lazer</item>
+        <item>Turismo</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2552">cães</item>
+        <item id="2553">certificado</item>
+        <item id="2554">gatos</item>
+    </palavras-chave>
+</servico>
