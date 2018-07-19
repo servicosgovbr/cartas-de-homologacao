@@ -84,13 +84,11 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Presencial”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Web”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;br&gt;
 
-&lt;td style="background-color:#FFE9E9;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Canais de Prestação da Etapa (“endereço”)&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;div class="obg" style="position:absolute;top:1450px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Canais de Prestação da Etapa (“endereço”)&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;“Endereço” do canal para realizar aquela etapa.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente o endereço, número, link para aplicativo ou url do canal onde se pode realizar a etapa. &lt;b&gt;Coloque somente um canal por campo&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“www.exemplo.com.br/inscrever”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Rua 123, Cidade, DF – CEP: 12345-678 ”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“www.exemplo.com.br/inscrever”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Rua 123, Cidade, DF – CEP: 12345-678 ”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;div style="float:center;text-align:center;margin:10px;position:absolute;top:1550px;left:750px"&gt;
 &lt;a href="https://servicos.gov.br/pagina-tematica/como-colocar-no-portal"&gt;
