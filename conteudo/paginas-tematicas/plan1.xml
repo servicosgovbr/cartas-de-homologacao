@@ -14,7 +14,7 @@
 &lt;br&gt;
 &lt;br&gt;
 &lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px"&gt;
-&lt;div style="width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:1px dotted #26357B;border-radius:15px"&gt;
+&lt;div style="width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:1px outset #26357B;border-radius:15px"&gt;
 &lt;p style="color:#26357B"&gt;&lt;b&gt;&lt;ins&gt;O planejamento é a fase mais importante da descrição de um serviço
 &lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
