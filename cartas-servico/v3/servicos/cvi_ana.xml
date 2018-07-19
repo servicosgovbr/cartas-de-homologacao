@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cvi_ana</id>
+    <dbId>1110</dbId>
+    <nome>CVI_Ana</nome>
+    <sigla>CVI_Ana</sigla>
+    <nomes-populares>
+        <item id="928">CVI_Ana</item>
+    </nomes-populares>
+    <descricao>Emissão de certificado para viagem internacional com animal de estimação (cão e gato)</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="856">
+            <tipo>Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="3" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>3</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2170">
+            <titulo>Solicitar</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2230" tipo="web">
+                        <descricao>Realize uma consulta nesta etapa</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2449">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Turismo</item>
+        <item>Serviços Públicos</item>
+        <item>Cidadania</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2543">CVI</item>
+        <item id="2544">cão</item>
+        <item id="2545">gato</item>
+    </palavras-chave>
+</servico>
