@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    <conteudo>&lt;style&gt;
+.button{margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
+.button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
+&lt;/style&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;br&gt;
 &lt;h2 style="color:#26357B;font-family:Tahoma;text-align:center;"&gt;O Editor de Serviços&lt;/h2&gt;  
 &lt;br&gt;
@@ -10,10 +14,10 @@
 &lt;br&gt;
 &lt;p&gt; O Editor é dividido em quatro grandes áreas, cada qual com um conjunto de campos para inserção de informação. Clique abaixo em cada área para conhecer os seus campos, como eles devem ser preenchidos e quais são de obrigatório preenchimento para a publicação:      
 &lt;br&gt;
-&lt;h3&gt;&lt;a href=https://servicos.gov.br/pagina-tematica/dados-basicos&gt;1. Dados Básicos&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a href=https://servicos.gov.br/pagina-tematica/solicitantes&gt;2. Solicitantes&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a href=https://servicos.gov.br/pagina-tematica/etapas-dos-servicos&gt;3. Etapas dos Serviços&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a href=https://servicos.gov.br/pagina-tematica/outras-informacoes&gt;4.Outras Informações&lt;/a&gt;&lt;/h3&gt;
+&lt;a href=https://servicos.gov.br/pagina-tematica/dados-basicos&gt;&lt;button class="button"&gt;Dados Básicos&lt;/button&gt;&lt;/a&gt;
+&lt;a href=https://servicos.gov.br/pagina-tematica/solicitantes&gt;&lt;button class="button"&gt;Solicitantes&lt;/button&gt;&lt;/a&gt;
+&lt;a href=https://servicos.gov.br/pagina-tematica/etapas-dos-servicos&gt;&lt;button class="button"&gt;Etapas dos Serviços&lt;/button&gt;&lt;/a&gt;
+&lt;a href=https://servicos.gov.br/pagina-tematica/outras-informacoes&gt;&lt;button class="button"&gt;Outras Informações&lt;/button&gt;&lt;/a&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
