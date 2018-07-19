@@ -5,7 +5,7 @@
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
 div.obg{background-color:#FFE9E9;padding:10px;width:20%;bd:1;border-radius:15px}
-div.intr{border:1px solid black;padding:5px;height:320px;border-radius:15px}
+div.intr{border:1px solid black;padding:5px;height:320px;border-radius:15px;text-align:justify}
 div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
