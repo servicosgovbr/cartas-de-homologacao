@@ -19,7 +19,7 @@ div.exp{background-color:#D4F0F7;text-align:justify;padding:10px}
 &lt;br&gt;   
 &lt;h3 style="color:#26357B;font-family:'atma';text-align:left;font-size:120%;"&gt;&lt;b&gt;&lt;ins&gt;Precisa ter:&lt;/ins&gt;&lt;/b&gt;&lt;/h3&gt;
 &lt;br&gt;
-&lt;p class="prgsim"&gt;&lt;strong&gt;1. Interação&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="prgsim"&gt;&lt;strong&gt;1. Interação&lt;/strong&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;É um serviço que só pode ser prestado com a colaboração do usuário&lt;/p&gt;
 &lt;br&gt;
