@@ -59,6 +59,21 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Este campo deve ser preenchido apenas em serviços que gerem de algum tipo de documento ou autorização para o usuário. Se tiver um prazo de validade, deve ser informado o tempo deste. Se não, deve ser escolhida a opção “sem validade”&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;br&gt;
 
+&lt;div class="opc" style="position:absolute;top:1200px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Informações Adicionais ao Tempo de validade&lt;/b&gt;&lt;/p&gt;     
+&lt;Br&gt;       
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Informações adicionais relativas ao tempo de validade, se houverem.&lt;/p&gt;&lt;/li&gt;  
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Um parágrafo, apenas com as informações relativas à validade. Máximo de 500 caracteres.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“A validade pode ser prorrogada por mais 2 anos”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Para idosos acima de 65 anos não há validade”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;td style="background-color:#FFE9E9;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Gratuidade deste serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
+&lt;br&gt;     
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Indicação se o usuário precisar pagar alguma taxa ou preço para utilizar o serviço ou alguma parte dele.&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;      
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Marcação Simples. Deve ser marcado apenas se há taxas &lt;b&gt;que ele precisa pagar para receber o serviço&lt;/b&gt;. Caso seja marcada a opção “tem custo”, aparecerão nas etapas a opção “Custo da etapa”&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;td style="text-align:center;vertical-align:middle"&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;br&gt;
 &lt;br&gt;
