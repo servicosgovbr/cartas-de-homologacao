@@ -13,6 +13,34 @@
 &lt;br&gt;
 &lt;br&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;br&gt;
+&lt;div style="background-color:#FFE9E9;padding:10px;width:33%;bd:1;border-radius:15px"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px;border-radius:15px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nome do Serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
+&lt;br&gt;        
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; A ação que o usuário pretende realizar&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;        
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Verbo no infinitivo + &lt;/p&gt;&lt;p style="padding-left:23px"&gt;predicado desejado pelo usuário.&lt;/p&gt; &lt;p style="padding-left:23px"&gt;Máximo de 150 caracteres.&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;       
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Obter segunda via de conta d’água”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Fazer o vestibular”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Sigla do Serviço&lt;/b&gt;&lt;/p&gt;     
+&lt;Br&gt;
+&lt;br&gt;    
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Sigla oficial ou sigla pelo qual o serviço é conhecido (somente se existir)&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;       
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Apenas sigla, máximo de 15 caracteres&lt;/p&gt;&lt;/li&gt; 
+&lt;br&gt;    
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“RG”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“CTPS”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style="background-color:#E4F9FF;padding:10px;width:33%"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nomes Populares&lt;/b&gt;&lt;/p&gt;     
+&lt;br&gt;     
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Nomes pelos quais o serviço é conhecido pelos usuários, que possam ajudá-lo a encontrar a informação mais fácil no Portal&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;        
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Livre, mas deve ser um nome por campo&lt;/p&gt;&lt;/li&gt;     
+&lt;br&gt;      
+&lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Tirar a Carteira de Motorista”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“Tirar o habite-se”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;  
+
+&lt;br&gt;
+&lt;br&gt;
 &lt;table style="width:100%;font-family:tahoma;text-align:justify;border-spacing:5px"&gt;
   &lt;tr&gt;
     &lt;td style="background-color:#FFE9E9;padding:10px;width:33%;bd:1;border-radius:15px"&gt;&lt;div style='border:1px solid black;padding:5px;height:320px;border-radius:15px'&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Nome do Serviço&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;     
