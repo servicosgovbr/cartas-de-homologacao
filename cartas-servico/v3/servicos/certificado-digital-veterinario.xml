@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>certificado-digital-veterinario</id>
+    <dbId>1109</dbId>
+    <nome>Certificado Digital Veterinário</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="927">teste</item>
+    </nomes-populares>
+    <descricao>teste</descricao>
+    <contato>fulano</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="854">
+            <tipo>teset</tipo>
+            <requisitos>teste</requisitos>
+        </solicitante>
+        <solicitante id="855">
+            <tipo>tese</tipo>
+            <requisitos>Requisitos necessários para o solicitante 2</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao>teste</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2169">
+            <titulo>etapa 1</titulo>
+            <descricao>teste descrição etapa 1</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2229" tipo="sms">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2228" tipo="e-mail">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2448">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2539">teste</item>
+        <item id="2540">Palavras-chave</item>
+        <item id="2541">-chave</item>
+        <item id="2542">Palavras-</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="707">563456</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>1023</item>
+    </servicos-relacionados>
+</servico>
