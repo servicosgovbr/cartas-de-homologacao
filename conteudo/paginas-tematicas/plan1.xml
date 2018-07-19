@@ -5,7 +5,6 @@
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
 div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:5px ridge #06acff;border-radius:15px}
-.prg{padding:5px;color:white}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;div style="height:800px;font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px;padding-top:0px"&gt;
@@ -35,12 +34,12 @@ div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:c
 &lt;/p&gt;
 &lt;br&gt;
 &lt;div style="text-align:justify"&gt;
-&lt;p class=prg"&gt;1. Qual é o meu público-alvo?&lt;/p&gt;
-&lt;p class=prg"&gt;2. O que meu público-alvo já sabe sobre o assunto?&lt;/p&gt;
-&lt;p class=prg"&gt;3. O que meu público-alvo precisa saber sobre o assunto?&lt;/p&gt;
-&lt;p class=prg"&gt;4. Que dúvidas meu público-alvo terá?&lt;/p&gt;
-&lt;p class=prg"&gt;5. Qual é o resultado desejado pelo meu órgão e o que eu preciso informar para chegar a este resultado?&lt;/p&gt;
-&lt;p class=prg"&gt;6. Qual é o resultado desejado pelo meu público-alvo e o que eu preciso informar para chegar a este resultado?&lt;/p&gt;
+&lt;p style="padding:5px;color:white"&gt;1. Qual é o meu público-alvo?&lt;/p&gt;
+&lt;p style="padding:5px;color:white"&gt;2. O que meu público-alvo já sabe sobre o assunto?&lt;/p&gt;
+&lt;p style="padding:5px;color:white"&gt;3. O que meu público-alvo precisa saber sobre o assunto?&lt;/p&gt;
+&lt;p style="padding:5px;color:white"&gt;4. Que dúvidas meu público-alvo terá?&lt;/p&gt;
+&lt;p style="padding:5px;color:white"&gt;5. Qual é o resultado desejado pelo meu órgão e o que eu preciso informar para chegar a este resultado?&lt;/p&gt;
+&lt;p style="padding:5px;color:white"&gt;6. Qual é o resultado desejado pelo meu público-alvo e o que eu preciso informar para chegar a este resultado?&lt;/p&gt;
 &lt;/div&gt;
 &lt;p style="font-size:70%;text-align:right;padding:2px;color:white"&gt;&lt;i&gt;Fonte: “Plain: Federal Plain Language Guidelines”, March 2011&lt;/i&gt;&lt;/p&gt;
 &lt;/div&gt;
