@@ -5,7 +5,7 @@
     <nome>CVI DA JORDANA</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="933">CVI</item>
+        <item id="942">CVI</item>
     </nomes-populares>
     <descricao>O trânsito de cães e gatos entre países exige documento emitido pela autoridade veterinária do país de origem e aceito pelos países de destino que ateste as condições e o histórico de saúde do animal de estimação, bem como o atendimento às exigências sanitárias do país de destino. No Brasil, o documento utilizado para essa finalidade é o CVI (Certificado Veterinário Internacional), que é expedido por Auditores Fiscais Federais Agropecuários – Médicos Veterinários - das unidades de Vigilância Agropecuária Internacional (Vigiagro), vinculadas à Secretaria de Defesa Agropecuária (SDA) do Ministério da Agricultura, Pecuária e Abastecimento (MAPA). Cada país tem requisitos específicos para autorizar o ingresso de cães e gatos no seu território. Com a automação desse processo, agora é possível a emissão online do Certificado Veterinário Internacional, com assinatura digital do Auditor Fiscal Federal Agropecuário, ou seja, sem a necessidade de deslocamento para solicitar e receber o documento. De início, a solicitação pode ser feita por meio digital se a viagem for para os Estados Unidos e em breve será expandida para outros países.
 
@@ -24,9 +24,9 @@ Para obter mais detalhes sobre o funcionamento do e-CVI, consulte o Manual de Ac
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="865">
+        <solicitante id="877">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -39,7 +39,7 @@ Para obter mais detalhes sobre o funcionamento do e-CVI, consulte o Manual de Ac
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2189">
+        <etapa id="2221">
             <titulo>Solicitar</titulo>
             <descricao></descricao>
             <documentos>
@@ -50,13 +50,13 @@ Para obter mais detalhes sobre o funcionamento do e-CVI, consulte o Manual de Ac
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2255" tipo="web">
+                    <canal-de-prestacao id="2292" tipo="web">
                         <descricao>clique em solicitar</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2190">
+        <etapa id="2222">
             <titulo>Análise</titulo>
             <descricao></descricao>
             <documentos>
@@ -67,13 +67,13 @@ Para obter mais detalhes sobre o funcionamento do e-CVI, consulte o Manual de Ac
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2256" tipo="web">
+                    <canal-de-prestacao id="2293" tipo="web">
                         <descricao>clique em solicitar</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2191">
+        <etapa id="2223">
             <titulo>Certificado</titulo>
             <descricao></descricao>
             <documentos>
@@ -84,7 +84,7 @@ Para obter mais detalhes sobre o funcionamento do e-CVI, consulte o Manual de Ac
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2257" tipo="web">
+                    <canal-de-prestacao id="2294" tipo="web">
                         <descricao>clique em solicitar</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -95,14 +95,14 @@ Para obter mais detalhes sobre o funcionamento do e-CVI, consulte o Manual de Ac
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2460">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2482">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2576">CVI</item>
-        <item id="2577">CVI</item>
-        <item id="2578">CVI</item>
+        <item id="2612">CVI</item>
+        <item id="2613">CVI</item>
+        <item id="2614">CVI</item>
     </palavras-chave>
 </servico>
