@@ -9,9 +9,9 @@
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="868">
+        <solicitante id="879">
             <tipo>Qualquer cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2196">
+        <etapa id="2227">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,13 +35,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2262" tipo="web">
+                    <canal-de-prestacao id="2295" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2197">
+        <etapa id="2228">
             <titulo>Análise</titulo>
             <descricao>Web</descricao>
             <documentos>
@@ -52,13 +52,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2263" tipo="web">
+                    <canal-de-prestacao id="2296" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2198">
+        <etapa id="2229">
             <titulo>Emissão e Recebimento</titulo>
             <descricao></descricao>
             <documentos>
@@ -69,7 +69,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2264" tipo="web">
+                    <canal-de-prestacao id="2297" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -80,14 +80,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2463">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2484">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2585">cvi</item>
-        <item id="2586">viagem</item>
-        <item id="2587">animal</item>
+        <item id="2618">cvi</item>
+        <item id="2619">viagem</item>
+        <item id="2620">animal</item>
     </palavras-chave>
 </servico>
