@@ -14,7 +14,7 @@ div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0p
 &lt;/div&gt;
 &lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px"&gt;
 &lt;div class="box"&gt;
-&lt;p style="color:#26357B;line-height:140%"&gt;
+&lt;p style="color:#26357B;line-height: 1.8"&gt;
 &lt;b&gt;&lt;ins&gt;Palavras Importam&lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
 &lt;p style="line-height:1.4"&gt; Cuidado ao escolhê-las.&lt;/p&gt;
