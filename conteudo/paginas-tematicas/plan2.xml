@@ -55,13 +55,13 @@ O ideal é que cada parágrafo não tenha mais que 150 palavras divididas entre 
 &lt;br&gt;
 &lt;div style="float:left;text-align:center;margin-left:25%"&gt;
 &lt;a href="https://servicos.gov.br/pagina-tematica/planejando"&gt;
-&lt;button style="margin:2px;width:200px;height:50px;background-color:#D3D5D6;color:#023B52;font-size:150%"&gt;&lt;b&gt;Anterior&lt;/b&gt;
+&lt;button class="button"&gt;&lt;b&gt;Anterior&lt;/b&gt;
 &lt;/button&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 &lt;div style="float:right;text-align:center;margin-right:25%"&gt;
 &lt;a href="https://servicos.gov.br/pagina-tematica/escrevendo"&gt;
-&lt;button style="margin:2px;width:200px;height:50px;background-color:#D3D5D6;color:#023B52;font-size:150%"&gt;&lt;b&gt;Próxima&lt;/b&gt;
+&lt;button class="button"&gt;&lt;b&gt;Próxima&lt;/b&gt;
 &lt;/button&gt;
 &lt;/a&gt;
 &lt;/div&gt;
