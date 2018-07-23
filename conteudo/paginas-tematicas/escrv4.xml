@@ -13,20 +13,6 @@ div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0p
 &lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;div class="box" style="position:absolute;top:50%;right:5%"&gt;
-&lt;p style="color:#26357B;text-align:center"&gt;&lt;b&gt;&lt;ins&gt;Você Sabia?&lt;/ins&gt;&lt;/b&gt;
-&lt;/p&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Usuários lêem, em média, apenas 18% do conteúdo escrito de uma página web. E esta
-porcentagem tende a diminuir na medida que o número de palavras cresce.&lt;/li&gt;
-&lt;li&gt;Usuários olham a página em um padrão “F”, tendo maior foco na parte superior esquerda
-da página e nas primeiras palavras de cada sentença ou lista.&lt;/li&gt;
-&lt;li&gt;Ou usuários levam, em média, 5 segundo após entrar em uma página para decidir se a
-mesma é ou não útil.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p  style="font-size:80%;text-align:right"&gt;&lt;i&gt;Fonte: NIELSEN, Jakob, How little do users read? May 6th, 2008&lt;/i&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px"&gt;
 &lt;br&gt;
 &lt;h3 style="color:#26357B;text-align:left"&gt;3. Detalhes muitas das vezes são o que diferenciam um bom de um mal serviço...&lt;/h3&gt;
@@ -40,6 +26,20 @@ mesma é ou não útil.&lt;/li&gt;
 &lt;font color="#6D0821"&gt;&lt;b&gt;Não use barras&lt;/b&gt;&lt;/font&gt;. Elas não têm praticamente nenhum bom uso, a não ser no caso de frações e links, e na internet podem causar erros no carregamento ou  formatação da informação. Não escreva “e/ou”. Defina se deve ser “e” ou deve ser “ou” e, nos poucos casos em que sejam ambos, use “x, ou y, ou ambos”. No caso de termos aparentados (“relação pai-filho”), use o hífen. 
 &lt;/li&gt;
 &lt;br&gt;
+&lt;div class="box"&gt;
+&lt;p style="color:#26357B;text-align:center"&gt;&lt;b&gt;&lt;ins&gt;Você Sabia?&lt;/ins&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Usuários lêem, em média, apenas 18% do conteúdo escrito de uma página web. E esta
+porcentagem tende a diminuir na medida que o número de palavras cresce.&lt;/li&gt;
+&lt;li&gt;Usuários olham a página em um padrão “F”, tendo maior foco na parte superior esquerda
+da página e nas primeiras palavras de cada sentença ou lista.&lt;/li&gt;
+&lt;li&gt;Ou usuários levam, em média, 5 segundo após entrar em uma página para decidir se a
+mesma é ou não útil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p  style="font-size:80%;text-align:right"&gt;&lt;i&gt;Fonte: NIELSEN, Jakob, How little do users read? May 6th, 2008&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;li&gt;
 &lt;font color="#6D0821"&gt;&lt;b&gt;Deixe claro, logo no início do texto, do que ele trata&lt;/b&gt;&lt;/font&gt;.  Os usuários visitam a página com uma atividade específica na cabeça. Se julgarem que a página não os ajudará, eles a abandonarão. Deixe claro, desde o início, em que tarefas ela poderá ajudá-lo.
 &lt;/li&gt;
