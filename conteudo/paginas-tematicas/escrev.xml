@@ -12,9 +12,6 @@ div.box2{width:50%;text-align:justify;float:right;margin:10px;margin-top:0px;pad
 &lt;div style="float:left;margin-bottom:5%;margin-top:0%"&gt;
 &lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
 &lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px"&gt;
 &lt;div class="box"&gt;
 &lt;p style="color:#26357B"&gt;
