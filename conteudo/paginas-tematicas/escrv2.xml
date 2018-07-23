@@ -25,7 +25,7 @@ div.box2{width:50%;text-align:center;float:right;margin:10px;margin-top:0px;padd
 &lt;font color="#6D0821"&gt;&lt;b&gt;Deixe condições sempre claras e explícitas&lt;/b&gt;&lt;/font&gt;. Não assuma que o usuário já saiba ou que tenha lido a legislação.
 &lt;/li&gt;
 &lt;br&gt;
-&lt;div style="width:40%;text-align:center;float:right;margin-left:15px;padding:15px;border:4px dashed #CD1408"&gt;
+&lt;div class="box2"&gt;
 &lt;p style="color:#CD1408"&gt;&lt;b&gt;Evite o negativo&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt; O cérebro humano processa a informação primeiro, e só depois acrescenta o negativo. 
