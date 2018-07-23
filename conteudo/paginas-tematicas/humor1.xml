@@ -4,8 +4,8 @@
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
-div.box2{width:50%;color:#26357B;text-align:center;float:right;padding:5px}
-div.box{width:50%;color:#26357B;text-align:center;float:left;padding:5px}
+div.box2{width:50%;color:#26357B;text-align:justify;float:right;padding:5px}
+div.box{width:50%;color:#26357B;text-align:justify;float:left;padding:5px}
 &lt;/style&gt;
 &lt;meta name=_"viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;div style="height:800px;font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px;padding-top:0px"&gt;
