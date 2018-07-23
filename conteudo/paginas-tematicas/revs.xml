@@ -54,11 +54,11 @@ div.box2{width:70%;text-align:center;float:center;margin:15%;margin-top:0px;marg
 &lt;br&gt;
 &lt;table&gt;
 &lt;tr&gt;
-&lt;th style="width:30%;padding:10px;border:4px dashed #26357B;text-align:center;vertical-align:middle"&gt;Encontrem o que precisam&lt;/th&gt;
+&lt;th style="width:30%;padding:10px;border:4px dashed #26357B;text-align:center;vertical-align:middle;border-radius:15px"&gt;Encontrem o que precisam&lt;/th&gt;
 &lt;th style="width:5%;padding:10px;padding-bottom:17px;text-align:center;vertical-align:middle;color:#26357B;font-size:300%"&gt;&amp;#8594&lt;/th&gt;
-&lt;th style="width:30%;padding:10px;border:4px dashed #26357B;text-align:center;vertical-align:middle"&gt;Entendam o que encontrarem&lt;/th&gt;
+&lt;th style="width:30%;padding:10px;border:4px dashed #26357B;text-align:center;vertical-align:middle;border-radius:15px"&gt;Entendam o que encontrarem&lt;/th&gt;
 &lt;th style="width:5%;padding:10px;padding-bottom:17px;text-align:center;vertical-align:middle;color:#26357B;font-size:300%"&gt;&amp;#8594&lt;/th&gt;
-&lt;th style="width:30%;padding:10px;border:4px dashed #26357B;text-align:center;vertical-align:middle"&gt;Usem o que eles encontrarem para atender às suas necessidades&lt;/th&gt;
+&lt;th style="width:30%;padding:10px;border:4px dashed #26357B;text-align:center;vertical-align:middle;border-radius:15px"&gt;Usem o que eles encontrarem para atender às suas necessidades&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br&gt;
