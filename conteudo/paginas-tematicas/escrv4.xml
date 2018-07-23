@@ -29,7 +29,7 @@ div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0p
 &lt;li&gt;
 &lt;font color="#6D0821"&gt;&lt;b&gt;Deixe claro, logo no início do texto, do que ele trata&lt;/b&gt;&lt;/font&gt;.  Os usuários visitam a página com uma atividade específica na cabeça. Se julgarem que a página não os ajudará, eles a abandonarão. Deixe claro, desde o início, em que tarefas ela poderá ajudá-lo.
 &lt;/li&gt;
-&lt;div class="box"&gt;
+&lt;div class="box" style="position:absolute;top:25%;right:1%"&gt;
 &lt;p style="color:#26357B;text-align:center"&gt;&lt;b&gt;&lt;ins&gt;Você Sabia?&lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
 &lt;br&gt;
