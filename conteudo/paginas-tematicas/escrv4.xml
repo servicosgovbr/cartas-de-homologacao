@@ -15,7 +15,7 @@ div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0p
 &lt;br&gt;
 &lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px"&gt;
 &lt;br&gt;
-&lt;div class="box" style="position:absolute;top:50%;right:20%"&gt;
+&lt;div class="box" style="position:absolute;top:50%;right:5%"&gt;
 &lt;p style="color:#26357B;text-align:center"&gt;&lt;b&gt;&lt;ins&gt;Você Sabia?&lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
 &lt;br&gt;
