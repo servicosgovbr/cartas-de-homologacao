@@ -26,7 +26,7 @@ div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0p
 &lt;font color="#6D0821"&gt;&lt;b&gt;Não use barras&lt;/b&gt;&lt;/font&gt;. Elas não têm praticamente nenhum bom uso, a não ser no caso de frações e links, e na internet podem causar erros no carregamento ou  formatação da informação. Não escreva “e/ou”. Defina se deve ser “e” ou deve ser “ou” e, nos poucos casos em que sejam ambos, use “x, ou y, ou ambos”. No caso de termos aparentados (“relação pai-filho”), use o hífen. 
 &lt;/li&gt;
 &lt;br&gt;
-&lt;div class="box"&gt;
+&lt;div class="box2"&gt;
 &lt;p style="color:#26357B;text-align:center"&gt;&lt;b&gt;&lt;ins&gt;Você Sabia?&lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
 &lt;br&gt;
