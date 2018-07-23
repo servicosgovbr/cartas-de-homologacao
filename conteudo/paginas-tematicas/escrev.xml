@@ -5,6 +5,7 @@
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
 div.box{width:70%;heigth:10%;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:5px ridge #06acff;border-radius:15px}
+div.box2{width:50%;text-align:justify;float:right;margin:10px;margin-top:0px;padding:5px;border:5px dashed red;border-radius:15px;font-family:Arial}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;div style="height:800px;font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px;padding-top:0px"&gt;
@@ -39,7 +40,7 @@ b) Ajudará &lt;b&gt;você&lt;/b&gt; a listar as informações de forma lógica,
 &lt;font color="#6D0821"&gt;&lt;b&gt;Seja assertivo e use voz ativa&lt;/b&gt;&lt;/font&gt;. Defina claramente suas informações. Evite expressões dúbias ou vagas.
 &lt;/li&gt;
 &lt;br&gt;
-&lt;div style="width:40%;text-align:center;float:right;margin-left:15px;padding:15px;border:4px dashed #CD1408"&gt;
+&lt;div class="box2"&gt;
 &lt;p style="color:#CD1408"&gt;&lt;b&gt;Não deixe complexo o que é simples&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;A linguagem direta (sujeito-verbo-predicado) é a mais simples existente, e também a que melhor transmite ideias e informações.
