@@ -12,12 +12,11 @@ div.box{text-align:justify;padding:1px}
 &lt;a href="https://www.servicos.gov.br/pagina-tematica/guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-arrow-left icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;div style="font-size:110%;font-family:'Comic Sans MS', cursive, sans-serif;text-align:justify"&gt;
+&lt;div style="font-size:110%;font-family:'Comic Sans MS', cursive, sans-serif;text-align:justify;line-height:1.5"&gt;
 &lt;h3 style="color:#26357B;text-align:center"&gt;Faça o que eu digo...&lt;/h3&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-
 Abandone As Aliterações. Agora.
 Preposições não são palavras que se deve terminar frases com.
 Evite clichês como o diabo foge da cruz (eles são piores que raposa no galinheiro)
