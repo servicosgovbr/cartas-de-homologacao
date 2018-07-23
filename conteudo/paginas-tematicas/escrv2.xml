@@ -4,7 +4,7 @@
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
-div.box{width:70%;heigth:10%;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:5px ridge #06acff;border-radius:15px}
+div.box{width:70%;heigth:10%;color:#26357B;text-align:justify;float:center;margin-left:15%;margin-right:25%;padding:5px;border:5px ridge #06acff;border-radius:15px}
 div.box2{width:50%;text-align:center;float:right;margin:10px;margin-top:0px;padding:5px;border:5px dashed red;border-radius:15px;font-family:Arial}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
@@ -61,7 +61,7 @@ Não coloque o texto em letras maiúsculas e nem utilize o sublinhado. As letras
 &lt;p&gt;Tome especial cuidado com frases que contenham &lt;b&gt;duplo negativo&lt;/b&gt; ou &lt;b&gt;exceções à exceção&lt;/b&gt;.
 &lt;br&gt;
 &lt;br&gt;
- Em ambos os casos, há um negativo anulando o outro, o que cria uma frase que é na verdade afirmativa, mas escrita em discurso negativo. 
+Em ambos os casos, há um negativo anulando o outro, o que cria uma frase que é na verdade afirmativa, mas escrita em discurso negativo. 
 &lt;br&gt;
 &lt;br&gt;
 Ao ler frases assim, o cérebro processa a frase, depois processa a negação daquela frase e então é obrigado a processar a negação da negação. 
