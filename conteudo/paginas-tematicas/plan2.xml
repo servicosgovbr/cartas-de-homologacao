@@ -22,7 +22,7 @@ div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:c
 &lt;font color="#6D0821"&gt;&lt;b&gt;Defina a estrutura do seu texto antes de escrevê-lo.&lt;/b&gt;&lt;/font&gt;. Planeje ele de modo que fique claro e facilmente inteligível para todos. Evite ao máximo criar itens e subitens.
 &lt;/li&gt;
 &lt;br&gt;
-&lt;div style="width:50%;text-align:justify;float:right;margin-left:10px;padding:5px;border:5px dashed red;border-radius:15px;font-family:Arial"&gt;
+&lt;div style="width:50%;text-align:justify;float:right;margin-left:10px;margin:2px;padding:5px;border:5px dashed red;border-radius:15px;font-family:Arial"&gt;
 &lt;p style="color:#CD1408;text-align:center"&gt;&lt;b&gt;Escreva parágrafos pequenos. &lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;Parágrafos pequenos são mais fáceis de entender e organizar, criam mais espaços em branco e despertam mais interesse no cidadão. 
