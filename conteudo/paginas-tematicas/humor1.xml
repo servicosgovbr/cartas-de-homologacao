@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;
-&lt;style&gt;
+    <conteudo>&lt;style&gt;
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
@@ -18,7 +17,7 @@ div.box{text-align:justify;padding:1px}
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;div class=“box”&gt;&lt;i class=“glyphicon glyphicon-remove”&gt;
+&lt;div class=“box”&gt;&lt;i class="fa-li fa fa-square"&gt;&lt;/i&gt;
 Abandone As Aliterações. Agora.&lt;/div&gt;
 &lt;div class=“box”&gt;&lt;i class=“glyphicon glyphicon-remove”&gt;Preposições não são palavras que se deve terminar frases com.&lt;/div&gt;
 &lt;div class=“box”&gt;&lt;i class=“glyphicon glyphicon-remove”&gt;Evite clichês como o diabo foge da cruz (eles são piores que raposa no galinheiro)&lt;/div&gt;
