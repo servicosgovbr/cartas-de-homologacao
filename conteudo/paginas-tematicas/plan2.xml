@@ -13,7 +13,8 @@ div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:c
 &lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px"&gt;
+&lt;br&gt;
+&lt;div style="font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:10px"&gt;
 &lt;h3 style="color:#26357B;text-align:left"&gt;2. Organização é a chave&lt;/h3&gt;
 &lt;br&gt;
 &lt;ul&gt;
