@@ -4,7 +4,7 @@
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
-div.box{width:70%;heigth:10%;margin-left:20px;color:#26357B;text-align:right;float:right;padding:5px;border:5px ridge #06acff;border-radius:15px}
+div.box{width:70%;heigth:10%;margin-left:20px;color:#26357B;text-align:center;float:right;padding:5px;border:5px ridge #06acff;border-radius:15px}
 div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0px;padding:5px;border:5px dashed red;border-radius:15px;font-family:Arial}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
@@ -21,6 +21,7 @@ div.box2{width:50%;text-align:justify;margin:25%;margin-top:0px;margin-bottom:0p
 &lt;li&gt;
 &lt;font color="#6D0821"&gt;&lt;b&gt;Use muitas vírgulas&lt;/b&gt;&lt;/font&gt;:  As pausas deixam a leitura menos cansativa e favorecem um melhor entendimento do texto. Mas tome cuidado para colocar as vírgulas nos lugares certos.
 &lt;/li&gt;
+&lt;br&gt;
 &lt;li&gt;
 &lt;font color="#6D0821"&gt;&lt;b&gt;Não use barras&lt;/b&gt;&lt;/font&gt;. Elas não têm praticamente nenhum bom uso, a não ser no caso de frações e links, e na internet podem causar erros no carregamento ou  formatação da informação. Não escreva “e/ou”. Defina se deve ser “e” ou deve ser “ou” e, nos poucos casos em que sejam ambos, use “x, ou y, ou ambos”. No caso de termos aparentados (“relação pai-filho”), use o hífen. 
 &lt;/li&gt;
