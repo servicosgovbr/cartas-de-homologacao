@@ -4,7 +4,8 @@
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
-div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:5px ridge #06acff;border-radius:15px}
+div.box{width:70%;heigth:10%;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:25%;padding:5px;border:5px ridge #06acff;border-radius:15px}
+div.box2{width:50%;text-align:center;float:right;margin:10px;margin-top:0px;padding:5px;border:5px dashed red;border-radius:15px;font-family:Arial}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;div style="height:800px;font-family:Tahoma, Geneva, sans-serif;text-align:justify;padding:20px;padding-top:0px"&gt;
@@ -34,7 +35,7 @@ div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:c
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;div align="center" style="width:70%;color:#26357B;text-align:center;float:center;margin-left:15%;margin-right:10%;padding:15px;border:4px dashed #CD1408"&gt;
+&lt;div class="box2"&gt;
 &lt;p style="color:#26357B;text-align:center"&gt;&lt;b&gt;&lt;ins&gt;Tarefas a realizar durante a revisão:&lt;/ins&gt;&lt;/b&gt;
 &lt;/p&gt;
 &lt;br&gt;
