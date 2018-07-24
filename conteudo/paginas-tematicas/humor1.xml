@@ -19,6 +19,7 @@ div.box2{width:50%;padding:20px;padding-top:5px;padding-bottom:5px;text-align:ju
 &lt;h3 style="color:#26357B;text-align:center"&gt;Faça o que eu digo...&lt;/h3&gt;
 &lt;br&gt;
 &lt;br&gt;
+&lt;div&gt;
 &lt;ul&gt;
 &lt;div class="box"&gt;&lt;li&gt;Abandone As Aliterações. Agora.&lt;/li&gt;&lt;/div&gt;
 &lt;div class="box2"&gt;&lt;li&gt;Preposições não são palavras que se deve terminar frases com.&lt;/li&gt;&lt;/div&gt;
@@ -62,6 +63,7 @@ div.box2{width:50%;padding:20px;padding-top:5px;padding-bottom:5px;text-align:ju
 &lt;div class="box"&gt;&lt;li&gt;Relendo seu material, você poderá encontrar na releitura muitas repetições que na releitura você será capaz de eliminar na edição depois da releitura.&lt;/li&gt;&lt;/div&gt;
 &lt;div class="box2"&gt;&lt;li&gt;E por fim, tenha sempre certeza de finalizar suas&lt;/li&gt;&lt;/div&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;/div&gt;
