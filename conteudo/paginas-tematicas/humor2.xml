@@ -21,7 +21,7 @@ div.box{width:70%;padding:10px;margin:5px;border: 1px solid #E3E19F;background-c
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p style="color:#6D0821;font-size:105%;margin-left:15%"&gt;&lt;b&gt;1º passo:&lt;/b&gt;&lt;/p&gt; &lt;p style="color:#26357B"&gt;&lt;b&gt;Pegue um texto simples, com duas frases.&lt;/b&gt;&lt;/p&gt;
+&lt;p style="color:#6D0821;font-size:105%"&gt;&lt;b&gt;1º passo:&lt;/b&gt;&lt;/p&gt; &lt;p style="color:#26357B"&gt;&lt;b&gt;Pegue um texto simples, com duas frases.&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;div class="box"&gt;
