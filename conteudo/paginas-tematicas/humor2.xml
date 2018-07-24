@@ -20,11 +20,10 @@ div.box{width:70%;heigth:10%;background-color:#E8F7FD;color:#26357B;text-align:c
 &lt;h2 style="color:#26357B;text-align:center"&gt;Como transformar uma frase em um texto em 5 passos&lt;/h2&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p style="font-size:110%;color:#6D0821;margin-left:15%"&gt;Em um dia normal na empresa Easyhaters S.A:&lt;/p&gt;
 &lt;br&gt;
+&lt;p style="color:#26357B;font-size:105%;margin-left:15%"&gt;&lt;b&gt;1º passo: Pegue um texto simples, com duas frases:&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;br&gt;
-&lt;p style="color:#26357B;font-size:105%;margin-left:15%"&gt;&lt;b&gt;1.Do motoboy para o coordenador de entregas:&lt;/b&gt;&lt;/p&gt;
+&lt;i&gt;Do motoboy para o coordenador de entregas:&lt;/i&gt;
 &lt;br&gt;
 &lt;div style="width:70%;padding:10px;margin:5px;border: 1px solid #E3E19F;background-color:#FFFECE;font-family:Snell Roundhand, cursive;font-size:150%;margin-left:15%"&gt;
 &lt;p&gt;Nilson,
