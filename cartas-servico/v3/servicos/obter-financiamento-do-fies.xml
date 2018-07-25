@@ -6,6 +6,7 @@
     <sigla>FIES</sigla>
     <descricao>&lt;style&gt;
 .frame{width:560;height:315;float:center}
+&lt;/style&gt;
 &lt;p style="text-align:justify"&gt;O FIES é o sistema de financiamento de cursos superiores não gratuitos e com avaliação positiva no Sistema Nacional de Avaliação da Educação Superior (SINAES) para estudantes brasileiros provenientes de famílias de baixa renda&lt;/p&gt;
 &lt;br&gt;
 &lt;iframe class="frame" src="https://www.youtube.com/embed/mSG9m9vSMb8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</descricao>
@@ -15,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://fies.mec.gov.br/</link-servico-digital>
     <solicitantes>
-        <solicitante id="843">
+        <solicitante id="844">
             <tipo>Estudante</tipo>
             <requisitos>Que atenda as seguintes condições:
 
@@ -33,21 +34,21 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2051">
+        <etapa id="2056">
             <titulo>Inscrever-se no FIES seleção</titulo>
             <descricao>Você irá se inscrever no FIES seleção através do Portal do MEC.</descricao>
             <documentos>
                 <default>
-                    <item id="1490">Número do CPF;</item>
-                    <item id="1491">Informações e documentos pessoais;</item>
-                    <item id="1492">Informações e documentos relativos à sua escolaridade;</item>
-                    <item id="1493">Informações sobre a escola onde você estudou o Ensino Médio;</item>
-                    <item id="1494">Informações sobre a Instituição de Ensino Superior onde você está matriculado;</item>
-                    <item id="1495">Informações e documentos sobre a sua renda familiar;</item>
-                    <item id="1496">Informações e documentos sobre as edições do ENEM que tiver prestado a partir de 2010;</item>
-                    <item id="1497">Suas informações de endereço e contato;</item>
-                    <item id="1498">Certidão de casamento e informações sobre o cônjuge, se tiver;</item>
-                    <item id="1499">Informações e documentos sobre a bolsa parcial do ProUni, se tiver.</item>
+                    <item id="1510">Número do CPF;</item>
+                    <item id="1511">Informações e documentos pessoais;</item>
+                    <item id="1512">Informações e documentos relativos à sua escolaridade;</item>
+                    <item id="1513">Informações sobre a escola onde você estudou o Ensino Médio;</item>
+                    <item id="1514">Informações sobre a Instituição de Ensino Superior onde você está matriculado;</item>
+                    <item id="1515">Informações e documentos sobre a sua renda familiar;</item>
+                    <item id="1516">Informações e documentos sobre as edições do ENEM que tiver prestado a partir de 2010;</item>
+                    <item id="1517">Suas informações de endereço e contato;</item>
+                    <item id="1518">Certidão de casamento e informações sobre o cônjuge, se tiver;</item>
+                    <item id="1519">Informações e documentos sobre a bolsa parcial do ProUni, se tiver.</item>
                 </default>
             </documentos>
             <custos>
@@ -58,18 +59,18 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2076" tipo="web">
+                    <canal-de-prestacao id="2081" tipo="web">
                         <descricao>http://fies.mec.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2052">
+        <etapa id="2057">
             <titulo>Obter resultado da Pré-Seleção</titulo>
             <descricao>Você deve acessar o Portal do MEC  na data determinada para divulgação do resultado e verificar se foi pré-selecionado para as vagas existentes.</descricao>
             <documentos>
                 <default>
-                    <item id="1500">Informações sobre o curso superior e instituição de ensino onde você está matriculado.</item>
+                    <item id="1520">Informações sobre o curso superior e instituição de ensino onde você está matriculado.</item>
                 </default>
             </documentos>
             <custos>
@@ -80,20 +81,20 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2077" tipo="web">
+                    <canal-de-prestacao id="2082" tipo="web">
                         <descricao>http://fies.mec.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2053">
+        <etapa id="2058">
             <titulo>Inscrever-se no SISFIES</titulo>
             <descricao>Você deve acessar o SISFIES e concluir sua inscrição preenchendo as informações solicitadas. Se você foi pré-selecionado nas vagas da lista única, o prazo é de dois dias úteis após a divulgação do resultado. Para aqueles que foram para a lista de espera, o prazo é de cinco dias corridos.</descricao>
             <documentos>
                 <default>
-                    <item id="1501">Número do CPF;</item>
-                    <item id="1502">Dados do financiamento escolhido;</item>
-                    <item id="1503">Dados do fiador, se optar por fiança convencional ou solidária.</item>
+                    <item id="1521">Número do CPF;</item>
+                    <item id="1522">Dados do financiamento escolhido;</item>
+                    <item id="1523">Dados do fiador, se optar por fiança convencional ou solidária.</item>
                 </default>
             </documentos>
             <custos>
@@ -104,36 +105,36 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2078" tipo="web">
+                    <canal-de-prestacao id="2083" tipo="web">
                         <descricao>http://sisfiesportal.mec.gov.br/?pagina=inscricao</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2054">
+        <etapa id="2059">
             <titulo>Validar inscrição junto à CPSA</titulo>
             <descricao>Você deverá, em até dez dias corridos imediatamente após sua inscrição no SISFIES, ir à instituição de ensino onde está matriculado e na qual pretende usar o financiamento e validar sua  inscrição junto à Comissão Permanente de Supervisão e Acompanhamento (CPSA) do FIES lá existente.</descricao>
             <documentos>
                 <default>
-                    <item id="1504">Documento de identificação válido com foto;</item>
-                    <item id="1505">Comprovante de residência;</item>
-                    <item id="1506">Diploma, certificado ou documento equivalente de conclusão do ensino médio expedido por instituição competente;</item>
-                    <item id="1507">Comprovante de rendimentos;</item>
-                    <item id="1508">CPF (para menores de 18 anos não emancipados, CPF do representante legal); e</item>
+                    <item id="1524">Documento de identificação válido com foto;</item>
+                    <item id="1525">Comprovante de residência;</item>
+                    <item id="1526">Diploma, certificado ou documento equivalente de conclusão do ensino médio expedido por instituição competente;</item>
+                    <item id="1527">Comprovante de rendimentos;</item>
+                    <item id="1528">CPF (para menores de 18 anos não emancipados, CPF do representante legal); e</item>
                 </default>
-                <caso id="439" descricao="Se for bolsista parcial do ProUni">
+                <caso id="444" descricao="Se for bolsista parcial do ProUni">
                     <documento>
                         <id>1449</id>
                         <descricao>Termo de concessão ou de atualização do usufruto de bolsa parcial;</descricao>
                     </documento>
                 </caso>
-                <caso id="440" descricao="Se for casado">
+                <caso id="445" descricao="Se for casado">
                     <documento>
                         <id>1450</id>
                         <descricao>Certidão de casamento, CPF e documento de identificação do cônjuge;</descricao>
                     </documento>
                 </caso>
-                <caso id="441" descricao="Se optar por fiança convencional ou solidária">
+                <caso id="446" descricao="Se optar por fiança convencional ou solidária">
                     <documento>
                         <id>1451</id>
                         <descricao>Documentação pessoal, comprovante de residência e de renda do fiador.</descricao>
@@ -148,20 +149,20 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2079" tipo="presencial">
+                    <canal-de-prestacao id="2084" tipo="presencial">
                         <descricao>Instituição de ensino onde o financiamento será usado.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2055">
+        <etapa id="2060">
             <titulo>Comparecer a agente financeiro para contratar o financiamento</titulo>
             <descricao>A partir do 3º dia útil após a validação das informações pela CPSA, você terá um prazo de dez dias corridos para comparecer a um agente financeiro do FIES (acompanhado de seu fiador, se for o caso) para formalizar a contratação do financiamento.</descricao>
             <documentos>
                 <default>
-                    <item id="1509">Originais e fotocópias dos seguintes documentos:</item>
+                    <item id="1529">Originais e fotocópias dos seguintes documentos:</item>
                 </default>
-                <caso id="442" descricao="Documentos do aluno/requerente do financiamento">
+                <caso id="447" descricao="Documentos do aluno/requerente do financiamento">
                     <documento>
                         <id>1462</id>
                         <descricao>Comprovante de residência.</descricao>
@@ -187,7 +188,7 @@
                         <descricao>Documento de identificação;</descricao>
                     </documento>
                 </caso>
-                <caso id="443" descricao="Documentos do Fiador (para casos de opção por fiança convencional ou solidária)">
+                <caso id="448" descricao="Documentos do Fiador (para casos de opção por fiança convencional ou solidária)">
                     <documento>
                         <id>1463</id>
                         <descricao>Documento de identificação;</descricao>
@@ -216,7 +217,7 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="233">
+                    <custo id="234">
                         <descricao>Após a conclusão do curso, o aluno pagará o financiamento nos termos acordados.</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -229,7 +230,7 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2080" tipo="presencial">
+                    <canal-de-prestacao id="2085" tipo="presencial">
                         <descricao>Agência do Banco do Brasil ou Caixa Econômica Federal escolhida durante a inscrição no SISFIES</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -240,19 +241,19 @@
         <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2359">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2360">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2521">fies</item>
-        <item id="2522">educação</item>
-        <item id="2523">financiamento</item>
+        <item id="2524">fies</item>
+        <item id="2525">educação</item>
+        <item id="2526">financiamento</item>
     </palavras-chave>
     <legislacoes>
-        <item id="711">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
+        <item id="712">[Legislação Básica do FIES](https://www.fnde.gov.br/fndelegis/action/ActionDatalegis.php?acao=abrirTreeview&amp;cod_menu=1315&amp;cod_modulo=85)</item>
     </legislacoes>
     <condicoes-acessibilidade>-</condicoes-acessibilidade>
     <tratamento-prioritario>-</tratamento-prioritario>
