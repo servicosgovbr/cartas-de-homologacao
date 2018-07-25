@@ -5,6 +5,7 @@
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
 .prg{color:#26357B;text-align:center}
+div.box{margin:10px;width:100%;text-align:center;float:center}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 &lt;div style="height:1000px"&gt;
@@ -17,13 +18,15 @@
 &lt;br&gt;
 &lt;h2 class="prg"&gt;Você é homem ou mulher?&lt;/h2&gt;
 &lt;br&gt;
-&lt;div style="float:left;text-align:center;margin-left:10%"&gt;
+&lt;div class="box"&gt;
+&lt;div style="float:left;text-align:center;margin-left:25%"&gt;
 &lt;button class="button"&gt;&lt;b&gt;Homem&lt;/b&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;div style="float:right;text-align:center;margin-right:10%"&gt;
+&lt;div style="float:right;text-align:center;margin-right:25%"&gt;
 &lt;button class="button"&gt;&lt;b&gt;Mulher&lt;/b&gt;
 &lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;Você é homem e completou ou vai completar 18 anos este ano?&lt;/h3&gt;
 &lt;br&gt;
