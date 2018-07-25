@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>&lt;br&gt;
+    <conteudo>&lt;style&gt;
+.button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:120%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer;text-align:center}
+.button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
+.icon{font-size:20px;margin:5px}
+.prg{color:#26357B;text-align:center}
+div.box{margin:10px;width:100%;text-align:center;float:center}
+&lt;/style&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;div style="height:200px"&gt;
+&lt;div style="float:left;margin-bottom:0%;margin-top:0%"&gt;
+&lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
 &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 class="prg"&gt;Neste momento, você pretende continuar seus estudos ou trabalhar&lt;/h2&gt;
+&lt;br&gt;
+&lt;div class="box"&gt;
+&lt;div style="float:left;text-align:center;margin-left:20%"&gt;
+&lt;a href="https://www.servicos.gov.br/servico/alistar-se-no-servico-militar-obrigatorio"&gt;&lt;button class="button"&gt;&lt;b&gt;Continuar estudos&lt;/b&gt;
+&lt;/button&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;a href="https://servicos.dev.nuvem.gov.br/pagina-tematica/ensino-medio2"&gt;&lt;div style="float:right;text-align:center;margin-right:25%"&gt;
+&lt;button class="button"&gt;&lt;b&gt;Trabalhar&lt;/b&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
