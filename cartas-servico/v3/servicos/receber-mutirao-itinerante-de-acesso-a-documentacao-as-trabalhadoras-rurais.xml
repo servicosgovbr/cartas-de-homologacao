@@ -15,7 +15,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="839">
+        <solicitante id="840">
             <tipo>Municípios</tipo>
             <requisitos>&lt;p style="text-align:justify"&gt;Onde for identificada a demanda por documentação entre as agricultoras familiares, acampadas, assentadas da reforma agrária, atingidas por barragens, quilombolas, pescadoras artesanais, extrativistas indígenas e ribeirinhas.&lt;/p&gt;</requisitos>
         </solicitante>
@@ -28,12 +28,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2035">
+        <etapa id="2038">
             <titulo>Apresentar demanda</titulo>
             <descricao>&lt;p style="text-align:justify"&gt;Através de busca ativa, cada município/comunidade apresenta a demanda por documentação à Delegacia Federal da Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário, localizada em cada estado brasileiro.&lt;/p&gt;</descricao>
             <documentos>
                 <default>
-                    <item id="1433">Planilha de demanda</item>
+                    <item id="1434">Planilha de demanda</item>
                 </default>
             </documentos>
             <custos>
@@ -44,13 +44,13 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2060" tipo="presencial">
+                    <canal-de-prestacao id="2063" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="0">
                         <descricao>[Delegacia Federal da Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário do estado.](http://www.mda.gov.br/sitemda/pagina/delegacias-federais-do-mda "Delegacia Federal da Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário do estado")</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2036">
+        <etapa id="2039">
             <titulo>Definir data e local</titulo>
             <descricao>&lt;p style="text-align:justify"&gt;As datas são definidas a partir da articulação realizada com cada município, e então as coordenações estaduais mobilizam os parceiros governamentais responsáveis pela emissão de documentos e articulam com os parceiros municipais a logística e estrutura do mutirão.&lt;/p&gt;
 &lt;p style="text-align:justify"&gt;O local é definido de acordo com a demanda de cada município, sendo realizado em Comunidades, Assentamentos ou na própria Sede&lt;/p&gt;</descricao>
@@ -65,13 +65,13 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2061" tipo="presencial">
+                    <canal-de-prestacao id="2064" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="0">
                         <descricao>Prefeitura do Município</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2037">
+        <etapa id="2040">
             <titulo>Receber o mutirão</titulo>
             <descricao>&lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Documentos Emitidos&lt;/b&gt; - Carteira de Identidade, Certificado de Cadastro de Imóvel Rural, CPF, Carteira de Trabalho e Previdência Social, CEI, Registro Geral da Pesca, DAP, Certidão de Nascimento, Carteira do Produtor Rural, Carteira do Agricultor, Título de Eleitor, Carteiro do Idoso, NIT e RANI&lt;/li&gt;
@@ -88,7 +88,7 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2062" tipo="presencial">
+                    <canal-de-prestacao id="2065" tipo="presencial" tempo-estimado-periodo="minutos" tempo-estimado-espera="0">
                         <descricao>Local definido na etapa anterior.</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -99,7 +99,7 @@
         <nomeOrgao>Casa Civil da Presidência da República (CC-PR)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2355">Órgãos e entidades públicas</item>
+        <item idSegmento="2" idServicoSegmento="2356">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Cidadania</item>
@@ -108,12 +108,12 @@
         <item>Agricultura, pecuária e extrativismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2509">documentos</item>
-        <item id="2510">mutirão</item>
-        <item id="2511">mda</item>
+        <item id="2512">documentos</item>
+        <item id="2513">mutirão</item>
+        <item id="2514">mda</item>
     </palavras-chave>
     <legislacoes>
-        <item id="707">A Norma Conjunta de Execução, N°. 1, publicada em 22 de fevereiro de 2007, estabelece procedimentos referentes ao Programa Nacional de Documentação da Trabalhadora Rural determina os objetivos e diretrizes do Programa.</item>
+        <item id="708">A Norma Conjunta de Execução, N°. 1, publicada em 22 de fevereiro de 2007, estabelece procedimentos referentes ao Programa Nacional de Documentação da Trabalhadora Rural determina os objetivos e diretrizes do Programa.</item>
     </legislacoes>
     <condicoes-acessibilidade>-</condicoes-acessibilidade>
     <tratamento-prioritario>-</tratamento-prioritario>
