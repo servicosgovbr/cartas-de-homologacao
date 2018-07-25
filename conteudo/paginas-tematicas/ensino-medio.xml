@@ -19,7 +19,7 @@ div.box{margin:10px;width:100%;text-align:center;float:center}
 &lt;h2 class="prg"&gt;Você é homem ou mulher?&lt;/h2&gt;
 &lt;br&gt;
 &lt;div class="box"&gt;
-&lt;div style="float:left;text-align:center;margin-left:15%"&gt;
+&lt;div style="float:left;text-align:center;margin-left:20%"&gt;
 &lt;button class="button"&gt;&lt;b&gt;Homem&lt;/b&gt;
 &lt;/button&gt;
 &lt;/div&gt;
