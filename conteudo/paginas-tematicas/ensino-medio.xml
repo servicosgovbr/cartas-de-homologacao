@@ -8,7 +8,7 @@
 div.box{margin:10px;width:100%;text-align:center;float:center}
 &lt;/style&gt;
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-&lt;div style="height:1000px"&gt;
+&lt;div style="height:200px"&gt;
 &lt;div style="float:left;margin-bottom:0%;margin-top:0%"&gt;
 &lt;a href="https://www.servicos.gov.br/pagina-tematica/indice-do-guia-rapido-do-portal-de-servicos"&gt;&lt;i class="fa fa-bars icon"&gt;&lt;/i&gt;&lt;/a&gt;  &lt;a href="https://servicos.gov.br/"&gt;&lt;i class="fa fa-home icon"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -23,57 +23,12 @@ div.box{margin:10px;width:100%;text-align:center;float:center}
 &lt;a href="https://www.servicos.gov.br/servico/alistar-se-no-servico-militar-obrigatorio"&gt;&lt;button class="button"&gt;&lt;b&gt;Sim&lt;/b&gt;
 &lt;/button&gt;&lt;/a&gt;
 &lt;/div&gt;
-&lt;div style="float:right;text-align:center;margin-right:25%"&gt;
+&lt;a href="https://servicos.dev.nuvem.gov.br/pagina-tematica/ensino-medio2"&gt;&lt;div style="float:right;text-align:center;margin-right:25%"&gt;
 &lt;button class="button"&gt;&lt;b&gt;Não&lt;/b&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h2 class="prg"&gt;Você completou ou vai completar 18 anos este ano?&lt;/h2&gt;
-&lt;br&gt;
-Então você tem que, antes de tudo, [se alistar](https://servicos.gov.br/servico/alistar-se-no-servico-militar-obrigatorio);         
-          
-###AGORA         
-###Neste momento, você gostaria de continuar seus estudos ou de trabalhar?
-
-###* Eu prefiro continuar meus estudos:
-
-Você já fez o [ENEM](https://servicos.gov.br/servico/fazer-o-exame-nacional-do-ensino-medio)?        
-Você conhece as  [instituições e cursos de ensino superior autorizados pelo MEC](http://emec.mec.gov.br/)?         
-Você gostaria de [concorrer a uma vaga em uma instituição pública de ensino superior](https://servicos.gov.br/servico/inscrever-se-no-sisu-sistema-de-selecao-unificada)?       
-Ou talvez você precise de uma [bolsa](https://servicos.gov.br/servico/obter-bolsa-de-estudo-do-programa-universidade-para-todos) ou um [empréstimo](https://servicos.gov.br/servico/obter-financiamento-do-fies) para cursar uma instituição privada de ensino superior?       
-¨      
-
-++ **Mas o que eu quero é um curso técnico!**       
-
-Não tem problema! Você pode se inscrever em um curso técnico no [Pronatec](https://servicos.gov.br/servico/participar-nos-cursos-do-programa-nacional-de-acesso-ao-ensino-tecnico-e-emprego)         
-ou        
-Algumas instituições que não fazem parte do Governo Federal, como o [SESI](https://www.sesieducacao.com.br/publico/) e o [SENAC](http://www.senac.br/) também oferecem oportunidades de realizar cursos profissionalizantes gratuitos.       
-    
-
-###* Eu prefiro trabalhar:      
-
-OK, a primeira coisa que você precisa fazer é tirar sua [Carteira de Trabalho](https://servicos.gov.br/servico/obter-a-carteira-de-trabalho-e-previdencia-social);         
-
-Você precisa de [ajuda para encontrar emprego](https://servicos.gov.br/servico/encontrar-emprego-no-servico-de-intermediacao-de-mao-de-obra-do-sine)?         
-
-*Talvez você queira se inscrever no [Portal Emprega Brasil](https://servicos.gov.br/pagina-tematica/portal-emprega-brasil) neste momento...*            
-
-###* Não me decidi ainda ou não estou interessado em nada disso:      
-
-Você já é um atleta mas [precisa de auxílio financeiro](https://servicos.gov.br/servico/receber-a-bolsa-atleta) para continuar no esporte?        
-ou          
-
-Você gostaria de participar ou assistir a atividades culturais em um [Ponto de Cultura](http://culturaviva.gov.br/)?       
-
-ou          
-
-Você quer realizar trabalho voluntário na [ONU](https://nacoesunidas.org/vagas/voluntariado/) ou em alguma [OSCIP](http://www.justica.gov.br/acesso-a-sistemas/consulta-a-entidades-qualificadas) de sua cidade?         
-</conteudo>
+&lt;/div&gt;</conteudo>
     <dbId>664</dbId>
     <nome>ensino médio</nome>
     <orgaos>
