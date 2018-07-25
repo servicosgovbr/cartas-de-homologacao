@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>receber-mutirao-itinerante-de-acesso-a-documentacao-as-trabalhadoras-rurais</id>
+    <dbId>1088</dbId>
+    <nome>Receber mutirão itinerante de acesso a documentação às trabalhadoras rurais</nome>
+    <sigla>PNDTR</sigla>
+    <descricao>&lt;p style="text-align:justify"&gt;O Programa Nacional de Documentação da Trabalhadora Rural-PNDTR é uma ação executada pela Secretaria Especial de Agricultura Familiar e do Desenvolvimento Agrário, por meio da Coordenação Geral de Políticas para Mulheres Rurais, Juventude, Povos e Comunidades Tradicionais, que através de mutirões itinerantes possibilita às mulheres rurais o acesso gratuito aos documentos pessoais, trabalhistas e previdenciários, além de ações educativas participativas sobre a importância da documentação e ingresso às políticas públicas, principalmente aquelas destinadas às mulheres rurais.&lt;/p&gt;
+&lt;p style="text-align:justify"&gt;O Programa articula diversos organismos governamentais para realização de uma ação que garante a efetivação da cidadania e o acesso às políticas públicas para as mulheres do meio rural.&lt;/p&gt;
+&lt;p style="text-align:justify"&gt;O PNDTR atua em todo território brasileiro.&lt;/p&gt;</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="838">
+            <tipo>Municípios</tipo>
+            <requisitos>&lt;p style="text-align:justify"&gt;Onde for identificada a demanda por documentação entre as agricultoras familiares, acampadas, assentadas da reforma agrária, atingidas por barragens, quilombolas, pescadoras artesanais, extrativistas indígenas e ribeirinhas.&lt;/p&gt;</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2032">
+            <titulo>Apresentar demanda</titulo>
+            <descricao>&lt;p style="text-align:justify"&gt;Através de busca ativa, cada município/comunidade apresenta a demanda por documentação à Delegacia Federal da Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário, localizada em cada estado brasileiro.&lt;/p&gt;</descricao>
+            <documentos>
+                <default>
+                    <item id="1432">Planilha de demanda</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2057" tipo="presencial">
+                        <descricao>[Delegacia Federal da Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário do estado.](http://www.mda.gov.br/sitemda/pagina/delegacias-federais-do-mda "Delegacia Federal da Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário do estado")</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2033">
+            <titulo>Definir data e local</titulo>
+            <descricao>&lt;p style="text-align:justify"&gt;As datas são definidas a partir da articulação realizada com cada município, e então as coordenações estaduais mobilizam os parceiros governamentais responsáveis pela emissão de documentos e articulam com os parceiros municipais a logística e estrutura do mutirão.&lt;/p&gt;
+&lt;p style="text-align:justify"&gt;O local é definido de acordo com a demanda de cada município, sendo realizado em Comunidades, Assentamentos ou na própria Sede&lt;/p&gt;</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2058" tipo="presencial">
+                        <descricao>Prefeitura do Município</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2034">
+            <titulo>Receber o mutirão</titulo>
+            <descricao>&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Documentos Emitidos&lt;/b&gt; - Carteira de Identidade, Certificado de Cadastro de Imóvel Rural, CPF, Carteira de Trabalho e Previdência Social, CEI, Registro Geral da Pesca, DAP, Certidão de Nascimento, Carteira do Produtor Rural, Carteira do Agricultor, Título de Eleitor, Carteiro do Idoso, NIT e RANI&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Ações Educativas/Palestras&lt;/b&gt; - Educação Previdenciária, Enfrentamento à violência, Prevenção de doenças, Defensoria Pública, Crédito e Políticas públicas.&lt;/li&gt;&lt;/ul&gt;</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2059" tipo="presencial">
+                        <descricao>Local definido na etapa anterior.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2837" dbId="6041">
+        <nomeOrgao>Casa Civil da Presidência da República (CC-PR)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2354">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+        <item>Combate a desigualdade</item>
+        <item>Benefícios, assistência e programas sociais</item>
+        <item>Agricultura, pecuária e extrativismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2506">documentos</item>
+        <item id="2507">mutirão</item>
+        <item id="2508">mda</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="706">A Norma Conjunta de Execução, N°. 1, publicada em 22 de fevereiro de 2007, estabelece procedimentos referentes ao Programa Nacional de Documentação da Trabalhadora Rural determina os objetivos e diretrizes do Programa.</item>
+    </legislacoes>
+    <condicoes-acessibilidade>-</condicoes-acessibilidade>
+    <tratamento-prioritario>-</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>-</tratamento-dispensado-atendimento>
+</servico>
