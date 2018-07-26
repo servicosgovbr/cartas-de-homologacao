@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>certificado-veterinario</id>
+    <dbId>1139</dbId>
+    <nome>Certificado Veterinário</nome>
+    <sigla>CVI</sigla>
+    <descricao>Solicitação de certificado.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="890">
+            <tipo>quem tem bichinho</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="4" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>30</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2260">
+            <titulo>Solicitar</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2338" tipo="e-mail">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
+        <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2501">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Turismo</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2665">CVI</item>
+        <item id="2666">Certificado</item>
+        <item id="2667">Animal</item>
+    </palavras-chave>
+</servico>
