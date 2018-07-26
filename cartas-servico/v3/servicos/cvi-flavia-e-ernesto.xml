@@ -5,7 +5,7 @@
     <nome>CVI - Flavia e Ernesto</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="975">CVI</item>
+        <item id="976">CVI</item>
     </nomes-populares>
     <descricao>teste</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="909">
+        <solicitante id="910">
             <tipo>teste</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2281">
+        <etapa id="2282">
             <titulo>teste</titulo>
             <descricao>teste</descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2359" tipo="e-mail">
+                    <canal-de-prestacao id="2360" tipo="e-mail">
                         <descricao>teste</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,14 +49,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2531">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2532">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2719">turismo</item>
-        <item id="2720">cvi</item>
-        <item id="2721">teste</item>
+        <item id="2722">turismo</item>
+        <item id="2723">cvi</item>
+        <item id="2724">teste</item>
     </palavras-chave>
 </servico>
