@@ -5,9 +5,9 @@
     <nome>Certificado Zoossanitário Internacional</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="967">certificado veterinário</item>
-        <item id="968">exportação de cão</item>
-        <item id="969">exportação de gato</item>
+        <item id="970">certificado veterinário</item>
+        <item id="971">exportação de cão</item>
+        <item id="972">exportação de gato</item>
     </nomes-populares>
     <descricao>Obtenção de certificado para exportação de cão e gato.</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-trn-ps.lecom.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="904">
+        <solicitante id="905">
             <tipo>Todos os cidadãos.</tipo>
             <requisitos>Sem requisitos.</requisitos>
         </solicitante>
@@ -32,12 +32,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2276">
+        <etapa id="2277">
             <titulo>Solicitação do certificado.</titulo>
             <descricao>Preenchimento do formulário de solicitação e apresentação da documentação necessária.</descricao>
             <documentos>
                 <default>
-                    <item id="1651">atestado sanitário</item>
+                    <item id="1652">atestado sanitário</item>
                 </default>
             </documentos>
             <custos>
@@ -45,7 +45,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2354" tipo="e-mail">
+                    <canal-de-prestacao id="2355" tipo="e-mail">
                         <descricao>enviar solicitação pelo sistema</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -56,7 +56,8 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2523">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2526">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2527">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -64,10 +65,10 @@
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2700">exportação</item>
-        <item id="2701">cão</item>
-        <item id="2702">gato</item>
-        <item id="2703">cachorro</item>
-        <item id="2704">certificado</item>
+        <item id="2705">exportação</item>
+        <item id="2706">cão</item>
+        <item id="2707">gato</item>
+        <item id="2708">cachorro</item>
+        <item id="2709">certificado</item>
     </palavras-chave>
 </servico>
