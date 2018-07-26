@@ -5,19 +5,19 @@
     <nome>Emissão de Certificado Veterinário Internacional - CVI</nome>
     <sigla>CTQA / MAPA</sigla>
     <nomes-populares>
-        <item id="956">CVI</item>
-        <item id="957">zoosanitário</item>
-        <item id="958">Certificado para cães e gatos</item>
-        <item id="959">Cães e gatos</item>
+        <item id="980">CVI</item>
+        <item id="981">zoosanitário</item>
+        <item id="982">Certificado para cães e gatos</item>
+        <item id="983">Cães e gatos</item>
     </nomes-populares>
     <descricao>emissão de certificado para viagem internacional, partindo do Brasil, para cães e gatos.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="897">
+        <solicitante id="916">
             <tipo>cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -33,7 +33,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2269">
+        <etapa id="2287">
             <titulo>etapa 1</titulo>
             <descricao></descricao>
             <documentos>
@@ -44,7 +44,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2347" tipo="aplicativo-movel">
+                    <canal-de-prestacao id="2365" tipo="aplicativo-movel">
                         <descricao>serviço portal do cidadão</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -55,8 +55,8 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2511">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2512">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2541">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2542">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
@@ -68,8 +68,8 @@
         <item>Transporte Ferroviário</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2677">cvi</item>
-        <item id="2678">cães e gatos</item>
-        <item id="2679">certificado internacional zoosanitário</item>
+        <item id="2748">cvi</item>
+        <item id="2749">cães e gatos</item>
+        <item id="2750">certificado internacional zoosanitário</item>
     </palavras-chave>
 </servico>
