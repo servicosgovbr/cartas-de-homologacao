@@ -3,7 +3,10 @@
     <id>cvi-flavia-e-ernesto</id>
     <dbId>1147</dbId>
     <nome>CVI - Flavia e Ernesto</nome>
-    <sigla></sigla>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="964">CVI</item>
+    </nomes-populares>
     <descricao>teste</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
@@ -11,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="899">
+        <solicitante id="901">
             <tipo>teste</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2271">
+        <etapa id="2273">
             <titulo>teste</titulo>
             <descricao>teste</descricao>
             <documentos>
@@ -35,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2349" tipo="e-mail">
+                    <canal-de-prestacao id="2351" tipo="e-mail">
                         <descricao>teste</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,14 +49,14 @@
         <nomeOrgao>Ministério Extraordinário da Segurança Pública (MESP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2514">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2516">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2683">turismo</item>
-        <item id="2684">cvi</item>
-        <item id="2685">teste</item>
+        <item id="2691">turismo</item>
+        <item id="2692">cvi</item>
+        <item id="2693">teste</item>
     </palavras-chave>
 </servico>
