@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="908">
+        <solicitante id="915">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2280">
+        <etapa id="2286">
             <titulo>Etapa Teste</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2358" tipo="e-mail">
+                    <canal-de-prestacao id="2364" tipo="e-mail">
                         <descricao>teste@lecom.com.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,14 +46,20 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2530">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2540">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
+        <item>Agropecuária</item>
+        <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2716">CVI</item>
-        <item id="2717">Zoo</item>
-        <item id="2718">Certificado</item>
+        <item id="2741">CVI</item>
+        <item id="2742">Zoo</item>
+        <item id="2743">Certificado</item>
+        <item id="2744">cão</item>
+        <item id="2745">gato</item>
+        <item id="2746">cachorro</item>
+        <item id="2747">exportação</item>
     </palavras-chave>
 </servico>
