@@ -5,18 +5,18 @@
     <nome>Certificado Zoossanitário Internacional</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="948">certificado veterinário</item>
-        <item id="949">exportação de cão</item>
-        <item id="950">exportação de gato</item>
+        <item id="960">certificado veterinário</item>
+        <item id="961">exportação de cão</item>
+        <item id="962">exportação de gato</item>
     </nomes-populares>
     <descricao>Obtenção de certificado para exportação de cão e gato.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://mpdg-hom-ps.lecom.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>http://mpdg-trn-ps.lecom.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="893">
+        <solicitante id="900">
             <tipo>Todos os cidadãos.</tipo>
             <requisitos>Sem requisitos.</requisitos>
         </solicitante>
@@ -32,12 +32,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2265">
+        <etapa id="2272">
             <titulo>Solicitação do certificado.</titulo>
             <descricao>Preenchimento do formulário de solicitação e apresentação da documentação necessária.</descricao>
             <documentos>
                 <default>
-                    <item id="1647">atestado sanitário</item>
+                    <item id="1648">atestado sanitário</item>
                 </default>
             </documentos>
             <custos>
@@ -45,7 +45,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2343" tipo="e-mail">
+                    <canal-de-prestacao id="2350" tipo="e-mail">
                         <descricao>enviar solicitação pelo sistema</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -56,7 +56,7 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2506">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2515">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -64,10 +64,10 @@
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2660">exportação</item>
-        <item id="2661">cão</item>
-        <item id="2662">gato</item>
-        <item id="2663">cachorro</item>
-        <item id="2664">certificado</item>
+        <item id="2686">exportação</item>
+        <item id="2687">cão</item>
+        <item id="2688">gato</item>
+        <item id="2689">cachorro</item>
+        <item id="2690">certificado</item>
     </palavras-chave>
 </servico>
