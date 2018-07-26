@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="890">
+        <solicitante id="895">
             <tipo>quem tem bichinho</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2260">
+        <etapa id="2267">
             <titulo>Solicitar</titulo>
             <descricao></descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2338" tipo="e-mail">
+                    <canal-de-prestacao id="2344" tipo="e-mail">
                         <descricao>teste</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,7 +49,7 @@
         <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2501">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2507">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -57,8 +57,8 @@
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2665">CVI</item>
-        <item id="2666">Certificado</item>
-        <item id="2667">Animal</item>
+        <item id="2668">CVI</item>
+        <item id="2669">Certificado</item>
+        <item id="2670">Animal</item>
     </palavras-chave>
 </servico>
