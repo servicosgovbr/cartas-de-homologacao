@@ -5,7 +5,7 @@
     <nome>Certificado Veterinário Internacional AnaCotta</nome>
     <sigla>CVI AnaCotta</sigla>
     <nomes-populares>
-        <item id="978">CVI</item>
+        <item id="979">CVI</item>
     </nomes-populares>
     <descricao>Certificacao</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="913">
+        <solicitante id="914">
             <tipo>Cidadão</tipo>
             <requisitos>Que viaja para o exterior</requisitos>
         </solicitante>
@@ -30,12 +30,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2284">
+        <etapa id="2285">
             <titulo>Solicitação</titulo>
             <descricao>Preencher o formulário</descricao>
             <documentos>
                 <default>
-                    <item id="1653">Atestado e exames</item>
+                    <item id="1654">Atestado e exames</item>
                 </default>
             </documentos>
             <custos>
@@ -43,7 +43,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2362" tipo="web-preencher">
+                    <canal-de-prestacao id="2363" tipo="web-preencher">
                         <descricao>DSA</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -54,19 +54,19 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2536">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2534">Órgãos e entidades públicas</item>
-        <item idSegmento="3" idServicoSegmento="2535">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2537">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2538">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2539">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2728">CVI</item>
-        <item id="2729">PASSAPORTE VETERINÁRIO</item>
-        <item id="2730">CÃO E GATO</item>
+        <item id="2731">CVI</item>
+        <item id="2732">PASSAPORTE VETERINÁRIO</item>
+        <item id="2733">CÃO E GATO</item>
     </palavras-chave>
     <legislacoes>
-        <item id="713">DECRETO TAL</item>
+        <item id="714">DECRETO TAL</item>
     </legislacoes>
 </servico>
