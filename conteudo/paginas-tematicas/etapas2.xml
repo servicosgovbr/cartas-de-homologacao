@@ -50,13 +50,12 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente a informação de cálculo da taxa, preferencialmente de forma que o usuário possa calcular a mesma para seu caso.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“10% do valor do terreno”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Um terço do valor da dívida”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“R$17,00 por hectare”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class="opc" style="position:absolute;top:800px;left:1050px"&gt;&lt;div class="intr"&gt;
-&lt;p style="text-align:center"&gt;&lt;b&gt;Tempo estimado para realizar este serviço&lt;/b&gt;&lt;/p&gt;
-&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Tempo máximo de espera para atendimento&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;b&gt;O que é?&lt;/b&gt;
-&lt;p style="padding-left:23px"&gt;Indicação do tempo que o usuário precisará esperar do início/pedido do serviço até sua conclusão&lt;/p&gt;
+&lt;p style="padding-left:23px"&gt;Indicação do tempo que o usuário precisará aguardar, na instância de atendimento, para ter início o seu atendimento (espera na fila, espera no telefone)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;b&gt;Como Fazer?&lt;/b&gt;
@@ -64,9 +63,9 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/li&gt;
 &lt;li&gt;
 &lt;b&gt;Exemplos&lt;/b&gt;
-&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Até 3 dias”&lt;/i&gt;&lt;/p&gt;
-&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Entre 15 e 20 dias”&lt;/i&gt;&lt;/p&gt;
-&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Em média 7 dias”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Até 15 minutos”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Entre 1 e 2 horas”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Em média 3 dias”&lt;/i&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
