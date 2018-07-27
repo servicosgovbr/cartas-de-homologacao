@@ -16,7 +16,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;br&gt;
 &lt;br&gt;
 &lt;h2 style="color:#06acff;text-align:center"&gt;Campos Condicionais&lt;/h2&gt;
-&lt;p style="text-align:center;font-size:105%"&gt;Estes são campos do editor que só se tornam disponíveis e visíveis caso algum outro campo anterior do formulário tenha sido marcado ou obtido uma resposta específica.&lt;/p&gt;
+&lt;p style="text-align:center;font-size:105%;color:#26357B"&gt;Estes são campos do editor que só se tornam disponíveis e visíveis caso algum outro campo anterior do formulário tenha sido marcado ou obtido uma resposta específica.&lt;/p&gt;
 &lt;div class="opc" style="position:absolute;top:500px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Nome do Custo)&lt;/b&gt;&lt;/p&gt;     
 &lt;br&gt;       
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Nome ou identificação da taxa que será cobrada naquela etapa.&lt;/p&gt;&lt;/li&gt;
