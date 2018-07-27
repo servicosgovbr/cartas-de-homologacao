@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>&lt;div class="obg" style="position:absolute;top:750px;left:700px"&gt;&lt;div class="intr"&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Segmentos da Sociedade&lt;/b&gt;&lt;/p&gt;
+&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;      
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;O que é?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Indicação de em quais grupos da sociedade o público-alvo do serviço se encaixa.&lt;/p&gt;
+&lt;/li&gt;     
+&lt;li&gt;
+&lt;b&gt;Como Fazer?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Seleção de um ou mais dos 4 grupos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Atende Estudantes – marcar Cidadãos”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Atende Padarias – marcar Empresas”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Atende municípios – marcar Órgãos e Entidades Públicas”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Atende sindicatos – marcar Demais Segmentos”&lt;/i&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="obg" style="position:absolute;top:750px;left:1050px"&gt;&lt;div class="intr"&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Áreas de Interesse&lt;/b&gt;&lt;/p&gt;
+&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;O que é?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt; Áreas nas quais os serviços atuam &lt;b&gt;diretamente&lt;/b&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Como Fazer?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Seleção de uma ou mais opções. Devem ser selecionadas apenas as opções onde o serviço de fato atua.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Oferecer cursos profissionalizantes – marcar 'Educação' e 'Trabalho'”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Fazer denúncia de roubo – marcar 'Segurança'”&lt;/i&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+&lt;br&gt;
+&lt;div class="obg" style="position:absolute;top:1100px;left:350px"&gt;&lt;div class="intr"&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Palavras-Chave&lt;/b&gt;&lt;/p&gt;
+&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;O que é?&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;Palavras,  termos e expressões que tem forte relação com seu serviço e que provavelmente serão usadas pelo seu usuário para encontrar as informações sobre ele&lt;/p&gt;
+&lt;/li&gt;  
+&lt;li&gt;
+&lt;b&gt;Como Fazer?&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;Uma palavra, termo ou expressão por campo. Obrigatório ter no mínimo 3, mas sem limite máximo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Fazer RG - 'Identidade', 'documento' e 'ssp'.”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Habilitar-se para conduzir automóveis - 'carro', 'autoescola' e 'habilitação'.”&lt;/i&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="opc" style="position:absolute;top:1100px;left:700px"&gt;&lt;div class="intr"&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Legislação relacionada ao serviço&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;O que é?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Legislação que institui, altera ou regulamenta o serviço em questão.&lt;/p&gt;
+&lt;/li&gt;  
+&lt;li&gt;
+&lt;b&gt;Como Fazer?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;&lt;i&gt;[Nome da legislação](link para a legislação)&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px"&gt;Cada uma deve ser colocada em campo próprio, devem haver tantos campos quanto forem o número de legislações.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:70%"&gt;&lt;i&gt;“[Constituição]( http://www.planalto.gov.br/.../constituicao.htm)”&lt;/i&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="opc" style="position:absolute;top:1100px;left:1050px"&gt;&lt;div class="intr"&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Serviços Relacionados&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;O que é?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Serviços que tenham relação direta ou sejam pré-requisitos para o serviço em questão.&lt;/p&gt;
+&lt;/li&gt;      
+&lt;li&gt;
+&lt;b&gt;Como Fazer?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Escolha da lista suspensa. Um serviço por campo, caso haja mais de um, é necessário adicionar novo campo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Emitir 2ª via de RG (relacionado ao serviço emitir RG)”&lt;/i&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</conteudo>
+    <dbId>781</dbId>
+    <nome>Outras2</nome>
+    <orgaos>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
