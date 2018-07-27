@@ -69,6 +69,29 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class="opc" style="position:absolute;top:1150px;left:350px"&gt;&lt;div class="intr"&gt;
+&lt;p style="text-align:center"&gt;&lt;b&gt;Procedimento de atendimento quando o sistema informatizado estiver indisponível&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;O que é?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Indicação ao usuário de qual procedimento adotar para ter sua demanda pelo serviço atendida caso o sistema online (tanto web quanto aplicativo) esteja, por qualquer razão, indisponível no momento.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Como Fazer?&lt;/b&gt;
+&lt;p style="padding-left:23px"&gt;Apresentar o tipo de canal alternativo, o(s) endereço(s) e como utilizá-lo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Em caso de indisponibilidade do sistema online, o usuário deverá se dirigir à agência do órgão mais próxima de sua casa (url com o endereço das agências)&lt;/i&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
 &lt;div style="background-color:#FDFFE4;padding:10px;width:42%;bd:1;border-radius:15px;position:absolute;top:1500px;left:350px"&gt; &lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Campos Especiais: "Adicionar caso específico"&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;Em alguns serviços às vezes existem grupos de usuários que precisam ter tratamento diferenciado em relação à documentação, taxas ou canal de prestação das etapas.. É para estes casos que existe a possibilidade, abaixo dos campos “Documentação necessária para a etapa”, “Custos da Etapa” e “Canais de Prestação da Etapa”, o botão “adicionar caso específico”.&lt;/p&gt;&lt;/li&gt;  
