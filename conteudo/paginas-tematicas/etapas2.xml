@@ -35,10 +35,9 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“R$”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“€”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“$”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;div class="opc" style="position:absolute;top:900px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Valor Fixo)&lt;/b&gt;&lt;/p&gt;&lt;p style="color:#26357B;font-size:70%;text-align:center;margin-top:1px;margin-bottom:5px"&gt;&lt;b&gt;Condicional ao subcampo "Fixo ou Variável" do campo "Custos da Etapa"&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Valor monetário fixo da taxa cobrada.&lt;/p&gt;&lt;/li&gt;
-&lt;br&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente números, pontos e vírgulas são aceitos no campo.&lt;/p&gt;&lt;/li&gt;
-&lt;br&gt;
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“1.342,28”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“3,00”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px"&gt;&lt;i&gt;“1,27”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class="opc" style="position:absolute;top:900px;left:700px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Valor Variável)&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
