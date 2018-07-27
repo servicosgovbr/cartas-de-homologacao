@@ -45,6 +45,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“10% do valor do terreno”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Um terço do valor da dívida”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“R$17,00 por hectare”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;div class="opc" style="position:absolute;top:900px;left:1050px"&gt;&lt;div class="intr" style="font-size:90%"&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Tempo máximo de espera para atendimento&lt;/b&gt;&lt;/p&gt;&lt;p style="color:#26357B;font-size:70%;text-align:center;margin-top:1px;margin-bottom:1px"&gt;&lt;b&gt;Condicional à escolha de "presencial" ou "telefone" como tipo do campo "Canal de Atendimento"&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;b&gt;O que é?&lt;/b&gt;
