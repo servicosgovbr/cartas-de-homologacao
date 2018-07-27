@@ -15,7 +15,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;h2 style="color:#06acff;text-align:center"&gt;Campos Condicionais&lt;/h2&gt;
+&lt;h2 style="color:#06acff;text-align:center"&gt;Campos Fixos&lt;/h2&gt;
 &lt;div class="opc" style="position:absolute;top:450px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Nome do Custo)&lt;/b&gt;&lt;/p&gt;     
 &lt;br&gt;       
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Nome ou identificação da taxa que será cobrada naquela etapa.&lt;/p&gt;&lt;/li&gt;
