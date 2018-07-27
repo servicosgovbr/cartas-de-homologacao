@@ -7,6 +7,14 @@
 div.obg{background-color:#FFE9E9;padding:10px;width:20%;bd:1;border-radius:15px}
 div.intr{border:1px solid black;padding:5px;height:320px;border-radius:15px;text-align:justify}
 div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
+div.l1{position:absolute;top:400}
+div.l2{position:absolute;top:750}
+div.l3{position:absolute;top:1100}
+div.l4{position:absolute;top:1450}
+div.l5{position:absolute;top:1800}
+div.c1{position:absolute;left:350}
+div.c2{position:absolute;left:700}
+div.c3{position:absolute;left:1050}
 &lt;/style&gt;
 &lt;div style="height:1500px"&gt;
 &lt;div style="float:left;margin-bottom:5%;margin-top:0%"&gt;
@@ -15,7 +23,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;div class="obg" style="position:absolute;top:400px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Título da Etapa&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;div class="obg l1 c1"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Título da Etapa&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; A ação realizada &lt;b&gt;pelo usuário&lt;/b&gt; naquela etapa/interação do serviço&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Verbo no infinitivo + &lt;/p&gt;&lt;p style="padding-left:23px"&gt;predicado que caracteriza a ação.&lt;/p&gt;&lt;/li&gt;
