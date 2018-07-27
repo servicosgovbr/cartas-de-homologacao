@@ -145,7 +145,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;div class="obg" style="position:absolute;top:1100px;left:350px"&gt;&lt;div class="intr"&gt;
+&lt;div class="obg" style="position:absolute;top:1100px;left:350px"&gt;&lt;div class="intr" style="font-size:90%"&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Informações sobre quem tem direito a tratamento prioritário&lt;/b&gt;&lt;/p&gt;
 &lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
