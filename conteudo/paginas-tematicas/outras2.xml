@@ -81,47 +81,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="opc" style="position:absolute;top:1100px;left:700px"&gt;&lt;div class="intr"&gt;
-&lt;p style="text-align:center"&gt;&lt;b&gt;Legislação relacionada ao serviço&lt;/b&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;O que é?&lt;/b&gt;
-&lt;p style="padding-left:23px"&gt;Legislação que institui, altera ou regulamenta o serviço em questão.&lt;/p&gt;
-&lt;/li&gt;  
-&lt;li&gt;
-&lt;b&gt;Como Fazer?&lt;/b&gt;
-&lt;p style="padding-left:23px"&gt;&lt;i&gt;[Nome da legislação](link para a legislação)&lt;/i&gt;&lt;/p&gt;
-&lt;p style="padding-left:23px"&gt;Cada uma deve ser colocada em campo próprio, devem haver tantos campos quanto forem o número de legislações.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;Exemplos&lt;/b&gt;
-&lt;p style="padding-left:23px;font-size:70%"&gt;&lt;i&gt;“[Constituição]( http://www.planalto.gov.br/.../constituicao.htm)”&lt;/i&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="opc" style="position:absolute;top:1100px;left:1050px"&gt;&lt;div class="intr"&gt;
-&lt;p style="text-align:center"&gt;&lt;b&gt;Serviços Relacionados&lt;/b&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;O que é?&lt;/b&gt;
-&lt;p style="padding-left:23px"&gt;Serviços que tenham relação direta ou sejam pré-requisitos para o serviço em questão.&lt;/p&gt;
-&lt;/li&gt;      
-&lt;li&gt;
-&lt;b&gt;Como Fazer?&lt;/b&gt;
-&lt;p style="padding-left:23px"&gt;Escolha da lista suspensa. Um serviço por campo, caso haja mais de um, é necessário adicionar novo campo.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;Exemplos&lt;/b&gt;
-&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Emitir 2ª via de RG (relacionado ao serviço emitir RG)”&lt;/i&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;</conteudo>
+</conteudo>
     <dbId>781</dbId>
     <nome>Outras2</nome>
     <orgaos>
