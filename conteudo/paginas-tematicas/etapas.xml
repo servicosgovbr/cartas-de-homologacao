@@ -44,6 +44,14 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;“Endereço” do canal para realizar aquela etapa.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente o endereço, número, link para aplicativo ou url do canal onde se pode realizar a etapa. &lt;b&gt;Coloque somente um canal por campo&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Exemplos&lt;/b&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“www.exemplo.com.br/inscrever”&lt;/i&gt;&lt;/p&gt;&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Rua 123, Cidade, DF – CEP: 12345-678 ”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class="obg" style="position:absolute;top:800px;left:1050px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Tempo de duração da etapa&lt;/b&gt;&lt;/p&gt;&lt;p style="color:red;font-size:70%;text-align:center"&gt;&lt;b&gt;Campo obrigatório&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Tempo que o usuário irá esperar do momento em que dá início às atividades daquela etapa até o início da próxima&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Escolha de lista suspensa com complementação escrita se necessário.&lt;/p&gt;&lt;/li&gt;
+&lt;b&gt;Exemplos&lt;/b&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Em média 2 meses”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Entre 7 e 15 dias corridos”&lt;/i&gt;&lt;/p&gt;
+&lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;“Até 48 horas”&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
