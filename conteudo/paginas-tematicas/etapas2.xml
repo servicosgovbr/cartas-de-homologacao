@@ -66,6 +66,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;/div&gt;
 &lt;div class="opc" style="position:absolute;top:1250px;left:350px"&gt;&lt;div class="intr" style="font-size:80%"&gt;
 &lt;p style="text-align:center"&gt;&lt;b&gt;Procedimento de atendimento quando o sistema informatizado estiver indisponível&lt;/b&gt;&lt;/p&gt;&lt;p style="color:#26357B;font-size:70%;text-align:center;margin-top:1px;margin-bottom:1px"&gt;&lt;b&gt;Condicional à escolha de "web" e variantes ou "aplicativos-móveis" como tipo do campo "Canal de Atendimento"&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;b&gt;O que é?&lt;/b&gt;
