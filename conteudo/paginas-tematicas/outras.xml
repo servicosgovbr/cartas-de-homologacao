@@ -218,11 +218,13 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;li&gt;
 &lt;b&gt;O que é?&lt;/b&gt;
 &lt;p style="padding-left:23px;font-size:80%"&gt;Exposição dos padrões de atendimento ao usuário com que se compromete o órgão&lt;/p&gt;
-&lt;/li&gt;  
+&lt;/li&gt;
+&lt;br&gt;
 &lt;li&gt;
 &lt;b&gt;Como Fazer?&lt;/b&gt;
 &lt;p style="padding-left:23px;font-size:80%"&gt;Texto livre, máximo de 1.000 caracteres.&lt;/p&gt;
 &lt;/li&gt;
+&lt;br&gt;
 &lt;li&gt;
 &lt;b&gt;Exemplos&lt;/b&gt;
 &lt;p style="padding-left:23px;font-size:80%"&gt;&lt;i&gt;No atendimento deverão ser respeitados, sem exceções, os princípios do respeito, cordialidade, eficiência e boa vontade.&lt;/i&gt;&lt;/p&gt;
