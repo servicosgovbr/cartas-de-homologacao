@@ -4,7 +4,6 @@
 .button{float:center;margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 .button:hover{background-color:white;color:#06acff;border:2px solid #06acff}
 .icon{font-size:20px;margin:10px}
-.cnd{color:#26357B;font-size:70%;text-align:center;margin-top:1px}
 div.obg{background-color:#FFE9E9;padding:10px;width:20%;bd:1;border-radius:15px}
 div.intr{border:1px solid black;padding:5px;height:320px;border-radius:15px;text-align:justify}
 div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
@@ -19,7 +18,7 @@ div.opc{background-color:#E4F9FF;padding:10px;width:20%;border-radius:15px}
 &lt;h2 style="color:#06acff;text-align:center"&gt;Campos Condicionais&lt;/h2&gt;
 &lt;p style="text-align:center;font-size:105%;color:#26357B"&gt;Estes são campos do editor que só se tornam disponíveis e visíveis caso algum outro campo anterior do formulário tenha sido marcado ou obtido uma resposta específica.&lt;/p&gt;
 &lt;div class="opc" style="position:absolute;top:550px;left:350px"&gt;&lt;div class="intr"&gt;&lt;p style="text-align:center"&gt;&lt;b&gt;Custos da Etapa (Nome do Custo)&lt;/b&gt;&lt;/p&gt;
-&lt;p class="cnd"&gt;&lt;b&gt;Condicional ao campo "Gratuidade deste serviço" &lt;/b&gt;&lt;/p&gt;
+&lt;p style="color:#26357B;font-size:70%;text-align:center;margin-top:1px"&gt;&lt;b&gt;Condicional ao campo "Gratuidade deste serviço" &lt;/b&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;&lt;li&gt;&lt;b&gt;O que é?&lt;/b&gt;&lt;p style="padding-left:23px"&gt; Nome ou identificação da taxa que será cobrada naquela etapa.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Como Fazer?&lt;/b&gt;&lt;p style="padding-left:23px"&gt;Somente o nome ou identificação, idealmente não mais que uma frase. Máximo de 150 caracteres.&lt;/p&gt;&lt;/li&gt;
