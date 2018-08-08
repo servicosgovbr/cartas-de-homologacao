@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cvi-mac-treinamento</id>
+    <dbId>1177</dbId>
+    <nome>CVI Mac Treinamento</nome>
+    <sigla>CVI Mac</sigla>
+    <nomes-populares>
+        <item id="1001">CVI Mac Treinamento</item>
+    </nomes-populares>
+    <descricao>CVI Mac Treinamento</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="932">
+            <tipo>Cidadão</tipo>
+            <requisitos>Atestado de Saúde Animal</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="5" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2308">
+            <titulo>Solicitação</titulo>
+            <descricao>Solicitação do Serviço</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2394" tipo="web">
+                        <descricao>100% Web</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2309">
+            <titulo>Análise</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2395" tipo="web">
+                        <descricao>100% Web</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2310">
+            <titulo>Emissão do CVI</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2396" tipo="web">
+                        <descricao>100% Web</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2560">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Turismo</item>
+        <item>Vigilância Sanitária</item>
+        <item>Transportes</item>
+        <item>Lazer</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2792">CVI</item>
+        <item id="2793">Vacinação</item>
+        <item id="2794">Teste</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="718">Sei lá</item>
+    </legislacoes>
+</servico>
