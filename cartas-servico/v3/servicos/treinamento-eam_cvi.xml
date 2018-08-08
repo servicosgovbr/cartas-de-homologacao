@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-eam_cvi</id>
+    <dbId>1170</dbId>
+    <nome>Treinamento EAM_CVI</nome>
+    <sigla>EAM_CVI</sigla>
+    <nomes-populares>
+        <item id="992">EAM_CVI</item>
+    </nomes-populares>
+    <descricao>CVI treinamento Lecom</descricao>
+    <contato>Coordenação-Geral do Sistema de Vigilância Agropecuária Internacional (Vigiagro)</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="924">
+            <tipo>Cidadãos proprietários de cães e gatos que desejam viajar acompanhados de seus animais de estimação ao exterior</tipo>
+            <requisitos>Atestado Veterinário</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>5</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2307">
+            <titulo>Solicitar</titulo>
+            <descricao>Solicitar certificado Veterinário Internacional</descricao>
+            <documentos>
+                <default>
+                    <item id="1672">Atestado de saúde emitido por veterinário</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2386" tipo="web-emitir">
+                        <descricao>emitir no próprio sistema CVI</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2553">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comercio externo</item>
+        <item>Defesa agropecuária</item>
+        <item>Agropecuária</item>
+        <item>Turismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2773">Vigilância Agropecuária</item>
+        <item id="2774">Viagens Internacionais</item>
+        <item id="2775">Cães e Gatos</item>
+    </palavras-chave>
+</servico>
