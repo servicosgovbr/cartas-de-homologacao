@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-cvi-marlene</id>
+    <dbId>1168</dbId>
+    <nome>TREINAMENTO - CVI Marlene</nome>
+    <sigla>e-CVI</sigla>
+    <nomes-populares>
+        <item id="987">certificados para pets</item>
+        <item id="988">CVI</item>
+        <item id="989">Cachorro</item>
+        <item id="990">gato</item>
+    </nomes-populares>
+    <descricao>Treinamento em modelagem de certificados eletronicos</descricao>
+    <contato>0800.7070.6070</contato>
+    <gratuito>true</gratuito>
+    <porcentagem>0</porcentagem>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/inicar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="922">
+            <tipo>Cidadäos que querem viajar com seus pets</tipo>
+            <requisitos>Devem preencher a solicitacäo e anexar documentos que atendam as exigencias do país de destino.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="48" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2299">
+            <titulo>Solicitacäo</titulo>
+            <descricao>Deve solicitar a emissáo</descricao>
+            <documentos>
+                <default>
+                    <item id="1670">Atestado de saúde e comprovante de vacina antirrábica</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2382" tipo="web">
+                        <descricao>online apenas</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2551">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Defesa agropecuária</item>
+        <item>Saúde</item>
+        <item>Transportes</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2782">cvi</item>
+        <item id="2783">animal</item>
+        <item id="2784">cachorro</item>
+        <item id="2785">gato</item>
+        <item id="2786">transporte</item>
+        <item id="2787">viajar</item>
+        <item id="2788">pet</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="715">IN39/2017</item>
+    </legislacoes>
+</servico>
