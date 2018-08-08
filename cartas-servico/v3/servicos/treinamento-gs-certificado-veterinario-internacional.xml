@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-gs-certificado-veterinario-internacional</id>
+    <dbId>1176</dbId>
+    <nome>Treinamento GS - Certificado Veterinário Internacional</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1000">CVI</item>
+    </nomes-populares>
+    <descricao>Serviço de emissão do CVI treinamento 07.08.2018</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="931">
+            <tipo>cidadão</tipo>
+            <requisitos>atestado de saúde do animal</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>12</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2314">
+            <titulo>solicitação</titulo>
+            <descricao>cidadão solicita</descricao>
+            <documentos>
+                <default>
+                    <item id="1674">atestado de saúde</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2397" tipo="web">
+                        <descricao>xxxx</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2559">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Saúde</item>
+        <item>Turismo</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2798">viagem</item>
+        <item id="2799">cão</item>
+        <item id="2800">gato</item>
+    </palavras-chave>
+</servico>
