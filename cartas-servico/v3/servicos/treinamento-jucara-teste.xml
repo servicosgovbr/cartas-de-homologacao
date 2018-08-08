@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-jucara-teste</id>
+    <dbId>1178</dbId>
+    <nome>Treinamento Juçara Teste</nome>
+    <sigla>TJT</sigla>
+    <descricao>Teste baseado no serviço de emissão do CVI - treinamento 08/08/2018.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="933">
+            <tipo>Cidadão</tipo>
+            <requisitos>Atestado de Saúde do Animal</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2311">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1673">Atestado de saúde do animal</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2391" tipo="web">
+                        <descricao>Acesso pelo portal de serviços do MPDG</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2561">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2562">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2563">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2564">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2795">animal</item>
+        <item id="2796">viagem</item>
+        <item id="2797">certificado</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="719">Lei tal</item>
+    </legislacoes>
+</servico>
