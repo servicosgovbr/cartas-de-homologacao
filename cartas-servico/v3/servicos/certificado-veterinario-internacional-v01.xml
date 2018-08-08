@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>certificado-veterinario-internacional-v01</id>
+    <dbId>1179</dbId>
+    <nome>Certificado Veterinário Internacional v01</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1002">CVI</item>
+    </nomes-populares>
+    <descricao>documento sanitário para poder viajar com animais de companhia para o exterior</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="934">
+            <tipo>Qualquer cidadão que deseje viajar para com o seu cão ou o seu gato para países que não fazem parte do Mercosul</tipo>
+            <requisitos>certificado de vacinação; atestado de exame de médico veterinário</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="7" unidade="dias-uteis"/>
+        <descricao>o tempo pode variar caso seja necessário que o usuário corrija ou complemente informações ou documentação inicial</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>21</quantidade>
+        <unidade>dias</unidade>
+        <descricao>prorrogável a critério do auditor fiscal federal agropecuário</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2316">
+            <titulo>Solicitar CVI</titulo>
+            <descricao>fornecer dados do exportador e do animal</descricao>
+            <documentos>
+                <default>
+                    <item id="1675">atestado veterinário</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="208">
+                        <descricao>0</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2399" tipo="web">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2566">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Turismo</item>
+        <item>Defesa agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2801">animais de estimação</item>
+        <item id="2802">transito internacional de animais</item>
+        <item id="2803">defesa sanitária animal</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="720">Lei, decreto, IN</item>
+    </legislacoes>
+</servico>
