@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-servico-de-solicitacao-de-certificados-veterinarios-internacionais</id>
+    <dbId>1173</dbId>
+    <nome>TREINAMENTO - SERVIÇO DE SOLICITAÇÃO DE CERTIFICADOS VETERINÁRIOS INTERNACIONAIS</nome>
+    <sigla>SCVI</sigla>
+    <nomes-populares>
+        <item id="995">SOLICITAR CVI</item>
+        <item id="996">CVI ONLINE</item>
+        <item id="997">CVI/MAPA</item>
+    </nomes-populares>
+    <descricao>SERVIÇO DESTINADO À SOLICITAÇÃO DE CERTIFICADOS VETERINÁRIOS INTERNACIONAIS.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="928">
+            <tipo>Cidadão</tipo>
+            <requisitos>Atestado de saúde do animal.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2313">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2393" tipo="aplicativo-movel">
+                        <descricao>smartphone</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2557">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Turismo</item>
+        <item>Defesa agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2776">CVI</item>
+        <item id="2777">Animal</item>
+        <item id="2778">Certificado</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="717">IN39/2017</item>
+    </legislacoes>
+</servico>
