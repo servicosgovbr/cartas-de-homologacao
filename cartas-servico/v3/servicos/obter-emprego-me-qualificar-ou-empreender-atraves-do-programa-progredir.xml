@@ -5,23 +5,24 @@
     <nome>Obter emprego, me qualificar ou empreender através do Programa Progredir</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1004">Progredir</item>
+        <item id="1005">Progredir</item>
     </nomes-populares>
     <descricao>&lt;p style="text-align:justify"&gt;O Progredir é um plano de ações do governo federal para gerar emprego e renda e promover a autonomia das pessoas inscritas no Cadastro Único e dos beneficiários do Programa Bolsa Família.&lt;/p&gt;
 &lt;br&gt;
 &lt;p style="text-align:justify"&gt;Integram o Progredir os seguintes serviços::&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;QUERO UM EMPREGO: Acesso a vagas de emprego, de acordo com o perfil profissional do trabalhador, ofertado pelos parceiros do Progredir e ferramenta para criação de currículo profissional.&lt;/p&gt;
-&lt;p&gt;QUERO ME QUALIFICAR: Cursos gratuitos de qualificação, presenciais e a distância, inclusive os ofertados pelo Pronatec&lt;/p&gt;
-&lt;p&gt;QUERO EMPREENDER: Possibilidade de acesso ao microcrédito produtivo (empréstimos) por meio de oferta dos bancos parceiros.&lt;/p&gt;
-&lt;/ul&gt;</descricao>
+&lt;p style="text-align:justify"&gt;QUERO UM EMPREGO: Acesso a vagas de emprego, de acordo com o perfil profissional do trabalhador, ofertado pelos parceiros do Progredir e ferramenta para criação de currículo profissional.&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align:justify"&gt;QUERO ME QUALIFICAR: Cursos gratuitos de qualificação, presenciais e a distância, inclusive os ofertados pelo Pronatec&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align:justify"&gt;QUERO EMPREENDER: Possibilidade de acesso ao microcrédito produtivo (empréstimos) por meio de oferta dos bancos parceiros.&lt;/p&gt;</descricao>
     <contato>Para mais informações, acesse &lt;a href="http://mds.gov.br/assuntos/progredir/" target="_blank"&gt;a página do programa&lt;/a&gt;</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php</link-servico-digital>
     <solicitantes>
-        <solicitante id="944">
+        <solicitante id="945">
             <tipo>Inscritos no Cadastro Único e Beneficiários do Bolsa Família.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -36,7 +37,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2347">
+        <etapa id="2349">
             <titulo>Cadastrar-se no Portal do Programa</titulo>
             <descricao>&lt;p&gt;Insira seu CPF e a cidade/UF onde mora.&lt;/p&gt;
 &lt;p&gt;Clique em “Não sou robô”, na mesma página.&lt;/p&gt;
@@ -45,7 +46,7 @@
 &lt;p&gt;Clique em “Efetuar Login”.&lt;/p&gt;</descricao>
             <documentos>
                 <default>
-                    <item id="1721">Para participar do Progredir, você precisa estar inscrito no Cadastro Único.</item>
+                    <item id="1722">Para participar do Progredir, você precisa estar inscrito no Cadastro Único.</item>
                 </default>
             </documentos>
             <custos>
@@ -53,13 +54,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2448" tipo="web">
+                    <canal-de-prestacao id="2450" tipo="web">
                         <descricao>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2348">
+        <etapa id="2350">
             <titulo>Acessar o Portal do Programa</titulo>
             <descricao>Ao acessar a página você terá acesso às ofertas do Plano Progredir, como os cursos de qualificação, acesso ao microcrédito produtivo, inclusão de currículo, vagas de emprego etc.</descricao>
             <documentos>
@@ -70,7 +71,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2449" tipo="web">
+                    <canal-de-prestacao id="2451" tipo="web">
                         <descricao>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php%20</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -81,7 +82,7 @@
         <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2591">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2592">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Assistência à Criança e ao Adolescente</item>
@@ -92,8 +93,8 @@
         <item>Combate a desigualdade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2847">emprego</item>
-        <item id="2848">bolsa família</item>
-        <item id="2849">cadúnico</item>
+        <item id="2850">emprego</item>
+        <item id="2851">bolsa família</item>
+        <item id="2852">cadúnico</item>
     </palavras-chave>
 </servico>
