@@ -5,39 +5,48 @@
     <nome>Obter emprego, me qualificar ou empreender através do Programa Progredir</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="913">Progredir</item>
+        <item id="1003">Progredir</item>
     </nomes-populares>
-    <descricao>&lt;p style="text-align:justify"&gt;Progredir é um plano de ações do governo federal para gerar emprego e renda e promover a autonomia das pessoas inscritas no Cadastro Único e dos beneficiários do Programa Bolsa Família.&lt;/p&gt;
+    <descricao>&lt;p style="text-align:justify"&gt;O Progredir é um plano de ações do governo federal para gerar emprego e renda e promover a autonomia das pessoas inscritas no Cadastro Único e dos beneficiários do Programa Bolsa Família.&lt;/p&gt;
 &lt;br&gt;
-&lt;p style="text-align:justify"&gt;Integra ao Progredir os seguintes serviços:&lt;/p&gt;
+&lt;p style="text-align:justify"&gt;Integram o Progredir os seguintes serviços::&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;
-&lt;li&gt;QUERO UM EMPREGO&lt;/li&gt;
-&lt;li&gt;QUERO ME QUALIFICAR&lt;/li&gt;
-&lt;li&gt;QUERO EMPREENDER&lt;/li&gt;
+&lt;li&gt;QUERO UM EMPREGO: Acesso a vagas de emprego, de acordo com o perfil profissional do trabalhador, ofertado pelos parceiros do Progredir e ferramenta para criação de currículo profissional.&lt;/li&gt;
+&lt;li&gt;QUERO ME QUALIFICAR: Cursos gratuitos de qualificação, presenciais e a distância, inclusive os ofertados pelo Pronatec&lt;/li&gt;
+&lt;li&gt;QUERO EMPREENDER: Possibilidade de acesso ao microcrédito produtivo (empréstimos) por meio de oferta dos bancos parceiros.&lt;/li&gt;
 &lt;/ul&gt;</descricao>
-    <contato></contato>
+    <contato>Para mais informações, acesse &lt;a href="http://mds.gov.br/assuntos/progredir/" target="_blank"&gt;a página do programa&lt;/a&gt;</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php</link-servico-digital>
     <solicitantes>
-        <solicitante id="825">
-            <tipo>Cidadão de baixa renda</tipo>
-            <requisitos>Inscritos no Cadastro Único e Beneficiários do Bolsa Família</requisitos>
+        <solicitante id="943">
+            <tipo>Inscritos no Cadastro Único e Beneficiários do Bolsa Família.</tipo>
+            <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <nao-estimado-ainda/>
-        <descricao></descricao>
+        <atendimento-imediato/>
+        <descricao>&lt;ul&gt;
+&lt;li&gt;Para se cadastrar no Portal Progredir, de 1 a 3 minutos.&lt;/li&gt;
+&lt;li&gt;Já para preencher os dados do currículo no Portal, de 5 a 10 minutos. &lt;/li&gt;
+&lt;li&gt;Para preencher o questionário do empreendedorismo, de 10 a 15 minutos.&lt;/li&gt;
+&lt;/ul&gt;</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2101">
+        <etapa id="2345">
             <titulo>Cadastrar-se no Portal do Programa</titulo>
-            <descricao></descricao>
+            <descricao>Para participar do Progredir, você precisa estar inscrito no Cadastro Único. 
+Insira seu CPF e a cidade/UF onde mora. 
+Clique em “Não sou robô”, na mesma página. 
+Em seguida, preencha seus dados pessoais (nome, CPF, telefone, entre outros dados) do mesmo jeito que estão no Cadastro Único. 
+Depois, insira seu e-mail e senha. 
+Clique em “Efetuar Login”.</descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -46,15 +55,15 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2142" tipo="web">
+                    <canal-de-prestacao id="2446" tipo="web">
                         <descricao>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2102">
+        <etapa id="2346">
             <titulo>Acessar o Portal do Programa</titulo>
-            <descricao></descricao>
+            <descricao>Ao acessar a página você terá acesso às ofertas do Plano Progredir, como os cursos de qualificação, acesso ao microcrédito produtivo, inclusão de currículo, vagas de emprego etc.</descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -63,7 +72,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2143" tipo="web">
+                    <canal-de-prestacao id="2447" tipo="web">
                         <descricao>https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/login.php?v=https://aplicacoes.mds.gov.br/sisp/progredir/trabalhador/index.php%20</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -74,7 +83,7 @@
         <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2378">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2590">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Assistência à Criança e ao Adolescente</item>
@@ -85,8 +94,8 @@
         <item>Combate a desigualdade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2457">emprego</item>
-        <item id="2458">bolsa família</item>
-        <item id="2459">cadúnico</item>
+        <item id="2844">emprego</item>
+        <item id="2845">bolsa família</item>
+        <item id="2846">cadúnico</item>
     </palavras-chave>
 </servico>
