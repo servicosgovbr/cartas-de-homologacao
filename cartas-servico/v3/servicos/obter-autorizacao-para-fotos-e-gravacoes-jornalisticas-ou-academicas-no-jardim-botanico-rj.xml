@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-autorizacao-para-fotos-e-gravacoes-jornalisticas-ou-academicas-no-jardim-botanico-rj</id>
+    <dbId>1165</dbId>
+    <nome>Obter autorização para fotos e gravações jornalísticas ou acadêmicas no Jardim Botânico - RJ</nome>
+    <sigla></sigla>
+    <descricao>O Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, mediante solicitação, emite documento de autorização para que sejam feitas gravações, filmagens e fotos jornalísticas ou acadêmicas em qualquer setor do Jardim Botânico.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="918">
+            <tipo>Profissionais de imprensa/mídia, estudantes, professores.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2293">
+            <titulo>Cadastrar a solicitação</titulo>
+            <descricao>O cidadão preenche formulário eletrônico com dados da sua empresa/instituição, da matéria, da equipe de produção, do equipamento e do dia e horário desejados.</descricao>
+            <documentos>
+                <default>
+                    <item id="1661">Identificação funcional</item>
+                    <item id="1662">Declaração da instituição de ensino</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2374" tipo="web">
+                        <descricao>http://www.jbrj.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2294">
+            <titulo>Aguardar análise</titulo>
+            <descricao>O pedido é analisado pelo Instituto. No caso de indeferimento, é gerada mensagem ao solicitante, com a justificativa.</descricao>
+            <documentos>
+                <default>
+                    <item id="1663">CPF</item>
+                    <item id="1664">Senha do Login Único</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2375" tipo="web-acompanhar">
+                        <descricao>http://www.jbrj.gov.br/</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2376" tipo="e-mail">
+                        <descricao>Informado no momento da requisição</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2295">
+            <titulo>Receber documento de autorização</titulo>
+            <descricao>Após aprovação da solicitação, é emitida uma notificação ao solicitante, informando que o pedido foi deferido e que o documento de autorização está pronto no sistema para ser gerado. O solicitante gera o documento, podendo imprimir ou salvar no celular para apresentar na entrada do Jardim Botânico.</descricao>
+            <documentos>
+                <default>
+                    <item id="1665">CPF</item>
+                    <item id="1666">Senha do Login Único</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2378" tipo="web-emitir">
+                        <descricao>http://www.jbrj.gov.br/</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2377" tipo="e-mail">
+                        <descricao>Informado no momento da requisição</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1913" dbId="37021">
+        <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2546">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2547">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2544">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2545">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comunicações</item>
+        <item>Biodiversidade</item>
+        <item>Ambiente e saúde</item>
+        <item>Preservação e Conservação Ambiental</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2754">Autorização</item>
+        <item id="2755">Foto</item>
+        <item id="2756">Filmagem</item>
+        <item id="2757">Jardim Botanico</item>
+    </palavras-chave>
+</servico>
