@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="952">
+        <solicitante id="954">
             <tipo>Cidadão.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2360">
+        <etapa id="2362">
             <titulo>Solicitação de CVI</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2461" tipo="web">
+                    <canal-de-prestacao id="2463" tipo="web">
                         <descricao>Serviço prestado exclusivamente por acesso web.</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,15 +46,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2599">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2601">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Vigilância Sanitária</item>
         <item>Saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2871">CVI</item>
-        <item id="2872">veterinário</item>
-        <item id="2873">certificado</item>
+        <item id="2877">CVI</item>
+        <item id="2878">veterinário</item>
+        <item id="2879">certificado</item>
     </palavras-chave>
 </servico>
