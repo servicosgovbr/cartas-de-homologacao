@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>certificado-veterinario-internacional-rafael</id>
+    <dbId>1191</dbId>
+    <nome>Certificado Veterinário Internacional (Rafael)</nome>
+    <sigla>CVIRafael</sigla>
+    <nomes-populares>
+        <item id="1008">CVIRafael</item>
+        <item id="1009">Certificado</item>
+        <item id="1010">Rafael</item>
+    </nomes-populares>
+    <descricao>Serviço Veterinário Internacional realizaod no curso realizado em 15/08/2018</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps-lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="949">
+            <tipo>Qualquer um</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2357">
+            <titulo>Solicitação</titulo>
+            <descricao>Solicitação</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2458" tipo="web">
+                        <descricao>Campo obrigatório</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2597">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Fiscalização do Estado</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2862">Veterinário</item>
+        <item id="2863">Cachorro</item>
+        <item id="2864">Gato</item>
+    </palavras-chave>
+</servico>
