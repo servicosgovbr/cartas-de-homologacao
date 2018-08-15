@@ -5,9 +5,9 @@
     <nome>Certificado Veterinário Internacional (Rafael)</nome>
     <sigla>CVIRafael</sigla>
     <nomes-populares>
-        <item id="1011">CVIRafael</item>
-        <item id="1012">Certificado</item>
-        <item id="1013">Rafael</item>
+        <item id="1014">CVIRafael</item>
+        <item id="1015">Certificado</item>
+        <item id="1016">Rafael</item>
     </nomes-populares>
     <descricao>Serviço Veterinário Internacional realizaod no curso realizado em 15/08/2018</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="951">
+        <solicitante id="953">
             <tipo>Qualquer um</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2359">
+        <etapa id="2361">
             <titulo>Solicitação</titulo>
             <descricao>Solicitação</descricao>
             <documentos>
@@ -40,7 +40,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2460" tipo="web">
+                    <canal-de-prestacao id="2462" tipo="web">
                         <descricao>Campo obrigatório</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -51,14 +51,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2598">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2600">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Fiscalização do Estado</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2868">Veterinário</item>
-        <item id="2869">Cachorro</item>
-        <item id="2870">Gato</item>
+        <item id="2874">Veterinário</item>
+        <item id="2875">Cachorro</item>
+        <item id="2876">Gato</item>
     </palavras-chave>
 </servico>
