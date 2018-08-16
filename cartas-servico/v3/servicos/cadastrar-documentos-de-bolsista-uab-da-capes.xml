@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastrar-documentos-de-bolsista-uab-da-capes</id>
+    <dbId>1198</dbId>
+    <nome>Cadastrar documentos de bolsista UAB da CAPES</nome>
+    <sigla></sigla>
+    <descricao>Postagem dos documentos necessários para recebimento das bolsas pagas no Sistema UAB e no PROEB.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="956">
+            <tipo>Bolsistas do Sistema UAB e dos Metrados Profissionais (PROEB)</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2364">
+            <titulo>Preencher formulário eletrônico</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1726">RG
+CPF...</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2465" tipo="web">
+                        <descricao>www.servicos.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2603">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2883">bolsa</item>
+        <item id="2884">capes</item>
+        <item id="2885">uab</item>
+    </palavras-chave>
+</servico>
