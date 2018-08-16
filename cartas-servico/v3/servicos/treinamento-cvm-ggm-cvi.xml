@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-cvm-ggm-cvi</id>
+    <dbId>1201</dbId>
+    <nome>Treinamento CVM GGM CVI</nome>
+    <sigla>cvm_ggm_cvi</sigla>
+    <descricao>Formulario solicitacao Certificado Veterinario Internacional (CVI) - Treinamento CVM GGM CVI</descricao>
+    <contato>Gustavo</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="959">
+            <tipo>Cidadao viajantes ao exterior com animais de estimacao</tipo>
+            <requisitos>certificado de saude do animal</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2367">
+            <titulo>Solicitacao</titulo>
+            <descricao>Solicitacao</descricao>
+            <documentos>
+                <default>
+                    <item id="1727">certificado saude</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2468" tipo="web">
+                        <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478" dbId="7907">
+        <nomeOrgao>Comissão de Valores Mobiliários (CVM)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2607">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2608">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2609">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2610">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Saneamento Básico Rural</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2892">cao</item>
+        <item id="2893">gato</item>
+        <item id="2894">porco</item>
+    </palavras-chave>
+</servico>
