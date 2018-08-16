@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-cvm-ricardo-zielinsky</id>
+    <dbId>1200</dbId>
+    <nome>Treinamento - CVM Ricardo Zielinsky</nome>
+    <sigla>CVI CVM RZ</sigla>
+    <descricao>CVI do RZ</descricao>
+    <contato>ALEXANDRE CUNHA</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="958">
+            <tipo>Participante CVM</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2366">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2467" tipo="web">
+                        <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2605">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2606">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Defesa agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2889">CVM</item>
+        <item id="2890">RICARDO</item>
+        <item id="2891">RZ</item>
+    </palavras-chave>
+</servico>
