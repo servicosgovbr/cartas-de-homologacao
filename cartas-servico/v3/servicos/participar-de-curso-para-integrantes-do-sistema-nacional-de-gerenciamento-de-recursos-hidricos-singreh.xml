@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>participar-de-curso-para-integrantes-do-sistema-nacional-de-gerenciamento-de-recursos-hidricos-singreh</id>
+    <dbId>1181</dbId>
+    <nome>Participar de curso para integrantes do Sistema Nacional de Gerenciamento de Recursos Hídricos (SINGREH)</nome>
+    <sigla></sigla>
+    <descricao>A Agência Nacional de Águas (ANA) oferece aos integrantes do Sistema Nacional de Gerenciamento de Recursos Hídricos (SINGREH) cursos presenciais, para os quais os interessados devem solicitar inscrição. 
+
+
+O Sistema Nacional de Gerenciamento de Recursos Hídricos (SINGREH) é um conjunto de órgãos e colegiados que concebe e implementa a Política Nacional das Águas. O papel principal do SINGREH é fazer a gestão dos usos da água de forma democrática e participativa.
+
+
+Fazem parte do SINGREH:
+- o Conselho Nacional de Recursos Hídricos (CNRH);
+- a Secretaria de Recursos Hídricos e Qualidade Ambiental (SRQA);
+- a Agência Nacional de Águas (ANA);
+- os Conselhos Estaduais de Recursos Hídricos (CERH);
+- órgãos gestores de recursos hídricos estaduais (Entidades Estaduais);
+- os Comitês de Bacia Hidrográfica e
+- as Agências de Água.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="938">
+            <tipo>Integrantes do Sistema Nacional de Gerenciamento de Recursos Hídricos</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2322">
+            <titulo>Inscrever-se no curso</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1678">Documento de identificação oficial com foto</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2408" tipo="postal">
+                        <descricao>Agência Nacional de Águas - Setor Policial (SPO), Área 5, Quadra 3, Blocos “B”, “L”, “M” e “T” CEP: 70610-200</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2409" tipo="presencial">
+                        <descricao>Agência Nacional de Águas - Setor Policial (SPO), Área 5, Quadra 3, Blocos “B”, “L”, “M” e “T” CEP: 70610-200</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2323">
+            <titulo>Fazer o curso</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2410" tipo="presencial">
+                        <descricao>Agência Nacional de Águas - Setor Policial (SPO), Área 5, Quadra 3, Blocos “B”, “L”, “M” e “T” CEP: 70610-200</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/46876" dbId="915">
+        <nomeOrgao>Agência Nacional de Águas (ANA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2573">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Água</item>
+        <item>Ambiente e saúde</item>
+        <item>Cidadania</item>
+        <item>Meio ambiente</item>
+        <item>Normalização e Qualidade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2814">ANA</item>
+        <item id="2815">Recursos hídricos</item>
+        <item id="2813">SINGREH</item>
+    </palavras-chave>
+</servico>
