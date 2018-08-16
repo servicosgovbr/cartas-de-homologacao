@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-autorizacao-para-transporte-ferroviario-nao-regular-de-passageiros-com-finalidade-turistica-historica-e-cultural-ou-comemorativa</id>
+    <dbId>1206</dbId>
+    <nome>Obter autorização para Transporte Ferroviário Não Regular de Passageiros com Finalidade Turística, Histórica e Cultural ou Comemorativa</nome>
+    <sigla>TFNRP</sigla>
+    <descricao>Solicitação de autorização para prestação não regular e eventual de serviços de transporte ferroviário de passageiros, com finalidade turística, histórica e cultural ou comemorativa.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="964">
+            <tipo>Entidades Públicas, Privadas e Organizações da Sociedade Civil  de Interesse Público</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="3" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2374">
+            <titulo>Requerimento para Finalidade Turística, Histórica e Cultural</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1729">Requerimento com a indicação do trecho, assinado pelo representante legal da PJ interessada;</item>
+                    <item id="1730">Proposta Técnico-Operacional contendo Memorial descritivo da operação, Previsão da Demanda, Potencial Turístico, Comprovação da capacidade técnica do pessoal, Relação do Material Rodante,  Laudo Técnico do Material Rodante acompanhado da ART - Anotação de Responsabilidade Técnica,  Relação de infra e superestrutura a ser utilizada, compreendendo a relação de estações e pátios;</item>
+                    <item id="1731">Benefícios Econômico-Financeiros contendo repercussão econômico-social e no desenvolvimento turístico e cultural;</item>
+                    <item id="1732">Manifestação formal da Concessionária;
+Sociedade Comercial	Ato constitutivo, estatuto ou contrato Social;</item>
+                    <item id="1733">CNPJ;
+Certidão de Regularidade com a União (Tributos Federais - Dívida Ativa da União); 	
+Certidão de Regularidade com a Fazenda Estadual ou Distrital, Fazenda Municipal, FGTS – CRF;</item>
+                    <item id="1734">Balanço Patrimonial do último exercício, acompanhado das Demonstrações Contábeis;
+Proposta de Seguro de Responsabilidade Civil; 
+Proposta de Seguro de Acidentes Pessoais;
+Contrato Operacional Específico.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2475" tipo="web">
+                        <descricao>https://www.servicos.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2375">
+            <titulo>Requerimento de Finalidade Comemorativa</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="1735">Requerimento com a indicação do trecho, assinado pelo representante legal da PJ interessada;</item>
+                    <item id="1736">Termo de Entendimento;</item>
+                    <item id="1737">Laudo Técnico do Material Rodante acompanhado da ART - Anotação de Responsabilidade Técnica;</item>
+                    <item id="1738">Apólice de Seguro de Responsabilidade Civil;
+Apólice de Seguro de Acidentes Pessoais.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2476" tipo="web">
+                        <descricao>https://www.servicos.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/54793" dbId="913">
+        <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2624">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2625">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2626">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Turismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2907">autorização</item>
+        <item id="2908">trem</item>
+        <item id="2909">turístico</item>
+        <item id="2910">histórico</item>
+        <item id="2911">cultural</item>
+        <item id="2912">comemorativo</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="721">Decreto nº 1.832/1996, Lei nº 10.233/2001, Resolução nº 359/2003, Decreto nº 5.296/2004, Resolução nº 3.535/2010, Resolução nº 3.795/2012.</item>
+    </legislacoes>
+</servico>
