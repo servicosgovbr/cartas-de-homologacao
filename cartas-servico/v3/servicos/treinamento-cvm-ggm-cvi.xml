@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="959">
+        <solicitante id="962">
             <tipo>Cidadao viajantes ao exterior com animais de estimacao</tipo>
             <requisitos>certificado de saude do animal</requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2367">
+        <etapa id="2370">
             <titulo>Solicitacao</titulo>
             <descricao>Solicitacao</descricao>
             <documentos>
                 <default>
-                    <item id="1727">certificado saude</item>
+                    <item id="1728">certificado saude</item>
                 </default>
             </documentos>
             <custos>
@@ -37,21 +37,21 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2468" tipo="web">
+                    <canal-de-prestacao id="2471" tipo="web">
                         <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478" dbId="7907">
-        <nomeOrgao>Comissão de Valores Mobiliários (CVM)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2607">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2608">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2609">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2610">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2615">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2616">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2617">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2618">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -59,8 +59,8 @@
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2892">cao</item>
-        <item id="2893">gato</item>
-        <item id="2894">porco</item>
+        <item id="2901">cao</item>
+        <item id="2902">gato</item>
+        <item id="2903">porco</item>
     </palavras-chave>
 </servico>
