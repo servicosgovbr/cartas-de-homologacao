@@ -5,16 +5,16 @@
     <nome>Obter autorização da ANCINE para realizar filmagem estrangeira no Brasil</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1019">Filmagem Estrangeira no Brasil</item>
+        <item id="1020">Filmagem Estrangeira no Brasil</item>
     </nomes-populares>
     <descricao>Recebimento e processamento das comunicações de filmagem/produção de obras estrangeiras a serem realizadas no território nacional. A comunicação é realizada por empresa produtora brasileira registrada na ANCINE que possua instrumento contratual firmado com a empresa produtora estrangeira.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="965">
+        <solicitante id="966">
             <tipo>Produtores de filmagem.</tipo>
             <requisitos>Requisitos necessários para o solicitante:
 
@@ -30,18 +30,18 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2376">
+        <etapa id="2378">
             <titulo>Solicitação de Filmagem Estrangeira no Brasil</titulo>
             <descricao>Envio de requerimento próprio, intitulado “Comunicação de Produção de Obra Audiovisual Estrangeira em Território Nacional[LMLG1] ”,acompanhado da documentação listada no art. 2º da Instrução Normativa nº 79 da ANCINE, de 15/10/2008;
 Análise da documentação pelo setor responsável;
 Acatamento da comunicação, rejeição ou formulação de exigências;</descricao>
             <documentos>
                 <default>
-                    <item id="1739">Formulário de comunicação de produção de obra audiovisual estrangeira no território nacional, anexo à Instrução Normativa nº 79 e disponível em http://www.ancine.gov.br/media/Formulario1IN79art2.doc;</item>
-                    <item id="1740">Cópia do contrato firmado entre a empresa produtora estrangeira, ou responsável legal pelo empreendimento, e a empresa produtora brasileira, com indicação das responsabilidades recíprocas, forma de remuneração acordada e o período de validade do instrumento;</item>
-                    <item id="1741">Cópia da tradução do contrato acima citado, quando em idioma estrangeiro;</item>
-                    <item id="1742">Plano provisório de filmagem/gravação, com a indicação de datas e dos locais (Município/UF), no território brasileiro, onde se realizarão os trabalhos;</item>
-                    <item id="1743">Cópia das folhas de identificação do passaporte de cada profissional estrangeiro.</item>
+                    <item id="1744">Formulário de comunicação de produção de obra audiovisual estrangeira no território nacional, anexo à Instrução Normativa nº 79 e disponível em http://www.ancine.gov.br/media/Formulario1IN79art2.doc;</item>
+                    <item id="1745">Cópia do contrato firmado entre a empresa produtora estrangeira, ou responsável legal pelo empreendimento, e a empresa produtora brasileira, com indicação das responsabilidades recíprocas, forma de remuneração acordada e o período de validade do instrumento;</item>
+                    <item id="1746">Cópia da tradução do contrato acima citado, quando em idioma estrangeiro;</item>
+                    <item id="1747">Plano provisório de filmagem/gravação, com a indicação de datas e dos locais (Município/UF), no território brasileiro, onde se realizarão os trabalhos;</item>
+                    <item id="1748">Cópia das folhas de identificação do passaporte de cada profissional estrangeiro.</item>
                 </default>
             </documentos>
             <custos>
@@ -49,13 +49,13 @@ Acatamento da comunicação, rejeição ou formulação de exigências;</descric
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2477" tipo="e-mail">
+                    <canal-de-prestacao id="2479" tipo="e-mail">
                         <descricao>filmagem.estrangeira@ancine.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2377">
+        <etapa id="2379">
             <titulo>Obter Ofício de Comunicação de Filmagem</titulo>
             <descricao>Emissão de ofício, pela ANCINE, certificando a comunicação, se houver acatamento (tipos: Ofício de Comunicação de Produção de Obra Audiovisual Estrangeira no
 Território Nacional ou o Ofício de Comunicação de Participação de Profissional Estrangeiro em Produção de Obra Audiovisual Brasileira);
@@ -68,7 +68,7 @@ Envio do ofício, pela ANCINE, à produtora brasileira e às competentes represe
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2478" tipo="e-mail">
+                    <canal-de-prestacao id="2480" tipo="e-mail">
                         <descricao>filmagem.estrangeira@ancine.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -79,7 +79,7 @@ Envio do ofício, pela ANCINE, à produtora brasileira e às competentes represe
         <nomeOrgao>Agência Nacional do Cinema (ANCINE)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2627">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2628">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Cooperação Internacional</item>
@@ -87,11 +87,11 @@ Envio do ofício, pela ANCINE, à produtora brasileira e às competentes represe
         <item>Cultura</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2913">filmagem estrangeira no Brasil</item>
-        <item id="2914">filmagem no país</item>
-        <item id="2915">obra audiovisual estrangeira</item>
+        <item id="2916">filmagem estrangeira no Brasil</item>
+        <item id="2917">filmagem no país</item>
+        <item id="2918">obra audiovisual estrangeira</item>
     </palavras-chave>
     <legislacoes>
-        <item id="722">Instrução Normativa nº 79 da ANCINE, de 15 de outubro de 2008</item>
+        <item id="723">Instrução Normativa nº 79 da ANCINE, de 15 de outubro de 2008</item>
     </legislacoes>
 </servico>
