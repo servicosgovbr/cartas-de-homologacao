@@ -4,28 +4,31 @@
     <dbId>1048</dbId>
     <nome>Cadastro de Empresas Utilizadoras de Asbestos (Amianto)</nome>
     <sigla></sigla>
-    <descricao>Cadastro junto ao ministério do trabalho de empresas utilizadoras de Asbestos (Amianto)</descricao>
+    <nomes-populares>
+        <item id="1022">Amianto</item>
+    </nomes-populares>
+    <descricao>Este serviço permite o cadastro, junto ao Ministério do Trabalho, das empresas que produzem ou lidam com Amianto, como demanda a legislação.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="795">
+        <solicitante id="967">
             <tipo>Empresas Utilizadoras de Asbestos</tipo>
-            <requisitos></requisitos>
+            <requisitos>que produzem, utilizam ou comercializam fibras de asbesto e as responsáveis pela remoção de sistemas que contêm ou podem liberar fibras de asbesto para o ambiente.</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <nao-estimado-ainda/>
+        <entre min="15" max="30" unidade="dias-uteis"/>
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2024">
-            <titulo>Solicitação</titulo>
+        <etapa id="2383">
+            <titulo>Preenchimento e entrega do formulário</titulo>
             <descricao></descricao>
             <documentos>
                 <default/>
@@ -35,8 +38,25 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2044" tipo="web-preencher">
-                        <descricao>Preenchimento de formulário</descricao>
+                    <canal-de-prestacao id="2481" tipo="web">
+                        <descricao>https://www.servicos.gov.br/servico/cadastrar-empresas-que-utilizam-amianto?campaign=orgao</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2384">
+            <titulo>Confirmação do registro</titulo>
+            <descricao>A empresa receberá ofício confirmando seu cadastro.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2482" tipo="web">
+                        <descricao>https://www.servicos.gov.br/servico/cadastrar-empresas-que-utilizam-amianto?campaign=orgao</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -46,14 +66,14 @@
         <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2324">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2629">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Urbanismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2371">Amianto</item>
-        <item id="2372">Trabalho</item>
-        <item id="2373">Cadastro</item>
+        <item id="2919">Amianto</item>
+        <item id="2920">Trabalho</item>
+        <item id="2921">Cadastro</item>
     </palavras-chave>
 </servico>
