@@ -5,7 +5,7 @@
     <nome>Acesso aos Acervos da Fundação Nacional do Índio</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="207">Acervo Indígena sdasdas</item>
+        <item id="926">Acervo Indígena sdasdas</item>
     </nomes-populares>
     <descricao>A Fundação Nacional do Índio - FUNAI - tem como missão coordenar o processo de formulação e implementação da política indigenista do Estado brasileiro, instituindo mecanismos efetivos de controle social e de gestão participativa, visando à proteção e promoção dos direitos dos povos indígenas.
 
@@ -18,7 +18,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="568">
+        <solicitante id="853">
             <tipo>vfdgfdgd</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -31,7 +31,7 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1001">
+        <etapa id="2101">
             <titulo>fdgfdgdfg</titulo>
             <descricao></descricao>
             <documentos>
@@ -45,8 +45,8 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2126" tipo="web">
-                        <descricao>&lt;a href="www.uol.com.br" target="_blank"&gt;&lt;/a&gt;</descricao>
+                    <canal-de-prestacao id="2127" tipo="web">
+                        <descricao>&lt;a href="https://scp.brasilcidadao.gov.br/scp/login" target="_blank"&gt;&lt;/a&gt;</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -56,15 +56,15 @@ Os atendimentos oferecidos aos cidadãos pela FUNAI relativos ao acesso aos seus
         <nomeOrgao>Fundação Nacional do Índio (FUNAI)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="1950">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2369">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Proteção Social</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="1656">f</item>
-        <item id="1657">f</item>
-        <item id="1658">f</item>
+        <item id="2551">f</item>
+        <item id="2552">f</item>
+        <item id="2553">f</item>
     </palavras-chave>
     <condicoes-acessibilidade>hk</condicoes-acessibilidade>
     <tratamento-prioritario>hk</tratamento-prioritario>
