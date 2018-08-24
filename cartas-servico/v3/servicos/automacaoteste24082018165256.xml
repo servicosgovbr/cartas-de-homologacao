@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>automacaoteste24082018165256</id>
+    <dbId>1175</dbId>
+    <nome>AutomacaoTeste24082018165256</nome>
+    <sigla></sigla>
+    <descricao>descricao teste</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="924">
+            <tipo>solicitante teste</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="5" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>5</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2239">
+            <titulo>titulo etapa teste</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="598">
+                        <descricao>descript canal teste</descricao>
+                        <moeda>R$</moeda>
+                        <valor>12,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                    <custo id="599">
+                        <descricao>descript canal teste</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>12</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <tempo-total-estimado>
+                <em-media max="1" unidade="dias-uteis"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2396" tipo="postal">
+                        <descricao>descriptionCanalPrest2</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2395" tipo="web" procedimento-sistema-indisponivel="descriptCanal1">
+                        <descricao>descriptCanal1</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2240">
+            <titulo>titulo etapa teste</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="601">
+                        <descricao>descript canal teste</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>12</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+                <caso id="712" descricao="">
+                    <custo id="603">
+                        <descricao>descript canal teste</descricao>
+                        <moeda>R$</moeda>
+                        <valor>12,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </caso>
+            </custos>
+            <tempo-total-estimado>
+                <em-media max="1" unidade="dias-uteis"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2398" tipo="postal">
+                        <descricao>descriptCanal1</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="710" descricao="">
+                    <canal-de-prestacao id="2397" tipo="e-mail">
+                        <descricao>descriptCanal1</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/444" dbId="36736">
+        <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2505">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2506">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Clima</item>
+        <item>Defesa Civil</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2719">palavraChave24082018165256</item>
+        <item id="2720">palavraChave24082018165256</item>
+        <item id="2721">palavraChave24082018165256</item>
+    </palavras-chave>
+    <servicos-relacionados>
+        <item>228</item>
+        <item>178</item>
+    </servicos-relacionados>
+    <condicoes-acessibilidade>descricao teste</condicoes-acessibilidade>
+    <tratamento-prioritario>descricao teste</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>descricao teste</tratamento-dispensado-atendimento>
+</servico>
