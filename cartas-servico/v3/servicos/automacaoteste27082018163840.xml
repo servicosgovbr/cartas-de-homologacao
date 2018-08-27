@@ -28,7 +28,7 @@
     </validade-documento>
     <etapas>
         <etapa id="2257">
-            <titulo>titulo etapa teste</titulo>
+            <titulo>titulo Etapa 1 Modificado</titulo>
             <descricao></descricao>
             <documentos>
                 <default/>
@@ -65,7 +65,7 @@
             </canais-de-prestacao>
         </etapa>
         <etapa id="2258">
-            <titulo>titulo etapa teste</titulo>
+            <titulo>titulo Etapa 2 Modificado</titulo>
             <descricao></descricao>
             <documentos>
                 <default/>
@@ -79,8 +79,8 @@
                         <statusCustoVariavel>1</statusCustoVariavel>
                     </custo>
                 </default>
-                <caso id="761" descricao="">
-                    <custo id="670">
+                <caso id="764" descricao="">
+                    <custo id="673">
                         <descricao>descript canal teste</descricao>
                         <moeda>R$</moeda>
                         <valor>12,00</valor>
@@ -120,7 +120,7 @@
     <palavras-chave>
         <item id="2746">palavraChave27082018163840</item>
         <item id="2747">palavraChave27082018163840</item>
-        <item id="2748">palavraChave27082018163840</item>
+        <item id="2748">palavraChave-3906721</item>
     </palavras-chave>
     <servicos-relacionados>
         <item>228</item>
