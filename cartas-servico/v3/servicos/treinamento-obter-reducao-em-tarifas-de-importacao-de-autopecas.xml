@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-obter-reducao-em-tarifas-de-importacao-de-autopecas</id>
+    <dbId>1213</dbId>
+    <nome>[Treinamento] - Obter redução em tarifas de importação de autopeças</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="1026">Regime Automotivo (ACE 14)</item>
+    </nomes-populares>
+    <descricao>Habilitação de usuário no Regime Automotivo (ACE 14) para usufruto de redução em tarifas de importação de autopeças.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="973">
+            <tipo>Empresas do setor automotivo</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="7" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2396">
+            <titulo>Protocolar requerimento</titulo>
+            <descricao>Encaminhamento da solicitação e abertura de processo;</descricao>
+            <documentos>
+                <default>
+                    <item id="1767">Carta/ofício solicitando a habilitação (assinado por mandatário da empresa – ver a ata de assembleia geral ou contrato social, conforme o caso - ou por detentor de procuração pública)</item>
+                    <item id="1768">Anexo II da Portaria MDIC nº 160/2008, devidamente preenchido</item>
+                    <item id="1769">Cópia do cartão de identificação de inscrição no Cadastro Nacional de Pessoa Jurídica – CNPJ</item>
+                    <item id="1770">Cópia da Certidão Negativa (ou Positiva com efeito de Negativa) de Débitos Relativos aos Tributos Federais e à Dívida Ativa da União</item>
+                    <item id="1771">Certificado de Regularidade do FGTS, emitido pela Caixa Econômica Federal</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2499" tipo="postal">
+                        <descricao>Ministério da Indústria e Comércio Exterior e Serviços - Esplanada dos Ministérios, Bloco J, Protocolo - Brasília/DF - CEP 70.053.900</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2397">
+            <titulo>Analisar Requerimento</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2497" tipo="presencial">
+                        <descricao>Ministério da Indústria e Comércio Exterior e Serviços - Esplanada dos Ministérios, Bloco J, Protocolo - Brasília/DF - CEP 70.053.900</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2498" tipo="postal">
+                        <descricao>Ministério da Indústria e Comércio Exterior e Serviços - Esplanada dos Ministérios, Bloco J, Protocolo - Brasília/DF - CEP 70.053.900</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2635">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração Financeira</item>
+        <item>Comercio externo</item>
+        <item>Comércio e Serviços</item>
+        <item>Economia e Finanças</item>
+        <item>Relações Internacionais</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2943">automóvel</item>
+        <item id="2944">importação</item>
+        <item id="2945">peças</item>
+        <item id="2946">autopeças</item>
+    </palavras-chave>
+</servico>
