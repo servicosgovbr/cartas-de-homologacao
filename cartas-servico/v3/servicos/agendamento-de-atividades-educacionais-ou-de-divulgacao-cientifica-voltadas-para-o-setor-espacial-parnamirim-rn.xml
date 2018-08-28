@@ -11,15 +11,15 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="979">
+        <solicitante id="982">
             <tipo>Escolas de nível fundamental e médio: públicas e privadas;</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="980">
+        <solicitante id="983">
             <tipo>Instituições de nível superior: públicas e privadas;</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="981">
+        <solicitante id="984">
             <tipo>Sociedade em geral.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,13 +32,13 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2404">
+        <etapa id="2409">
             <titulo>Fazer o pedido de participação na atividade espacial ou de divulgação científica</titulo>
             <descricao>O formulário web deve ser preenchido com os dados do solicitante, que deve selecionar o dia no qual espera participar da atividade.</descricao>
             <documentos>
                 <default>
-                    <item id="1793">RG
-CPF</item>
+                    <item id="1794">RG</item>
+                    <item id="1795">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -46,13 +46,13 @@ CPF</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2510" tipo="web">
+                    <canal-de-prestacao id="2512" tipo="web">
                         <descricao>https://scp.brasilcidadao.gov.br/scp/login</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2405">
+        <etapa id="2410">
             <titulo>Aguardar resposta de confirmação</titulo>
             <descricao>Após análise do pedido, é enviado um e-mail ao solicitante informando sobre as datas disponíveis para agendamento e a quantidade de pessoas permitidas.</descricao>
             <documentos>
@@ -63,8 +63,25 @@ CPF</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2511" tipo="web-acompanhar">
+                    <canal-de-prestacao id="2513" tipo="web-acompanhar">
                         <descricao>https://scp.brasilcidadao.gov.br/scp/login</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2411">
+            <titulo>Comparecer ao Centro Espacial para a atividade agendada</titulo>
+            <descricao>Ao final da atividade é possível receber Certificados de participação</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2514" tipo="presencial">
+                        <descricao>Centro Vocacional Tecnológico Espacial (CVT-Espacial), localizado no Centro de Lançamento da Barreira do Inferno: Rod RN-063, km 11 - Ponta Negra, Parnamirim/RN.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -74,18 +91,18 @@ CPF</item>
         <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2641">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2642">Órgãos e entidades públicas</item>
-        <item idSegmento="3" idServicoSegmento="2643">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2644">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2645">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2646">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2647">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2648">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação superior</item>
         <item>Educação básica</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2966">AEB</item>
-        <item id="2967">Espacial</item>
-        <item id="2968">Centro Vocacional Tecnológico Espacial</item>
+        <item id="2969">AEB</item>
+        <item id="2970">Espacial</item>
+        <item id="2971">Centro Vocacional Tecnológico Espacial</item>
     </palavras-chave>
 </servico>
