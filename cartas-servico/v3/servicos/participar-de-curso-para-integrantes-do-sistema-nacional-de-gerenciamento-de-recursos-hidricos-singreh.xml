@@ -24,7 +24,7 @@ Fazem parte do SINGREH:
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="938">
+        <solicitante id="988">
             <tipo>Integrantes do Sistema Nacional de Gerenciamento de Recursos Hídricos</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -37,12 +37,12 @@ Fazem parte do SINGREH:
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2322">
+        <etapa id="2415">
             <titulo>Inscrever-se no curso</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1678">Documento de identificação oficial com foto</item>
+                    <item id="1798">Documento de identificação oficial com foto</item>
                 </default>
             </documentos>
             <custos>
@@ -50,16 +50,16 @@ Fazem parte do SINGREH:
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2408" tipo="postal">
+                    <canal-de-prestacao id="2518" tipo="postal">
                         <descricao>Agência Nacional de Águas - Setor Policial (SPO), Área 5, Quadra 3, Blocos “B”, “L”, “M” e “T” CEP: 70610-200</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2409" tipo="presencial">
+                    <canal-de-prestacao id="2519" tipo="presencial">
                         <descricao>Agência Nacional de Águas - Setor Policial (SPO), Área 5, Quadra 3, Blocos “B”, “L”, “M” e “T” CEP: 70610-200</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2323">
+        <etapa id="2416">
             <titulo>Fazer o curso</titulo>
             <descricao></descricao>
             <documentos>
@@ -70,7 +70,7 @@ Fazem parte do SINGREH:
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2410" tipo="presencial">
+                    <canal-de-prestacao id="2520" tipo="presencial">
                         <descricao>Agência Nacional de Águas - Setor Policial (SPO), Área 5, Quadra 3, Blocos “B”, “L”, “M” e “T” CEP: 70610-200</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -81,7 +81,7 @@ Fazem parte do SINGREH:
         <nomeOrgao>Agência Nacional de Águas (ANA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="2573">Órgãos e entidades públicas</item>
+        <item idSegmento="2" idServicoSegmento="2653">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Água</item>
@@ -91,8 +91,8 @@ Fazem parte do SINGREH:
         <item>Normalização e Qualidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2814">ANA</item>
-        <item id="2815">Recursos hídricos</item>
-        <item id="2813">SINGREH</item>
+        <item id="2975">ANA</item>
+        <item id="2976">Recursos hídricos</item>
+        <item id="2977">SINGREH</item>
     </palavras-chave>
 </servico>
