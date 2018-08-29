@@ -5,7 +5,7 @@
     <nome>Certificação de Produtos Orgânicos</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="923">SISORG</item>
+        <item id="1032">SISORG</item>
     </nomes-populares>
     <descricao>O Instituto Nacional de Tecnologia (INT) é um órgão público
 federal vinculado ao Ministério da Ciência, Tecnologia, Inovações e
@@ -48,10 +48,10 @@ certificação orgânica.</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="839">
+        <solicitante id="995">
             <tipo>Produtor agrícola cujo manejo é orgânico, sendo Pessoa Física ou Jurídica</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -67,14 +67,14 @@ certificação orgânica.</descricao>
         <descricao>Após a emissão do Certificado de Conformidade Orgânica o certificado é válido por 1 ano, sendo renovado a cada ano mediante avaliação dos requisitos normativos que deram origem a certificação inicial</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2142">
+        <etapa id="2431">
             <titulo>Solicitação</titulo>
             <descricao>Qualquer empresa ou pessoa física pode solicitar ao INT a certificação de seus produtos, desde que evidenciem o atendimento às normas, critérios e regulamentos aplicáveis. 
 A certificação se inicia com a apresentação do formulário de solicitação fornecido pelo INT e deve ser feita por um representante do solicitante, acompanhado dos documentos exigidos para cada escopo.
 A documentação apresentada é então analisada pela Divisão de Certificação com vistas à viabilidade da certificação.</descricao>
             <documentos>
                 <default>
-                    <item id="1608">Formulário preenchido com seus devidos anexos</item>
+                    <item id="1820">Formulário preenchido com seus devidos anexos</item>
                 </default>
             </documentos>
             <custos>
@@ -82,20 +82,20 @@ A documentação apresentada é então analisada pela Divisão de Certificação
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2197" tipo="web">
+                    <canal-de-prestacao id="2543" tipo="web">
                         <descricao>Via portal</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-        <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2402">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2403">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2404">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2661">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2662">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2663">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
@@ -104,8 +104,8 @@ A documentação apresentada é então analisada pela Divisão de Certificação
         <item>Urbanismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2502">certificação</item>
-        <item id="2503">produtos</item>
-        <item id="2504">orgânicos</item>
+        <item id="2998">certificação</item>
+        <item id="2999">produtos</item>
+        <item id="3000">orgânicos</item>
     </palavras-chave>
 </servico>
