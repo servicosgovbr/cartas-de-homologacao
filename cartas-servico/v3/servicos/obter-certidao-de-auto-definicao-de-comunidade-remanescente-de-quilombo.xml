@@ -5,16 +5,16 @@
     <nome>Obter certidão de auto-definição de comunidade remanescente de quilombo</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1023">Certificação de comunidades quilombolas</item>
+        <item id="1031">Certificação de comunidades quilombolas</item>
     </nomes-populares>
     <descricao>Reconhece a Auto-Definição de uma comunidade como remanescente de quilombo e a possibilita a ter assistência da FCP e acessar outras políticas do Governo Federal.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="968">
+        <solicitante id="994">
             <tipo>Comunidades remanescentes de quilombos</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,13 +27,13 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2385">
+        <etapa id="2430">
             <titulo>Requerer certificação</titulo>
             <descricao>Apresentar documentos exigidos para a certificação</descricao>
             <documentos>
                 <default>
-                    <item id="1749">Histórico da Comunidade</item>
-                    <item id="1750">Ata de Assembléia Específica para Auto-definição da Comunidade, assinado. pela maioria absoluta</item>
+                    <item id="1818">Histórico da Comunidade</item>
+                    <item id="1819">Ata de Assembléia Específica para Auto-definição da Comunidade, assinado. pela maioria absoluta</item>
                 </default>
             </documentos>
             <custos>
@@ -41,13 +41,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2484" tipo="e-mail">
+                    <canal-de-prestacao id="2540" tipo="e-mail">
                         <descricao>fcpcert@palmares.gov.br; quilombo@palmares.gov.br</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2486" tipo="presencial">
+                    <canal-de-prestacao id="2541" tipo="presencial">
                         <descricao>**Fundação Cultural Palmares** - Setor Comercial Sul - SCS Quadra 02, Bloco C, nº 256 - Ed. Toufic - CEP 70.302-000 - Brasília - DF ou em uma das suas [Representações Regionais](http://www.palmares.gov.br/representacoes-regionais-da-fcp)</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2485" tipo="telefone">
+                    <canal-de-prestacao id="2542" tipo="telefone">
                         <descricao>(61) 3424-0110</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -58,7 +58,7 @@
         <nomeOrgao>Fundação Cultural Palmares (FCP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2630">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2660">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Cidadania</item>
@@ -66,8 +66,8 @@
         <item>Proteção Social</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2922">quilombo</item>
-        <item id="2923">palmares</item>
-        <item id="2924">reconhecimento</item>
+        <item id="2995">quilombo</item>
+        <item id="2996">palmares</item>
+        <item id="2997">reconhecimento</item>
     </palavras-chave>
 </servico>
