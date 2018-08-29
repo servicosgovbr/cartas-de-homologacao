@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="991">
+        <solicitante id="992">
             <tipo>Pessoas jurídicas de direito público ou privado.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2421">
+        <etapa id="2424">
             <titulo>Pedir doação</titulo>
             <descricao>O solicitante entra no sistema e preenche o formulário com seus dados e o que está sendo solicitado.</descricao>
             <documentos>
                 <default>
-                    <item id="1805">Ofício a ser carregado e enviado por meio do sistema.</item>
+                    <item id="1810">Ofício a ser carregado e enviado por meio do sistema.</item>
                 </default>
             </documentos>
             <custos>
@@ -37,19 +37,19 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2527" tipo="web">
+                    <canal-de-prestacao id="2532" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=3542</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2534" tipo="web">
                         <descricao>Caso o sistema esteja indisponível, a solicitação pode ser feita presencialmente no Horto do JBRJ (Rua Pacheco Leão, 2040- Jardim Botânico - RJ) ou na DICAT - Diretoria de Conhecimento, Ambiente e Tecnologia do JBRJ (Rua Jardim Botânico, 1008, casa 9 - Jardim Botânico - CEP 22470-180).</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2528" tipo="telefone">
+                    <canal-de-prestacao id="2533" tipo="telefone">
                         <descricao>(21) 3875-6211</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="2529" tipo="web">
-                        <descricao>Caso o sistema esteja indisponível, a solicitação pode ser feita presencialmente no Horto do JBRJ (Rua Pacheco Leão, 2040- Jardim Botânico - RJ) ou na DICAT - Diretoria de Conhecimento, Ambiente e Tecnologia do JBRJ (Rua Jardim Botânico, 1008, casa 9 - Jardim Botânico - CEP 22470-180).</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2422">
+        <etapa id="2425">
             <titulo>Agendar recebimento das mudas</titulo>
             <descricao></descricao>
             <documentos>
@@ -60,21 +60,21 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2530" tipo="telefone">
+                    <canal-de-prestacao id="2535" tipo="telefone">
                         <descricao>(21) 3874-6211</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2423">
+        <etapa id="2426">
             <titulo>Receber mudas</titulo>
             <descricao>Entrega da mudas selecionadas</descricao>
             <documentos>
                 <default>
-                    <item id="1806">Carteira de identidade</item>
-                    <item id="1807">Carteira de trabalho</item>
-                    <item id="1808">Crachás</item>
-                    <item id="1809">cópia do termo de doação</item>
+                    <item id="1811">Carteira de identidade</item>
+                    <item id="1812">Carteira de trabalho</item>
+                    <item id="1813">Crachás</item>
+                    <item id="1814">cópia do termo de doação</item>
                 </default>
             </documentos>
             <custos>
@@ -82,7 +82,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2531" tipo="presencial">
+                    <canal-de-prestacao id="2536" tipo="presencial">
                         <descricao>**No Horto do JBRJ** - Rua Jardim Botânico, 1008 - Jardim Botânico - CEP 22470-180</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -93,14 +93,14 @@
         <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2657">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2658">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Biodiversidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2986">Meio-ambiente</item>
-        <item id="2987">muda</item>
-        <item id="2988">reflorestamento</item>
+        <item id="2989">Meio-ambiente</item>
+        <item id="2990">muda</item>
+        <item id="2991">reflorestamento</item>
     </palavras-chave>
 </servico>
