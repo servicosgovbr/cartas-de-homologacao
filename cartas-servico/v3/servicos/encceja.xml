@@ -33,6 +33,7 @@
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/ul&gt;
+&lt;p style="text-align:justify"&gt;Para auxiliar na sua preparação para a prova, o INEP disponibiliza &lt;a href="http://portal.inep.gov.br/web/guest/educacao-basica/encceja/materiais-para-estudo target="_blank"&gt;apostilas para estudantes e professores&lt;/a&gt; assim como &lt;a href="http://portal.inep.gov.br/web/guest/educacao-basica/encceja/provas-e-gabaritos" target="_blank"&gt;as provas do ano anterior do ENCCEJA&gt;/a&gt;
 &lt;/div&gt;</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
@@ -40,7 +41,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="939">
+        <solicitante id="940">
             <tipo>d</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -53,7 +54,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2265">
+        <etapa id="2266">
             <titulo>adf</titulo>
             <descricao>&lt;p style="text-align:justify"&gt;Acessar a página do Exame, durante o período de inscrição a cada ano, e informar seus dados, assim como necessidades especiais que tenha para fazer a prova.&lt;/p&gt;
 &lt;br&gt;
@@ -69,7 +70,7 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2443" tipo="e-mail">
+                    <canal-de-prestacao id="2444" tipo="e-mail">
                         <descricao>adsf</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -80,15 +81,15 @@
         <nomeOrgao>Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2531">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2532">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração Financeira</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2764">adsf</item>
-        <item id="2765">afsd</item>
-        <item id="2766">adf</item>
+        <item id="2767">adsf</item>
+        <item id="2768">afsd</item>
+        <item id="2769">adf</item>
     </palavras-chave>
     <condicoes-acessibilidade>af</condicoes-acessibilidade>
     <tratamento-prioritario>adsf</tratamento-prioritario>
