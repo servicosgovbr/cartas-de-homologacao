@@ -40,7 +40,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="938">
+        <solicitante id="939">
             <tipo>d</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -53,9 +53,11 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2264">
+        <etapa id="2265">
             <titulo>adf</titulo>
-            <descricao></descricao>
+            <descricao>&lt;p style="text-align:justify"&gt;Acessar a página do Exame, durante o período de inscrição a cada ano, e informar seus dados, assim como necessidades especiais que tenha para fazer a prova.&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align:justify"&gt;Para fazer o download do manual com o passo a passo do processo de inscrição na página, &lt;a href="http://download.inep.gov.br/educacao_basica/encceja/documentos/Tutorial_de_inscricao_Encceja_2018.pdf"&gt;clique aqui&lt;/a&gt;</descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -67,7 +69,7 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2442" tipo="e-mail">
+                    <canal-de-prestacao id="2443" tipo="e-mail">
                         <descricao>adsf</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -78,15 +80,15 @@
         <nomeOrgao>Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2530">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2531">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração Financeira</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2761">adsf</item>
-        <item id="2762">afsd</item>
-        <item id="2763">adf</item>
+        <item id="2764">adsf</item>
+        <item id="2765">afsd</item>
+        <item id="2766">adf</item>
     </palavras-chave>
     <condicoes-acessibilidade>af</condicoes-acessibilidade>
     <tratamento-prioritario>adsf</tratamento-prioritario>
