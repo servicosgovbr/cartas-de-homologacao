@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>encceja</id>
+    <dbId>1186</dbId>
+    <nome>ENCCEJA</nome>
+    <sigla></sigla>
+    <descricao>&lt;p style="text-align:justify"&gt;Se você não teve a chance de terminar o ensino fundamental ou médio na idade apropriada, você pode obter o seu certificado de conclusão de ensino fazendo, e sendo aprovado, na prova do ENCCEJA&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align:justify"&gt;O Exame pode ser realizado tanto no Brasil quanto no exterior.&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align:justify"&gt;Os temas abordados nas provas do exame são:
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Para o ensino fundamental:&lt;/b&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Língua Portuguesa, Língua Estrangeira Moderna, Artes, Educação Física e Redação;&lt;/li&gt;
+&lt;li&gt;Matemática;&lt;/li&gt;
+&lt;li&gt;História e Geografia;&lt;/li&gt;
+&lt;li&gt;Ciências Naturais&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;b&gt;Para o ensino médio:&lt;/b&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagens, Códigos e suas Tecnologias e Redação;&lt;/li&gt;
+&lt;li&gt;Matemática e suas Tecnologias;&lt;/li&gt;
+&lt;li&gt;Ciências Humanas e suas Tecnologias;&lt;/li&gt;
+&lt;li&gt;Ciências da Natureza e suas Tecnologias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="935">
+            <tipo>d</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao>asdf</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2261">
+            <titulo>adf</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2439" tipo="e-mail">
+                        <descricao>adsf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/249" dbId="36790">
+        <nomeOrgao>Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2527">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração Financeira</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2752">adsf</item>
+        <item id="2753">afsd</item>
+        <item id="2754">adf</item>
+    </palavras-chave>
+    <condicoes-acessibilidade>af</condicoes-acessibilidade>
+    <tratamento-prioritario>adsf</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>dfa</tratamento-dispensado-atendimento>
+</servico>
