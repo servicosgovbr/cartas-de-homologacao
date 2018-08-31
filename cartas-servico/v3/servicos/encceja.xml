@@ -41,7 +41,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="942">
+        <solicitante id="943">
             <tipo>d</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -54,15 +54,15 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2268">
+        <etapa id="2269">
             <titulo>adf</titulo>
             <descricao>&lt;p style="text-align:justify"&gt;Acessar a página do Exame, durante o período de inscrição a cada ano, e informar seus dados, assim como necessidades especiais que tenha para fazer a prova.&lt;/p&gt;
 &lt;br&gt;
 &lt;p style="text-align:justify"&gt;Para fazer o download do manual com o passo a passo do processo de inscrição na página, &lt;a href="http://download.inep.gov.br/educacao_basica/encceja/documentos/Tutorial_de_inscricao_Encceja_2018.pdf"&gt;clique aqui&lt;/a&gt;</descricao>
             <documentos>
                 <default>
-                    <item id="1691">&lt;p&gt;Documento original e oficial de identificação com foto para a realização das provas.&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Para dúvidas sobre quais documentos são considerados válidos ou o que fazer em caso de extravio da documentação, veja o item 7 do &lt;a href="http://download.inep.gov.br/educacao_basica/encceja/nacional/2018/edital_n15_de_13032018_encceja_nacional_2018.pdf" target="_blank"&gt;edital&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;</item>
+                    <item id="1692">&lt;p&gt;Documento original e oficial de identificação com foto para a realização das provas.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Para dúvidas sobre quais documentos são considerados válidos ou o que fazer em caso de extravio da documentação, veja o item 7 do&lt;/i&gt; &lt;a href="http://download.inep.gov.br/educacao_basica/encceja/nacional/2018/edital_n15_de_13032018_encceja_nacional_2018.pdf" target="_blank"&gt;edital&lt;/a&gt;&lt;/p&gt;</item>
                 </default>
             </documentos>
             <custos>
@@ -73,7 +73,7 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2446" tipo="e-mail">
+                    <canal-de-prestacao id="2447" tipo="e-mail">
                         <descricao>adsf</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -84,15 +84,15 @@
         <nomeOrgao>Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2534">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2535">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração Financeira</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2773">adsf</item>
-        <item id="2774">afsd</item>
-        <item id="2775">adf</item>
+        <item id="2776">adsf</item>
+        <item id="2777">afsd</item>
+        <item id="2778">adf</item>
     </palavras-chave>
     <condicoes-acessibilidade>af</condicoes-acessibilidade>
     <tratamento-prioritario>adsf</tratamento-prioritario>
