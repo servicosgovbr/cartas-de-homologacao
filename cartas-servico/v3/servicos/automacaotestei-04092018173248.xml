@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>automacaotestei-04092018173248</id>
+    <dbId>1227</dbId>
+    <nome>AutomacaoTesteI--04092018173248</nome>
+    <sigla></sigla>
+    <descricao>descricao teste</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="976">
+            <tipo>solicitante teste</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="5" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>5</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2302">
+            <titulo>titulo etapa teste</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="714">
+                        <descricao>custo</descricao>
+                        <moeda>R$</moeda>
+                        <valor>15,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <tempo-total-estimado>
+                <em-media max="1" unidade="dias-uteis"/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2508" tipo="postal">
+                        <descricao>deCanal2</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2507" tipo="web" procedimento-sistema-indisponivel="deCanal1">
+                        <descricao>deCanal1</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/444" dbId="36736">
+        <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2591">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2592">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Clima</item>
+        <item>Defesa Civil</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2875">palavraChave04092018173248</item>
+        <item id="2876">palavraChave04092018173248</item>
+        <item id="2877">palavraChave04092018173248</item>
+    </palavras-chave>
+    <servicos-relacionados>
+        <item>228</item>
+        <item>178</item>
+    </servicos-relacionados>
+    <condicoes-acessibilidade>Condição de Acessibilidade</condicoes-acessibilidade>
+    <tratamento-prioritario>Condição de Acessibilidade</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>Tratamento Dispensado</tratamento-dispensado-atendimento>
+</servico>
