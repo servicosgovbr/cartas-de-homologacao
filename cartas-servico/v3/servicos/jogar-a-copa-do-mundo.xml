@@ -5,19 +5,19 @@
     <nome>Jogar a Copa do Mundo</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="870">Copa da FIFA</item>
-        <item id="871">Seleção Canarinho</item>
-        <item id="872">Virar Artilheiro</item>
+        <item id="1035">Copa da FIFA</item>
+        <item id="1036">Seleção Canarinho</item>
+        <item id="1037">Virar Artilheiro</item>
     </nomes-populares>
     <descricao>A cada quatro anos, a Federação Internacional de Futebol Amador (FIFA) promove a Copa do Mundo, evento em que seleções de futebol do mundo todo se enfrentam para descobrir quem é a melhor.
 O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol (CBF), disponibiliza, por meio de concurso para os cidadãos brasileiros uma das onze vagas no time titular da seleção brasileira. Se você sempre sonhou em representar o Brasil na Copa do Mundo, sua oportunidade está aqui.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="749">
+        <solicitante id="1003">
             <tipo>Cidadãos brasileiros amadores do futebol.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -33,15 +33,15 @@ O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1922">
+        <etapa id="2448">
             <titulo>Inscrever-se</titulo>
             <descricao>Você deve comparecer a um posto itinerante da CBF, aquirir, preencher, assinar e entregar o formulário de inscrição no sorteio</descricao>
             <documentos>
                 <default>
-                    <item id="1368">Formulário de inscrição</item>
-                    <item id="1369">Documento de identificação oficial com foto</item>
-                    <item id="1370">Declaração, escrita e assinada de próprio punho, com comprovação de autoria por exame de caligrafia realizado por técnico especializado e credenciado, onde está explicado de forma explícita seu amor pelo futebol.</item>
-                    <item id="1371">Figurinha número 1.527 do álbum oficial da copa do mundo.</item>
+                    <item id="1854">Formulário de inscrição</item>
+                    <item id="1855">Documento de identificação oficial com foto</item>
+                    <item id="1856">Declaração, escrita e assinada de próprio punho, com comprovação de autoria por exame de caligrafia realizado por técnico especializado e credenciado, onde está explicado de forma explícita seu amor pelo futebol.</item>
+                    <item id="1857">Figurinha número 1.527 do álbum oficial da copa do mundo.</item>
                 </default>
             </documentos>
             <custos>
@@ -49,22 +49,22 @@ O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1957" tipo="aplicativo-movel">
+                    <canal-de-prestacao id="2568" tipo="aplicativo-movel">
                         <descricao>Aplicativo "Eu com a seleção" para plataforma DOS 1.34</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="1956" tipo="presencial">
+                    <canal-de-prestacao id="2569" tipo="presencial">
                         <descricao>Em um posto itinerante da CBF (não é possível informar locais porque os mesmos são decididos pelos motoristas no momento em que entram e ligam os meios de transporte).</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1923">
+        <etapa id="2449">
             <titulo>Participar do evento de seleção da declaração mais apaixonada</titulo>
             <descricao>Após a conferência da documentação e informação fornecida, os candidatos classificados serão convocados para evento público onde deverão ler (e interpretar) suas declarações e onde o vencedor será escolhido por aclamação popular (em caso de empate, a vitória será decidida em uma partida de bafo).</descricao>
             <documentos>
                 <default>
-                    <item id="1372">Declaração, escrita e assinada de próprio punho, com comprovação de autoria por exame de caligrafia realizado por técnico especializado e credenciado, onde está explicado de forma explícita seu amor pelo futebol.</item>
-                    <item id="1373">Receita do bolo preferido da sua avó por parte de mãe.</item>
+                    <item id="1858">Declaração, escrita e assinada de próprio punho, com comprovação de autoria por exame de caligrafia realizado por técnico especializado e credenciado, onde está explicado de forma explícita seu amor pelo futebol.</item>
+                    <item id="1859">Receita do bolo preferido da sua avó por parte de mãe.</item>
                 </default>
             </documentos>
             <custos>
@@ -72,18 +72,18 @@ O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1958" tipo="presencial">
+                    <canal-de-prestacao id="2570" tipo="presencial">
                         <descricao>Evento popular e público em local a ser informado com antecedência aos candidatos e espectadores.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="1924">
+        <etapa id="2450">
             <titulo>Jogar pela seleção</titulo>
             <descricao>Agora é só embarcar e jogar as partidas junto com a seleção brasileira.</descricao>
             <documentos>
                 <default>
-                    <item id="1374">Certidão de nada-consta junto à AEB</item>
+                    <item id="1860">Certidão de nada-consta junto à AEB</item>
                 </default>
             </documentos>
             <custos>
@@ -91,7 +91,7 @@ O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="1959" tipo="presencial">
+                    <canal-de-prestacao id="2571" tipo="presencial">
                         <descricao>Campos escolhidos para os jogos da seleção</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -102,7 +102,7 @@ O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol
         <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2260">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2677">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Esporte e Lazer</item>
@@ -111,8 +111,8 @@ O Ministério do Esporte, em parceria com a Confederação Brasileira de Futebol
         <item>Cooperação Internacional</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2229">copa</item>
-        <item id="2230">brasil</item>
-        <item id="2231">seleção</item>
+        <item id="3041">copa</item>
+        <item id="3042">brasil</item>
+        <item id="3043">seleção</item>
     </palavras-chave>
 </servico>
