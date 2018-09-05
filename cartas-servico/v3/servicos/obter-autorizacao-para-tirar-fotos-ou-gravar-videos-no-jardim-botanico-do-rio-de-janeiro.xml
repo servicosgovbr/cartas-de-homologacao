@@ -11,11 +11,11 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1004">
+        <solicitante id="1006">
             <tipo>Jornalistas e meios de comunicação</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="1005">
+        <solicitante id="1007">
             <tipo>Estudantes</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,13 +28,13 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2451">
+        <etapa id="2453">
             <titulo>Solicitar autorização</titulo>
             <descricao>Solicitar autorização para realização de imagens jornalísticas ou acadêmicas no JBRJ.</descricao>
             <documentos>
                 <default>
-                    <item id="1861">Carteira ou crachá de identificação funcional ( para jornalistas)</item>
-                    <item id="1862">Ofício emitido pela instituição de ensino (para estudantes)</item>
+                    <item id="1863">Carteira ou crachá de identificação funcional ( para jornalistas)</item>
+                    <item id="1864">Ofício emitido pela instituição de ensino (para estudantes)</item>
                 </default>
             </documentos>
             <custos>
@@ -42,13 +42,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2572" tipo="web">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=</descricao>
+                    <canal-de-prestacao id="2574" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1165</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2452">
+        <etapa id="2454">
             <titulo>Receber autorização</titulo>
             <descricao></descricao>
             <documentos>
@@ -59,8 +59,8 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2573" tipo="web">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=</descricao>
+                    <canal-de-prestacao id="2575" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1165</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -70,10 +70,10 @@
         <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2680">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2681">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2678">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2679">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2683">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2684">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2685">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2682">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comunicações</item>
@@ -82,8 +82,8 @@
         <item>Preservação e Conservação Ambiental</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3044">imagem</item>
-        <item id="3045">permissão</item>
-        <item id="3046">uso de imagem</item>
+        <item id="3047">imagem</item>
+        <item id="3048">permissão</item>
+        <item id="3049">uso de imagem</item>
     </palavras-chave>
 </servico>
