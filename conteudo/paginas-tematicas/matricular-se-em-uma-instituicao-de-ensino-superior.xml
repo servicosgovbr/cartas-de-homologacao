@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>&lt;a href="https://www.unb.br/"&gt;UnB&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.ufpe.br/"&gt;UFPE&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://ufal.br/"&gt;UFAL&lt;/a&gt;</conteudo>
+    <conteudo>
+&lt;p&gt;Escolha a instituição em que você deseja fazer sua matrícula:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.unb.br/"&gt;UnB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ufpe.br/"&gt;UFPE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ufal.br/"&gt;UFAL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</conteudo>
     <dbId>796</dbId>
     <nome>Matricular-se em uma Instituição de Ensino Superior</nome>
     <orgaos>
