@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>&lt;script src="//cdn.wordart.com/wordart.min.js" async defer&gt;&lt;/script&gt;
+&lt;div style="width: 600px; height: 600px; margin:25%;margin-top:1%" data-wordart-src="//cdn.wordart.com/json/eg7irwuv5yaq" data-wordart-show-attribution&gt;&lt;/div&gt;
+</conteudo>
+    <dbId>800</dbId>
+    <nome>O Portal em uma imagem</nome>
+    <orgaos>
+        <orgao id="2981" dbId="37545">
+            <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
