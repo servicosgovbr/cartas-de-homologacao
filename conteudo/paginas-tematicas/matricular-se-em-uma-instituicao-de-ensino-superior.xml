@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica >
+    <conteudo>&lt;a href="https://www.unb.br/"&gt;UnB&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.ufpe.br/"&gt;UFPE&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://ufal.br/"&gt;UFAL&lt;/a&gt;</conteudo>
+    <dbId>796</dbId>
+    <nome>Matricular-se em uma Instituição de Ensino Superior</nome>
+    <orgaos>
+        <orgao id="244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
