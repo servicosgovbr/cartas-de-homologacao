@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="992">
+        <solicitante id="993">
             <tipo>solicitante teste</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2318">
+        <etapa id="2319">
             <titulo>titulo etapa teste modificado</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="730">
+                    <custo id="731">
                         <descricao>custo</descricao>
                         <moeda>R$</moeda>
                         <valor>15,00</valor>
@@ -49,10 +49,10 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2539" tipo="postal">
+                    <canal-de-prestacao id="2541" tipo="postal">
                         <descricao>deCanal2</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2540" tipo="web" procedimento-sistema-indisponivel="deCanal1">
+                    <canal-de-prestacao id="2542" tipo="web" procedimento-sistema-indisponivel="deCanal1">
                         <descricao>deCanal1</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -63,17 +63,17 @@
         <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2623">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2624">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2625">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2626">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Clima</item>
         <item>Defesa Civil</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2923">palavraChave06092018140633</item>
-        <item id="2924">palavraChave06092018140633</item>
-        <item id="2925">palavraChave06092018140633</item>
+        <item id="2926">palavraChave06092018140633</item>
+        <item id="2927">palavraChave06092018140633</item>
+        <item id="2928">palavraChave06092018140633</item>
     </palavras-chave>
     <servicos-relacionados>
         <item>228</item>
