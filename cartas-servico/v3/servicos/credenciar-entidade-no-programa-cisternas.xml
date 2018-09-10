@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>credenciar-entidade-no-programa-cisternas</id>
+    <dbId>1240</dbId>
+    <nome>Credenciar entidade no Programa Cisternas</nome>
+    <sigla></sigla>
+    <descricao>Credenciar entidades privadas sem fins lucrativos para participação em chamadas públicas no âmbito do Programa Cisternas.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1009">
+            <tipo>Pessoas jurídicas de direito privado sem fins lucrativos</tipo>
+            <requisitos>Estar legalmente constituída há mais de três anos e ter como objeto social a promoção de ações relacionadas ao desenvolvimento rural e/ou segurança alimentar;
+Possuir área de atuação com abrangência definida e ter realizado a execução de projetos com vistas ao desenvolvimento rural ou à segurança alimentar e nutricional;
+Não estar incluída no Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas – CEPIM;</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="16" max="30" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2456">
+            <titulo>Enviar documentação</titulo>
+            <descricao>Envio da documentação pela entidade privada sem fins lucrativos.</descricao>
+            <documentos>
+                <default>
+                    <item id="1865">CNPJ</item>
+                    <item id="1866">Comprovante de endereço/residência</item>
+                    <item id="1867">Cópias de contratos, convênios ou congêneres com parceiros públicos ou privados que indiquem o objeto, prazo de vigência, metas e recursos envolvidos</item>
+                    <item id="1868">Declaração do contratante ou parceiro de que o respectivo objeto foi executado de forma satisfatória</item>
+                    <item id="1869">Ofício de solicitação de credenciamento assinado pelo representante legal da entidade</item>
+                    <item id="1870">Formulário de informações acompanhado dos documentos comprobatórios das experiências citadas</item>
+                    <item id="1871">Atestado de capacidade técnica</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2579" tipo="postal">
+                        <descricao>Secretaria Nacional de Segurança Alimentar e Nutricional
+Ministério do Desenvolvimento Social e Agrário
+Esplanada dos Ministérios, Bloco C, 4º Andar
+Brasília, Distrito Federal, CEP 70.054-906</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2578" tipo="e-mail">
+                        <descricao>cisternas@mds.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2577" tipo="web">
+                        <descricao>https://www.servicos.nuvem.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2457">
+            <titulo>Verificar credenciamento</titulo>
+            <descricao>Caso a documentação e as informações estejam em ordem, a entidade será credenciada no Programa e constará na lista de entidades credenciadas.</descricao>
+            <documentos>
+                <default>
+                    <item id="1872">CNPJ</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2580" tipo="web">
+                        <descricao>http://www.mds.gov.br/webarquivos/arquivo/seguranca_alimentar/Lista%20de%20credenciamento%20para%20divulga%C3%A7%C3%A3o%2021_06_17.pdf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1945" dbId="37542">
+        <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="4" idServicoSegmento="2687">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="2688">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Água</item>
+        <item>Atendimento básico</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3053">Cisternas</item>
+        <item id="3054">MDS</item>
+        <item id="3055">Programa</item>
+    </palavras-chave>
+</servico>
