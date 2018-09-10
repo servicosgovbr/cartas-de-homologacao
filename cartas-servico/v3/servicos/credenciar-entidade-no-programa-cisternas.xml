@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="1010">
+        <solicitante id="1011">
             <tipo>Pessoas jurídicas de direito privado sem fins lucrativos</tipo>
             <requisitos>Estar legalmente constituída há mais de três anos e ter como objeto social a promoção de ações relacionadas ao desenvolvimento rural e/ou segurança alimentar;
 Possuir área de atuação com abrangência definida e ter realizado a execução de projetos com vistas ao desenvolvimento rural ou à segurança alimentar e nutricional;
@@ -26,18 +26,18 @@ Não estar incluída no Cadastro de Entidades Privadas sem Fins Lucrativos Imped
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2458">
+        <etapa id="2460">
             <titulo>Enviar documentação</titulo>
             <descricao>Envio da documentação pela entidade privada sem fins lucrativos.</descricao>
             <documentos>
                 <default>
-                    <item id="1873">CNPJ</item>
-                    <item id="1874">Comprovante de endereço/residência</item>
-                    <item id="1875">Cópias de contratos, convênios ou congêneres com parceiros públicos ou privados que indiquem o objeto, prazo de vigência, metas e recursos envolvidos</item>
-                    <item id="1876">Declaração do contratante ou parceiro de que o respectivo objeto foi executado de forma satisfatória</item>
-                    <item id="1877">Ofício de solicitação de credenciamento assinado pelo representante legal da entidade</item>
-                    <item id="1878">Formulário de informações acompanhado dos documentos comprobatórios das experiências citadas</item>
-                    <item id="1879">Atestado de capacidade técnica</item>
+                    <item id="1881">CNPJ</item>
+                    <item id="1882">Comprovante de endereço/residência</item>
+                    <item id="1883">Cópias de contratos, convênios ou congêneres com parceiros públicos ou privados que indiquem o objeto, prazo de vigência, metas e recursos envolvidos</item>
+                    <item id="1884">Declaração do contratante ou parceiro de que o respectivo objeto foi executado de forma satisfatória</item>
+                    <item id="1885">Ofício de solicitação de credenciamento assinado pelo representante legal da entidade</item>
+                    <item id="1886">Formulário de informações acompanhado dos documentos comprobatórios das experiências citadas</item>
+                    <item id="1887">Atestado de capacidade técnica</item>
                 </default>
             </documentos>
             <custos>
@@ -45,27 +45,27 @@ Não estar incluída no Cadastro de Entidades Privadas sem Fins Lucrativos Imped
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2583" tipo="postal">
+                    <canal-de-prestacao id="2585" tipo="web">
+                        <descricao>https://www.servicos.nuvem.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2586" tipo="e-mail">
+                        <descricao>cisternas@mds.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2587" tipo="postal">
                         <descricao>Secretaria Nacional de Segurança Alimentar e Nutricional
 Ministério do Desenvolvimento Social e Agrário
 Esplanada dos Ministérios, Bloco C, 4º Andar
 Brasília, Distrito Federal, CEP 70.054-906</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2582" tipo="e-mail">
-                        <descricao>cisternas@mds.gov.br</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="2581" tipo="web">
-                        <descricao>https://www.servicos.nuvem.gov.br</descricao>
-                    </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2459">
+        <etapa id="2461">
             <titulo>Verificar credenciamento</titulo>
             <descricao>Caso a documentação e as informações estejam em ordem, a entidade será credenciada no Programa e constará na lista de entidades credenciadas.</descricao>
             <documentos>
                 <default>
-                    <item id="1880">CNPJ</item>
+                    <item id="1888">CNPJ</item>
                 </default>
             </documentos>
             <custos>
@@ -73,7 +73,7 @@ Brasília, Distrito Federal, CEP 70.054-906</descricao>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2584" tipo="web">
+                    <canal-de-prestacao id="2588" tipo="web">
                         <descricao>http://www.mds.gov.br/webarquivos/arquivo/seguranca_alimentar/Lista%20de%20credenciamento%20para%20divulga%C3%A7%C3%A3o%2021_06_17.pdf</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -84,8 +84,8 @@ Brasília, Distrito Federal, CEP 70.054-906</descricao>
         <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="4" idServicoSegmento="2689">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        <item idSegmento="2" idServicoSegmento="2690">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2691">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="2692">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
@@ -93,8 +93,8 @@ Brasília, Distrito Federal, CEP 70.054-906</descricao>
         <item>Atendimento básico</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3056">Cisternas</item>
-        <item id="3057">MDS</item>
-        <item id="3058">Programa</item>
+        <item id="3059">Cisternas</item>
+        <item id="3060">MDS</item>
+        <item id="3061">Programa</item>
     </palavras-chave>
 </servico>
