@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>matricular-se-em-curso-de-formacao-inicial-e-continuada</id>
+    <dbId>1247</dbId>
+    <nome>Matricular-se em curso de Formação Inicial e Continuada</nome>
+    <sigla></sigla>
+    <descricao>Se você deseja fazer um curso de  Formação Inicial e Continuada neste Instituto, você precisa, após aprovado em processo seletivo, matricular-se no curso escolhido por meio deste serviço.</descricao>
+    <contato>&lt;p&gt;Pró-reitoria de Extensão&lt;/p&gt;
+&lt;p&gt;Fone: (11)3775-4572&lt;/p&gt;
+&lt;p&gt;E-mail: reginaldo.liborio@ifsp.edu.br&lt;/p&gt;</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="996">
+            <tipo>Cidadãos brasileiros e estrangeiros</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="8" max="15" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2322">
+            <titulo>Realizar matrícula</titulo>
+            <descricao>Realizar a matrícula, por meio de entrega da documentação necessária</descricao>
+            <documentos>
+                <default>
+                    <item id="1698">Carteira de Identidade</item>
+                    <item id="1699">Comprovante de residência</item>
+                    <item id="1700">CPF</item>
+                    <item id="1701">Diploma do Ensino Médio</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2547" tipo="presencial" tempo-estimado-periodo="horas" tempo-estimado-espera="1">
+                        <descricao>&lt;p&gt;&lt;b&gt;Instituto Federal de São Paulo&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Coordenadoria de Extensão e/ou Coordenadoria de Registros Acadêmicos do câmpus.&lt;/p&gt; 
+&lt;p&gt;Rua Pedro Vicente, 625 - Canindé - São Paulo - SP - Brasil - Cep: 01109-010&lt;/p&gt;</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/453" dbId="36748">
+        <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2631">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação e pesquisa</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2935">matrícula</item>
+        <item id="2936">ifsp</item>
+        <item id="2937">instituto federal</item>
+    </palavras-chave>
+    <condicoes-acessibilidade>&lt;p style="text-align:justify"&gt;O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.&lt;/p&gt;</condicoes-acessibilidade>
+    <tratamento-prioritario>&lt;p style="text-align:justify"&gt;Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​&lt;/p&gt;</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>&lt;p style="text-align:justify"&gt;O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Urbanidade;&lt;/li&gt;
+&lt;li&gt;Respeito;&lt;/li&gt;
+&lt;li&gt;Acessibilidade;&lt;/li&gt;
+&lt;li&gt;Cortesia;&lt;/li&gt;
+&lt;li&gt;Presunção da boa-fé do usuário;&lt;/li&gt;
+&lt;li&gt;Igualdade;&lt;/li&gt;
+&lt;li&gt;Eficiência;&lt;/li&gt;
+&lt;li&gt;Segurança; e&lt;/li&gt;
+&lt;li&gt;Ética.&lt;/li&gt;
+&lt;/ul&gt;</tratamento-dispensado-atendimento>
+</servico>
