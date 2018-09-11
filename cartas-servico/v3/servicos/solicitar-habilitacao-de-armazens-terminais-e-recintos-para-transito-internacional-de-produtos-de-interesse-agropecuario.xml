@@ -12,7 +12,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="884">
+        <solicitante id="1012">
             <tipo>Pessoas jurídicas</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -25,12 +25,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2237">
+        <etapa id="2462">
             <titulo>Requerer habilitação</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1624">Formulário de solicitação</item>
+                    <item id="1889">Formulário de solicitação</item>
                 </default>
             </documentos>
             <custos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2306" tipo="presencial">
+                    <canal-de-prestacao id="2589" tipo="presencial">
                         <descricao>MAPA</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,15 +49,16 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2492">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2493">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2696">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2697">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2698">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2633">exportação</item>
-        <item id="2634">agropecuária</item>
-        <item id="2635">habilitação</item>
+        <item id="3062">exportação</item>
+        <item id="3063">agropecuária</item>
+        <item id="3064">habilitação</item>
     </palavras-chave>
 </servico>
