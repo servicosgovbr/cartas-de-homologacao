@@ -13,7 +13,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="996">
+        <solicitante id="997">
             <tipo>Cidadãos brasileiros e estrangeiros</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -26,26 +26,26 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2322">
+        <etapa id="2323">
             <titulo>Realizar matrícula</titulo>
             <descricao>Realizar a matrícula, por meio de entrega da documentação necessária</descricao>
             <documentos>
                 <default>
-                    <item id="1698">Carteira de Identidade</item>
-                    <item id="1699">Comprovante de residência</item>
-                    <item id="1700">CPF</item>
-                    <item id="1701">Diploma do Ensino Médio</item>
+                    <item id="1702">Carteira de Identidade</item>
+                    <item id="1703">Comprovante de residência</item>
+                    <item id="1704">CPF</item>
+                    <item id="1705">Diploma do Ensino Médio</item>
                 </default>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <tempo-total-estimado>
-                <nao-estimado-ainda/>
+                <ate max="1" unidade="dias-corridos"/>
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2547" tipo="presencial" tempo-estimado-periodo="horas" tempo-estimado-espera="1">
+                    <canal-de-prestacao id="2548" tipo="presencial" tempo-estimado-periodo="horas" tempo-estimado-espera="1">
                         <descricao>&lt;p&gt;&lt;b&gt;Instituto Federal de São Paulo&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Coordenadoria de Extensão e/ou Coordenadoria de Registros Acadêmicos do câmpus.&lt;/p&gt; 
 &lt;p&gt;Rua Pedro Vicente, 625 - Canindé - São Paulo - SP - Brasil - Cep: 01109-010&lt;/p&gt;</descricao>
@@ -58,15 +58,15 @@
         <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2631">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2632">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação e pesquisa</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2935">matrícula</item>
-        <item id="2936">ifsp</item>
-        <item id="2937">instituto federal</item>
+        <item id="2938">matrícula</item>
+        <item id="2939">ifsp</item>
+        <item id="2940">instituto federal</item>
     </palavras-chave>
     <condicoes-acessibilidade>&lt;p style="text-align:justify"&gt;O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.&lt;/p&gt;</condicoes-acessibilidade>
     <tratamento-prioritario>&lt;p style="text-align:justify"&gt;Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​&lt;/p&gt;</tratamento-prioritario>
