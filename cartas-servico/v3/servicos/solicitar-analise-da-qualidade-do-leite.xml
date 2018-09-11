@@ -9,10 +9,10 @@
 &lt;p&gt;&lt;a href="https://www.embrapa.br/fale-conosco" target="_blank"&gt;SAC&lt;/a&gt;</contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="809">
+        <solicitante id="1014">
             <tipo>Indústrias, cooperativas e produtores rurais.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -25,7 +25,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2061">
+        <etapa id="2465">
             <titulo>Coletar amostra</titulo>
             <descricao>&lt;p style="text-align:justify"&gt;O cliente deve coletar a amostra de acordo com os &lt;a href="https://ainfo.cnptia.embrapa.br/digital/bitstream/item/65285/1/CT-92-Procedimentos-para-coleta-e-envio.pdf" target="_blank"&gt;procedimentos recomendados pela EMBRAPA&lt;/a&gt;&lt;/p&gt;</descricao>
             <documentos>
@@ -36,18 +36,18 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2092" tipo="presencial">
+                    <canal-de-prestacao id="2592" tipo="presencial">
                         <descricao>Propriedade do cliente</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2062">
+        <etapa id="2466">
             <titulo>Enviar amostras</titulo>
             <descricao>&lt;p style="text-align:justify"&gt;Após a coleta, as amostras devem ser encaminhadas para o Laboratório de Qualidade de Leite, acompanhadas pela pelo &lt;a href="https://ainfo.cnptia.embrapa.br/digital/bitstream/item/65285/1/CT-92-Procedimentos-para-coleta-e-envio.pdf" target="_blank"&gt;formulário de identificação preenchido (Anexo I)&lt;/a&gt;&lt;/p&gt;</descricao>
             <documentos>
                 <default>
-                    <item id="1523">Formulário de Identificação</item>
+                    <item id="1900">Formulário de Identificação</item>
                 </default>
             </documentos>
             <custos>
@@ -55,23 +55,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2093" tipo="postal">
+                    <canal-de-prestacao id="2593" tipo="postal">
                         <descricao>&lt;b&gt;Laboratório de Qualidade do Leite&lt;/b&gt; - Rua Eugênio do Nascimento, 610 - Dom Bosco CEP:36038-330 - Juiz de Fora - MG</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2063">
+        <etapa id="2467">
             <titulo>Pagar boleto</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1524">boleto</item>
+                    <item id="1901">boleto</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="202">
+                    <custo id="209">
                         <descricao>Preço do serviço</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel>Variável</valorVariavel>
@@ -81,13 +81,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2094" tipo="presencial">
+                    <canal-de-prestacao id="2594" tipo="presencial">
                         <descricao>Rede bancária</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2064">
+        <etapa id="2468">
             <titulo>Receber resposta</titulo>
             <descricao></descricao>
             <documentos>
@@ -98,7 +98,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2095" tipo="postal">
+                    <canal-de-prestacao id="2595" tipo="postal">
                         <descricao>Endereço do cliente</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -109,16 +109,16 @@
         <nomeOrgao>Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2352">Empresas</item>
-        <item idSegmento="1" idServicoSegmento="2353">Cidadãos</item>
-        <item idSegmento="4" idServicoSegmento="2354">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="4" idServicoSegmento="2702">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2703">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2704">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2415">leite</item>
-        <item id="2416">qualidade</item>
-        <item id="2417">amostra</item>
+        <item id="3071">leite</item>
+        <item id="3072">qualidade</item>
+        <item id="3073">amostra</item>
     </palavras-chave>
 </servico>
