@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="970">
+        <solicitante id="1015">
             <tipo>Qualquer pessoa jurídica que necessite importar produtos. Para fazer a solicitação, a empresa deverá ser representada por despachante ou funcionário habilitado.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,15 +24,15 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2389">
+        <etapa id="2469">
             <titulo>Solicitar licença de importação de produtos de origem animal</titulo>
             <descricao>O usuário cadastrado, após realizar o login, preenche a solicitação para análise. Em seguida, o processo será distribuído automaticamente a um Serviço de Inspeção de Produtos de Origem Animal e destinado a um analista, que emitirá parecer de deferimento ou indeferimento do pedido.</descricao>
             <documentos>
                 <default>
-                    <item id="1753">Cadastro prévio do importador no Ministério da Agricultura, Pecuária e Abastacimento;</item>
-                    <item id="1754">Licença de importação lançada no SISCOMEX, já com manifestação da Defesa Sanitária Animal;</item>
-                    <item id="1755">Dossiê com documentos no VICOMEX;</item>
-                    <item id="1756">Procuração habilitando despachante ou funcionário a responder pela pessoa jurídica junto ao Ministério da Agricultura, Pecuária e Abastecimento.</item>
+                    <item id="1902">Cadastro prévio do importador no Ministério da Agricultura, Pecuária e Abastacimento;</item>
+                    <item id="1903">Licença de importação lançada no SISCOMEX, já com manifestação da Defesa Sanitária Animal;</item>
+                    <item id="1904">Dossiê com documentos no VICOMEX;</item>
+                    <item id="1905">Procuração habilitando despachante ou funcionário a responder pela pessoa jurídica junto ao Ministério da Agricultura, Pecuária e Abastecimento.</item>
                 </default>
             </documentos>
             <custos>
@@ -40,13 +40,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2490" tipo="web">
+                    <canal-de-prestacao id="2596" tipo="web">
                         <descricao>https://www.servicos.gov.br/?campaign=logo</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2390">
+        <etapa id="2470">
             <titulo>Acompanhar análise</titulo>
             <descricao></descricao>
             <documentos>
@@ -57,13 +57,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2491" tipo="web-acompanhar">
+                    <canal-de-prestacao id="2597" tipo="web-acompanhar">
                         <descricao>https://www.servicos.gov.br/?campaign=logo</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2391">
+        <etapa id="2471">
             <titulo>Receber parecer</titulo>
             <descricao>O parecer sobre a solicitação será encaminhado por email ao usuário e também disponibilizado no Portal de Serviços. No caso de indeferimento, serão elucidados os motivos da negativa e novo pedido deverá ser feito, se houver interesse do solicitante.</descricao>
             <documentos>
@@ -74,7 +74,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2492" tipo="web">
+                    <canal-de-prestacao id="2598" tipo="web">
                         <descricao>https://www.servicos.gov.br/?campaign=logo</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -85,21 +85,21 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2632">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2705">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2930">Licença de importação</item>
-        <item id="2931">produto de origem animal</item>
-        <item id="2932">anuência</item>
-        <item id="2933">LI</item>
-        <item id="2934">POA</item>
+        <item id="3074">Licença de importação</item>
+        <item id="3075">produto de origem animal</item>
+        <item id="3076">anuência</item>
+        <item id="3077">LI</item>
+        <item id="3078">POA</item>
     </palavras-chave>
     <legislacoes>
-        <item id="725">Portaria SDA n° 183/98;
+        <item id="730">Portaria SDA n° 183/98;
 Instrução Normativa nº 51/2011.</item>
     </legislacoes>
 </servico>
