@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>registar-conteudo-de-fenilalanina-em-alimentos</id>
+    <dbId>1248</dbId>
+    <nome>Registar conteúdo de fenilalanina em alimentos</nome>
+    <sigla>CFA</sigla>
+    <descricao>Ferramenta para protocolo de informações sobre conteúdo de fenilalanina, proteína e umidade de alimentos.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1019">
+            <tipo>Empresas fabricantes ou importadoras de alimentos</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="15" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2475">
+            <titulo>Registrar</titulo>
+            <descricao>Para a solicitar o serviço, o usuário deve ter em mãos os relatórios de ensaios realizados para determinação do conteúdo de fenilalanina, proteína e umidade nos alimentos.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2602" tipo="web">
+                        <descricao>https://www.servicos.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687" dbId="914">
+        <nomeOrgao>Agência Nacional de Vigilância Sanitária (ANVISA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2710">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Alimento</item>
+        <item>Saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3082">Erro inato do metabolismo</item>
+        <item id="3083">fenilalanina</item>
+        <item id="3084">fenilcetonúricos</item>
+        <item id="3085">alimentos</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="731">ANVISA. Resolução da Diretoria Colegiada – RDC No 19, de 5 de maio de 2010. Dispõe sobre a obrigatoriedade das empresas informarem à ANVISA a quantidade de fenilalanina, proteína e umidade de alimentos, para elaboração de tabela do conteúdo de fenilalanina em alimentos, assim como disponibilizar as informações nos sítios eletrônicos das empresas ou serviço de atendimento ao consumidor (SAC). Diário Oficial da União, 2010.</item>
+    </legislacoes>
+</servico>
