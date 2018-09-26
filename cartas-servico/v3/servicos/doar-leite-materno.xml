@@ -5,17 +5,17 @@
     <nome>Doar leite materno</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="907">Banco de leite</item>
-        <item id="908">doar leite</item>
+        <item id="1041">Banco de leite</item>
+        <item id="1042">doar leite</item>
     </nomes-populares>
     <descricao>&lt;p style="text-align:justify"&gt;Algumas mulheres quando estão amamentando produzem um volume de leite além da necessidade do bebê, o que possibilita que sejam doadoras de um Banco de Leite Humano. De acordo com a legislação que regulamenta o funcionamento dos Bancos de Leite no Brasil (RDC Nº 171) a doadora, além de  apresentar excesso de leite, deve ser saudável, não usar medicamentos que impeçam a doação e se dispor a ordenhar e a doar o excedente.&lt;/p&gt;</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="813">
+        <solicitante id="1025">
             <tipo>Mulheres em fase de amamentação</tipo>
             <requisitos>Que apresentem excesso de leite, sejam saudáveis, não usem medicamentos que impeçam a doação e se disponham a ordenhar e a doar o excedente.</requisitos>
         </solicitante>
@@ -28,14 +28,14 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2071">
+        <etapa id="2481">
             <titulo>Agendar doação</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1529">Carteira de identidade</item>
-                    <item id="1530">Carteira de trabalho</item>
-                    <item id="1531">CPF</item>
+                    <item id="1913">Carteira de identidade</item>
+                    <item id="1914">Carteira de trabalho</item>
+                    <item id="1915">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -43,20 +43,20 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2102" tipo="telefone">
+                    <canal-de-prestacao id="2608" tipo="telefone">
                         <descricao>(21) 2554-1703</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2072">
+        <etapa id="2482">
             <titulo>Receber informação sobre o procedimento</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1532">Carteira de identidade</item>
-                    <item id="1533">Carteira de trabalho</item>
-                    <item id="1534">CPF</item>
+                    <item id="1916">Carteira de identidade</item>
+                    <item id="1917">Carteira de trabalho</item>
+                    <item id="1918">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -64,16 +64,16 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2104" tipo="telefone">
+                    <canal-de-prestacao id="2609" tipo="telefone">
                         <descricao>(21) 2554-1703</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2103" tipo="presencial">
+                    <canal-de-prestacao id="2610" tipo="presencial">
                         <descricao>**Banco de leite do Instituto Nacional de Saúde da Mulher, da Criança e do Adolescente Fernandes Figueira** - Av. Rui Barbosa, 716 - Flamengo - Rio de Janeiro - RJ - CEP:  	22250-020</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2073">
+        <etapa id="2483">
             <titulo>Doar Leite</titulo>
             <descricao></descricao>
             <documentos>
@@ -84,10 +84,10 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2106" tipo="presencial">
+                    <canal-de-prestacao id="2611" tipo="presencial">
                         <descricao>Domicílio da doadora</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2105" tipo="presencial">
+                    <canal-de-prestacao id="2612" tipo="presencial">
                         <descricao>**Banco de leite do Instituto Nacional de Saúde da Mulher, da Criança e do Adolescente Fernandes Figueira** - Av. Rui Barbosa, 716 - Flamengo - Rio de Janeiro - RJ - CEP:  	22250-020</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -98,15 +98,15 @@
         <nomeOrgao>Fundação Oswaldo Cruz (FIOCRUZ)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2360">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2722">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Alimento</item>
         <item>Assistência à Criança e ao Adolescente</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2427">leite materno</item>
-        <item id="2428">doação</item>
-        <item id="2429">criança</item>
+        <item id="3096">leite materno</item>
+        <item id="3097">doação</item>
+        <item id="3098">criança</item>
     </palavras-chave>
 </servico>
