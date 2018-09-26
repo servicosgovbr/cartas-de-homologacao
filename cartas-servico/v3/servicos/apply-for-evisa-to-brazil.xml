@@ -5,8 +5,8 @@
     <nome>Apply for eVisa to Brazil</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="941">eVisa</item>
-        <item id="942">Visto</item>
+        <item id="943">eVisa</item>
+        <item id="944">Visto</item>
     </nomes-populares>
     <descricao>&lt;div style="text-align:justify"&gt;
 The eVisa is an electronic type of visa that can be requested by Australian, Canadian, Japanese or US Citizens, and can be requested for the following reasons:
@@ -14,14 +14,13 @@ The eVisa is an electronic type of visa that can be requested by Australian, Can
 &lt;li&gt;&lt;b&gt;Business:&lt;/b&gt; Attend to meetings, trade fairs and business events, prospect commercial opportunities, sign contracts, audit or consult. The exercise of paid activity in Brazil is forbidden.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Tourism:&lt;/b&gt; Activities of a tourist, informative or recreational nature, as well as visiting family members.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Transit:&lt;/b&gt; Person that needs to enter national territory to reach a third country, if there's the need to pass Brazilian immigration control or if the traveler has a second air ticket for a plane leaving of a Brazilian airport&lt;/li&gt;
-Journalism:
 &lt;li&gt;&lt;b&gt;Journalism:&lt;/b&gt; Person acting as a journalist&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Sport Activities:&lt;/b&gt; Carry out sports activities for a short stay with no intention of establishing residence&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Artistic Activities:&lt;/b&gt; Perform artistic activities and participate in artistic competitions for a short stay with no intention of stablishing residence. &lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Seminars or Conferences:&lt;/b&gt; Participate in conferences, seminars, congresses or meetings, characterized as specific events and not receiving remuneration in Brazil for their activities.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Cultural Program:&lt;/b&gt; Carry out cultural activities.&lt;/li&lt;
 &lt;li&gt;&lt;b&gt;Scientific Program:&lt;/b&gt; Carry out scientific research and scientific cooperation activities.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Research Activities:&lt;/li&gt; Carry out academic extension activities.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Research Activities:&lt;/b&gt; Carry out academic extension activities.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Studies:&lt;/b&gt; Carry out teaching and learning activities, in addition to supervised internships.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Crewmember:&lt;/b&gt; Aircraft or vessel crew member, except for cases when the visitor presents an international seafarer card issued under the terms of the Convention of the International Organization of Labour - ILO.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Voluntary activities:&lt;/b&gt; Person who wishes to act as a volunteer&lt;/li&gt;
@@ -33,7 +32,7 @@ Journalism:
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="1051">
+        <solicitante id="1052">
             <tipo>Australian, Canadian, Japanese or US Citizens that:</tipo>
             <requisitos>&lt;ul&gt;
 &lt;li&gt;Intend to go to Brazil as a Visitor;&lt;/li&gt;
@@ -53,27 +52,27 @@ Journalism:
         <descricao>The visa cannot exceed 90 days.</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2379">
+        <etapa id="2382">
             <titulo>Provide the needed information</titulo>
             <descricao>You can submit your application through the VFS website or using a cell phone. The first step of the eVisa application is to register on the website or on mobile app. Provide all the requested information. If you are a minor it may be necessary to upload additional documents.</descricao>
             <documentos>
                 <default>
-                    <item id="1711">Photo &lt;a href="http://www.vfsglobal.com/brazil-evisa/prepare-your-application.html#temporary_photoSpecs" target="_blank"&gt;Refer Specifications&lt;/a&gt;</item>
-                    <item id="1712">Passport bio page</item>
-                    <item id="1713">Address page (non-mandatory)</item>
+                    <item id="1715">Photo &lt;a href="http://www.vfsglobal.com/brazil-evisa/prepare-your-application.html#temporary_photoSpecs" target="_blank"&gt;Refer Specifications&lt;/a&gt;</item>
+                    <item id="1716">Passport bio page</item>
+                    <item id="1717">Address page (non-mandatory)</item>
                 </default>
-                <caso id="792" descricao="If you are a minor (below 18 years of age), you may be required to provide documents from one or both of your parents or legal guardian such as:">
+                <caso id="793" descricao="If you are a minor (below 18 years of age), you may be required to provide documents from one or both of your parents or legal guardian such as:">
                     <documento>
-                        <id>1707</id>
-                        <descricao>Passport bio page</descricao>
+                        <id>1709</id>
+                        <descricao>Justification Letter (if you choose Parent 1 or Parent 2 or Legal Guardian). You can access the justification letter by &lt;a href="http://www.vfsglobal.com/brazil-evisa/pdf/minors-visa-authorisation.pdf" target="_blank"&gt;clicking here.&lt;/a&gt;</descricao>
                     </documento>
                     <documento>
                         <id>1708</id>
                         <descricao>Photo</descricao>
                     </documento>
                     <documento>
-                        <id>1709</id>
-                        <descricao>Justification Letter (if you choose Parent 1 or Parent 2 or Legal Guardian). You can access the justification letter by &lt;a href="http://www.vfsglobal.com/brazil-evisa/pdf/minors-visa-authorisation.pdf" target="_blank"&gt;clicking here.&lt;/a&gt;</descricao>
+                        <id>1707</id>
+                        <descricao>Passport bio page</descricao>
                     </documento>
                     <documento>
                         <id>1710</id>
@@ -89,10 +88,10 @@ Journalism:
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2653" tipo="web" procedimento-sistema-indisponivel="If for any reason the system is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
+                    <canal-de-prestacao id="2659" tipo="web" procedimento-sistema-indisponivel="If for any reason the system is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
                         <descricao>https://brazil.vfsevisa.com/Brazil-Online/Online/Visa/Home</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2654" tipo="aplicativo-movel" procedimento-sistema-indisponivel="If for any reason the app is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
+                    <canal-de-prestacao id="2660" tipo="aplicativo-movel" procedimento-sistema-indisponivel="If for any reason the app is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
                         <descricao>&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.vfsg.evisa&amp;hl=pt_BR" target="_blank"&gt;Android&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://itunes.apple.com/br/app/brazil-e-visa/id1314963937?mt=8" target="_blank"&gt;iOS&lt;/a&gt;&lt;/li&gt;
@@ -101,24 +100,24 @@ Journalism:
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2380">
+        <etapa id="2383">
             <titulo>Pay the fee</titulo>
             <descricao>After providing all the required information, you have to make the fee payment through the Payment gateway. You can pay the fees using a MasterCard, Visa and Union Pay credit/debit card. It is not necessary for the card to be under your name. Make sure that your card has “3D Secure System” and is enabled to make international transactions. The eVisa fee can be paid only in US Dollars.</descricao>
             <documentos>
                 <default>
-                    <item id="1714">Mastercard, Visa or Union Pay Credit or Debit Card</item>
+                    <item id="1718">Mastercard, Visa or Union Pay Credit or Debit Card</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="793">
+                    <custo id="795">
                         <descricao>Visa fee</descricao>
                         <moeda>USD</moeda>
                         <valor>40,00</valor>
                         <valorVariavel></valorVariavel>
                         <statusCustoVariavel>0</statusCustoVariavel>
                     </custo>
-                    <custo id="794">
+                    <custo id="796">
                         <descricao>Service fee</descricao>
                         <moeda>USD</moeda>
                         <valor>4,24</valor>
@@ -132,10 +131,10 @@ Journalism:
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2656" tipo="web" procedimento-sistema-indisponivel="If for any reason the system is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
+                    <canal-de-prestacao id="2661" tipo="web" procedimento-sistema-indisponivel="If for any reason the system is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
                         <descricao>https://brazil.vfsevisa.com/Brazil-Online/Online/Visa/Home</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2655" tipo="aplicativo-movel" procedimento-sistema-indisponivel="If for any reason the app is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
+                    <canal-de-prestacao id="2662" tipo="aplicativo-movel" procedimento-sistema-indisponivel="If for any reason the app is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
                         <descricao>&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.vfsg.evisa&amp;hl=pt_BR" target="_blank"&gt;Android&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://itunes.apple.com/br/app/brazil-e-visa/id1314963937?mt=8" target="_blank"&gt;iOS&lt;/a&gt;&lt;/li&gt;
@@ -144,7 +143,7 @@ Journalism:
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2381">
+        <etapa id="2384">
             <titulo>Download the e-Visa</titulo>
             <descricao>&lt;p&gt;After you pay the eVisa fee, you will receive an e-mail with payment confirmation details along with a reference number and copy of your visa application form.&lt;/p&gt;
 &lt;p&gt;If the fee payment is successful, and a visa is granted you will receive a .pdf file containing your eVisa. You must download and print your eVisa and present it at the moment of your boarding and landing in Brazil, we also recommend that you keep a copy of the .pdf file in your cell phone.&lt;/p&gt;</descricao>
@@ -159,10 +158,10 @@ Journalism:
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2658" tipo="web" procedimento-sistema-indisponivel="If for any reason the system is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
+                    <canal-de-prestacao id="2663" tipo="web" procedimento-sistema-indisponivel="If for any reason the system is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
                         <descricao>https://brazil.vfsevisa.com/Brazil-Online/Online/Visa/Home</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2657" tipo="aplicativo-movel" procedimento-sistema-indisponivel="If for any reason the app is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
+                    <canal-de-prestacao id="2664" tipo="aplicativo-movel" procedimento-sistema-indisponivel="If for any reason the app is unavailable, go to a &lt;a href=&quot;http://www.portalconsular.itamaraty.gov.br/representacoes-do-brasil-no-mundo&quot; target=&quot;_blank&quot;&gt;Brazilian Consulate&lt;/a&gt;">
                         <descricao>&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.vfsg.evisa&amp;hl=pt_BR" target="_blank"&gt;Android&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://itunes.apple.com/br/app/brazil-e-visa/id1314963937?mt=8" target="_blank"&gt;iOS&lt;/a&gt;&lt;/li&gt;
@@ -176,17 +175,17 @@ Journalism:
         <nomeOrgao>Ministério das Relações Exteriores (MRE)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2734">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2735">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Viagens e Turismo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3104">Brazil</item>
-        <item id="3105">visa</item>
-        <item id="3106">evisa</item>
-        <item id="3107">tourism</item>
-        <item id="3108">travel</item>
+        <item id="3109">Brazil</item>
+        <item id="3110">visa</item>
+        <item id="3111">evisa</item>
+        <item id="3112">tourism</item>
+        <item id="3113">travel</item>
     </palavras-chave>
     <condicoes-acessibilidade>&lt;p style="text-align:justify"&gt;O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.&lt;/p&gt;</condicoes-acessibilidade>
     <tratamento-prioritario>&lt;p style="text-align:justify"&gt;Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​&lt;/p&gt;</tratamento-prioritario>
