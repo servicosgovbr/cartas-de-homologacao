@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>&lt;div style="text-align:center;font-size:200%;color:Blue"&gt;
-Obrigado por avaliar o nosso Portal, ficamos felizes que você tenha gostado. Volte sempre!
+    <conteudo>&lt;div style="text-align:center;font-size:200%;color:#06acff"&gt;
+&lt;p&gt;Obrigado por avaliar o nosso Portal!&lt;/p&gt;
+&lt;p&gt;Ficamos felizes que você tenha gostado.&lt;/p&gt;
+&lt;p&gt;Volte sempre!&lt;/p&gt;
 &lt;/div&gt;</conteudo>
     <dbId>813</dbId>
     <nome>Obrigado pela sua avaliação</nome>
