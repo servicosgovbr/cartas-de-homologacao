@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-hudson</id>
+    <dbId>1316</dbId>
+    <nome>teste hudson</nome>
+    <sigla>teste</sigla>
+    <nomes-populares>
+        <item id="970">teste hudson</item>
+    </nomes-populares>
+    <descricao>teste hudson</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital>teste hudson</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1068">
+            <tipo>teste hudson</tipo>
+            <requisitos>teste hudson</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2423">
+            <titulo>teste hudson</titulo>
+            <descricao>teste hudson</descricao>
+            <documentos>
+                <default>
+                    <item id="1757">teste hudson</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2725" tipo="e-mail">
+                        <descricao>teste hudson</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/219924" dbId="58047">
+        <nomeOrgao>Secretaria-Geral da Presidência da República (SGPR)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2752">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3181">teste hudson</item>
+        <item id="3182">teste hudson</item>
+        <item id="3183">teste hudson</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="725">teste hudson</item>
+    </legislacoes>
+    <condicoes-acessibilidade>O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</condicoes-acessibilidade>
+    <tratamento-prioritario>Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2.000​</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:
+· Urbanidade;
+· Respeito;
+· Acessibilidade;
+· Cortesia;
+· Presunção da boa-fé do usuário;
+· Igualdade;
+· Eficiência;
+· Segurança; e
+· Ética</tratamento-dispensado-atendimento>
+</servico>
