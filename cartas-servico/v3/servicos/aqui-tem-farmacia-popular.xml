@@ -5,8 +5,8 @@
     <nome>Aqui tem Farmácia Popular</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="843">Drogaria Barata</item>
-        <item id="842">Farmácia do Povo</item>
+        <item id="968">Drogaria Barata</item>
+        <item id="969">Farmácia do Povo</item>
     </nomes-populares>
     <descricao>Na rede credenciada é possível ter acesso aos medicamentos para as doenças mais comuns entre os cidadãos. O Programa possui uma rede própria de Farmácias Populares e a parceria com farmácias e drogarias da rede privada, chamada de "Aqui tem Farmácia Popular".
 
@@ -17,7 +17,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="715">
+        <solicitante id="1067">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="1884">
+        <etapa id="2422">
             <titulo>Ir à farmácia</titulo>
             <descricao></descricao>
             <documentos>
@@ -39,9 +39,12 @@
             <custos>
                 <default/>
             </custos>
+            <tempo-total-estimado>
+                <nao-estimado-ainda/>
+            </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="940" tipo="web">
+                    <canal-de-prestacao id="2724" tipo="web">
                         <descricao>http://sage.saude.gov.br/?link=aqt&amp;flt=true&amp;param=null</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -52,18 +55,29 @@
         <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2210">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2751">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
-        <item>Previdência Social</item>
-        <item>Saúde</item>
+        <item>Habitação</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2120">farmácia</item>
-        <item id="2121">povo</item>
-        <item id="2122">remédio</item>
+        <item id="3178">farmácia</item>
+        <item id="3179">povo</item>
+        <item id="3180">remédio</item>
     </palavras-chave>
     <legislacoes>
-        <item id="669">Constituição</item>
+        <item id="724">Constituição</item>
     </legislacoes>
+    <condicoes-acessibilidade>O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</condicoes-acessibilidade>
+    <tratamento-prioritario>Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2.000​</tratamento-prioritario>
+    <tratamento-dispensado-atendimento>O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:
+· Urbanidade;
+· Respeito;
+· Acessibilidade;
+· Cortesia;
+· Presunção da boa-fé do usuário;
+· Igualdade;
+· Eficiência;
+· Segurança; e
+· Ética</tratamento-dispensado-atendimento>
 </servico>
