@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-solicitacao-de-autorizacao-de-filmagem-estrangeira-no-brasil</id>
+    <dbId>1256</dbId>
+    <nome>[TREINAMENTO] Solicitação de Autorização de Filmagem Estrangeira no Brasil</nome>
+    <sigla></sigla>
+    <nomes-populares>
+        <item id="1047">ANCINE - Filmagem Estrangeira no Brasil</item>
+    </nomes-populares>
+    <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus velit nunc. Nunc placerat vestibulum nisl et auctor. Phasellus sapien quam, commodo ac eleifend sit amet, sodales in ipsum. Vestibulum molestie mollis est, mattis interdum elit tempus et. Vestibulum viverra laoreet tempus. Quisque at neque vel leo dapibus semper. Suspendisse potenti. Aenean feugiat nunc non nulla vehicula dignissim.
+
+Nulla iaculis ante non pharetra tristique. Curabitur et eros sed velit venenatis aliquam vitae vel arcu. Phasellus quis ante quis urna mattis ultricies. In vitae neque leo. Nullam scelerisque ullamcorper dictum. Vestibulum massa sapien, fringilla vel ullamcorper vitae, viverra tincidunt tellus. Suspendisse ut rutrum elit. Proin tempus est nulla, a elementum orci volutpat et. Curabitur semper vitae neque in mollis. Proin at venenatis sapien. Praesent fringilla feugiat congue. Ut at ligula vel sapien congue rutrum. Cras ornare, turpis nec maximus rutrum, leo elit feugiat massa, dapibus lacinia magna lorem sed velit. Pellentesque pretium eleifend nisi, ut finibus dui porttitor id. Nulla quis scelerisque tellus. Etiam accumsan, enim vel semper condimentum, neque dui malesuada quam, eget pretium orci odio eget nunc.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1030">
+            <tipo>Lorem ipsum dolor sit amet</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2495">
+            <titulo>Lorem ipsum</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2630" tipo="e-mail">
+                        <descricao>Lorem ipsum dolor sit amet</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/57682" dbId="916">
+        <nomeOrgao>Agência Nacional do Cinema (ANCINE)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2728">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cultura</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3114">autorização</item>
+        <item id="3115">filmagem</item>
+        <item id="3113">cinema</item>
+    </palavras-chave>
+</servico>
