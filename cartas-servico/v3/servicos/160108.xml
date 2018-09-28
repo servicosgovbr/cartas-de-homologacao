@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="928">
+        <solicitante id="1066">
             <tipo>solicitante teste</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2247">
+        <etapa id="2420">
             <titulo>titulo etapa teste</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,14 +35,14 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="627">
+                    <custo id="816">
                         <descricao>descript canal teste</descricao>
                         <moeda>R$</moeda>
                         <valor>12,00</valor>
                         <valorVariavel></valorVariavel>
                         <statusCustoVariavel>0</statusCustoVariavel>
                     </custo>
-                    <custo id="628">
+                    <custo id="817">
                         <descricao>descript canal teste</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel>12</valorVariavel>
@@ -55,16 +55,16 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2412" tipo="postal">
+                    <canal-de-prestacao id="2721" tipo="postal">
                         <descricao>descriptionCanalPrest2</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2411" tipo="web" procedimento-sistema-indisponivel="descriptCanal1">
+                    <canal-de-prestacao id="2722" tipo="web" procedimento-sistema-indisponivel="descriptCanal1">
                         <descricao>descriptCanal1</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2248">
+        <etapa id="2421">
             <titulo>titulo etapa teste</titulo>
             <descricao></descricao>
             <documentos>
@@ -72,15 +72,15 @@
             </documentos>
             <custos>
                 <default>
-                    <custo id="630">
+                    <custo id="818">
                         <descricao>descript canal teste</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel>12</valorVariavel>
                         <statusCustoVariavel>1</statusCustoVariavel>
                     </custo>
                 </default>
-                <caso id="781" descricao="">
-                    <custo id="747">
+                <caso id="805" descricao="">
+                    <custo id="819">
                         <descricao>descript canal teste</descricao>
                         <moeda>R$</moeda>
                         <valor>12,00</valor>
@@ -94,13 +94,13 @@
             </tempo-total-estimado>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2414" tipo="postal">
+                    <canal-de-prestacao id="2723" tipo="postal">
                         <descricao>descriptCanal1</descricao>
                     </canal-de-prestacao>
                 </default>
-                <caso id="731" descricao="">
+                <caso id="804" descricao="">
                     <canal-de-prestacao id="2413" tipo="e-mail">
-                        <descricao>descriptCanal1</descricao>
+                        <descricao>descriptCanal1f</descricao>
                     </canal-de-prestacao>
                 </caso>
             </canais-de-prestacao>
@@ -110,8 +110,8 @@
         <nomeOrgao>Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IF BA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2513">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2514">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2749">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2750">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Água</item>
@@ -119,9 +119,9 @@
         <item>Clima</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2731">palavraChave27082018160108</item>
-        <item id="2732">palavraChave27082018160108</item>
-        <item id="2733">palavraChave27082018160108</item>
+        <item id="3175">palavraChave27082018160108</item>
+        <item id="3176">palavraChave27082018160108</item>
+        <item id="3177">palavraChave27082018160108</item>
     </palavras-chave>
     <servicos-relacionados>
         <item>228</item>
