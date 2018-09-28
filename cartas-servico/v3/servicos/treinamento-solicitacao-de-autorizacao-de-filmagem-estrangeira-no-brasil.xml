@@ -5,7 +5,7 @@
     <nome>[TREINAMENTO] Solicitação de Autorização de Filmagem Estrangeira no Brasil</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1047">ANCINE - Filmagem Estrangeira no Brasil</item>
+        <item id="1048">ANCINE - Filmagem Estrangeira no Brasil</item>
     </nomes-populares>
     <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus velit nunc. Nunc placerat vestibulum nisl et auctor. Phasellus sapien quam, commodo ac eleifend sit amet, sodales in ipsum. Vestibulum molestie mollis est, mattis interdum elit tempus et. Vestibulum viverra laoreet tempus. Quisque at neque vel leo dapibus semper. Suspendisse potenti. Aenean feugiat nunc non nulla vehicula dignissim.
 
@@ -16,7 +16,7 @@ Nulla iaculis ante non pharetra tristique. Curabitur et eros sed velit venenatis
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1030">
+        <solicitante id="1031">
             <tipo>Lorem ipsum dolor sit amet</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -29,7 +29,7 @@ Nulla iaculis ante non pharetra tristique. Curabitur et eros sed velit venenatis
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2495">
+        <etapa id="2496">
             <titulo>Lorem ipsum</titulo>
             <descricao></descricao>
             <documentos>
@@ -40,7 +40,7 @@ Nulla iaculis ante non pharetra tristique. Curabitur et eros sed velit venenatis
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2630" tipo="e-mail">
+                    <canal-de-prestacao id="2631" tipo="e-mail">
                         <descricao>Lorem ipsum dolor sit amet</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -51,14 +51,16 @@ Nulla iaculis ante non pharetra tristique. Curabitur et eros sed velit venenatis
         <nomeOrgao>Agência Nacional do Cinema (ANCINE)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2728">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2729">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Cultura</item>
+        <item>Cooperação Internacional</item>
+        <item>Relações Internacionais</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3114">autorização</item>
-        <item id="3115">filmagem</item>
-        <item id="3113">cinema</item>
+        <item id="3116">autorização</item>
+        <item id="3117">filmagem</item>
+        <item id="3118">cinema</item>
     </palavras-chave>
 </servico>
