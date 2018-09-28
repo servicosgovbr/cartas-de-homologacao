@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica >
-    <conteudo>Obrigado por avaliar o nosso Portal, ficamos felizes que você tenha gostado. Volte sempre!</conteudo>
+    <conteudo>&lt;div style="text-align:center;font-size:200%;color:Blue"&gt;
+Obrigado por avaliar o nosso Portal, ficamos felizes que você tenha gostado. Volte sempre!
+&lt;/div&gt;</conteudo>
     <dbId>813</dbId>
     <nome>Obrigado pela sua avaliação</nome>
     <orgaos>
