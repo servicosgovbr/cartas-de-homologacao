@@ -3,7 +3,7 @@
     <id>agendamento-de-atividades-educacionais-ou-de-divulgacao-cientifica-voltadas-para-o-setor-espacial-parnamirim-rn</id>
     <dbId>1220</dbId>
     <nome>Agendamento de atividades educacionais ou de divulgação científica voltadas para o Setor Espacial – Parnamirim-RN</nome>
-    <sigla>AEDC – Espacial</sigla>
+    <sigla>CVT-E</sigla>
     <descricao>Agendamento de atividades educacionais ou de divulgação científica voltadas para o setor Espacial no Centro Vocacional Tecnológico Espacial - Parnamirim - Rio Grande do Norte</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
@@ -11,15 +11,15 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1016">
+        <solicitante id="1035">
             <tipo>Escolas de nível fundamental e médio: públicas e privadas;</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="1017">
+        <solicitante id="1036">
             <tipo>Instituições de nível superior: públicas e privadas;</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="1018">
+        <solicitante id="1037">
             <tipo>Sociedade em geral.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,13 +32,13 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2472">
+        <etapa id="2500">
             <titulo>Fazer o pedido de participação na atividade espacial ou de divulgação científica</titulo>
             <descricao>O formulário web deve ser preenchido com os dados do solicitante, que deve selecionar o dia no qual espera participar da atividade.</descricao>
             <documentos>
                 <default>
-                    <item id="1906">RG</item>
-                    <item id="1907">CPF</item>
+                    <item id="1943">RG</item>
+                    <item id="1944">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -46,13 +46,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2599" tipo="web">
+                    <canal-de-prestacao id="2635" tipo="web">
                         <descricao>https://scp.brasilcidadao.gov.br/scp/login</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2473">
+        <etapa id="2501">
             <titulo>Aguardar resposta de confirmação</titulo>
             <descricao>Após análise do pedido, é enviado um e-mail ao solicitante informando-se as datas disponíveis para agendamento e a quantidade de pessoas permitidas.</descricao>
             <documentos>
@@ -63,13 +63,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2600" tipo="web-acompanhar">
+                    <canal-de-prestacao id="2636" tipo="web-acompanhar">
                         <descricao>https://scp.brasilcidadao.gov.br/scp/login</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2474">
+        <etapa id="2502">
             <titulo>Comparecer ao Centro Espacial para a atividade agendada</titulo>
             <descricao>Ao final da atividade é possível receber certificado de participação.</descricao>
             <documentos>
@@ -80,7 +80,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2601" tipo="presencial">
+                    <canal-de-prestacao id="2637" tipo="presencial">
                         <descricao>Centro Vocacional Tecnológico Espacial (CVT-Espacial), localizado no Centro de Lançamento da Barreira do Inferno: Rod RN-063, km 11 - Ponta Negra, Parnamirim/RN.</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -91,18 +91,18 @@
         <nomeOrgao>Agência Espacial Brasileira (AEB)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2706">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2707">Órgãos e entidades públicas</item>
-        <item idSegmento="3" idServicoSegmento="2708">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2709">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2734">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2735">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2736">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2737">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação superior</item>
         <item>Educação básica</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3079">AEB</item>
-        <item id="3080">Espacial</item>
-        <item id="3081">Centro Vocacional Tecnológico Espacial</item>
+        <item id="3128">AEB</item>
+        <item id="3129">Espacial</item>
+        <item id="3130">Centro Vocacional Tecnológico Espacial</item>
     </palavras-chave>
 </servico>
