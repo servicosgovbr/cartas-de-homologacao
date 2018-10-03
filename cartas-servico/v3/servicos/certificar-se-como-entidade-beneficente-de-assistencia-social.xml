@@ -5,7 +5,7 @@
     <nome>Certificar-se como Entidade Beneficente de Assistência Social</nome>
     <sigla>CEBAS</sigla>
     <nomes-populares>
-        <item id="1051">CEBAS Assistência Social</item>
+        <item id="1052">CEBAS Assistência Social</item>
     </nomes-populares>
     <descricao>A certificação, facultada às entidades e organizações da assistência social, é um instrumento que possibilita a entidade usufruir da isenção das contribuições sociais, tais como a parte patronal da contribuição previdenciária sobre a folha de pagamento, Contribuição Social sobre o Lucro Líquido – CSLL, Contribuição para o Financiamento da Seguridade Social – COFINS e Contribuição PIS/PASEP, permite ainda a priorização na celebração de contratualização/convênios com o poder público, entre outros benefícios.</descricao>
     <contato>¨ [Cartilha com passo a passo do CEBAS](http://www.mds.gov.br/webarquivos/arquivo/assistencia_social/cneas/Cartilha_passos_certificacao.pdf)       
@@ -16,7 +16,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="1041">
+        <solicitante id="1042">
             <tipo>Pessoas jurídicas de direito privado sem fins lucrativos</tipo>
             <requisitos>&amp;nbsp;        
 ¨Realizar ações de acordo com as normativas da política de assistência social;
@@ -33,17 +33,17 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2506">
+        <etapa id="2508">
             <titulo>Requerer certificação</titulo>
             <descricao>I) Protocolo de requerimento do CEBAS - Atendimento no balcão do protocolo para recebimento do requerimento da certificação.</descricao>
             <documentos>
                 <default>
-                    <item id="1947">CNPJ</item>
-                    <item id="1948">Procuração do representante legal</item>
-                    <item id="1949">Requerimento do pedido de certificação</item>
-                    <item id="1950">Demonstrativo do Resultado do Exercício com Nota Explicativa</item>
-                    <item id="1951">Relatório de atividades</item>
-                    <item id="1952">Ata de Eleição dos dirigentes</item>
+                    <item id="1953">CNPJ</item>
+                    <item id="1954">Procuração do representante legal</item>
+                    <item id="1955">Requerimento do pedido de certificação</item>
+                    <item id="1956">Demonstrativo do Resultado do Exercício com Nota Explicativa</item>
+                    <item id="1957">Relatório de atividades</item>
+                    <item id="1958">Ata de Eleição dos dirigentes</item>
                 </default>
             </documentos>
             <custos>
@@ -51,19 +51,19 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2643" tipo="postal">
+                    <canal-de-prestacao id="2647" tipo="postal">
                         <descricao>**Secretaria Nacional de Assistência Social** - Setor de Múltiplas Atividades Sul, Trecho 3 Lote 1 Edifício The Union, Guará - Brasília/DF - CEP: 70297-400</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2642" tipo="presencial">
+                    <canal-de-prestacao id="2648" tipo="presencial">
                         <descricao>Protocolo da **Secretaria Nacional de Assistência Social** - Setor de Múltiplas Atividades Sul, Trecho 3 Lote 1 Edifício The Union, Guará - Brasília/DF - CEP: 70297-400</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2641" tipo="web">
+                    <canal-de-prestacao id="2649" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2507">
+        <etapa id="2509">
             <titulo>Receber decisão</titulo>
             <descricao>Comunicação por meio de Ofício da emissão da decisão e publicação no Diário Oficial da União</descricao>
             <documentos>
@@ -74,13 +74,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2646" tipo="postal">
+                    <canal-de-prestacao id="2650" tipo="postal">
                         <descricao>Endereço da entidade a ser notificada.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2645" tipo="web-consultar">
+                    <canal-de-prestacao id="2651" tipo="web-consultar">
                         <descricao>www.in.gov.br</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2644" tipo="web">
+                    <canal-de-prestacao id="2652" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -91,28 +91,25 @@
         <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="4" idServicoSegmento="2742">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="4" idServicoSegmento="2743">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
-        <item>Assistência ao Idoso</item>
-        <item>Assistência à Criança e ao Adolescente</item>
-        <item>Assistência ao Portador de Deficiência</item>
         <item>Proteção Social</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3134">Assistência Social</item>
-        <item id="3135">Credenciamento</item>
-        <item id="3136">CMAS</item>
-        <item id="3137">Entidade beneficente</item>
-        <item id="3138">cebas</item>
-        <item id="3139">CEBAS</item>
-        <item id="3140">MDS</item>
+        <item id="3141">Assistência Social</item>
+        <item id="3142">Credenciamento</item>
+        <item id="3143">CMAS</item>
+        <item id="3144">Entidade beneficente</item>
+        <item id="3145">cebas</item>
+        <item id="3146">CEBAS</item>
+        <item id="3147">MDS</item>
     </palavras-chave>
     <legislacoes>
-        <item id="733">[Lei 12.101 de 27 de novembro de 2009](http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12101.htm)</item>
-        <item id="734">[Resolução CNAS nº 109/2009](http://www.mds.gov.br/suas/noticias/resolucao_cnas_no109_-_11_11_2009_-tipificacao_de_servicos.pdf)</item>
-        <item id="735">[Resolução CNAS nº 27/2011](http://www.mds.gov.br/webarquivos/legislacao/assistencia_social/resolucoes/2011/RESOLUCaO%20No%2027%20DE%2019%20DE%20SETEMBRO%20DE%202011.pdf)</item>
-        <item id="736">[Resolução CNAS nº 33/2011](http://www.mds.gov.br/cnas/legislacao/resolucoes/arquivos-2011/cnas-2011-033-28-11-2011.pdf)</item>
-        <item id="737">[Resolução CNAS n° 34/2011](http://www.mds.gov.br/cnas/legislacao/resolucoes/arquivos-2011/cnas-2011-034-28-11-2011.pdf)</item>
+        <item id="738">[Lei 12.101 de 27 de novembro de 2009](http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12101.htm)</item>
+        <item id="739">[Resolução CNAS nº 109/2009](http://www.mds.gov.br/suas/noticias/resolucao_cnas_no109_-_11_11_2009_-tipificacao_de_servicos.pdf)</item>
+        <item id="740">[Resolução CNAS nº 27/2011](http://www.mds.gov.br/webarquivos/legislacao/assistencia_social/resolucoes/2011/RESOLUCaO%20No%2027%20DE%2019%20DE%20SETEMBRO%20DE%202011.pdf)</item>
+        <item id="741">[Resolução CNAS nº 33/2011](http://www.mds.gov.br/cnas/legislacao/resolucoes/arquivos-2011/cnas-2011-033-28-11-2011.pdf)</item>
+        <item id="742">[Resolução CNAS n° 34/2011](http://www.mds.gov.br/cnas/legislacao/resolucoes/arquivos-2011/cnas-2011-034-28-11-2011.pdf)</item>
     </legislacoes>
 </servico>
