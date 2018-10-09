@@ -5,9 +5,9 @@
     <nome>POC - Apresentação da Ferramenta</nome>
     <sigla>poc</sigla>
     <nomes-populares>
-        <item id="1055">poc</item>
-        <item id="1056">Apresentação</item>
-        <item id="1057">Apresentação da Ferramenta</item>
+        <item id="1058">poc</item>
+        <item id="1059">Apresentação</item>
+        <item id="1060">Apresentação da Ferramenta</item>
     </nomes-populares>
     <descricao>Serviço para demonstrar o que é possível  fazer com o Lecom BPM</descricao>
     <contato></contato>
@@ -16,8 +16,8 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="1046">
-            <tipo>qualquer pessoa</tipo>
+        <solicitante id="1047">
+            <tipo>Qualquer cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2515">
+        <etapa id="2516">
             <titulo>Solicitar</titulo>
             <descricao></descricao>
             <documentos>
@@ -40,7 +40,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2662" tipo="web">
+                    <canal-de-prestacao id="2663" tipo="web">
                         <descricao>web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -51,15 +51,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2748">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2749">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3162">poc</item>
-        <item id="3163">apresentação</item>
-        <item id="3164">demonstração</item>
-        <item id="3165">ferramentas</item>
+        <item id="3166">poc</item>
+        <item id="3167">apresentação</item>
+        <item id="3168">demonstração</item>
+        <item id="3169">ferramentas</item>
     </palavras-chave>
 </servico>
