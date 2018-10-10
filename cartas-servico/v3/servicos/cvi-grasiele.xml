@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1060">
+        <solicitante id="1062">
             <tipo>kkk</tipo>
             <requisitos>kkkk</requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2529">
+        <etapa id="2531">
             <titulo>ddd</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1970">ddddd</item>
+                    <item id="1971">ddddd</item>
                 </default>
             </documentos>
             <custos>
@@ -37,7 +37,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2676" tipo="e-mail">
+                    <canal-de-prestacao id="2678" tipo="e-mail">
                         <descricao>hhh</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -48,15 +48,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2763">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2765">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3208">Animal</item>
-        <item id="3209">Viagem</item>
-        <item id="3210">Internacional</item>
+        <item id="3214">Animal</item>
+        <item id="3215">Viagem</item>
+        <item id="3216">Internacional</item>
     </palavras-chave>
 </servico>
