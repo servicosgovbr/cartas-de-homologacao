@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cvi-matheus-martins</id>
+    <dbId>1272</dbId>
+    <nome>CVI - Matheus Martins</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1067">CVI</item>
+    </nomes-populares>
+    <descricao>asd</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1050">
+            <tipo>asd</tipo>
+            <requisitos>asd</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2519">
+            <titulo>asd</titulo>
+            <descricao>dsa</descricao>
+            <documentos>
+                <default>
+                    <item id="1965">asd</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2666" tipo="presencial">
+                        <descricao>asd</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2752">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Lazer</item>
+        <item>Educação superior</item>
+        <item>Energia</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3178">Viagem</item>
+        <item id="3179">Animal</item>
+        <item id="3180">Internacional</item>
+    </palavras-chave>
+</servico>
