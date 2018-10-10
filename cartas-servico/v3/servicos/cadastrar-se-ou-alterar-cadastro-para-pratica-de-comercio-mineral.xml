@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1034">
+        <solicitante id="1054">
             <tipo>Empresas privadas, públicas ou de economia mista, e pessoas jurídicas de direito privado sem fins lucrativos.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2499">
+        <etapa id="2523">
             <titulo>Solicitar cadastramento ou alteração de cadastro</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2634" tipo="web">
+                    <canal-de-prestacao id="2670" tipo="web">
                         <descricao>http://www.cnen.gov.br/exportacao-e-importacao-de-materias-primas-e-minerais</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,15 +46,15 @@
         <nomeOrgao>Comissão Nacional de Energia Nuclear (CNEN)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2732">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2733">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2756">Empresas</item>
+        <item idSegmento="4" idServicoSegmento="2757">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3125">comércio mineral</item>
-        <item id="3126">cadastrar</item>
-        <item id="3127">alterar cadastro</item>
+        <item id="3190">comércio mineral</item>
+        <item id="3191">cadastrar</item>
+        <item id="3192">alterar cadastro</item>
     </palavras-chave>
 </servico>
