@@ -4,40 +4,68 @@
     <dbId>1240</dbId>
     <nome>Credenciar entidade no Programa Cisternas</nome>
     <sigla></sigla>
-    <descricao>Credenciar entidades privadas sem fins lucrativos para participação em chamadas públicas no âmbito do Programa Cisternas.</descricao>
-    <contato></contato>
+    <nomes-populares>
+        <item id="1080">Credenciamento no Programa Cisternas</item>
+    </nomes-populares>
+    <descricao>O Programa Cisternas visa a promover o acesso à água por meio de implementação de tecnologias sociais, destinado a famílias rurais de baixa renda e escolas públicas atingidas pela seca ou falta regular de água. O Programa é gerido e executado a partir das regras estabelecidas na Lei n. 12.873/2013, regulamentada pelo Decreto n. 8.038/2013. Na atual sistemática de execução, o Ministério do Desenvolvimento Social realiza parcerias com entes públicos e organizações da sociedade civil que, por sua vez, devem realizar processos de chamada pública para a seleção e contratação de entidades privadas sem fins lucrativos.
+
+O credenciamento no Programa Cisternas é, assim, condição prévia à participação de uma entidade privada sem fins lucrativos nos processos de chamada pública. O credenciamento passa a vigorar a partir da data expressa na lista divulgada no sítio eletrônico do MDS, com vigência de cinco anos, podendo ser renovado, nos moldes do credenciamento inicial, por solicitação da entidade nos noventa dias que antecedem a expiração da validade do credenciamento em vigor.</descricao>
+    <contato>E-mail: cisternas@mds.gov.br
+
+Postal: 
+Secretaria Nacional de Segurança Alimentar e Nutricional
+Ministério do Desenvolvimento Social e Agrário
+Esplanada dos Ministérios, Bloco C, 4º Andar
+Brasília, Distrito Federal, CEP 70.054-906</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1028">
-            <tipo>Pessoas jurídicas de direito privado sem fins lucrativos</tipo>
-            <requisitos>Estar legalmente constituída há mais de três anos e ter como objeto social a promoção de ações relacionadas ao desenvolvimento rural e/ou segurança alimentar;
-Possuir área de atuação com abrangência definida e ter realizado a execução de projetos com vistas ao desenvolvimento rural ou à segurança alimentar e nutricional;
-Não estar incluída no Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas – CEPIM;</requisitos>
+        <solicitante id="1070">
+            <tipo>Entidades privadas sem fins lucrativos interessadas em participar de processos de chamada pública divulgados pelos parceiros do MDS na execução do Programa Cisternas, quais sejam:
+
+- Associações privadas;
+- Associações sindicais; 
+- Fundações privadas;
+- Sociedades cooperativas;
+- Organizações religiosas que se dediquem a atividades ou a projetos de interesse público e de cunho social distintas das destinadas a fins exclusivamente religiosos.</tipo>
+            <requisitos>O credenciamento é regido pela [Portaria MDS nº 528/2017](http://mds.gov.br/assuntos/seguranca-alimentar/acesso-a-agua-1/marco-legal-1).
+
+Requisitos gerais:
+- Estar legalmente constituída há mais de três anos e ter como objeto social a promoção de ações relacionadas ao desenvolvimento rural e/ou segurança alimentar;
+- Possuir área de atuação com abrangência definida;
+- Possuir experiência de, no mínimo, dois anos na execução de projetos que visem ao desenvolvimento rural ou à segurança alimentar e nutricional;
+- Não estar incluída no Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas – CEPIM;
+- Apresentar atestado de capacidade técnica emitido por conselho de políticas públicas;
+- Anexar estatuto social ou correspondente registrado em cartório e respectivas alterações;
+- Anexar Ofício de solicitação de credenciamento assinado pelo representante legal da entidade.</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <entre min="16" max="30" unidade="dias-corridos"/>
-        <descricao></descricao>
+        <descricao>Caso seja necessário corrigir ou complementar as informações prestadas e os documentos encaminhados, o pedido de credenciamento será devolvido à entidade solicitante por meio do próprio Portal de Serviços para os devidos ajustes. Após 2 permissões para correção ou complementação sem que sejam cumpridos os requisitos, o pedido será encerrado e o pleiteante, caso deseje, deverá iniciar novo pedido na Plataforma. Denegações de credenciamento também serão comunicadas por meio do Portal de Serviços.</descricao>
     </tempo-total-estimado>
     <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>5</quantidade>
+        <unidade>anos</unidade>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2490">
+        <etapa id="2539">
             <titulo>Enviar documentação</titulo>
-            <descricao>Envio da documentação pela entidade privada sem fins lucrativos.</descricao>
+            <descricao>A entidade interessada em se credenciar deve realizar o pedido por meio do Portal de Serviços, preenchendo os campos e encaminhando a documentação exigida em cada uma das telas.</descricao>
             <documentos>
                 <default>
-                    <item id="1931">CNPJ</item>
-                    <item id="1932">Comprovante de endereço/residência</item>
-                    <item id="1933">Cópias de contratos, convênios ou congêneres com parceiros públicos ou privados que indiquem o objeto, prazo de vigência, metas e recursos envolvidos</item>
-                    <item id="1934">Declaração do contratante ou parceiro de que o respectivo objeto foi executado de forma satisfatória</item>
-                    <item id="1935">Ofício de solicitação de credenciamento assinado pelo representante legal da entidade</item>
-                    <item id="1936">Formulário de informações acompanhado dos documentos comprobatórios das experiências citadas</item>
-                    <item id="1937">Atestado de capacidade técnica</item>
+                    <item id="1972">CNPJ.</item>
+                    <item id="1973">Comprovante de endereço/residência.</item>
+                    <item id="1974">Estatuto social ou correspondente registrado em cartório e respectivas alterações.</item>
+                    <item id="1975">Cópias de contratos, convênios ou congêneres com parceiros públicos ou privados que indiquem o objeto, prazo de vigência, metas e recursos envolvidos.</item>
+                    <item id="1976">Declaração do contratante ou parceiro de que o respectivo objeto foi executado de forma satisfatória.</item>
+                    <item id="1977">Ofício de solicitação de credenciamento assinado pelo representante legal da entidade.</item>
+                    <item id="1978">Formulário de informações acompanhado dos documentos comprobatórios das experiências citadas.</item>
+                    <item id="1979">Atestado de Capacidade Técnica.</item>
                 </default>
             </documentos>
             <custos>
@@ -45,36 +73,35 @@ Não estar incluída no Cadastro de Entidades Privadas sem Fins Lucrativos Imped
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2623" tipo="web">
-                        <descricao>https://www.servicos.nuvem.gov.br</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="2624" tipo="e-mail">
+                    <canal-de-prestacao id="2687" tipo="e-mail">
                         <descricao>cisternas@mds.gov.br</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2625" tipo="postal">
+                    <canal-de-prestacao id="2688" tipo="postal">
                         <descricao>Secretaria Nacional de Segurança Alimentar e Nutricional
 Ministério do Desenvolvimento Social e Agrário
 Esplanada dos Ministérios, Bloco C, 4º Andar
 Brasília, Distrito Federal, CEP 70.054-906</descricao>
                     </canal-de-prestacao>
+                    <canal-de-prestacao id="2686" tipo="web">
+                        <descricao>https://www.servicos.nuvem.gov.br</descricao>
+                    </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2491">
-            <titulo>Verificar credenciamento</titulo>
-            <descricao>Caso a documentação e as informações estejam em ordem, a entidade será credenciada no Programa e constará na lista de entidades credenciadas.</descricao>
+        <etapa id="2540">
+            <titulo>Verificar lista de entidades credenciadas</titulo>
+            <descricao>Caso a documentação e as informações estejam em ordem, a entidade será credenciada no Programa e constará na [lista de entidades credenciadas](http://mds.gov.br/assuntos/seguranca-alimentar/acesso-a-agua-1/credenciamento), disponível no sítio eletrônico do Ministério do Desenvolvimento Social (MDS). 
+O credenciamento passa a vigorar a partir da data expressa na lista divulgada pelo MDS. A vigência é de 5 anos, podendo ser renovado por solicitação da entidade 90 dias antes da expiração.</descricao>
             <documentos>
-                <default>
-                    <item id="1938">CNPJ</item>
-                </default>
+                <default/>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2626" tipo="web">
-                        <descricao>http://www.mds.gov.br/webarquivos/arquivo/seguranca_alimentar/Lista%20de%20credenciamento%20para%20divulga%C3%A7%C3%A3o%2021_06_17.pdf</descricao>
+                    <canal-de-prestacao id="2689" tipo="web">
+                        <descricao>http://mds.gov.br/assuntos/seguranca-alimentar/acesso-a-agua-1/credenciamento</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -84,8 +111,8 @@ Brasília, Distrito Federal, CEP 70.054-906</descricao>
         <nomeOrgao>Ministério do Desenvolvimento Social  (MDS)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="4" idServicoSegmento="2725">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        <item idSegmento="2" idServicoSegmento="2726">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2777">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="2" idServicoSegmento="2778">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
@@ -93,8 +120,8 @@ Brasília, Distrito Federal, CEP 70.054-906</descricao>
         <item>Atendimento básico</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3105">Cisternas</item>
-        <item id="3106">MDS</item>
-        <item id="3107">Programa</item>
+        <item id="3240">Cisternas</item>
+        <item id="3241">MDS</item>
+        <item id="3242">Programa</item>
     </palavras-chave>
 </servico>
