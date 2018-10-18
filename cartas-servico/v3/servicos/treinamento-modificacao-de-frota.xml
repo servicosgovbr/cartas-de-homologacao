@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-modificacao-de-frota</id>
+    <dbId>1292</dbId>
+    <nome>[TREINAMENTO] Modificação de Frota</nome>
+    <sigla></sigla>
+    <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque tortor cursus lacus semper ornare. Sed erat tellus, viverra eu vulputate non, consequat nec lectus. Cras mi ligula, cursus et eleifend vitae, rhoncus ut magna. Nulla facilisis, ligula at efficitur consequat, nibh arcu congue lorem, imperdiet ultricies tellus tellus eu felis. Praesent ac lacinia sapien. Sed congue felis nec neque lacinia consectetur. Nunc quis quam eu leo aliquam pulvinar. Aenean egestas auctor tellus, a cursus metus vestibulum eget. Etiam sem purus, euismod iaculis euismod sit amet, rutrum at justo. Mauris accumsan venenatis quam nec lacinia. Sed nec mollis ante. Etiam aliquam in nibh nec euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla risus lectus, rutrum sed nunc nec, consequat consectetur lorem. Nulla dapibus congue fringilla. Quisque eleifend rhoncus neque, a mattis arcu tempus eget.
+
+Aliquam eu imperdiet mi, ut viverra elit. Donec tincidunt ac eros nec lacinia. Aliquam erat volutpat. Praesent finibus facilisis elit, in tincidunt eros malesuada non. Maecenas fermentum felis felis, sit amet sollicitudin odio interdum a. Ut tempus a massa eget volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ut porta erat. Sed eget mauris metus. Praesent ullamcorper metus eu nulla rhoncus, eget facilisis elit fringilla. Nulla dignissim sit amet enim nec semper. Nullam laoreet eros ac ultrices mattis. Quisque ac eleifend magna. Integer non dolor tempus, pharetra felis eu, gravida ex. Nam nec commodo turpis.
+
+Sed dignissim vulputate enim, euismod pellentesque elit laoreet a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in erat tellus. Vestibulum non ante at nunc tristique pellentesque. Etiam ligula tortor, tempor hendrerit lacinia eget, dignissim id ante. Ut commodo sollicitudin diam. Vivamus eget enim dui. Duis non consectetur nulla. Donec massa metus, euismod a ante eu, finibus efficitur mi. Ut aliquet tortor odio, eu dictum sem tincidunt non. Donec ultricies arcu malesuada, elementum est eu, vulputate est. Aenean enim sem, sagittis et tempus id, ultrices in dolor. Cras varius eleifend mi, sed rhoncus turpis sodales et. Nunc a nibh et justo cursus mattis.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1071">
+            <tipo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque tortor cursus lacus semper ornare. Sed erat tellus, viverra eu vulputate non, consequat nec lectus. Cras mi ligula, cursus et eleifend vitae, rhoncus ut magna. Nulla facilisis, ligula at efficitur consequat, nibh arcu congue lorem, imperdiet ultricies tellus tellus eu felis.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2541">
+            <titulo>Lorem Ipsum</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2690" tipo="presencial">
+                        <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque tortor cursus lacus semper ornare. Sed erat tellus, viverra eu vulputate non, consequat nec lectus. Cras mi ligula, cursus et eleifend vitae, rhoncus ut magna.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2779">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3243">antt</item>
+        <item id="3244">modificação</item>
+        <item id="3245">frota</item>
+    </palavras-chave>
+</servico>
