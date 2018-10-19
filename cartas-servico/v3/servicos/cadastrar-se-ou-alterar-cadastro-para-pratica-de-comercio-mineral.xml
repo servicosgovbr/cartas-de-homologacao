@@ -4,15 +4,19 @@
     <dbId>1260</dbId>
     <nome>Cadastrar-se ou alterar cadastro para prática de comércio mineral</nome>
     <sigla></sigla>
-    <descricao>Realizar o cadastramento ou alteração de cadastro já realizado de empresas que visam praticar o comércio de minerais, minérios, concentrados, produtos e subprodutos do urânio e tório, minerais e minérios com urânio e tório associados, e minerais e minérios de interesse nuclear, visando sua atuação nas operações de comércio.</descricao>
+    <descricao>Cadastramento ou alteração de cadastro para a prática de comércio de exportação de minerais radioativos e de materiais de interesse para a Energia Nuclear.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1065">
-            <tipo>Empresas privadas, públicas ou de economia mista, e pessoas jurídicas de direito privado sem fins lucrativos.</tipo>
+        <solicitante id="1078">
+            <tipo>Empresas que trabalham com Mineração, Trading ou Comércio Mineral.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="1079">
+            <tipo>Cidadãos com CNPJ, que atuam na área de Comércio Mineral.</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
@@ -24,9 +28,28 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2534">
-            <titulo>Solicitar cadastramento ou alteração de cadastro</titulo>
-            <descricao></descricao>
+        <etapa id="2552">
+            <titulo>Preencher formulário de solicitação</titulo>
+            <descricao>Preencher formulário de Identificação do Usuário pelo CNPJ e atividade a ser desenvolvida.</descricao>
+            <documentos>
+                <default>
+                    <item id="1985">Razão Social da Empresa</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2699" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2553">
+            <titulo>Receber resposta sobre a solicitação</titulo>
+            <descricao>O Formulário e a Documentação enviada são analisados pela SECOMM. Após a análise, o pedido pode ser deferido, devolvido para complementação ou indeferido.</descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -35,8 +58,8 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2681" tipo="web">
-                        <descricao>http://www.cnen.gov.br/exportacao-e-importacao-de-materias-primas-e-minerais</descricao>
+                    <canal-de-prestacao id="2700" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -46,15 +69,16 @@
         <nomeOrgao>Comissão Nacional de Energia Nuclear (CNEN)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2768">Empresas</item>
-        <item idSegmento="4" idServicoSegmento="2769">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="2785">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2786">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
+        <item>Mineração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3223">comércio mineral</item>
-        <item id="3224">cadastrar</item>
-        <item id="3225">alterar cadastro</item>
+        <item id="3258">comércio mineral</item>
+        <item id="3259">cadastrar</item>
+        <item id="3260">alterar cadastro</item>
     </palavras-chave>
 </servico>
