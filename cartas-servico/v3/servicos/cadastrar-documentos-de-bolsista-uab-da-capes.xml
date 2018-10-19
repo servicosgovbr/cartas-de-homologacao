@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="956">
+        <solicitante id="1074">
             <tipo>Bolsistas do Sistema UAB e dos Metrados Profissionais (PROEB)</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2364">
+        <etapa id="2548">
             <titulo>Preencher formulário eletrônico</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1726">RG
+                    <item id="1984">RG
 CPF...</item>
                 </default>
             </documentos>
@@ -38,25 +38,25 @@ CPF...</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2465" tipo="web">
+                    <canal-de-prestacao id="2697" tipo="web">
                         <descricao>www.servicos.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2981" dbId="37545">
+        <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2603">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2783">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2883">bolsa</item>
-        <item id="2884">capes</item>
-        <item id="2885">uab</item>
+        <item id="3252">bolsa</item>
+        <item id="3253">capes</item>
+        <item id="3254">uab</item>
     </palavras-chave>
 </servico>
