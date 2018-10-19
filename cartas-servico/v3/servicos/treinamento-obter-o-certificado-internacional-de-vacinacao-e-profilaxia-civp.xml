@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-obter-o-certificado-internacional-de-vacinacao-e-profilaxia-civp</id>
+    <dbId>1295</dbId>
+    <nome>[Treinamento] Obter o Certificado Internacional de Vacinação e Profilaxia (CIVP)</nome>
+    <sigla>CIVP</sigla>
+    <descricao>O Certificado Internacional de Vacinação ou Profilaxia (CIVP) é um documento que comprova a vacinação contra a febre amarela e/ou outras doenças, bem como outros métodos profiláticos (medidas para prevenir ou atenuar doenças). O CIVP é exigido, por alguns países, como condição para a entrada de um viajante. A possibilidade de exigência do CIVP é prevista no Regulamento Sanitário Internacional (RSI).</descricao>
+    <contato>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1075">
+            <tipo>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="7" unidade="dias-uteis"/>
+        <descricao>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2549">
+            <titulo>Ut ac faucibus sapie</titulo>
+            <descricao>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2698" tipo="web">
+                        <descricao>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2784">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Ambiente e saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3255">CIVP</item>
+        <item id="3256">ANVISA</item>
+        <item id="3257">Vacina</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="754">Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</item>
+    </legislacoes>
+</servico>
