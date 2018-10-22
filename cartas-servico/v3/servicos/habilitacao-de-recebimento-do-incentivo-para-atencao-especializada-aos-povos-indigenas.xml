@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>habilitacao-de-recebimento-do-incentivo-para-atencao-especializada-aos-povos-indigenas</id>
+    <dbId>1297</dbId>
+    <nome>Habilitação de Recebimento do Incentivo para Atenção Especializada aos Povos Indígenas</nome>
+    <sigla>IAE-PI</sigla>
+    <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque cursus risus, id tempus dui hendrerit nec. Duis et consectetur enim. Morbi et auctor tortor, non fermentum tellus. Nulla facilisi. Maecenas id nunc bibendum, sagittis elit non, venenatis eros. Integer placerat massa ac urna accumsan semper. Ut risus libero, fringilla viverra vehicula non, fringilla sit amet arcu. Donec sit amet elit sit amet neque eleifend fringilla. In hac habitasse platea dictumst. Phasellus semper nunc mollis turpis tempor facilisis. Proin vehicula massa sed lorem suscipit feugiat. Sed non ultricies ligula.
+
+Nulla dapibus nisi in ligula tristique dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut semper augue a mi cursus, posuere sollicitudin purus facilisis. Morbi ultrices efficitur iaculis. Suspendisse eu lacus in orci porta pellentesque. Sed et iaculis sapien. Vestibulum a nibh sit amet ipsum placerat scelerisque. Nulla posuere vel lorem non iaculis. Ut lacinia, ipsum imperdiet molestie convallis, tortor sem luctus ante, eu porta lacus libero ut lorem. Vivamus fringilla augue vel diam maximus, sed eleifend libero fringilla. Etiam velit orci, varius id pulvinar nec, tincidunt id massa.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1080">
+            <tipo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque cursus risus, id tempus dui hendrerit nec. Duis et consectetur enim. Morbi et auctor tortor, non fermentum tellus. Nulla facilisi.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2554">
+            <titulo>Lorem Ipsum</titulo>
+            <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque cursus risus, id tempus dui hendrerit nec. Duis et consectetur enim. Morbi et auctor tortor, non fermentum tellus. Nulla facilisi.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2701" tipo="presencial">
+                        <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque cursus risus, id tempus dui hendrerit nec. Duis et consectetur enim. Morbi et auctor tortor, non fermentum tellus. Nulla facilisi.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/304" dbId="37534">
+        <nomeOrgao>Ministério da Saúde (MS)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="2787">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3261">Povos</item>
+        <item id="3262">Indígenas</item>
+        <item id="3263">Saúde</item>
+    </palavras-chave>
+</servico>
