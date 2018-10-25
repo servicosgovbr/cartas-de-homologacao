@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitar-o-certificado-de-dispensa-de-incorporacao-cdi</id>
+    <dbId>1315</dbId>
+    <nome>Solicitar o Certificado de Dispensa de Incorporação (CDI)</nome>
+    <sigla>CDI</sigla>
+    <nomes-populares>
+        <item id="1125">Certificado de dispensa</item>
+    </nomes-populares>
+    <descricao>O cidadão dispensado do serviço militar requer a emissão de seu certificado de dispensa de incorporação (CDI).</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1100">
+            <tipo>Cidadãos dispensados do serviço militar</tipo>
+            <requisitos>Ter sido dispensado do serviço militar</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2582">
+            <titulo>Ciência da Dispensa do Serviço Militar</titulo>
+            <descricao>Tomar conhecimento da Dispensa do Serviço Militar mediante comparecimento a uma Junta do Serviço Militar ou acesso ao portal Brasil Cidadão, opção "Acompanhar alistamento"</descricao>
+            <documentos>
+                <default>
+                    <item id="1987">Caso o cidadão compareça a uma JSM, será necessária a apresentação de um documento com foto para identificação pessoal e informar o número CPF; a modalidade on line exige o cadastro prévio no portal Brasil Cidadão e a consulta será realizada mediante inserção do número do CPF ou do Registro de Alistamento (RA).</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2730" tipo="presencial">
+                        <descricao>Junta do Serviço Militar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2583">
+            <titulo>Requerer o certificado de dispensa de incorporação (CDI)</titulo>
+            <descricao>O cidadão deverá se dirigir a uma junta de serviço militar (JSM) para solicitar o certificado.</descricao>
+            <documentos>
+                <default>
+                    <item id="1988">Apresentar documento de identificação com foto. Pagar a taxa referente à expedição do documento.
+Opção GRU: R$ 4,24;
+Opção CEF: R$ 4,24 mais R$ 2,50 de tarifa bancária;
+Opção EBCT: R$ 4,24 mais R$ 3,01 de tarifa pelo serviço de arrecadação;</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2731" tipo="presencial">
+                        <descricao>Junta do Serviço Militar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2584">
+            <titulo>Ciência da data da cerimônia.</titulo>
+            <descricao>Tomar conhecimento da data de realização da cerimônia cívico-militar, de juramento à Bandeira.</descricao>
+            <documentos>
+                <default>
+                    <item id="1989">Apresentar documento de identificação com foto
+Comprovante de pagamento da taxa referente à expedição do CDI.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2732" tipo="presencial">
+                        <descricao>Junta do Serviço Militar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2585">
+            <titulo>Realizar o Juramento à Bandeira e receber o certificado de dispensa de incorporação.</titulo>
+            <descricao>O cidadão deverá se dirigir a uma junta de serviço militar (JSM) para fazer o juramento.</descricao>
+            <documentos>
+                <default>
+                    <item id="1990">Documento de identificação com foto</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2733" tipo="presencial">
+                        <descricao>Junta do Serviço Militar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066" dbId="37527">
+        <nomeOrgao>Ministério da Defesa (MD)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2809">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Defesa militar</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3310">Dispensa de serviço militar</item>
+        <item id="3311">Dispensa de serviço militar</item>
+        <item id="3312">Dispensa de serviço militar</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="762">Lei Nº 4.375, de 17 de agosto de 1964 , Lei do Serviço Militar; e
+Decreto nº 57.654, de 20 de janeiro de 1966 - (Regulamento da Lei do Serviço Militar - RLSM)</item>
+    </legislacoes>
+</servico>
