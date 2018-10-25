@@ -5,9 +5,9 @@
     <nome>CVI - MALU</nome>
     <sigla>CIV</sigla>
     <nomes-populares>
-        <item id="1100">CVI</item>
-        <item id="1101">CERTIFICADO INTERNACIONAL DE VACINAÇÃO</item>
-        <item id="1102">VACINAÇÃO ANIMAL</item>
+        <item id="1105">CVI</item>
+        <item id="1106">CERTIFICADO INTERNACIONAL DE VACINAÇÃO</item>
+        <item id="1107">VACINAÇÃO ANIMAL</item>
     </nomes-populares>
     <descricao>Emissão do Certificado Veterinário Animal - CVI</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1090">
+        <solicitante id="1093">
             <tipo>O cidadão que necessita viajar para o exterior com seu animal de estimação.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,7 +32,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2571">
+        <etapa id="2572">
             <titulo>Solicitação</titulo>
             <descricao>Usuário solicita emissão do CVI</descricao>
             <documentos>
@@ -43,7 +43,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2718" tipo="web">
+                    <canal-de-prestacao id="2719" tipo="web">
                         <descricao>Serviços disponíveis na web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -54,8 +54,8 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2796">Cidadãos</item>
-        <item idSegmento="4" idServicoSegmento="2797">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2798">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2799">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
@@ -65,8 +65,8 @@
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3279">CVI</item>
-        <item id="3280">Cartão Veterinário Internacional</item>
-        <item id="3281">Cartão de Vacina Animal</item>
+        <item id="3282">CVI</item>
+        <item id="3283">Cartão Veterinário Internacional</item>
+        <item id="3284">Cartão de Vacina Animal</item>
     </palavras-chave>
 </servico>
