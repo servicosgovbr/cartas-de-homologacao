@@ -5,19 +5,19 @@
     <nome>CVI-PAULO V1</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="1117">Emissão de Certificado de Vacinas</item>
-        <item id="1118">CVI</item>
-        <item id="1119">ANVISA</item>
-        <item id="1120">VIAGENS</item>
+        <item id="1121">Emissão de Certificado de Vacinas</item>
+        <item id="1122">CVI</item>
+        <item id="1123">ANVISA</item>
+        <item id="1124">VIAGENS</item>
     </nomes-populares>
     <descricao>Emissão de Certificado de Vacinas</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processo/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1097">
+        <solicitante id="1098">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2577">
+        <etapa id="2578">
             <titulo>Solicitar</titulo>
             <descricao>Usuário solicita o CVI</descricao>
             <documentos>
@@ -41,7 +41,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2724" tipo="e-mail">
+                    <canal-de-prestacao id="2725" tipo="e-mail">
                         <descricao>paulo.cesar@anvisa.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -52,7 +52,7 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2806">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2807">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
@@ -66,8 +66,8 @@
         <item>Saneamento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3302">ANVISA</item>
-        <item id="3301">CERTIFICADOS DE VACINAÇÃO</item>
-        <item id="3303">CVI</item>
+        <item id="3304">ANVISA</item>
+        <item id="3305">CERTIFICADOS DE VACINAÇÃO</item>
+        <item id="3306">CVI</item>
     </palavras-chave>
 </servico>
