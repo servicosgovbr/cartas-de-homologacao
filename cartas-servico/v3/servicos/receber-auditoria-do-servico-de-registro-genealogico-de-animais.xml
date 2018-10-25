@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>receber-auditoria-do-servico-de-registro-genealogico-de-animais</id>
+    <dbId>1314</dbId>
+    <nome>Receber Auditoria do Serviço de Registro Genealógico de Animais</nome>
+    <sigla></sigla>
+    <descricao>Permitir que os usuários visualizem as informações inerentes ao serviço de registro genealógico das entidades autorizadas pelo MAPA a executar o SRG, além de permitir que o Auditor Fiscal Federal Agropecuário - AFFA - do MAPA lance os resultados da auditoria executadas nestas entidades, facilitando o acompanhamento, bem como o envio, por parte dos superintendentes técnicos das entidades, dos documentos auditáveis e/ou pendentes.</descricao>
+    <contato>MAPA</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1099">
+            <tipo>Auditor Fiscal Federal Agropecuário</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2579">
+            <titulo>Oficiar a associação</titulo>
+            <descricao>O AFFA envia ofício comunicando a realização de auditoria na associação.
+
+Essa ação será precedida do preenchimento, por parte do superintendente da associação, de um relatório anual de atividades do SRG do ano-base anterior em formulário padronizado na ferramenta de automação. Este relatório ficará salvo nas informações da associação e parte disponível para consulta pela sociedade.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2726" tipo="web">
+                        <descricao>por meio do Portal de Serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2580">
+            <titulo>Auditar a associação</titulo>
+            <descricao>O AFFA envia ofício comunicando a realização de auditoria na associação;
+O AFFA realiza auditoria "in loco" na associação, preenche um formulário padronizado no sistema, que gera um relatório para consultas;
+O superintendente da associação deverá preencher os planos de ação corretiva;
+O sistema notificará automaticamente o AFFA quando houver inserção de doumentos ou respostas e quando se encerrarem os prazos estabelecidos.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2728" tipo="web">
+                        <descricao>Ferramenta de automação</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2727" tipo="presencial">
+                        <descricao>Visita "in loco"</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2581">
+            <titulo>Disponibilizar Relatório</titulo>
+            <descricao>Relatório de Auditoria ficará disponível para consulta por parte da sociedade.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2729" tipo="web">
+                        <descricao>Ferramenta de automação</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2808">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3307">Auditoria</item>
+        <item id="3308">Genealógico</item>
+        <item id="3309">gene</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="761">A verificar</item>
+    </legislacoes>
+</servico>
