@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cvi-malu</id>
+    <dbId>1306</dbId>
+    <nome>CVI - MALU</nome>
+    <sigla>CIV</sigla>
+    <nomes-populares>
+        <item id="1100">CVI</item>
+        <item id="1101">CERTIFICADO INTERNACIONAL DE VACINAÇÃO</item>
+        <item id="1102">VACINAÇÃO ANIMAL</item>
+    </nomes-populares>
+    <descricao>Emissão do Certificado Veterinário Animal - CVI</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1090">
+            <tipo>O cidadão que necessita viajar para o exterior com seu animal de estimação.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2571">
+            <titulo>Solicitação</titulo>
+            <descricao>Usuário solicita emissão do CVI</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2718" tipo="web">
+                        <descricao>Serviços disponíveis na web</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2796">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2797">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Ambiente e saúde</item>
+        <item>Agropecuária</item>
+        <item>Atendimento básico</item>
+        <item>Fiscalização do Estado</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3279">CVI</item>
+        <item id="3280">Cartão Veterinário Internacional</item>
+        <item id="3281">Cartão de Vacina Animal</item>
+    </palavras-chave>
+</servico>
