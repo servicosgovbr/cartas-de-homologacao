@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cvi-paulo-v1</id>
+    <dbId>1305</dbId>
+    <nome>CVI-PAULO V1</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1096">Emissão de Certificado de Vacinas</item>
+        <item id="1097">CVI</item>
+        <item id="1098">ANVISA</item>
+        <item id="1099">VIAGENS</item>
+    </nomes-populares>
+    <descricao>Emissão de Certificado de Vacinas</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg.trn-ps.lecom.com.br/processo/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1089">
+            <tipo>Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2569">
+            <titulo>Solicitar</titulo>
+            <descricao>Usuário solicita o CVI</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2716" tipo="e-mail">
+                        <descricao>paulo.cesar@anvisa.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2795">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Ambiente e saúde</item>
+        <item>Cidadania</item>
+        <item>Combate a desigualdade</item>
+        <item>Defesa militar</item>
+        <item>Difusão Cultural</item>
+        <item>Lazer</item>
+        <item>Policiamento</item>
+        <item>Saúde</item>
+        <item>Saneamento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3276">CERTIFICADOS DE VACINAÇÃO</item>
+        <item id="3277">ANVISA</item>
+        <item id="3278">CVI</item>
+    </palavras-chave>
+</servico>
