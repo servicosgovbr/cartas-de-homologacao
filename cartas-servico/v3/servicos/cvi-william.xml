@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cvi-william</id>
+    <dbId>1302</dbId>
+    <nome>CVI - William</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1089">CVI</item>
+    </nomes-populares>
+    <descricao>Emissão do certificado veterinário de internacional</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1086">
+            <tipo>Cidadão</tipo>
+            <requisitos>Carteira de Identidadae</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2568">
+            <titulo>Preencher dados da solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2715" tipo="web">
+                        <descricao>Serviço disponível somente via WEB</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2793">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2794">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3273">certificado</item>
+        <item id="3274">internacional</item>
+        <item id="3275">vacinação</item>
+    </palavras-chave>
+</servico>
