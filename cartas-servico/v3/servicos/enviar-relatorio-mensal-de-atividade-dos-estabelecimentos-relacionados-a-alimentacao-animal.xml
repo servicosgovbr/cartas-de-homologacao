@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>enviar-relatorio-mensal-de-atividade-dos-estabelecimentos-relacionados-a-alimentacao-animal</id>
+    <dbId>1299</dbId>
+    <nome>Enviar Relatório mensal de atividade dos estabelecimentos relacionados à alimentação animal</nome>
+    <sigla></sigla>
+    <descricao>Formulário eletrônico disponibilizado aos estabelecimentos fabricantes/fracionadores/importadores de produtos destinados à alimentação animal que permite o envio de seus respectivos relatórios mensais de fabricação/fracionamento/importação/exportação ao Ministério da Agricultura, Pecuária e Abastecimento (MAPA).</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1084">
+            <tipo>Quem pode utilizar esse serviço? Estabelecimentos fabricantes/fracionadores/importadores de produtos destinados à alimentação animal registrados no Ministério da Agricultura, Pecuária e Abastecimento (MAPA).</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2565">
+            <titulo>Cadastro</titulo>
+            <descricao>Cadastro prévio do estabelecimento (logar na ferramenta de automação via login único/Brasil Cidadão)</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2712" tipo="web">
+                        <descricao>www.uol.com.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2566">
+            <titulo>Informações a serem preenchidas</titulo>
+            <descricao>O responsável pelo estabelecimento deve acessar o login único/Brasil Cidadão disponível no Portal do MAPA e informar até o décimo dia do mês subsequente os volumes de produtos fabricados/fracionados/importados/exportados mensalmente</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2713" tipo="web">
+                        <descricao>www.uol.com.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2567">
+            <titulo>Recebimento do comprovante</titulo>
+            <descricao>O estabelecimento recebe o comprovante de envio</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2714" tipo="web">
+                        <descricao>www.uol.com.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2792">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3270">alimentação animal</item>
+        <item id="3271">empresas</item>
+        <item id="3272">relatório</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="759">Lei n° 6.198 DE 26/12/1974</item>
+        <item id="760">Decreto n° 6.296 de 11/12/2007 (Art. 27)</item>
+    </legislacoes>
+</servico>
