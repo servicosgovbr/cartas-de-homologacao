@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>protocolar-documentos-junto-a-cvm</id>
+    <dbId>1316</dbId>
+    <nome>Protocolar documentos junto à CVM</nome>
+    <sigla>ProtocoloCVM</sigla>
+    <nomes-populares>
+        <item id="1126">Protocolo</item>
+    </nomes-populares>
+    <descricao>Recebimento de documentos encaminhados à CVM</descricao>
+    <contato>Para mais informações ou dúvidas sobre este serviço, entre em contato:
+Pelo email dinf@cvm.gov.br ou pelo telefone (21) 3554-6962</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1101">
+            <tipo>Público em geral, sejam pessoas físicas ou jurídicas.</tipo>
+            <requisitos>Enviar documentos de até 50MB dos tipos relacionados abaixo:
+
+﻿gz - ﻿Arquivo compactado
+
+﻿jpeg - Arquivo de imagem
+
+﻿jpg - ﻿Arquivo de imagem﻿
+
+﻿mkv﻿ - Arquivo de vídeo﻿
+
+﻿mp4﻿ - ﻿Arquivo de vídeo﻿
+
+﻿odp﻿ - Arquivo de apresentação
+
+﻿ods﻿ - Planilha
+
+odt - Texto
+
+﻿oga﻿ - Arquivo de áudio﻿
+
+﻿ogg﻿ - ﻿Arquivo de áudio﻿
+
+﻿ogv﻿ - Arquivo de vídeo﻿
+
+﻿pdf﻿ - Arquivo de texto, planilha ou imagem
+
+﻿png﻿ - Arquivo de imagem
+
+﻿svg﻿ - Arquivo de imagem
+
+﻿tar﻿ - Arquivo compactado
+
+﻿txt﻿ - Arquivo de texto
+
+﻿wmv﻿ - Arquivo de vídeo
+
+﻿xml﻿ - Arquivo de banco de dados
+
+﻿zip﻿ - Arquivo compactado</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2586">
+            <titulo>Protocolar documentos</titulo>
+            <descricao>Enviar ou entregar documentos à CVM</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2736" tipo="web">
+                        <descricao>http://www.cvm.gov.br/menu/atendimento/protocolodigital.html</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2735" tipo="postal">
+                        <descricao>Rio de Janeiro: Rua Sete de Setembro, 111, 2° andar, Centro, Rio de Janeiro, RJ. CEP: 20050-901
+São Paulo: Rua Cincinato Braga, 340, 2° andar, São Paulo, SP. CEP: 01333-010</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2734" tipo="presencial">
+                        <descricao>Presencial: Sempre de 9h às 18h
+Rio de Janeiro: Rua Sete de Setembro, 111, 2° andar, Centro, Rio de Janeiro, RJ.
+São Paulo: Rua Cincinato Braga, 340, 2° andar, São Paulo, SP.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/478" dbId="7907">
+        <nomeOrgao>Comissão de Valores Mobiliários (CVM)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2810">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2811">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2812">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2813">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Indústria</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3313">Protocolo</item>
+        <item id="3314">CVM</item>
+        <item id="3315">Documento</item>
+        <item id="3316">Processo</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="763">Lei nº 8.159, de 8 de janeiro de 1991, no Decreto nº 1.094, de 23 de março de 1994
+Decreto nº 4.915, de 12 de dezembro de 2003,
+Portaria Interministerial MJ/MP nº 2.321, de 30 de dezembro de 2014;
+Portaria Interministerial MP/MJ nº 1.677, de 07 de outubro de 2015;
+PORTARIA/CVM/PTE/Nº 50, DE 27 DE ABRIL DE 2017</item>
+    </legislacoes>
+</servico>
