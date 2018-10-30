@@ -12,10 +12,10 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1044">
+        <solicitante id="1104">
             <tipo>Organismo de avaliação da conformidade, empresas, organizações públicas, universidades, associações, entre outros.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,7 +28,7 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2511">
+        <etapa id="2589">
             <titulo>Solicitar novo serviço de acreditação</titulo>
             <descricao>Favor entrar em contato com a Divisão de Desenvolvimento de Programas de Acreditação (Didac) através do e-mail didac@inmetro.gov.br.</descricao>
             <documentos>
@@ -39,13 +39,13 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2654" tipo="e-mail">
+                    <canal-de-prestacao id="2740" tipo="e-mail">
                         <descricao>didac@inmetro.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2512">
+        <etapa id="2590">
             <titulo>Analisar a solicitação</titulo>
             <descricao>A Didac analisa a solicitação a fim de validar o entendimento da demanda.  É informado ao cidadão/cliente o Gestor de Desenvolvimento (GD) que irá tratar o processo.  Também pode ser necessário pedir ao cidadão/cliente informações adicionais para melhor entendimento da demanda.  O cidadão/cliente será informado sobre o tempo estimado para o desenvolvimento do novo serviço de acreditação.</descricao>
             <documentos>
@@ -56,7 +56,7 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2655" tipo="e-mail">
+                    <canal-de-prestacao id="2741" tipo="e-mail">
                         <descricao>didac@inmetro.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -67,8 +67,8 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
         <nomeOrgao>Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2745">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2746">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2818">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2819">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
@@ -77,9 +77,9 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
         <item>Serviços Públicos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3151">Acreditação</item>
-        <item id="3152">Esquema de acreditação</item>
-        <item id="3153">Programa de acreditação</item>
-        <item id="3154">Avaliação da conformidade</item>
+        <item id="3321">Acreditação</item>
+        <item id="3322">Esquema de acreditação</item>
+        <item id="3323">Programa de acreditação</item>
+        <item id="3324">Avaliação da conformidade</item>
     </palavras-chave>
 </servico>
