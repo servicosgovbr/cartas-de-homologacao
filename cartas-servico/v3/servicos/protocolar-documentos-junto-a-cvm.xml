@@ -5,7 +5,7 @@
     <nome>Protocolar documentos junto à CVM</nome>
     <sigla>ProtocoloCVM</sigla>
     <nomes-populares>
-        <item id="1127">Protocolo</item>
+        <item id="1128">Protocolo</item>
     </nomes-populares>
     <descricao>Recebimento de documentos encaminhados à CVM</descricao>
     <contato>Para mais informações ou dúvidas sobre este serviço, entre em contato:
@@ -13,9 +13,9 @@ Pelo email dinf@cvm.gov.br ou pelo telefone (21) 3554-6962</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1102">
+        <solicitante id="1105">
             <tipo>Público em geral, sejam pessoas físicas ou jurídicas.</tipo>
             <requisitos>Enviar documentos de até 50MB dos tipos relacionados abaixo:
 
@@ -66,7 +66,7 @@ odt - Texto
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2587">
+        <etapa id="2591">
             <titulo>Protocolar documentos</titulo>
             <descricao>Enviar ou entregar documentos à CVM</descricao>
             <documentos>
@@ -77,14 +77,14 @@ odt - Texto
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2737" tipo="web">
+                    <canal-de-prestacao id="2742" tipo="web">
                         <descricao>http://www.cvm.gov.br/menu/atendimento/protocolodigital.html</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2738" tipo="postal">
+                    <canal-de-prestacao id="2743" tipo="postal">
                         <descricao>Rio de Janeiro: Rua Sete de Setembro, 111, 2° andar, Centro, Rio de Janeiro, RJ. CEP: 20050-901
 São Paulo: Rua Cincinato Braga, 340, 2° andar, São Paulo, SP. CEP: 01333-010</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2739" tipo="presencial">
+                    <canal-de-prestacao id="2744" tipo="presencial">
                         <descricao>Presencial: Sempre de 9h às 18h
 Rio de Janeiro: Rua Sete de Setembro, 111, 2° andar, Centro, Rio de Janeiro, RJ.
 São Paulo: Rua Cincinato Braga, 340, 2° andar, São Paulo, SP.</descricao>
@@ -97,22 +97,22 @@ São Paulo: Rua Cincinato Braga, 340, 2° andar, São Paulo, SP.</descricao>
         <nomeOrgao>Comissão de Valores Mobiliários (CVM)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2814">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2815">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2816">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="2817">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2820">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2821">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2822">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="2823">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Indústria</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3317">Protocolo</item>
-        <item id="3318">CVM</item>
-        <item id="3319">Documento</item>
-        <item id="3320">Processo</item>
+        <item id="3325">Protocolo</item>
+        <item id="3326">CVM</item>
+        <item id="3327">Documento</item>
+        <item id="3328">Processo</item>
     </palavras-chave>
     <legislacoes>
-        <item id="764">Lei nº 8.159, de 8 de janeiro de 1991, no Decreto nº 1.094, de 23 de março de 1994
+        <item id="765">Lei nº 8.159, de 8 de janeiro de 1991, no Decreto nº 1.094, de 23 de março de 1994
 Decreto nº 4.915, de 12 de dezembro de 2003,
 Portaria Interministerial MJ/MP nº 2.321, de 30 de dezembro de 2014;
 Portaria Interministerial MP/MJ nº 1.677, de 07 de outubro de 2015;
