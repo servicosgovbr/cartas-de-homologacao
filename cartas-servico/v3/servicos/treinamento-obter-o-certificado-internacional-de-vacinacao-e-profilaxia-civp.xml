@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1108">
+        <solicitante id="1109">
             <tipo>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,7 +28,7 @@
 &lt;br&gt;</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2594">
+        <etapa id="2595">
             <titulo>Ut ac faucibus sapie</titulo>
             <descricao>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</descricao>
             <documentos>
@@ -39,7 +39,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2747" tipo="web">
+                    <canal-de-prestacao id="2748" tipo="web">
                         <descricao>Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -50,17 +50,18 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2826">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2827">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3335">CIVP</item>
-        <item id="3336">ANVISA</item>
-        <item id="3337">Vacina</item>
+        <item id="3338">CIVP</item>
+        <item id="3339">ANVISA</item>
+        <item id="3340">Vacina</item>
     </palavras-chave>
     <legislacoes>
-        <item id="768">Ut ac faucibus sapien. Proin lacinia porttitor dolor, sed sagittis dolor blandit vitae. Vestibulum ultricies dignissim augue, a hendrerit metus auctor eu. Vestibulum placerat eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur augue sapien, facilisis a efficitur vitae, consectetur et risus. In tempor risus ac leo sagittis, sit amet scelerisque erat aliquet.</item>
+        <item id="769">&lt;p style="color:red"&gt;&lt;b&gt;ESSA SOLICITAÇÃO DEVERÁ SER REALIZADA APENAS POR SERVIDORES DA ANVISA E CIDADÃOS BRASILIEROS QUE SE ENCONTRAM NO EXTERIOR&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;</item>
     </legislacoes>
 </servico>
