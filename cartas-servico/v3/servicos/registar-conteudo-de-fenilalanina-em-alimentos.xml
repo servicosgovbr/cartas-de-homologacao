@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1019">
+        <solicitante id="1118">
             <tipo>Empresas fabricantes ou importadoras de alimentos</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2475">
+        <etapa id="2604">
             <titulo>Registrar</titulo>
             <descricao>Para a solicitar o serviço, o usuário deve ter em mãos os relatórios de ensaios realizados para determinação do conteúdo de fenilalanina, proteína e umidade nos alimentos.</descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2602" tipo="web">
+                    <canal-de-prestacao id="2757" tipo="web">
                         <descricao>https://www.servicos.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,19 +46,19 @@
         <nomeOrgao>Agência Nacional de Vigilância Sanitária (ANVISA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2710">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2836">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Alimento</item>
         <item>Saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3082">Erro inato do metabolismo</item>
-        <item id="3083">fenilalanina</item>
-        <item id="3084">fenilcetonúricos</item>
-        <item id="3085">alimentos</item>
+        <item id="3365">Erro inato do metabolismo</item>
+        <item id="3366">fenilalanina</item>
+        <item id="3367">fenilcetonúricos</item>
+        <item id="3368">alimentos</item>
     </palavras-chave>
     <legislacoes>
-        <item id="731">ANVISA. Resolução da Diretoria Colegiada – RDC No 19, de 5 de maio de 2010. Dispõe sobre a obrigatoriedade das empresas informarem à ANVISA a quantidade de fenilalanina, proteína e umidade de alimentos, para elaboração de tabela do conteúdo de fenilalanina em alimentos, assim como disponibilizar as informações nos sítios eletrônicos das empresas ou serviço de atendimento ao consumidor (SAC). Diário Oficial da União, 2010.</item>
+        <item id="791">ANVISA. Resolução da Diretoria Colegiada – RDC No 19, de 5 de maio de 2010. Dispõe sobre a obrigatoriedade das empresas informarem à ANVISA a quantidade de fenilalanina, proteína e umidade de alimentos, para elaboração de tabela do conteúdo de fenilalanina em alimentos, assim como disponibilizar as informações nos sítios eletrônicos das empresas ou serviço de atendimento ao consumidor (SAC). Diário Oficial da União, 2010.</item>
     </legislacoes>
 </servico>
