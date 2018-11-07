@@ -5,16 +5,16 @@
     <nome>Obter autorização para uso do selo de identificação da conformidade em material publicitário</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1130">Selos em material publicitário</item>
+        <item id="1131">Selos em material publicitário</item>
     </nomes-populares>
     <descricao>Uso das marcas, dos símbolos, dos selos e das etiquetas do Inmetro em material publicitário.</descricao>
     <contato>(21) 2563-2832/5696</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar​</link-servico-digital>
     <solicitantes>
-        <solicitante id="1119">
+        <solicitante id="1120">
             <tipo>Pessoa jurídica</tipo>
             <requisitos>Certificado de conformidade do serviço válido, seguir as regras de uso descrito na Portaria (regulamento) e em outros documentos administrativos.</requisitos>
         </solicitante>
@@ -27,12 +27,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2605">
+        <etapa id="2606">
             <titulo>Autorização do uso do selo em material publicitário</titulo>
             <descricao>Solicitação de autorização, informando o canal de divulgação.</descricao>
             <documentos>
                 <default>
-                    <item id="1993">Cópia do certificado, layout do material a ser divulgado.  A validade da autorização está vinculada à validade do atestado da conformidade.</item>
+                    <item id="1994">Cópia do certificado, layout do material a ser divulgado.  A validade da autorização está vinculada à validade do atestado da conformidade.</item>
                 </default>
             </documentos>
             <custos>
@@ -40,7 +40,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2758" tipo="web">
+                    <canal-de-prestacao id="2759" tipo="web">
                         <descricao>www.servicos.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -51,18 +51,18 @@
         <nomeOrgao>Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2837">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2838">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Propriedade Industrial</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3369">selo do inmetro</item>
-        <item id="3370">propaganda</item>
-        <item id="3371">iso</item>
+        <item id="3372">selo do inmetro</item>
+        <item id="3373">propaganda</item>
+        <item id="3374">iso</item>
     </palavras-chave>
     <legislacoes>
-        <item id="792">Portaria n/ 274, de 13 de junho de 2014.
+        <item id="793">Portaria n/ 274, de 13 de junho de 2014.
 Lei n° 927/96.</item>
     </legislacoes>
 </servico>
