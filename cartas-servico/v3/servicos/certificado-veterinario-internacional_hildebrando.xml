@@ -5,7 +5,7 @@
     <nome>Certificado Veterinário Internacional_Hildebrando</nome>
     <sigla>CVI_Hildebrando</sigla>
     <nomes-populares>
-        <item id="1147">CVI</item>
+        <item id="1152">CVI</item>
     </nomes-populares>
     <descricao>Processo integral eletrônico do Certificado de Veterinário Internacional.</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1135">
+        <solicitante id="1141">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2625">
+        <etapa id="2633">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -38,13 +38,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2778" tipo="e-mail">
+                    <canal-de-prestacao id="2786" tipo="e-mail">
                         <descricao>E-mail.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2626">
+        <etapa id="2634">
             <titulo>Análise</titulo>
             <descricao></descricao>
             <documentos>
@@ -55,13 +55,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2779" tipo="e-mail">
+                    <canal-de-prestacao id="2787" tipo="e-mail">
                         <descricao>E-mail.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2627">
+        <etapa id="2635">
             <titulo>Emissão e Recebimento.</titulo>
             <descricao></descricao>
             <documentos>
@@ -72,7 +72,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2780" tipo="e-mail">
+                    <canal-de-prestacao id="2788" tipo="e-mail">
                         <descricao>E-mail</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -83,14 +83,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2867">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2876">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Serviços Públicos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3420">CVI</item>
-        <item id="3421">Cartão Veterinário Internacional</item>
-        <item id="3422">Cartão de Vacina Animal</item>
+        <item id="3435">CVI</item>
+        <item id="3436">Cartão Veterinário Internacional</item>
+        <item id="3437">Cartão de Vacina Animal</item>
     </palavras-chave>
 </servico>
