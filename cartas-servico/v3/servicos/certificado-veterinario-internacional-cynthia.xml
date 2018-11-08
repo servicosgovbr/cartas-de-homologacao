@@ -5,16 +5,16 @@
     <nome>Certificado Veterinário Internacional-Cynthia</nome>
     <sigla>CVI-Cynthia</sigla>
     <nomes-populares>
-        <item id="1144">CVI-Cynthia</item>
+        <item id="1145">CVI-Cynthia</item>
     </nomes-populares>
     <descricao>Fluxo CVI</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>htpps://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1132">
+        <solicitante id="1133">
             <tipo>O cidadão que necessita viajar para o exterior com seu animal de estimação</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2620">
+        <etapa id="2621">
             <titulo>Solicitação</titulo>
             <descricao>Usuário solicita  emissão do CVI</descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2773" tipo="web">
+                    <canal-de-prestacao id="2774" tipo="web">
                         <descricao>Serviços disponíveis na web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,8 +49,8 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2860">Cidadãos</item>
-        <item idSegmento="4" idServicoSegmento="2861">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2864">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2865">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Atendimento básico</item>
@@ -60,8 +60,8 @@
         <item>Ambiente e saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3408">CVI</item>
-        <item id="3409">Certificado Veterinário Internacional</item>
-        <item id="3410">Cartão de Vacina Animal</item>
+        <item id="3414">CVI</item>
+        <item id="3415">Certificado Veterinário Internacional</item>
+        <item id="3416">Cartão de Vacina Animal</item>
     </palavras-chave>
 </servico>
