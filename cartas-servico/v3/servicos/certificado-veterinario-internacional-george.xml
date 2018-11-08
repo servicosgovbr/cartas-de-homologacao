@@ -5,16 +5,16 @@
     <nome>Certificado Veterinário Internacional - George</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="1136">CVI</item>
+        <item id="1148">CVI</item>
     </nomes-populares>
     <descricao>Fluxo de CVI</descricao>
     <contato></contato>
-    <gratuito>false</gratuito>
+    <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciais</link-servico-digital>
     <solicitantes>
-        <solicitante id="1125">
+        <solicitante id="1137">
             <tipo>O Cidadão que necessita viajar para o exterior com seu animal de estimação</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2611">
+        <etapa id="2629">
             <titulo>Solicitação</titulo>
             <descricao>Usuário solicita emissão do CVI</descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2764" tipo="web">
+                    <canal-de-prestacao id="2782" tipo="web">
                         <descricao>Serviços disponíveis na web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,8 +49,8 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2847">Cidadãos</item>
-        <item idSegmento="4" idServicoSegmento="2848">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2868">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2869">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
@@ -60,8 +60,8 @@
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3387">CVI</item>
-        <item id="3388">Cartão Veterinário Internacional</item>
-        <item id="3389">Cartão de Vacina Animal</item>
+        <item id="3423">CVI</item>
+        <item id="3424">Cartão Veterinário Internacional</item>
+        <item id="3425">Cartão de Vacina Animal</item>
     </palavras-chave>
 </servico>
