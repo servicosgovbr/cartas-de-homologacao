@@ -5,7 +5,7 @@
     <nome>Obter o Certificado Internacional de Vacinação e Profilaxia (modelo novo)</nome>
     <sigla>CIVP</sigla>
     <nomes-populares>
-        <item id="1164">Certificado Internacional de Vacinação</item>
+        <item id="1165">Certificado Internacional de Vacinação</item>
     </nomes-populares>
     <descricao>O Certificado Internacional de Vacinação ou Profilaxia (CIVP), emitido pela Agência Nacional de Vigilância Sanitária (Anvisa), é um documento que comprova a vacinação contra doenças, bem como outros métodos profiláticos (medidas para prevenir ou atenuar doenças). O CIVP é exigido por alguns países como condição para a entrada de um viajante. A possibilidade de exigência do CIVP é prevista no Regulamento Sanitário Internacional (RSI).</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1172">
+        <solicitante id="1173">
             <tipo>Brasileiros e estrangeiros vacinados no Brasil e que irão viajar para fora do país.</tipo>
             <requisitos>A lista dos países que exigem o Certificado Internacional de Vacinação ou Profilaxia está disponível no &lt;a href="http://www.who.int/ith/en/" target="_blank"&gt;site da OMS&lt;/a&gt;.</requisitos>
         </solicitante>
@@ -30,20 +30,21 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2691">
+        <etapa id="2694">
             <titulo>Tomar a vacina exigida</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="2037">Cartão de vacinação&lt;/div&gt;</item>
-                    <item id="2038">&lt;b&gt;E se eu me vacinar com menos de 10 dias de antecedência da viagem?&lt;/b&gt;
+                    <item id="2046">Cartão de vacinação&lt;/div&gt;</item>
+                    <item id="2047">&lt;br&gt;
+&lt;b&gt;E se eu me vacinar com menos de 10 dias de antecedência da viagem?&lt;/b&gt;
 &lt;br&gt;</item>
-                    <item id="2039">O CIVP pode ser emitido no mesmo dia em que a vacina contra a febre amarela for aplicada, porém, no campo de validade do certificado, serão contados dez dias a partir da data de aplicação da vacina e o CIVP só é considerado válido após esse prazo. Assim, é fundamental que o interessado não deixe para se vacinar na última hora. &lt;b&gt;É importante lembrar que quem já foi vacinado pelo menos uma vez na vida contra a febre amarela não precisa mais tomar a vacina.&lt;/b&gt;</item>
-                    <item id="2040">&lt;br&gt;
+                    <item id="2048">O CIVP pode ser emitido no mesmo dia em que a vacina contra a febre amarela for aplicada, porém, no campo de validade do certificado, serão contados dez dias a partir da data de aplicação da vacina e o CIVP só é considerado válido após esse prazo. Assim, é fundamental que o interessado não deixe para se vacinar na última hora. &lt;b&gt;É importante lembrar que quem já foi vacinado pelo menos uma vez na vida contra a febre amarela não precisa mais tomar a vacina.&lt;/b&gt;</item>
+                    <item id="2049">&lt;br&gt;
 &lt;b&gt;Casos em que a vacinação ou a profilaxia é contraindicada&lt;/b&gt;
 &lt;br&gt;</item>
-                    <item id="2041">Para os casos em que a vacinação ou a profilaxia for contraindicada, o viajante deverá apresentar um Atestado Médico de Isenção de Vacinação, escrito em inglês ou francês. A Anvisa dispõe de um  &lt;a href="http://portal.anvisa.gov.br/documents/375992/0/CIIV/2b57e4f5-80ae-44d8-b406-484762d114d6" target="_blank"&gt;modelo de atestado de isenção&lt;/a&gt;</item>
-                    <item id="2042">O atestado pode ser apresentado em outro modelo de formulário, desde que contenha as mesmas informações. Esse modelo deve ser preenchido pelo médico do próprio viajante, contraindicando a vacina. O Regulamento Sanitário Internacional estabelece que as autoridades de saúde do país de destino devam considerar o documento que comprova a contraindicação. No entanto, medidas de controle adicionais poderão ser aplicadas.</item>
+                    <item id="2050">Para os casos em que a vacinação ou a profilaxia for contraindicada, o viajante deverá apresentar um Atestado Médico de Isenção de Vacinação, escrito em inglês ou francês. A Anvisa dispõe de um  &lt;a href="http://portal.anvisa.gov.br/documents/375992/0/CIIV/2b57e4f5-80ae-44d8-b406-484762d114d6" target="_blank"&gt;modelo de atestado de isenção&lt;/a&gt;</item>
+                    <item id="2051">O atestado pode ser apresentado em outro modelo de formulário, desde que contenha as mesmas informações. Esse modelo deve ser preenchido pelo médico do próprio viajante, contraindicando a vacina. O Regulamento Sanitário Internacional estabelece que as autoridades de saúde do país de destino devam considerar o documento que comprova a contraindicação. No entanto, medidas de controle adicionais poderão ser aplicadas.</item>
                 </default>
             </documentos>
             <custos>
@@ -51,13 +52,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2849" tipo="presencial">
+                    <canal-de-prestacao id="2853" tipo="presencial">
                         <descricao>O usuário pode obter a vacina gratuitamente em uma unidade de saúde do Sistema Único de Saúde (SUS) ou deve procurar algum dos serviços de vacinação privados para se vacinar.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2692">
+        <etapa id="2695">
             <titulo>Realizar o cadastro no site da Anvisa:</titulo>
             <descricao>Clique em “cadastrar viajante” e preencha as informações solicitadas.</descricao>
             <documentos>
@@ -68,36 +69,36 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2850" tipo="web">
+                    <canal-de-prestacao id="2854" tipo="web">
                         <descricao>https://viajante.anvisa.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2693">
+        <etapa id="2696">
             <titulo>Comparecer a uma unidade de saúde credenciada para emissão do CIVP.</titulo>
             <descricao>É imprescindível a presença física do usuário na unidade emissora do CIVP para obter o documento, uma vez que a emissão está condicionada à assinatura do viajante, conforme previsto na Resolução da Diretoria Colegiada da Anvisa - RDC 21/2008 (inciso III do art. 1º do Anexo II).</descricao>
             <documentos>
                 <default>
-                    <item id="2043">Para atendimento presencial, o usuário deve ter em mãos:
+                    <item id="2052">Para atendimento presencial, o usuário deve ter em mãos:
 
 Documento de identificação original com foto: Carteira de Identidade (RG), Passaporte ou Carteira de Motorista (CNH) válida, entre outros.</item>
-                    <item id="2044">Comprovante nacional de vacinação preenchido corretamente com a data de aplicação da vacina, nome do fabricante da vacina e lote da vacina, assinatura do profissional que realizou a aplicação e identificação da unidade de saúde onde o usuário foi vacinado.</item>
-                    <item id="2045">Em caso de extravio do comprovante nacional de vacinação, o interessado deverá dirigir-se ao serviço de saúde onde tomou a vacina e solicitar a segunda via do documento. Alguns municípios utilizam o Sistema de Informação do Programa Nacional de Imunização (SI-PNI). Nesse caso, o cidadão pode obter um novo cartão atualizado com todo o histórico de vacinação.
+                    <item id="2053">Comprovante nacional de vacinação preenchido corretamente com a data de aplicação da vacina, nome do fabricante da vacina e lote da vacina, assinatura do profissional que realizou a aplicação e identificação da unidade de saúde onde o usuário foi vacinado.</item>
+                    <item id="2054">Em caso de extravio do comprovante nacional de vacinação, o interessado deverá dirigir-se ao serviço de saúde onde tomou a vacina e solicitar a segunda via do documento. Alguns municípios utilizam o Sistema de Informação do Programa Nacional de Imunização (SI-PNI). Nesse caso, o cidadão pode obter um novo cartão atualizado com todo o histórico de vacinação.
 &lt;br&gt;</item>
                 </default>
-                <caso id="471" descricao="Menores de 18 anos">
-                    <documento>
-                        <id>1996</id>
-                        <descricao>Não é necessária a presença da criança ou do adolescente menor de 18 anos quando seus pais ou responsáveis solicitarem a emissão do seu CIVP nas unidades emissoras. Nesse caso, o pai, mãe ou tutor assinará o CIVP pelo menor, recomendando-se que seja a mesma pessoa que assinou o passaporte do menor de idade. Caso o menor já assine, ele deverá comparecer à unidade emissora para assinar o certificado.</descricao>
-                    </documento>
+                <caso id="473" descricao="Menores de 18 anos">
                     <documento>
                         <id>1997</id>
                         <descricao>A apresentação da certidão de nascimento é aceita para menores de 18 anos.
 Crianças a partir de nove meses já precisam da vacina e do certificado para viajar para países que exigem o CIVP.</descricao>
                     </documento>
+                    <documento>
+                        <id>1996</id>
+                        <descricao>Não é necessária a presença da criança ou do adolescente menor de 18 anos quando seus pais ou responsáveis solicitarem a emissão do seu CIVP nas unidades emissoras. Nesse caso, o pai, mãe ou tutor assinará o CIVP pelo menor, recomendando-se que seja a mesma pessoa que assinou o passaporte do menor de idade. Caso o menor já assine, ele deverá comparecer à unidade emissora para assinar o certificado.</descricao>
+                    </documento>
                 </caso>
-                <caso id="472" descricao="População indígena">
+                <caso id="474" descricao="População indígena">
                     <documento>
                         <id>2002</id>
                         <descricao>Vale ressaltar que a população indígena que não possui documentação está dispensada da apresentação de documento de identidade.</descricao>
@@ -109,10 +110,10 @@ Crianças a partir de nove meses já precisam da vacina e do certificado para vi
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2851" tipo="presencial">
+                    <canal-de-prestacao id="2855" tipo="presencial">
                         <descricao>b)	Caso o viajante tenha viagem próxima marcada para área que exija o CIVP e a unidade de saúde não possua horário disponível para agendamento, o viajante poderá entrar em contato com a unidade para verificar a possibilidade de encaixe.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2852" tipo="presencial">
+                    <canal-de-prestacao id="2856" tipo="presencial">
                         <descricao>Verifique no &lt;a href="http://portal.anvisa.gov.br/civp/unidades-emissoras" target="_blank"&gt;site da Anvisa&lt;/a&gt; se a Unidade de Saúde local ou credenciada pela Agência realiza o agendamento.
 a)	Caso a unidade não realize o agendamento, o viajante poderá se dirigir diretamente à unidade, de acordo com o horário de funcionamento disponibilizado no site.</descricao>
                     </canal-de-prestacao>
@@ -124,25 +125,25 @@ a)	Caso a unidade não realize o agendamento, o viajante poderá se dirigir dire
         <nomeOrgao>Agência Nacional de Vigilância Sanitária (ANVISA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2894">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2895">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Ambiente e saúde</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3489">CIVP</item>
-        <item id="3490">ANVISA</item>
-        <item id="3491">Vacina</item>
+        <item id="3492">CIVP</item>
+        <item id="3493">ANVISA</item>
+        <item id="3494">Vacina</item>
     </palavras-chave>
     <legislacoes>
-        <item id="826">&lt;style&gt;
+        <item id="829">&lt;style&gt;
 .button{margin:2px;width:210px;height:50px;background-color:#06acff;color:white;font-size:110%;border:none;font-family:Tahoma;padding:5px;border-radius:15px;cursor:pointer}
 &lt;/style&gt;
 &lt;div style="text-align:center;float:center"&gt;&lt;a href="https://servicos.nuvem.gov.br/pagina-tematica/civp-digital"&gt;&lt;button class="button"&gt;&lt;b&gt;CIVP Digital&lt;/b&gt;
 &lt;/button&gt;
 &lt;/a&gt;&lt;/div&gt;</item>
-        <item id="827">RDC nº 21 de 31/03/2008, inciso III do Art. 1º do Anexo II</item>
-        <item id="828">&lt;br&gt;
+        <item id="830">RDC nº 21 de 31/03/2008, inciso III do Art. 1º do Anexo II</item>
+        <item id="831">&lt;br&gt;
 &lt;h3&gt;&lt;b&gt; EMISSÃO DIGITAL DO CIVP&lt;/b&gt;&lt;/h3&gt;
 &lt;br&gt;
 &lt;p style="color:red"&gt;&lt;b&gt;ESSA SOLICITAÇÃO DEVERÁ SER REALIZADA APENAS POR SERVIDORES DA ANVISA E CIDADÃOS BRASILIEROS QUE SE ENCONTRAM NO EXTERIOR&lt;/b&gt;&lt;/p&gt;
