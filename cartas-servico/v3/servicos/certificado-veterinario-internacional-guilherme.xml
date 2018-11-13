@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>certificado-veterinario-internacional-guilherme</id>
+    <dbId>1408</dbId>
+    <nome>Certificado Veterinário Internacional - Guilherme</nome>
+    <sigla>CVI - Guilherme</sigla>
+    <nomes-populares>
+        <item id="1199">CVI</item>
+    </nomes-populares>
+    <descricao>CVI - GUILHERME</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1209">
+            <tipo>Cidadao</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2802">
+            <titulo>Solicitação</titulo>
+            <descricao>S</descricao>
+            <documentos>
+                <default>
+                    <item id="2358">S</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="216">
+                        <descricao>SS</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2995" tipo="e-mail">
+                        <descricao>Email</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2803">
+            <titulo>Análise</titulo>
+            <descricao>A</descricao>
+            <documentos>
+                <default>
+                    <item id="2359">A</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="217">
+                        <descricao>A</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2996" tipo="e-mail">
+                        <descricao>Email2</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2804">
+            <titulo>Emissão e Recebimento</titulo>
+            <descricao>E e R</descricao>
+            <documentos>
+                <default>
+                    <item id="2360">E e R</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="218">
+                        <descricao>ER</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="2997" tipo="e-mail">
+                        <descricao>Email3</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2931">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Serviços Públicos</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3602">CVI</item>
+        <item id="3603">Gato</item>
+        <item id="3604">Viagem</item>
+        <item id="3605">Cão</item>
+    </palavras-chave>
+</servico>
