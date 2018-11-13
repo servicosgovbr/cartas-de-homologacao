@@ -5,7 +5,7 @@
     <nome>Certificado Veterinário Internacional - Vinicius</nome>
     <sigla>CVI - Vinicius</sigla>
     <nomes-populares>
-        <item id="1201">CVI - Vinicius</item>
+        <item id="1205">CVI - Vinicius</item>
     </nomes-populares>
     <descricao>CVI - Vinicius</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1210">
+        <solicitante id="1213">
             <tipo>Cidadao</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,17 +27,17 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2805">
+        <etapa id="2814">
             <titulo>Solicitação</titulo>
             <descricao>S</descricao>
             <documentos>
                 <default>
-                    <item id="2361">S</item>
+                    <item id="2370">S</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="219">
+                    <custo id="228">
                         <descricao>SS</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -47,23 +47,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2998" tipo="e-mail">
+                    <canal-de-prestacao id="3007" tipo="e-mail">
                         <descricao>Email</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2806">
+        <etapa id="2815">
             <titulo>Análise</titulo>
             <descricao>A</descricao>
             <documentos>
                 <default>
-                    <item id="2362">A</item>
+                    <item id="2371">A</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="220">
+                    <custo id="229">
                         <descricao>A</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -73,23 +73,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2999" tipo="e-mail">
+                    <canal-de-prestacao id="3008" tipo="e-mail">
                         <descricao>Email 2</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2807">
+        <etapa id="2816">
             <titulo>Emisão e Recebimento</titulo>
             <descricao>E e R</descricao>
             <documentos>
                 <default>
-                    <item id="2363">E e R</item>
+                    <item id="2372">E e R</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="221">
+                    <custo id="230">
                         <descricao>ER</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -99,7 +99,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3000" tipo="e-mail">
+                    <canal-de-prestacao id="3009" tipo="e-mail">
                         <descricao>Email</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -110,15 +110,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2932">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2935">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Serviços Públicos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3606">CVI - Vinicius</item>
-        <item id="3607">Cão</item>
-        <item id="3608">Gato</item>
-        <item id="3609">Viagem</item>
+        <item id="3618">CVI - Vinicius</item>
+        <item id="3619">Cão</item>
+        <item id="3620">Gato</item>
+        <item id="3621">Viagem</item>
     </palavras-chave>
 </servico>
