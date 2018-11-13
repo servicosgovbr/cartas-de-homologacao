@@ -5,7 +5,7 @@
     <nome>CVI Alessandra</nome>
     <sigla>CVIA</sigla>
     <nomes-populares>
-        <item id="925">CVIA</item>
+        <item id="1202">CVIA</item>
     </nomes-populares>
     <descricao>CVI da Alessandra</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="857">
+        <solicitante id="1208">
             <tipo>Cidadao</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,17 +27,17 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2163">
+        <etapa id="2799">
             <titulo>Solicitação</titulo>
             <descricao>S</descricao>
             <documentos>
                 <default>
-                    <item id="1609">S</item>
+                    <item id="2355">S</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="204">
+                    <custo id="213">
                         <descricao>SS</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -47,23 +47,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2227" tipo="e-mail">
+                    <canal-de-prestacao id="2992" tipo="e-mail">
                         <descricao>Email</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2164">
+        <etapa id="2800">
             <titulo>Análise</titulo>
             <descricao>A</descricao>
             <documentos>
                 <default>
-                    <item id="1610">A</item>
+                    <item id="2356">A</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="205">
+                    <custo id="214">
                         <descricao>A</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -73,23 +73,23 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2231" tipo="e-mail">
+                    <canal-de-prestacao id="2993" tipo="e-mail">
                         <descricao>Email2</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2165">
+        <etapa id="2801">
             <titulo>Emissão e Recebimento</titulo>
             <descricao>E e R</descricao>
             <documentos>
                 <default>
-                    <item id="1611">E e R</item>
+                    <item id="2357">E e R</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="206">
+                    <custo id="215">
                         <descricao>ER</descricao>
                         <moeda>R$</moeda>
                         <valorVariavel></valorVariavel>
@@ -99,7 +99,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2232" tipo="e-mail">
+                    <canal-de-prestacao id="2994" tipo="e-mail">
                         <descricao>Email3</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -110,15 +110,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2450">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2930">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Serviços Públicos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2546">CVI</item>
-        <item id="2547">Gato</item>
-        <item id="2548">Viagem</item>
-        <item id="2549">Cão</item>
+        <item id="3598">CVI</item>
+        <item id="3599">Gato</item>
+        <item id="3600">Viagem</item>
+        <item id="3601">Cão</item>
     </palavras-chave>
 </servico>
