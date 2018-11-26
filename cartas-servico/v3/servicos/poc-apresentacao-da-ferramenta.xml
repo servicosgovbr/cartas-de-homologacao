@@ -5,18 +5,18 @@
     <nome>POC - Apresentação da Ferramenta</nome>
     <sigla>poc</sigla>
     <nomes-populares>
-        <item id="1064">poc</item>
-        <item id="1065">Apresentação</item>
-        <item id="1066">Apresentação da Ferramenta</item>
+        <item id="1214">poc</item>
+        <item id="1215">Apresentação</item>
+        <item id="1216">Apresentação da Ferramenta</item>
     </nomes-populares>
     <descricao>Serviço para demonstrar o que é possível  fazer com o Lecom BPM</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1049">
+        <solicitante id="1223">
             <tipo>Qualquer cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -29,7 +29,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2518">
+        <etapa id="2838">
             <titulo>Solicitar</titulo>
             <descricao></descricao>
             <documentos>
@@ -40,7 +40,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2665" tipo="web">
+                    <canal-de-prestacao id="3036" tipo="web">
                         <descricao>web</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -51,15 +51,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2751">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2946">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3174">poc</item>
-        <item id="3175">apresentação</item>
-        <item id="3176">demonstração</item>
-        <item id="3177">ferramentas</item>
+        <item id="3646">poc</item>
+        <item id="3647">apresentação</item>
+        <item id="3648">demonstração</item>
+        <item id="3649">ferramentas</item>
     </palavras-chave>
 </servico>
