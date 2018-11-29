@@ -15,7 +15,7 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
     <servico-digital>true</servico-digital>
     <link-servico-digital>http://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1225">
+        <solicitante id="1226">
             <tipo>Organismo de avaliação da conformidade, empresas, organizações públicas, universidades, associações, entre outros.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,7 +28,7 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2840">
+        <etapa id="2842">
             <titulo>Solicitar novo serviço de acreditação</titulo>
             <descricao>Favor entrar em contato com a Divisão de Desenvolvimento de Programas de Acreditação (Didac) através do e-mail didac@inmetro.gov.br.</descricao>
             <documentos>
@@ -39,13 +39,13 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3038" tipo="e-mail">
+                    <canal-de-prestacao id="3040" tipo="e-mail">
                         <descricao>didac@inmetro.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2841">
+        <etapa id="2843">
             <titulo>Analisar a solicitação</titulo>
             <descricao>A Didac analisa a solicitação a fim de validar o entendimento da demanda.  É informado ao cidadão/cliente o Gestor de Desenvolvimento (GD) que irá tratar o processo.  Também pode ser necessário pedir ao cidadão/cliente informações adicionais para melhor entendimento da demanda.  O cidadão/cliente será informado sobre o tempo estimado para o desenvolvimento do novo serviço de acreditação.</descricao>
             <documentos>
@@ -56,19 +56,19 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3039" tipo="e-mail">
+                    <canal-de-prestacao id="3041" tipo="e-mail">
                         <descricao>didac@inmetro.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/240" dbId="36793">
-        <nomeOrgao>Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2948">Empresas</item>
-        <item idSegmento="2" idServicoSegmento="2949">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2950">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="2951">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
@@ -77,9 +77,9 @@ A primeira etapa é uma análise da viabilidade de novos programas de acreditaç
         <item>Serviços Públicos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3653">Acreditação</item>
-        <item id="3654">Esquema de acreditação</item>
-        <item id="3655">Programa de acreditação</item>
-        <item id="3656">Avaliação da conformidade</item>
+        <item id="3657">Acreditação</item>
+        <item id="3658">Esquema de acreditação</item>
+        <item id="3659">Programa de acreditação</item>
+        <item id="3660">Avaliação da conformidade</item>
     </palavras-chave>
 </servico>
