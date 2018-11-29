@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-obter-autorizacao-para-transporte-ferroviario-nao-regular-de-passageiros-com-finalidade-turistica-historica-e-cultural-ou-comemorativa</id>
+    <dbId>1424</dbId>
+    <nome>[TREINAMENTO] Obter autorização para Transporte Ferroviário Não Regular de Passageiros com Finalidade Turística, Histórica e Cultural ou Comemorativa</nome>
+    <sigla></sigla>
+    <descricao>Solicitação de autorização para prestação não regular e eventual de serviços de transporte ferroviário de passageiros, com finalidade turística, histórica e cultural ou comemorativa.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1224">
+            <tipo>Empresas</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2839">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3037" tipo="web">
+                        <descricao>Solicitação</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="2947">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Transporte Ferroviário</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3650">Transporte</item>
+        <item id="3651">Ferroviário</item>
+        <item id="3652">Trem</item>
+    </palavras-chave>
+</servico>
