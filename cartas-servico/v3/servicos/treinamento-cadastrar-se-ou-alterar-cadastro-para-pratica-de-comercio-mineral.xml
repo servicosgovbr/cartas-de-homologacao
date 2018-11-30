@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-cadastrar-se-ou-alterar-cadastro-para-pratica-de-comercio-mineral</id>
+    <dbId>1427</dbId>
+    <nome>[Treinamento] Cadastrar-se ou alterar cadastro para prática de comércio mineral</nome>
+    <sigla></sigla>
+    <descricao>Realizar o cadastramento ou alteração de cadastro já realizado de empresas que visam praticar o comércio de minerais, minérios, concentrados, produtos e subprodutos de urânio e tório, minerais e minérios com urânio e tório associados, e minerais radioativos e minérios de interesse para a Energia Nuclear, visando sua atuação nas operações de exportação.</descricao>
+    <contato>Seção de Comércio de Matérias-Primas e Minerais (SECOMM) / Divisão de Controle de Matérias-Primas e Minerais (DIMAP): dimap@cnen.gov.br</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1227">
+            <tipo>Empresas que trabalham com Mineração, Trading ou Comércio Mineral.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="1228">
+            <tipo>Cidadãos com CNPJ, que atuam na área de Comércio Mineral.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="2" max="7" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2844">
+            <titulo>Preencher formulário de solicitação</titulo>
+            <descricao>Preencher formulário de Identificação do Usuário pelo CNPJ e atividade a ser desenvolvida.</descricao>
+            <documentos>
+                <default>
+                    <item id="2424">Razão Social da Empresa</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3042" tipo="web">
+                        <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2845">
+            <titulo>Receber resposta sobre a solicitação</titulo>
+            <descricao>O Formulário e a Documentação enviada são analisados pela SECOMM. Após a análise, o pedido pode ser deferido, devolvido para complementação ou indeferido.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3043" tipo="web">
+                        <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/223" dbId="7581">
+        <nomeOrgao>Comissão Nacional de Energia Nuclear (CNEN)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2952">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2953">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comércio e Serviços</item>
+        <item>Mineração</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3661">comércio mineral</item>
+        <item id="3662">cadastrar</item>
+        <item id="3663">alterar cadastro</item>
+    </palavras-chave>
+</servico>
