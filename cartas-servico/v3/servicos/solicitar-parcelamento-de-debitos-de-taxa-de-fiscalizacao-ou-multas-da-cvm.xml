@@ -8,10 +8,10 @@
     <contato>gac@cvm.gov.br</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1232">
+        <solicitante id="1233">
             <tipo>Regulados registrados na CVM</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2849">
+        <etapa id="2851">
             <titulo>Solicitar o levantamento consolidado da dívida.</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,22 +35,22 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3048" tipo="web">
+                    <canal-de-prestacao id="3052" tipo="web">
                         <descricao>https://cvmweb.cvm.gov.br/SWB/default.asp?sg_sistema=sac</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3047" tipo="e-mail">
+                    <canal-de-prestacao id="3053" tipo="e-mail">
                         <descricao>gac@cvm.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2850">
+        <etapa id="2852">
             <titulo>Solicitar Parcelamento</titulo>
             <descricao>Conhecido o valor, se não houver parcelas em Dívida Ativa, deverá preencher o formulário Pedido de Parcelamento – PEPAR, anexo à Deliberação CVM 447/02, encaminhando os originais pelo protocolo geral da CVM, aos cuidados da Gerência de Arrecadação (GAC) com pedido de parcelamento ao Superintendente Geral (SGE).
  O devedor deverá se pautar pelas orientações dispostas na Deliberação CVM 447.</descricao>
             <documentos>
                 <default>
-                    <item id="2427">Divida em execução
+                    <item id="2428">Divida em execução
 • Se já houver sido remetida a dívida ao órgão jurídico para sua inscrição e execução, o devedor deverá consultar a Procuradoria Jurídica da CVM, Subprocuradoria Jurídica -3, pelos telefones (21) 3554-8308 / 3554-8382 / 3554-8447.</item>
                 </default>
             </documentos>
@@ -59,16 +59,16 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3051" tipo="web">
+                    <canal-de-prestacao id="3054" tipo="web">
                         <descricao>https://cvmweb.cvm.gov.br/SWB/default.asp?sg_sistema=sac</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3050" tipo="postal">
+                    <canal-de-prestacao id="3056" tipo="presencial">
+                        <descricao>Em qualquer um dos protocolos da CVM no RJ, SP ou Brasília, aos cuidados da Gerência de Arrecadação (GAC) com pedido de parcelamento ao Superintendente Geral (SGE).</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="3055" tipo="postal">
                         <descricao>aos cuidados da Gerência de Arrecadação (GAC) com pedido de parcelamento ao Superintendente Geral (SGE).
  Rua Sete de Setembro, 111, 28° andar - Centro
  CEP: 20050-901 - Rio de Janeiro/RJ</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="3049" tipo="presencial">
-                        <descricao>Em qualquer um dos protocolos da CVM no RJ, SP ou Brasília, aos cuidados da Gerência de Arrecadação (GAC) com pedido de parcelamento ao Superintendente Geral (SGE).</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -78,19 +78,19 @@
         <nomeOrgao>Comissão de Valores Mobiliários (CVM)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2957">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2958">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2959">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2960">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Sistema Financeiro</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3670">.</item>
-        <item id="3671">.</item>
-        <item id="3672">.</item>
+        <item id="3673">.</item>
+        <item id="3674">.</item>
+        <item id="3675">.</item>
     </palavras-chave>
     <legislacoes>
-        <item id="953">Deliberação CVM 447
+        <item id="954">Deliberação CVM 447
  Lei 6.385/76: Dispõe sobre o mercado de valores mobiliários e cria a CVM.
  Lei 7.940/89: Institui a Taxa de Fiscalização dos mercados de títulos e valores mobiliários, e dá outras providências.</item>
     </legislacoes>
