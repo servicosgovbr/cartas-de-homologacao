@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-obter-certidao-de-auto-definicao-de-comunidade-remanescente-de-quilombo</id>
+    <dbId>1432</dbId>
+    <nome>[TREINAMENTO] Obter certidão de auto-definição de comunidade remanescente de quilombo</nome>
+    <sigla></sigla>
+    <descricao>Reconhece a Auto-Definição de uma comunidade como remanescente de quilombo e a possibilita a ter assistência da FCP e acessar outras políticas do Governo Federal.</descricao>
+    <contato>123</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1234">
+            <tipo>123</tipo>
+            <requisitos>123</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2853">
+            <titulo>321</titulo>
+            <descricao>321</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3057" tipo="web">
+                        <descricao>123</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2961">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2962">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Administração</item>
+        <item>Agropecuária</item>
+        <item>Administração Financeira</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3676">Comunidade</item>
+        <item id="3677">Quilombo</item>
+        <item id="3678">Palmares</item>
+    </palavras-chave>
+</servico>
