@@ -3,9 +3,9 @@
     <id>programa-bolsa-atleta-podio</id>
     <dbId>1434</dbId>
     <nome>Programa Bolsa Atleta Pódio</nome>
-    <sigla>BAP</sigla>
+    <sigla></sigla>
     <nomes-populares>
-        <item id="1218">Bolsa Atleta Pódio</item>
+        <item id="1219">Receber a Bolsa Atleta Pódio</item>
     </nomes-populares>
     <descricao>Uma das principais iniciativas do Plano Brasil Medalhas foi implantar a Bolsa Atleta Pódio, instituída pela lei nº 12.395, de 16 de março de 2011. A Bolsa Pódio é uma nova categoria do programa Bolsa Atleta, com a finalidade de apoiar atletas com chances de disputar finais e medalhas olímpicas e paralímpicas. As bolsas variam entre R$ 5 mil e R$ 15 mil.</descricao>
     <contato></contato>
@@ -14,32 +14,84 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1236">
-            <tipo>Atleta</tipo>
+        <solicitante id="1237">
+            <tipo>Atletas com chances de disputar finais e medalhas olímpicas e paralímpicas</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <nao-estimado-ainda/>
+        <atendimento-imediato/>
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2855">
-            <titulo>Solicitação</titulo>
-            <descricao></descricao>
+        <etapa id="2859">
+            <titulo>Inscrever-se e enviar documentação</titulo>
+            <descricao>Inscrição online e envio de documentações (a documentação formaliza as informações prestadas na inscrição online).
+(modelo das declarações na terceira etapa)</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="2429">Carteira de identidade
+CPF
+Declarações emitidas pelas Confederações e/ou Clubes.</item>
+                </default>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3059" tipo="web">
+                    <canal-de-prestacao id="3060" tipo="web">
                         <descricao>servicos.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2860">
+            <titulo>Enviar termo de adesão</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="2430">Termo de Adesão ao Programa.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3061" tipo="web">
+                        <descricao>servicos.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2861">
+            <titulo>Prestar contas</titulo>
+            <descricao>Modelos das declarações:
+* Clube
+* Confederações - Esportes Olímpicos e Paralímpicos
+* Confederações - Esportes Não olímpicos</descricao>
+            <documentos>
+                <default>
+                    <item id="2431">Declarações emitidas pelas Confederações e/ou Clubes.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3062" tipo="web">
+                        <descricao>servicos.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="3064" tipo="postal">
+                        <descricao>Setor de Industrias Gráficas (SIG), Quadra 4 – lote 83 Centro Empresarial Capital Financial Center (Bolsa Atleta)</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="3063" tipo="e-mail">
+                        <descricao>prestacaobolsa@esporte.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -49,7 +101,7 @@
         <nomeOrgao>Ministério do Esporte (ME)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2965">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2966">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
@@ -59,8 +111,8 @@
         <item>Esporte comunitário</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3682">bolsa</item>
-        <item id="3683">atleta</item>
-        <item id="3684">podio</item>
+        <item id="3685">bolsa</item>
+        <item id="3686">atleta</item>
+        <item id="3687">podio</item>
     </palavras-chave>
 </servico>
