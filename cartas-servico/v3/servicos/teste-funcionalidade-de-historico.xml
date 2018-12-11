@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-funcionalidade-de-historico</id>
+    <dbId>1439</dbId>
+    <nome>Teste - Funcionalidade de Histórico</nome>
+    <sigla></sigla>
+    <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed interdum metus. Etiam dapibus scelerisque nibh, ut dictum metus faucibus quis. Donec fermentum mauris sed cursus lobortis. Praesent dapibus sit amet libero id pellentesque. Duis quis molestie diam. Nulla facilisis magna odio, ac convallis mauris placerat eget. Donec egestas dui ex. Proin ultrices vehicula augue porta fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus at nunc fringilla, egestas sapien vitae, laoreet nulla. Vivamus scelerisque accumsan ex, ut rutrum erat aliquet in. Etiam sed libero nulla.</descricao>
+    <contato>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed interdum metus. Etiam dapibus scelerisque nibh, ut dictum metus faucibus quis. Donec fermentum mauris sed cursus lobortis. Praesent dapibus sit amet libero id pellentesque. Duis quis molestie diam. Nulla facilisis magna odio, ac convallis mauris placerat eget. Donec egestas dui ex.</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1243">
+            <tipo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed interdum metus. Etiam dapibus scelerisque nibh, ut dictum metus faucibus quis. Donec fermentum mauris sed cursus lobortis. Praesent dapibus sit amet libero id pellentesque. Duis quis molestie diam. Nulla facilisis magna odio, ac convallis mauris placerat eget. Donec egestas dui ex.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2871">
+            <titulo>Solicitar</titulo>
+            <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed interdum metus. Etiam dapibus scelerisque nibh, ut dictum metus faucibus quis. Donec fermentum mauris sed cursus lobortis. Praesent dapibus sit amet libero id pellentesque. Duis quis molestie diam. Nulla facilisis magna odio, ac convallis mauris placerat eget. Donec egestas dui ex.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3078" tipo="web">
+                        <descricao>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed interdum metus. Etiam dapibus scelerisque nibh, ut dictum metus faucibus quis. Donec fermentum mauris sed cursus lobortis. Praesent dapibus sit amet libero id pellentesque. Duis quis molestie diam. Nulla facilisis magna odio, ac convallis mauris placerat eget. Donec egestas dui ex.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2975">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Administração</item>
+        <item>Administração Financeira</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3703">Teste</item>
+        <item id="3704">Funcionalidade</item>
+        <item id="3705">Histórico</item>
+    </palavras-chave>
+</servico>
