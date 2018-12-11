@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>hospedar-se-na-pousada-do-pesquisador</id>
-    <dbId>1040</dbId>
+    <dbId>1437</dbId>
     <nome>Hospedar-se na Pousada do Pesquisador</nome>
     <sigla></sigla>
     <descricao>A Pousada do Pesquisador, situada na Rua Major Rubens Vaz, nº 122, Gávea, foi criada através da Portaria JBRJ nº 038/99, de 7 de julho de 1999, com intuito de acolher os servidores, pesquisadores, doutores, professores e convidados do JBRJ, brasileiros e estrangeiros, que venham ao Instituto desenvolver atividades científicas de interesse institucional. Prazo do serviço: • os interessados ficarão hospedados na pousada pelo prazo solicitado na reserva. Espera para atendimento: • de 24 h a 48 h (dias úteis) para agendamento por e-mail, observando-se a disponibilidade.</descricao>
@@ -9,9 +9,9 @@
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>http://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="787">
+        <solicitante id="1240">
             <tipo>Servidores, pesquisadores, doutores, professores e convidados do JBRJ.</tipo>
             <requisitos>Que venham ao Instituto desenvolver atividades científicas de interesse institucional.</requisitos>
         </solicitante>
@@ -24,12 +24,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2011">
+        <etapa id="2868">
             <titulo>Solicitar reserva</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1464">CPF</item>
+                    <item id="2438">CPF</item>
                 </default>
             </documentos>
             <custos>
@@ -37,95 +37,27 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2030" tipo="web">
+                    <canal-de-prestacao id="3075" tipo="web">
                         <descricao>https://aplicacoes.jbrj.gov.br/pesquisa/pousada/emailpousada.htm</descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao id="2031" tipo="e-mail">
-                        <descricao>amarmelo@jbrj.gov.br</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="2012">
-            <titulo>Receber GRU</titulo>
-            <descricao>Contato por email, confirmando ou não a reserva, e encaminhamento de GRU</descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="2032" tipo="e-mail">
-                        <descricao>E-mail informado no pedido de reserva.</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="2013">
-            <titulo>Pagar Taxa de Hospedagem</titulo>
-            <descricao></descricao>
-            <documentos>
-                <default>
-                    <item id="1465">GRU</item>
-                </default>
-            </documentos>
-            <custos>
-                <default>
-                    <custo id="197">
-                        <descricao>Taxa de hospedagem</descricao>
-                        <moeda>R$</moeda>
-                        <valor>100,00</valor>
-                        <valorVariavel></valorVariavel>
-                        <statusCustoVariavel>0</statusCustoVariavel>
-                    </custo>
-                </default>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="2033" tipo="presencial">
-                        <descricao>Rede bancária</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="2014">
-            <titulo>Hospedar-se na Pousada</titulo>
-            <descricao></descricao>
-            <documentos>
-                <default>
-                    <item id="1466">CPF</item>
-                    <item id="1467">Documento de identificação oficial com foto</item>
-                    <item id="1468">Comprovante de pagamento</item>
-                </default>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="2034" tipo="presencial">
-                        <descricao>**Pousada do Pesquisador** - Rua Major Rubens Vaz, 66 - Gávea, Rio de Janeiro/RJ - CEP: 22470-070</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1913" dbId="37021">
-        <nomeOrgao>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro (JBRJ)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2316">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="2317">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="2969">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2970">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Pesquisa e Desenvolvimento</item>
         <item>Serviços Urbanos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2350">hotel</item>
-        <item id="2351">estadia</item>
-        <item id="2352">jardim botânico</item>
+        <item id="3694">hotel</item>
+        <item id="3695">estadia</item>
+        <item id="3696">jardim botânico</item>
     </palavras-chave>
 </servico>
