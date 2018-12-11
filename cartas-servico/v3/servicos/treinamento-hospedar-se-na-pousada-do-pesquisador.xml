@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-hospedar-se-na-pousada-do-pesquisador</id>
+    <dbId>1437</dbId>
+    <nome>[TREINAMENTO] Hospedar-se na Pousada do Pesquisador</nome>
+    <sigla></sigla>
+    <descricao>A Pousada do Pesquisador, situada na Rua Major Rubens Vaz, nº 122, Gávea, foi criada através da Portaria JBRJ nº 038/99, de 7 de julho de 1999, com intuito de acolher os servidores, pesquisadores, doutores, professores e convidados do JBRJ, brasileiros e estrangeiros, que venham ao Instituto desenvolver atividades científicas de interesse institucional. Prazo do serviço: • os interessados ficarão hospedados na pousada pelo prazo solicitado na reserva. Espera para atendimento: • de 24 h a 48 h (dias úteis) para agendamento por e-mail, observando-se a disponibilidade.</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1242">
+            <tipo>Servidores, pesquisadores, doutores, professores e convidados do JBRJ.</tipo>
+            <requisitos>Que venham ao Instituto desenvolver atividades científicas de interesse institucional.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2870">
+            <titulo>Solicitar reserva</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="2440">CPF</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3077" tipo="web">
+                        <descricao>https://aplicacoes.jbrj.gov.br/pesquisa/pousada/emailpousada.htm</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2973">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2974">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Pesquisa e Desenvolvimento</item>
+        <item>Serviços Urbanos</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3700">hotel</item>
+        <item id="3701">estadia</item>
+        <item id="3702">jardim botânico</item>
+    </palavras-chave>
+</servico>
