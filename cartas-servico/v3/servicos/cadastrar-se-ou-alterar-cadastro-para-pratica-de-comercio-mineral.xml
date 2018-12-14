@@ -6,16 +6,16 @@
     <sigla></sigla>
     <descricao>Realizar o cadastramento ou alteração de cadastro já realizado de empresas que visam praticar o comércio de minerais, minérios, concentrados, produtos e subprodutos de urânio e tório, minerais e minérios com urânio e tório associados, e minerais radioativos e minérios de interesse para a Energia Nuclear, visando sua atuação nas operações de exportação.</descricao>
     <contato>Seção de Comércio de Matérias-Primas e Minerais (SECOMM) / Divisão de Controle de Matérias-Primas e Minerais (DIMAP): dimap@cnen.gov.br</contato>
-    <gratuito>true</gratuito>
+    <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1220">
+        <solicitante id="1256">
             <tipo>Empresas que trabalham com Mineração, Trading ou Comércio Mineral.</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="1221">
+        <solicitante id="1257">
             <tipo>Cidadãos com CNPJ, que atuam na área de Comércio Mineral.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,12 +28,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2833">
+        <etapa id="2884">
             <titulo>Preencher formulário de solicitação</titulo>
             <descricao>Preencher formulário de Identificação do Usuário pelo CNPJ e atividade a ser desenvolvida.</descricao>
             <documentos>
                 <default>
-                    <item id="2419">Razão Social da Empresa</item>
+                    <item id="2451">Razão Social da Empresa</item>
                 </default>
             </documentos>
             <custos>
@@ -41,13 +41,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3031" tipo="web">
+                    <canal-de-prestacao id="3091" tipo="web">
                         <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2834">
+        <etapa id="2885">
             <titulo>Receber resposta sobre a solicitação</titulo>
             <descricao>O Formulário e a Documentação enviada são analisados pela SECOMM. Após a análise, o pedido pode ser deferido, devolvido para complementação ou indeferido.</descricao>
             <documentos>
@@ -58,7 +58,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3032" tipo="web">
+                    <canal-de-prestacao id="3092" tipo="web">
                         <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -69,16 +69,16 @@
         <nomeOrgao>Comissão Nacional de Energia Nuclear (CNEN)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2943">Empresas</item>
-        <item idSegmento="1" idServicoSegmento="2944">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2989">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2990">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
         <item>Mineração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3640">comércio mineral</item>
-        <item id="3641">cadastrar</item>
-        <item id="3642">alterar cadastro</item>
+        <item id="3733">comércio mineral</item>
+        <item id="3734">cadastrar</item>
+        <item id="3735">alterar cadastro</item>
     </palavras-chave>
 </servico>
