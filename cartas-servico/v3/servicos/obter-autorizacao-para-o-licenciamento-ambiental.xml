@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-autorizacao-para-o-licenciamento-ambiental</id>
+    <dbId>1443</dbId>
+    <nome>Obter Autorização para o Licenciamento Ambiental</nome>
+    <sigla>ALA</sigla>
+    <descricao>Serviço pelo qual o Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio) autoriza o órgão ambiental competente a proceder com o licenciamento ambiental de empreendimentos e atividades que afetem unidades de conservação federais ou suas zonas de amortecimento.</descricao>
+    <contato>Coordenação Geral de Avaliação de Impactos - CGIMP.</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1253">
+            <tipo>Cidadãos e sociedade em geral.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="1254">
+            <tipo>Empreendedor.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="1255">
+            <tipo>Órgãos licenciadores.</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2881">
+            <titulo>Solicitar autorização para o licenciamento ambiental</titulo>
+            <descricao>Após a solicitação inicial do licenciamento do cidadão/empreendedor junto ao órgão licenciador e, se há unidade de conservação federal envolvida, o processo poderá ser encaminhado para manifestação do ICMBio, que o registrará na Plataforma deste Portal de Serviços e este sistema emitirá uma mensagem para o interessado/empreendedor/cidadão, apresentando as informações de cadastro do documento, bem como fornecendo link para acompanhamento da situação da demanda.</descricao>
+            <documentos>
+                <default>
+                    <item id="2448">Ficha de Caracterização de Atividade - FCA.</item>
+                    <item id="2449">Ofício de encaminhamento ao ICMBio pelo órgão licenciador, juntamente com os anexos.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3088" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2882">
+            <titulo>Receber Guia de Recolhimento da União (GRU) para pagamento</titulo>
+            <descricao>Após a realização da avaliação prévia, da análise da unidade de conservação (se for o caso), da análise técnica e manifestação final da área técnica, será encaminhada ao empreendedor, por meio deste Portal de Serviços, a Guia de Recolhimento da União (GRU) para pagamento do valor referente à análise processual (conforme Portaria MMA 366/2009). Realizado o pagamento, o empreendedor/interessado deve encaminhar o comprovante ao ICMBio, também via sistema, que emitirá alerta ao ICMBio.</descricao>
+            <documentos>
+                <default>
+                    <item id="2450">Comprovante de pagamento da Guia de Recolhimento da União (GRU).</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="233">
+                        <descricao>Cálculo realizado pelo ICMBio</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>Conforme Portaria MMA 366/2009 (Anexo II, Código 5027)</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3089" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2883">
+            <titulo>Obter manifestação final sobre a concessão do licenciamento</titulo>
+            <descricao>Após o pagamento da GRU pelo interessado o ICMBio realiza a manifestação final e emite resposta ao órgão licenciador, por meio de Ofício contendo a manifestação conclusiva quanto à possibilidade de conceder o licenciamento: autorização, negativa da autorização ou solicitação de complementação de informações dos estudos ambientais.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3090" tipo="web">
+                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/91842" dbId="36726">
+        <nomeOrgao>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2986">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2987">Órgãos e entidades públicas</item>
+        <item idSegmento="3" idServicoSegmento="2988">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Meio ambiente</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3727">licenciamento</item>
+        <item id="3728">ambiental</item>
+        <item id="3729">ambiente</item>
+        <item id="3730">impacto ambiental</item>
+        <item id="3731">unidades de conservação federais</item>
+        <item id="3732">autorização</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="959">Portaria MMA 366/2009</item>
+        <item id="960">Instrução Normativa ICMBio nº 7/2014</item>
+    </legislacoes>
+</servico>
