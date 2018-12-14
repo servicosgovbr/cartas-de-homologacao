@@ -5,16 +5,16 @@
     <nome>Obter distribuição de alimentos para grupos populacionais quilombolas em situação de insegurança alimentar</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1211">Cesta de alimentos</item>
+        <item id="1222">Cesta de alimentos</item>
     </nomes-populares>
     <descricao>Distribuição de cestas alimentares para quilombolas em situação de insegurança alimentar</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar​</link-servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1219">
+        <solicitante id="1244">
             <tipo>Grupos populacionais quilombolas em situação de insegurança alimentar</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,12 +27,12 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2832">
+        <etapa id="2872">
             <titulo>Requerer cestas</titulo>
             <descricao>As associações quilombolas precisam encaminhar as listas atualizadas de famílias, bem como ter prestado contas regularmente das últimas entregas</descricao>
             <documentos>
                 <default>
-                    <item id="2418">NIS
+                    <item id="2441">NIS
 
 Lista atualizada de famílias</item>
                 </default>
@@ -42,7 +42,7 @@ Lista atualizada de famílias</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3030" tipo="telefone">
+                    <canal-de-prestacao id="3079" tipo="telefone">
                         <descricao>(61) 3424-0159</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -53,16 +53,16 @@ Lista atualizada de famílias</item>
         <nomeOrgao>Fundação Cultural Palmares (FCP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2941">Cidadãos</item>
-        <item idSegmento="4" idServicoSegmento="2942">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="1" idServicoSegmento="2976">Cidadãos</item>
+        <item idSegmento="4" idServicoSegmento="2977">Demais segmentos (ONGs, organizações sociais, etc)</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Proteção Social</item>
         <item>Alimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3637">.</item>
-        <item id="3638">.</item>
-        <item id="3639">.</item>
+        <item id="3706">.</item>
+        <item id="3707">.</item>
+        <item id="3708">.</item>
     </palavras-chave>
 </servico>
