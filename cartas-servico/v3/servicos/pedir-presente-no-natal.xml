@@ -5,16 +5,16 @@
     <nome>Pedir presente no Natal</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1223">NATAL</item>
+        <item id="1224">NATAL</item>
     </nomes-populares>
     <descricao>Atendimento dos pedidos de presentes feitos pelas crianças, via ferramenta de automação.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1446&amp;#39;</link-servico-digital>
     <solicitantes>
-        <solicitante id="1258">
+        <solicitante id="1259">
             <tipo>Crianças</tipo>
             <requisitos>Acreditar no bom velhinho</requisitos>
         </solicitante>
@@ -32,7 +32,7 @@ Em caso de não atendimento, consulte a pessoa querida mencionada na esta 2.</de
         <descricao>O pedido deve ser feito pela própria criança até o dia 23/12, após consultar um responsável.</descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2886">
+        <etapa id="2890">
             <titulo>Fazer o pedido</titulo>
             <descricao>A criança deve escrever neste formulário as informações daquilo que deseja ganhar</descricao>
             <documentos>
@@ -43,19 +43,19 @@ Em caso de não atendimento, consulte a pessoa querida mencionada na esta 2.</de
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3093" tipo="web">
+                    <canal-de-prestacao id="3097" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2887">
+        <etapa id="2891">
             <titulo>Verificar viabilidade para deferimento do pedido</titulo>
             <descricao>Antes de chegar ao Papai Noel, os pedidos são analisados por uma pessoa querida da criança, que verificará a razoabilidade da solicitação. 
 Aqui deve ser informado o CPF desse ente querido.</descricao>
             <documentos>
                 <default>
-                    <item id="2452">CPF é conferido na base da RFB.
+                    <item id="2453">CPF é conferido na base da RFB.
 Esse responsável deve anexar o "código" do presente mencionado.</item>
                 </default>
             </documentos>
@@ -64,13 +64,13 @@ Esse responsável deve anexar o "código" do presente mencionado.</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3094" tipo="web">
+                    <canal-de-prestacao id="3098" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2888">
+        <etapa id="2892">
             <titulo>Analisar o pedido</titulo>
             <descricao>A Comissão do Papai Noel analisa a solicitação e organiza o pedido para entrega, desde que atendido os requisitos da etapa anterior.</descricao>
             <documentos>
@@ -81,13 +81,13 @@ Esse responsável deve anexar o "código" do presente mencionado.</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3095" tipo="web">
+                    <canal-de-prestacao id="3099" tipo="web">
                         <descricao>Web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2889">
+        <etapa id="2893">
             <titulo>Entregar o presente</titulo>
             <descricao>Papai Noel, de posse do endereço, faz as entregas que foram encaminhadas pela Comissão.</descricao>
             <documentos>
@@ -98,7 +98,7 @@ Esse responsável deve anexar o "código" do presente mencionado.</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3096" tipo="presencial">
+                    <canal-de-prestacao id="3100" tipo="presencial">
                         <descricao>Presencial</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -109,18 +109,18 @@ Esse responsável deve anexar o "código" do presente mencionado.</item>
         <nomeOrgao>Ministério do Planejamento, Desenvolvimento e Gestão (MP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2991">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="2992">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comunicações Postais</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3736">Natal</item>
-        <item id="3737">Papai Noel</item>
-        <item id="3738">Presente</item>
+        <item id="3739">Natal</item>
+        <item id="3740">Papai Noel</item>
+        <item id="3741">Presente</item>
     </palavras-chave>
     <legislacoes>
-        <item id="961">Instrução Natalina n° 25/12/18</item>
-        <item id="962">&lt;p style="text-align:center;color:red"&gt;&lt;b&gt;A  solicitação deve ser feita no Portal de Serviços.&lt;/p&gt;</item>
+        <item id="963">Instrução Natalina n° 25/12/18</item>
+        <item id="964">&lt;p style="text-align:center;color:red"&gt;&lt;b&gt;A  solicitação deve ser feita no Portal de Serviços.&lt;/p&gt;</item>
     </legislacoes>
 </servico>
