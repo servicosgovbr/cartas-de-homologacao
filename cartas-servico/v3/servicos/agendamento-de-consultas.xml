@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>agendamento-de-consultas</id>
+    <dbId>1450</dbId>
+    <nome>Agendamento de Consultas</nome>
+    <sigla></sigla>
+    <descricao>Teste de agendamento de consultas pelo portal de serviços</descricao>
+    <contato>123</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1262">
+            <tipo>123</tipo>
+            <requisitos>321</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao>321</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao>123</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2899">
+            <titulo>123</titulo>
+            <descricao>321</descricao>
+            <documentos>
+                <default>
+                    <item id="2459">123</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3106" tipo="e-mail">
+                        <descricao>321</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2995">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Assistência Hospitalar e Ambulatorial</item>
+        <item>Assistência à Criança e ao Adolescente</item>
+        <item>Assistência ao Idoso</item>
+        <item>Ambiente e saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3750">Agendamento</item>
+        <item id="3751">Consultas</item>
+        <item id="3752">Teste</item>
+    </palavras-chave>
+</servico>
