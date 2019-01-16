@@ -5,8 +5,8 @@
     <nome>Obter o Certificado Internacional de Vacinação e Profilaxia (Teste Carga)</nome>
     <sigla>CIVP</sigla>
     <nomes-populares>
-        <item id="1227">Obter o Certificado Internacional de Vacinação e Profilaxia</item>
-        <item id="1228">CIVP</item>
+        <item id="1229">Obter o Certificado Internacional de Vacinação e Profilaxia</item>
+        <item id="1230">CIVP</item>
     </nomes-populares>
     <descricao>O Certificado Internacional de Vacinação ou Profilaxia (CIVP) é um documento que comprova a vacinação contra a febre amarela e/ou outras doenças, bem como outros métodos profiláticos (medidas para prevenir ou atenuar doenças). O CIVP é exigido, por alguns países, como condição para a entrada de um viajante. A possibilidade de exigência do CIVP é prevista no Regulamento Sanitário Internacional (RSI).</descricao>
     <contato></contato>
@@ -15,7 +15,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1263">
+        <solicitante id="1264">
             <tipo>Cidadãos brasileiros ou estrangeiros que irão viajar para fora do país</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,19 +28,19 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2900">
+        <etapa id="2901">
             <titulo>Tomar a vacina exigida</titulo>
             <descricao>O usuário pode obter a vacina gratuitamente em um posto de saúde do SUS ou deve procurar os serviços de vacinação públicos e privados credenciados, que emitem o CIVP. A lista dos serviços pode ser acessada pelo link: http://portal.anvisa.gov.br/centros-de-orientacao-do-viajante. Destacamos que, dessa lista, apenas os postos da Anvisa não realizam a vacinação. Se o seu objetivo é viajar para o exterior, você deve apresentar o comprovante de viagem antes da vacinação para receber a dose padrão.</descricao>
             <documentos>
                 <default>
-                    <item id="2461">Para casos em que a vacinação ou a profilaxia é contraindicada
+                    <item id="2464">Para casos em que a vacinação ou a profilaxia é contraindicada
 Para os casos em que a vacinação ou a profilaxia é contraindicada, o viajante deverá apresentar um Atestado Médico de Isenção de Vacinação, escrito em inglês ou francês. Um modelo de atestado de isenção, sugerido pela Anvisa, pode ser acessado através do link http://www.anvisa.gov.br/hotsite/viajante/certificadodeisencao.pdf .</item>
-                    <item id="2462">O atestado pode ser apresentado em outro modelo, desde que contenha as mesmas informações. Esse modelo deve ser preenchido pelo médico do próprio viajante, contraindicando a vacina.
+                    <item id="2465">O atestado pode ser apresentado em outro modelo, desde que contenha as mesmas informações. Esse modelo deve ser preenchido pelo médico do próprio viajante, contraindicando a vacina.
 O Regulamento Sanitário Internacional (RSI) estabelece que as autoridades de saúde do país de destino devam considerar o documento que comprova a contraindicação, porém poderão ainda ser aplicadas medidas de controle.</item>
-                    <item id="2463">O atestado pode ser apresentado em outro modelo, desde que contenha as mesmas informações. Esse modelo deve ser preenchido pelo médico do próprio viajante, contraindicando a vacina.
+                    <item id="2466">O atestado pode ser apresentado em outro modelo, desde que contenha as mesmas informações. Esse modelo deve ser preenchido pelo médico do próprio viajante, contraindicando a vacina.
 O Regulamento Sanitário Internacional (RSI) estabelece que as autoridades de saúde do país de destino devam considerar o documento que comprova a contraindicação, porém poderão ainda ser aplicadas medidas de controle.</item>
                 </default>
-                <caso id="551" descricao="Para casos em que a vacinação ou a profilaxia é contraindicada">
+                <caso id="552" descricao="Para casos em que a vacinação ou a profilaxia é contraindicada">
                     <documento>
                         <id>2460</id>
                         <descricao>O interessado deverá dirigir-se à unidade de saúde onde tomou a vacina e solicitar a segunda via do documento. Alguns municípios utilizam o Sistema de Informação do Programa Nacional de Imunização (SI-PNI). Nesse caso, o cidadão pode obter um novo cartão atualizado com todo o histórico de vacinação.</descricao>
@@ -52,7 +52,7 @@ O Regulamento Sanitário Internacional (RSI) estabelece que as autoridades de sa
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3107" tipo="web">
+                    <canal-de-prestacao id="3108" tipo="web">
                         <descricao>https://viajante.anvisa.gov.br/viajante/</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -63,17 +63,17 @@ O Regulamento Sanitário Internacional (RSI) estabelece que as autoridades de sa
         <nomeOrgao>Agência Nacional de Vigilância Sanitária (ANVISA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="2996">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="2997">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="2998">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="2999">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Habitação</item>
         <item>Habitação Urbana</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3753">Certificado</item>
-        <item id="3754">Vacinação</item>
-        <item id="3755">Profilaxia</item>
-        <item id="3756">CIVP</item>
+        <item id="3757">Certificado</item>
+        <item id="3758">Vacinação</item>
+        <item id="3759">Profilaxia</item>
+        <item id="3760">CIVP</item>
     </palavras-chave>
 </servico>
