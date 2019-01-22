@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cid-pagina-portal-capes-e-anvisa</id>
+    <dbId>1463</dbId>
+    <nome>(Cid) Página Portal - CAPES e ANVISA</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1257">CVI</item>
+        <item id="1258">CAPES</item>
+        <item id="1259">ANVISA</item>
+    </nomes-populares>
+    <descricao>Certificado Veterinário Internacional</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1276">
+            <tipo>Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>3</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2912">
+            <titulo>Solicitação do Certificado</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3119" tipo="web">
+                        <descricao>Portal de serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3017">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3018">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração</item>
+        <item>Agropecuária</item>
+        <item>Alimento</item>
+        <item>Biodiversidade</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3792">veterinário</item>
+        <item id="3793">bicho</item>
+        <item id="3794">mapa</item>
+    </palavras-chave>
+</servico>
