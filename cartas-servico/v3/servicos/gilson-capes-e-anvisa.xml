@@ -5,9 +5,9 @@
     <nome>(GILSON)- CAPES E ANVISA</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="1251">CAPES</item>
-        <item id="1252">ANVISA</item>
-        <item id="1250">CVI</item>
+        <item id="1273">CAPES</item>
+        <item id="1274">ANVISA</item>
+        <item id="1275">CVI</item>
     </nomes-populares>
     <descricao>CERTIFICADO VETERINÁRIO INTERNACIONAL</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital>HTTPS://MPDG-TRN-PS.LECOM.COM.BR/PROCESSOS/INICIAR</link-servico-digital>
     <solicitantes>
-        <solicitante id="1273">
+        <solicitante id="1283">
             <tipo>CIDADÃO</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,7 +32,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2909">
+        <etapa id="2918">
             <titulo>SOLICITANTE</titulo>
             <descricao></descricao>
             <documentos>
@@ -43,26 +43,26 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3116" tipo="web">
+                    <canal-de-prestacao id="3125" tipo="web">
                         <descricao>PORTAL DE SERVIÇOS</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3012">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="3013">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="3026">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3027">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3783">BOLSA</item>
-        <item id="3784">BOLSA</item>
-        <item id="3785">BOLSA</item>
+        <item id="3810">BOLSA</item>
+        <item id="3811">BOLSA</item>
+        <item id="3812">BOLSA</item>
     </palavras-chave>
 </servico>
