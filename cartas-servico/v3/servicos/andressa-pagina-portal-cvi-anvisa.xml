@@ -5,9 +5,9 @@
     <nome>(Andressa) - Página Portal CVI - Anvisa</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="1253">CVI</item>
-        <item id="1254">ANVISA</item>
-        <item id="1255">CAPES</item>
+        <item id="1263">CVI</item>
+        <item id="1264">ANVISA</item>
+        <item id="1265">CAPES</item>
     </nomes-populares>
     <descricao>Certificado Veterinário Internacional</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1274">
+        <solicitante id="1278">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,7 +32,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2910">
+        <etapa id="2914">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -43,25 +43,25 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3117" tipo="web">
+                    <canal-de-prestacao id="3121" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687" dbId="914">
-        <nomeOrgao>Agência Nacional de Vigilância Sanitária (ANVISA)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3014">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3020">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Vigilância Sanitária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3786">cvi</item>
-        <item id="3787">certificado</item>
-        <item id="3788">veterinário</item>
+        <item id="3798">cvi</item>
+        <item id="3799">certificado</item>
+        <item id="3800">veterinário</item>
     </palavras-chave>
 </servico>
