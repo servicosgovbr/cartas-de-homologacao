@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>pricilla-pagina-portal-cvi-capes-e-anvisa</id>
+    <dbId>1457</dbId>
+    <nome>(Pricilla) - Página portal CVI - CAPES e ANVISA</nome>
+    <sigla>CVI</sigla>
+    <nomes-populares>
+        <item id="1242">CVI</item>
+        <item id="1243">CAPES</item>
+        <item id="1244">ANVISA</item>
+    </nomes-populares>
+    <descricao>Acúmulo de Bolsas - CCB.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1270">
+            <tipo>Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="1" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2906">
+            <titulo>solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3113" tipo="web">
+                        <descricao>Portal de Serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3007">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3008">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração</item>
+        <item>Habitação</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3774">cvi</item>
+        <item id="3775">certificado</item>
+        <item id="3776">veterinário</item>
+    </palavras-chave>
+</servico>
