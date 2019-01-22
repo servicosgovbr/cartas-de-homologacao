@@ -5,9 +5,9 @@
     <nome>(André Braga) - Cadastro Bolsas - CAPES</nome>
     <sigla>CBS</sigla>
     <nomes-populares>
-        <item id="1239">Bolsas</item>
-        <item id="1240">Cadastro</item>
-        <item id="1241">Bolsistas</item>
+        <item id="1270">Bolsas</item>
+        <item id="1271">Cadastro</item>
+        <item id="1272">Bolsistas</item>
     </nomes-populares>
     <descricao>Cadastramento para requisição de bolsas.</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1269">
+        <solicitante id="1282">
             <tipo>cidadão maior de 18 anos</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,7 +32,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2905">
+        <etapa id="2917">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -43,26 +43,26 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3112" tipo="web">
+                    <canal-de-prestacao id="3124" tipo="web">
                         <descricao>portal de serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3006">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3025">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3771">bolsas</item>
-        <item id="3772">estudo</item>
-        <item id="3773">doutorado</item>
+        <item id="3807">bolsas</item>
+        <item id="3808">estudo</item>
+        <item id="3809">doutorado</item>
     </palavras-chave>
 </servico>
