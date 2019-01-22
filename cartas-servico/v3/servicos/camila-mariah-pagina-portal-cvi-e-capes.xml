@@ -5,7 +5,7 @@
     <nome>(CAMILA MARIAH) - Página Portal - CVI  e CAPES</nome>
     <sigla>CGB</sigla>
     <nomes-populares>
-        <item id="1256">COORDENAÇÃO GERAL DE BOLSAS</item>
+        <item id="1269">COORDENAÇÃO GERAL DE BOLSAS</item>
     </nomes-populares>
     <descricao>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</descricao>
     <contato></contato>
@@ -14,7 +14,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1275">
+        <solicitante id="1281">
             <tipo>Cidadão universitário</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -30,7 +30,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2911">
+        <etapa id="2916">
             <titulo>Solicitante</titulo>
             <descricao></descricao>
             <documentos>
@@ -41,19 +41,19 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3118" tipo="web">
+                    <canal-de-prestacao id="3123" tipo="web">
                         <descricao>portal web</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3015">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="3016">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="3023">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3024">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação profissionalizante</item>
@@ -61,8 +61,8 @@
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3789">Bolsa</item>
-        <item id="3790">universitário</item>
-        <item id="3791">graduação</item>
+        <item id="3804">Bolsa</item>
+        <item id="3805">universitário</item>
+        <item id="3806">graduação</item>
     </palavras-chave>
 </servico>
