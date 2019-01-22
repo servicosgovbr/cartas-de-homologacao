@@ -5,9 +5,9 @@
     <nome>(Cid) Página Portal - CAPES e ANVISA</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="1257">CVI</item>
-        <item id="1258">CAPES</item>
-        <item id="1259">ANVISA</item>
+        <item id="1277">CVI</item>
+        <item id="1278">CAPES</item>
+        <item id="1279">ANVISA</item>
     </nomes-populares>
     <descricao>Certificado Veterinário Internacional</descricao>
     <contato></contato>
@@ -16,7 +16,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1276">
+        <solicitante id="1285">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,7 +32,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2912">
+        <etapa id="2920">
             <titulo>Solicitação do Certificado</titulo>
             <descricao></descricao>
             <documentos>
@@ -43,7 +43,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3119" tipo="web">
+                    <canal-de-prestacao id="3127" tipo="web">
                         <descricao>Portal de serviços</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -54,8 +54,8 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3017">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="3018">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="3030">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3031">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
@@ -64,8 +64,8 @@
         <item>Biodiversidade</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3792">veterinário</item>
-        <item id="3793">bicho</item>
-        <item id="3794">mapa</item>
+        <item id="3816">veterinário</item>
+        <item id="3817">bicho</item>
+        <item id="3818">mapa</item>
     </palavras-chave>
 </servico>
