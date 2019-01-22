@@ -5,18 +5,18 @@
     <nome>(Renata) - Página Portal CVI Anvisa</nome>
     <sigla>CVI</sigla>
     <nomes-populares>
-        <item id="1260">CertiPet</item>
-        <item id="1261">Anvisa</item>
-        <item id="1262">CVI</item>
+        <item id="1280">CertiPet</item>
+        <item id="1281">Anvisa</item>
+        <item id="1282">CVI</item>
     </nomes-populares>
     <descricao>É massa véi... bichano, totó, lôro.. tudo certificado para o estrangeiro!</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
-    <link-servico-digital>https://mpdg-trs-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1277">
+        <solicitante id="1286">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -32,7 +32,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2913">
+        <etapa id="2921">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -43,7 +43,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3120" tipo="web">
+                    <canal-de-prestacao id="3128" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -54,15 +54,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3019">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3032">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Alimento</item>
         <item>Defesa agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3795">Totó</item>
-        <item id="3796">certificado</item>
-        <item id="3797">vacinação</item>
+        <item id="3819">Totó</item>
+        <item id="3820">certificado</item>
+        <item id="3821">vacinação</item>
     </palavras-chave>
 </servico>
