@@ -5,9 +5,9 @@
     <nome>(Monica) - Atendimento Educacional Especial - PROEB CAPES</nome>
     <sigla>AEE PROEB CAPES</sigla>
     <nomes-populares>
-        <item id="1236">AEE</item>
-        <item id="1237">PROEB</item>
-        <item id="1238">CAPES</item>
+        <item id="1266">AEE</item>
+        <item id="1267">PROEB</item>
+        <item id="1268">CAPES</item>
     </nomes-populares>
     <descricao>Certificado</descricao>
     <contato></contato>
@@ -16,11 +16,11 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1267">
+        <solicitante id="1279">
             <tipo>Bolsista UAB</tipo>
             <requisitos></requisitos>
         </solicitante>
-        <solicitante id="1268">
+        <solicitante id="1280">
             <tipo>Coordenador UAB</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -36,13 +36,13 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2904">
+        <etapa id="2915">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="2470">Laudo Médico</item>
-                    <item id="2471">Projeto Pedagógico de Atendimento Especial</item>
+                    <item id="2472">Laudo Médico</item>
+                    <item id="2473">Projeto Pedagógico de Atendimento Especial</item>
                 </default>
             </documentos>
             <custos>
@@ -50,19 +50,19 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3111" tipo="web">
+                    <canal-de-prestacao id="3122" tipo="web">
                         <descricao>Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
-        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3004">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="3005">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="3021">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3022">Órgãos e entidades públicas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
@@ -70,8 +70,8 @@
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3768">AEE</item>
-        <item id="3769">Bolsa</item>
-        <item id="3770">Tutor</item>
+        <item id="3801">AEE</item>
+        <item id="3802">Bolsa</item>
+        <item id="3803">Tutor</item>
     </palavras-chave>
 </servico>
