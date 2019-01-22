@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>monica-atendimento-educacional-especial-proeb-capes</id>
+    <dbId>1455</dbId>
+    <nome>(Monica) - Atendimento Educacional Especial - PROEB CAPES</nome>
+    <sigla>AEE PROEB CAPES</sigla>
+    <nomes-populares>
+        <item id="1236">AEE</item>
+        <item id="1237">PROEB</item>
+        <item id="1238">CAPES</item>
+    </nomes-populares>
+    <descricao>Certificado</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1267">
+            <tipo>Bolsista UAB</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+        <solicitante id="1268">
+            <tipo>Coordenador UAB</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2904">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="2470">Laudo Médico</item>
+                    <item id="2471">Projeto Pedagógico de Atendimento Especial</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3111" tipo="web">
+                        <descricao>Portal de Serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3004">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3005">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação</item>
+        <item>Educação profissionalizante</item>
+        <item>Educação superior</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3768">AEE</item>
+        <item id="3769">Bolsa</item>
+        <item id="3770">Tutor</item>
+    </palavras-chave>
+</servico>
