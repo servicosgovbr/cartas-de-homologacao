@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1289">
+        <solicitante id="1293">
             <tipo>.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2924">
+        <etapa id="2937">
             <titulo>.</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,25 +35,25 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3131" tipo="web-preencher">
+                    <canal-de-prestacao id="3144" tipo="web-preencher">
                         <descricao>.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="" dbId="58059">
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/3162" dbId="37530">
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3037">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3041">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3828">despacho</item>
-        <item id="3829">executivo</item>
-        <item id="3830">mdic</item>
+        <item id="3840">despacho</item>
+        <item id="3841">executivo</item>
+        <item id="3842">mdic</item>
     </palavras-chave>
 </servico>
