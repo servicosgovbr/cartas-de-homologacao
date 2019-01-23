@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitar-despachos-de-operacoes-de-comercio-exterior</id>
+    <dbId>1476</dbId>
+    <nome>Solicitar despachos de operações de comércio exterior</nome>
+    <sigla></sigla>
+    <descricao>Agendamento de atendimentos individualizados realizados por técnicos do Departamento de Operações de Comércio Exterior (DECEX) a empresas que apresentem dificuldades em casos concretos relacionados às competências do Departamento, com posterior avaliação desses atendimentos pelos usuários.</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1290">
+            <tipo>Operadores de comércio exterior</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2925">
+            <titulo>Preencher formulário requisitando atendimento</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3132" tipo="web">
+                        <descricao>https://servicos.nuvem.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2926">
+            <titulo>Enviar formulário por email ao DECEX</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3133" tipo="e-mail">
+                        <descricao>decex.despachos@mdic.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2927">
+            <titulo>Receber resposta sobre o agendamento</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3134" tipo="e-mail">
+                        <descricao>informado na solicitação</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2928">
+            <titulo>Ser atendido para despacho de operações de comércio exterior</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3135" tipo="presencial">
+                        <descricao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)
+Secretaria de Comércio Exterior - SECEX
+Departamento de Operações de Comércio Exterior - DECEX
+Esplanada dos Ministérios, Bloco “J”, 4º andar,
+CEP 70.053.900</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="" dbId="58059">
+        <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="3038">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comercio externo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3831">Despacho</item>
+        <item id="3832">comércio exterior</item>
+        <item id="3833">agendamento</item>
+    </palavras-chave>
+</servico>
