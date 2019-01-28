@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>false</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1292">
+        <solicitante id="1297">
             <tipo>Operadores de comércio exterior</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2933">
+        <etapa id="2942">
             <titulo>Preencher formulário requisitando atendimento</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,13 +35,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3140" tipo="web">
+                    <canal-de-prestacao id="3150" tipo="web">
                         <descricao>https://servicos.nuvem.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2934">
+        <etapa id="2943">
             <titulo>Enviar formulário por email ao DECEX</titulo>
             <descricao></descricao>
             <documentos>
@@ -52,13 +52,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3141" tipo="e-mail">
+                    <canal-de-prestacao id="3151" tipo="e-mail">
                         <descricao>decex.despachos@mdic.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2935">
+        <etapa id="2944">
             <titulo>Receber resposta sobre o agendamento</titulo>
             <descricao></descricao>
             <documentos>
@@ -69,13 +69,13 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3142" tipo="e-mail">
+                    <canal-de-prestacao id="3152" tipo="e-mail">
                         <descricao>informado na solicitação</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2936">
+        <etapa id="2945">
             <titulo>Ser atendido para despacho de operações de comércio exterior</titulo>
             <descricao></descricao>
             <documentos>
@@ -86,7 +86,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3143" tipo="presencial">
+                    <canal-de-prestacao id="3153" tipo="presencial">
                         <descricao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)
 Secretaria de Comércio Exterior - SECEX
 Departamento de Operações de Comércio Exterior - DECEX
@@ -101,14 +101,14 @@ CEP 70.053.900</descricao>
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="3040">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="3047">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comercio externo</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3837">Despacho</item>
-        <item id="3838">comércio exterior</item>
-        <item id="3839">agendamento</item>
+        <item id="3853">Despacho</item>
+        <item id="3854">comércio exterior</item>
+        <item id="3855">agendamento</item>
     </palavras-chave>
 </servico>
