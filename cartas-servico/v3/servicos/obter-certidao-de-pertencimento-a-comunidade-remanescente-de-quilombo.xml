@@ -5,17 +5,17 @@
     <nome>Obter Certidão de Pertencimento a Comunidade Remanescente de Quilombo</nome>
     <sigla>FCP-A02</sigla>
     <nomes-populares>
-        <item id="1298">Bolsa Permanência Quilombola</item>
+        <item id="1299">Bolsa Permanência Quilombola</item>
     </nomes-populares>
     <descricao>A Bolsa Permanência é um auxílio financeiro que tem por finalidade minimizar as desigualdades sociais e contribuir para a permanência e a diplomação dos estudantes de graduação em situação de vulnerabilidade socioeconômica. Seu valor, estabelecido pelo Ministério da Educação, é equivalente ao praticado na política federal de concessão de bolsas de iniciação científica atualmente de R$ 400,00 (quatrocentos reais). Para os estudantes indígenas e quilombolas, será garantido um valor diferenciado, igual a pelo menos o dobro da bolsa paga aos demais estudantes, em razão de suas especificidades com relação à organização social de suas comunidades, condição geográfica, costumes, línguas, crenças e tradições, amparadas ela Constituição Federal.
 Estudantes indígenas e quilombolas matriculados em cursos de licenciaturas interculturais para formação de professores fazem jus, durante os períodos de atividades pedagógicas formativas na IFES, a bolsa de permanência até o limite máximo de seis meses.</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>http://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1301">
+        <solicitante id="1302">
             <tipo>Estudantes de instituição federal de ensino superior</tipo>
             <requisitos>Poderá receber a Bolsa Permanência o estudante que cumprir, cumulativamente, as seguintes condições:
 I – Pertencer a uma comunidade remanescente de quilombo certificada pela Fundação Cultural Palmares;
@@ -35,12 +35,12 @@ Além disso, o Programa prioriza os indígenas e quilombolas, que, independente 
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2949">
+        <etapa id="2950">
             <titulo>Solicitação</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="2485">I - Declaração onde o aluno auto define-se como quilombola;
+                    <item id="2486">I - Declaração onde o aluno auto define-se como quilombola;
 II - Declaração de sua comunidade informando que o aluno é quilombola pertencente a sua comunidade e assinada por 3 (três) lideranças da comunidade ligadas à associação da comunidade;
 III - Cópia do RG e CPF.</item>
                 </default>
@@ -50,13 +50,13 @@ III - Cópia do RG e CPF.</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3163" tipo="presencial">
+                    <canal-de-prestacao id="3166" tipo="presencial">
                         <descricao>Fundação Cultural Palmares - Setor Comercial Sul - SCS Quadra 02, Bloco C, nº 256 - Ed. Toufic - CEP 70.302-000 - Brasília - DF ou em uma das suas Representações Regionais</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3164" tipo="telefone">
+                    <canal-de-prestacao id="3167" tipo="telefone">
                         <descricao>(61) 3424-0101 / 0145</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3165" tipo="e-mail">
+                    <canal-de-prestacao id="3168" tipo="e-mail">
                         <descricao>dpa@palmares.gov.br</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -67,15 +67,15 @@ III - Cópia do RG e CPF.</item>
         <nomeOrgao>Fundação Cultural Palmares (FCP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3051">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3052">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Educação</item>
         <item>Educação superior</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3865">Bolsa Permanência</item>
-        <item id="3866">Palmares</item>
-        <item id="3867">Certidão</item>
+        <item id="3868">Bolsa Permanência</item>
+        <item id="3869">Palmares</item>
+        <item id="3870">Certidão</item>
     </palavras-chave>
 </servico>
