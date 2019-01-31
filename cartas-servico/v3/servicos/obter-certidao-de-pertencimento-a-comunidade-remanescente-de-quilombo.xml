@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-certidao-de-pertencimento-a-comunidade-remanescente-de-quilombo</id>
+    <dbId>1484</dbId>
+    <nome>Obter Certidão de Pertencimento a Comunidade Remanescente de Quilombo</nome>
+    <sigla>FCP-A03</sigla>
+    <nomes-populares>
+        <item id="1295">Bolsa Permanência Quilombola</item>
+    </nomes-populares>
+    <descricao>A Bolsa Permanência é um auxílio financeiro que tem por finalidade minimizar as desigualdades sociais e contribuir para a permanência e a diplomação dos estudantes de graduação em situação de vulnerabilidade socioeconômica. Seu valor, estabelecido pelo Ministério da Educação, é equivalente ao praticado na política federal de concessão de bolsas de iniciação científica atualmente de R$ 400,00 (quatrocentos reais). Para os estudantes indígenas e quilombolas, será garantido um valor diferenciado, igual a pelo menos o dobro da bolsa paga aos demais estudantes, em razão de suas especificidades com relação à organização social de suas comunidades, condição geográfica, costumes, línguas, crenças e tradições, amparadas ela Constituição Federal.
+Estudantes indígenas e quilombolas matriculados em cursos de licenciaturas interculturais para formação de professores fazem jus, durante os períodos de atividades pedagógicas formativas na IFES, a bolsa de permanência até o limite máximo de seis meses.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1298">
+            <tipo>Estudantes de instituição federal de ensino superior</tipo>
+            <requisitos>Poderá receber a Bolsa Permanência o estudante que cumprir, cumulativamente, as seguintes condições:
+I – Pertencer a uma comunidade remanescente de quilombo certificada pela Fundação Cultural Palmares;
+II – Possuir renda familiar per capita não superior a um 1,5 salário-mínimo;
+II – Estar matriculado em cursos de graduação com carga horária média superior ou igual a cinco horas diárias;
+III – Não ultrapassar dois semestres do tempo regulamentar do curso de graduação em que estiver matriculado para se diplomar;
+IV – Ter assinado Termo de Compromisso;
+V – Ter seu cadastro devidamente aprovado e mensalmente homologado pela Instituição Federal de Ensino Superior no âmbito do sistema de informação do programa.
+Além disso, o Programa prioriza os indígenas e quilombolas, que, independente da carga horária dos cursos nos quais estão matriculados, poderão receber o recurso.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2946">
+            <titulo>Solicitação</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="2482">I - Declaração onde o aluno auto define-se como quilombola;
+II - Declaração de sua comunidade informando que o aluno é quilombola pertencente a sua comunidade e assinada por 3 (três) lideranças da comunidade ligadas à associação da comunidade;
+III - Cópia do RG e CPF.</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3156" tipo="presencial">
+                        <descricao>Fundação Cultural Palmares - Setor Comercial Sul - SCS Quadra 02, Bloco C, nº 256 - Ed. Toufic - CEP 70.302-000 - Brasília - DF ou em uma das suas Representações Regionais</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="3155" tipo="telefone">
+                        <descricao>(61) 3424-0101 / 0145</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="3154" tipo="e-mail">
+                        <descricao>dpa@palmares.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1782" dbId="34302">
+        <nomeOrgao>Fundação Cultural Palmares (FCP)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3048">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação</item>
+        <item>Educação superior</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3856">Bolsa Permanência</item>
+        <item id="3857">Palmares</item>
+        <item id="3858">Certidão</item>
+    </palavras-chave>
+</servico>
