@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-certificado-de-venda-livre-para-exportacao-de-alimentos</id>
+    <dbId>1490</dbId>
+    <nome>Obter Certificado de Venda Livre para exportação de alimentos</nome>
+    <sigla>CVLEA</sigla>
+    <descricao>Ferramenta para que empresas possam solicitar a emissão de Certificado de Venda Livre para exportação de alimentos - CVLEA.</descricao>
+    <contato></contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1304">
+            <tipo>Empresas que exportam alimentos</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2952">
+            <titulo>Solicitar</titulo>
+            <descricao>Para a solicitar o serviço, o usuário deve ter em mãos os dados do produto que será exportado, tais como lotes, quantidade, porto de saída e de entrada. É importante também que o usuário conheça a regulamentação do país importador.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3170" tipo="web">
+                        <descricao>https://www.servicos.gov.br</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/36687" dbId="914">
+        <nomeOrgao>Agência Nacional de Vigilância Sanitária (ANVISA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="3054">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Alimento</item>
+        <item>Comercio externo</item>
+        <item>Vigilância Sanitária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3874">Exportação</item>
+        <item id="3875">Alimentos</item>
+        <item id="3876">Venda livre</item>
+        <item id="3877">Certificado</item>
+    </palavras-chave>
+</servico>
