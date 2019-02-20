@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <id>obter-autorizacao-para-uso-do-selo-de-identificacao-da-conformidade-em-material-publicitario</id>
-    <dbId>1321</dbId>
+    <dbId>1164</dbId>
     <nome>Obter autorização para uso do selo de identificação da conformidade em material publicitário</nome>
     <sigla></sigla>
-    <nomes-populares>
-        <item id="1217">Selos em material publicitário</item>
-    </nomes-populares>
-    <descricao>Uso das marcas, dos símbolos, dos selos e das etiquetas do Inmetro em material publicitário.</descricao>
-    <contato>(21) 2563-2832/5696</contato>
+    <descricao>Autorização de divulgação dos selos de identificação da conformidade, em material publicitário.</descricao>
+    <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1231">
-            <tipo>Pessoa jurídica</tipo>
-            <requisitos>Certificado de conformidade do serviço válido, seguir as regras de uso descrito na Portaria (regulamento) e em outros documentos administrativos.</requisitos>
+        <solicitante id="917">
+            <tipo>Empresas privadas</tipo>
+            <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="15" unidade="dias-uteis"/>
-        <descricao></descricao>
+        <entre min="2" max="7" unidade="dias-corridos"/>
+        <descricao>Entre 2 e 7 dias corridos é o tempo estimado para a prestação deste serviço.</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2848">
-            <titulo>Autorização do uso do selo em material publicitário</titulo>
-            <descricao>Solicitação de autorização, informando o canal de divulgação.</descricao>
+        <etapa id="2288">
+            <titulo>Requisitar autorização</titulo>
+            <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="2426">Cópia do certificado, layout do material a ser divulgado.  A validade da autorização está vinculada à validade do atestado da conformidade.</item>
+                    <item id="1655">Documentação em comum para todos os casos
+1) Solicitação de autorização, informando-nos o canal de divulgação;
+2) Cópia do certificado;
+3) Layout do material a ser divulgado com selo.</item>
                 </default>
             </documentos>
             <custos>
@@ -40,8 +40,11 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3046" tipo="web">
-                        <descricao>www.servicos.gov.br</descricao>
+                    <canal-de-prestacao id="2367" tipo="e-mail">
+                        <descricao>selos.dconf@inmetro.gov.br</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="2366" tipo="telefone">
+                        <descricao>(21) 2563-5696 / 2832</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -51,18 +54,14 @@
         <nomeOrgao>Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2956">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2543">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
-        <item>Propriedade Industrial</item>
+        <item>Administração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3667">selo do inmetro</item>
-        <item id="3668">propaganda</item>
-        <item id="3669">iso</item>
+        <item id="2751">selo</item>
+        <item id="2752">material</item>
+        <item id="2753">publicitário</item>
     </palavras-chave>
-    <legislacoes>
-        <item id="952">Portaria n/ 274, de 13 de junho de 2014.
-Lei n° 927/96.</item>
-    </legislacoes>
 </servico>
