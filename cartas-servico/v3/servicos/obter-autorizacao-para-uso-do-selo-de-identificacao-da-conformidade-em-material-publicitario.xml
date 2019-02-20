@@ -11,25 +11,35 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="917">
+        <solicitante id="918">
             <tipo>Empresas privadas</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <entre min="2" max="7" unidade="dias-corridos"/>
-        <descricao>Entre 2 e 7 dias corridos é o tempo estimado para a prestação deste serviço.</descricao>
+        <descricao>Tratamento a ser dispensado ao usuário no atendimento
+O usuário deverá receber, conforme os princípios expressos na lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes:
+· Urbanidade;
+· Respeito;
+· Acessibilidade;
+· Cortesia;
+· Presunção da boa-fé do usuário;
+· Igualdade;
+· Eficiência;
+· Segurança; e
+· Ética</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2288">
+        <etapa id="2289">
             <titulo>Requisitar autorização</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="1655">Documentação em comum para todos os casos
+                    <item id="1656">Documentação em comum para todos os casos
 1) Solicitação de autorização, informando-nos o canal de divulgação;
 2) Cópia do certificado;
 3) Layout do material a ser divulgado com selo.</item>
@@ -40,10 +50,10 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2367" tipo="e-mail">
+                    <canal-de-prestacao id="2368" tipo="e-mail">
                         <descricao>selos.dconf@inmetro.gov.br</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2366" tipo="telefone">
+                    <canal-de-prestacao id="2369" tipo="telefone">
                         <descricao>(21) 2563-5696 / 2832</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -54,14 +64,20 @@
         <nomeOrgao>Instituto Nacional de Metrologia, Qualidade e Tecnologia (INMETRO)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2543">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="2544">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Administração</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="2751">selo</item>
-        <item id="2752">material</item>
-        <item id="2753">publicitário</item>
+        <item id="2754">selo</item>
+        <item id="2755">material</item>
+        <item id="2756">publicitário</item>
     </palavras-chave>
+    <legislacoes>
+        <item id="717">Informações sobre as condições de acessibilidade, sinalização, limpeza e conforto dos locais de atendimento
+O usuário do serviço público, conforme estabelecido pela lei nº13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.</item>
+        <item id="718">Informação sobre quem tem direito a tratamento prioritário
+Tem direito a atendimento prioritário as pessoas com deficiência, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os obesos, conforme estabelecido pela lei 10.048, de 8 de novembro de 2000​</item>
+    </legislacoes>
 </servico>
