@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>solicitar-negociacao-online</id>
+    <dbId>1493</dbId>
+    <nome>Solicitar negociação online</nome>
+    <sigla></sigla>
+    <descricao>A Portaria PGU nº02/2012 criou, de modo permanente, as Centrais de Negociação. Trata-se de projeto estruturante que cria centros permanentes de negociação com as partes que litigam contra a União. A dinâmica das Centrais de Negociação baseia-se na elaboração de Planos de Negociação, incluindo matérias que envolvam demandas repetitivas ou de massa.
+Por meio das Centrais, os advogados da União empreendem negociação com partes de processos judiciais ou com pessoas que ainda não ajuizaram ações na Justiça em relação a assuntos pré-determinados, utilizando parâmetros previamente estabelecidos.</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1311">
+            <tipo>Credores da União (Administração Direta) em matérias objeto de Planos Nacionais de Negociação</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2963">
+            <titulo>Preencher formulário de acordo</titulo>
+            <descricao>O usuário deverá selecionar o Plano Nacional de Negociação, de acordo com os temas previamente estabelecidos pela PGU, e preencher o formulário específico, informando se o conflito está judicializado ou não.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3181" tipo="web">
+                        <descricao>https://servicos.nuvem.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2964">
+            <titulo>Assinar termo de acordo extrajudicial (demandas não judicializadas)</titulo>
+            <descricao>Se a demanda não estiver judicializada e o pleito for atendido, o requerente é chamado para assinar o termo de acordo extrajudicial e esse termo é peticionado em juízo para homologação judicial.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3182" tipo="presencial">
+                        <descricao>Central de Negociação mais próxima à residência do requerente.</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2965">
+            <titulo>Apresentar informações/documentos adicionais</titulo>
+            <descricao>Durante a análise do pleito, podem ser solicitados documentos/informações adicionais ao requerente.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3183" tipo="web">
+                        <descricao>https://servicos.nuvem.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2966">
+            <titulo>Receber resultado da análise</titulo>
+            <descricao>Caso o pleito seja atendido, o acordo é peticionado em juízo para concordância do advogado do requerente e homologação judicial. Caso o pleito seja rejeitado, a demanda de acordo é arquivada.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3184" tipo="web">
+                        <descricao>https://servicos.nuvem.gov.br/</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/46" dbId="822">
+        <nomeOrgao>Advocacia-Geral da União (AGU)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="2" idServicoSegmento="3063">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="3064">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Relações de Trabalho</item>
+        <item>Proteção e Benefícios ao Trabalhador</item>
+        <item>Serviços Públicos</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3891">Centrais de Negociação</item>
+        <item id="3892">AGU</item>
+        <item id="3893">PGU</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="971">Portaria AGU nº990, de 16 de julho de 2009;
+Portaria PGU nº02, de 14 de dezembro de 2012.</item>
+    </legislacoes>
+</servico>
