@@ -30511,6 +30511,83 @@ controles oficiais do MAPA após ter seus dados e escopo publicados no sítio el
         </areas-de-interesse>
     </servico>
     <servico>
+        <id>servico-prime</id>
+        <dbId>1494</dbId>
+        <nome>Serviço PRIME</nome>
+        <sigla></sigla>
+        <descricao>Aqui vai uma breve descrição do serviço</descricao>
+        <contato></contato>
+        <gratuito>true</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+        <solicitantes>
+            <solicitante id="1310">
+                <tipo>O solicitante do tipo 1</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="2961">
+                <titulo>Etapa 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="3179" tipo="web">
+                            <descricao>321</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="2962">
+                <titulo>Etapa 2</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="3180" tipo="web">
+                            <descricao>123</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+            <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="3062">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Biodiversidade</item>
+            <item>Defesa militar</item>
+            <item>Saneamento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="3888">Prime</item>
+            <item id="3889">Treinamento</item>
+            <item id="3890">Teste</item>
+        </palavras-chave>
+    </servico>
+    <servico>
         <id>avaliar-estabelecimentos-servicos-acessiveis</id>
         <dbId>4</dbId>
         <nome>Avaliar estabelecimentos/serviços acessíveis</nome>
@@ -48658,10 +48735,10 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
         <contato></contato>
         <gratuito>true</gratuito>
         <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
         <solicitantes>
-            <solicitante id="1309">
+            <solicitante id="1311">
                 <tipo>Credores da União (Administração Direta) em matérias objeto de Planos Nacionais de Negociação</tipo>
                 <requisitos></requisitos>
             </solicitante>
@@ -48674,7 +48751,7 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             <descricao></descricao>
         </validade-documento>
         <etapas>
-            <etapa id="2957">
+            <etapa id="2963">
                 <titulo>Preencher formulário de acordo</titulo>
                 <descricao>O usuário deverá selecionar o Plano Nacional de Negociação, de acordo com os temas previamente estabelecidos pela PGU, e preencher o formulário específico, informando se o conflito está judicializado ou não.</descricao>
                 <documentos>
@@ -48685,13 +48762,13 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="3175" tipo="web">
+                        <canal-de-prestacao id="3181" tipo="web">
                             <descricao>https://servicos.nuvem.gov.br/</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="2958">
+            <etapa id="2964">
                 <titulo>Assinar termo de acordo extrajudicial (demandas não judicializadas)</titulo>
                 <descricao>Se a demanda não estiver judicializada e o pleito for atendido, o requerente é chamado para assinar o termo de acordo extrajudicial e esse termo é peticionado em juízo para homologação judicial.</descricao>
                 <documentos>
@@ -48702,13 +48779,13 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="3176" tipo="presencial">
+                        <canal-de-prestacao id="3182" tipo="presencial">
                             <descricao>Central de Negociação mais próxima à residência do requerente.</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="2959">
+            <etapa id="2965">
                 <titulo>Apresentar informações/documentos adicionais</titulo>
                 <descricao>Durante a análise do pleito, podem ser solicitados documentos/informações adicionais ao requerente.</descricao>
                 <documentos>
@@ -48719,13 +48796,13 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="3177" tipo="web">
+                        <canal-de-prestacao id="3183" tipo="web">
                             <descricao>https://servicos.nuvem.gov.br/</descricao>
                         </canal-de-prestacao>
                     </default>
                 </canais-de-prestacao>
             </etapa>
-            <etapa id="2960">
+            <etapa id="2966">
                 <titulo>Receber resultado da análise</titulo>
                 <descricao>Caso o pleito seja atendido, o acordo é peticionado em juízo para concordância do advogado do requerente e homologação judicial. Caso o pleito seja rejeitado, a demanda de acordo é arquivada.</descricao>
                 <documentos>
@@ -48736,7 +48813,7 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
                 </custos>
                 <canais-de-prestacao>
                     <default>
-                        <canal-de-prestacao id="3178" tipo="web">
+                        <canal-de-prestacao id="3184" tipo="web">
                             <descricao>https://servicos.nuvem.gov.br/</descricao>
                         </canal-de-prestacao>
                     </default>
@@ -48747,8 +48824,8 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             <nomeOrgao>Advocacia-Geral da União (AGU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="3060">Órgãos e entidades públicas</item>
-            <item idSegmento="1" idServicoSegmento="3061">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="3063">Órgãos e entidades públicas</item>
+            <item idSegmento="1" idServicoSegmento="3064">Cidadãos</item>
         </segmentos-da-sociedade>
         <areas-de-interesse>
             <item>Relações de Trabalho</item>
@@ -48756,12 +48833,12 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             <item>Serviços Públicos</item>
         </areas-de-interesse>
         <palavras-chave>
-            <item id="3885">Centrais de Negociação</item>
-            <item id="3886">AGU</item>
-            <item id="3887">PGU</item>
+            <item id="3891">Centrais de Negociação</item>
+            <item id="3892">AGU</item>
+            <item id="3893">PGU</item>
         </palavras-chave>
         <legislacoes>
-            <item id="970">Portaria AGU nº990, de 16 de julho de 2009;
+            <item id="971">Portaria AGU nº990, de 16 de julho de 2009;
 Portaria PGU nº02, de 14 de dezembro de 2012.</item>
         </legislacoes>
     </servico>
