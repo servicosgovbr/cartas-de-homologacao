@@ -4,29 +4,29 @@
     <dbId>1494</dbId>
     <nome>Serviço PRIME</nome>
     <sigla></sigla>
-    <descricao>Aqui vai uma breve descrição do serviço</descricao>
-    <contato></contato>
+    <descricao>abc</descricao>
+    <contato>123</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
         <solicitante id="1310">
-            <tipo>O solicitante do tipo 1</tipo>
+            <tipo>123</tipo>
             <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <nao-estimado-ainda/>
-        <descricao></descricao>
+        <descricao>123</descricao>
     </tempo-total-estimado>
     <validade-documento>
         <descricao></descricao>
     </validade-documento>
     <etapas>
         <etapa id="2961">
-            <titulo>Etapa 1</titulo>
-            <descricao></descricao>
+            <titulo>123</titulo>
+            <descricao>321</descricao>
             <documentos>
                 <default/>
             </documentos>
@@ -36,23 +36,6 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao id="3179" tipo="web">
-                        <descricao>321</descricao>
-                    </canal-de-prestacao>
-                </default>
-            </canais-de-prestacao>
-        </etapa>
-        <etapa id="2962">
-            <titulo>Etapa 2</titulo>
-            <descricao></descricao>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao id="3180" tipo="web">
                         <descricao>123</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -67,12 +50,12 @@
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Biodiversidade</item>
-        <item>Defesa militar</item>
-        <item>Saneamento</item>
+        <item>Mineração</item>
+        <item>Serviços Urbanos</item>
     </areas-de-interesse>
     <palavras-chave>
         <item id="3888">Prime</item>
         <item id="3889">Treinamento</item>
-        <item id="3890">Teste</item>
+        <item id="3890">Capacitação</item>
     </palavras-chave>
 </servico>
