@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-fx</id>
+    <dbId>1503</dbId>
+    <nome>Treinamento FX</nome>
+    <sigla></sigla>
+    <descricao>Teste realizado no treinamento!</descricao>
+    <contato>99-9999-9999</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1320">
+            <tipo>C&lt;b&gt;idadã&lt;/b&gt;o</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2980">
+            <titulo>Solicitação</titulo>
+            <descricao>teste!
+
+Preenchimento das informações do solicitante do serviço
+
+&lt;i&gt;teste&lt;/i&gt;
+
+&lt;b&gt;teste&lt;/b&gt;</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3190" tipo="web">
+                        <descricao>teste!</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2981">
+            <titulo>Análise</titulo>
+            <descricao>Análise interna do órgão</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3191" tipo="web">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="2982">
+            <titulo>Resultado</titulo>
+            <descricao>Deferimento ou indeferimento da solicitação do serviço</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3192" tipo="web">
+                        <descricao>teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3074">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3075">Empresas</item>
+        <item idSegmento="2" idServicoSegmento="3076">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="3077">Demais segmentos (ONGs, organizações sociais, etc)</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração</item>
+        <item>Administração Financeira</item>
+        <item>Preservação e Conservação Ambiental</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3906">teste 1</item>
+        <item id="3907">teste 2</item>
+        <item id="3908">teste 3</item>
+    </palavras-chave>
+</servico>
