@@ -12,7 +12,7 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1311">
+        <solicitante id="1321">
             <tipo>Credores da União (Administração Direta) em matérias objeto de Planos Nacionais de Negociação</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -25,7 +25,7 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2963">
+        <etapa id="2983">
             <titulo>Preencher formulário de acordo</titulo>
             <descricao>O usuário deverá selecionar o Plano Nacional de Negociação, de acordo com os temas previamente estabelecidos pela PGU, e preencher o formulário específico, informando se o conflito está judicializado ou não.</descricao>
             <documentos>
@@ -36,13 +36,13 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3181" tipo="web">
+                    <canal-de-prestacao id="3201" tipo="web">
                         <descricao>https://servicos.nuvem.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2964">
+        <etapa id="2984">
             <titulo>Assinar termo de acordo extrajudicial (demandas não judicializadas)</titulo>
             <descricao>Se a demanda não estiver judicializada e o pleito for atendido, o requerente é chamado para assinar o termo de acordo extrajudicial e esse termo é peticionado em juízo para homologação judicial.</descricao>
             <documentos>
@@ -53,13 +53,13 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3182" tipo="presencial">
+                    <canal-de-prestacao id="3202" tipo="presencial">
                         <descricao>Central de Negociação mais próxima à residência do requerente.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2965">
+        <etapa id="2985">
             <titulo>Apresentar informações/documentos adicionais</titulo>
             <descricao>Durante a análise do pleito, podem ser solicitados documentos/informações adicionais ao requerente.</descricao>
             <documentos>
@@ -70,13 +70,13 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3183" tipo="web">
+                    <canal-de-prestacao id="3203" tipo="web">
                         <descricao>https://servicos.nuvem.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2966">
+        <etapa id="2986">
             <titulo>Receber resultado da análise</titulo>
             <descricao>Caso o pleito seja atendido, o acordo é peticionado em juízo para concordância do advogado do requerente e homologação judicial. Caso o pleito seja rejeitado, a demanda de acordo é arquivada.</descricao>
             <documentos>
@@ -87,7 +87,7 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3184" tipo="web">
+                    <canal-de-prestacao id="3204" tipo="web">
                         <descricao>https://servicos.nuvem.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -98,8 +98,8 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
         <nomeOrgao>Advocacia-Geral da União (AGU)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="2" idServicoSegmento="3063">Órgãos e entidades públicas</item>
-        <item idSegmento="1" idServicoSegmento="3064">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3078">Órgãos e entidades públicas</item>
+        <item idSegmento="1" idServicoSegmento="3079">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Relações de Trabalho</item>
@@ -107,12 +107,12 @@ Por meio das Centrais, os advogados da União empreendem negociação com partes
         <item>Serviços Públicos</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3891">Centrais de Negociação</item>
-        <item id="3892">AGU</item>
-        <item id="3893">PGU</item>
+        <item id="3918">Centrais de Negociação</item>
+        <item id="3919">AGU</item>
+        <item id="3920">PGU</item>
     </palavras-chave>
     <legislacoes>
-        <item id="971">Portaria AGU nº990, de 16 de julho de 2009;
+        <item id="972">Portaria AGU nº990, de 16 de julho de 2009;
 Portaria PGU nº02, de 14 de dezembro de 2012.</item>
     </legislacoes>
 </servico>
