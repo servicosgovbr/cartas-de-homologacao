@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-rarl</id>
+    <dbId>1500</dbId>
+    <nome>serviço rarl</nome>
+    <sigla>servico_rarl</sigla>
+    <nomes-populares>
+        <item id="1305">servico_nome_popular</item>
+    </nomes-populares>
+    <descricao>descrição do serviço</descricao>
+    <contato>99988222</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1313">
+            <tipo>everybody</tipo>
+            <requisitos>ser brasileiro nato ou naturalizado</requisitos>
+        </solicitante>
+        <solicitante id="1314">
+            <tipo>gringo</tipo>
+            <requisitos>requisito 2</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>30</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="2964">
+            <titulo>etapa 1</titulo>
+            <descricao>descrição etapa 1</descricao>
+            <documentos>
+                <default>
+                    <item id="2490">documentação da etapa 1</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3182" tipo="presencial">
+                        <descricao>SDVGSDVSD</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3064">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Ambiente e saúde</item>
+        <item>Agropecuária</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3915">VSD</item>
+        <item id="3916">VSD</item>
+        <item id="3917">SDV</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="971">8112</item>
+    </legislacoes>
+</servico>
