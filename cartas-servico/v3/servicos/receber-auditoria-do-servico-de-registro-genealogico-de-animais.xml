@@ -8,10 +8,10 @@
     <contato>MAPA</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1099">
+        <solicitante id="1323">
             <tipo>Auditor Fiscal Federal Agropecuário</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2579">
+        <etapa id="2988">
             <titulo>Oficiar a associação</titulo>
             <descricao>O AFFA envia ofício comunicando a realização de auditoria na associação.
 
@@ -37,13 +37,13 @@ Essa ação será precedida do preenchimento, por parte do superintendente da as
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2726" tipo="web">
+                    <canal-de-prestacao id="3206" tipo="web">
                         <descricao>por meio do Portal de Serviços</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2580">
+        <etapa id="2989">
             <titulo>Auditar a associação</titulo>
             <descricao>O AFFA envia ofício comunicando a realização de auditoria na associação;
 O AFFA realiza auditoria "in loco" na associação, preenche um formulário padronizado no sistema, que gera um relatório para consultas;
@@ -57,16 +57,16 @@ O sistema notificará automaticamente o AFFA quando houver inserção de doument
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2728" tipo="web">
+                    <canal-de-prestacao id="3207" tipo="web">
                         <descricao>Ferramenta de automação</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="2727" tipo="presencial">
+                    <canal-de-prestacao id="3208" tipo="presencial">
                         <descricao>Visita "in loco"</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2581">
+        <etapa id="2990">
             <titulo>Disponibilizar Relatório</titulo>
             <descricao>Relatório de Auditoria ficará disponível para consulta por parte da sociedade.</descricao>
             <documentos>
@@ -77,7 +77,7 @@ O sistema notificará automaticamente o AFFA quando houver inserção de doument
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="2729" tipo="web">
+                    <canal-de-prestacao id="3209" tipo="web">
                         <descricao>Ferramenta de automação</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -88,17 +88,17 @@ O sistema notificará automaticamente o AFFA quando houver inserção de doument
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2808">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="3082">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Agropecuária</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3307">Auditoria</item>
-        <item id="3308">Genealógico</item>
-        <item id="3309">gene</item>
+        <item id="3924">Auditoria</item>
+        <item id="3925">Genealógico</item>
+        <item id="3926">gene</item>
     </palavras-chave>
     <legislacoes>
-        <item id="761">A verificar</item>
+        <item id="973">A verificar</item>
     </legislacoes>
 </servico>
