@@ -5,17 +5,17 @@
     <nome>Registrar óleos, graxas e aditivos para óleos lubrificantes</nome>
     <sigla></sigla>
     <nomes-populares>
-        <item id="1226">Registro: Óleo - Graxa - Aditivo Lubrificante</item>
+        <item id="1307">Registro: Óleo - Graxa - Aditivo Lubrificante</item>
     </nomes-populares>
     <descricao>Registro de graxas e óleos lubrificantes destinados ao uso veicular e industrial e aditivos em frasco para óleos lubrificantes de motores automotivos, conforme os preceitos da Resolução ANP nº 22/2014. O serviço é prestado por meio de publicação no Diário Oficial da União (DOU), conforme artigo 18 da Resolução ANP nº 22/2014.</descricao>
     <contato>- Telefone: 61-3255-5246
 - e-mail: registrodelubrificantes@anp.gov.br</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1261">
+        <solicitante id="1331">
             <tipo>Detentores de registro, produtores e importadores.</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,14 +28,14 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2898">
+        <etapa id="3002">
             <titulo>Entrega de documentação pelo SEI</titulo>
             <descricao>Os documentos necessários para registro estão divididos em documento principal (obrigatório), documentos essenciais (obrigatório) e documentos complementares (necessários a depender do tipo de produto).</descricao>
             <documentos>
                 <default>
-                    <item id="2455">DOCUMENTO PRINCIPAL: 
+                    <item id="2497">DOCUMENTO PRINCIPAL: 
 1. Ficha de dados técnicos.</item>
-                    <item id="2456">DOCUMENTOS ESSENCIAIS:
+                    <item id="2498">DOCUMENTOS ESSENCIAIS:
 1. Ficha de informações do agente econômico;
 2. Especificações de óleo lubrificante, graxa lubrificante ou aditivo em frasco;
 3. Procuração preposto - Procuração com firma reconhecida do preposto;
@@ -44,14 +44,14 @@
 6. Documentos comprobatórios do desempenho declarado;
 7. FISPQ - Ficha de Informações de Segurança de Produtos Químicos (art. 7º XI);
 8. Rótulo comercial nacional.</item>
-                    <item id="2457">DOCUMENTOS COMPLEMENTARES:
+                    <item id="2499">DOCUMENTOS COMPLEMENTARES:
 1. Certificado de produto contato alimentar;
 2. Certificado de que produtor atende a norma ISO 21.469;
 3. Comprovante de registro da marca no INPI;
 4. Relatório dos testes da mistura do aditivo com o óleo lubrificante automotivo de categoria API mais recente;
 5. Relatório de testes que comprovem os benefícios descritos no rótulo;
 6. Relatório de testes laboratoriais quando houver qualificação como lubrificante biodegradável;</item>
-                    <item id="2458">7. Cópia autenticada de contrato de prestação de serviço com produtor ou importador autorizado pela ANP;
+                    <item id="2500">7. Cópia autenticada de contrato de prestação de serviço com produtor ou importador autorizado pela ANP;
 8. Contratos de exclusividade de representação no Brasil de marcas estrangeiras;
 9. Contrato social, quando o preposto perante a ANP mencionado no Anexo I for administrador da empresa;
 10. Testes e documentos que comprovem benefícios, características e desempenho declarados no rótulo ou nos demais documentos enviados.</item>
@@ -62,7 +62,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3105" tipo="web">
+                    <canal-de-prestacao id="3226" tipo="web">
                         <descricao>http://www.anp.gov.br/processo-eletronico-sei</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -73,7 +73,7 @@
         <nomeOrgao>Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="2994">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="3091">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Energia elétrica</item>
@@ -81,14 +81,14 @@
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3745">análises tecnológicas</item>
-        <item id="3746">graxa</item>
-        <item id="3747">óleo</item>
-        <item id="3748">aditivo</item>
-        <item id="3749">registro</item>
+        <item id="3952">análises tecnológicas</item>
+        <item id="3953">graxa</item>
+        <item id="3954">óleo</item>
+        <item id="3955">aditivo</item>
+        <item id="3956">registro</item>
     </palavras-chave>
     <legislacoes>
-        <item id="968">- Lei nº 9.478/1997
+        <item id="979">- Lei nº 9.478/1997
 - Resolução ANP nº 022/2014
 - Resolução ANP nº 669/2017</item>
     </legislacoes>
