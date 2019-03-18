@@ -11,7 +11,7 @@
     <servico-digital>false</servico-digital>
     <link-servico-digital></link-servico-digital>
     <solicitantes>
-        <solicitante id="1333">
+        <solicitante id="1334">
             <tipo>Empresas brasileiras</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,35 +24,35 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="3006">
+        <etapa id="3008">
             <titulo>Requerer autorização</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="2505">Carteira de identidade</item>
-                    <item id="2507">Carteira de trabalho</item>
-                    <item id="2508">CNPJ</item>
-                    <item id="2510">Comprovante de endereço/residência</item>
-                    <item id="2511">CPF</item>
-                    <item id="2512">Procuração do representante legal</item>
-                    <item id="2513">Registro da Junta Comercial</item>
-                    <item id="2514">Requerimento da empresa ou procurador, este último mediante apresentação do respectivo instrumento de mandato, com as seguintes informações: 1.1 – nome ou razão social da empresa responsável pela viagem ocasional; 1.2 – origem e destino da viagem; 1.3 – pontos de fronteira a serem utilizados durante o percurso; 1.4 – tipo de carga a ser transportada, tanto na ida quanto no regresso; 1.5 - vigência pretendida para a autorização.</item>
-                    <item id="2515">Comprovante de pagamento de emolumentos</item>
-                    <item id="2516">Relação dos veículos a serem utilizados e cópia autenticada dos respectivos Certificados de Registro e Licenciamento de Veículo (CRLV) e da Apólice de Seguros de Responsabilidade Civil por lesões ou danos a terceiros</item>
-                    <item id="2517">Cópia autenticada do Certificado de Inspeção Técnica Veicular Periódica (CITV)</item>
-                    <item id="2518">Número de inscrição do transportador no RNTRC, nos termos da Resolução nº 4.799/2015 (no caso de transporte de carga própria, este item não é exigido). Solicitei alteração da descrição para o ponto focal do órgão.</item>
+                    <item id="2519">Carteira de identidade</item>
+                    <item id="2520">Carteira de trabalho</item>
+                    <item id="2521">CNPJ</item>
+                    <item id="2522">Comprovante de endereço/residência</item>
+                    <item id="2523">CPF</item>
+                    <item id="2524">Procuração do representante legal</item>
+                    <item id="2525">Registro da Junta Comercial</item>
+                    <item id="2526">Requerimento da empresa ou procurador, este último mediante apresentação do respectivo instrumento de mandato, com as seguintes informações: 1.1 – nome ou razão social da empresa responsável pela viagem ocasional; 1.2 – origem e destino da viagem; 1.3 – pontos de fronteira a serem utilizados durante o percurso; 1.4 – tipo de carga a ser transportada, tanto na ida quanto no regresso; 1.5 - vigência pretendida para a autorização.</item>
+                    <item id="2527">Comprovante de pagamento de emolumentos</item>
+                    <item id="2528">Relação dos veículos a serem utilizados e cópia autenticada dos respectivos Certificados de Registro e Licenciamento de Veículo (CRLV) e da Apólice de Seguros de Responsabilidade Civil por lesões ou danos a terceiros</item>
+                    <item id="2529">Cópia autenticada do Certificado de Inspeção Técnica Veicular Periódica (CITV)</item>
+                    <item id="2530">Número de inscrição do transportador no RNTRC, nos termos da Resolução nº 4.799/2015 (no caso de transporte de carga própria, este item não é exigido). Solicitei alteração da descrição para o ponto focal do órgão.</item>
                 </default>
             </documentos>
             <custos>
                 <default>
-                    <custo id="234">
+                    <custo id="236">
                         <descricao>Emolumento administrativo por solicitação</descricao>
                         <moeda>R$</moeda>
                         <valor>10,00</valor>
                         <valorVariavel></valorVariavel>
                         <statusCustoVariavel>0</statusCustoVariavel>
                     </custo>
-                    <custo id="235">
+                    <custo id="237">
                         <descricao>Emolumento administrativo por veículo</descricao>
                         <moeda>R$</moeda>
                         <valor>5,00</valor>
@@ -63,26 +63,26 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3232" tipo="postal">
+                    <canal-de-prestacao id="3236" tipo="postal">
                         <descricao>ANTT - Setor de Clubes Esportivos Sul - SCES, Lote 10, Trecho 3, Projeto Orla Polo 8, Bloco A, Térreo - Brasília / DF - CEP: 70.200-003</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3231" tipo="presencial">
+                    <canal-de-prestacao id="3237" tipo="presencial">
                         <descricao>ANTT - Setor de Clubes Esportivos Sul - SCES, Lote 10, Trecho 3, Projeto Orla Polo 8, Bloco A, Térreo - Brasília / DF - CEP: 70.200-003</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3230" tipo="web">
+                    <canal-de-prestacao id="3238" tipo="web">
                         <descricao>https://servicos.nuvem.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3007">
+        <etapa id="3009">
             <titulo>Receber autorização</titulo>
             <descricao></descricao>
             <documentos>
                 <default>
-                    <item id="2509">Carteira de identidade
-Carteira de trabalho
-Comprovante de endereço/residência</item>
+                    <item id="2531">Carteira de identidade</item>
+                    <item id="2532">Carteira de trabalho</item>
+                    <item id="2533">Comprovante de endereço/residência</item>
                 </default>
             </documentos>
             <custos>
@@ -90,13 +90,13 @@ Comprovante de endereço/residência</item>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3235" tipo="postal">
+                    <canal-de-prestacao id="3239" tipo="postal">
                         <descricao>Endereço informado no pedido.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3234" tipo="presencial">
+                    <canal-de-prestacao id="3240" tipo="presencial">
                         <descricao>ANTT - Setor de Clubes Esportivos Sul - SCES, Lote 10, Trecho 3, Projeto Orla Polo 8, Bloco A, Térreo - Brasília / DF - CEP: 70.200-003</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3233" tipo="web">
+                    <canal-de-prestacao id="3241" tipo="web">
                         <descricao>https://servicos.nuvem.gov.br/</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -107,15 +107,15 @@ Comprovante de endereço/residência</item>
         <nomeOrgao>Agência Nacional de Transportes Terrestres (ANTT)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="3" idServicoSegmento="3093">Empresas</item>
+        <item idSegmento="3" idServicoSegmento="3094">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Transportes</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3962">Viagem ocasional</item>
-        <item id="3963">autorização</item>
-        <item id="3964">veículo</item>
-        <item id="3965">transporte</item>
+        <item id="3966">Viagem ocasional</item>
+        <item id="3967">autorização</item>
+        <item id="3968">veículo</item>
+        <item id="3969">transporte</item>
     </palavras-chave>
 </servico>
