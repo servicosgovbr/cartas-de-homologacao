@@ -19,10 +19,10 @@ Bens culturais que não podem sair do país:
     <contato>Consulte o Portal do IPHAN: http://portal.iphan.gov.br/pagina/detalhes/881</contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1329">
+        <solicitante id="1330">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -35,12 +35,12 @@ Bens culturais que não podem sair do país:
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="2998">
+        <etapa id="3000">
             <titulo>Consultar sobre a existência de restrição legal</titulo>
             <descricao>A Declaração de Saída de Bens Culturais do Brasil (DSBC) foi criada para atender às consultas sobre situações que possam gerar dúvidas sobre existência ou não de restrições. Quando houver dúvidas sobre o enquadramento ou não nas restrições legais que afetam um bem cultural que se deseja exportar, o exportador poderá consultar o Iphan utilizando-se da solicitação contida no formulário online.</descricao>
             <documentos>
                 <default>
-                    <item id="2495">Consulte Portal do Iphan: http://portal.iphan.gov.br/pagina/detalhes/881</item>
+                    <item id="2496">Consulte Portal do Iphan: http://portal.iphan.gov.br/pagina/detalhes/881</item>
                 </default>
             </documentos>
             <custos>
@@ -48,16 +48,16 @@ Bens culturais que não podem sair do país:
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3220" tipo="web">
+                    <canal-de-prestacao id="3223" tipo="web">
                         <descricao>http://solicitacao.servicos.gov.br/processos/iniciar</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao id="3221" tipo="postal">
+                    <canal-de-prestacao id="3224" tipo="postal">
                         <descricao>Por ofício: Dirigido à Superintendência do IPHAN em seu estado.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="2999">
+        <etapa id="3001">
             <titulo>Receber resposta (Declaração de Saída de Bens Culturais do Brasil - DSBC)</titulo>
             <descricao>O solicitante poderá receber as seguintes respostas do Iphan:
 
@@ -71,7 +71,7 @@ Bens culturais que não podem sair do país:
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3222" tipo="web">
+                    <canal-de-prestacao id="3225" tipo="web">
                         <descricao>http://solicitacao.servicos.gov.br/processos/iniciar</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -82,7 +82,7 @@ Bens culturais que não podem sair do país:
         <nomeOrgao>Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3089">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3090">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Patrimônio Cultural</item>
@@ -90,13 +90,13 @@ Bens culturais que não podem sair do país:
         <item>Cultura</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3944">saída</item>
-        <item id="3945">obra de arte</item>
-        <item id="3946">saída de obra de arte</item>
-        <item id="3947">obras</item>
+        <item id="3948">saída</item>
+        <item id="3949">obra de arte</item>
+        <item id="3950">saída de obra de arte</item>
+        <item id="3951">obras</item>
     </palavras-chave>
     <legislacoes>
-        <item id="977">Decreto-Lei nº 25/1937 (http://www.planalto.gov.br/ccivil_
+        <item id="978">Decreto-Lei nº 25/1937 (http://www.planalto.gov.br/ccivil_
 03/decreto-lei/del0025.htm), Lei nº 3.924/1961 (http://www.planalto.gov.br/ccivil_03/leis/1950-
 1969/L3924.htm), Lei nº 4.845/1965 (http://www.planalto.gov.br/ccivil_03/leis/L4845.htm) e Lei nº
 5.471/1968 (http://www.planalto.gov.br/ccivil_03/leis/L5471.htm).</item>
