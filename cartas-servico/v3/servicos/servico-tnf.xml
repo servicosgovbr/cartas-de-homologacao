@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-tnf</id>
+    <dbId>1525</dbId>
+    <nome>Serviço TNF</nome>
+    <sigla>TNF</sigla>
+    <nomes-populares>
+        <item id="1312">Balcão de serviço</item>
+    </nomes-populares>
+    <descricao>Serviço de cadastramento de usuário e de solicitação.</descricao>
+    <contato>Keviny 2020-2253</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital> https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1341">
+            <tipo>Todo cidadão brasileiro</tipo>
+            <requisitos>Ser Brasileiro</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="5" unidade="dias-corridos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>anos</unidade>
+        <descricao>Tempo máximo de prestação de serviço</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3020">
+            <titulo>Cadastro do cidadão</titulo>
+            <descricao>Dados do cidadão</descricao>
+            <documentos>
+                <default>
+                    <item id="2536">CPF e RG</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3251" tipo="aplicativo-movel">
+                        <descricao>Portal de serviços</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3101">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3102">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Alimento</item>
+        <item>Abastecimento</item>
+        <item>Clima</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3984">MAPA</item>
+        <item id="3985">Formulário</item>
+        <item id="3986">Solicitação</item>
+    </palavras-chave>
+</servico>
