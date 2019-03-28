@@ -11,7 +11,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital> https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1343">
+        <solicitante id="1345">
             <tipo>Teste</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -24,7 +24,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="3016">
+        <etapa id="3018">
             <titulo>Treinamento</titulo>
             <descricao></descricao>
             <documentos>
@@ -35,7 +35,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3248" tipo="e-mail">
+                    <canal-de-prestacao id="3249" tipo="e-mail">
                         <descricao>Treinamento</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -46,14 +46,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3106">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3108">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="3993">Treinamento</item>
-        <item id="3994">Treinamento</item>
-        <item id="3995">Treinamento</item>
+        <item id="3996">Treinamento</item>
+        <item id="3997">Treinamento</item>
+        <item id="3998">Treinamento</item>
     </palavras-chave>
 </servico>
