@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-de-treinamento-eas</id>
+    <dbId>1526</dbId>
+    <nome>Serviço de Treinamento EAS</nome>
+    <sigla></sigla>
+    <descricao>dsfggfdgfdgsgfdgsdfgdsgsdgdgsd</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1342">
+            <tipo>Cidadão Brasileiro</tipo>
+            <requisitos>18 anos</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>100</quantidade>
+        <unidade>dias</unidade>
+        <descricao>Informações adicionais</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3014">
+            <titulo>Etapa 01</titulo>
+            <descricao>fjdkfjldsfjldksfjlskdfjlsdjflskfjlsjflsdfjlsf</descricao>
+            <documentos>
+                <default>
+                    <item id="2534">RG;
+Certidão de Nascimento;</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3245" tipo="web">
+                        <descricao>fdsfdsfasfdsafsafsafsafsafsfsaffsaf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3103">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Turismo</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3990">teste</item>
+        <item id="3991">teste</item>
+        <item id="3992">teste</item>
+    </palavras-chave>
+</servico>
