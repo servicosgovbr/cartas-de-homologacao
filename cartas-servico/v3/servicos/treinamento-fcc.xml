@@ -5,8 +5,8 @@
     <nome>Treinamento FCC</nome>
     <sigla>TFCC</sigla>
     <nomes-populares>
-        <item id="1314">treinamento</item>
-        <item id="1315">teste</item>
+        <item id="1316">treinamento</item>
+        <item id="1317">teste</item>
     </nomes-populares>
     <descricao>Este serviço é um teste de treinamento.</descricao>
     <contato></contato>
@@ -15,7 +15,7 @@
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1349">
+        <solicitante id="1350">
             <tipo>qualquer 1</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -28,7 +28,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="3023">
+        <etapa id="3025">
             <titulo>titulo 1</titulo>
             <descricao></descricao>
             <documentos>
@@ -39,7 +39,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3256" tipo="e-mail">
+                    <canal-de-prestacao id="3257" tipo="e-mail">
                         <descricao>1234</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -50,14 +50,14 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3112">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3113">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="4012">servico</item>
-        <item id="4013">treinamento</item>
-        <item id="4014">fcc</item>
+        <item id="4015">servico</item>
+        <item id="4016">treinamento</item>
+        <item id="4017">fcc</item>
     </palavras-chave>
 </servico>
