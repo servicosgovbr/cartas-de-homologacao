@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-dfo</id>
+    <dbId>1531</dbId>
+    <nome>Treinamento DFO</nome>
+    <sigla></sigla>
+    <descricao>Serviço criado no treinamento</descricao>
+    <contato>Sem contato do Ministério atualmente</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1347">
+            <tipo>Todos cidadãos</tipo>
+            <requisitos>Ter acesso a internet</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="5" unidade="dias-uteis"/>
+        <descricao>Pode ocorrer atrasos devido a outros eventos</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3021">
+            <titulo>Preenchimento do Formulario</titulo>
+            <descricao>Preencher o formulário com todas as informações pedidas</descricao>
+            <documentos>
+                <default>
+                    <item id="2537">Todos dados do usuário a ser cadastrado</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3252" tipo="web-preencher">
+                        <descricao>Preencher Formulário</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3110">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração Financeira</item>
+        <item>Cidadania</item>
+        <item>Atendimento básico</item>
+        <item>Lazer</item>
+        <item>Nova Categoria 1</item>
+        <item>test</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="4003">Formulario</item>
+        <item id="4004">Treinamento</item>
+        <item id="4005">Teste</item>
+    </palavras-chave>
+</servico>
