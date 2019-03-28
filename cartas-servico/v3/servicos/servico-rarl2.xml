@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-rarl2</id>
+    <dbId>1521</dbId>
+    <nome>serviço rarl2</nome>
+    <sigla>sigla rarl2</sigla>
+    <nomes-populares>
+        <item id="1310">nome popular do serv rarl2</item>
+    </nomes-populares>
+    <descricao>Este serviço tem o intuito de bla vla bla ....</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1337">
+            <tipo>ME e EPP</tipo>
+            <requisitos>requisitos 1
+2
+3</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>dias</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3011">
+            <titulo>etapa dados do solicitante</titulo>
+            <descricao>hdfbndfbdf</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3246" tipo="e-mail">
+                        <descricao>vsdvsd</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="3096">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Administração</item>
+        <item>Indústria</item>
+        <item>Fomento ao Trabalho</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3981">ME e EPP</item>
+        <item id="3982">svs</item>
+        <item id="3983">vsdfvdf</item>
+    </palavras-chave>
+</servico>
