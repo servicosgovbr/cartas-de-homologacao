@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>treinamento-dcm</id>
+    <dbId>1522</dbId>
+    <nome>Treinamento DCM</nome>
+    <sigla>DCM</sigla>
+    <nomes-populares>
+        <item id="1311">teste01 teste02</item>
+    </nomes-populares>
+    <descricao>teste teste teste teste teste teste teste teste teste teste teste tests teste tes te teste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes te</descricao>
+    <contato>teste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1338">
+            <tipo>teste teste teste teste teste</tipo>
+            <requisitos>1. teste teste teste teste teste teste teste 
+2. teste teste teste teste teste teste teste 
+3. teste teste teste teste teste teste teste</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="1" unidade="meses"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>1</quantidade>
+        <unidade>anos</unidade>
+        <descricao>teste teste teste teste teste</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3015">
+            <titulo>teste teste teste teste teste teste teste teste teste teste teste tests</titulo>
+            <descricao>teste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes te</descricao>
+            <documentos>
+                <default>
+                    <item id="2535">1. teste teste teste teste teste teste teste teste teste
+2. teste teste teste teste teste teste teste teste teste teste teste tests te
+3. teste teste teste teste teste teste teste teste teste teste teste tests teste</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3247" tipo="e-mail">
+                        <descricao>teste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes teteste teste teste teste teste teste teste teste teste teste teste tests teste tes te</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3104">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3105">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Cidadania</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="3987">DCM1</item>
+        <item id="3988">DCM2</item>
+        <item id="3989">DCM3</item>
+    </palavras-chave>
+</servico>
