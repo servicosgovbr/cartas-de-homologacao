@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>cadastro-de-prestadoras-do-pat</id>
+    <dbId>1538</dbId>
+    <nome>Cadastro de Prestadoras do PAT</nome>
+    <sigla></sigla>
+    <descricao>As empresas prestadoras de serviço de alimentação coletiva que desejam ter o registro no PAT devem encaminhar a documentação exigida, por estabelecimento; além disso, a prestadora deve possuir no Cadastro Nacional de Pessoas Jurídicas – CNPJ, do Ministério da Fazenda, o código de classificação nacional de atividades econômicas - CNAE n° 82.99-7-02 (emissão de vales-alimentação, vales-transporte e similares); após o envio da documentação, é realizada a análise e, se a requerente preencher os requisitos, é a ela enviado um ofício por meio do qual é comunicado o seu registro no PAT, juntamente com uma lista de verificação  da documentação necessária, abaixo elencada.</descricao>
+    <contato>pat@mte.gov.br</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1360">
+            <tipo>Pessoa jurídica</tipo>
+            <requisitos>Possuir no Cadastro Nacional de Pessoas Jurídicas – CNPJ, do Ministério da Fazenda, o código de classificação nacional de atividades econômicas - CNAE n° 82.99-7-02 (emissão de vales-alimentação, vales-transporte e similares).</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3077">
+            <titulo>Envio de documentação pelo solicitante</titulo>
+            <descricao>As empresas prestadoras de serviço de alimentação coletiva que desejam ter o registro no PAT encaminham a documentação necessária .</descricao>
+            <documentos>
+                <default>
+                    <item id="2623">I – preenchimento do requerimento disponível em http://www.trabalho.gov.br/pat, no link: Como se cadastrar no PAT e Empresas Prestadoras de Serviços de Alimentação Coletiva; 
+II – ficha de registro no PAT devidamente preenchida, conforme modelo disponível em http://www.trabalho.gov.br/pat, no link: Como se cadastrar no PAT e empresas prestadoras de serviços de alimentação coletiva;</item>
+                    <item id="2624">III – cópia do contrato social da empresa; 
+IV – comprovante da existência de vínculo empregatício ou contratual com o profissional nutricionista indicado como responsável técnico pelo PAT, e indicação do número do seu registro no Programa; 
+V – indicação da abrangência territorial de utilização do documento de legitimação;</item>
+                    <item id="2625">VI – declaração de que a empresa tem ou não filial que comercializará documento de legitimação. Caso positivo, apresentar a documentação do(s) respectivo(s) nutricionista(s) solicitada no item V;</item>
+                    <item id="2626">- Modelo do documento de legitimação: (verso)
+
+Nome, endereço e CNPJ da prestadora de serviços de alimentação coletiva; 
+A expressão “válido somente para aquisição de gêneros alimentícios” se o documento de legitimação for alimentação- convênio; 
+A expressão “válido somente para pagamento de refeições” se o documento de legitimação for refeição- convênio.</item>
+                    <item id="2627">VIII – identificação do mecanismo de segurança do documento de legitimação. 
+
+OBSERVAÇÃO: Somente serão deferidos os pedidos de registro dos estabelecimentos que indiquem no Cadastro Nacional de Pessoas Jurídicas – CNPJ, do Ministério da Fazenda, o código de classificação nacional de atividades econômicas - CNAE n° 82.99-7- 02 (emissão de vales-alimentação, vales-transporte e similares).</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3309" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1538</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="3078">
+            <titulo>Análise da documentação</titulo>
+            <descricao>A documentação será analisada para verificar se todos os documentos exigidos foram enviados pelo solicitante.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3310" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1538</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="3079">
+            <titulo>Resposta ao solicitante</titulo>
+            <descricao>Após a análise da documentação é enviado ofício ao solicitante por meio do qual é comunicado o deferimento/indeferimento de seu registro no PAT, juntamente com uma lista de verificação da documentação apresentada.</descricao>
+            <documentos>
+                <default>
+                    <item id="2628">Lista de verificação, ofício e comprovante de registro no PAT</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3311" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1538</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+        <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="3123">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Trabalho</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="4037">Cadastro</item>
+        <item id="4038">Prestadora</item>
+        <item id="4039">PAT</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="986">Lei nº 6.321, de 14 de abril de 1976;
+Decreto nº 5, de 14 de janeiro de 1991;
+Portaria Interministerial nº 05, de 30 de novembro de 1999;
+Portaria SIT/DSST nº 03, de 1º de março de 2002.</item>
+    </legislacoes>
+</servico>
