@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>declaracao-de-instalacoes-nr02</id>
+    <dbId>1536</dbId>
+    <nome>Declaração de instalações - NR02</nome>
+    <sigla></sigla>
+    <descricao>Todo estabelecimento novo, antes de iniciar suas atividades, deverá solicitar aprovação de suas instalações à unidade regional da Fiscalização do Trabalho.</descricao>
+    <contato>O usuário pode entrar em contado com a Unidade da Rede de Atendimento mais próxima (http://trabalho.gov.br/rede-de-atendimento), procurando o setor responsável pela fiscalização de segurança e saúde do trabalho.</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1357">
+            <tipo>Empregador, pessoa jurídica ou física, que possua ou venha a contratar trabalhadores como empregado.</tipo>
+            <requisitos>Possuir trabalhadores ou pretensão futura de contratar trabalhadores pela Consolidação das Leis do Trabalho.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3062">
+            <titulo>Efetuar Declaração das Instalações</titulo>
+            <descricao>Apresentar declaração das instalações para a Auditoria-Fiscal do Trabalho, conforme exigido pela Norma Regulamentadora n.º 02.</descricao>
+            <documentos>
+                <default>
+                    <item id="2601">Descrever as instalações, máquinas e equipamentos existentes na empresa. Preencher o formulário “Declaração das Instalações”</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3294" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1536</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="3063">
+            <titulo>Analisar pedido</titulo>
+            <descricao>Análise, por parte da Auditoria-Fiscal do Trabalho, das informações prestadas pelo empregador.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3295" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1536</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="3064">
+            <titulo>Confirmar pedido</titulo>
+            <descricao>Após a análise, confirmação ao empregador que a obrigação foi cumprida.</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3296" tipo="web">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1536</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844" dbId="37546">
+        <nomeOrgao>Ministério do Trabalho  (MTB)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="3120">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Trabalho</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="4033">Certificado de aprovação das instalações</item>
+        <item id="4029">Norma regulamentadora 02</item>
+        <item id="4030">NR 02</item>
+        <item id="4031">Declaração das instalações</item>
+        <item id="4032">CAI</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="984">Norma Regulamentadora número 02, do Ministério do Trabalho, aprovada pela Portaria 3214/78 e atualizações posteriores.</item>
+    </legislacoes>
+</servico>
