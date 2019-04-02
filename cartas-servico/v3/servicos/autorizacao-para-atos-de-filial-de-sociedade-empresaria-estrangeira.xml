@@ -24,13 +24,13 @@ Este é um serviço do Ministério da Economia (ME) e atende ao Decreto n° 9.09
     <servico-digital>true</servico-digital>
     <link-servico-digital>https://mpdg-hom-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1355">
+        <solicitante id="1358">
             <tipo>**Qualquer empresa ou sociedade empresária estrangeira que desejar estabelecer-se no Brasil, por intermédio de filial, sucursal, agência ou estabelecimento.**
 
 Para realizar a solicitação, a sociedade deve nomear um representante legal no Brasil. Esta pessoa pode ser brasileiro ou estrangeiro, contudo, deverá possuir domicílio e residência no Brasil.</tipo>
             <requisitos>Possuir domicílio e residência no Brasil.</requisitos>
         </solicitante>
-        <solicitante id="1356">
+        <solicitante id="1359">
             <tipo>O representante legal da sociedade estrangeira no Brasil, poderá nomear um advogado ou terceiro para realizar a solicitação do pedido no Portal de Serviços.</tipo>
             <requisitos>Possuir procuração para realizar a solicitação.</requisitos>
         </solicitante>
@@ -43,22 +43,22 @@ Para realizar a solicitação, a sociedade deve nomear um representante legal no
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="3050">
+        <etapa id="3065">
             <titulo>**Solicitar autorização para instalação e funcionamento**</titulo>
             <descricao>A sociedade empresária estrangeira que desejar estabelecer-se no Brasil, por intermédio de filial, sucursal, agência ou estabelecimento deverá preencher o formulário no Portal de Serviços do Governo Federal e realizar o *upload* dos documentos digitalizados (em formato pdf).</descricao>
             <documentos>
                 <default>
-                    <item id="2580">- Ato de deliberação da sociedade estrangeira;
+                    <item id="2602">- Ato de deliberação da sociedade estrangeira;
 - Inteiro teor do contrato ou estatuto;
 - Lista de sócios ou acionistas, com os nomes, profissões, domicílios e número de cotas ou de ações, salvo quando, em decorrência da legislação aplicável no país de origem, for impossível cumprir tal exigência;
 - Prova de achar-se a sociedade constituída conforme a lei do seu país;</item>
-                    <item id="2581">- Ato de deliberação sobre a nomeação do representante no Brasil, acompanhado da procuração que lhe dá poderes para aceitar as condições em que é dada a autorização e plenos poderes para tratar de quaisquer questões e resolvê-las definitivamente, podendo ser demandado e receber citação pela sociedade;
+                    <item id="2603">- Ato de deliberação sobre a nomeação do representante no Brasil, acompanhado da procuração que lhe dá poderes para aceitar as condições em que é dada a autorização e plenos poderes para tratar de quaisquer questões e resolvê-las definitivamente, podendo ser demandado e receber citação pela sociedade;
 - Declaração do representante no Brasil de que aceita as condições em que for dada a autorização para instalação e funcionamento pelo Governo Federal;
 - Último balanço;</item>
-                    <item id="2582">- Guia de recolhimento do preço do serviço (DARF, código 6621, valor R$ 240,00);
+                    <item id="2604">- Guia de recolhimento do preço do serviço (DARF, código 6621, valor R$ 240,00);
 - Procuração ao solicitante (na hipótese de ter sido nomeado advogado ou terceiro pelo representante legal para realizar a solicitação); e
 - Declaração de autenticidade (declaração firmada pelo representante legal de que todos os documentos digitalizados e anexados são autênticos e condizem com o original).</item>
-                    <item id="2583">**Observação:**
+                    <item id="2605">**Observação:**
 - As orientações para preenchimento e impressão do DARF estão disponíveis [aqui] (http://receita.economia.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/darf-impressao-para-preenchimento-manual-1/darf-impressao-para-preenchimento-manual).
 - As orientações gerais e os modelos de declarações estão disponíveis nas páginas xxx do Manual, disponível aqui (manual atualizado).</item>
                 </default>
@@ -68,20 +68,20 @@ Para realizar a solicitação, a sociedade deve nomear um representante legal no
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3282" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3297" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3051">
+        <etapa id="3066">
             <titulo>**Acompanhar a análise**</titulo>
             <descricao>O DREI procederá a análise da documentação e encaminhará os autos para apreciação da autoridade competente. O solicitante pode acompanhar a etapa do processo, via Portal de Serviços.
 No caso de exigência, serão elucidados os documentos faltantes via Portal de Serviços, os quais deverão ser apresentados no prazo de até 60 (sessenta) dias, contados  do  dia  subsequente  à  data  da  ciência  pela  sociedade empresária estrangeira interessada.</descricao>
             <documentos>
                 <default>
-                    <item id="2584">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.</item>
-                    <item id="2585">Esclarecemos que caso a sociedade estrangeira produza um novo documento, substituindo de forma integral o documento em exigência, deverá realizar *upload* apenas do novo documento.
+                    <item id="2606">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.</item>
+                    <item id="2607">Esclarecemos que caso a sociedade estrangeira produza um novo documento, substituindo de forma integral o documento em exigência, deverá realizar *upload* apenas do novo documento.
 Contudo, se a sociedade estrangeira produzir um novo documento apenas retificando ou complementando o documento em exigência, deverá proceder a digitalização em arquivo único (documento originário juntamente com o novo retificado ou complementado).</item>
                 </default>
             </documentos>
@@ -90,13 +90,13 @@ Contudo, se a sociedade estrangeira produzir um novo documento apenas retificand
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3283" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3298" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3052">
+        <etapa id="3067">
             <titulo>**Receber autorização**</titulo>
             <descricao>A autorização do pedido de instalação e funcionamento será publicada no Diário Oficial da União. 
 Esta autorização, juntamente com os documentos necessários para arquivamento perante a Junta Comercial, serão autenticados digitalmente e disponibilizados via Portal de Serviços para *download*.</descricao>
@@ -108,26 +108,26 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3284" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3299" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3053">
+        <etapa id="3068">
             <titulo>**Solicitar alteração**</titulo>
             <descricao>Necessita de aprovação do Poder Executivo qualquer alteração no contrato ou no estatuto da sociedade empresária estrangeira, em especial alterações de: endereço no exterior, objeto, denominação, sócios ou acionistas, membros da administração, fusão, incorporação, e cisão. 
 As alterações que interfiram nos dados da filial da sociedade estrangeira, tais como aumento ou redução do capital social e alteração do objeto social, também necessitam de aprovação governamental.</descricao>
             <documentos>
                 <default>
-                    <item id="2586">Preenchimento do formulário no Portal de Serviços e *upload* dos seguintes documentos digitalizados (em formato pdf):
+                    <item id="2608">Preenchimento do formulário no Portal de Serviços e *upload* dos seguintes documentos digitalizados (em formato pdf):
 - Ato de deliberação da sociedade estrangeira;
 - Guia de recolhimento do preço do serviço (DARF, código 6621, valor R$ 160,00).
 - Procuração ao solicitante; e
 - Declaração de autenticidade.</item>
-                    <item id="2587">Quando a alteração for no contrato ou estatuto social, deverá ser apresentado:
+                    <item id="2609">Quando a alteração for no contrato ou estatuto social, deverá ser apresentado:
 - Contrato ou estatuto social atualizado.</item>
-                    <item id="2588">**Observação:**
+                    <item id="2610">**Observação:**
 - As orientações para preenchimento e impressão do DARF estão disponíveis [aqui] (http://receita.economia.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/darf-impressao-para-preenchimento-manual-1/darf-impressao-para-preenchimento-manual).
 - As orientações e modelo de declaração estão disponíveis nas páginas xxx do Manual, disponível aqui (manual atualizado).</item>
                 </default>
@@ -137,20 +137,20 @@ As alterações que interfiram nos dados da filial da sociedade estrangeira, tai
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3285" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3300" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3054">
+        <etapa id="3069">
             <titulo>**Acompanhar a análise**</titulo>
             <descricao>O DREI procederá a análise da documentação e encaminhará os autos para apreciação da autoridade competente. O solicitante pode acompanhar a etapa do processo, via Portal de Serviços
 No caso de exigência, serão elucidados os documentos faltantes via Portal de Serviços, os quais deverão ser apresentados no prazo de até 60 (sessenta) dias, contados  do  dia  subsequente  à  data  da  ciência  pela  sociedade empresária estrangeira interessada.</descricao>
             <documentos>
                 <default>
-                    <item id="2589">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.</item>
-                    <item id="2590">Esclarecemos que caso a sociedade estrangeira produza um novo documento, substituindo de forma integral o documento colocado em exigência, deverá realizar *upload* apenas do novo documento.
+                    <item id="2611">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.</item>
+                    <item id="2612">Esclarecemos que caso a sociedade estrangeira produza um novo documento, substituindo de forma integral o documento colocado em exigência, deverá realizar *upload* apenas do novo documento.
 Contudo, se a sociedade estrangeira produzir um novo documento apenas retificando ou complementando o documento em exigência, deverá proceder a digitalização em arquivo único (documento originário juntamente com o novo retificado ou complementado).</item>
                 </default>
             </documentos>
@@ -159,19 +159,19 @@ Contudo, se a sociedade estrangeira produzir um novo documento apenas retificand
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3286" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3301" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3055">
+        <etapa id="3070">
             <titulo>**Receber resultado da solicitação de alteração**</titulo>
             <descricao>A autorização da alteração será publicada no Diário Oficial da União. 
 Esta autorização, juntamente com os documentos necessários para arquivamento perante a Junta Comercial, serão autenticados digitalmente e disponibilizados via Portal de Serviços para *download*.</descricao>
             <documentos>
                 <default>
-                    <item id="2591">http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</item>
+                    <item id="2613">https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</item>
                 </default>
             </documentos>
             <custos>
@@ -179,23 +179,23 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3287" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3302" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3056">
+        <etapa id="3071">
             <titulo>**Solicitar cancelamento**</titulo>
             <descricao>A sociedade estrangeira que decidir pelo cancelamento da autorização de instalação e funcionamento do estabelecimento, para produzir efeitos no território nacional, deverá solicitar aprovação prévia do Governo Federal.</descricao>
             <documentos>
                 <default>
-                    <item id="2592">Preenchimento do formulário no Portal de Serviços e *upload* dos seguintes documentos digitalizados (em formato pdf):
+                    <item id="2614">Preenchimento do formulário no Portal de Serviços e *upload* dos seguintes documentos digitalizados (em formato pdf):
 - Ato de deliberação da sociedade estrangeira;
 - Guia de recolhimento do preço do serviço (DARF, código 6621, valor R$ 160,00).
 - Procuração ao solicitante; e
 - Declaração de autenticidade.</item>
-                    <item id="2593">**Observação:**
+                    <item id="2615">**Observação:**
 - As orientações para preenchimento e impressão do DARF estão disponíveis [aqui] (http://receita.economia.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/darf-impressao-para-preenchimento-manual-1/darf-impressao-para-preenchimento-manual).
 - As orientações e modelo de declaração estão disponíveis nas páginas xxx do Manual, disponível aqui (manual atualizado).</item>
                 </default>
@@ -205,21 +205,21 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3288" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3303" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3057">
+        <etapa id="3072">
             <titulo>**Acompanhar a análise**</titulo>
             <descricao>O DREI procederá a análise da documentação e encaminhará os autos para apreciação da autoridade competente. O solicitante pode acompanhar a etapa do processo, via Portal de Serviços
 No caso de exigência, serão elucidados os documentos faltantes via Portal de Serviços, os quais deverão ser apresentados no prazo de até 60 (sessenta) dias, contados  do  dia  subsequente  à  data  da  ciência  pela  sociedade empresária estrangeira interessada.</descricao>
             <documentos>
                 <default>
-                    <item id="2594">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.
+                    <item id="2616">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.
 Assim, caso a sociedade estrangeira produza um novo documento, substituindo de forma integral o documento colocado em exigência, deverá realizar *upload* apenas do novo documento.</item>
-                    <item id="2595">Contudo, se a sociedade estrangeira produzir um novo documento apenas retificando ou complementando o documento em exigência, deverá proceder a digitalização em arquivo único (documento originário juntamente com o novo retificado ou complementado).</item>
+                    <item id="2617">Contudo, se a sociedade estrangeira produzir um novo documento apenas retificando ou complementando o documento em exigência, deverá proceder a digitalização em arquivo único (documento originário juntamente com o novo retificado ou complementado).</item>
                 </default>
             </documentos>
             <custos>
@@ -227,13 +227,13 @@ Assim, caso a sociedade estrangeira produza um novo documento, substituindo de f
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3289" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3304" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3058">
+        <etapa id="3073">
             <titulo>**Receber resultado da solicitação de cancelamento**</titulo>
             <descricao>A autorização do cancelamento será publicada no Diário Oficial da União. 
 Esta autorização, juntamente com os documentos necessários para arquivamento perante a Junta Comercial, serão autenticados digitalmente e disponibilizados via Portal de Serviços para *download*.</descricao>
@@ -245,25 +245,25 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3290" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3305" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3059">
+        <etapa id="3074">
             <titulo>**Solicitar nacionalização**</titulo>
             <descricao>A nacionalização da sociedade estrangeira ocorre quando esta decide transferir sua sede para o Brasil. Neste caso, a sociedade estrangeira já deverá ter obtido autorização para instalação e funcionamento de filial, sucursal, agência ou estabelecimento no Brasil.</descricao>
             <documentos>
                 <default>
-                    <item id="2596">Preenchimento do formulário no Portal de Serviços e *upload* dos seguintes documentos digitalizados (em formato pdf):
+                    <item id="2618">Preenchimento do formulário no Portal de Serviços e *upload* dos seguintes documentos digitalizados (em formato pdf):
 - Ato de deliberação sobre a nacionalização;
 - Prova da realização do capital, na forma declarada no contrato ou estatuto;
 - Declaração do representante no Brasil de que aceita as condições em que for dada a autorização de nacionalização pelo Governo Federal;
 - Guia de recolhimento do preço do serviço (DARF, código 6621, valor R$ 175,00);</item>
-                    <item id="2597">- Procuração ao solicitante; e
+                    <item id="2619">- Procuração ao solicitante; e
 - Declaração de autenticidade.</item>
-                    <item id="2598">*Observação:*
+                    <item id="2620">*Observação:*
 - As orientações para preenchimento e impressão do DARF estão disponíveis [aqui] (http://receita.economia.gov.br/orientacao/tributaria/pagamentos-e-parcelamentos/darf-impressao-para-preenchimento-manual-1/darf-impressao-para-preenchimento-manual).
 - As orientações e modelo de declaração estão disponíveis nas páginas xxx do Manual, disponível aqui (manual atualizado).</item>
                 </default>
@@ -273,21 +273,21 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3291" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3306" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3060">
+        <etapa id="3075">
             <titulo>**Acompanhar a análise**</titulo>
             <descricao>O DREI procederá a análise da documentação e encaminhará os autos para apreciação da autoridade competente. O solicitante pode acompanhar a etapa do processo, via Portal de Serviços
 No caso de exigência, serão elucidados os documentos faltantes via Portal de Serviços, os quais deverão ser apresentados no prazo de até 60 (sessenta) dias, contados  do  dia  subsequente  à  data  da  ciência  pela  sociedade empresária estrangeira interessada.</descricao>
             <documentos>
                 <default>
-                    <item id="2599">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.
+                    <item id="2621">Na hipótese de exigência em algum dos anexos, faz-se necessário a substituição do documento inserido no Portal de Serviços.
 Assim, caso a sociedade estrangeira produza um novo documento, substituindo de forma integral o documento colocado em exigência, deverá realizar *upload* apenas do novo documento.</item>
-                    <item id="2600">Contudo, se a sociedade estrangeira produzir um novo documento apenas retificando ou complementando o documento em exigência, deverá proceder a digitalização em arquivo único (documento originário juntamente com o novo retificado ou complementado).</item>
+                    <item id="2622">Contudo, se a sociedade estrangeira produzir um novo documento apenas retificando ou complementando o documento em exigência, deverá proceder a digitalização em arquivo único (documento originário juntamente com o novo retificado ou complementado).</item>
                 </default>
             </documentos>
             <custos>
@@ -295,13 +295,13 @@ Assim, caso a sociedade estrangeira produza um novo documento, substituindo de f
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3292" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3307" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa id="3061">
+        <etapa id="3076">
             <titulo>**Receber resultado da solicitação de nacionalização**</titulo>
             <descricao>A autorização para a nacionalização será publicada no Diário Oficial da União. 
 Esta autorização, juntamente com os documentos necessários para arquivamento perante a Junta Comercial, serão autenticados digitalmente e disponibilizados via Portal de Serviços para *download*.</descricao>
@@ -313,8 +313,8 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3293" tipo="web-preencher">
-                        <descricao>http://solicitacao.servicos.gov.br/processos/iniciar?codServico=1534</descricao>
+                    <canal-de-prestacao id="3308" tipo="web-preencher">
+                        <descricao>https://mpdg-hom-ps.lecom.com.br/processos/iniciar?codserv=1534</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
@@ -324,19 +324,19 @@ Esta autorização, juntamente com os documentos necessários para arquivamento 
         <nomeOrgao>Ministério da Indústria, Comércio Exterior e Serviços (MDIC)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3118">Cidadãos</item>
-        <item idSegmento="3" idServicoSegmento="3119">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="3121">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3122">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Comércio e Serviços</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="4026">nacionalização</item>
-        <item id="4027">filial</item>
-        <item id="4028">empresa estrangeira</item>
+        <item id="4034">nacionalização</item>
+        <item id="4035">filial</item>
+        <item id="4036">empresa estrangeira</item>
     </palavras-chave>
     <legislacoes>
-        <item id="983">- Instrução Normativa DREI nº 7, de 5 de fevereiro de 2013;
+        <item id="985">- Instrução Normativa DREI nº 7, de 5 de fevereiro de 2013;
 - Manuais para Sociedade Estrangeira (disponíveis em português, inglês e espanhol).
 - [Código Civil](http://www.planalto.gov.br/ccivil_03/LEIS/2002/L10406.htm) (artigos 1.134, 1.139 e 1.141);
 - [Lei nº 8.934](http://www.planalto.gov.br/ccivil_03/LEIS/L8934.htm), de 18 de novembro de 1994 (artigos 4º, inciso X e 32, inciso II, alínea “c”);
