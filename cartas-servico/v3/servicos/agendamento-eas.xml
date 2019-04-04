@@ -8,10 +8,10 @@
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1371">
+        <solicitante id="1375">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="3102">
+        <etapa id="3106">
             <titulo>Etapa de Agendamento</titulo>
             <descricao></descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3334" tipo="aplicativo-movel">
+                    <canal-de-prestacao id="3338" tipo="aplicativo-movel">
                         <descricao>fdsfafdasdfsdafsadfdsf</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,17 +49,17 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3133">Cidadãos</item>
-        <item idSegmento="2" idServicoSegmento="3134">Órgãos e entidades públicas</item>
-        <item idSegmento="4" idServicoSegmento="3135">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        <item idSegmento="3" idServicoSegmento="3136">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="3143">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3144">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="3145">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="3146">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>test</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="4074">agendamento</item>
-        <item id="4075">agendamento</item>
-        <item id="4076">agendamento</item>
+        <item id="4086">agendamento</item>
+        <item id="4087">agendamento</item>
+        <item id="4088">agendamento</item>
     </palavras-chave>
 </servico>
