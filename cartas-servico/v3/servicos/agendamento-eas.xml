@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>agendamento-eas</id>
+    <dbId>1545</dbId>
+    <nome>Agendamento EAS</nome>
+    <sigla></sigla>
+    <descricao>Serviço de Agendamento EAS</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="1371">
+            <tipo>Cidadão</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3102">
+            <titulo>Etapa de Agendamento</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3334" tipo="aplicativo-movel">
+                        <descricao>fdsfafdasdfsdafsadfdsf</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3133">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="3134">Órgãos e entidades públicas</item>
+        <item idSegmento="4" idServicoSegmento="3135">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        <item idSegmento="3" idServicoSegmento="3136">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>test</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="4074">agendamento</item>
+        <item id="4075">agendamento</item>
+        <item id="4076">agendamento</item>
+    </palavras-chave>
+</servico>
