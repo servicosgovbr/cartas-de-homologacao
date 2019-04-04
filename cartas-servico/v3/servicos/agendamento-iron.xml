@@ -5,16 +5,16 @@
     <nome>Agendamento - IRON</nome>
     <sigla>agn_iron</sigla>
     <nomes-populares>
-        <item id="1321">agendamento</item>
+        <item id="1323">agendamento</item>
     </nomes-populares>
     <descricao>Serviço de treinamento da lecom</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
     <porcentagem-manual>false</porcentagem-manual>
-    <servico-digital>false</servico-digital>
-    <link-servico-digital></link-servico-digital>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
     <solicitantes>
-        <solicitante id="1369">
+        <solicitante id="1373">
             <tipo>Cidadão</tipo>
             <requisitos></requisitos>
         </solicitante>
@@ -27,7 +27,7 @@
         <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="3100">
+        <etapa id="3104">
             <titulo>Agendar Solicitação</titulo>
             <descricao></descricao>
             <documentos>
@@ -38,7 +38,7 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="3332" tipo="e-mail">
+                    <canal-de-prestacao id="3336" tipo="e-mail">
                         <descricao>fasdfdasfa@fasdfasd.com</descricao>
                     </canal-de-prestacao>
                 </default>
@@ -49,15 +49,15 @@
         <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="3132">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="3140">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Clima</item>
         <item>Combustíveis</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="4065">agendamento</item>
-        <item id="4066">lecom</item>
-        <item id="4067">teste</item>
+        <item id="4080">agendamento</item>
+        <item id="4081">lecom</item>
+        <item id="4082">teste</item>
     </palavras-chave>
 </servico>
