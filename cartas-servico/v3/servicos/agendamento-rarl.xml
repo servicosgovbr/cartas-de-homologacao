@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>agendamento-rarl</id>
+    <dbId>1549</dbId>
+    <nome>agendamento rarl</nome>
+    <sigla>agendamento</sigla>
+    <nomes-populares>
+        <item id="1322">vbdfbdf</item>
+    </nomes-populares>
+    <descricao>vdfbdf</descricao>
+    <contato>vsdvsd</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>https://mpdg-trn-ps.lecom.com.br/processos/iniciar</link-servico-digital>
+    <solicitantes>
+        <solicitante id="1372">
+            <tipo>vsdvsd</tipo>
+            <requisitos>vsdvsd</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="5" unidade="horas"/>
+        <descricao>sdvvsd</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>44</quantidade>
+        <unidade>meses</unidade>
+        <descricao>uçioç</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="3103">
+            <titulo>vsdv</titulo>
+            <descricao>vsdv</descricao>
+            <documentos>
+                <default>
+                    <item id="2655">sdvvsd</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="3335" tipo="e-mail">
+                        <descricao>vdsv</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/14" dbId="37524">
+        <nomeOrgao>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="3138">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="3139">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Comercio externo</item>
+        <item>Cooperação Internacional</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="4077">vsd</item>
+        <item id="4078">v</item>
+        <item id="4079">v</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="993">vsd</item>
+    </legislacoes>
+</servico>
